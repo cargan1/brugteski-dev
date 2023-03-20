@@ -9848,3 +9848,7 @@ split-lines {
   display: -webkit-box;
   overflow: hidden;
 }
+
+.git-test {
+  color:black;
+}
