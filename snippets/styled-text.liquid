@@ -37,7 +37,7 @@ Supported variables
     if gradient != blank
       echo '--gradient: ' | append: gradient
     elsif text_color != blank and text_color != 'rgba(0,0,0,0)'
-      echo '--text-color: ' | append: text_color.red | append: ' ' | append: text_color.green | append: ' ' | append: text_color.blue | append: ';'
+      echo '--text-color: ' | append: text_color.rgb | append: ';'
     endif
   endcapture
 -%}

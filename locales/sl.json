@@ -55,6 +55,7 @@
   },
   "header": {
     "general": {
+      "account": "Računom",
       "open_menu": "Odpri meni za krmarjenje",
       "open_search": "Odpri iskanje",
       "open_account": "Odpri stran z računom",
@@ -356,6 +357,7 @@
       "terms": "Rezultati iskanja za »{{ terms }}«",
       "search_placeholder": "Iskanje...",
       "products": "Izdelkov",
+      "suggestions": "Predlogi",
       "collections": "Zbirk",
       "posts": "Objav v spletnih dnevnikih",
       "pages": "Strani",

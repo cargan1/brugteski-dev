@@ -55,6 +55,7 @@
   },
   "header": {
     "general": {
+      "account": "Tilisivu",
       "open_menu": "Avaa navigointivalikko",
       "open_search": "Avaa haku",
       "open_account": "Avaa tilisivu",
@@ -346,6 +347,7 @@
       "terms": "Tulokset ehdolla \"{{ terms }}\"",
       "search_placeholder": "Hae...",
       "products": "Tuotteet",
+      "suggestions": "Ehdotukset",
       "collections": "Kokoelmat",
       "posts": "Blogiartikkelit",
       "pages": "Sivut",

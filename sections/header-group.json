@@ -1,0 +1,140 @@
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "message": {
+          "type": "message",
+          "settings": {
+            "text": "2 til 5 hverdages Levering | Gratis Fragt & Returnering | Tlf.: 3020 9975",
+            "url": "shopify:\/\/pages\/dig-som-kunde"
+          }
+        }
+      },
+      "block_order": [
+        "message"
+      ],
+      "settings": {
+        "enable_sticky": false,
+        "text_size": "text-xs",
+        "navigation_mode": "arrows",
+        "scrolling_speed": 16,
+        "background": "#0d3f80",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "faa9a844-9a2b-47b3-93e4-2b9b920ac7ef": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Ski",
+            "layout": "horizontal_center",
+            "submenu_style": "bold_heading",
+            "image_1": "shopify:\/\/shop_images\/alleski.jpg",
+            "image_heading_1": "",
+            "image_link_1": "shopify:\/\/collections\/alle-ski",
+            "image_text_color_1": "#ffffff",
+            "image_2": "shopify:\/\/shop_images\/altskiudstyr.jpg",
+            "image_heading_2": "",
+            "image_link_2": "shopify:\/\/collections\/alt-tilbehor",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        },
+        "729086f0-e8ec-4b7c-91ad-ac54c26451cd": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Snowboard",
+            "layout": "horizontal_center",
+            "submenu_style": "bold_heading",
+            "image_1": "shopify:\/\/shop_images\/altsnowboard.jpg",
+            "image_heading_1": "",
+            "image_link_1": "shopify:\/\/collections\/alt-snowboard",
+            "image_text_color_1": "#ffffff",
+            "image_heading_2": "",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        },
+        "22c0d946-be99-45ef-9389-ef593acb297e": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Bag om",
+            "layout": "horizontal_center",
+            "submenu_style": "bold_heading",
+            "image_1": "shopify:\/\/shop_images\/skilager.jpg",
+            "image_heading_1": "",
+            "image_link_1": "shopify:\/\/pages\/dig-som-kunde",
+            "image_text_color_1": "#ffffff",
+            "image_heading_2": "",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        }
+      },
+      "block_order": [
+        "faa9a844-9a2b-47b3-93e4-2b9b920ac7ef",
+        "729086f0-e8ec-4b7c-91ad-ac54c26451cd",
+        "22c0d946-be99-45ef-9389-ef593acb297e"
+      ],
+      "settings": {
+        "enable_sticky": false,
+        "hide_on_scroll": false,
+        "logo": "shopify:\/\/shop_images\/Brugteski.dk11.png",
+        "logo_max_width": 250,
+        "logo_mobile_max_width": 170,
+        "menu": "main-menu",
+        "sidebar_menu": "",
+        "secondary_menu": "",
+        "menu_open_trigger": "hover",
+        "opening_from": "bottom",
+        "layout": "logo_left_navigation_center",
+        "show_social_media": false,
+        "show_locale_selector": false,
+        "show_country_selector": false,
+        "show_country_flag": false,
+        "show_country_name": false,
+        "transparent_header_text_color": "#ffffff",
+        "transparent_logo": "shopify:\/\/shop_images\/Brugteski.dk11.png",
+        "reduce_padding": true,
+        "background_opacity": 100,
+        "background_blur_radius": 0
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

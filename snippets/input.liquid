@@ -14,6 +14,7 @@ Supported variables
 * value: the default value (if any) for the setting
 * form: if specified, define the form ID linked to this input
 * label: the label to show
+* minlength: an optional min length for input
 * maxlength: an optional max length for input
 * required: if set to true, the "required" attribute is added to the input
 * tabindex: set a custom tabindex attribute
@@ -29,6 +30,7 @@ Supported variables
   {% if form %}form="{{ form }}"{% endif %}
   {% if value and multiline == blank %}value="{{ value }}"{% endif %}
   {% if tabindex %}tabindex="{{ tabindex }}"{% endif %}
+  {% if minlength and minlength > 0 %}minlength="{{ minlength }}"{% endif %}
   {% if maxlength and maxlength > 0 %}maxlength="{{ maxlength }}"{% endif %}
   {% if autocomplete %}autocomplete="{{ autocomplete }}"{% endif %}
   {% if autocapitalize %}autocapitalize="{{ autocapitalize }}"{% endif %}
@@ -44,7 +46,7 @@ Supported variables
   {%- endif -%}
 
   {%- if label != blank -%}
-    <label for="{{ id }}" class="floating-label">{{- label | escape -}}</label>
+    <label for="{{ id }}" class="floating-label">{{ label }}</label>
   {%- endif -%}
 
   {%- if self_submit -%}

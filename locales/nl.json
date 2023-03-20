@@ -55,6 +55,7 @@
   },
   "header": {
     "general": {
+      "account": "Accountpagina",
       "open_menu": "Navigatiemenu openen",
       "open_search": "Zoeken openen",
       "open_account": "Accountpagina openen",
@@ -346,6 +347,7 @@
       "terms": "Resultaten voor \"{{ terms }}\"",
       "search_placeholder": "Zoek naar...",
       "products": "Producten",
+      "suggestions": "Suggesties",
       "collections": "Collecties",
       "posts": "Blogberichten",
       "pages": "Pagina's",

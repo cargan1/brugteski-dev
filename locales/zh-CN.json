@@ -55,6 +55,7 @@
   },
   "header": {
     "general": {
+      "account": "打开账户页面",
       "open_menu": "打开导航菜单",
       "open_search": "打开搜索",
       "open_account": "打开账户页面",
@@ -346,6 +347,7 @@
       "terms": "“{{ terms }}”的结果",
       "search_placeholder": "搜索…",
       "products": "产品",
+      "suggestions": "建议",
       "collections": "产品系列",
       "posts": "博客文章",
       "pages": "页面",

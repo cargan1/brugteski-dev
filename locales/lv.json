@@ -55,6 +55,7 @@
   },
   "header": {
     "general": {
+      "account": "Konta",
       "open_menu": "Atvērt navigācijas izvēlni",
       "open_search": "Atvērt meklēšanu",
       "open_account": "Atvērt konta lapu",
@@ -346,6 +347,7 @@
       "terms": "Rezultāti meklējumam \"{{ terms }}\"",
       "search_placeholder": "Meklējiet...",
       "products": "Produktus",
+      "suggestions": "Ieteikumi",
       "collections": "Kolekcijas",
       "posts": "Bloga rakstus",
       "pages": "Lapas",

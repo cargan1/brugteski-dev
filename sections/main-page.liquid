@@ -1,3 +1,9 @@
+<style>
+  #shopify-section-{{ section.id }} {
+    --page-max-width: {{ section.settings.content_width }};
+  }
+</style>
+
 <div class="container">
   <div class="page-spacer">
     <div class="page">
@@ -16,6 +22,36 @@
 {
   "name": "Page",
   "class": "shopify-section--main-page",
-  "tag": "section"
+  "tag": "section",
+  "settings": [
+    {
+      "type": "select",
+      "id": "content_width",
+      "label": "Content width",
+      "options": [
+        {
+          "value": "60ch",
+          "label": "Small"
+        },
+        {
+          "value": "80ch",
+          "label": "Medium"
+        },
+        {
+          "value": "100ch",
+          "label": "Large"
+        },
+        {
+          "value": "120ch",
+          "label": "X-Large"
+        },
+        {
+          "value": "100%",
+          "label": "Full width"
+        }
+      ],
+      "default": "80ch"
+    }
+  ]
 }
 {% endschema %}

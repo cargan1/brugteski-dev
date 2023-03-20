@@ -36,83 +36,62 @@ LIQUID
 ------------------------------------------------------------------------------------------------------------------------
 {%- endcomment -%}
 
-<div {% render 'section-properties' %}>
-  <div class="section-stack">
-    {%- render 'section-header', subheading: section.settings.subheading, heading: section.settings.title, heading_color: section.settings.heading_color, heading_gradient: section.settings.heading_gradient, content: section.settings.content -%}
+<recently-viewed-products products-count="{{ section.settings.products_count }}" {% if request.page_type == 'product' %}exclude-id="{{ product.id }}"{% endif %} {% render 'section-properties' %}>
+  {%- if search.performed and search.results_count > 0 -%}
+    <div class="section-stack">
+      {%- render 'section-header', subheading: section.settings.subheading, heading: section.settings.title, heading_color: section.settings.heading_color, heading_gradient: section.settings.heading_gradient, content: section.settings.content -%}
 
-    <div class="scrollable-with-controls">
-      {%- assign scroll_area_id = 'scroll-area-' | append: section.id -%}
+      <div class="scrollable-with-controls">
+        {%- assign scroll_area_id = 'scroll-area-' | append: section.id -%}
+        {%- assign parsed_terms = search.terms | split: ' OR ' -%}
 
-      {%- if section.settings.products.count > 0 -%}
-        <scroll-carousel selector="product-card" id="{{ scroll_area_id }}" class="scroll-area bleed {% if section.settings.products.count > section.settings.products_per_row_desktop %}is-scrollable{% endif %}">
+        <scroll-carousel selector="product-card" id="{{ scroll_area_id }}" class="scroll-area bleed {% if section.settings.recommendations_count > section.settings.products_per_row_desktop %}is-scrollable{% endif %}">
           <reveal-items selector=".product-list > *">
             <product-list class="product-list">
-              {%- for product in section.settings.products -%}
-                {%- render 'product-card', product: product, stacked: section.settings.stack_products, background: section.settings.product_card_background, text_color: section.settings.product_card_text_color, show_badges: true -%}
+              {%- for parsed_term in parsed_terms -%}
+                {%- assign id = parsed_term | split: 'id:' | last | times: 1 -%}
+                {%- assign product_to_render = search.results | where: 'id', id | first -%}
+
+                {%- if product_to_render != blank -%}
+                  {%- render 'product-card', product: product_to_render, stacked: section.settings.stack_products, background: section.settings.product_card_background, text_color: section.settings.product_card_text_color, show_badges: true -%}
+                {%- endif -%}
               {%- endfor -%}
             </product-list>
           </reveal-items>
         </scroll-carousel>
 
         {%- if section.settings.stack_products == false and section.settings.show_progress_bar -%}
-          {%- assign default_progress = section.settings.products_per_row_desktop | times: 1.0 | divided_by: section.settings.products.count -%}
+          {%- assign default_progress = section.settings.products_per_row_desktop | times: 1.0 | divided_by: section.settings.recommendations_count -%}
           {%- render 'scrollbar', observes: scroll_area_id, default_progress: default_progress, show_buttons: true -%}
         {%- endif -%}
-      {%- else -%}
-        <product-recommendations product="{{ product.id }}" limit="{{ section.settings.recommendations_count }}" intent="related" class="contents">
-          {%- if recommendations.performed and recommendations.products_count > 0 -%}
-            <scroll-carousel selector="product-card" id="{{ scroll_area_id }}" class="scroll-area bleed {% if section.settings.recommendations_count > section.settings.products_per_row_desktop %}is-scrollable{% endif %}">
-              <reveal-items selector=".product-list > *">
-                <product-list class="product-list">
-                  {%- for product in recommendations.products -%}
-                    {%- render 'product-card', product: product, stacked: section.settings.stack_products, background: section.settings.product_card_background, text_color: section.settings.product_card_text_color, show_badges: true -%}
-                  {%- endfor -%}
-                </product-list>
-              </reveal-items>
-            </scroll-carousel>
-
-            {%- if section.settings.stack_products == false and section.settings.show_progress_bar -%}
-              {%- assign default_progress = section.settings.products_per_row_desktop | times: 1.0 | divided_by: section.settings.recommendations_count -%}
-              {%- render 'scrollbar', observes: scroll_area_id, default_progress: default_progress, show_buttons: true -%}
-            {%- endif -%}
-          {%- endif -%}
-        </product-recommendations>
-      {%- endif -%}
+      </div>
     </div>
-  </div>
-</div>
+  {%- endif -%}
+</recently-viewed-products>
 
 {% schema %}
 {
-  "name": "Product recommendations",
-  "templates": ["product"],
-  "class": "shopify-section--product-recommendations",
+  "name": "Recently viewed products",
+  "class": "shopify-section--recently-viewed-products",
   "tag": "section",
+  "disabled_on": {
+    "templates": ["password"],
+    "groups": ["header", "custom.overlay"]
+  },
   "settings": [
-    {
-      "type": "paragraph",
-      "content": "Dynamic recommendations change and improve with time. Create manual product recommendations using the Shopify Search & Discovery app. [Learn more](https://help.shopify.com/en/manual/online-store/search-and-discovery/product-recommendations)."
-    },
-    {
-      "type": "range",
-      "id": "recommendations_count",
-      "min": 2,
-      "max": 10,
-      "label": "Dynamic recommendations count",
-      "default": 6
-    },
-    {
-      "type": "product_list",
-      "id": "products",
-      "limit": 20,
-      "label": "Manual recommendations",
-      "info": "Replaces automatic recommendations when selected."
-    },
     {
       "type": "checkbox",
       "id": "full_width",
       "label": "Full width",
       "default": true
+    },
+    {
+      "type": "range",
+      "id": "products_count",
+      "min": 2,
+      "max": 24,
+      "label": "Products count",
+      "default": 6
     },
     {
       "type": "checkbox",
@@ -159,7 +138,7 @@ LIQUID
       "type": "text",
       "id": "title",
       "label": "Heading",
-      "default": "You may also like"
+      "default": "Recently viewed products"
     },
     {
       "type": "richtext",
@@ -209,7 +188,7 @@ LIQUID
   ],
   "presets": [
     {
-      "name": "Product recommendations"
+      "name": "Recently viewed products"
     }
   ]
 }
