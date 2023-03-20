@@ -55,6 +55,7 @@
   },
   "header": {
     "general": {
+      "account": "Cuenta",
       "open_menu": "Abrir menú de navegación",
       "open_search": "Abrir búsqueda",
       "open_account": "Abrir página de la cuenta",
@@ -297,9 +298,9 @@
       "weight": "Peso",
       "subtotal": "Subtotal",
       "total": "Total",
-      "taxes_and_shipping_policy_at_checkout_html": "Los impuestos y <a href=\"{{ link }}\" class=\"link\">gastos de envío</a> se calculan en la pantalla de pago",
+      "taxes_and_shipping_policy_at_checkout_html": "Los impuestos y <a href=\"{{ link }}\" class=\"link\">gastos de envío<\/a> se calculan en la pantalla de pago",
       "taxes_included_but_shipping_at_checkout": "Impuesto incluido y los gastos de envío se calculan en la pantalla de pago",
-      "taxes_included_and_shipping_policy_html": "Impuesto incluido. Los <a href=\"{{ link }}\" class=\"link\">gastos de envío</a> se calculan en la pantalla de pago.",
+      "taxes_included_and_shipping_policy_html": "Impuesto incluido. Los <a href=\"{{ link }}\" class=\"link\">gastos de envío<\/a> se calculan en la pantalla de pago.",
       "taxes_and_shipping_at_checkout": "Los impuestos y gastos de envío se calculan en la pantalla de pago",
       "add_order_note": "Añadir nota al pedido",
       "edit_order_note": "Editar nota del pedido",
@@ -346,6 +347,7 @@
       "terms": "Resultados de «{{ terms }}»",
       "search_placeholder": "Buscar…",
       "products": "Productos",
+      "suggestions": "Sugerencias",
       "collections": "Colecciones",
       "posts": "Entradas de blog",
       "pages": "Páginas",

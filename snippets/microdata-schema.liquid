@@ -78,6 +78,13 @@ or change the format of some info
         "mpn": {{ product.selected_or_first_available_variant.barcode | json }},
       {%- endif -%}
     {%- endif -%}
+    {%- if product.selected_or_first_available_variant.weight -%}
+      "weight": {
+        "@type": "QuantitativeValue",
+        "unitCode": {{ product.selected_or_first_available_variant.weight_unit | json }},
+        "value": {{ product.selected_or_first_available_variant.weight_in_unit | json }}
+      },
+    {%- endif -%}
     "image": {
       "@type": "ImageObject",
       "url": "https:{{ page_image | image_url: width: 1024 }}",

@@ -8,7 +8,7 @@ CSS
 
 <style>
   #shopify-section-{{ section.id }} {
-    --shop-the-look-dot-background: {{ section.settings.background_dots.red }} {{ section.settings.background_dots.green }} {{ section.settings.background_dots.blue }};
+    --shop-the-look-dot-background: {{ section.settings.background_dots.rgb }};
     --shop-the-look-carousel-grid: {% if section.settings.stack_mobile %}auto-flow / auto{% else %}auto / auto-flow 75vw{% endif %};
   }
 </style>
@@ -27,7 +27,8 @@ LIQUID
     <div class="shop-the-look">
       <div class="relative">
         {%- if section.settings.image != blank -%}
-          {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: loading: 'lazy', widths: '300,400,500,600,800,1000', class: 'rounded' -}}
+          {%- capture sizes -%}(max-width:700px) 100vw, min({{ settings.page_width | divided_by: 2 }}px, 50vw){%- endcapture -%}
+          {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: loading: 'lazy', widths: '300,400,500,600,800,1000', class: 'rounded', sizes: sizes -}}
         {%- else -%}
           {{- 'image' | placeholder_svg_tag: 'placeholder rounded' -}}
         {%- endif -%}
@@ -107,6 +108,10 @@ LIQUID
   "name": "Shop the look",
   "class": "shopify-section--shop-the-look",
   "max_blocks": 4,
+  "disabled_on": {
+    "templates": ["password"],
+    "groups": ["header", "custom.overlay"]
+  },
   "tag": "section",
   "settings": [
     {

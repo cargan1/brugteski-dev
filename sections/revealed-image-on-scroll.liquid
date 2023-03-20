@@ -8,7 +8,7 @@ LIQUID
 
   {%- assign background = section.settings.background | default: settings.background -%}
 
-  <div class="revealed-image__scroller bg-custom" style="--background: {{ background.red }} {{ background.green }} {{ background.blue }}">
+  <div class="revealed-image__scroller bg-custom" style="--background: {{ background.rgb }}">
     <div class="revealed-image__wrapper">
       <div class="revealed-image__image-clipper">
         {%- if section.settings.image != blank -%}
@@ -55,6 +55,9 @@ LIQUID
   "name": "Revealed image on scroll",
   "class": "shopify-section--revealed-image contents",
   "tag": "section",
+  "disabled_on": {
+    "groups": ["header", "custom.overlay"]
+  },
   "settings": [
     {
       "type": "image_picker",

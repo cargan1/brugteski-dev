@@ -11,14 +11,14 @@ Supported variables
 ********************************************
 
 * item: the search result item
-* type: the object type. Can be "product", "article", "collection" or "page"
+* type: the object type. Can be "product", "query", "article", "collection" or "page"
 {%- endcomment -%}
 
 {%- case type -%}
   {%- when 'product' -%}
     {%- assign product = item -%}
 
-    <a href="{{ product.url }}" class="predictive-search-result group">
+    <a href="{{ product.url }}" data-instant class="predictive-search-result group">
       {%- if product.featured_media -%}
         {{- product.featured_media | image_url: width: product.featured_media.width | image_tag: sizes: '96px', widths: '96,192' -}}
       {%- endif -%}
@@ -38,10 +38,17 @@ Supported variables
       </div>
     </a>
 
+  {%- when 'query' -%}
+    {%- assign query = item -%}
+
+    <a href="{{ query.url }}" data-instant class="bold">
+      <span class="reversed-link hover:show">{{ query.styled_text }}</span>
+    </a>
+
   {%- when 'article' -%}
     {%- assign article = item -%}
 
-    <a href="{{ article.url }}" class="predictive-search-result group">
+    <a href="{{ article.url }}" data-instant class="predictive-search-result group">
       {%- if article.image -%}
         {{- article.image | image_url: width: article.image.width | image_tag: sizes: '96px', widths: '96,192' -}}
       {%- endif -%}
@@ -60,7 +67,7 @@ Supported variables
   {%- when 'collection' -%}
     {%- assign collection = item -%}
 
-    <a href="{{ collection.url }}" class="predictive-search-result group">
+    <a href="{{ collection.url }}" data-instant class="predictive-search-result group">
       {%- if collection.featured_image -%}
         {{- collection.featured_image | image_url: width: collection.featured_image.width | image_tag: sizes: '96px', widths: '96,192' -}}
       {%- endif -%}
@@ -77,7 +84,7 @@ Supported variables
   {%- when 'page' -%}
     {%- assign page = item -%}
 
-    <a href="{{ page.url }}" class="bold">
+    <a href="{{ page.url }}" data-instant class="bold">
       <span class="reversed-link hover:show">{{ page.title }}</span>
     </a>
 {%- endcase -%}

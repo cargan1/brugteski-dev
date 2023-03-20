@@ -55,6 +55,7 @@
   },
   "header": {
     "general": {
+      "account": "الحساب",
       "open_menu": "فتح قائمة التنقل",
       "open_search": "فتح البحث",
       "open_account": "فتح صفحة الحساب",
@@ -346,6 +347,7 @@
       "terms": "نتائج البحث عن \"{{ terms }}\"",
       "search_placeholder": "البحث عن...",
       "products": "المنتجات",
+      "suggestions": "اقتراحات",
       "collections": "التشكيلات",
       "posts": "منشورات المدونة",
       "pages": "الصفحات",

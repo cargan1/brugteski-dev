@@ -55,6 +55,7 @@
   },
   "header": {
     "general": {
+      "account": "účtu",
       "open_menu": "Otevřít navigační menu",
       "open_search": "Otevřít vyhledávání",
       "open_account": "Otevřít stránku účtu",
@@ -356,6 +357,7 @@
       "terms": "Výsledky vyhledávání „{{ terms }}“",
       "search_placeholder": "Hledat...",
       "products": "Produkty",
+      "suggestions": "Návrhy",
       "collections": "Kolekce",
       "posts": "Příspěvky na blogu",
       "pages": "Stránky",

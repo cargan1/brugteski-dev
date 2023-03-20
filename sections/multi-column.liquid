@@ -16,10 +16,10 @@
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when 'item' -%}
-              <div class="multi-column__item snap-start" style="--multi-column-item-column-count: span {{ 12.0 | divided_by: block.settings.column_size | round }}" {{ block.shopify_attributes }}>
-                {%- if block.settings.video_url != blank -%}
-                  <video-media autoplay style="--aspect-ratio: auto">
-                    <video src="{{ block.settings.video_url }}" class="rounded" playsinline muted loop preload="metadata"></video>
+              <div class="multi-column__item justify-{{ section.settings.text_alignment }} snap-start" style="--multi-column-item-column-count: span {{ 12.0 | divided_by: block.settings.column_size | round }}" {{ block.shopify_attributes }}>
+                {%- if block.settings.video != blank -%}
+                  <video-media autoplay style="--aspect-ratio: {{ block.settings.video.aspect_ratio }}">
+                    {{ block.settings.video | video_tag: playsinline: true, muted: true, loop: true, preload: 'metadata', class: 'rounded' }}
                   </video-media>
                 {%- elsif block.settings.image != blank -%}
                   {%- capture sizes -%}(max-width: 699px) calc(73vw - 40px), (max-width: 999px) calc(38vw - 64px), calc(min({{ settings.page_width }}px, 100vw) / {{ block.settings.column_size }}){%- endcapture -%}
@@ -65,6 +65,10 @@
   "name": "Multi-column",
   "class": "shopify-section--multi-column",
   "tag": "section",
+  "disabled_on": {
+    "templates": ["password"],
+    "groups": ["header", "custom.overlay"]
+  },
   "settings": [
     {
       "type": "checkbox",
@@ -173,10 +177,10 @@
           "info": "1400 x 1400px .jpg recommended"
         },
         {
-          "type": "url",
-          "id": "video_url",
-          "label": "MP4 video URL",
-          "info": "Video are muted automatically and will autoplay. [Learn more](https://support.maestrooo.com/article/294-how-to-use-mp4-for-video-sections)"
+          "type": "video",
+          "id": "video",
+          "label": "Video",
+          "info": "Video are muted automatically and will autoplay."
         },
         {
           "type": "select",
