@@ -1,1 +1,989 @@
-{"current":{"page_width":1300,"section_vertical_spacing":"medium","section_boxed_horizontal_spacing":"medium","button_border_radius":60,"input_border_radius":8,"block_border_radius":24,"block_shadow_opacity":10,"block_shadow_vertical_offset":18,"icon_style":"mono","button_style":"fill","background":"#fafafa","text_color":"#1a1a1a","warning_color":"#f0c417","header_background":"#003eff","header_text_color":"#ffffff","footer_background":"#ffffff","footer_text_color":"#000000","primary_button_background":"#f83a3a","primary_button_text_color":"#ffffff","secondary_button_background":"#0d3f80","secondary_button_text_color":"#ffffff","product_card_background":"#fff","product_card_text_color":"#1a1a1a","product_rating_color":"#f0c417","product_primary_badge_background":"#803cee","heading_font":"din_next_n7","heading_font_size":"large","heading_text_transform":"normal","heading_letter_spacing":0,"text_font":"din_next_n4","currency_code_enabled":true,"show_page_transition":true,"heading_apparition":"split_fade","show_vendor":false,"show_secondary_image":true,"show_quick_buy":false,"discount_mode":"saving","product_color_display":"hide","product_info_alignment":"start","cart_type":"popover","cart_show_free_shipping_threshold":false,"cart_free_shipping_threshold":0,"social_facebook":"https:\/\/www.facebook.com\/brugteski.dk","social_instagram":"https:\/\/www.instagram.com\/brugteski.dk\/","social_youtube":"https:\/\/www.youtube.com\/channel\/UCcFKxvHt9BGjoHO6NizhidQ","social_linkedin":"https:\/\/www.linkedin.com\/company\/brugteski-dk-aps\/","favicon":"shopify:\/\/shop_images\/Brugteski.dk.logo11.png","checkout_logo_position":"left","checkout_logo_size":"large","checkout_sidebar_background_color":"#fafafa","checkout_accent_color":"#003eff","checkout_button_color":"#f83a3a","checkout_error_color":"#f0c417","sections":{"announcement-bar":{"type":"announcement-bar","blocks":{"message":{"type":"message","settings":{"text":"2 til 5 hverdages Levering | Gratis Fragt & Returnering | Tlf.: 3020 9975","url":"shopify:\/\/pages\/dig-som-kunde"}}},"block_order":["message"],"settings":{"enable_sticky":false,"text_size":"text-xs","navigation_mode":"arrows","scrolling_speed":16,"background":"#0d3f80","background_gradient":"","text_color":"#ffffff"}},"header":{"type":"header","blocks":{"faa9a844-9a2b-47b3-93e4-2b9b920ac7ef":{"type":"mega_menu","settings":{"menu_item":"Ski","layout":"horizontal_center","submenu_style":"bold_heading","image_1":"shopify:\/\/shop_images\/alleski.jpg","image_heading_1":"","image_link_1":"shopify:\/\/collections\/alle-ski","image_text_color_1":"#ffffff","image_2":"shopify:\/\/shop_images\/altskiudstyr.jpg","image_heading_2":"","image_link_2":"shopify:\/\/collections\/alt-tilbehor","image_text_color_2":"#ffffff","image_heading_3":"","image_link_3":"","image_text_color_3":"#ffffff","product":"","product_card_background":"","product_card_text_color":"","promo_content_layout":"grid","stretch_promo":false,"drawer_link_image":"hide"}},"729086f0-e8ec-4b7c-91ad-ac54c26451cd":{"type":"mega_menu","settings":{"menu_item":"Snowboard","layout":"horizontal_center","submenu_style":"bold_heading","image_1":"shopify:\/\/shop_images\/altsnowboard.jpg","image_heading_1":"","image_link_1":"shopify:\/\/collections\/alt-snowboard","image_text_color_1":"#ffffff","image_heading_2":"","image_link_2":"","image_text_color_2":"#ffffff","image_heading_3":"","image_link_3":"","image_text_color_3":"#ffffff","product":"","product_card_background":"","product_card_text_color":"","promo_content_layout":"grid","stretch_promo":false,"drawer_link_image":"hide"}},"22c0d946-be99-45ef-9389-ef593acb297e":{"type":"mega_menu","settings":{"menu_item":"Bag om","layout":"horizontal_center","submenu_style":"bold_heading","image_1":"shopify:\/\/shop_images\/skilager.jpg","image_heading_1":"","image_link_1":"shopify:\/\/pages\/dig-som-kunde","image_text_color_1":"#ffffff","image_heading_2":"","image_link_2":"","image_text_color_2":"#ffffff","image_heading_3":"","image_link_3":"","image_text_color_3":"#ffffff","product":"","product_card_background":"","product_card_text_color":"","promo_content_layout":"grid","stretch_promo":false,"drawer_link_image":"hide"}}},"block_order":["faa9a844-9a2b-47b3-93e4-2b9b920ac7ef","729086f0-e8ec-4b7c-91ad-ac54c26451cd","22c0d946-be99-45ef-9389-ef593acb297e"],"settings":{"enable_sticky":false,"hide_on_scroll":false,"logo":"shopify:\/\/shop_images\/Brugteski.dk11.png","logo_max_width":250,"logo_mobile_max_width":170,"menu":"main-menu","sidebar_menu":"","secondary_menu":"","menu_open_trigger":"hover","opening_from":"bottom","layout":"logo_left_navigation_center","show_social_media":false,"show_locale_selector":false,"show_country_selector":false,"show_country_flag":false,"show_country_name":false,"transparent_header_text_color":"#ffffff","transparent_logo":"shopify:\/\/shop_images\/Brugteski.dk11.png","reduce_padding":true,"background_opacity":100,"background_blur_radius":0}},"cart-drawer":{"type":"cart-drawer","settings":{"show_cart_note":true,"show_shipping_text":true,"show_checkout_button":true,"recommendations_title":"Husk at tilkøbe...","products":["tecnica-storm","aplina-stovletaske","skitaske-sort"],"product_card_background":"#ffffff","product_card_text_color":""}},"search-drawer":{"type":"search-drawer","settings":{"full_width":false,"show_article_category":true,"search_products":true,"search_blog_posts":true,"search_pages":true,"search_collections":true,"search_unavailable_products":"last","search_menu":"footer","search_menu_show_title":true}},"static-text-with-icons":{"type":"static-text-with-icons","blocks":{"free-shipping":{"type":"item","settings":{"icon":"picto-box","mobile_icon_width":24,"icon_width":24,"icon_background_type":"none","icon_background":"","icon_color":"","title":"Levering","content":"<p>2-5 hverdages levering, med gratis fragt & returnering, på alle ordre.<\/p>"}},"discount":{"type":"item","settings":{"icon":"picto-star","mobile_icon_width":24,"icon_width":24,"icon_background_type":"none","icon_background":"","icon_color":"","title":"4,5 stjerne på Trustpilot","content":"<p>Vi går efter at give ALLE vores kunder en god oplevelse.<\/p>"}},"f32705e5-e809-47f3-be90-1e8b7791f23b":{"type":"item","settings":{"icon":"picto-validation","mobile_icon_width":24,"icon_width":24,"icon_background_type":"none","icon_background":"","icon_color":"","title":"Pasningsgaranti","content":"<p>Hvis du køber noget hos os, som ikke er som forventet, tilbyder vi 1 års pasningsgaranti.<\/p>"}},"customer-support":{"type":"item","settings":{"icon":"picto-return","mobile_icon_width":24,"icon_width":24,"icon_background_type":"none","icon_background":"","icon_color":"","title":"24 månederes fuld reklamationsret","content":"<p>Skulle der været noget galt med dit udstyr, kan du altid anvende din reklamationsret.<\/p>"}},"payment":{"type":"item","settings":{"icon":"picto-lock","mobile_icon_width":24,"icon_width":24,"icon_background_type":"none","icon_background":"","icon_color":"","title":"E-mærket webshop","content":"<p>Sikker & tryg e-handel igennem verificeret E-mærket webshop.<\/p>"}}},"block_order":["free-shipping","discount","f32705e5-e809-47f3-be90-1e8b7791f23b","customer-support","payment"],"settings":{"show_section":true,"full_width":true,"heading_tag":"h6","text_alignment":"center","icon_spacing":"small","background":"#f1f1f1","background_gradient":"","text_color":""}},"footer":{"type":"footer","blocks":{"links":{"type":"links","settings":{"menu":"footer","show_menu_title":true}},"text":{"type":"text","settings":{"title":"Showroom","content":"<p><a href=\"\/pages\/showroom-og-vores-abningstider\" title=\"Showroom og vores åbningstider\">Besøg vores showroom<\/a>, hvor du kan  se og prøve alt vores udstyr.<\/p><p><strong>Showroom åbningstider:<br\/><\/strong>Mandag-Fredag: Lukket<br\/>Lørdag: Lukket<br\/>Søndag: Lukket<\/p><p><strong>Ops.: <\/strong>Vi åbner for vores showroom igen til <strong>oktober 2023.<br\/><\/strong><\/p>"}},"afcbebc9-1170-40d4-886a-037780e234e4":{"type":"text","settings":{"title":"Kontakt","content":"<p><strong>Telefon<br\/><\/strong>Tlf.: +45 3020 9975<br\/>Alle dage fra kl. 10-18<\/p><p><strong>Mail<br\/><\/strong>Mail: info@brugteski.dk<strong><br\/><\/strong>Svarer indenfor 24 timer<\/p><p><strong>Adresse<br\/><\/strong>Brugteski.dk ApS<strong><br\/><\/strong>Krogsagervej 50, 2<br\/>7000 Fredericia<br\/>CVR: 40804455<\/p>"}},"42290695-b02a-4385-b06b-249c0aa04de4":{"type":"text","settings":{"title":"Om os","content":"<p>Brugteski.dk er danmarks største forhandler af brugt skiudstyr. Vores mål er, at gøre det nemt og billigt for alle niveauer af skiløbere, at skaffe godt udstyr!<br\/><a href=\"\/pages\/hvem-er-vi\" title=\"Bag om Brugteski.dk\">Læs mere om teamet her.<\/a><\/p><p><strong><br\/><\/strong><\/p><p><\/p>"}}},"block_order":["links","text","afcbebc9-1170-40d4-886a-037780e234e4","42290695-b02a-4385-b06b-249c0aa04de4"],"settings":{"show_social_media":true,"show_payment_icons":true,"show_country_selector":false,"show_country_flag":false,"show_country_name":false,"show_locale_selector":false,"show_privacy_bar":false,"privacy_bar_title":"Cookie policy","privacy_bar_content":"<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.<\/p>"}}},"content_for_index":[],"blocks":{"6406956604159796213":{"type":"shopify:\/\/apps\/smartseo\/blocks\/smartseo\/7b0a6064-ca2e-4392-9a1d-8c43c942357b","disabled":false,"settings":{}},"855628211100114053":{"type":"shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507","disabled":false,"settings":{}}}},"presets":{"Sound":{"section_vertical_spacing":"medium","button_border_radius":60,"input_border_radius":8,"block_border_radius":24,"block_shadow_opacity":10,"block_shadow_vertical_offset":18,"background":"#f0f0f0","text_color":"#1a1a1a","header_background":"#f0f0f0","header_text_color":"#1a1a1a","footer_background":"#ffffff","footer_text_color":"#1a1a1a","primary_button_background":"#1a1a1a","primary_button_text_color":"#ffffff","secondary_button_background":"#f0c417","secondary_button_text_color":"#1a1a1a","product_card_text_color":"#1a1a1a","product_primary_badge_background":"#803cee","heading_font":"din_next_n7","heading_font_size":"large","heading_letter_spacing":-2,"text_font":"din_next_n4","show_page_transition":true,"heading_apparition":"split_fade","product_color_display":"swatch","product_info_alignment":"start","checkout_accent_color":"#f0c417","checkout_button_color":"#1a1a1a","sections":{"announcement-bar":{"type":"announcement-bar","blocks":{"message":{"type":"message","settings":{"text":"Announce something here"}}},"block_order":["message"],"settings":{"enable_sticky":false,"text_size":"text-xs","navigation_mode":"scrolling","scrolling_speed":10,"background":"#1a1a1a","text_color":"#ffffff"}},"header":{"type":"header","settings":{"enable_sticky":true,"hide_on_scroll":false,"logo":"{{shop.brand.logo}}","logo_max_width":120,"logo_mobile_max_width":100,"menu":"main-menu","menu_open_trigger":"click","opening_from":"bottom","layout":"logo_left_navigation_center","show_social_media":true,"show_country_flag":true,"show_country_name":false,"transparent_header_text_color":"#ffffff","reduce_padding":false,"background_opacity":100,"background_blur_radius":0}},"cart-drawer":{"type":"cart-drawer","settings":{"show_cart_note":true,"show_shipping_text":true,"show_checkout_button":true,"product_card_background":"#ffffff"}},"search-drawer":{"type":"search-drawer","settings":{"full_width":true,"show_article_category":true,"search_products":true,"search_blog_posts":true,"search_pages":true,"search_collections":true,"search_unavailable_products":"last"}},"static-text-with-icons":{"type":"static-text-with-icons","blocks":{"free-shipping":{"type":"item","settings":{"icon":"picto-box","mobile_icon_width":24,"icon_width":24,"icon_background_type":"none","title":"Free shipping","content":"<p>Tell your customers about your shipping offer.<\/p>"}},"customer-support":{"type":"item","settings":{"icon":"picto-customer-support","mobile_icon_width":24,"icon_width":24,"icon_background_type":"none","title":"Customer service","content":"<p>Tell your customers how they can reach you.<\/p>"}},"discount":{"type":"item","settings":{"icon":"picto-coupon","mobile_icon_width":24,"icon_width":24,"icon_background_type":"none","title":"Refer a friend","content":"<p>Tell your customers about your promotional offers.<\/p>"}},"payment":{"type":"item","settings":{"icon":"picto-lock","mobile_icon_width":24,"icon_width":24,"icon_background_type":"none","title":"Secure payment","content":"<p>Tel your customers about your payment methods.<\/p>"}}},"block_order":["free-shipping","customer-support","discount","payment"],"settings":{"show_section":true,"full_width":true,"heading_tag":"h6","text_alignment":"center","icon_spacing":"small"}},"footer":{"type":"footer","blocks":{"newsletter":{"type":"newsletter","settings":{"image":"{{shop.brand.logo}}","image_width":150,"heading_size":"h3","title":"Sign up for new stories and personal offers"}},"links":{"type":"links","settings":{"menu":"footer","show_menu_title":true}},"text":{"type":"text","settings":{"title":"About","content":"<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>"}}},"block_order":["newsletter","links","text"],"settings":{"show_social_media":true,"show_payment_icons":true,"show_country_selector":true,"show_country_flag":true,"show_country_name":true,"show_locale_selector":true,"show_privacy_bar":true,"privacy_bar_title":"Cookie policy","privacy_bar_content":"<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.<\/p>"}}}},"Home":{"section_vertical_spacing":"medium","section_boxed_horizontal_spacing":"large","button_hover_effect":"reverse","background":"#ffffff","text_color":"#272727","success_color":"#708a5c","warning_color":"#e37e16","error_color":"#aa2826","header_background":"#ffffff","header_text_color":"#272727","footer_background":"#f2f2f2","footer_text_color":"#272727","primary_button_background":"#272727","primary_button_text_color":"#ffffff","secondary_button_background":"#3c619e","secondary_button_text_color":"#ffffff","product_card_text_color":"#272727","product_on_sale_accent":"#e34f4f","product_sold_out_badge_background":"#bebdb9","product_primary_badge_background":"#3c619e","heading_font":"futura_n7","heading_font_size":"large","heading_text_transform":"normal","heading_letter_spacing":-1,"text_font":"futura_n4","heading_apparition":"split_rotation","color_swatch_style":"rectangle","product_color_display":"swatch","cart_type":"drawer","checkout_body_background_color":"#f2f2f2","checkout_sidebar_background_color":"#ffffff","checkout_accent_color":"#3c619e","checkout_button_color":"#3c619e","sections":{"announcement-bar":{"type":"announcement-bar","blocks":{"message":{"type":"message","settings":{"text":"Announce something here"}}},"block_order":["message"],"settings":{"enable_sticky":false,"text_size":"text-xs","navigation_mode":"arrows","scrolling_speed":20,"background":"#272727","text_color":"#ffffff"}},"header":{"type":"header","settings":{"enable_sticky":true,"hide_on_scroll":false,"logo":"{{shop.brand.logo}}","logo_max_width":120,"logo_mobile_max_width":100,"menu":"main-menu","menu_open_trigger":"hover","opening_from":"bottom","layout":"logo_center_navigation_inline","show_social_media":true,"show_country_flag":true,"show_country_name":false,"transparent_header_text_color":"#ffffff","reduce_padding":false,"background_opacity":100,"background_blur_radius":0}},"footer":{"type":"footer","blocks":{"newsletter":{"type":"newsletter","settings":{"image":"{{shop.brand.logo}}","image_width":150,"heading_size":"h3","title":"Sign up for new stories and personal offers"}},"links":{"type":"links","settings":{"menu":"footer","show_menu_title":true}},"text":{"type":"text","settings":{"title":"About","content":"<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>"}}},"block_order":["newsletter","links","text"],"settings":{"show_social_media":true,"show_payment_icons":true,"show_locale_selector":true,"show_country_selector":true,"show_country_flag":true,"show_country_name":true,"show_privacy_bar":true,"privacy_bar_title":"Cookie policy","privacy_bar_content":"<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.<\/p>"}},"static-text-with-icons":{"type":"static-text-with-icons","blocks":{"free-shipping":{"type":"item","settings":{"icon":"picto-box","mobile_icon_width":24,"icon_width":24,"icon_background_type":"none","title":"Free shipping","content":"<p>Tell your customers about your shipping offer.<\/p>"}},"customer-support":{"type":"item","settings":{"icon":"picto-customer-support","mobile_icon_width":24,"icon_width":24,"icon_background_type":"none","title":"Customer service","content":"<p>Tell your customers how they can reach you.<\/p>"}},"discount":{"type":"item","settings":{"icon":"picto-coupon","mobile_icon_width":24,"icon_width":24,"icon_background_type":"none","title":"Refer a friend","content":"<p>Tell your customers about your promotional offers.<\/p>"}},"payment":{"type":"item","settings":{"icon":"picto-lock","mobile_icon_width":24,"icon_width":24,"icon_background_type":"none","title":"Secure payment","content":"<p>Tel your customers about your payment methods.<\/p>"}}},"block_order":["free-shipping","customer-support","discount","payment"],"settings":{"show_section":true,"full_width":true,"heading_tag":"h6","text_alignment":"center","icon_spacing":"small"}},"cart-drawer":{"type":"cart-drawer","settings":{"show_cart_note":true,"show_shipping_text":true,"show_checkout_button":true,"product_card_background":"#f2f2f2"}},"search-drawer":{"type":"search-drawer","settings":{"full_width":false,"show_article_category":true,"search_products":true,"search_blog_posts":true,"search_pages":false,"search_collections":true,"search_unavailable_products":"last"}}}},"Shape":{"page_width":1440,"section_vertical_spacing":"small","section_boxed_horizontal_spacing":"medium","button_border_radius":60,"input_border_radius":8,"block_border_radius":20,"icon_stroke_width":1.5,"button_style":"fill","button_hover_effect":"reverse","text_color":"#2a555a","header_background":"#ffffff","header_text_color":"#2a555a","footer_background":"#f7f7f7","footer_text_color":"#2a555a","primary_button_background":"#2a555a","primary_button_text_color":"#ffffff","secondary_button_background":"#d9967e","product_card_text_color":"#2a555a","heading_font":"itc_berkeley_old_style_n4","heading_font_size":"large","heading_text_transform":"normal","heading_letter_spacing":-1,"text_font":"muli_n4","text_font_size_desktop":15,"product_color_display":"swatch","product_info_alignment":"center","sections":{"announcement-bar":{"type":"announcement-bar","blocks":{"message":{"type":"message","settings":{"text":"Announce something here"}}},"block_order":["message"],"settings":{"enable_sticky":false,"text_size":"text-xs","navigation_mode":"scrolling","scrolling_speed":12,"background":"#2a555a","text_color":"#ffffff"}},"header":{"type":"header","settings":{"enable_sticky":true,"hide_on_scroll":false,"logo":"{{shop.brand.logo}}","logo_max_width":120,"logo_mobile_max_width":100,"menu":"main-menu","menu_open_trigger":"click","opening_from":"bottom","layout":"logo_center_navigation_inline","show_social_media":true,"show_country_flag":true,"show_country_name":false,"transparent_header_text_color":"#ffffff","reduce_padding":false,"background_opacity":20,"background_blur_radius":20}},"cart-drawer":{"type":"cart-drawer","settings":{"show_cart_note":true,"show_shipping_text":true,"show_checkout_button":true}},"search-drawer":{"type":"search-drawer","settings":{"full_width":false,"show_article_category":true,"search_products":true,"search_blog_posts":true,"search_pages":true,"search_collections":true,"search_unavailable_products":"last"}},"static-text-with-icons":{"type":"static-text-with-icons","blocks":{"free-shipping":{"type":"item","settings":{"icon":"picto-box","mobile_icon_width":24,"icon_width":24,"icon_background_type":"none","title":"Free shipping","content":"<p>Tell your customers about your shipping offer.<\/p>"}},"customer-support":{"type":"item","settings":{"icon":"picto-customer-support","mobile_icon_width":24,"icon_width":24,"icon_background_type":"none","title":"Customer service","content":"<p>Tell your customers how they can reach you.<\/p>"}},"discount":{"type":"item","settings":{"icon":"picto-coupon","mobile_icon_width":24,"icon_width":24,"icon_background_type":"none","title":"Refer a friend","content":"<p>Tell your customers about your promotional offers.<\/p>"}},"payment":{"type":"item","settings":{"icon":"picto-lock","mobile_icon_width":24,"icon_width":24,"icon_background_type":"none","title":"Secure payment","content":"<p>Tel your customers about your payment methods.<\/p>"}}},"block_order":["free-shipping","customer-support","discount","payment"],"settings":{"show_section":true,"full_width":true,"heading_tag":"h4","text_alignment":"center","icon_spacing":"small"}},"footer":{"type":"footer","blocks":{"newsletter":{"type":"newsletter","settings":{"image":"{{shop.brand.logo}}","image_width":150,"heading_size":"h3","title":"Sign up for new stories and personal offers"}},"links":{"type":"links","settings":{"menu":"footer","show_menu_title":true}},"text":{"type":"text","settings":{"title":"About","content":"<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>"}}},"block_order":["newsletter","links","text"],"settings":{"show_social_media":true,"show_payment_icons":true,"show_country_selector":true,"show_country_flag":true,"show_country_name":true,"show_locale_selector":true,"show_privacy_bar":true,"privacy_bar_title":"Cookie policy","privacy_bar_content":"<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.<\/p>"}}}}}}
+{
+  "current": {
+    "page_width": 1300,
+    "section_vertical_spacing": "medium",
+    "section_boxed_horizontal_spacing": "medium",
+    "button_border_radius": 60,
+    "input_border_radius": 8,
+    "block_border_radius": 24,
+    "block_shadow_opacity": 10,
+    "block_shadow_vertical_offset": 18,
+    "icon_style": "mono",
+    "button_style": "fill",
+    "background": "#fafafa",
+    "text_color": "#1a1a1a",
+    "warning_color": "#f0c417",
+    "header_background": "#003eff",
+    "header_text_color": "#ffffff",
+    "footer_background": "#ffffff",
+    "footer_text_color": "#000000",
+    "primary_button_background": "#f83a3a",
+    "primary_button_text_color": "#ffffff",
+    "secondary_button_background": "#0d3f80",
+    "secondary_button_text_color": "#ffffff",
+    "product_card_background": "#fff",
+    "product_card_text_color": "#1a1a1a",
+    "product_rating_color": "#f0c417",
+    "product_primary_badge_background": "#803cee",
+    "heading_font": "din_next_n7",
+    "heading_font_size": "large",
+    "heading_text_transform": "normal",
+    "heading_letter_spacing": 0,
+    "text_font": "din_next_n4",
+    "currency_code_enabled": true,
+    "show_page_transition": true,
+    "heading_apparition": "split_fade",
+    "show_vendor": false,
+    "show_secondary_image": true,
+    "show_quick_buy": false,
+    "discount_mode": "saving",
+    "product_color_display": "hide",
+    "product_info_alignment": "start",
+    "cart_type": "popover",
+    "cart_show_free_shipping_threshold": false,
+    "cart_free_shipping_threshold": 0,
+    "social_facebook": "https:\/\/www.facebook.com\/brugteski.dk",
+    "social_instagram": "https:\/\/www.instagram.com\/brugteski.dk\/",
+    "social_youtube": "https:\/\/www.youtube.com\/channel\/UCcFKxvHt9BGjoHO6NizhidQ",
+    "social_linkedin": "https:\/\/www.linkedin.com\/company\/brugteski-dk-aps\/",
+    "favicon": "shopify:\/\/shop_images\/Brugteski.dk.logo11.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "large",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_accent_color": "#003eff",
+    "checkout_button_color": "#f83a3a",
+    "checkout_error_color": "#f0c417",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "message": {
+            "type": "message",
+            "settings": {
+              "text": "2 til 5 hverdages Levering | Gratis Fragt & Returnering | Tlf.: 3020 9975",
+              "url": "shopify:\/\/pages\/dig-som-kunde"
+            }
+          }
+        },
+        "block_order": [
+          "message"
+        ],
+        "settings": {
+          "enable_sticky": false,
+          "text_size": "text-xs",
+          "navigation_mode": "arrows",
+          "scrolling_speed": 16,
+          "background": "#0d3f80",
+          "background_gradient": "",
+          "text_color": "#ffffff"
+        }
+      },
+      "header": {
+        "type": "header",
+        "blocks": {
+          "faa9a844-9a2b-47b3-93e4-2b9b920ac7ef": {
+            "type": "mega_menu",
+            "settings": {
+              "menu_item": "Ski",
+              "layout": "horizontal_center",
+              "submenu_style": "bold_heading",
+              "image_1": "shopify:\/\/shop_images\/alleski.jpg",
+              "image_heading_1": "",
+              "image_link_1": "shopify:\/\/collections\/alle-ski",
+              "image_text_color_1": "#ffffff",
+              "image_2": "shopify:\/\/shop_images\/altskiudstyr.jpg",
+              "image_heading_2": "",
+              "image_link_2": "shopify:\/\/collections\/alt-tilbehor",
+              "image_text_color_2": "#ffffff",
+              "image_heading_3": "",
+              "image_link_3": "",
+              "image_text_color_3": "#ffffff",
+              "product": "",
+              "product_card_background": "",
+              "product_card_text_color": "",
+              "promo_content_layout": "grid",
+              "stretch_promo": false,
+              "drawer_link_image": "hide"
+            }
+          },
+          "729086f0-e8ec-4b7c-91ad-ac54c26451cd": {
+            "type": "mega_menu",
+            "settings": {
+              "menu_item": "Snowboard",
+              "layout": "horizontal_center",
+              "submenu_style": "bold_heading",
+              "image_1": "shopify:\/\/shop_images\/altsnowboard.jpg",
+              "image_heading_1": "",
+              "image_link_1": "shopify:\/\/collections\/alt-snowboard",
+              "image_text_color_1": "#ffffff",
+              "image_heading_2": "",
+              "image_link_2": "",
+              "image_text_color_2": "#ffffff",
+              "image_heading_3": "",
+              "image_link_3": "",
+              "image_text_color_3": "#ffffff",
+              "product": "",
+              "product_card_background": "",
+              "product_card_text_color": "",
+              "promo_content_layout": "grid",
+              "stretch_promo": false,
+              "drawer_link_image": "hide"
+            }
+          },
+          "22c0d946-be99-45ef-9389-ef593acb297e": {
+            "type": "mega_menu",
+            "settings": {
+              "menu_item": "Bag om",
+              "layout": "horizontal_center",
+              "submenu_style": "bold_heading",
+              "image_1": "shopify:\/\/shop_images\/skilager.jpg",
+              "image_heading_1": "",
+              "image_link_1": "shopify:\/\/pages\/dig-som-kunde",
+              "image_text_color_1": "#ffffff",
+              "image_heading_2": "",
+              "image_link_2": "",
+              "image_text_color_2": "#ffffff",
+              "image_heading_3": "",
+              "image_link_3": "",
+              "image_text_color_3": "#ffffff",
+              "product": "",
+              "product_card_background": "",
+              "product_card_text_color": "",
+              "promo_content_layout": "grid",
+              "stretch_promo": false,
+              "drawer_link_image": "hide"
+            }
+          }
+        },
+        "block_order": [
+          "faa9a844-9a2b-47b3-93e4-2b9b920ac7ef",
+          "729086f0-e8ec-4b7c-91ad-ac54c26451cd",
+          "22c0d946-be99-45ef-9389-ef593acb297e"
+        ],
+        "settings": {
+          "enable_sticky": false,
+          "hide_on_scroll": false,
+          "logo": "shopify:\/\/shop_images\/Brugteski.dk11.png",
+          "logo_max_width": 250,
+          "logo_mobile_max_width": 170,
+          "menu": "main-menu",
+          "sidebar_menu": "",
+          "secondary_menu": "",
+          "menu_open_trigger": "hover",
+          "opening_from": "bottom",
+          "layout": "logo_left_navigation_center",
+          "show_social_media": false,
+          "show_locale_selector": false,
+          "show_country_selector": false,
+          "show_country_flag": false,
+          "show_country_name": false,
+          "transparent_header_text_color": "#ffffff",
+          "transparent_logo": "shopify:\/\/shop_images\/Brugteski.dk11.png",
+          "reduce_padding": true,
+          "background_opacity": 100,
+          "background_blur_radius": 0
+        }
+      },
+      "cart-drawer": {
+        "type": "cart-drawer",
+        "settings": {
+          "show_cart_note": true,
+          "show_shipping_text": true,
+          "show_checkout_button": true,
+          "recommendations_title": "Husk at tilkøbe...",
+          "products": [
+            "tecnica-storm",
+            "aplina-stovletaske",
+            "skitaske-sort"
+          ],
+          "product_card_background": "#ffffff",
+          "product_card_text_color": ""
+        }
+      },
+      "search-drawer": {
+        "type": "search-drawer",
+        "settings": {
+          "full_width": false,
+          "show_article_category": true,
+          "search_products": true,
+          "search_blog_posts": true,
+          "search_pages": true,
+          "search_collections": true,
+          "search_unavailable_products": "last",
+          "search_menu": "footer",
+          "search_menu_show_title": true
+        }
+      },
+      "static-text-with-icons": {
+        "type": "static-text-with-icons",
+        "blocks": {
+          "free-shipping": {
+            "type": "item",
+            "settings": {
+              "icon": "picto-box",
+              "mobile_icon_width": 24,
+              "icon_width": 24,
+              "icon_background_type": "none",
+              "icon_background": "",
+              "icon_color": "",
+              "title": "Levering",
+              "content": "<p>2-5 hverdages levering, med gratis fragt & returnering, på alle ordre.<\/p>"
+            }
+          },
+          "discount": {
+            "type": "item",
+            "settings": {
+              "icon": "picto-star",
+              "mobile_icon_width": 24,
+              "icon_width": 24,
+              "icon_background_type": "none",
+              "icon_background": "",
+              "icon_color": "",
+              "title": "4,5 stjerne på Trustpilot",
+              "content": "<p>Vi går efter at give ALLE vores kunder en god oplevelse.<\/p>"
+            }
+          },
+          "f32705e5-e809-47f3-be90-1e8b7791f23b": {
+            "type": "item",
+            "settings": {
+              "icon": "picto-validation",
+              "mobile_icon_width": 24,
+              "icon_width": 24,
+              "icon_background_type": "none",
+              "icon_background": "",
+              "icon_color": "",
+              "title": "Pasningsgaranti",
+              "content": "<p>Hvis du køber noget hos os, som ikke er som forventet, tilbyder vi 1 års pasningsgaranti.<\/p>"
+            }
+          },
+          "customer-support": {
+            "type": "item",
+            "settings": {
+              "icon": "picto-return",
+              "mobile_icon_width": 24,
+              "icon_width": 24,
+              "icon_background_type": "none",
+              "icon_background": "",
+              "icon_color": "",
+              "title": "24 månederes fuld reklamationsret",
+              "content": "<p>Skulle der været noget galt med dit udstyr, kan du altid anvende din reklamationsret.<\/p>"
+            }
+          },
+          "payment": {
+            "type": "item",
+            "settings": {
+              "icon": "picto-lock",
+              "mobile_icon_width": 24,
+              "icon_width": 24,
+              "icon_background_type": "none",
+              "icon_background": "",
+              "icon_color": "",
+              "title": "E-mærket webshop",
+              "content": "<p>Sikker & tryg e-handel igennem verificeret E-mærket webshop.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "free-shipping",
+          "discount",
+          "f32705e5-e809-47f3-be90-1e8b7791f23b",
+          "customer-support",
+          "payment"
+        ],
+        "settings": {
+          "show_section": true,
+          "full_width": true,
+          "heading_tag": "h6",
+          "text_alignment": "center",
+          "icon_spacing": "small",
+          "background": "#f1f1f1",
+          "background_gradient": "",
+          "text_color": ""
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "links": {
+            "type": "links",
+            "settings": {
+              "menu": "footer",
+              "show_menu_title": true
+            }
+          },
+          "text": {
+            "type": "text",
+            "settings": {
+              "title": "Showroom",
+              "content": "<p><a href=\"\/pages\/showroom-og-vores-abningstider\" title=\"Showroom og vores åbningstider\">Besøg vores showroom<\/a>, hvor du kan  se og prøve alt vores udstyr.<\/p><p><strong>Showroom åbningstider:<br\/><\/strong>Mandag-Fredag: Lukket<br\/>Lørdag: Lukket<br\/>Søndag: Lukket<\/p><p><strong>Ops.: <\/strong>Vi åbner for vores showroom igen til <strong>oktober 2023.<br\/><\/strong><\/p>"
+            }
+          },
+          "afcbebc9-1170-40d4-886a-037780e234e4": {
+            "type": "text",
+            "settings": {
+              "title": "Kontakt",
+              "content": "<p><strong>Telefon<br\/><\/strong>Tlf.: +45 3020 9975<br\/>Alle dage fra kl. 10-18<\/p><p><strong>Mail<br\/><\/strong>Mail: info@brugteski.dk<strong><br\/><\/strong>Svarer indenfor 24 timer<\/p><p><strong>Adresse<br\/><\/strong>Brugteski.dk ApS<strong><br\/><\/strong>Krogsagervej 50, 2<br\/>7000 Fredericia<br\/>CVR: 40804455<\/p>"
+            }
+          },
+          "42290695-b02a-4385-b06b-249c0aa04de4": {
+            "type": "text",
+            "settings": {
+              "title": "Om os",
+              "content": "<p>Brugteski.dk er danmarks største forhandler af brugt skiudstyr. Vores mål er, at gøre det nemt og billigt for alle niveauer af skiløbere, at skaffe godt udstyr!<br\/><a href=\"\/pages\/hvem-er-vi\" title=\"Bag om Brugteski.dk\">Læs mere om teamet her.<\/a><\/p><p><strong><br\/><\/strong><\/p><p><\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "links",
+          "text",
+          "afcbebc9-1170-40d4-886a-037780e234e4",
+          "42290695-b02a-4385-b06b-249c0aa04de4"
+        ],
+        "settings": {
+          "show_social_media": true,
+          "show_payment_icons": true,
+          "show_country_selector": false,
+          "show_country_flag": false,
+          "show_country_name": false,
+          "show_locale_selector": false,
+          "show_privacy_bar": false,
+          "privacy_bar_title": "Cookie policy",
+          "privacy_bar_content": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.<\/p>"
+        }
+      }
+    },
+    "content_for_index": [
+
+    ],
+    "blocks": {
+      "6406956604159796213": {
+        "type": "shopify:\/\/apps\/smartseo\/blocks\/smartseo\/7b0a6064-ca2e-4392-9a1d-8c43c942357b",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "16735461377607925125": {
+        "type": "shopify:\/\/apps\/roar-terms-and-conditions-box\/blocks\/app-embed\/17661ca5-aeea-41b9-8091-d8f7233e8b22",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
+  },
+  "presets": {
+    "Sound": {
+      "section_vertical_spacing": "medium",
+      "button_border_radius": 60,
+      "input_border_radius": 8,
+      "block_border_radius": 24,
+      "block_shadow_opacity": 10,
+      "block_shadow_vertical_offset": 18,
+      "background": "#f0f0f0",
+      "text_color": "#1a1a1a",
+      "header_background": "#f0f0f0",
+      "header_text_color": "#1a1a1a",
+      "footer_background": "#ffffff",
+      "footer_text_color": "#1a1a1a",
+      "primary_button_background": "#1a1a1a",
+      "primary_button_text_color": "#ffffff",
+      "secondary_button_background": "#f0c417",
+      "secondary_button_text_color": "#1a1a1a",
+      "product_card_text_color": "#1a1a1a",
+      "product_primary_badge_background": "#803cee",
+      "heading_font": "din_next_n7",
+      "heading_font_size": "large",
+      "heading_letter_spacing": -2,
+      "text_font": "din_next_n4",
+      "show_page_transition": true,
+      "heading_apparition": "split_fade",
+      "product_color_display": "swatch",
+      "product_info_alignment": "start",
+      "checkout_accent_color": "#f0c417",
+      "checkout_button_color": "#1a1a1a",
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "blocks": {
+            "message": {
+              "type": "message",
+              "settings": {
+                "text": "Announce something here"
+              }
+            }
+          },
+          "block_order": [
+            "message"
+          ],
+          "settings": {
+            "enable_sticky": false,
+            "text_size": "text-xs",
+            "navigation_mode": "scrolling",
+            "scrolling_speed": 10,
+            "background": "#1a1a1a",
+            "text_color": "#ffffff"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "enable_sticky": true,
+            "hide_on_scroll": false,
+            "logo": "{{shop.brand.logo}}",
+            "logo_max_width": 120,
+            "logo_mobile_max_width": 100,
+            "menu": "main-menu",
+            "menu_open_trigger": "click",
+            "opening_from": "bottom",
+            "layout": "logo_left_navigation_center",
+            "show_social_media": true,
+            "show_country_flag": true,
+            "show_country_name": false,
+            "transparent_header_text_color": "#ffffff",
+            "reduce_padding": false,
+            "background_opacity": 100,
+            "background_blur_radius": 0
+          }
+        },
+        "cart-drawer": {
+          "type": "cart-drawer",
+          "settings": {
+            "show_cart_note": true,
+            "show_shipping_text": true,
+            "show_checkout_button": true,
+            "product_card_background": "#ffffff"
+          }
+        },
+        "search-drawer": {
+          "type": "search-drawer",
+          "settings": {
+            "full_width": true,
+            "show_article_category": true,
+            "search_products": true,
+            "search_blog_posts": true,
+            "search_pages": true,
+            "search_collections": true,
+            "search_unavailable_products": "last"
+          }
+        },
+        "static-text-with-icons": {
+          "type": "static-text-with-icons",
+          "blocks": {
+            "free-shipping": {
+              "type": "item",
+              "settings": {
+                "icon": "picto-box",
+                "mobile_icon_width": 24,
+                "icon_width": 24,
+                "icon_background_type": "none",
+                "title": "Free shipping",
+                "content": "<p>Tell your customers about your shipping offer.<\/p>"
+              }
+            },
+            "customer-support": {
+              "type": "item",
+              "settings": {
+                "icon": "picto-customer-support",
+                "mobile_icon_width": 24,
+                "icon_width": 24,
+                "icon_background_type": "none",
+                "title": "Customer service",
+                "content": "<p>Tell your customers how they can reach you.<\/p>"
+              }
+            },
+            "discount": {
+              "type": "item",
+              "settings": {
+                "icon": "picto-coupon",
+                "mobile_icon_width": 24,
+                "icon_width": 24,
+                "icon_background_type": "none",
+                "title": "Refer a friend",
+                "content": "<p>Tell your customers about your promotional offers.<\/p>"
+              }
+            },
+            "payment": {
+              "type": "item",
+              "settings": {
+                "icon": "picto-lock",
+                "mobile_icon_width": 24,
+                "icon_width": 24,
+                "icon_background_type": "none",
+                "title": "Secure payment",
+                "content": "<p>Tel your customers about your payment methods.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "free-shipping",
+            "customer-support",
+            "discount",
+            "payment"
+          ],
+          "settings": {
+            "show_section": true,
+            "full_width": true,
+            "heading_tag": "h6",
+            "text_alignment": "center",
+            "icon_spacing": "small"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {
+                "image": "{{shop.brand.logo}}",
+                "image_width": 150,
+                "heading_size": "h3",
+                "title": "Sign up for new stories and personal offers"
+              }
+            },
+            "links": {
+              "type": "links",
+              "settings": {
+                "menu": "footer",
+                "show_menu_title": true
+              }
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+                "title": "About",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "newsletter",
+            "links",
+            "text"
+          ],
+          "settings": {
+            "show_social_media": true,
+            "show_payment_icons": true,
+            "show_country_selector": true,
+            "show_country_flag": true,
+            "show_country_name": true,
+            "show_locale_selector": true,
+            "show_privacy_bar": true,
+            "privacy_bar_title": "Cookie policy",
+            "privacy_bar_content": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.<\/p>"
+          }
+        }
+      }
+    },
+    "Home": {
+      "section_vertical_spacing": "medium",
+      "section_boxed_horizontal_spacing": "large",
+      "button_hover_effect": "reverse",
+      "background": "#ffffff",
+      "text_color": "#272727",
+      "success_color": "#708a5c",
+      "warning_color": "#e37e16",
+      "error_color": "#aa2826",
+      "header_background": "#ffffff",
+      "header_text_color": "#272727",
+      "footer_background": "#f2f2f2",
+      "footer_text_color": "#272727",
+      "primary_button_background": "#272727",
+      "primary_button_text_color": "#ffffff",
+      "secondary_button_background": "#3c619e",
+      "secondary_button_text_color": "#ffffff",
+      "product_card_text_color": "#272727",
+      "product_on_sale_accent": "#e34f4f",
+      "product_sold_out_badge_background": "#bebdb9",
+      "product_primary_badge_background": "#3c619e",
+      "heading_font": "futura_n7",
+      "heading_font_size": "large",
+      "heading_text_transform": "normal",
+      "heading_letter_spacing": -1,
+      "text_font": "futura_n4",
+      "heading_apparition": "split_rotation",
+      "color_swatch_style": "rectangle",
+      "product_color_display": "swatch",
+      "cart_type": "drawer",
+      "checkout_body_background_color": "#f2f2f2",
+      "checkout_sidebar_background_color": "#ffffff",
+      "checkout_accent_color": "#3c619e",
+      "checkout_button_color": "#3c619e",
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "blocks": {
+            "message": {
+              "type": "message",
+              "settings": {
+                "text": "Announce something here"
+              }
+            }
+          },
+          "block_order": [
+            "message"
+          ],
+          "settings": {
+            "enable_sticky": false,
+            "text_size": "text-xs",
+            "navigation_mode": "arrows",
+            "scrolling_speed": 20,
+            "background": "#272727",
+            "text_color": "#ffffff"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "enable_sticky": true,
+            "hide_on_scroll": false,
+            "logo": "{{shop.brand.logo}}",
+            "logo_max_width": 120,
+            "logo_mobile_max_width": 100,
+            "menu": "main-menu",
+            "menu_open_trigger": "hover",
+            "opening_from": "bottom",
+            "layout": "logo_center_navigation_inline",
+            "show_social_media": true,
+            "show_country_flag": true,
+            "show_country_name": false,
+            "transparent_header_text_color": "#ffffff",
+            "reduce_padding": false,
+            "background_opacity": 100,
+            "background_blur_radius": 0
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {
+                "image": "{{shop.brand.logo}}",
+                "image_width": 150,
+                "heading_size": "h3",
+                "title": "Sign up for new stories and personal offers"
+              }
+            },
+            "links": {
+              "type": "links",
+              "settings": {
+                "menu": "footer",
+                "show_menu_title": true
+              }
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+                "title": "About",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "newsletter",
+            "links",
+            "text"
+          ],
+          "settings": {
+            "show_social_media": true,
+            "show_payment_icons": true,
+            "show_locale_selector": true,
+            "show_country_selector": true,
+            "show_country_flag": true,
+            "show_country_name": true,
+            "show_privacy_bar": true,
+            "privacy_bar_title": "Cookie policy",
+            "privacy_bar_content": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.<\/p>"
+          }
+        },
+        "static-text-with-icons": {
+          "type": "static-text-with-icons",
+          "blocks": {
+            "free-shipping": {
+              "type": "item",
+              "settings": {
+                "icon": "picto-box",
+                "mobile_icon_width": 24,
+                "icon_width": 24,
+                "icon_background_type": "none",
+                "title": "Free shipping",
+                "content": "<p>Tell your customers about your shipping offer.<\/p>"
+              }
+            },
+            "customer-support": {
+              "type": "item",
+              "settings": {
+                "icon": "picto-customer-support",
+                "mobile_icon_width": 24,
+                "icon_width": 24,
+                "icon_background_type": "none",
+                "title": "Customer service",
+                "content": "<p>Tell your customers how they can reach you.<\/p>"
+              }
+            },
+            "discount": {
+              "type": "item",
+              "settings": {
+                "icon": "picto-coupon",
+                "mobile_icon_width": 24,
+                "icon_width": 24,
+                "icon_background_type": "none",
+                "title": "Refer a friend",
+                "content": "<p>Tell your customers about your promotional offers.<\/p>"
+              }
+            },
+            "payment": {
+              "type": "item",
+              "settings": {
+                "icon": "picto-lock",
+                "mobile_icon_width": 24,
+                "icon_width": 24,
+                "icon_background_type": "none",
+                "title": "Secure payment",
+                "content": "<p>Tel your customers about your payment methods.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "free-shipping",
+            "customer-support",
+            "discount",
+            "payment"
+          ],
+          "settings": {
+            "show_section": true,
+            "full_width": true,
+            "heading_tag": "h6",
+            "text_alignment": "center",
+            "icon_spacing": "small"
+          }
+        },
+        "cart-drawer": {
+          "type": "cart-drawer",
+          "settings": {
+            "show_cart_note": true,
+            "show_shipping_text": true,
+            "show_checkout_button": true,
+            "product_card_background": "#f2f2f2"
+          }
+        },
+        "search-drawer": {
+          "type": "search-drawer",
+          "settings": {
+            "full_width": false,
+            "show_article_category": true,
+            "search_products": true,
+            "search_blog_posts": true,
+            "search_pages": false,
+            "search_collections": true,
+            "search_unavailable_products": "last"
+          }
+        }
+      }
+    },
+    "Shape": {
+      "page_width": 1440,
+      "section_vertical_spacing": "small",
+      "section_boxed_horizontal_spacing": "medium",
+      "button_border_radius": 60,
+      "input_border_radius": 8,
+      "block_border_radius": 20,
+      "icon_stroke_width": 1.5,
+      "button_style": "fill",
+      "button_hover_effect": "reverse",
+      "text_color": "#2a555a",
+      "header_background": "#ffffff",
+      "header_text_color": "#2a555a",
+      "footer_background": "#f7f7f7",
+      "footer_text_color": "#2a555a",
+      "primary_button_background": "#2a555a",
+      "primary_button_text_color": "#ffffff",
+      "secondary_button_background": "#d9967e",
+      "product_card_text_color": "#2a555a",
+      "heading_font": "itc_berkeley_old_style_n4",
+      "heading_font_size": "large",
+      "heading_text_transform": "normal",
+      "heading_letter_spacing": -1,
+      "text_font": "muli_n4",
+      "text_font_size_desktop": 15,
+      "product_color_display": "swatch",
+      "product_info_alignment": "center",
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "blocks": {
+            "message": {
+              "type": "message",
+              "settings": {
+                "text": "Announce something here"
+              }
+            }
+          },
+          "block_order": [
+            "message"
+          ],
+          "settings": {
+            "enable_sticky": false,
+            "text_size": "text-xs",
+            "navigation_mode": "scrolling",
+            "scrolling_speed": 12,
+            "background": "#2a555a",
+            "text_color": "#ffffff"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "enable_sticky": true,
+            "hide_on_scroll": false,
+            "logo": "{{shop.brand.logo}}",
+            "logo_max_width": 120,
+            "logo_mobile_max_width": 100,
+            "menu": "main-menu",
+            "menu_open_trigger": "click",
+            "opening_from": "bottom",
+            "layout": "logo_center_navigation_inline",
+            "show_social_media": true,
+            "show_country_flag": true,
+            "show_country_name": false,
+            "transparent_header_text_color": "#ffffff",
+            "reduce_padding": false,
+            "background_opacity": 20,
+            "background_blur_radius": 20
+          }
+        },
+        "cart-drawer": {
+          "type": "cart-drawer",
+          "settings": {
+            "show_cart_note": true,
+            "show_shipping_text": true,
+            "show_checkout_button": true
+          }
+        },
+        "search-drawer": {
+          "type": "search-drawer",
+          "settings": {
+            "full_width": false,
+            "show_article_category": true,
+            "search_products": true,
+            "search_blog_posts": true,
+            "search_pages": true,
+            "search_collections": true,
+            "search_unavailable_products": "last"
+          }
+        },
+        "static-text-with-icons": {
+          "type": "static-text-with-icons",
+          "blocks": {
+            "free-shipping": {
+              "type": "item",
+              "settings": {
+                "icon": "picto-box",
+                "mobile_icon_width": 24,
+                "icon_width": 24,
+                "icon_background_type": "none",
+                "title": "Free shipping",
+                "content": "<p>Tell your customers about your shipping offer.<\/p>"
+              }
+            },
+            "customer-support": {
+              "type": "item",
+              "settings": {
+                "icon": "picto-customer-support",
+                "mobile_icon_width": 24,
+                "icon_width": 24,
+                "icon_background_type": "none",
+                "title": "Customer service",
+                "content": "<p>Tell your customers how they can reach you.<\/p>"
+              }
+            },
+            "discount": {
+              "type": "item",
+              "settings": {
+                "icon": "picto-coupon",
+                "mobile_icon_width": 24,
+                "icon_width": 24,
+                "icon_background_type": "none",
+                "title": "Refer a friend",
+                "content": "<p>Tell your customers about your promotional offers.<\/p>"
+              }
+            },
+            "payment": {
+              "type": "item",
+              "settings": {
+                "icon": "picto-lock",
+                "mobile_icon_width": 24,
+                "icon_width": 24,
+                "icon_background_type": "none",
+                "title": "Secure payment",
+                "content": "<p>Tel your customers about your payment methods.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "free-shipping",
+            "customer-support",
+            "discount",
+            "payment"
+          ],
+          "settings": {
+            "show_section": true,
+            "full_width": true,
+            "heading_tag": "h4",
+            "text_alignment": "center",
+            "icon_spacing": "small"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {
+                "image": "{{shop.brand.logo}}",
+                "image_width": 150,
+                "heading_size": "h3",
+                "title": "Sign up for new stories and personal offers"
+              }
+            },
+            "links": {
+              "type": "links",
+              "settings": {
+                "menu": "footer",
+                "show_menu_title": true
+              }
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+                "title": "About",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "newsletter",
+            "links",
+            "text"
+          ],
+          "settings": {
+            "show_social_media": true,
+            "show_payment_icons": true,
+            "show_country_selector": true,
+            "show_country_flag": true,
+            "show_country_name": true,
+            "show_locale_selector": true,
+            "show_privacy_bar": true,
+            "privacy_bar_title": "Cookie policy",
+            "privacy_bar_content": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.<\/p>"
+          }
+        }
+      }
+    }
+  }
+}
