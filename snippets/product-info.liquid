@@ -205,6 +205,12 @@
           {%- render 'inventory', product: product, low_threshold: block.settings.low_inventory_threshold, form_id: product_form_id -%}
         </div>
 
+        {%- when 'payment-icons' -%}
+          <div class="product-info__text">
+            {%- render 'payment-logos' -%}
+          </div>
+  
+
       {%- when 'buy_buttons' -%}
         {%- assign main_form_exists = true -%}
 
