@@ -55,6 +55,7 @@
   },
   "header": {
     "general": {
+      "account": "Contului",
       "open_menu": "Deschide meniul de navigare",
       "open_search": "Deschide căutarea",
       "open_account": "Deschide pagina contului",
@@ -346,6 +347,7 @@
       "terms": "Rezultate pentru „{{ terms }}”",
       "search_placeholder": "Caută...",
       "products": "Produse",
+      "suggestions": "Sugestii",
       "collections": "Colecții",
       "posts": "Postări pe blog",
       "pages": "Pagini",

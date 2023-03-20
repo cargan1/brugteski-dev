@@ -55,6 +55,7 @@
   },
   "header": {
     "general": {
+      "account": "Profil",
       "open_menu": "Åpne navigeringsmeny",
       "open_search": "Åpne søk",
       "open_account": "Åpne kontoside",
@@ -346,6 +347,7 @@
       "terms": "Resultater for \"{{ terms }}\"",
       "search_placeholder": "Søk etter ...",
       "products": "Produkter",
+      "suggestions": "Forslag",
       "collections": "Samlinger",
       "posts": "Blogginnlegg",
       "pages": "Sider",

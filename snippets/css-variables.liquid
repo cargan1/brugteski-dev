@@ -3,6 +3,8 @@ This file defines all the CSS variables used throughout the theme. Feel free to 
 note that this may have impact on different places.
 {%- endcomment -%}
 
+{%- capture direction -%}{% render 'direction' %}{%- endcapture -%}
+
 <style>
   {%- assign heading_font_italic = settings.heading_font | font_modify: 'style', 'italic' -%}
   {%- assign text_font_italic = settings.text_font | font_modify: 'style', 'italic' -%}
@@ -120,11 +122,11 @@ note that this may have impact on different places.
     --heading-font-weight: {{ settings.heading_font.weight }};
     --heading-font-style: {{ settings.heading_font.style }};
     --heading-text-transform: {{ settings.heading_text_transform }};
-    --heading-letter-spacing: {{ settings.heading_letter_spacing | divided_by: 100.0 }}em;
+    --heading-letter-spacing: {% if direction == 'rtl' %}0{% else %}{{ settings.heading_letter_spacing | divided_by: 100.0 }}em{% endif %};
     --text-font-family: {{ settings.text_font.family }}, {{ settings.text_font.fallback_families }};
     --text-font-weight: {{ settings.text_font.weight }};
     --text-font-style: {{ settings.text_font.style }};
-    --text-letter-spacing: {{ settings.text_font_letter_spacing | divided_by: 100.0 }}em;
+    --text-letter-spacing: {% if direction == 'rtl' %}0{% else %}{{ settings.text_font_letter_spacing | divided_by: 100.0 }}em{% endif %};
 
     /* Font sizes */
     --text-h0: {% if settings.heading_font_size == 'small' %}2.5rem{% elsif settings.heading_font_size == 'medium' %}2.75rem{% else %}3rem{% endif %};
@@ -153,45 +155,45 @@ note that this may have impact on different places.
     {%- assign product_sold_out_badge_brightness = settings.product_sold_out_badge_background | color_brightness -%}
     {%- assign product_primary_badge_brightness = settings.product_primary_badge_background | color_brightness -%}
 
-    --accent: {{ settings.primary_button_background.red }} {{ settings.primary_button_background.green }} {{ settings.primary_button_background.blue }};
-    --text-primary: {{ settings.text_color.red }} {{ settings.text_color.green }} {{ settings.text_color.blue }};
-    --background-primary: {{ settings.background.red }} {{ settings.background.green }} {{ settings.background.blue }};
-    --dialog-background: {{ settings.dialog_background.red }} {{ settings.dialog_background.green }} {{ settings.dialog_background.blue }};
+    --accent: {{ settings.primary_button_background.rgb }};
+    --text-primary: {{ settings.text_color.rgb }};
+    --background-primary: {{ settings.background.rgb }};
+    --dialog-background: {{ settings.dialog_background.rgb }};
     --border-color: var(--text-color, var(--text-primary)) / 0.12;
 
     /* Button colors */
-    --button-background-primary: {{ settings.primary_button_background.red }} {{ settings.primary_button_background.green }} {{ settings.primary_button_background.blue }};
-    --button-text-primary: {{ settings.primary_button_text_color.red }} {{ settings.primary_button_text_color.green }} {{ settings.primary_button_text_color.blue }};
-    --button-background-secondary: {{ settings.secondary_button_background.red }} {{ settings.secondary_button_background.green }} {{ settings.secondary_button_background.blue }};
-    --button-text-secondary: {{ settings.secondary_button_text_color.red }} {{ settings.secondary_button_text_color.green }} {{ settings.secondary_button_text_color.blue }};
+    --button-background-primary: {{ settings.primary_button_background.rgb }};
+    --button-text-primary: {{ settings.primary_button_text_color.rgb }};
+    --button-background-secondary: {{ settings.secondary_button_background.rgb }};
+    --button-text-secondary: {{ settings.secondary_button_text_color.rgb }};
 
     /* Status colors */
-    --success-background: {{ success_background.red }} {{ success_background.green }} {{ success_background.blue }};
-    --success-text: {{ settings.success_color.red }} {{ settings.success_color.green }} {{ settings.success_color.blue }};
-    --warning-background: {{ warning_background.red }} {{ warning_background.green }} {{ warning_background.blue }};
-    --warning-text: {{ settings.warning_color.red }} {{ settings.warning_color.green }} {{ settings.warning_color.blue }};
-    --error-background: {{ error_background.red }} {{ error_background.green }} {{ error_background.blue }};
-    --error-text: {{ settings.error_color.red }} {{ settings.error_color.green }} {{ settings.error_color.blue }};
+    --success-background: {{ success_background.rgb }};
+    --success-text: {{ settings.success_color.rgb }};
+    --warning-background: {{ warning_background.rgb }};
+    --warning-text: {{ settings.warning_color.rgb }};
+    --error-background: {{ error_background.rgb }};
+    --error-text: {{ settings.error_color.rgb }};
 
     /* Product colors */
-    --on-sale-text: {{ settings.product_on_sale_accent.red }} {{ settings.product_on_sale_accent.green }} {{ settings.product_on_sale_accent.blue }};
-    --on-sale-badge-background: {{ settings.product_on_sale_accent.red }} {{ settings.product_on_sale_accent.green }} {{ settings.product_on_sale_accent.blue }};
+    --on-sale-text: {{ settings.product_on_sale_accent.rgb }};
+    --on-sale-badge-background: {{ settings.product_on_sale_accent.rgb }};
     --on-sale-badge-text: {% if product_on_sale_accent_brightness < 150 %}255 255 255{% else %}0 0 0{% endif %};
-    --sold-out-badge-background: {{ settings.product_sold_out_badge_background.red }} {{ settings.product_sold_out_badge_background.green }} {{ settings.product_sold_out_badge_background.blue }};
+    --sold-out-badge-background: {{ settings.product_sold_out_badge_background.rgb }};
     --sold-out-badge-text: {% if product_sold_out_badge_brightness < 150 %}255 255 255{% else %}0 0 0{% endif %};
-    --primary-badge-background: {{ settings.product_primary_badge_background.red }} {{ settings.product_primary_badge_background.green }} {{ settings.product_primary_badge_background.blue }};
+    --primary-badge-background: {{ settings.product_primary_badge_background.rgb }};
     --primary-badge-text: {% if product_primary_badge_brightness < 150 %}255 255 255{% else %}0 0 0{% endif %};
-    --star-color: {{ settings.product_rating_color.red }} {{ settings.product_rating_color.green }} {{ settings.product_rating_color.blue }};
-    --product-card-background: {{ settings.product_card_background.red }} {{ settings.product_card_background.green }} {{ settings.product_card_background.blue }};
-    --product-card-text: {{ settings.product_card_text_color.red }} {{ settings.product_card_text_color.green }} {{ settings.product_card_text_color.blue }};
+    --star-color: {{ settings.product_rating_color.rgb }};
+    --product-card-background: {{ settings.product_card_background.rgb }};
+    --product-card-text: {{ settings.product_card_text_color.rgb }};
 
     /* Header colors */
-    --header-background: {{ settings.header_background.red }} {{ settings.header_background.green }} {{ settings.header_background.blue }};
-    --header-text: {{ settings.header_text_color.red }} {{ settings.header_text_color.green }} {{ settings.header_text_color.blue }};
+    --header-background: {{ settings.header_background.rgb }};
+    --header-text: {{ settings.header_text_color.rgb }};
 
     /* Footer colors */
-    --footer-background: {{ settings.footer_background.red }} {{ settings.footer_background.green }} {{ settings.footer_background.blue }};
-    --footer-text: {{ settings.footer_text_color.red }} {{ settings.footer_text_color.green }} {{ settings.footer_text_color.blue }};
+    --footer-background: {{ settings.footer_background.rgb }};
+    --footer-text: {{ settings.footer_text_color.rgb }};
 
     /* Rounded variables (used for border radius) */
     --rounded-xs: {{ settings.block_border_radius | at_most: 4 | divided_by: 16.0 }}rem;

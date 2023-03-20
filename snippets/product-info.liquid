@@ -60,13 +60,6 @@
             </p>
           {%- endif -%}
         </div>
-<!-- Start of Anyday Widget - Danish -->
-<script src="https://my.anyday.io/webshopPriceTag/anyday-price-tag-da-es2015.js" type="module" async></script>
-<div style="margin: -5px 0 10px 0;color: #000;font-size: 13.5px;"> 
-     	<anyday-price-tag total-price-selector=".product-info__price .price-list" total-price="" price-tag-token="27d4aea870754a8b94065bae08960656" currency="DKK" price-format-locale="da"></anyday-price-tag>
-</div>
-<!-- End of Anyday Widget -->
-
 
       {%- when 'rating' -%}
         {%- comment -%}If the previous block is of type price, then the rating has been rendered inside it so we do not render it twice{%- endcomment -%}
@@ -160,6 +153,12 @@
 
                       {%- when 'variant' -%}
                         {%- render 'swatch' with 'media', href: product_variation.url, value: value, media: product_variation.featured_media, selected: selected, bordered: true -%}
+
+                      {%- when 'block' -%}
+                        {%- render 'swatch' with 'block', href: product_variation.url, value: value, selected: selected -%}
+
+                      {%- when 'block_swatch' -%}
+                        {%- render 'swatch' with 'block', href: product_variation.url, value: value, selected: selected, show_color: true -%}
                     {%- endcase -%}
                   {%- endfor -%}
                 </div>
@@ -175,12 +174,12 @@
           <div class="product-info__property" {{ block.shopify_attributes }}>
             {%- if block.settings.type == 'text' -%}
               {%- if block.settings.allow_long_text -%}
-                {%- render 'input', label: block.settings.label, name: name, form: product_form_id, multiline: 4, required: block.settings.required, maxlength: block.settings.maxlength -%}
+                {%- render 'input', label: block.settings.label, name: name, form: product_form_id, multiline: 4, required: block.settings.required, maxlength: block.settings.max_length -%}
               {%- else -%}
-                {%- render 'input', type: 'text', label: block.settings.label, name: name, form: product_form_id, required: block.settings.required, maxlength: block.settings.maxlength -%}
+                {%- render 'input', type: 'text', label: block.settings.label, name: name, form: product_form_id, required: block.settings.required, maxlength: block.settings.max_length -%}
               {%- endif -%}
             {%- else -%}
-              {%- render 'checkbox', label: block.settings.label, name: name, form: product_form_id -%}
+              {%- render 'checkbox', label: block.settings.label, name: name, required: block.settings.required, form: product_form_id -%}
             {%- endif -%}
           </div>
         {%- endif -%}
@@ -236,10 +235,10 @@
 
       {%- when 'image' -%}
         {%- if block.settings.image != blank -%}
-          <div class="product-info__image {% if block.settings.alignment == 'center' %}justify-self-center{% elsif block.settings.alignment == 'end' %}justify-self-end{% endif %}" {{ block.shopify_attributes }}>
+          <div class="product-info__image" {{ block.shopify_attributes }}>
             {%- capture sizes -%}{{ block.settings.max_width }}px{%- endcapture -%}
             {%- capture widths -%}{{ block.settings.max_width }}, {{ block.settings.max_width | times: 2 | at_most: block.settings.image.width }}{%- endcapture -%}
-            {%- capture style -%}width: {{ block.settings.max_width }}px{%- endcapture -%}
+            {%- capture style -%}width: {{ block.settings.max_width }}px; {% if block.settings.alignment == 'center' %}margin-inline: auto{% elsif block.settings.alignment == 'end' %}margin-inline-start: auto;{% endif %}{%- endcapture -%}
             {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: 'lazy', style: style, sizes: sizes, widths: widths -}}
           </div>
         {%- endif -%}
@@ -247,7 +246,7 @@
       {%- when 'button' -%}
         {%- if block.settings.text != blank -%}
           <div class="product-info__button" {{ block.shopify_attributes }}>
-            {%- render 'button', content: block.settings.text, href: block.settings.url, size: block.settings.size, style: block.settings.style, stretch: block.settings.stretch, background: block.settings.background, text_color: block.settings.text_color -%}
+            {%- render 'button', content: block.settings.text, href: block.settings.link, size: block.settings.size, style: block.settings.style, stretch: block.settings.stretch, background: block.settings.background, text_color: block.settings.text_color -%}
           </div>
         {%- endif -%}
 

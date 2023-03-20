@@ -10,10 +10,14 @@
     }
 
     {%- if section.settings.enable_sticky -%}
-      .shopify-section--{{ section.id }} {
+      #shopify-section-{{ section.id }} {
         position: sticky;
         top: 0;
         z-index: 20;
+      }
+
+      .shopify-section--header ~ #shopify-section-{{ section.id }} {
+        top: calc(var(--sticky-header-enabled, 0) * var(--header-height, 0px));
       }
     {%- endif -%}
   </style>
@@ -79,6 +83,10 @@
       {%- endif -%}
     </div>
   </height-observer>
+
+  <script>
+    document.documentElement.style.setProperty('--announcement-bar-height', Math.round(document.getElementById('shopify-section-{{ section.id }}').clientHeight) + 'px');
+  </script>
 {%- endif -%}
 
 {% schema %}

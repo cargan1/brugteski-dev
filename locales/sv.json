@@ -55,6 +55,7 @@
   },
   "header": {
     "general": {
+      "account": "Konto",
       "open_menu": "Öppna navigeringsmenyn",
       "open_search": "Öppna sök",
       "open_account": "Öppna kontosidan",
@@ -346,6 +347,7 @@
       "terms": "Resultat för \"{{ terms }}\"",
       "search_placeholder": "Skriv något...",
       "products": "Produkter",
+      "suggestions": "Förslag",
       "collections": "Samlingar",
       "posts": "Blogginlägg",
       "pages": "Sidor",

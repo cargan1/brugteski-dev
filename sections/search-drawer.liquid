@@ -9,33 +9,15 @@
       </button>
     </div>
 
-    {% liquid
-      capture supported_resources
-        if section.settings.search_products
-          echo 'product' | append: ','
-        endif
-
-        if section.settings.search_blog_posts
-          echo 'article' | append: ','
-        endif
-
-        if section.settings.search_pages
-          echo 'page' | append: ','
-        endif
-
-        if section.settings.search_collections
-          echo 'collection' | append: ','
-        endif
-      endcapture
-    %}
-
-    {%- assign supported_resources = supported_resources | remove_last: ',' | default: 'product' -%}
+    <style>
+      #shopify-section-{{ section.id }} {
+        --predictive-search-column-count: 3;
+      }
+    </style>
 
     <input type="hidden" name="type" value="product">
-    <input type="hidden" name="options[prefix]" value="last">
-    <input type="hidden" name="options[unavailable_products]" value="{{ section.settings.search_unavailable_products }}">
 
-    <predictive-search class="predictive-search" section-id="{{ section.id }}" resources="{{ supported_resources }}" unavailable-products="{{ section.settings.search_unavailable_products }}">
+    <predictive-search class="predictive-search" section-id="{{ section.id }}">
       {%- if section.settings.search_menu.links.size > 0 -%}
         <div slot="idle">
           <div class="v-stack gap-3 sm:gap-4">
@@ -90,54 +72,62 @@
                 <slot part="tab-panels" name="content"></slot>
               </template>
 
-              {%- for resource in predictive_search.resources -%}
-                {%- if resource.last.size > 0 -%}
-                  {%- case resource.first -%}
-                    {%- when 'products' -%}
-                      <div class="predictive-search__tab-item" slot="title">
-                        <button type="button" class="h5">{{- 'search.general.products' | t -}}</button>
+              {%- if predictive_search.resources.products.size > 0 -%}
+                <div class="predictive-search__tab-item" slot="title">
+                  <button type="button" class="h5">{{- 'search.general.products' | t -}}</button>
 
-                        {%- if section.settings.full_width -%}
-                          <button type="submit" class="text-with-icon group">
-                            <span><span class="reversed-link">{{ 'search.general.view_all' | t }}</span></span>
-                            <span class="circle-chevron group-hover:colors">{%- render 'icon' with 'chevron-right-small', direction_aware: true -%}</span>
-                          </button>
-                        {%- endif -%}
-                      </div>
+                  {%- if section.settings.full_width -%}
+                    <button type="submit" class="text-with-icon group">
+                      <span><span class="reversed-link">{{ 'search.general.view_all' | t }}</span></span>
+                      <span class="circle-chevron group-hover:colors">{%- render 'icon' with 'chevron-right-small', direction_aware: true -%}</span>
+                    </button>
+                  {%- endif -%}
+                </div>
 
-                      <div class="predictive-search__tab-content v-stack gap-4 sm:gap-6" slot="content">
-                        {%- render 'predictive-search-result-item' for predictive_search.resources.products as item, type: 'product' -%}
-                      </div>
+                <div class="predictive-search__tab-content v-stack gap-4 sm:gap-6" slot="content">
+                  {%- render 'predictive-search-result-item' for predictive_search.resources.products as item, type: 'product' -%}
+                </div>
+              {%- endif -%}
 
-                    {%- when 'articles' -%}
-                      <div class="predictive-search__tab-item" slot="title">
-                        <button type="button" class="h5">{{- 'search.general.posts' | t -}}</button>
-                      </div>
+              {%- if predictive_search.resources.queries.size > 0 -%}
+                <div class="predictive-search__tab-item" slot="title">
+                  <button type="button" class="h5">{{- 'search.general.suggestions' | t -}}</button>
+                </div>
 
-                      <div class="predictive-search__tab-content v-stack gap-4 sm:gap-6" slot="content">
-                        {%- render 'predictive-search-result-item' for predictive_search.resources.articles as item, type: 'article' -%}
-                      </div>
+                <div class="predictive-search__tab-content v-stack gap-4 sm:gap-6" slot="content">
+                  {%- render 'predictive-search-result-item' for predictive_search.resources.queries as item, type: 'query' -%}
+                </div>
+              {%- endif -%}
 
-                    {%- when 'collections' -%}
-                      <div class="predictive-search__tab-item" slot="title">
-                        <button type="button" class="h5">{{- 'search.general.collections' | t -}}</button>
-                      </div>
+              {%- if predictive_search.resources.articles.size > 0 -%}
+                <div class="predictive-search__tab-item" slot="title">
+                  <button type="button" class="h5">{{- 'search.general.posts' | t -}}</button>
+                </div>
 
-                      <div class="predictive-search__tab-content v-stack gap-4 sm:gap-6" slot="content">
-                        {%- render 'predictive-search-result-item' for predictive_search.resources.collections as item, type: 'collection' -%}
-                      </div>
+                <div class="predictive-search__tab-content v-stack gap-4 sm:gap-6" slot="content">
+                  {%- render 'predictive-search-result-item' for predictive_search.resources.articles as item, type: 'article' -%}
+                </div>
+              {%- endif -%}
 
-                    {% when 'pages' %}
-                      <div class="predictive-search__tab-item" slot="title">
-                        <button type="button" class="h5">{{- 'search.general.pages' | t -}}</button>
-                      </div>
+              {%- if predictive_search.resources.collections.size > 0 -%}
+                <div class="predictive-search__tab-item" slot="title">
+                  <button type="button" class="h5">{{- 'search.general.collections' | t -}}</button>
+                </div>
 
-                      <div slot="content" class="predictive-search__tab-content v-stack gap-2 justify-start">
-                        {%- render 'predictive-search-result-item' for predictive_search.resources.pages as item, type: 'page' -%}
-                      </div>
-                  {%- endcase -%}
-                {%- endif -%}
-              {%- endfor -%}
+                <div class="predictive-search__tab-content v-stack gap-4 sm:gap-6" slot="content">
+                  {%- render 'predictive-search-result-item' for predictive_search.resources.collections as item, type: 'collection' -%}
+                </div>
+              {%- endif -%}
+
+              {%- if predictive_search.resources.pages.size > 0 -%}
+                <div class="predictive-search__tab-item" slot="title">
+                  <button type="button" class="h5">{{- 'search.general.pages' | t -}}</button>
+                </div>
+
+                <div slot="content" class="predictive-search__tab-content v-stack gap-2 justify-start">
+                  {%- render 'predictive-search-result-item' for predictive_search.resources.pages as item, type: 'page' -%}
+                </div>
+              {%- endif -%}
             </x-tabs>
           {%- endif -%}
         {%- elsif search.performed -%}
@@ -179,9 +169,7 @@
       <div slot="loading">
         <div class="v-stack gap-5 sm:gap-6 {% if section.settings.full_width %}md:hidden{% endif %}">
           <div class="h-stack gap-4 sm:gap-5">
-            {%- assign supported_resources_count = supported_resources | split: ',' | size -%}
-
-            {%- for i in (1..supported_resources_count) -%}
+            {%- for i in (1..3) -%}
               <span class="skeleton skeleton--tab"></span>
             {%- endfor -%}
           </div>
@@ -203,9 +191,7 @@
 
         {%- if section.settings.full_width -%}
           <div class="predictive-search__skeleton-full-width hidden">
-            {%- assign supported_resources_count = supported_resources | split: ',' | size -%}
-
-            {%- for i in (1..supported_resources_count) -%}
+            {%- for i in (1..3) -%}
               <div class="v-stack gap-8">
                 <span class="skeleton skeleton--tab"></span>
 
@@ -245,55 +231,6 @@
       "label": "Show blog post category",
       "info": "Add tag organize blog posts [Learn more](https://help.shopify.com/en/manual/online-store/blogs/writing-blogs#add-tags-to-a-blog-post).",
       "default": true
-    },
-    {
-      "type": "header",
-      "content": "Search for"
-    },
-    {
-      "type": "checkbox",
-      "id": "search_products",
-      "label": "Products",
-      "default": true
-    },
-    {
-      "type": "checkbox",
-      "id": "search_blog_posts",
-      "label": "Blog posts",
-      "default": true
-    },
-    {
-      "type": "checkbox",
-      "id": "search_pages",
-      "label": "Pages",
-      "default": false
-    },
-    {
-      "type": "checkbox",
-      "id": "search_collections",
-      "label": "Collections",
-      "info": "Collection results are supported on a limited number of languages. [Learn more](https://shopify.dev/api/ajax/reference/predictive-search#supported-languages)",
-      "default": true
-    },
-    {
-      "type": "select",
-      "id": "search_unavailable_products",
-      "label": "Sold out products should...",
-      "options": [
-        {
-          "value": "show",
-          "label": "Always show"
-        },
-        {
-          "value": "hide",
-          "label": "Be hidden"
-        },
-        {
-          "value": "last",
-          "label": "Show last"
-        }
-      ],
-      "default": "last"
     },
     {
       "type": "header",

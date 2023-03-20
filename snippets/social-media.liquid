@@ -45,7 +45,7 @@ Supported variables
     </li>
   {%- endif -%}
 
-  {%- if settings.social_youtube != blank or shop.brand.metafields.social_links.instagram != blank -%}
+  {%- if settings.social_youtube != blank or shop.brand.metafields.social_links.youtube != blank -%}
     <li>
       <a href="{{ settings.social_youtube | default: shop.brand.metafields.social_links.youtube }}" class="tap-area" target="_blank" rel="noopener" aria-label="{{ 'general.social.follow_on' | t: social_media: 'YouTube' }}">
         {%- render 'icon' with 'youtube' -%}

@@ -41,7 +41,7 @@ Supported variables
       {%- else -%}
         <template>
           {%- if media.host == 'youtube' -%}
-            {{- media | external_video_url: enablejsapi: true, loop: loop, mute: autoplay, autoplay: true, playlist: media.external_id | external_video_tag -}}
+            {{- media | external_video_url: enablejsapi: true, loop: loop, mute: autoplay, autoplay: true | external_video_tag -}}
           {%- elsif media.host == 'vimeo' -%}
             {{- media | external_video_url: autopause: true, loop: loop, background: autoplay, muted: autoplay, autoplay: true | external_video_tag -}}
           {%- else -%}

@@ -146,66 +146,30 @@
       </div>
 
       <form action="{{ routes.cart_url }}" method="POST" class="buy-buttons {% if section.settings.show_checkout_button %}buy-buttons--compact{% endif %}">
-        {%- assign view_cart_label = 'cart.general.view_cart' | t -%}
         {%- assign checkout_label = 'cart.general.checkout' | t -%}
 
-        {%- render 'button', href: routes.cart_url, content: view_cart_label, secondary: section.settings.show_checkout_button, size: 'xl' -%}
+        {%- if section.settings.show_view_cart_button or section.settings.show_checkout_button == false -%}
+          <a href="{{ routes.cart_url }}" class="button button--xl {% if section.settings.show_checkout_button %}button--secondary{% endif %}" data-no-instant>
+            {{- 'cart.general.view_cart' | t -}}
+          </a>
+        {%- endif -%}
 
         {%- if section.settings.show_checkout_button -%}
-          {%- render 'button', type: 'submit', content: checkout_label, icon: 'picto-lock', name: 'checkout', onclick: 'begin_checkout()', size: 'xl' -%}
+          {%- render 'button', type: 'submit', content: checkout_label, icon: 'picto-lock', name: 'checkout', size: 'xl' -%}
         {%- endif -%}
       </form>
     </div>
   {%- endif -%}
 </cart-drawer>
 
-<script>
-function begin_checkout() {
-
-                var cartContents = fetch(window.Shopify.routes.root + 'cart.js')
-                .then(response => response.json())
-                .then(data => {
-                    var lineproducts = data.items;
-                    var contents = [];
-                    for (let i = 0; i < lineproducts.length; i++) {
-                        contents.push({
-                            'item_name': lineproducts[i]['title'],
-                            'item_id': lineproducts[i]['product_id'],
-                            'item_sku': lineproducts[i]['sku'],
-                            'item_variant': lineproducts[i]['variant_id'],
-                            'price': lineproducts[i]['price'] / 100,
-                            'item_brand': lineproducts[i]['vendor'],
-                            'item_category': lineproducts[i]['product_type'],
-                            'item_image': lineproducts[i]['image'],
-                            'quantity': lineproducts[i]['quantity']
-                        });
-                    }
-                    dataLayer.push({ ecommerce: null });
-                    dataLayer.push({
-                        'event': 'begin_checkout_event',
-                        {%  if customer %}
-                        'user_data': {
-                            'email' : '{{ customer.email }}',
-                            'first_name' : '{{ customer.first_name }}',
-                            'last_name' : '{{ customer.last_name }}',
-                            'customer_id': '{{ customer.id | remove: "'" }}',
-                        },
-                        {%  endif %}
-                        'ecommerce': {
-                            'cart_quantity': data.item_count,
-                            'cart_total': data.total_price/100,
-                            'currency': data.currency,
-                            'items': contents
-                        }
-                    });
-                });
-    };
-</script>
-
 {% schema %}
 {
   "name": "Cart drawer",
   "settings": [
+    {
+      "type": "paragraph",
+      "content": "Cart drawer won't appear to your customers if you have set the cart type to Page in the global theme settings."
+    },
     {
       "type": "paragraph",
       "content": "Free shipping bar can be configured in global cart settings."
@@ -220,6 +184,12 @@ function begin_checkout() {
       "type": "checkbox",
       "id": "show_shipping_text",
       "label": "Show shipping text",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_view_cart_button",
+      "label": "Show view cart button",
       "default": true
     },
     {

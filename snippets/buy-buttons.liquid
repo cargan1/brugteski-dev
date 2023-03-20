@@ -51,11 +51,11 @@ Supported variables
         {%- endunless -%}
 
         {%- if payment_button_background != blank and payment_button_background != 'rgba(0,0,0,0)' -%}
-          --button-background: {{ payment_button_background.red }} {{ payment_button_background.green }} {{ payment_button_background.blue }};
+          --button-background: {{ payment_button_background.rgb }};
         {%- endif -%}
 
         {%- if payment_button_text_color != blank and payment_button_text_color != 'rgba(0,0,0,0)' -%}
-          --button-text-color: {{ payment_button_text_color.red }} {{ payment_button_text_color.green }} {{ payment_button_text_color.blue }};
+          --button-text-color: {{ payment_button_text_color.rgb }};
         {%- endif -%}
         }
       </style>

@@ -55,6 +55,7 @@
   },
   "header": {
     "general": {
+      "account": "Paskyros",
       "open_menu": "Atidaryti naršymo meniu",
       "open_search": "Atidaryti paiešką",
       "open_account": "Atidaryti paskyros puslapį",
@@ -351,6 +352,7 @@
       "terms": "Rezultatai pagal užklausą „{{ terms }}“",
       "search_placeholder": "Ieškoti...",
       "products": "Prekės",
+      "suggestions": "Pasiūlymai",
       "collections": "Rinkiniai",
       "posts": "Tinklaraščio įrašai",
       "pages": "Puslapiai",

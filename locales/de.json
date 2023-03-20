@@ -55,6 +55,7 @@
   },
   "header": {
     "general": {
+      "account": "Kundenkontoseite",
       "open_menu": "Navigationsmenü öffnen",
       "open_search": "Suche öffnen",
       "open_account": "Kundenkontoseite öffnen",
@@ -346,6 +347,7 @@
       "terms": "Treffer für \"{{ terms }}\"",
       "search_placeholder": "Gib etwas ein...",
       "products": "Produkte",
+      "suggestions": "Anregungen",
       "collections": "Kategorien",
       "posts": "Blog-Artikel",
       "pages": "Seiten",

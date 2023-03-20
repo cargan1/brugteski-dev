@@ -42,11 +42,11 @@
     "cart_type": "popover",
     "cart_show_free_shipping_threshold": false,
     "cart_free_shipping_threshold": 0,
-    "social_facebook": "https:\/\/www.facebook.com\/brugteski.dk",
-    "social_instagram": "https:\/\/www.instagram.com\/brugteski.dk\/",
-    "social_youtube": "https:\/\/www.youtube.com\/channel\/UCcFKxvHt9BGjoHO6NizhidQ",
-    "social_linkedin": "https:\/\/www.linkedin.com\/company\/brugteski-dk-aps\/",
-    "favicon": "shopify:\/\/shop_images\/Brugteski.dk.logo11.png",
+    "social_facebook": "https://www.facebook.com/brugteski.dk",
+    "social_instagram": "https://www.instagram.com/brugteski.dk/",
+    "social_youtube": "https://www.youtube.com/channel/UCcFKxvHt9BGjoHO6NizhidQ",
+    "social_linkedin": "https://www.linkedin.com/company/brugteski-dk-aps/",
+    "favicon": "shopify://shop_images/Brugteski.dk.logo11.png",
     "checkout_logo_position": "left",
     "checkout_logo_size": "large",
     "checkout_sidebar_background_color": "#fafafa",
@@ -61,13 +61,11 @@
             "type": "message",
             "settings": {
               "text": "2 til 5 hverdages Levering | Gratis Fragt & Returnering | Tlf.: 3020 9975",
-              "url": "shopify:\/\/pages\/dig-som-kunde"
+              "url": "shopify://pages/dig-som-kunde"
             }
           }
         },
-        "block_order": [
-          "message"
-        ],
+        "block_order": ["message"],
         "settings": {
           "enable_sticky": false,
           "text_size": "text-xs",
@@ -87,13 +85,13 @@
               "menu_item": "Ski",
               "layout": "horizontal_center",
               "submenu_style": "bold_heading",
-              "image_1": "shopify:\/\/shop_images\/alleski.jpg",
+              "image_1": "shopify://shop_images/alleski.jpg",
               "image_heading_1": "",
-              "image_link_1": "shopify:\/\/collections\/alle-ski",
+              "image_link_1": "shopify://collections/alle-ski",
               "image_text_color_1": "#ffffff",
-              "image_2": "shopify:\/\/shop_images\/altskiudstyr.jpg",
+              "image_2": "shopify://shop_images/altskiudstyr.jpg",
               "image_heading_2": "",
-              "image_link_2": "shopify:\/\/collections\/alt-tilbehor",
+              "image_link_2": "shopify://collections/alt-tilbehor",
               "image_text_color_2": "#ffffff",
               "image_heading_3": "",
               "image_link_3": "",
@@ -112,9 +110,9 @@
               "menu_item": "Snowboard",
               "layout": "horizontal_center",
               "submenu_style": "bold_heading",
-              "image_1": "shopify:\/\/shop_images\/altsnowboard.jpg",
+              "image_1": "shopify://shop_images/altsnowboard.jpg",
               "image_heading_1": "",
-              "image_link_1": "shopify:\/\/collections\/alt-snowboard",
+              "image_link_1": "shopify://collections/alt-snowboard",
               "image_text_color_1": "#ffffff",
               "image_heading_2": "",
               "image_link_2": "",
@@ -136,9 +134,9 @@
               "menu_item": "Bag om",
               "layout": "horizontal_center",
               "submenu_style": "bold_heading",
-              "image_1": "shopify:\/\/shop_images\/skilager.jpg",
+              "image_1": "shopify://shop_images/skilager.jpg",
               "image_heading_1": "",
-              "image_link_1": "shopify:\/\/pages\/dig-som-kunde",
+              "image_link_1": "shopify://pages/dig-som-kunde",
               "image_text_color_1": "#ffffff",
               "image_heading_2": "",
               "image_link_2": "",
@@ -163,7 +161,7 @@
         "settings": {
           "enable_sticky": false,
           "hide_on_scroll": false,
-          "logo": "shopify:\/\/shop_images\/Brugteski.dk11.png",
+          "logo": "shopify://shop_images/Brugteski.dk11.png",
           "logo_max_width": 250,
           "logo_mobile_max_width": 170,
           "menu": "main-menu",
@@ -178,7 +176,7 @@
           "show_country_flag": false,
           "show_country_name": false,
           "transparent_header_text_color": "#ffffff",
-          "transparent_logo": "shopify:\/\/shop_images\/Brugteski.dk11.png",
+          "transparent_logo": "shopify://shop_images/Brugteski.dk11.png",
           "reduce_padding": true,
           "background_opacity": 100,
           "background_blur_radius": 0
@@ -191,11 +189,7 @@
           "show_shipping_text": true,
           "show_checkout_button": true,
           "recommendations_title": "Husk at tilkøbe...",
-          "products": [
-            "tecnica-storm",
-            "aplina-stovletaske",
-            "skitaske-sort"
-          ],
+          "products": ["tecnica-storm", "aplina-stovletaske", "skitaske-sort"],
           "product_card_background": "#ffffff",
           "product_card_text_color": ""
         }
@@ -227,7 +221,7 @@
               "icon_background": "",
               "icon_color": "",
               "title": "Levering",
-              "content": "<p>2-5 hverdages levering, med gratis fragt & returnering, på alle ordre.<\/p>"
+              "content": "<p>2-5 hverdages levering, med gratis fragt & returnering, på alle ordre.</p>"
             }
           },
           "discount": {
@@ -240,7 +234,7 @@
               "icon_background": "",
               "icon_color": "",
               "title": "4,5 stjerne på Trustpilot",
-              "content": "<p>Vi går efter at give ALLE vores kunder en god oplevelse.<\/p>"
+              "content": "<p>Vi går efter at give ALLE vores kunder en god oplevelse.</p>"
             }
           },
           "f32705e5-e809-47f3-be90-1e8b7791f23b": {
@@ -253,7 +247,7 @@
               "icon_background": "",
               "icon_color": "",
               "title": "Pasningsgaranti",
-              "content": "<p>Hvis du køber noget hos os, som ikke er som forventet, tilbyder vi 1 års pasningsgaranti.<\/p>"
+              "content": "<p>Hvis du køber noget hos os, som ikke er som forventet, tilbyder vi 1 års pasningsgaranti.</p>"
             }
           },
           "customer-support": {
@@ -266,7 +260,7 @@
               "icon_background": "",
               "icon_color": "",
               "title": "24 månederes fuld reklamationsret",
-              "content": "<p>Skulle der været noget galt med dit udstyr, kan du altid anvende din reklamationsret.<\/p>"
+              "content": "<p>Skulle der været noget galt med dit udstyr, kan du altid anvende din reklamationsret.</p>"
             }
           },
           "payment": {
@@ -279,7 +273,7 @@
               "icon_background": "",
               "icon_color": "",
               "title": "E-mærket webshop",
-              "content": "<p>Sikker & tryg e-handel igennem verificeret E-mærket webshop.<\/p>"
+              "content": "<p>Sikker & tryg e-handel igennem verificeret E-mærket webshop.</p>"
             }
           }
         },
@@ -315,21 +309,21 @@
             "type": "text",
             "settings": {
               "title": "Showroom",
-              "content": "<p><a href=\"\/pages\/showroom-og-vores-abningstider\" title=\"Showroom og vores åbningstider\">Besøg vores showroom<\/a>, hvor du kan  se og prøve alt vores udstyr.<\/p><p><strong>Showroom åbningstider:<br\/><\/strong>Mandag-Fredag: Lukket<br\/>Lørdag: Lukket<br\/>Søndag: Lukket<\/p><p><strong>Ops.: <\/strong>Vi åbner for vores showroom igen til <strong>oktober 2023.<br\/><\/strong><\/p>"
+              "content": "<p><a href=\"/pages/showroom-og-vores-abningstider\" title=\"Showroom og vores åbningstider\">Besøg vores showroom</a>, hvor du kan  se og prøve alt vores udstyr.</p><p><strong>Showroom åbningstider:<br/></strong>Mandag-Fredag: Lukket<br/>Lørdag: Lukket<br/>Søndag: Lukket</p><p><strong>Ops.: </strong>Vi åbner for vores showroom igen til <strong>oktober 2023.<br/></strong></p>"
             }
           },
           "afcbebc9-1170-40d4-886a-037780e234e4": {
             "type": "text",
             "settings": {
               "title": "Kontakt",
-              "content": "<p><strong>Telefon<br\/><\/strong>Tlf.: +45 3020 9975<br\/>Alle dage fra kl. 10-18<\/p><p><strong>Mail<br\/><\/strong>Mail: info@brugteski.dk<strong><br\/><\/strong>Svarer indenfor 24 timer<\/p><p><strong>Adresse<br\/><\/strong>Brugteski.dk ApS<strong><br\/><\/strong>Krogsagervej 50, 2<br\/>7000 Fredericia<br\/>CVR: 40804455<\/p>"
+              "content": "<p><strong>Telefon<br/></strong>Tlf.: +45 3020 9975<br/>Alle dage fra kl. 10-18</p><p><strong>Mail<br/></strong>Mail: info@brugteski.dk<strong><br/></strong>Svarer indenfor 24 timer</p><p><strong>Adresse<br/></strong>Brugteski.dk ApS<strong><br/></strong>Krogsagervej 50, 2<br/>7000 Fredericia<br/>CVR: 40804455</p>"
             }
           },
           "42290695-b02a-4385-b06b-249c0aa04de4": {
             "type": "text",
             "settings": {
               "title": "Om os",
-              "content": "<p>Brugteski.dk er danmarks største forhandler af brugt skiudstyr. Vores mål er, at gøre det nemt og billigt for alle niveauer af skiløbere, at skaffe godt udstyr!<br\/><a href=\"\/pages\/hvem-er-vi\" title=\"Bag om Brugteski.dk\">Læs mere om teamet her.<\/a><\/p><p><strong><br\/><\/strong><\/p><p><\/p>"
+              "content": "<p>Brugteski.dk er danmarks største forhandler af brugt skiudstyr. Vores mål er, at gøre det nemt og billigt for alle niveauer af skiløbere, at skaffe godt udstyr!<br/><a href=\"/pages/hvem-er-vi\" title=\"Bag om Brugteski.dk\">Læs mere om teamet her.</a></p><p><strong><br/></strong></p><p></p>"
             }
           }
         },
@@ -348,31 +342,26 @@
           "show_locale_selector": false,
           "show_privacy_bar": false,
           "privacy_bar_title": "Cookie policy",
-          "privacy_bar_content": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.<\/p>"
+          "privacy_bar_content": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.</p>"
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "6406956604159796213": {
-        "type": "shopify:\/\/apps\/smartseo\/blocks\/smartseo\/7b0a6064-ca2e-4392-9a1d-8c43c942357b",
+        "type": "shopify://apps/smartseo/blocks/smartseo/7b0a6064-ca2e-4392-9a1d-8c43c942357b",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "16735461377607925125": {
-        "type": "shopify:\/\/apps\/roar-terms-and-conditions-box\/blocks\/app-embed\/17661ca5-aeea-41b9-8091-d8f7233e8b22",
+        "type": "shopify://apps/roar-terms-and-conditions-box/blocks/app-embed/17661ca5-aeea-41b9-8091-d8f7233e8b22",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       }
     }
   },
@@ -417,9 +406,7 @@
               }
             }
           },
-          "block_order": [
-            "message"
-          ],
+          "block_order": ["message"],
           "settings": {
             "enable_sticky": false,
             "text_size": "text-xs",
@@ -482,7 +469,7 @@
                 "icon_width": 24,
                 "icon_background_type": "none",
                 "title": "Free shipping",
-                "content": "<p>Tell your customers about your shipping offer.<\/p>"
+                "content": "<p>Tell your customers about your shipping offer.</p>"
               }
             },
             "customer-support": {
@@ -493,7 +480,7 @@
                 "icon_width": 24,
                 "icon_background_type": "none",
                 "title": "Customer service",
-                "content": "<p>Tell your customers how they can reach you.<\/p>"
+                "content": "<p>Tell your customers how they can reach you.</p>"
               }
             },
             "discount": {
@@ -504,7 +491,7 @@
                 "icon_width": 24,
                 "icon_background_type": "none",
                 "title": "Refer a friend",
-                "content": "<p>Tell your customers about your promotional offers.<\/p>"
+                "content": "<p>Tell your customers about your promotional offers.</p>"
               }
             },
             "payment": {
@@ -515,7 +502,7 @@
                 "icon_width": 24,
                 "icon_background_type": "none",
                 "title": "Secure payment",
-                "content": "<p>Tel your customers about your payment methods.<\/p>"
+                "content": "<p>Tel your customers about your payment methods.</p>"
               }
             }
           },
@@ -556,15 +543,11 @@
               "type": "text",
               "settings": {
                 "title": "About",
-                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>"
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>"
               }
             }
           },
-          "block_order": [
-            "newsletter",
-            "links",
-            "text"
-          ],
+          "block_order": ["newsletter", "links", "text"],
           "settings": {
             "show_social_media": true,
             "show_payment_icons": true,
@@ -574,7 +557,7 @@
             "show_locale_selector": true,
             "show_privacy_bar": true,
             "privacy_bar_title": "Cookie policy",
-            "privacy_bar_content": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.<\/p>"
+            "privacy_bar_content": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.</p>"
           }
         }
       }
@@ -624,9 +607,7 @@
               }
             }
           },
-          "block_order": [
-            "message"
-          ],
+          "block_order": ["message"],
           "settings": {
             "enable_sticky": false,
             "text_size": "text-xs",
@@ -680,15 +661,11 @@
               "type": "text",
               "settings": {
                 "title": "About",
-                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>"
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>"
               }
             }
           },
-          "block_order": [
-            "newsletter",
-            "links",
-            "text"
-          ],
+          "block_order": ["newsletter", "links", "text"],
           "settings": {
             "show_social_media": true,
             "show_payment_icons": true,
@@ -698,7 +675,7 @@
             "show_country_name": true,
             "show_privacy_bar": true,
             "privacy_bar_title": "Cookie policy",
-            "privacy_bar_content": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.<\/p>"
+            "privacy_bar_content": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.</p>"
           }
         },
         "static-text-with-icons": {
@@ -712,7 +689,7 @@
                 "icon_width": 24,
                 "icon_background_type": "none",
                 "title": "Free shipping",
-                "content": "<p>Tell your customers about your shipping offer.<\/p>"
+                "content": "<p>Tell your customers about your shipping offer.</p>"
               }
             },
             "customer-support": {
@@ -723,7 +700,7 @@
                 "icon_width": 24,
                 "icon_background_type": "none",
                 "title": "Customer service",
-                "content": "<p>Tell your customers how they can reach you.<\/p>"
+                "content": "<p>Tell your customers how they can reach you.</p>"
               }
             },
             "discount": {
@@ -734,7 +711,7 @@
                 "icon_width": 24,
                 "icon_background_type": "none",
                 "title": "Refer a friend",
-                "content": "<p>Tell your customers about your promotional offers.<\/p>"
+                "content": "<p>Tell your customers about your promotional offers.</p>"
               }
             },
             "payment": {
@@ -745,7 +722,7 @@
                 "icon_width": 24,
                 "icon_background_type": "none",
                 "title": "Secure payment",
-                "content": "<p>Tel your customers about your payment methods.<\/p>"
+                "content": "<p>Tel your customers about your payment methods.</p>"
               }
             }
           },
@@ -824,9 +801,7 @@
               }
             }
           },
-          "block_order": [
-            "message"
-          ],
+          "block_order": ["message"],
           "settings": {
             "enable_sticky": false,
             "text_size": "text-xs",
@@ -888,7 +863,7 @@
                 "icon_width": 24,
                 "icon_background_type": "none",
                 "title": "Free shipping",
-                "content": "<p>Tell your customers about your shipping offer.<\/p>"
+                "content": "<p>Tell your customers about your shipping offer.</p>"
               }
             },
             "customer-support": {
@@ -899,7 +874,7 @@
                 "icon_width": 24,
                 "icon_background_type": "none",
                 "title": "Customer service",
-                "content": "<p>Tell your customers how they can reach you.<\/p>"
+                "content": "<p>Tell your customers how they can reach you.</p>"
               }
             },
             "discount": {
@@ -910,7 +885,7 @@
                 "icon_width": 24,
                 "icon_background_type": "none",
                 "title": "Refer a friend",
-                "content": "<p>Tell your customers about your promotional offers.<\/p>"
+                "content": "<p>Tell your customers about your promotional offers.</p>"
               }
             },
             "payment": {
@@ -921,7 +896,7 @@
                 "icon_width": 24,
                 "icon_background_type": "none",
                 "title": "Secure payment",
-                "content": "<p>Tel your customers about your payment methods.<\/p>"
+                "content": "<p>Tel your customers about your payment methods.</p>"
               }
             }
           },
@@ -962,15 +937,11 @@
               "type": "text",
               "settings": {
                 "title": "About",
-                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>"
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>"
               }
             }
           },
-          "block_order": [
-            "newsletter",
-            "links",
-            "text"
-          ],
+          "block_order": ["newsletter", "links", "text"],
           "settings": {
             "show_social_media": true,
             "show_payment_icons": true,
@@ -980,7 +951,7 @@
             "show_locale_selector": true,
             "show_privacy_bar": true,
             "privacy_bar_title": "Cookie policy",
-            "privacy_bar_content": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.<\/p>"
+            "privacy_bar_content": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.</p>"
           }
         }
       }

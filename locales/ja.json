@@ -55,6 +55,7 @@
   },
   "header": {
     "general": {
+      "account": "アカウント",
       "open_menu": "メニューを開く",
       "open_search": "検索を開く",
       "open_account": "アカウントページに移動する",
@@ -274,7 +275,7 @@
       "delete": "削除",
       "default_address": "デフォルトの住所",
       "address_title": "登録された住所数 {{ position }}",
-      "delete_confirm": "このアドレスを削除してよろしいですか？",
+      "delete_confirm": "この住所を削除してよろしいですか？",
       "fill_form": "以下のフォームを入力してください：",
       "first_name": "名",
       "last_name": "姓",
@@ -346,6 +347,7 @@
       "terms": "\"{{terms}}\" の検索結果",
       "search_placeholder": "何をお探しですか？",
       "products": "商品",
+      "suggestions": "候補",
       "collections": "コレクション",
       "posts": "ブログ",
       "pages": "ページ",

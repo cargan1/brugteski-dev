@@ -78,9 +78,13 @@ LIQUID
         </div>
 
         <div class="before-after__cursor-wrapper">
-          <split-cursor class="before-after__cursor">
+          <split-cursor class="before-after__cursor" style="--background: {{ section.settings.drag_cursor_background.rgb }}">
             <span class="sr-only">{{ 'general.accessibility.drag' | t }}</span>
-            {%- render 'icon' with 'drag-handle' -%}
+
+            <svg role="presentation" focusable="false" width="28" height="35" viewBox="0 0 32 40">
+              <path d="M0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16V24C32 32.8366 24.8366 40 16 40C7.16344 40 0 32.8366 0 24V16Z" fill="{{ section.settings.drag_cursor_background }}"></path>
+              <path fill="{{ section.settings.drag_cursor_color }}" d="M11 14H13V26H11zM15 14H17V26H15zM19 14H21V26H19z"></path>
+            </svg>
           </split-cursor>
         </div>
       </div>
@@ -93,6 +97,9 @@ LIQUID
   "name": "Before/after image",
   "class": "shopify-section--before-after-image",
   "tag": "section",
+  "disabled_on": {
+    "groups": ["header", "custom.overlay"]
+  },
   "settings": [
     {
       "type": "checkbox",
@@ -224,6 +231,18 @@ LIQUID
       "id": "after_text_color",
       "label": "After text",
       "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "drag_cursor_background",
+      "label": "Drag cursor background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "drag_cursor_color",
+      "label": "Drag cursor color",
+      "default": "#000000"
     }
   ],
   "presets": [

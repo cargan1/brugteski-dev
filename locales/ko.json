@@ -55,6 +55,7 @@
   },
   "header": {
     "general": {
+      "account": "계정",
       "open_menu": "탐색 메뉴 열기",
       "open_search": "검색 열기",
       "open_account": "계정 페이지 열기",
@@ -346,6 +347,7 @@
       "terms": "\"{{ terms }}\" 검색 결과",
       "search_placeholder": "검색...",
       "products": "상품",
+      "suggestions": "제안",
       "collections": "컬렉션",
       "posts": "블로그 게시물",
       "pages": "페이지",

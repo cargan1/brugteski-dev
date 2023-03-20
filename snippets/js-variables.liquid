@@ -77,10 +77,10 @@
     try {
       const recentlyViewedProducts = new Set(JSON.parse(localStorage.getItem('theme:recently-viewed-products') || '[]'));
 
-      recentlyViewedProducts.delete({{ product.id }}); // Delete first to re-move the product to the start
+      recentlyViewedProducts.delete({{ product.id }}); // Delete first to re-move the product
       recentlyViewedProducts.add({{ product.id }});
 
-      localStorage.setItem('theme:recently-viewed-products', JSON.stringify(Array.from(recentlyViewedProducts.values())));
+      localStorage.setItem('theme:recently-viewed-products', JSON.stringify(Array.from(recentlyViewedProducts.values()).reverse()));
     } catch (e) {
       // Safari in private mode does not allow setting item, we silently fail
     }

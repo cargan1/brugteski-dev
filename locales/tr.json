@@ -55,6 +55,7 @@
   },
   "header": {
     "general": {
+      "account": "Hesap sayfasını aç",
       "open_menu": "Navigasyon menüsünü aç",
       "open_search": "Aramayı aç",
       "open_account": "Hesap sayfasını aç",
@@ -346,6 +347,7 @@
       "terms": "\"{{ terms }}\" için sonuçlar",
       "search_placeholder": "Arayın...",
       "products": "Ürünler",
+      "suggestions": "Öneriler",
       "collections": "Koleksiyonlar",
       "posts": "Blog gönderileri",
       "pages": "Sayfalar",

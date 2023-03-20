@@ -60,7 +60,6 @@ Color swatch specific parameters:
   {%- endfor -%}
 {%- endif -%}
 
-
 {%- unless href -%}
   <input class="sr-only" type="{% if allow_multiple %}checkbox{% else %}radio{% endif %}" name="{{ name }}" {% if form %}form="{{ form | escape }}"{% endif %} id="{{ id | escape }}" value="{{ value | escape }}" {% if disabled %}disabled{% endif %} {% if selected %}checked="checked"{% endif %}>
 {%- endunless -%}
@@ -79,16 +78,29 @@ Color swatch specific parameters:
           {{- media | image_url: width: media.width | image_tag: loading: 'lazy', sizes: '60px', widths: '60,120', class: 'object-cover' -}}
         </label>
       {%- endif -%}
+    {%- else -%}
+      <label class="block-swatch" for="{{ id | escape }}" data-option-value>{{ value }}</label>
     {%- endif -%}
 
   {%- when 'block' -%}
-    <label class="block-swatch" for="{{ id | escape }}" data-option-value>
-      {%- if show_color -%}
-        <span class="block-swatch__color" style="{{ swatch_style }}"></span>
-      {%- endif -%}
+    {%- if href -%}
+      <a href="{{ href }}" class="block-swatch {% if selected %}is-selected{% endif %}">
+        {%- if show_color -%}
+          <span class="block-swatch__color" style="{{ swatch_style }}"></span>
+        {%- endif -%}
 
-      <span>{{ value }}</span>
-    </label>
+        <span>{{ value }}</span>
+      </a>
+
+    {%- else -%}
+      <label class="block-swatch" for="{{ id | escape }}" data-option-value>
+        {%- if show_color -%}
+          <span class="block-swatch__color" style="{{ swatch_style }}"></span>
+        {%- endif -%}
+
+        <span>{{ value }}</span>
+      </label>
+    {%- endif -%}
 
   {%- when 'color' -%}
     {%- assign white_label = 'general.label.white' | t | downcase -%}

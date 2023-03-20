@@ -44,8 +44,8 @@ only way to do it on Shopify right now.
 
   <div class="product-gallery__ar-wrapper">
     <div class="product-gallery__media-list-wrapper">
-      {%- if section.settings.desktop_media_layout contains 'carousel' -%}
-        <custom-cursor class="product-gallery__cursor">
+      {%- if section.settings.desktop_media_layout contains 'carousel' and product.media.size > 1 -%}
+        <custom-cursor class="product-gallery__cursor" {% if default_media.media_type != 'image' %}hidden{% endif %}>
           <div class="circle-button circle-button--fill circle-button--lg">
             {%- render 'icon' with 'chevron-right' -%}
           </div>
@@ -69,10 +69,10 @@ only way to do it on Shopify right now.
               {%- capture sizes -%}(max-width: 740px) calc(100vw - 40px), (max-width: 999px) calc(100vw - 64px), min(730px, 40vw){%- endcapture -%}
 
             {%- when 'grid' -%}
-              {%- capture sizes -%}(max-width: 740px) calc(100vw - 40px), (max-width: 999px) calc(100vw - 64px), min(480px, 21vw){%- endcapture -%}
+              {%- capture sizes -%}(max-width: 740px) calc(100vw - 40px), (max-width: 999px) calc(100vw - 64px), min(580px, 30vw){%- endcapture -%}
 
             {% when 'grid_highlight' %}
-              {%- capture sizes -%}(max-width: 740px) calc(100vw - 40px), (max-width: 999px) calc(100vw - 64px), {% if forloop.first or media_attached_to_variant contains media.src %}min(900px, 46vw){% else %}min(480px, 21vw){% endif %}{%- endcapture -%}
+              {%- capture sizes -%}(max-width: 740px) calc(100vw - 40px), (max-width: 999px) calc(100vw - 64px), {% if forloop.first or media_attached_to_variant contains media.src %}min(1200px, 60vw){% else %}min(580px, 30vw){% endif %}{%- endcapture -%}
           {%- endcase -%}
 
           <div class="product-gallery__media {% if media.alt contains '@expand' %}product-gallery__media--expand{% endif %} {% if section.settings.mobile_carousel_control != 'free_scroll' %}snap-center{% endif %}" data-media-type="{{ media.media_type }}" data-media-id="{{ media.id }}" {% if filtered_indexes contains media.position %}hidden{% endif %}>

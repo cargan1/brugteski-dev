@@ -55,6 +55,7 @@
   },
   "header": {
     "general": {
+      "account": "Conta",
       "open_menu": "Abrir menu de navegação",
       "open_search": "Abrir pesquisa",
       "open_account": "Abrir página de conta",
@@ -346,6 +347,7 @@
       "terms": "Resultados para \"{{terms}}\"",
       "search_placeholder": "Pesquisar por...",
       "products": "Produtos",
+      "suggestions": "Sugestões",
       "collections": "Coleções",
       "posts": "Posts de blog",
       "pages": "Páginas",
