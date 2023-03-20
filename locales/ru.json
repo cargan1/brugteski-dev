@@ -55,6 +55,7 @@
   },
   "header": {
     "general": {
+      "account": "аккаунта",
       "open_menu": "Открыть меню навигации",
       "open_search": "Открыть поиск",
       "open_account": "Открыть страницу аккаунта",
@@ -346,6 +347,7 @@
       "terms": "Результаты по запросу \"{{ terms }}\"",
       "search_placeholder": "Найти...",
       "products": "Товары",
+      "suggestions": "Рекомендации",
       "collections": "Коллекции",
       "posts": "Публикации в блоге",
       "pages": "Страницы",

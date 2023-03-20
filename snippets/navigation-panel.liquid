@@ -1,19 +1,19 @@
 {%- comment -%}
-  ----------------------------------------------------------------------------------------------------------------------
-  MEGA MENU PANEL
-  ----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+MEGA MENU PANEL
+----------------------------------------------------------------------------------------------------------------------
 
-  This component is used to show the different links in different panel for the menu drawer
+This component is used to show the different links in different panel for the menu drawer
 
-  ********************************************
-  Supported variables
-  ********************************************
+********************************************
+Supported variables
+********************************************
 
-  * main_menu
-  * secondary_menu
-  * mega_menu_block: use when mega menu is set to drawer
-  * is_mega_menu: set to true if mega menu is set to drawer
-  * layout
+* main_menu: the menu to show for the primary menu
+* secondary_menu: the secondary menu (shown on mobile)
+* mega_menu_block: use when mega menu is set to drawer
+* is_mega_menu: set to true if mega menu is set to drawer
+* layout
 {%- endcomment -%}
 
 <div class="panel-list__wrapper">
@@ -71,100 +71,104 @@
               {%- endif -%}
             </li>
 
-            {%- if link.links.size > 0 or mega_menu_block != '' -%}
+            {%- if link.links.size > 0 or mega_menu_block != '' and is_mega_menu == false -%}
               {%- capture link_level_2 -%}
                 {{- link_level_2 -}}
-                <div class="panel__wrapper" {% if mega_menu_block.settings.promo_content_layout == 'grid' or mega_menu_block.settings.promo_content_layout == 'collage' %}style="--panel-wrapper-justify-content: flex-start"{% endif %} hidden>
-                    <ul class="v-stack {% if is_mage_menu and is_image_shown == 'show' %}gap-3{% else %}gap-4{% endif %}">
-                      <li class="{% if layout != 'drawer' %}lg:hidden{% endif %}">
-                        <button class="text-with-icon h6 text-subdued" data-panel="0">
-                          {%- render 'icon' with 'chevron-left', direction_aware: true -%} {{ link.title }}
-                        </button>
-                      </li>
 
-                      {%- if link.links.size > 0 -%}
-                        {%- for sub_link in link.links -%}
-                          <li class="h3 {% if is_mega_menu %}sm:h5{% else %}sm:h4{% endif %}">
-                            {%- if sub_link.links.size > 0 -%}
-                              <button class="text-with-icon w-full justify-between" aria-expanded="false" data-panel="2-{% increment level_2 %}">
-                                <span>{{ sub_link.title }}</span>
-                                <span class="circle-chevron group-hover:colors group-expanded:colors">{%- render 'icon' with 'chevron-right-small', direction_aware: true -%}</span>
-                              </button>
-                            {%- else -%}
-                              <a class="group {% if is_image_shown and is_mega_menu %}h-stack gap-4{% else %}block w-full{% endif %}" href="{{ sub_link.url }}">
-                                {%- if is_image_shown and sub_link.object != blank and is_mega_menu -%}
-                                  {%- case sub_link.type -%}
+                <div class="panel__wrapper" {% if mega_menu_block.settings.promo_content_layout == 'grid' or mega_menu_block.settings.promo_content_layout == 'collage' %}style="--panel-wrapper-justify-content: flex-start"{% endif %} hidden>
+                  <ul class="v-stack {% if is_mega_menu and is_image_shown == 'show' %}gap-3{% else %}gap-4{% endif %}">
+                    <li class="{% if layout != 'drawer' %}lg:hidden{% endif %}">
+                      <button class="text-with-icon h6 text-subdued" data-panel="0">
+                        {%- render 'icon' with 'chevron-left', direction_aware: true -%} {{ link.title }}
+                      </button>
+                    </li>
+
+                    {%- if link.links.size > 0 -%}
+                      {%- for sub_link in link.links -%}
+                        <li class="h3 {% if is_mega_menu %}sm:h5{% else %}sm:h4{% endif %}">
+                          {%- if sub_link.links.size > 0 -%}
+                            <button class="text-with-icon w-full justify-between" aria-expanded="false" data-panel="2-{% increment level_2 %}">
+                              <span>{{ sub_link.title }}</span>
+                              <span class="circle-chevron group-hover:colors group-expanded:colors">{%- render 'icon' with 'chevron-right-small', direction_aware: true -%}</span>
+                            </button>
+                          {%- else -%}
+                            <a class="group {% if is_image_shown and is_mega_menu %}h-stack gap-4{% else %}block w-full{% endif %}" href="{{ sub_link.url }}">
+                              {%- if is_image_shown and sub_link.object != blank and is_mega_menu -%}
+                                {%- assign sub_link_image = '' -%}
+
+                                {%- case sub_link.type -%}
                                   {%- when 'collection_link' -%}
-                                  {%- assign sub_link_image = sub_link.object.products.first.featured_media -%}
+                                    {%- assign sub_link_image = sub_link.object.products.first.featured_media -%}
 
                                   {%- when 'product_link' -%}
-                                  {%- assign sub_link_image = sub_link.object.featured_media -%}
+                                    {%- assign sub_link_image = sub_link.object.featured_media -%}
 
                                   {%- when 'blog_link' -%}
-                                  {%- assign sub_link_image = sub_link.object.articles.first.image -%}
+                                    {%- assign sub_link_image = sub_link.object.articles.first.image -%}
 
                                   {%- when 'article_link' -%}
-                                  {%- assign sub_link_image = sub_link.object.image -%}
+                                    {%- assign sub_link_image = sub_link.object.image -%}
+                                {%- endcase -%}
 
-                                  {%- endcase -%}
-
-                                  {%- if sub_link_image -%}
-                                    {{- sub_link_image | image_url: width: 120, height: 120, crop: 'center' | image_tag: loading: 'lazy', sizes: '60px', widths: '120', class: 'panel-link__image rounded' -}}
-                                  {%- endif -%}
+                                {%- if sub_link_image != '' -%}
+                                  {{- sub_link_image | image_url: width: 120 | image_tag: loading: 'lazy', sizes: '60px', widths: '120', class: 'panel-link__image rounded' -}}
                                 {%- endif -%}
+                              {%- endif -%}
 
-                                <span><span class="reversed-link">{{ sub_link.title }}</span></span>
-                              </a>
-                            {%- endif -%}
-                          </li>
+                              <span><span class="reversed-link">{{ sub_link.title }}</span></span>
+                            </a>
+                          {%- endif -%}
+                        </li>
 
-                          {%- if sub_link.links.size > 0 -%}
-                            {%- capture link_level_3 -%}
-                              {{- link_level_3 -}}
-                              <div class="panel__wrapper" hidden>
-                                <ul class="v-stack {% if is_image_shown %}gap-3{% else %}gap-4{% endif %}">
-                                  <li class="text-with-icon {% if layout != 'drawer' %}lg:hidden{% endif %}">
-                                    <button class="text-with-icon h6 text-subdued" data-panel="1">
-                                      {%- render 'icon' with 'chevron-left', direction_aware: true -%} {{ sub_link.title }}
-                                    </button>
-                                  </li>
+                        {%- if sub_link.links.size > 0 -%}
+                          {%- capture link_level_3 -%}
+                            {{- link_level_3 -}}
 
-                                  {%- for sub_sub_link in sub_link.links -%}
-                                    <li class="{% if mobile_opening == 'left' %}h3{% else %}h5{% endif %} sm:h5">
-                                      <a class="group {% if is_image_shown %}h-stack gap-4{% else %}block w-full{% endif %}"
-                                         href="{{ sub_sub_link.url }}">
-                                        {%- if is_image_shown and sub_sub_link.object != blank -%}
-                                          {%- case sub_sub_link.type -%}
+                            <div class="panel__wrapper" hidden>
+                              <ul class="v-stack {% if is_image_shown %}gap-3{% else %}gap-4{% endif %}">
+                                <li class="text-with-icon {% if layout != 'drawer' %}lg:hidden{% endif %}">
+                                  <button class="text-with-icon h6 text-subdued" data-panel="1">
+                                    {%- render 'icon' with 'chevron-left', direction_aware: true -%} {{ sub_link.title }}
+                                  </button>
+                                </li>
+
+                                {%- for sub_sub_link in sub_link.links -%}
+                                  <li class="{% if mobile_opening == 'left' %}h3{% else %}h5{% endif %} sm:h5">
+                                    <a class="group {% if is_image_shown %}h-stack gap-4{% else %}block w-full{% endif %}"
+                                       href="{{ sub_sub_link.url }}">
+                                      {%- if is_image_shown and sub_sub_link.object != blank -%}
+                                        {%- assign sub_sub_link_image = '' -%}
+
+                                        {%- case sub_sub_link.type -%}
                                           {%- when 'collection_link' -%}
-                                          {%- assign sub_sub_link_image = sub_sub_link.object.products.first.featured_media -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.products.first.featured_media -%}
 
                                           {%- when 'product_link' -%}
-                                          {%- assign sub_sub_link_image = sub_sub_link.object.featured_media -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.featured_media -%}
 
                                           {%- when 'blog_link' -%}
-                                          {%- assign sub_sub_link_image = sub_sub_link.object.articles.first.image -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.articles.first.image -%}
 
                                           {%- when 'article_link' -%}
-                                          {%- assign sub_sub_link_image = sub_sub_link.object.image -%}
+                                            {%- assign sub_sub_link_image = sub_sub_link.object.image -%}
+                                        {%- endcase -%}
 
-                                          {%- endcase -%}
-
-                                          {%- if sub_sub_link_image -%}
-                                            {{- sub_sub_link_image | image_url: width: 104, height: 104, crop: 'center' | image_tag: loading: 'lazy', sizes: '52px', widths: '52,104', class: 'panel-link__image rounded' -}}
-                                          {%- endif -%}
+                                        {%- if sub_sub_link_image != '' -%}
+                                          {{- sub_sub_link_image | image_url: width: 104 | image_tag: loading: 'lazy', sizes: '52px', widths: '52,104', class: 'panel-link__image rounded' -}}
                                         {%- endif -%}
+                                      {%- endif -%}
 
-                                        <span><span class="reversed-link">{{ sub_sub_link.title }}</span></span>
-                                      </a>
-                                    </li>
-                                  {%- endfor -%}
-                                </ul>
-                              </div>
-                            {%- endcapture -%}
-                          {%- endif -%}
-                        {%- endfor -%}
-                      {%- endif -%}
-                    </ul>
+                                      <span><span class="reversed-link">{{ sub_sub_link.title }}</span></span>
+                                    </a>
+                                  </li>
+                                {%- endfor -%}
+                              </ul>
+                            </div>
+                          {%- endcapture -%}
+                        {%- endif -%}
+                      {%- endfor -%}
+                    {%- endif -%}
+                  </ul>
 
                   {%- unless is_mega_menu -%}
                     {%- if mega_menu_block != '' -%}
@@ -192,9 +196,9 @@
         {%- render 'navigation-promo-block', navigation_layout: layout, mega_menu_block: mega_menu_block, is_navigation_drawer: true, link_col: link.links.size -%}
       {%- else -%}
         {%- comment -%}
-          ----------------------------------------------------------------------------------------------------------------
-          SOCIAL MEDIA + LOCALIZATION
-          ----------------------------------------------------------------------------------------------------------------
+        ----------------------------------------------------------------------------------------------------------------
+        SOCIAL MEDIA + LOCALIZATION
+        ----------------------------------------------------------------------------------------------------------------
         {%- endcomment -%}
 
         {%- if section.settings.show_social_media -%}
@@ -209,18 +213,22 @@
           {%- assign locale_selector = true -%}
         {%- endif -%}
 
-        {%- if social_media != blank or country_selector or locale_selector -%}
-          <div class="panel-footer v-stack gap-5 divide-y">
+        {%- if social_media != blank or country_selector or locale_selector or shop.customer_accounts_enabled -%}
+          <div class="panel-footer v-stack gap-5">
             {{- social_media -}}
 
-            {%- if country_selector or locale_selector -%}
-              <div class="h-stack gap-6 md:hidden">
+            {%- if country_selector or locale_selector or shop.customer_accounts_enabled -%}
+              <div class="panel-footer__localization-wrapper h-stack gap-6 border-t md:hidden">
                 {%- if country_selector -%}
                   {%- render 'localization-selector', type: 'country', show_country_name: show_country_name, show_country_flag: show_country_flag -%}
                 {%- endif -%}
 
                 {%- if locale_selector -%}
                   {%- render 'localization-selector', type: 'locale' -%}
+                {%- endif -%}
+
+                {%- if shop.customer_accounts_enabled -%}
+                  <a href="{{ routes.account_url }}" class="panel-footer__account-link bold text-sm">{{- 'header.general.account' | t -}}</a>
                 {%- endif -%}
               </div>
             {%- endif -%}

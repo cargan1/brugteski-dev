@@ -55,6 +55,7 @@
   },
   "header": {
     "general": {
+      "account": "開啟帳戶頁面",
       "open_menu": "開啟導覽選單",
       "open_search": "開啟搜尋",
       "open_account": "開啟帳戶頁面",
@@ -346,6 +347,7 @@
       "terms": "搜尋「{{ terms }}」的結果",
       "search_placeholder": "搜尋...",
       "products": "產品",
+      "suggestions": "建議",
       "collections": "系列",
       "posts": "部落格文章",
       "pages": "頁面",

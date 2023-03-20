@@ -1,1 +1,513 @@
-{"sections":{"slideshow":{"type":"slideshow","blocks":{"slide-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/mandogbjerg1.jpg","mobile_image":"shopify:\/\/shop_images\/mandogbjerg1_2x_82f0b806-cb16-45eb-9a84-8ed99ff2459d.jpg","content_max_width":780,"mobile_text_position":"place-self-center text-center","desktop_text_position":"sm:place-self-center sm:text-center","subheading":"","title":"","heading_tag":"h0","button_text":"","button_link":"","text_color":"#ffffff","button_background":"#ffffff","button_text_color":"#000000","overlay_color":"#000000","overlay_opacity":0,"background":"","background_gradient":""}}},"block_order":["slide-1"],"settings":{"full_width":true,"allow_transparent_header":true,"image_size":"auto","controls_type":"numbers","transition_type":"fade_with_text","autoplay":true,"cycle_speed":6,"background":"#f2f2f2","background_gradient":"linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"}},"collection-list":{"type":"collection-list","blocks":{"collection-1":{"type":"collection","settings":{"collection":"alle-ski","image":"shopify:\/\/shop_images\/alleski.jpg","subheading":"","title":"","url":"","heading_tag":"h2","text_position":"place-self-center text-center","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"collection-2":{"type":"collection","settings":{"collection":"alt-tilbehor","image":"shopify:\/\/shop_images\/altskiudstyr.jpg","subheading":"","title":"","url":"","heading_tag":"h2","text_position":"place-self-center text-center","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"collection-3":{"type":"collection","settings":{"collection":"alt-snowboard","image":"shopify:\/\/shop_images\/altsnowboard.jpg","subheading":"","title":"Alt til snowboard","url":"","heading_tag":"h2","text_position":"place-self-center text-center","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}}},"block_order":["collection-1","collection-2","collection-3"],"settings":{"full_width":false,"stack_collections":true,"collections_per_row":3,"show_progress_bar":false,"subheading":"","title":"","content":"<p>Se vores udvalg af Ski, Skiudstyr & Snowboard udstyr her<\/p>","link_url":"shopify:\/\/collections","link_text":"Vis alle","background":"","background_gradient":"","text_color":"","heading_color":"","heading_gradient":""}},"05aee10a-f02b-4915-a255-38655f750af4":{"type":"impact-text","blocks":{"template--14429261365283__05aee10a-f02b-4915-a255-38655f750af4-1666275630f7cd089e-0":{"type":"item","settings":{"title":"100%","subheading":"gratis fragt & returnering - på alle ordre.","content":"","button_text":"","button_url":"","animate_impact_text":true,"animate_impact_text_duration":2}}},"block_order":["template--14429261365283__05aee10a-f02b-4915-a255-38655f750af4-1666275630f7cd089e-0"],"settings":{"full_width":true,"stack_mobile":true,"text_alignment":"center","impact_text_style":"fill","text_divider":"none","impact_text_size_ratio":1,"background":"","background_gradient":"","heading_text_color":"","heading_gradient":"linear-gradient(0deg, rgba(250, 250, 250, 1) 13%, rgba(26, 26, 26, 0.76) 86%)","text_color":"","button_background":"","button_text_color":""}},"featured-collection":{"type":"featured-collection","settings":{"collection":"herre-og-dameski","products":[],"full_width":false,"stack_products":false,"show_progress_bar":true,"products_count":28,"products_per_row_mobile":"2","products_per_row_desktop":5,"subheading":"","title":"Herre- & Dameski","content":"<p>Vi har et stort udvalg af herre- og dameski til alle aldre og niveauer.<\/p>","link_url":"shopify:\/\/collections\/herre-og-dameski","link_text":"Vis alle","background":"","background_gradient":"","text_color":"","heading_color":"","heading_gradient":"","product_card_background":"","product_card_text_color":""}},"c37c5392-4d29-43da-aaab-728d304775c6":{"type":"scrolling-text","disabled":true,"settings":{"full_width":true,"text":"WARNING: Mulighed for en god handel","text_size":"small","text_style":"fill","scrolling_mode":"auto","scrolling_speed":4,"background":"#ffffff","background_gradient":"","text_color":"#ffe400","text_gradient":""}},"bc481064-5c59-4fc2-8e0f-0def25e17a64":{"type":"featured-collection","settings":{"collection":"juniorski","products":[],"full_width":false,"stack_products":false,"show_progress_bar":true,"products_count":28,"products_per_row_mobile":"2","products_per_row_desktop":5,"subheading":"","title":"Børne- & Juniorski","content":"<p>Alle vores ski er nyslebet, vokset, og er lige klar til at hoppe på pisterne.<\/p>","link_url":"shopify:\/\/collections\/juniorski","link_text":"Vis alle","background":"","background_gradient":"","text_color":"","heading_color":"","heading_gradient":"","product_card_background":"","product_card_text_color":""}},"multiple-images-with-text":{"type":"multiple-images-with-text","blocks":{"1664424486a2b084ab-0":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/mont_2x_7c9dd507-c3d5-4c50-965c-0ee0a26f30ce.jpg","image_rotation_degrees":-1.5,"subheading":"","title":"Danmarks Bedste Ski-garanti for Børn.","content":"<p>Syntes du det er for dyrt og besværligt at leje udstyr til dine børn? - Vi har løsningen! Dine børn kommer aldrig til at vokse fra deres udstyr igen...<\/p>","button_url":"shopify:\/\/pages\/ski-byt-for-born-juniorer","button_text":"Spar Penge Her!"}}},"block_order":["1664424486a2b084ab-0"],"settings":{"full_width":true,"images_layout":"scattered","collage_images_alignment":"middle","background":"","background_gradient":"","text_color":"","button_background":"","button_text_color":""}},"6aabe402-ce2e-4632-88c6-358f059dd2a5":{"type":"video","blocks":{"c1edac11-ad61-4036-a07d-4e1810f5f492":{"type":"play","settings":{}},"fce92eda-0e66-43c1-9ade-855d38237339":{"type":"heading","settings":{"text":"Besøg vores showroom i Fredericia","heading_tag":"h1"}}},"block_order":["c1edac11-ad61-4036-a07d-4e1810f5f492","fce92eda-0e66-43c1-9ade-855d38237339"],"settings":{"full_width":false,"allow_transparent_header":false,"autoplay":false,"video_size":"sm","external_video_url":"https:\/\/www.youtube.com\/watch?v=qUe_hGEZC7k","video_url":"","poster":"shopify:\/\/shop_images\/IMG_6349.jpg","text_color":"#fafafa","overlay_color":"#000000","overlay_opacity":10}},"e8fb94b5-0b2b-45ea-bd08-3b8e7cf74a80":{"type":"media-with-text","blocks":{"template--14429261365283__e8fb94b5-0b2b-45ea-bd08-3b8e7cf74a80-16692200883b05ab3a-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/fiverr_sign_long_v3.png","media_width":60,"media_position":"start","text_position":"place-self-center text-center","icon":"none","icon_width":24,"title":"Skal vi købe dit brugte udstyr?","content":"<p>Hvis du har noget udstyr som du gerne vil af med, så giver vi en byttepris for det!<br\/><a href=\"\/pages\/byt-til-nyt\" title=\"Vi køber dit brugte udstyr!\">Læs mere her.<\/a><\/p>","link_text":"","link_url":"","background":"rgba(0,0,0,0)","background_gradient":"","text_color":"#070707","text_gradient":"","button_background":"","button_text_color":""}}},"block_order":["template--14429261365283__e8fb94b5-0b2b-45ea-bd08-3b8e7cf74a80-16692200883b05ab3a-0"],"settings":{"full_width":false,"enable_parallax":true,"spacing":"none"}},"04bc0508-1798-4c95-ba1d-87cc94b67e63":{"type":"featured-product","blocks":{"template--14429261365283__04bc0508-1798-4c95-ba1d-87cc94b67e63-166774616614fe1cb4-1":{"type":"title","settings":{"heading_tag":"h1"}},"template--14429261365283__04bc0508-1798-4c95-ba1d-87cc94b67e63-166774616614fe1cb4-3":{"type":"price","settings":{"show_taxes_notice":false}},"template--14429261365283__04bc0508-1798-4c95-ba1d-87cc94b67e63-166774616614fe1cb4-5":{"type":"separator","settings":{}},"template--14429261365283__04bc0508-1798-4c95-ba1d-87cc94b67e63-166774616614fe1cb4-6":{"type":"description","settings":{"collapse_content":false}},"template--14429261365283__04bc0508-1798-4c95-ba1d-87cc94b67e63-166774616614fe1cb4-7":{"type":"variant_picker","settings":{"hide_sold_out_variants":false,"stack_blocks":true,"selector_mode":"block","color_mode":"color","size_chart_page":""}}},"block_order":["template--14429261365283__04bc0508-1798-4c95-ba1d-87cc94b67e63-166774616614fe1cb4-1","template--14429261365283__04bc0508-1798-4c95-ba1d-87cc94b67e63-166774616614fe1cb4-3","template--14429261365283__04bc0508-1798-4c95-ba1d-87cc94b67e63-166774616614fe1cb4-5","template--14429261365283__04bc0508-1798-4c95-ba1d-87cc94b67e63-166774616614fe1cb4-6","template--14429261365283__04bc0508-1798-4c95-ba1d-87cc94b67e63-166774616614fe1cb4-7"],"settings":{"full_width":true,"product":"ski-service-pro","desktop_media_width":55,"desktop_media_layout":"carousel_thumbnails_left","mobile_media_size":"expanded","mobile_carousel_control":"thumbnails","enable_video_autoplay":true,"enable_video_looping":false,"enable_image_zoom":true,"max_image_zoom_level":3,"background":"#ffffff","background_gradient":"","text_color":"","input_background":"rgba(0,0,0,0)","input_text_color":""}},"70c1490b-879a-4cf4-b3c8-33793d88e30d":{"type":"blog-posts","blocks":{"template--14429261365283__70c1490b-879a-4cf4-b3c8-33793d88e30d-16660973574a981bda-0":{"type":"blog","settings":{"blog":"alt-om-ski","posts_count":3,"stack_items":false}}},"block_order":["template--14429261365283__70c1490b-879a-4cf4-b3c8-33793d88e30d-16660973574a981bda-0"],"settings":{"full_width":true,"show_excerpt":true,"show_date":true,"show_author":false,"show_comments_count":false,"show_category":false,"subheading":"","title":"Mangler du Tips & Tricks til Skiferien?","content":"","link_url":"shopify:\/\/blogs\/alt-om-ski","link_text":"Læs Alle Vores Skiblogs her","background":"#fafafa","background_gradient":"","text_color":"","heading_color":"","heading_gradient":""}},"5637a9fa-21cf-4216-a791-13774d62ed1d":{"type":"slideshow","blocks":{"template--14429261365283__5637a9fa-21cf-4216-a791-13774d62ed1d-166609646074615da7-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/reklame.ny.jpg","mobile_image":"shopify:\/\/shop_images\/reklamemobil2.jpg","content_max_width":780,"mobile_text_position":"place-self-center text-center","desktop_text_position":"sm:place-self-end-start sm:text-start","subheading":"","title":"","heading_tag":"h0","button_text":"","button_link":"shopify:\/\/pages\/showroom-og-vores-abningstider","text_color":"#ffffff","button_background":"#ffffff","button_text_color":"#000000","overlay_color":"#000000","overlay_opacity":0,"background":"","background_gradient":""}},"70f20112-ad8a-453d-a743-0aee6cac05cd":{"type":"image","settings":{"mobile_image":"shopify:\/\/shop_images\/reklamemobil1.jpg","content_max_width":780,"mobile_text_position":"place-self-center text-center","desktop_text_position":"sm:place-self-center sm:text-center","subheading":"","title":"","heading_tag":"h0","button_text":"","button_link":"shopify:\/\/pages\/showroom-og-vores-abningstider","text_color":"#ffffff","button_background":"#ffffff","button_text_color":"#000000","overlay_color":"#000000","overlay_opacity":0,"background":"","background_gradient":""}},"template--14429261365283__5637a9fa-21cf-4216-a791-13774d62ed1d-166609646074615da7-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/reklame.ny2.jpg","mobile_image":"shopify:\/\/shop_images\/reklamemobil3.jpg","content_max_width":780,"mobile_text_position":"place-self-center text-center","desktop_text_position":"sm:place-self-center sm:text-center","subheading":"","title":"","heading_tag":"h0","button_text":"","button_link":"shopify:\/\/pages\/showroom-og-vores-abningstider","text_color":"#ffffff","button_background":"#ffffff","button_text_color":"#000000","overlay_color":"#000000","overlay_opacity":0,"background":"","background_gradient":""}}},"block_order":["template--14429261365283__5637a9fa-21cf-4216-a791-13774d62ed1d-166609646074615da7-0","70f20112-ad8a-453d-a743-0aee6cac05cd","template--14429261365283__5637a9fa-21cf-4216-a791-13774d62ed1d-166609646074615da7-1"],"settings":{"full_width":true,"allow_transparent_header":false,"image_size":"auto","controls_type":"filled_arrows","transition_type":"fade_with_text","autoplay":false,"cycle_speed":6,"background":"rgba(0,0,0,0)","background_gradient":""}}},"order":["slideshow","collection-list","05aee10a-f02b-4915-a255-38655f750af4","featured-collection","c37c5392-4d29-43da-aaab-728d304775c6","bc481064-5c59-4fc2-8e0f-0def25e17a64","multiple-images-with-text","6aabe402-ce2e-4632-88c6-358f059dd2a5","e8fb94b5-0b2b-45ea-bd08-3b8e7cf74a80","04bc0508-1798-4c95-ba1d-87cc94b67e63","70c1490b-879a-4cf4-b3c8-33793d88e30d","5637a9fa-21cf-4216-a791-13774d62ed1d"]}
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mandogbjerg1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/mandogbjerg1_2x_82f0b806-cb16-45eb-9a84-8ed99ff2459d.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "numbers",
+        "transition_type": "fade_with_text",
+        "autoplay": true,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
+      }
+    },
+    "collection-list": {
+      "type": "collection-list",
+      "blocks": {
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "alle-ski",
+            "image": "shopify:\/\/shop_images\/alleski.jpg",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "alt-tilbehor",
+            "image": "shopify:\/\/shop_images\/altskiudstyr.jpg",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "alt-snowboard",
+            "image": "shopify:\/\/shop_images\/altsnowboard.jpg",
+            "subheading": "",
+            "title": "Alt til snowboard",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "collection-1",
+        "collection-2",
+        "collection-3"
+      ],
+      "settings": {
+        "full_width": false,
+        "stack_collections": true,
+        "collections_per_row": 3,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "",
+        "content": "<p>Se vores udvalg af Ski, Skiudstyr & Snowboard udstyr her<\/p>",
+        "link_url": "shopify:\/\/collections",
+        "link_text": "Vis alle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "05aee10a-f02b-4915-a255-38655f750af4": {
+      "type": "impact-text",
+      "blocks": {
+        "template--14429261365283__05aee10a-f02b-4915-a255-38655f750af4-1666275630f7cd089e-0": {
+          "type": "item",
+          "settings": {
+            "title": "100%",
+            "subheading": "gratis fragt & returnering - på alle ordre.",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "template--14429261365283__05aee10a-f02b-4915-a255-38655f750af4-1666275630f7cd089e-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "linear-gradient(0deg, rgba(250, 250, 250, 1) 13%, rgba(26, 26, 26, 0.76) 86%)",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "herre-og-dameski",
+        "products": [
+
+        ],
+        "full_width": false,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 28,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
+        "subheading": "",
+        "title": "Herre- & Dameski",
+        "content": "<p>Vi har et stort udvalg af herre- og dameski til alle aldre og niveauer.<\/p>",
+        "link_url": "shopify:\/\/collections\/herre-og-dameski",
+        "link_text": "Vis alle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "c37c5392-4d29-43da-aaab-728d304775c6": {
+      "type": "scrolling-text",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "text": "WARNING: Mulighed for en god handel",
+        "text_size": "small",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 4,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "#ffe400",
+        "text_gradient": ""
+      }
+    },
+    "bc481064-5c59-4fc2-8e0f-0def25e17a64": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "juniorski",
+        "products": [
+
+        ],
+        "full_width": false,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 28,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
+        "subheading": "",
+        "title": "Børne- & Juniorski",
+        "content": "<p>Alle vores ski er nyslebet, vokset, og er lige klar til at hoppe på pisterne.<\/p>",
+        "link_url": "shopify:\/\/collections\/juniorski",
+        "link_text": "Vis alle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "multiple-images-with-text": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "1664424486a2b084ab-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mont_2x_7c9dd507-c3d5-4c50-965c-0ee0a26f30ce.jpg",
+            "image_rotation_degrees": -1.5,
+            "subheading": "",
+            "title": "Danmarks Bedste Ski-garanti for Børn.",
+            "content": "<p>Syntes du det er for dyrt og besværligt at leje udstyr til dine børn? - Vi har løsningen! Dine børn kommer aldrig til at vokse fra deres udstyr igen...<\/p>",
+            "button_url": "shopify:\/\/pages\/ski-byt-for-born-juniorer",
+            "button_text": "Spar Penge Her!"
+          }
+        }
+      },
+      "block_order": [
+        "1664424486a2b084ab-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "images_layout": "scattered",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "6aabe402-ce2e-4632-88c6-358f059dd2a5": {
+      "type": "video",
+      "blocks": {
+        "c1edac11-ad61-4036-a07d-4e1810f5f492": {
+          "type": "play",
+          "settings": {
+          }
+        },
+        "fce92eda-0e66-43c1-9ade-855d38237339": {
+          "type": "heading",
+          "settings": {
+            "text": "Besøg vores showroom i Fredericia",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "c1edac11-ad61-4036-a07d-4e1810f5f492",
+        "fce92eda-0e66-43c1-9ade-855d38237339"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "sm",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=qUe_hGEZC7k",
+        "poster": "shopify:\/\/shop_images\/IMG_6349.jpg",
+        "text_color": "#fafafa",
+        "overlay_color": "#000000",
+        "overlay_opacity": 10
+      }
+    },
+    "e8fb94b5-0b2b-45ea-bd08-3b8e7cf74a80": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--14429261365283__e8fb94b5-0b2b-45ea-bd08-3b8e7cf74a80-16692200883b05ab3a-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fiverr_sign_long_v3.png",
+            "media_width": 60,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 24,
+            "title": "Skal vi købe dit brugte udstyr?",
+            "content": "<p>Hvis du har noget udstyr som du gerne vil af med, så giver vi en byttepris for det!<br\/><a href=\"\/pages\/byt-til-nyt\" title=\"Vi køber dit brugte udstyr!\">Læs mere her.<\/a><\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#070707",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14429261365283__e8fb94b5-0b2b-45ea-bd08-3b8e7cf74a80-16692200883b05ab3a-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "none"
+      }
+    },
+    "04bc0508-1798-4c95-ba1d-87cc94b67e63": {
+      "type": "featured-product",
+      "blocks": {
+        "template--14429261365283__04bc0508-1798-4c95-ba1d-87cc94b67e63-166774616614fe1cb4-1": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h1"
+          }
+        },
+        "template--14429261365283__04bc0508-1798-4c95-ba1d-87cc94b67e63-166774616614fe1cb4-3": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "template--14429261365283__04bc0508-1798-4c95-ba1d-87cc94b67e63-166774616614fe1cb4-5": {
+          "type": "separator",
+          "settings": {
+          }
+        },
+        "template--14429261365283__04bc0508-1798-4c95-ba1d-87cc94b67e63-166774616614fe1cb4-6": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "template--14429261365283__04bc0508-1798-4c95-ba1d-87cc94b67e63-166774616614fe1cb4-7": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14429261365283__04bc0508-1798-4c95-ba1d-87cc94b67e63-166774616614fe1cb4-1",
+        "template--14429261365283__04bc0508-1798-4c95-ba1d-87cc94b67e63-166774616614fe1cb4-3",
+        "template--14429261365283__04bc0508-1798-4c95-ba1d-87cc94b67e63-166774616614fe1cb4-5",
+        "template--14429261365283__04bc0508-1798-4c95-ba1d-87cc94b67e63-166774616614fe1cb4-6",
+        "template--14429261365283__04bc0508-1798-4c95-ba1d-87cc94b67e63-166774616614fe1cb4-7"
+      ],
+      "settings": {
+        "full_width": true,
+        "product": "ski-service-pro",
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "thumbnails",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "70c1490b-879a-4cf4-b3c8-33793d88e30d": {
+      "type": "blog-posts",
+      "blocks": {
+        "template--14429261365283__70c1490b-879a-4cf4-b3c8-33793d88e30d-16660973574a981bda-0": {
+          "type": "blog",
+          "settings": {
+            "blog": "alt-om-ski",
+            "posts_count": 3,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14429261365283__70c1490b-879a-4cf4-b3c8-33793d88e30d-16660973574a981bda-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": false,
+        "subheading": "",
+        "title": "Mangler du Tips & Tricks til Skiferien?",
+        "content": "",
+        "link_url": "shopify:\/\/blogs\/alt-om-ski",
+        "link_text": "Læs Alle Vores Skiblogs her",
+        "background": "#fafafa",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "5637a9fa-21cf-4216-a791-13774d62ed1d": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14429261365283__5637a9fa-21cf-4216-a791-13774d62ed1d-166609646074615da7-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/reklame.ny.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/reklamemobil2.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "shopify:\/\/pages\/showroom-og-vores-abningstider",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "70f20112-ad8a-453d-a743-0aee6cac05cd": {
+          "type": "image",
+          "settings": {
+            "mobile_image": "shopify:\/\/shop_images\/reklamemobil1.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "shopify:\/\/pages\/showroom-og-vores-abningstider",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "template--14429261365283__5637a9fa-21cf-4216-a791-13774d62ed1d-166609646074615da7-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/reklame.ny2.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/reklamemobil3.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "shopify:\/\/pages\/showroom-og-vores-abningstider",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14429261365283__5637a9fa-21cf-4216-a791-13774d62ed1d-166609646074615da7-0",
+        "70f20112-ad8a-453d-a743-0aee6cac05cd",
+        "template--14429261365283__5637a9fa-21cf-4216-a791-13774d62ed1d-166609646074615da7-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "image_size": "auto",
+        "controls_type": "filled_arrows",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "collection-list",
+    "05aee10a-f02b-4915-a255-38655f750af4",
+    "featured-collection",
+    "c37c5392-4d29-43da-aaab-728d304775c6",
+    "bc481064-5c59-4fc2-8e0f-0def25e17a64",
+    "multiple-images-with-text",
+    "6aabe402-ce2e-4632-88c6-358f059dd2a5",
+    "e8fb94b5-0b2b-45ea-bd08-3b8e7cf74a80",
+    "04bc0508-1798-4c95-ba1d-87cc94b67e63",
+    "70c1490b-879a-4cf4-b3c8-33793d88e30d",
+    "5637a9fa-21cf-4216-a791-13774d62ed1d"
+  ]
+}

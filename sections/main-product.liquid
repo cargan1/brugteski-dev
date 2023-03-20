@@ -66,7 +66,7 @@
     <div class="product-quick-add__variant {% if image == blank %}no-image{% endif %} hidden sm:grid">
       {%- if image != blank -%}
         <variant-media widths="80,160" form="{{ product_form_id }}">
-          {{- image | image_url: width: image.width | image_tag: loading: 'lazy', sizes: '80px', widths: '80,160' -}}
+          {{- image | image_url: width: image.width | image_tag: loading: 'lazy', sizes: '80px', widths: '80,160', class: 'rounded-xs' -}}
         </variant-media>
       {%- endif -%}
 
@@ -102,7 +102,7 @@ quick buy information in a template, that will be extracted in JS, but ensure it
 
     {%- if image != blank -%}
       <variant-media widths="80,160" form="{{ product_form_id }}">
-        {{- image | image_url: width: image.width | image_tag: loading: 'lazy', sizes: '80px', widths: '80,160', class: 'quick-buy-drawer__media' -}}
+        {{- image | image_url: width: image.width | image_tag: loading: 'lazy', sizes: '80px', widths: '80,160', class: 'quick-buy-drawer__media rounded-xs' -}}
       </variant-media>
     {%- endif -%}
 
@@ -334,7 +334,7 @@ quick buy information in a template, that will be extracted in JS, but ensure it
       "settings": [
         {
           "type": "paragraph",
-          "content": "Link products of different colors using swatches. [Learn more](https://www.google.com)"
+          "content": "Link products of different colors using swatches. [Learn more](https://support.maestrooo.com/article/307-product-creating-product-variations-that-link-to-different-pages)"
         },
         {
           "type": "text",
@@ -357,9 +357,17 @@ quick buy information in a template, that will be extracted in JS, but ensure it
         {
           "type": "select",
           "id": "color_mode",
-          "label": "Color selector type",
-          "info": "Variant image mode requires that all variant have an associated image. [Learn more](https://help.shopify.com/en/manual/products/product-media/add-images-variants#add-images-to-existing-variants)",
+          "label": "Selector type",
+          "info": "Product image mode requires that all variant have an associated image. [Learn more](https://help.shopify.com/en/manual/products/product-media/add-images-variants#add-images-to-existing-variants)",
           "options": [
+            {
+              "value": "block",
+              "label": "Block"
+            },
+            {
+              "value": "block_swatch",
+              "label": "Block with color swatch"
+            },
             {
               "value": "color",
               "label": "Color swatch"
@@ -404,15 +412,16 @@ quick buy information in a template, that will be extracted in JS, but ensure it
           "default": "text"
         },
         {
-          "type": "header",
-          "content": "Text",
-          "info": "Only applicable for line item property of type Text."
-        },
-        {
           "type": "checkbox",
           "id": "required",
           "label": "Required",
+          "info": "For text property, the customer must write a text ; for checkbox, the customer must check it to add to cart.",
           "default": false
+        },
+        {
+          "type": "header",
+          "content": "Text",
+          "info": "Only applicable for line item property of type Text."
         },
         {
           "type": "checkbox",
@@ -424,11 +433,6 @@ quick buy information in a template, that will be extracted in JS, but ensure it
           "type": "number",
           "id": "max_length",
           "label": "Maximum number of characters"
-        },
-        {
-          "type": "header",
-          "content": "Checkbox",
-          "info": "Only applicable for line item property of type Checkbox."
         }
       ]
     },

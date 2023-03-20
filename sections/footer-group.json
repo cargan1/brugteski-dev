@@ -1,0 +1,118 @@
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "text-with-icons": {
+      "type": "text-with-icons",
+      "blocks": {
+        "free-shipping": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "mobile_icon_width": 24,
+            "icon_width": 24,
+            "icon_background_type": "none",
+            "title": "Free shipping",
+            "content": "<p>Tell your customers about your shipping offer.<\/p>"
+          }
+        },
+        "customer-support": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-customer-support",
+            "mobile_icon_width": 24,
+            "icon_width": 24,
+            "icon_background_type": "none",
+            "title": "Customer service",
+            "content": "<p>Tell your customers how they can reach you.<\/p>"
+          }
+        },
+        "discount": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 24,
+            "icon_background_type": "none",
+            "title": "Refer a friend",
+            "content": "<p>Tell your customers about your promotional offers.<\/p>"
+          }
+        },
+        "payment": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "mobile_icon_width": 24,
+            "icon_width": 24,
+            "icon_background_type": "none",
+            "title": "Secure payment",
+            "content": "<p>Tel your customers about your payment methods.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "free-shipping",
+        "customer-support",
+        "discount",
+        "payment"
+      ],
+      "settings": {
+        "full_width": true,
+        "heading_tag": "h6",
+        "text_alignment": "center",
+        "icon_spacing": "small"
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "links": {
+          "type": "links",
+          "settings": {
+            "menu": "footer",
+            "show_menu_title": true
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "title": "Showroom",
+            "content": "<p><a href=\"\/pages\/showroom-og-vores-abningstider\" title=\"Showroom og vores åbningstider\">Besøg vores showroom<\/a>, hvor du kan  se og prøve alt vores udstyr.<\/p><p><strong>Åbningstider for showroom<br\/><\/strong>Mandag-Fredag: Lukket<br\/>Lørdag: 11.00-17.00<br\/>Søndag:11.00-17.00<\/p><p><strong>Sidste åbningsweekend:<br\/><\/strong>4. & 5. Marts - 2023<strong><br\/><\/strong><\/p>"
+          }
+        },
+        "afcbebc9-1170-40d4-886a-037780e234e4": {
+          "type": "text",
+          "settings": {
+            "title": "Kontakt",
+            "content": "<p><strong>Telefon<br\/><\/strong>Tlf.: +45 3020 9975<br\/>Alle dage fra kl. 10-18<\/p><p><strong>Mail<br\/><\/strong>Mail: info@brugteski.dk<strong><br\/><\/strong>Svarer indenfor 24 timer<\/p><p><strong>Adresse<br\/><\/strong>Brugteski.dk ApS<strong><br\/><\/strong>Krogsagervej 50, 2<br\/>7000 Fredericia<br\/>CVR: 40804455<\/p>"
+          }
+        },
+        "42290695-b02a-4385-b06b-249c0aa04de4": {
+          "type": "text",
+          "settings": {
+            "title": "Om os",
+            "content": "<p>Brugteski.dk er danmarks største forhandler af brugt skiudstyr. Vores mål er, at gøre det nemt og billigt for alle niveauer af skiløbere, at skaffe godt udstyr!<br\/><a href=\"\/pages\/hvem-er-vi\" title=\"Bag om Brugteski.dk\">Læs mere om teamet her.<\/a><\/p><p><strong><br\/><\/strong><\/p><p><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "links",
+        "text",
+        "afcbebc9-1170-40d4-886a-037780e234e4",
+        "42290695-b02a-4385-b06b-249c0aa04de4"
+      ],
+      "settings": {
+        "show_social_media": true,
+        "show_payment_icons": true,
+        "show_country_selector": false,
+        "show_country_flag": false,
+        "show_country_name": false,
+        "show_locale_selector": false
+      }
+    }
+  },
+  "order": [
+    "text-with-icons",
+    "footer"
+  ]
+}

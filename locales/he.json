@@ -55,6 +55,7 @@
   },
   "header": {
     "general": {
+      "account": "פתח דף חשבון",
       "open_menu": "פתח תפריט ניווט",
       "open_search": "פתח חיפוש",
       "open_account": "פתח דף חשבון",
@@ -346,6 +347,7 @@
       "terms": "תוצאות עבור \"{{ terms }}\"",
       "search_placeholder": "חפש את...",
       "products": "מוצרים",
+      "suggestions": "הצעות",
       "collections": "אוספים",
       "posts": "פרסומי בלוגים",
       "pages": "עמודים",

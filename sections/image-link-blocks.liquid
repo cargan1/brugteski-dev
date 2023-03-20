@@ -76,7 +76,7 @@ LIQUID
                 {%- endif -%}
               {%- endcapture -%}
 
-              <a {% if block.settings.link_url %}href="{{ block.settings.link_url }}"{% endif %} class="content-over-media rounded" style="--content-over-media-overlay: {{ block.settings.overlay_color.red }} {{ block.settings.overlay_color.green }} {{ block.settings.overlay_color.blue }} / {{ block.settings.overlay_opacity | divided_by: 100.0 }}">
+              <a {% if block.settings.link_url %}href="{{ block.settings.link_url }}"{% endif %} class="content-over-media rounded" style="--content-over-media-overlay: {{ block.settings.overlay_color.rgb }} / {{ block.settings.overlay_opacity | divided_by: 100.0 }}">
                 {{- item_content -}}
               </a>
             {%- else -%}
@@ -124,6 +124,10 @@ LIQUID
   "name": "Image link blocks",
   "class": "shopify-section--image-link-blocks",
   "tag": "section",
+  "disabled_on": {
+    "templates": ["password"],
+    "groups": ["header", "custom.overlay"]
+  },
   "blocks": [
     {
       "type": "item",

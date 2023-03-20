@@ -36,7 +36,7 @@
       "subscribed_successfully": "メールマガジンへの登録が完了しました"
     },
     "localization": {
-      "country": "国/地域",
+      "country": "国\/地域",
       "language": "言語"
     },
     "privacy_bar": {
@@ -55,6 +55,7 @@
   },
   "header": {
     "general": {
+      "account": "アカウント",
       "open_menu": "メニューを開く",
       "open_search": "検索を開く",
       "open_account": "アカウントページに移動する",
@@ -274,7 +275,7 @@
       "delete": "削除",
       "default_address": "デフォルトの住所",
       "address_title": "登録された住所数 {{ position }}",
-      "delete_confirm": "このアドレスを削除してよろしいですか？",
+      "delete_confirm": "この住所を削除してよろしいですか？",
       "fill_form": "以下のフォームを入力してください：",
       "first_name": "名",
       "last_name": "姓",
@@ -297,9 +298,9 @@
       "weight": "重量",
       "subtotal": "小計",
       "total": "合計",
-      "taxes_and_shipping_policy_at_checkout_html": "税と<a href=\"{{ link }}\" class=\"link\">配送料</a>は購入手続き時に計算されます",
+      "taxes_and_shipping_policy_at_checkout_html": "税と<a href=\"{{ link }}\" class=\"link\">配送料<\/a>は購入手続き時に計算されます",
       "taxes_included_but_shipping_at_checkout": "税込みで、配送料は購入手続き時に計算されます",
-      "taxes_included_and_shipping_policy_html": "税込み。<a href=\"{{ link }}\" class=\"link\">配送料</a>は購入手続き時に計算されます。",
+      "taxes_included_and_shipping_policy_html": "税込み。<a href=\"{{ link }}\" class=\"link\">配送料<\/a>は購入手続き時に計算されます。",
       "taxes_and_shipping_at_checkout": "税と配送料は購入手続き時に計算されます",
       "add_order_note": "注文メモの追加",
       "edit_order_note": "注文メモの編集すす",
@@ -346,6 +347,7 @@
       "terms": "\"{{terms}}\" の検索結果",
       "search_placeholder": "何をお探しですか？",
       "products": "商品",
+      "suggestions": "候補",
       "collections": "コレクション",
       "posts": "ブログ",
       "pages": "ページ",

@@ -54,7 +54,7 @@
                         {%- render 'input', type: 'email', name: 'customer[email]', label: email_label, autocomplete: 'email', required: true -%}
 
                         {%- assign password_label = 'customer.register.password' | t -%}
-                        {%- render 'input', type: 'password', name: 'customer[password]', label: password_label, autocomplete: 'new-password', required: true -%}
+                        {%- render 'input', type: 'password', name: 'customer[password]', label: password_label, minlength: 5, autocomplete: 'new-password', required: true -%}
 
                         {%- if block.settings.show_email_consent -%}
                           {%- assign consent_label = 'customer.register.accepts_marketing' | t -%}
