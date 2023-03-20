@@ -1,0 +1,145 @@
+<script>
+
+window.addEventListener('load', function(){
+    //Global add to cart
+    document.querySelectorAll('form[action="/cart/add"]').forEach(item => {
+        item.addEventListener('submit', event => {
+            setTimeout(() => {
+                var cartContents = fetch(window.Shopify.routes.root + 'cart.js')
+                .then(response => response.json())
+                .then(data => {
+                    var lineproducts = data.items;
+                    var id = event.srcElement.closest('form').querySelector("input[name='id']").value;
+                    var index = 0;
+    
+                    for (let i = 0; i < lineproducts.length; i++) {
+                        if (lineproducts[i]['id'] == id) {
+                            index = i;
+                            break ;
+                        }      
+                    }
+    
+                    var contents = [{
+                        'item_name': lineproducts[index]['title'],
+                        'item_id': lineproducts[index]['product_id'],
+                        'item_sku': lineproducts[index]['sku'],
+                        'item_variant': lineproducts[index]['variant_id'],
+                        'price': lineproducts[index]['price'] / 100,
+                        'item_brand': lineproducts[index]['vendor'],
+                        'item_category': lineproducts[index]['product_type'],
+                        'item_image': lineproducts[index]['image'],
+                        'quantity': lineproducts[index]['quantity']
+                    }];
+    
+                    dataLayer.push({ ecommerce: null });
+                    dataLayer.push({
+                        'event': 'add_to_cart_event',
+                        {%  if customer %}
+                        'user_data': {
+                            'email' : '{{ customer.email }}',
+                            'first_name' : '{{ customer.first_name }}',
+                            'last_name' : '{{ customer.last_name }}',
+                            'customer_id': '{{ customer.id | remove: "'" }}',
+                        },
+                        {%  endif %}
+                        'ecommerce': {
+                            'currency': data.currency,
+                            'items': contents
+                        }
+                    });
+                });
+            }, "500")
+        });
+    });
+    
+    //view item
+    {% if template.name == "product" %}
+    dataLayer.push({ecommerce: null });
+    dataLayer.push({
+        event: 'view_item_event',
+        {%  if customer %}
+        'user_data': {
+            'email' : '{{ customer.email }}',
+            'first_name' : '{{ customer.first_name }}',
+            'last_name' : '{{ customer.last_name }}',
+            'customer_id': '{{ customer.id | remove: "'" }}',
+        },
+        {%  endif %}
+        'ecommerce': {
+            'currency': '{{ cart.currency.iso_code }}',
+            'items': [{
+                'item_name': {{ product.title | json }},
+                'item_id': '{{ product.id }}',
+                'item_sku': {{ product.selected_or_first_available_variant.sku | json }},
+                'item_brand': {{ product.vendor | json }},
+                'item_category': {{ product.type | json }},
+                'price': {{ product.selected_or_first_available_variant.price | money_without_currency | remove: "." | remove: "," | times: 0.01 }}
+            }]
+        }
+    });
+
+    {% endif %}
+
+
+
+    //begin checkout for non Shopify+
+    setTimeout(function() {
+
+        var checkoutBtns = [];
+        var btnCheckout = document.querySelector('[data-testid="Checkout-button"]');
+        var btnCheckoutCart = document.querySelector('[name="checkout"]');
+
+        if (btnCheckout) {
+            checkoutBtns.push( btnCheckout );
+        }
+        if (btnCheckoutCart) {
+            checkoutBtns.push( btnCheckoutCart );
+        }
+
+        checkoutBtns.forEach(function(element) {
+            element.addEventListener('click', function(){
+                var cartContents = fetch(window.Shopify.routes.root + 'cart.js')
+                .then(response => response.json())
+                .then(data => {
+                    var lineproducts = data.items;
+                    var contents = [];
+                    for (let i = 0; i < lineproducts.length; i++) {
+                        contents.push({
+                            'item_name': lineproducts[i]['title'],
+                            'item_id': lineproducts[i]['product_id'],
+                            'item_sku': lineproducts[i]['sku'],
+                            'item_variant': lineproducts[i]['variant_id'],
+                            'price': lineproducts[i]['price'] / 100,
+                            'item_brand': lineproducts[i]['vendor'],
+                            'item_category': lineproducts[i]['product_type'],
+                            'item_image': lineproducts[i]['image'],
+                            'quantity': lineproducts[i]['quantity']
+                        });
+                    }
+                    dataLayer.push({ ecommerce: null });
+                    dataLayer.push({
+                        'event': 'begin_checkout_event',
+                        {%  if customer %}
+                        'user_data': {
+                            'email' : '{{ customer.email }}',
+                            'first_name' : '{{ customer.first_name }}',
+                            'last_name' : '{{ customer.last_name }}',
+                            'customer_id': '{{ customer.id | remove: "'" }}',
+                        },
+                        {%  endif %}
+                        'ecommerce': {
+                            'cart_quantity': data.item_count,
+                            'cart_total': data.total_price/100,
+                            'currency': data.currency,
+                            'items': contents
+                        }
+                    });
+                });
+            });
+        });
+    }, 500);  
+
+
+  
+});
+</script>
