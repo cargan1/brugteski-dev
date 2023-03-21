@@ -1,0 +1,44 @@
+{%- render 'section-spacing-collapsing' -%}
+
+<!-- TrustBox widget - Grid -->
+<div
+  class="trustpilot-widget"
+  data-locale="da-DK"
+  data-template-id="539adbd6dec7e10e686debee"
+  data-businessunit-id="5d93281ed478fd0001671bf3"
+  data-style-height="500px"
+  data-style-width="100%"
+  data-theme="light"
+  data-stars="{%- unless section.settings.kun_fire_fem -%}3,{% endunless %} 4,5"
+  data-review-languages="da">
+  <a
+    href="https://dk.trustpilot.com/review/brugteski.dk"
+    target="_blank"
+    rel="noopener">Trustpilot</a>
+</div>
+<!-- End TrustBox widget -->
+
+{% schema %}
+  {
+    "name": "Trustpilot Grid",
+    "class": "shopify-section--trustpilot-grid",
+    "tag": "section",
+    "disabled_on": {
+      "templates": ["password"],
+      "groups": ["header", "custom.overlay"]
+    },
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "kun_fire_fem",
+        "label": "Kun 4-5 stjernede",
+        "default": false
+      }
+    ],
+    "presets": [
+      {
+        "name": "Trustpilot grid"
+      }
+    ]
+  }
+{% endschema %}
