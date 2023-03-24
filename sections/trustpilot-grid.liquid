@@ -1,23 +1,22 @@
-{%- render 'section-spacing-collapsing' -%}
-
-<!-- TrustBox widget - Grid -->
-<div
-  class="trustpilot-widget"
-  data-locale="da-DK"
-  data-template-id="539adbd6dec7e10e686debee"
-  data-businessunit-id="5d93281ed478fd0001671bf3"
-  data-style-height="500px"
-  data-style-width="100%"
-  data-theme="light"
-  data-stars="{%- unless section.settings.kun_fire_fem -%}3,{% endunless %} 4,5"
-  data-review-languages="da">
-  <a
-    href="https://dk.trustpilot.com/review/brugteski.dk"
-    target="_blank"
-    rel="noopener">Trustpilot</a>
+<div class="section section--tight">
+  <!-- TrustBox widget - Grid -->
+  <div
+    class="trustpilot-widget"
+    data-locale="da-DK"
+    data-template-id="539adbd6dec7e10e686debee"
+    data-businessunit-id="5d93281ed478fd0001671bf3"
+    data-style-height="500px"
+    data-style-width="100%"
+    data-theme="light"
+    data-stars="{%- unless section.settings.kun_fire_fem -%}3,{% endunless %} 4,5"
+    data-review-languages="da">
+    <a
+      href="https://dk.trustpilot.com/review/brugteski.dk"
+      target="_blank"
+      rel="noopener">Trustpilot</a>
+  </div>
+  <!-- End TrustBox widget -->
 </div>
-<!-- End TrustBox widget -->
-
 {% schema %}
   {
     "name": "Trustpilot Grid",

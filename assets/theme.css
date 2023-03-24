@@ -9849,6 +9849,28 @@ split-lines {
   overflow: hidden;
 }
 
+
+
+/* CUSTOM STYLES ADDED */
+
 .git-test {
   color:black;
+}
+.buy-fixed {
+  position:inherit;
+
+}
+
+@media screen and (max-width: 1008px) {
+  .buy-fixed {
+    padding:20px 0;
+    position: sticky;
+    bottom:0px;
+    /* background:rgba(255,255,255,0.3);
+    backdrop-filter:blur(8px); */
+  }
+}
+
+.shopify-payment-button__more-options {
+  display:none;
 }
