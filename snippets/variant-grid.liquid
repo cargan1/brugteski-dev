@@ -2,7 +2,7 @@
   {% for variant in product.variants %}
 
 
-    {% if variant == product.selected_or_first_available_variant %}
+    {% if variant.available %}
       <a href="{{ product.url }}?variant={{ variant.id }}">
         <div class="variant-button">
           <span>{{ variant.option1 }}</span>
