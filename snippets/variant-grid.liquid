@@ -1,1 +1,21 @@
-tyty
+{% for variant in product.variants %}
+  {% if variant.available %}
+
+    <div class="grid-variant__wrapper variant-picker__option-values wrap gap-2">
+
+      {% if variant == product.selected_or_first_available_variant %}
+        <a href="{{ product.url }}?variant={{ variant.id }}">
+          <div class="variant-button">
+            <span>{{ variant.title | t }}</span>
+          </div>
+        </a>
+      {% else %}
+        <div class="variant-button">
+          <span>{{ variant.title | t }}</span>
+        </div>
+      {% endif %}
+    </div>
+
+
+  {% endif %}
+{% endfor %}
