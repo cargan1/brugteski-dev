@@ -9874,3 +9874,23 @@ split-lines {
 .shopify-payment-button__more-options {
   display:none;
 }
+
+
+/* VARIANTS GRID */ 
+
+.variant-button {
+  place-items: center;
+    gap: var(--spacing-3);
+    height: var(--input-height);
+    border-radius: var(--rounded-button);
+    background: rgb(var(--input-background, var(--background))) no-repeat;
+    border-width: 1px;
+    padding:.8rem;
+    display: flex;
+    position: relative;
+}
+
+.variant-button.is-disabled {
+  color: rgb(var(--text-color) / .5);
+  background-image: linear-gradient(to bottom right,#0000 50%,currentColor 50% calc(50% + 2px),#0000 calc(50% + 2px));
+}
