@@ -6,12 +6,12 @@
       {% if variant == product.selected_or_first_available_variant %}
         <a href="{{ product.url }}?variant={{ variant.id }}">
           <div class="variant-button">
-            <span>{{ variant.title | t }}</span>
+            <span>{{ variant.title }}</span>
           </div>
         </a>
       {% else %}
         <div class="variant-button">
-          <span>{{ variant.title | t }}</span>
+          <span>{{ variant.title }}</span>
         </div>
       {% endif %}
     </div>
