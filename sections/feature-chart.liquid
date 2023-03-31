@@ -41,11 +41,27 @@ CSS
   }
 </style>
 
+{% style %}
+  .section-{{section.id}}{
+    padding-top: {{ section.settings.padding_top }}px !important;
+    padding-bottom: {{ section.settings.padding_bottom }}px !important;
+  }
+{% endstyle %}
+
 {%- comment -%}
 ------------------------------------------------------------------------------------------------------------------------
 LIQUID
 ------------------------------------------------------------------------------------------------------------------------
 {%- endcomment -%}
+<!--before opening "section" tag -->
+
+{% comment %} Product Tabs {% endcomment %}
+{% assign tab_label = section.settings.tab_label | remove:" " | downcase %}
+
+<div class="
+    section-{{section.id}}
+    tab tab-{{tab_label}}">
+
 
 <div {% render 'section-properties' %}>
   <div class="section-stack {% if text_position != 'center' %}section-stack--horizontal{% else %}section-stack--center{% endif %} {% if text_position == 'end' %}section-stack--reverse{% endif %}">
@@ -232,6 +248,11 @@ LIQUID
   </div>
 </div>
 
+
+<!--right after the closing section tag, close the tab container with a closing div tag -->
+
+</div>
+
 {% schema %}
 {
   "name": "Feature chart",
@@ -391,6 +412,16 @@ LIQUID
       "type": "color",
       "id": "chart_true_false_color",
       "label": "True/false color"
+    },
+    {
+      "type": "header",
+      "content": "Tabs"
+    },
+    {
+      "type": "text",
+      "id": "tab_label",
+      "label": "Tab label",
+      "default":"None"
     }
   ],
   "blocks": [
