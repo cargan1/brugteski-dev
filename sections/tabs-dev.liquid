@@ -34,6 +34,7 @@
 
     function showHideTabs(arg) {
       let tabname = "." + arg;
+      console.log(document.querySelectorAll('.tab'));
       document.querySelectorAll('.tab').style.display = 'none';
       document.querySelector(tabname).style.display = 'block';
     }
