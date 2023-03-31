@@ -33,8 +33,8 @@
   <script>
 
     function showHideTabs(arg) {
-      $(`.tab`).css('display', 'none')
-      $(`.tab-${arg}`).show()
+      document.querySelector(`.tab`).css('display', 'none');
+      document.querySelector('.tab-${arg}').css('display', 'block');
     }
   </script>
 
