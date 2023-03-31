@@ -34,7 +34,7 @@
 
     function showHideTabs(arg) {
       let tabname = "." + arg;
-      document.querySelector('.tab').style.display = 'none';
+      document.querySelectorAll('.tab').style.display = 'none';
       document.querySelector(tabname).style.display = 'block';
     }
   </script>
@@ -77,19 +77,16 @@
       .tab_container {
         margin: 3px auto 0;
         display: block;
-        padding-bottom: {{ section.settings.border_padding}}
-        px;
-        border-bottom: 0px solid{{ section.settings.border_color}};
+        padding-bottom: 30px px;
+        border-bottom: 10px;
       }
       .product_tabs {
         margin-top: 3px;
         margin-right: 2px;
         padding: 4px 10px 3px;
         min-width: 130px;
-        background-color: {{ section.settings.background_color}}
-        ;
-        color: {{ section.settings.font_color}}
-        ;
+        background-color: #e6e6e6;
+        color: black;
         border-top-right-radius: 0;
         border-top-left-radius: 0;
         border: 1px solid #2751A7;
