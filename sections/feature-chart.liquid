@@ -14,6 +14,11 @@ CSS
     --feature-chart-values-columns-count: {{ values_column_count }};
   }
 
+  .section-{{section.id}}{
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+  }
+
   @media screen and (min-width: 700px) {
     {%- if text_position == 'center' -%}
       #shopify-section-{{ section.id }} .section-stack__main {
@@ -41,12 +46,6 @@ CSS
   }
 </style>
 
-{% style %}
-  .section-{{section.id}}{
-    padding-top: {{ section.settings.padding_top }}px !important;
-    padding-bottom: {{ section.settings.padding_bottom }}px !important;
-  }
-{% endstyle %}
 
 {%- comment -%}
 ------------------------------------------------------------------------------------------------------------------------
