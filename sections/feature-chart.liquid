@@ -13,11 +13,12 @@ CSS
   #shopify-section-{{ section.id }} {
     --feature-chart-values-columns-count: {{ values_column_count }};
   }
-
+{%- if section.settings.tab_label != empty -%}
   .section-{{section.id}}{
     padding-top: 50px !important;
     padding-bottom: 50px !important;
   }
+{%- endif -%}
 
   @media screen and (min-width: 700px) {
     {%- if text_position == 'center' -%}
@@ -57,10 +58,11 @@ LIQUID
 {% comment %} Product Tabs {% endcomment %}
 {% assign tab_label = section.settings.tab_label | remove:" " | downcase %}
 
+{%- if section.settings.tab_label != empty -%}
 <div class="
     section-{{section.id}}
     tab tab-{{tab_label}}">
-
+{%- endif -%}
 
 <div {% render 'section-properties' %}>
   <div class="section-stack {% if text_position != 'center' %}section-stack--horizontal{% else %}section-stack--center{% endif %} {% if text_position == 'end' %}section-stack--reverse{% endif %}">
@@ -249,9 +251,9 @@ LIQUID
 
 
 <!--right after the closing section tag, close the tab container with a closing div tag -->
-
-</div>
-
+{%- if section.settings.tab_label != empty -%}
+  </div>
+{%- endif -%}
 {% schema %}
 {
   "name": "Feature chart",
