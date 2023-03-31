@@ -13,7 +13,7 @@
         <div
           class="product_tabs"
           id="tab-{{tab_label}}"
-          onClick="showHideTabs('{{tab_label}}')">
+          onClick="showHideTabs('tab-{{tab_label}}')">
           {{ block.settings.title }}
         </div>
       {% endfor %}
@@ -33,8 +33,9 @@
   <script>
 
     function showHideTabs(arg) {
+      let tabname = "." + arg;
       document.querySelector('.tab').style.display = 'none';
-      document.querySelector('.tab-${arg}').style.display = 'block';
+      document.querySelector(tabname).style.display = 'block';
     }
   </script>
 
