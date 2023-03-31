@@ -13,7 +13,7 @@ CSS
   #shopify-section-{{ section.id }} {
     --feature-chart-values-columns-count: {{ values_column_count }};
   }
-{%- if section.settings.tab_label != empty -%}
+{%- if section.settings.tab_label != blank -%}
   .section-{{section.id}}{
     padding-top: 50px !important;
     padding-bottom: 50px !important;
@@ -58,7 +58,7 @@ LIQUID
 {% comment %} Product Tabs {% endcomment %}
 {% assign tab_label = section.settings.tab_label | remove:" " | downcase %}
 
-{%- if section.settings.tab_label != empty -%}
+{%- if section.settings.tab_label != blank -%}
 <div class="
     section-{{section.id}}
     tab tab-{{tab_label}}">
@@ -251,7 +251,7 @@ LIQUID
 
 
 <!--right after the closing section tag, close the tab container with a closing div tag -->
-{%- if section.settings.tab_label != empty -%}
+{%- if section.settings.tab_label != blank -%}
   </div>
 {%- endif -%}
 {% schema %}
