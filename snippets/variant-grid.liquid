@@ -4,6 +4,21 @@
       <a href="{{ product.url }}?variant={{ variant.id }}">
         <div class="variant-button">
           <span>{{ variant.option1 }}</span>
+          {% if variant.option2 %}
+            <span class="variant-stand" style="background-color:
+                                                                                          {% assign stand = variant.option2 %}
+                                                                                          {% case stand %}
+                                                                                              {% when 'Bronze' %}
+                                                                                                  #CD7F32;
+                                                                                              {% when 'Sølv' %}
+                                                                                                  #C0C0C0;
+                                                                                              {% when 'Guld' %}
+                                                                                                  #C9AE5D;
+                                                                                              {% else %}
+                                                                                              tranparent;
+                                                                                          {% endcase %} 
+                                                                                                          "></span>
+          {% endif %}
         </div>
       </a>
     {% else %}
@@ -11,16 +26,20 @@
         <span>{{ variant.option1 }}</span>
       </div>
     {% endif %}
-    {% if variant.option2 %}
-      <a href="{{ product.url }}?variant={{ variant.id }}">
-        <div class="variant-button">
-          <span>{{ variant.option2 }}</span>
-        </div>
-      </a>
-    {% else %}
-      <div class="variant-button is-disabled">
-        <span>{{ variant.option2 }}</span>
-      </div>
-    {% endif %}
   {% endfor %}
+</div>
+
+<div class="grid-variant__explainer wrap gap-2 ">
+  <div class="variant-option gap-1">
+    <span class="variant-stand relative gold"></span>
+    <span>Guld</span>
+  </div>
+  <div class="variant-option gap-1">
+    <span class="variant-stand relative silver"></span>
+    <span>Sølv</span>
+  </div>
+  <div class="variant-option gap-1">
+    <span class="variant-stand relative bronze"></span>
+    <span>Bronze</span>
+  </div>
 </div>

@@ -9856,7 +9856,7 @@ split-lines {
 .git-test {
   color:black;
 }
-.buy-fixed {
+/* .buy-fixed {
   position:inherit;
 
 }
@@ -9866,10 +9866,10 @@ split-lines {
     padding:20px 0;
     position: sticky;
     bottom:0px;
-    /* background:rgba(255,255,255,0.3);
-    backdrop-filter:blur(8px); */
+     background:rgba(255,255,255,0.3);
+    backdrop-filter:blur(8px); 
   }
-}
+} */
 
 .shopify-payment-button__more-options {
   display:none;
@@ -9895,4 +9895,44 @@ split-lines {
 .variant-button.is-disabled {
   color: rgb(var(--text-color) / .5);
   background-image: linear-gradient(to bottom right,#0000 50%,currentColor 50% calc(50% + 2px),#0000 calc(50% + 2px));
+}
+
+.variant-stand {
+  color:black;
+  position: absolute;
+  padding: 3px 4px;
+  font-size:7px;
+  text-transform: uppercase;
+  top:0;
+  right:0;
+  width:14px;
+  height:14px;
+  border-radius:12px;
+}
+
+.variant-stand.relative {
+  position:relative;
+}
+
+.variant-stand.gold {
+  background-color: #C9AE5D;
+}
+
+.variant-stand.silver {
+  background-color: #C0C0C0;
+}
+.variant-stand.bronze {
+ background-color: #CD7F32;
+}
+
+.grid-variant__explainer {
+  width:100%;
+  display: flex;
+  margin-top:10px;
+}
+
+.grid-variant__explainer .variant-option {
+  display: flex;
+  font-size:12px;
+align-items: center;
 }
