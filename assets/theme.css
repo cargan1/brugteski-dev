@@ -9921,8 +9921,11 @@ split-lines {
 .variant-stand.silver {
   background-color: #C0C0C0;
 }
-.variant-stand.bronze {
+/* .variant-stand.bronze {
  background-color: #CD7F32;
+} */
+.variant-stand.bronze {
+  background-image: url('https://cdn.shopify.com/s/files/1/0265/0744/4259/files/fabriksny.svg?v=1681812073');
 }
 
 .grid-variant__explainer {
