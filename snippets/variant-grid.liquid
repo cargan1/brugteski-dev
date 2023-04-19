@@ -5,19 +5,21 @@
         <div class="variant-button">
           <span>{{ variant.option1 }}</span>
           {% if variant.option2 %}
-            <span class="variant-stand" style="background-color:
-                                                                                          {% assign stand = variant.option2 %}
-                                                                                          {% case stand %}
-                                                                                              {% when 'Bronze' %}
-                                                                                                  #CD7F32;
-                                                                                              {% when 'Sølv' %}
-                                                                                                  #C0C0C0;
-                                                                                              {% when 'Guld' %}
-                                                                                                  #C9AE5D;
-                                                                                              {% else %}
-                                                                                              tranparent;
-                                                                                          {% endcase %} 
-                                                                                                          "></span>
+            <span class="variant-stand" style="
+                                                                                                                                                                                        {% assign stand = variant.option2 %}
+                                                                                                                                                                                        {% case stand %}
+                                                                                                                                                                                    {% when 'Bronze' %}
+                                                                                                                                                                                        background-color:#CD7F32;
+                                                                                                                                                                                    {% when 'Sølv' %}
+                                                                                                                                                                                        background-color:#C0C0C0;
+                                                                                                                                                                                    {% when 'Guld' %}
+                                                                                                                                                                                        background-color: #C9AE5D;
+                                                                                                                                                                                        {% when 'Fabriksnye' %}
+                                                                                                                                                                                            background-image: url('https://cdn.shopify.com/s/files/1/0265/0744/4259/files/diamond_2.png?v=1681829223'); background-size: cover;
+                                                                                                                                                                                    {% else %}
+                                                                                                                                                                                    tranparent;
+                                                                                                                                                                                {% endcase %} 
+                                                                                                                                                                                                        "></span>
           {% endif %}
         </div>
       </a>
@@ -29,17 +31,48 @@
   {% endfor %}
 </div>
 
+{% for variant in product.variants %}
+  {% if variant.available %}
+    {% if variant.options contains 'Fabriksnye' %}
+      {%- assign fabriksnye = true -%}
+    {% endif %}
+    {% if variant.options contains 'Guld' %}
+      {%- assign guld = true -%}
+    {% endif %}
+    {% if variant.options contains 'Sølv' %}
+      {%- assign solv = true -%}
+    {% endif %}
+    {% if variant.options contains 'Bronze' %}
+      {%- assign bronze = true -%}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+
 <div class="grid-variant__explainer wrap gap-2 ">
-  <div class="variant-option gap-1">
-    <span class="variant-stand relative gold"></span>
-    <span>Guld</span>
-  </div>
-  <div class="variant-option gap-1">
-    <span class="variant-stand relative silver"></span>
-    <span>Sølv</span>
-  </div>
-  <div class="variant-option gap-1">
-    <span class="variant-stand relative bronze"></span>
-    <span>Bronze</span>
-  </div>
+  {% if fabriksnye %}
+    <div class="variant-option gap-1">
+      <span class="variant-stand relative fabriksnye"></span>
+      <span>Fabriksnye</span>
+    </div>
+  {% endif %}
+  {% if guld %}
+    <div class="variant-option gap-1">
+      <span class="variant-stand relative gold"></span>
+      <span>Guld</span>
+    </div>
+  {% endif %}
+  {% if solv %}
+    <div class="variant-option gap-1">
+      <span class="variant-stand relative silver"></span>
+      <span>Sølv</span>
+    </div>
+  {% endif %}
+  {% if bronze %}
+    <div class="variant-option gap-1">
+      <span class="variant-stand relative bronze"></span>
+      <span>Bronze</span>
+    </div>
+  {% endif %}
+
 </div>

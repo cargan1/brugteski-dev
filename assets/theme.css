@@ -9921,11 +9921,12 @@ split-lines {
 .variant-stand.silver {
   background-color: #C0C0C0;
 }
-/* .variant-stand.bronze {
- background-color: #CD7F32;
-} */
 .variant-stand.bronze {
-  background-image: url('https://cdn.shopify.com/s/files/1/0265/0744/4259/files/fabriksny.svg?v=1681812073');
+ background-color: #CD7F32;
+}
+.variant-stand.fabriksnye {
+  background-image: url('https://cdn.shopify.com/s/files/1/0265/0744/4259/files/diamond_2.png?v=1681829223');
+  background-size: cover;
 }
 
 .grid-variant__explainer {
