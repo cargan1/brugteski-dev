@@ -37,6 +37,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {
           }
         },
@@ -44,6 +45,21 @@
           "type": "text",
           "settings": {
             "text": "<p><strong>Skal vi indsstille dine bindinger?<br\/><\/strong>Udfyld med: Vægt (kg), Højde (cm) & Støvlelængde (mm)<\/p>"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "d3e695ec-c2c1-416b-9482-cc06f0166cf0": {
+          "type": "payment-icons",
+          "settings": {
           }
         },
         "6e6c8a01-4673-4115-bdee-5ea4ca9d3497": {
@@ -60,24 +76,16 @@
           "settings": {
           }
         },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": true,
-            "atc_button_background": "",
-            "atc_button_text_color": "",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
-          }
-        },
         "19937545-298a-4651-9687-4525f0a97a0a": {
           "type": "inventory",
+          "disabled": true,
           "settings": {
             "low_inventory_threshold": 10
           }
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
             "collapse_content": false
           }
@@ -92,9 +100,15 @@
         },
         "b975b4aa-9026-4e93-b9d3-2b7c01428f1c": {
           "type": "collapsible_text",
+          "disabled": true,
           "settings": {
             "title": "Fragt og levering",
             "content": "<p>Vi tilbyder <strong>gratis<\/strong> fragt på alle vores ordre, til GLS pakkeshop. <\/p><p>Derudover har vi også <strong>gratis<\/strong> 14 dages returret, på alle produkter. Du kan udskrive dit returlabel igenne dette <a href=\"\/pages\/returnering\" title=\"Returnering af varer\">link.<\/a><\/p><p><strong>Leveringstid: <\/strong>2-5 hverdeg<\/p>"
+          }
+        },
+        "ba3b5461-8a7f-4d6a-bdc0-bfcaad62fae4": {
+          "type": "e-maerket",
+          "settings": {
           }
         }
       },
@@ -106,19 +120,21 @@
         "variant_picker",
         "quantity_selector",
         "b7116d37-820d-4320-ba8a-a4a7ce116385",
+        "buy_buttons",
+        "d3e695ec-c2c1-416b-9482-cc06f0166cf0",
         "6e6c8a01-4673-4115-bdee-5ea4ca9d3497",
         "96617279-0ca8-4ed8-ad3d-5c55c13472ec",
-        "buy_buttons",
         "19937545-298a-4651-9687-4525f0a97a0a",
         "description",
         "2c54e865-25f9-472e-b9e9-4d5a40fdcb59",
-        "b975b4aa-9026-4e93-b9d3-2b7c01428f1c"
+        "b975b4aa-9026-4e93-b9d3-2b7c01428f1c",
+        "ba3b5461-8a7f-4d6a-bdc0-bfcaad62fae4"
       ],
       "settings": {
         "full_width": true,
         "show_fixed_add_to_cart": true,
         "desktop_media_width": 55,
-        "desktop_media_layout": "grid_highlight",
+        "desktop_media_layout": "carousel_thumbnails_bottom",
         "mobile_media_size": "expanded",
         "mobile_carousel_control": "floating_dots",
         "enable_video_autoplay": false,
@@ -130,6 +146,57 @@
         "text_color": "",
         "input_background": "#fafafa",
         "input_text_color": ""
+      }
+    },
+    "fe071cc7-bbc8-4bb2-9731-6976ff8b16ae": {
+      "type": "tabs-dev",
+      "blocks": {
+        "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-0": {
+          "type": "tab",
+          "settings": {
+            "title": "Chart"
+          }
+        },
+        "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-1": {
+          "type": "tab",
+          "settings": {
+            "title": "Description"
+          }
+        },
+        "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-2": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab Name"
+          }
+        },
+        "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-3": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab Name"
+          }
+        },
+        "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-4": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab Name"
+          }
+        }
+      },
+      "block_order": [
+        "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-0",
+        "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-1",
+        "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-2",
+        "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-3",
+        "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-4"
+      ],
+      "settings": {
+        "enable_tabs": true,
+        "font_color": "",
+        "background_color": "",
+        "border_color": "",
+        "border_radius": 0,
+        "border_padding": 0,
+        "border_thickness": 0
       }
     },
     "7bd8baf1-9eb8-41b9-82b3-49a08ae4c5ad": {
@@ -217,7 +284,39 @@
         "chart_background": "",
         "chart_text_color": "",
         "chart_true_false_color": "",
-        "tab_label": ""
+        "tab_label": "Chart"
+      }
+    },
+    "bc007c98-134a-45e6-879f-a9610e0a56cd": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18752117211481__bc007c98-134a-45e6-879f-a9610e0a56cd-1682087826a24a43b1-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "dd2ca3c9-f87b-4cb4-bfe3-86422da0fac9": {
+          "type": "description",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--18752117211481__bc007c98-134a-45e6-879f-a9610e0a56cd-1682087826a24a43b1-1",
+        "dd2ca3c9-f87b-4cb4-bfe3-86422da0fac9"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "tab_label": "Description"
       }
     },
     "a2d55917-d689-4d4a-a841-728c942d4a7a": {
@@ -669,57 +768,6 @@
         "button_text_color": ""
       }
     },
-    "fe071cc7-bbc8-4bb2-9731-6976ff8b16ae": {
-      "type": "tabs-dev",
-      "blocks": {
-        "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-0": {
-          "type": "tab",
-          "settings": {
-            "title": "Tab Name"
-          }
-        },
-        "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-1": {
-          "type": "tab",
-          "settings": {
-            "title": "Tab Name"
-          }
-        },
-        "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-2": {
-          "type": "tab",
-          "settings": {
-            "title": "Tab Name"
-          }
-        },
-        "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-3": {
-          "type": "tab",
-          "settings": {
-            "title": "Tab Name"
-          }
-        },
-        "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-4": {
-          "type": "tab",
-          "settings": {
-            "title": "Tab Name"
-          }
-        }
-      },
-      "block_order": [
-        "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-0",
-        "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-1",
-        "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-2",
-        "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-3",
-        "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-4"
-      ],
-      "settings": {
-        "enable_tabs": false,
-        "font_color": "",
-        "background_color": "",
-        "border_color": "",
-        "border_radius": 0,
-        "border_padding": 0,
-        "border_thickness": 0
-      }
-    },
     "6fe9e5e3-41c0-4ad1-a62e-5e2b2ba02828": {
       "type": "trustpilot-stjerner",
       "settings": {
@@ -728,7 +776,9 @@
   },
   "order": [
     "main",
+    "fe071cc7-bbc8-4bb2-9731-6976ff8b16ae",
     "7bd8baf1-9eb8-41b9-82b3-49a08ae4c5ad",
+    "bc007c98-134a-45e6-879f-a9610e0a56cd",
     "a2d55917-d689-4d4a-a841-728c942d4a7a",
     "5339552c-ca02-4356-bc93-49775b177927",
     "892c0d3c-c5de-4a4e-a62e-2f712b480fd4",
@@ -736,7 +786,6 @@
     "aa73c3dc-82ca-485c-a544-d5b8dd955818",
     "ccab4d19-b071-4fcd-bff1-88c63fbf47ec",
     "bf60e6c3-00b7-4616-9fd0-19986092c878",
-    "fe071cc7-bbc8-4bb2-9731-6976ff8b16ae",
     "6fe9e5e3-41c0-4ad1-a62e-5e2b2ba02828"
   ]
 }
