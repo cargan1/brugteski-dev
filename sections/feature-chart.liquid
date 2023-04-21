@@ -13,16 +13,16 @@ CSS
   #shopify-section-{{ section.id }} {
     --feature-chart-values-columns-count: {{ values_column_count }};
   }
-  
+
 {%- if section.settings.tab_label != blank -%}
   .section-{{section.id}}{
-    padding-top: 50px !important;
-    padding-bottom: 50px !important;
+    padding-top: 50px ;
+    padding-bottom: 50px ;
   }
   @media screen and (max-width: 900px) {
   .section-{{section.id}}{ 
-        padding-top: 20px !important;
-    padding-bottom: 20px !important;
+        padding-top: 20px ;
+    padding-bottom: 20px ;
     }
   }
 {%- endif -%}
