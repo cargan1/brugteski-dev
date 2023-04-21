@@ -28,8 +28,8 @@
 
   {%- if section.settings.tab_label != blank -%}
     <div class="
-          section-{{section.id}}
-          tab tab-{{tab_label}}">
+                section-{{section.id}}
+                tab tab-{{tab_label}}">
     {%- endif -%}
 
     <div {% render 'section-properties' %}>
@@ -56,6 +56,15 @@
             {%- if block.settings.content != blank -%}
               <div {{ block.shopify_attributes }}>
                 {{- block.settings.content -}}
+              </div>
+            {%- endif -%}
+
+            {%- when 'richtext' -%}
+            {%- if product.description != blank -%}
+              <div class="product-info__description" {{ block.shopify_attributes }}>
+                <div class="prose">
+                  {{- product.description -}}
+                </div>
               </div>
             {%- endif -%}
 
@@ -319,6 +328,10 @@
         ]
       },
       {
+        "type": "description",
+        "name": "Description",
+        "limit": 1
+      }, {
         "type": "page",
         "name": "Page",
         "settings": [
