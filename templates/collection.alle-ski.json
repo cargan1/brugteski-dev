@@ -26,10 +26,10 @@
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-0": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/udvalg_herreski_d066dd3d-dffa-44e4-863f-9e2082c6bb2c.jpg",
+            "image": "shopify:\/\/shop_images\/udvalg_herreski_d066dd3d-dffa-44e4-863f-9e2082c6bb2c.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify://collections/herreski",
+            "link_url": "shopify:\/\/collections\/herreski",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -39,10 +39,10 @@
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-1": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/udvalg_dameski.jpg",
+            "image": "shopify:\/\/shop_images\/udvalg_dameski.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify://collections/kvinder",
+            "link_url": "shopify:\/\/collections\/kvinder",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -52,10 +52,10 @@
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-2": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/udvalg_borneski.jpg",
+            "image": "shopify:\/\/shop_images\/udvalg_borneski.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify://collections/juniorski",
+            "link_url": "shopify:\/\/collections\/juniorski",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -65,10 +65,10 @@
         "a5f68762-6842-44de-b848-7f8bc56a57c6": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/udvalg_skistave.jpg",
+            "image": "shopify:\/\/shop_images\/udvalg_skistave.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify://collections/skistave",
+            "link_url": "shopify:\/\/collections\/skistave",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -78,10 +78,10 @@
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-3": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/udvalg_skistovler.jpg",
+            "image": "shopify:\/\/shop_images\/udvalg_skistovler.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify://collections/skistovler",
+            "link_url": "shopify:\/\/collections\/skistovler",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -91,10 +91,10 @@
         "7cf735e1-01b5-49c8-8ca7-1383bc658648": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/udvalg_skitilbehor.jpg",
+            "image": "shopify:\/\/shop_images\/udvalg_skitilbehor.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify://collections/voks",
+            "link_url": "shopify:\/\/collections\/voks",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -141,7 +141,7 @@
       }
     },
     "main": {
-      "type": "main-collection",
+      "type": "main-collection-dev",
       "settings": {
         "products_per_page": 24,
         "products_per_row_mobile": "2",
@@ -162,7 +162,7 @@
         "template--14429261299747__9c97e046-53a7-428d-965b-e74aa263b5ca-16661253977a2bf0d6-0": {
           "type": "article",
           "settings": {
-            "article": "alt-om-ski/den-ultimative-ski-guide",
+            "article": "alt-om-ski\/den-ultimative-ski-guide",
             "background": "",
             "text_color": ""
           }
@@ -180,8 +180,8 @@
         "show_category": true,
         "subheading": "",
         "title": "",
-        "content": "<p><strong>Brug for hjælp til at finde de rette ski? Læs vores ski-guide her.</strong></p>",
-        "link_url": "shopify://blogs/alt-om-ski",
+        "content": "<p><strong>Brug for hjælp til at finde de rette ski? Læs vores ski-guide her.<\/strong><\/p>",
+        "link_url": "shopify:\/\/blogs\/alt-om-ski",
         "link_text": "Se all Skiblogs",
         "background": "",
         "background_gradient": "",
