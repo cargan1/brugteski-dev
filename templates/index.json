@@ -6,7 +6,7 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mandogbjerg1.jpg",
+            "image": "shopify:\/\/shop_images\/Skimand.jpg",
             "mobile_image": "shopify:\/\/shop_images\/mandogbjerg1_2x_82f0b806-cb16-45eb-9a84-8ed99ff2459d.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
@@ -144,7 +144,8 @@
         "heading_gradient": "linear-gradient(0deg, rgba(250, 250, 250, 1) 13%, rgba(26, 26, 26, 0.76) 86%)",
         "text_color": "",
         "button_background": "",
-        "button_text_color": ""
+        "button_text_color": "",
+        "tab_label": ""
       }
     },
     "featured-collection": {
@@ -276,7 +277,8 @@
         "poster": "shopify:\/\/shop_images\/IMG_6349.jpg",
         "text_color": "#fafafa",
         "overlay_color": "#000000",
-        "overlay_opacity": 10
+        "overlay_opacity": 10,
+        "tab_label": ""
       }
     },
     "e8fb94b5-0b2b-45ea-bd08-3b8e7cf74a80": {
@@ -291,6 +293,7 @@
             "text_position": "place-self-center text-center",
             "icon": "none",
             "icon_width": 24,
+            "subheading": "",
             "title": "Skal vi købe dit brugte udstyr?",
             "content": "<p>Hvis du har noget udstyr som du gerne vil af med, så giver vi en byttepris for det!<br\/><a href=\"\/pages\/byt-til-nyt\" title=\"Vi køber dit brugte udstyr!\">Læs mere her.<\/a><\/p>",
             "link_text": "",
@@ -310,7 +313,8 @@
       "settings": {
         "full_width": false,
         "enable_parallax": true,
-        "spacing": "none"
+        "spacing": "none",
+        "tab_label": ""
       }
     },
     "04bc0508-1798-4c95-ba1d-87cc94b67e63": {
