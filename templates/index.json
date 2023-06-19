@@ -41,6 +41,68 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
+    "05aee10a-f02b-4915-a255-38655f750af4": {
+      "type": "impact-text",
+      "blocks": {
+        "template--14429261365283__05aee10a-f02b-4915-a255-38655f750af4-1666275630f7cd089e-0": {
+          "type": "item",
+          "settings": {
+            "title": "100%",
+            "subheading": "gratis fragt",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "f0576fe6-3099-46a2-9cb1-91988cf8a0d8": {
+          "type": "item",
+          "settings": {
+            "title": "Altid",
+            "subheading": "Gratis Returnering",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "ab301164-50c7-4388-aee6-18a75fa4111c": {
+          "type": "item",
+          "settings": {
+            "title": "40%",
+            "subheading": "af nyprisen som minimum",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 1
+          }
+        }
+      },
+      "block_order": [
+        "template--14429261365283__05aee10a-f02b-4915-a255-38655f750af4-1666275630f7cd089e-0",
+        "f0576fe6-3099-46a2-9cb1-91988cf8a0d8",
+        "ab301164-50c7-4388-aee6-18a75fa4111c"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "linear-gradient(0deg, rgba(250, 250, 250, 1) 13%, rgba(26, 26, 26, 0.76) 86%)",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": "",
+        "tab_label": ""
+      }
+    },
     "collection-list": {
       "type": "collection-list",
       "blocks": {
@@ -110,42 +172,6 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": ""
-      }
-    },
-    "05aee10a-f02b-4915-a255-38655f750af4": {
-      "type": "impact-text",
-      "blocks": {
-        "template--14429261365283__05aee10a-f02b-4915-a255-38655f750af4-1666275630f7cd089e-0": {
-          "type": "item",
-          "settings": {
-            "title": "100%",
-            "subheading": "gratis fragt & returnering - på alle ordre.",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": true,
-            "animate_impact_text_duration": 2
-          }
-        }
-      },
-      "block_order": [
-        "template--14429261365283__05aee10a-f02b-4915-a255-38655f750af4-1666275630f7cd089e-0"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_mobile": true,
-        "text_alignment": "center",
-        "impact_text_style": "fill",
-        "text_divider": "none",
-        "impact_text_size_ratio": 1,
-        "background": "",
-        "background_gradient": "",
-        "heading_text_color": "",
-        "heading_gradient": "linear-gradient(0deg, rgba(250, 250, 250, 1) 13%, rgba(26, 26, 26, 0.76) 86%)",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": "",
-        "tab_label": ""
       }
     },
     "featured-collection": {
@@ -502,8 +528,8 @@
   },
   "order": [
     "slideshow",
-    "collection-list",
     "05aee10a-f02b-4915-a255-38655f750af4",
+    "collection-list",
     "featured-collection",
     "c37c5392-4d29-43da-aaab-728d304775c6",
     "bc481064-5c59-4fc2-8e0f-0def25e17a64",
