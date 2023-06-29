@@ -177,7 +177,7 @@
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
-        "collection": "herre-og-dameski",
+        "collection": "herre-dameski",
         "products": [
 
         ],
@@ -190,7 +190,7 @@
         "subheading": "",
         "title": "Herre- & Dameski",
         "content": "<p>Vi har et stort udvalg af herre- og dameski til alle aldre og niveauer.<\/p>",
-        "link_url": "shopify:\/\/collections\/herre-og-dameski",
+        "link_url": "shopify:\/\/collections\/herre-dameski",
         "link_text": "Vis alle",
         "background": "",
         "background_gradient": "",
