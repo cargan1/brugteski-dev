@@ -12,7 +12,7 @@
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
-            "title": "",
+            "title": "Heading",
             "heading_tag": "h0",
             "button_text": "",
             "button_link": "",
@@ -24,10 +24,31 @@
             "background": "",
             "background_gradient": ""
           }
+        },
+        "c37006c2-d3cd-4e59-8ee3-a3f4988d373c": {
+          "type": "image",
+          "settings": {
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Tell your story",
+            "title": "Slide title",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
         }
       },
       "block_order": [
-        "slide-1"
+        "slide-1",
+        "c37006c2-d3cd-4e59-8ee3-a3f4988d373c"
       ],
       "settings": {
         "full_width": true,
@@ -41,66 +62,9 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
-    "05aee10a-f02b-4915-a255-38655f750af4": {
-      "type": "impact-text",
-      "blocks": {
-        "template--14429261365283__05aee10a-f02b-4915-a255-38655f750af4-1666275630f7cd089e-0": {
-          "type": "item",
-          "settings": {
-            "title": "100%",
-            "subheading": "gratis fragt",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": true,
-            "animate_impact_text_duration": 2
-          }
-        },
-        "f0576fe6-3099-46a2-9cb1-91988cf8a0d8": {
-          "type": "item",
-          "settings": {
-            "title": "Altid",
-            "subheading": "Gratis Returnering",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": false,
-            "animate_impact_text_duration": 2
-          }
-        },
-        "ab301164-50c7-4388-aee6-18a75fa4111c": {
-          "type": "item",
-          "settings": {
-            "title": "40%",
-            "subheading": "af nyprisen som minimum",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": true,
-            "animate_impact_text_duration": 1
-          }
-        }
-      },
-      "block_order": [
-        "template--14429261365283__05aee10a-f02b-4915-a255-38655f750af4-1666275630f7cd089e-0",
-        "f0576fe6-3099-46a2-9cb1-91988cf8a0d8",
-        "ab301164-50c7-4388-aee6-18a75fa4111c"
-      ],
+    "bc8d07a6-9b0d-4bfb-8e41-07321f922d9e": {
+      "type": "trustpilot-stjerner",
       "settings": {
-        "full_width": true,
-        "stack_mobile": true,
-        "text_alignment": "center",
-        "impact_text_style": "fill",
-        "text_divider": "none",
-        "impact_text_size_ratio": 1,
-        "background": "",
-        "background_gradient": "",
-        "heading_text_color": "",
-        "heading_gradient": "linear-gradient(0deg, rgba(250, 250, 250, 1) 13%, rgba(26, 26, 26, 0.76) 86%)",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": "",
-        "tab_label": ""
       }
     },
     "collection-list": {
@@ -172,6 +136,55 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": ""
+      }
+    },
+    "05aee10a-f02b-4915-a255-38655f750af4": {
+      "type": "impact-text",
+      "blocks": {
+        "template--14429261365283__05aee10a-f02b-4915-a255-38655f750af4-1666275630f7cd089e-0": {
+          "type": "item",
+          "settings": {
+            "title": "100%",
+            "subheading": "gratis fragt & returnering",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "ab301164-50c7-4388-aee6-18a75fa4111c": {
+          "type": "item",
+          "settings": {
+            "title": "40%",
+            "subheading": "af nyprisen som minimum",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 1
+          }
+        }
+      },
+      "block_order": [
+        "template--14429261365283__05aee10a-f02b-4915-a255-38655f750af4-1666275630f7cd089e-0",
+        "ab301164-50c7-4388-aee6-18a75fa4111c"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "#0d3f80",
+        "heading_gradient": "linear-gradient(0deg, rgba(13, 63, 128, 1) 12%, rgba(26, 26, 26, 0.76) 86%)",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": "",
+        "tab_label": ""
       }
     },
     "featured-collection": {
@@ -300,10 +313,10 @@
         "autoplay": false,
         "video_size": "sm",
         "external_video_url": "https:\/\/www.youtube.com\/watch?v=qUe_hGEZC7k",
-        "poster": "shopify:\/\/shop_images\/IMG_6349.jpg",
+        "poster": "shopify:\/\/shop_images\/showrooom_2.jpg",
         "text_color": "#fafafa",
         "overlay_color": "#000000",
-        "overlay_opacity": 10,
+        "overlay_opacity": 32,
         "tab_label": ""
       }
     },
@@ -316,7 +329,7 @@
             "image": "shopify:\/\/shop_images\/fiverr_sign_long_v3.png",
             "media_width": 60,
             "media_position": "start",
-            "text_position": "place-self-center text-center",
+            "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 24,
             "subheading": "",
@@ -528,8 +541,9 @@
   },
   "order": [
     "slideshow",
-    "05aee10a-f02b-4915-a255-38655f750af4",
+    "bc8d07a6-9b0d-4bfb-8e41-07321f922d9e",
     "collection-list",
+    "05aee10a-f02b-4915-a255-38655f750af4",
     "featured-collection",
     "c37c5392-4d29-43da-aaab-728d304775c6",
     "bc481064-5c59-4fc2-8e0f-0def25e17a64",
