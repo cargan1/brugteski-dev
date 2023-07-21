@@ -112,9 +112,19 @@
         "heading_gradient": ""
       }
     },
-    "bc8d07a6-9b0d-4bfb-8e41-07321f922d9e": {
-      "type": "trustpilot-stjerner",
+    "c37c5392-4d29-43da-aaab-728d304775c6": {
+      "type": "scrolling-text",
       "settings": {
+        "full_width": true,
+        "text": "WARNING: Mulighed for en god handel",
+        "text_size": "small",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 4,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "#ffe400",
+        "text_gradient": ""
       }
     },
     "featured-collection": {
@@ -142,22 +152,6 @@
         "heading_gradient": "",
         "product_card_background": "",
         "product_card_text_color": ""
-      }
-    },
-    "c37c5392-4d29-43da-aaab-728d304775c6": {
-      "type": "scrolling-text",
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "text": "WARNING: Mulighed for en god handel",
-        "text_size": "small",
-        "text_style": "fill",
-        "scrolling_mode": "auto",
-        "scrolling_speed": 4,
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "#ffe400",
-        "text_gradient": ""
       }
     },
     "05aee10a-f02b-4915-a255-38655f750af4": {
@@ -408,6 +402,11 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
+      }
+    },
+    "bc8d07a6-9b0d-4bfb-8e41-07321f922d9e": {
+      "type": "trustpilot-stjerner",
+      "settings": {
       }
     },
     "70c1490b-879a-4cf4-b3c8-33793d88e30d": {
@@ -663,15 +662,15 @@
   "order": [
     "slideshow",
     "collection-list",
-    "bc8d07a6-9b0d-4bfb-8e41-07321f922d9e",
-    "featured-collection",
     "c37c5392-4d29-43da-aaab-728d304775c6",
+    "featured-collection",
     "05aee10a-f02b-4915-a255-38655f750af4",
     "bc481064-5c59-4fc2-8e0f-0def25e17a64",
     "multiple-images-with-text",
     "6aabe402-ce2e-4632-88c6-358f059dd2a5",
     "e8fb94b5-0b2b-45ea-bd08-3b8e7cf74a80",
     "04bc0508-1798-4c95-ba1d-87cc94b67e63",
+    "bc8d07a6-9b0d-4bfb-8e41-07321f922d9e",
     "70c1490b-879a-4cf4-b3c8-33793d88e30d",
     "5637a9fa-21cf-4216-a791-13774d62ed1d",
     "64f2283d-7576-4138-8541-e267a147f9c8"
