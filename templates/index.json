@@ -167,7 +167,7 @@
         "background": "",
         "background_gradient": "",
         "heading_text_color": "#003eff",
-        "heading_gradient": "linear-gradient(0deg, rgba(NaN, NaN, NaN, 0) 12%, rgba(26, 26, 26, 0.76) 86%)",
+        "heading_gradient": "radial-gradient(rgba(255, 154, 98, 1), rgba(255, 204, 75, 1) 100%)",
         "text_color": "",
         "button_background": "",
         "button_text_color": "",
