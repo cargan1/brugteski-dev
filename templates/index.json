@@ -24,10 +24,31 @@
             "background": "",
             "background_gradient": ""
           }
+        },
+        "9796c97f-6162-402f-9c1a-743e38799b6c": {
+          "type": "image",
+          "settings": {
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Tell your story",
+            "title": "Slide title",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
         }
       },
       "block_order": [
-        "slide-1"
+        "slide-1",
+        "9796c97f-6162-402f-9c1a-743e38799b6c"
       ],
       "settings": {
         "full_width": true,
@@ -49,7 +70,7 @@
         "text_size": "xsmall",
         "text_style": "fill",
         "scrolling_mode": "auto",
-        "scrolling_speed": 6,
+        "scrolling_speed": 8,
         "background": "#003eff",
         "background_gradient": "",
         "text_color": "#fafafa",
