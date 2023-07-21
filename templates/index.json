@@ -119,7 +119,7 @@
         "title": "",
         "content": "<p>Se vores udvalg af Ski, Skiudstyr & Snowboard udstyr her<\/p>",
         "link_url": "shopify:\/\/collections",
-        "link_text": "Vis alle",
+        "link_text": "Se udstyrskategorier",
         "background": "",
         "background_gradient": "",
         "text_color": "",
@@ -144,7 +144,7 @@
         "title": "Herre- & Dameski",
         "content": "<p>Vi har et stort udvalg af herre- og dameski til alle aldre og niveauer.<\/p>",
         "link_url": "shopify:\/\/collections\/herre-dameski",
-        "link_text": "Vis alle",
+        "link_text": "Se alle Herre- & Dameski",
         "background": "",
         "background_gradient": "",
         "text_color": "",
@@ -171,7 +171,7 @@
         "title": "Børne- & Juniorski",
         "content": "<p>Alle vores ski er nyslebet, vokset, og er lige klar til at hoppe på pisterne.<\/p>",
         "link_url": "shopify:\/\/collections\/borne-juniorski",
-        "link_text": "Vis alle",
+        "link_text": "Se alle børneski",
         "background": "",
         "background_gradient": "",
         "text_color": "",
@@ -183,6 +183,7 @@
     },
     "1c45ab7c-9a7b-49b4-a09d-dda5cf2c456a": {
       "type": "media-with-text",
+      "disabled": true,
       "blocks": {
         "template--18752118292825__1c45ab7c-9a7b-49b4-a09d-dda5cf2c456a-image-1": {
           "type": "image",
@@ -285,6 +286,113 @@
         "tab_label": ""
       }
     },
+    "5416e99f-3a7e-4a0f-8201-00b6ab233144": {
+      "type": "media-with-text",
+      "blocks": {
+        "e60bfdc0-7751-4fab-91a6-3fb7e6c4f53c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/badge-new.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "DANMARKS BEDSTE SKI-GARANTI FOR BØRN",
+            "content": "<p>Syntes du det er for dyrt og besværligt at leje udstyr til dine børn? - Vi har løsningen! Dine børn kommer aldrig til at vokse fra deres udstyr igen...<\/p>",
+            "link_text": "LÆS OM GARANTIEN HER",
+            "link_url": "shopify:\/\/pages\/ski-byt-for-born-juniorer",
+            "background": "#efefef",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "#003eff",
+            "button_text_color": "#ffffff"
+          }
+        },
+        "template--18752118292825__5416e99f-3a7e-4a0f-8201-00b6ab233144-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/service4.jpg",
+            "media_width": 40,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 28,
+            "subheading": "199,00 DKK",
+            "title": "Skiservice",
+            "content": "<p><em><strong>Slibning af snowboard + kr. 50,-<br\/>Reparation af sålhuller +  Kr. 50,-<\/strong><\/em><\/p><p>Hos Brugteski.dk har vi vores eget skiværksted, hvor vi servicerer dine ski inden og efter du tager afsted på skiferie. Vi sliber kanter samt sålen, og afslutter med at vokse skiene. <br\/><a href=\"https:\/\/brugteski.dk\/pages\/showroom-og-vores-abningstider\" title=\"showroom og åbningstider\">Se adressen og åbningstider her.<\/a><\/p><p><strong>OBS.:<\/strong> For bestilling af service, skal du medbringe dit udstyr i vores showroom. <br\/>Vores ski værksted er lukket for resten af sæsonen. Vi åbner igen til Oktober 2023.<\/p><p><a href=\"\/products\/ski-service-pro\" title=\"Ski service\">Bestil service<\/a><\/p>",
+            "link_text": "",
+            "link_url": "shopify:\/\/products\/ski-service-pro",
+            "background": "#efefef",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "#efefef",
+            "button_text_color": "#000000"
+          }
+        },
+        "95bdbf37-78af-457f-b674-ba358afbe9d5": {
+          "type": "video",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/aerial-top-down-of-winter-snow-covered-mountains-l-2022-10-22-04-46-19-utc_comp.mp4",
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "autoplay": true,
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "SKAL VI KØBE DIT BRUGTE UDSTYR?",
+            "content": "<p>Gider du ikke alt bøvlet med at sælge dit gamle udstyr? Kontakt os omkring det udstyr som du gerne vil af med, så giver vi en byttepris for det! <\/p>",
+            "link_text": "Læs mere",
+            "link_url": "shopify:\/\/pages\/byt-til-nyt",
+            "background": "#efefef",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "a27c64b4-114a-427a-89f2-3240a066bab5": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "SKAL VI KØBE DIT BRUGTE UDSTYR?",
+            "content": "<p>Gider du ikke alt bøvlet med at sælge dit gamle udstyr? Kontakt os omkring det udstyr som du gerne vil af med, så giver vi en byttepris for det! <\/p>",
+            "link_text": "Læs mere",
+            "link_url": "shopify:\/\/pages\/byt-til-nyt",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "e60bfdc0-7751-4fab-91a6-3fb7e6c4f53c",
+        "template--18752118292825__5416e99f-3a7e-4a0f-8201-00b6ab233144-image-1",
+        "95bdbf37-78af-457f-b674-ba358afbe9d5",
+        "a27c64b4-114a-427a-89f2-3240a066bab5"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "small",
+        "tab_label": ""
+      }
+    },
     "6aabe402-ce2e-4632-88c6-358f059dd2a5": {
       "type": "video",
       "blocks": {
@@ -320,6 +428,7 @@
     },
     "e8fb94b5-0b2b-45ea-bd08-3b8e7cf74a80": {
       "type": "media-with-text",
+      "disabled": true,
       "blocks": {
         "template--14429261365283__e8fb94b5-0b2b-45ea-bd08-3b8e7cf74a80-16692200883b05ab3a-0": {
           "type": "image",
@@ -356,6 +465,7 @@
     },
     "04bc0508-1798-4c95-ba1d-87cc94b67e63": {
       "type": "featured-product",
+      "disabled": true,
       "blocks": {
         "template--14429261365283__04bc0508-1798-4c95-ba1d-87cc94b67e63-166774616614fe1cb4-1": {
           "type": "title",
@@ -540,113 +650,6 @@
         "background": "rgba(0,0,0,0)",
         "background_gradient": ""
       }
-    },
-    "5416e99f-3a7e-4a0f-8201-00b6ab233144": {
-      "type": "media-with-text",
-      "blocks": {
-        "e60bfdc0-7751-4fab-91a6-3fb7e6c4f53c": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/badge-new.jpg",
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "DANMARKS BEDSTE SKI-GARANTI FOR BØRN",
-            "content": "<p>Syntes du det er for dyrt og besværligt at leje udstyr til dine børn? - Vi har løsningen! Dine børn kommer aldrig til at vokse fra deres udstyr igen...<\/p>",
-            "link_text": "LÆS OM GARANTIEN HER",
-            "link_url": "shopify:\/\/pages\/ski-byt-for-born-juniorer",
-            "background": "#efefef",
-            "background_gradient": "",
-            "text_color": "#000000",
-            "text_gradient": "",
-            "button_background": "#003eff",
-            "button_text_color": "#ffffff"
-          }
-        },
-        "template--18752118292825__5416e99f-3a7e-4a0f-8201-00b6ab233144-image-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/service4.jpg",
-            "media_width": 40,
-            "media_position": "end",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "icon_width": 28,
-            "subheading": "199,00 DKK",
-            "title": "Skiservice",
-            "content": "<p><em><strong>Slibning af snowboard + kr. 50,-<br\/>Reparation af sålhuller +  Kr. 50,-<\/strong><\/em><\/p><p>Hos Brugteski.dk har vi vores eget skiværksted, hvor vi servicerer dine ski inden og efter du tager afsted på skiferie. Vi sliber kanter samt sålen, og afslutter med at vokse skiene. <br\/><a href=\"https:\/\/brugteski.dk\/pages\/showroom-og-vores-abningstider\" title=\"showroom og åbningstider\">Se adressen og åbningstider her.<\/a><\/p><p><strong>OBS.:<\/strong> For bestilling af service, skal du medbringe dit udstyr i vores showroom. <br\/>Vores ski værksted er lukket for resten af sæsonen. Vi åbner igen til Oktober 2023.<\/p><p><a href=\"\/products\/ski-service-pro\" title=\"Ski service\">Bestil service<\/a><\/p>",
-            "link_text": "",
-            "link_url": "shopify:\/\/products\/ski-service-pro",
-            "background": "#efefef",
-            "background_gradient": "",
-            "text_color": "#000000",
-            "text_gradient": "",
-            "button_background": "#efefef",
-            "button_text_color": "#000000"
-          }
-        },
-        "95bdbf37-78af-457f-b674-ba358afbe9d5": {
-          "type": "video",
-          "settings": {
-            "video": "shopify:\/\/files\/videos\/aerial-top-down-of-winter-snow-covered-mountains-l-2022-10-22-04-46-19-utc_comp.mp4",
-            "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "autoplay": true,
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "SKAL VI KØBE DIT BRUGTE UDSTYR?",
-            "content": "<p>Gider du ikke alt bøvlet med at sælge dit gamle udstyr? Kontakt os omkring det udstyr som du gerne vil af med, så giver vi en byttepris for det! <\/p>",
-            "link_text": "Læs mere",
-            "link_url": "shopify:\/\/pages\/byt-til-nyt",
-            "background": "#efefef",
-            "background_gradient": "",
-            "text_color": "#000000",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "a27c64b4-114a-427a-89f2-3240a066bab5": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center text-center",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "SKAL VI KØBE DIT BRUGTE UDSTYR?",
-            "content": "<p>Gider du ikke alt bøvlet med at sælge dit gamle udstyr? Kontakt os omkring det udstyr som du gerne vil af med, så giver vi en byttepris for det! <\/p>",
-            "link_text": "Læs mere",
-            "link_url": "shopify:\/\/pages\/byt-til-nyt",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "e60bfdc0-7751-4fab-91a6-3fb7e6c4f53c",
-        "template--18752118292825__5416e99f-3a7e-4a0f-8201-00b6ab233144-image-1",
-        "95bdbf37-78af-457f-b674-ba358afbe9d5",
-        "a27c64b4-114a-427a-89f2-3240a066bab5"
-      ],
-      "settings": {
-        "full_width": false,
-        "enable_parallax": true,
-        "spacing": "small",
-        "tab_label": ""
-      }
     }
   },
   "order": [
@@ -658,12 +661,12 @@
     "1c45ab7c-9a7b-49b4-a09d-dda5cf2c456a",
     "multiple-images-with-text",
     "05aee10a-f02b-4915-a255-38655f750af4",
+    "5416e99f-3a7e-4a0f-8201-00b6ab233144",
     "6aabe402-ce2e-4632-88c6-358f059dd2a5",
     "e8fb94b5-0b2b-45ea-bd08-3b8e7cf74a80",
     "04bc0508-1798-4c95-ba1d-87cc94b67e63",
     "bc8d07a6-9b0d-4bfb-8e41-07321f922d9e",
     "70c1490b-879a-4cf4-b3c8-33793d88e30d",
-    "5637a9fa-21cf-4216-a791-13774d62ed1d",
-    "5416e99f-3a7e-4a0f-8201-00b6ab233144"
+    "5637a9fa-21cf-4216-a791-13774d62ed1d"
   ]
 }
