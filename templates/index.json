@@ -6,49 +6,28 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mandogbjerg1_2x_82f0b806-cb16-45eb-9a84-8ed99ff2459d.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/mandogbjerg1_2x_82f0b806-cb16-45eb-9a84-8ed99ff2459d.jpg",
+            "image": "shopify:\/\/shop_images\/sportsman-in-goggles-holding-ski-sticks-while-skii-2022-12-16-21-17-36-utc-2_2.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/hero-mobile.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "Heading",
+            "subheading": "Stort udvalg af brugte ski, snowboards & udstyr",
+            "title": "Bliv klar til skisæsonen",
             "heading_tag": "h0",
-            "button_text": "",
+            "button_text": "SHOP SKIUDSTYR",
             "button_link": "",
             "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
+            "button_background": "#003eff",
+            "button_text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
-        "c37006c2-d3cd-4e59-8ee3-a3f4988d373c": {
-          "type": "image",
-          "settings": {
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Tell your story",
-            "title": "Slide title",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
             "background": "",
             "background_gradient": ""
           }
         }
       },
       "block_order": [
-        "slide-1",
-        "c37006c2-d3cd-4e59-8ee3-a3f4988d373c"
+        "slide-1"
       ],
       "settings": {
         "full_width": true,
@@ -62,9 +41,19 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
-    "bc8d07a6-9b0d-4bfb-8e41-07321f922d9e": {
-      "type": "trustpilot-stjerner",
+    "c37c5392-4d29-43da-aaab-728d304775c6": {
+      "type": "scrolling-text",
       "settings": {
+        "full_width": true,
+        "text": "Mindst 40% af nyprisen & Altid gratis fragt",
+        "text_size": "xsmall",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 6,
+        "background": "#003eff",
+        "background_gradient": "",
+        "text_color": "#fafafa",
+        "text_gradient": ""
       }
     },
     "collection-list": {
@@ -74,7 +63,7 @@
           "type": "collection",
           "settings": {
             "collection": "alle-ski",
-            "image": "shopify:\/\/shop_images\/alleski.jpg",
+            "image": "shopify:\/\/shop_images\/alleski_1a76c286-9f2a-4605-b0c1-1ef9b0d848a4.jpg",
             "subheading": "",
             "title": "",
             "url": "",
@@ -89,7 +78,7 @@
           "type": "collection",
           "settings": {
             "collection": "alt-tilbehor",
-            "image": "shopify:\/\/shop_images\/altskiudstyr.jpg",
+            "image": "shopify:\/\/shop_images\/altskiudstyr_7c395200-c50d-4469-a6f7-5ac902b2b8cd.jpg",
             "subheading": "",
             "title": "",
             "url": "",
@@ -104,7 +93,7 @@
           "type": "collection",
           "settings": {
             "collection": "alt-snowboard",
-            "image": "shopify:\/\/shop_images\/altsnowboard.jpg",
+            "image": "shopify:\/\/shop_images\/altsnowboardg.jpg",
             "subheading": "",
             "title": "Alt til snowboard",
             "url": "",
@@ -130,61 +119,12 @@
         "title": "",
         "content": "<p>Se vores udvalg af Ski, Skiudstyr & Snowboard udstyr her<\/p>",
         "link_url": "shopify:\/\/collections",
-        "link_text": "Vis alle",
+        "link_text": "Se udstyrskategorier",
         "background": "",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": ""
-      }
-    },
-    "05aee10a-f02b-4915-a255-38655f750af4": {
-      "type": "impact-text",
-      "blocks": {
-        "template--14429261365283__05aee10a-f02b-4915-a255-38655f750af4-1666275630f7cd089e-0": {
-          "type": "item",
-          "settings": {
-            "title": "100%",
-            "subheading": "gratis fragt & returnering",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": true,
-            "animate_impact_text_duration": 2
-          }
-        },
-        "ab301164-50c7-4388-aee6-18a75fa4111c": {
-          "type": "item",
-          "settings": {
-            "title": "40%",
-            "subheading": "af nyprisen som minimum",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": true,
-            "animate_impact_text_duration": 1
-          }
-        }
-      },
-      "block_order": [
-        "template--14429261365283__05aee10a-f02b-4915-a255-38655f750af4-1666275630f7cd089e-0",
-        "ab301164-50c7-4388-aee6-18a75fa4111c"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_mobile": true,
-        "text_alignment": "center",
-        "impact_text_style": "fill",
-        "text_divider": "none",
-        "impact_text_size_ratio": 1,
-        "background": "",
-        "background_gradient": "",
-        "heading_text_color": "#0d3f80",
-        "heading_gradient": "linear-gradient(0deg, rgba(13, 63, 128, 1) 12%, rgba(26, 26, 26, 0.76) 86%)",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": "",
-        "tab_label": ""
       }
     },
     "featured-collection": {
@@ -204,7 +144,7 @@
         "title": "Herre- & Dameski",
         "content": "<p>Vi har et stort udvalg af herre- og dameski til alle aldre og niveauer.<\/p>",
         "link_url": "shopify:\/\/collections\/herre-dameski",
-        "link_text": "Vis alle",
+        "link_text": "Se alle Herre- & Dameski",
         "background": "",
         "background_gradient": "",
         "text_color": "",
@@ -212,22 +152,6 @@
         "heading_gradient": "",
         "product_card_background": "",
         "product_card_text_color": ""
-      }
-    },
-    "c37c5392-4d29-43da-aaab-728d304775c6": {
-      "type": "scrolling-text",
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "text": "WARNING: Mulighed for en god handel",
-        "text_size": "small",
-        "text_style": "fill",
-        "scrolling_mode": "auto",
-        "scrolling_speed": 4,
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "#ffe400",
-        "text_gradient": ""
       }
     },
     "bc481064-5c59-4fc2-8e0f-0def25e17a64": {
@@ -247,7 +171,7 @@
         "title": "Børne- & Juniorski",
         "content": "<p>Alle vores ski er nyslebet, vokset, og er lige klar til at hoppe på pisterne.<\/p>",
         "link_url": "shopify:\/\/collections\/borne-juniorski",
-        "link_text": "Vis alle",
+        "link_text": "Se alle børne- & juniorski",
         "background": "",
         "background_gradient": "",
         "text_color": "",
@@ -257,16 +181,54 @@
         "product_card_text_color": ""
       }
     },
+    "1c45ab7c-9a7b-49b4-a09d-dda5cf2c456a": {
+      "type": "media-with-text",
+      "disabled": true,
+      "blocks": {
+        "template--18752118292825__1c45ab7c-9a7b-49b4-a09d-dda5cf2c456a-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/badge-new.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "DANMARKS BEDSTE SKI-GARANTI FOR BØRN",
+            "content": "<p>Syntes du det er for dyrt og besværligt at leje udstyr til dine børn? - Vi har løsningen! Dine børn kommer aldrig til at vokse fra deres udstyr igen...<\/p>",
+            "link_text": "Læs om garantien her",
+            "link_url": "",
+            "background": "#f2f2f2",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "#003eff",
+            "button_text_color": "#fafafa"
+          }
+        }
+      },
+      "block_order": [
+        "template--18752118292825__1c45ab7c-9a7b-49b4-a09d-dda5cf2c456a-image-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "small",
+        "tab_label": ""
+      }
+    },
     "multiple-images-with-text": {
       "type": "multiple-images-with-text",
+      "disabled": true,
       "blocks": {
         "1664424486a2b084ab-0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mont_2x_7c9dd507-c3d5-4c50-965c-0ee0a26f30ce.jpg",
-            "image_rotation_degrees": -1.5,
+            "image": "shopify:\/\/shop_images\/Group_5.jpg",
+            "image_rotation_degrees": 0,
             "subheading": "",
-            "title": "Danmarks Bedste Ski-garanti for Børn.",
+            "title": "Danmarks Bedste Ski-garanti for Børn",
             "content": "<p>Syntes du det er for dyrt og besværligt at leje udstyr til dine børn? - Vi har løsningen! Dine børn kommer aldrig til at vokse fra deres udstyr igen...<\/p>",
             "button_url": "shopify:\/\/pages\/ski-byt-for-born-juniorer",
             "button_text": "Spar Penge Her!"
@@ -280,11 +242,155 @@
         "full_width": true,
         "images_layout": "scattered",
         "collage_images_alignment": "middle",
-        "background": "",
+        "background": "#efefef",
         "background_gradient": "",
         "text_color": "",
-        "button_background": "",
+        "button_background": "#003eff",
         "button_text_color": ""
+      }
+    },
+    "05aee10a-f02b-4915-a255-38655f750af4": {
+      "type": "impact-text",
+      "disabled": true,
+      "blocks": {
+        "ab301164-50c7-4388-aee6-18a75fa4111c": {
+          "type": "item",
+          "settings": {
+            "title": "40%",
+            "subheading": "af nyprisen som minimum",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 1
+          }
+        }
+      },
+      "block_order": [
+        "ab301164-50c7-4388-aee6-18a75fa4111c"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "line",
+        "impact_text_size_ratio": 1.5,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "#003eff",
+        "heading_gradient": "linear-gradient(0deg, rgba(0, 62, 255, 1), rgba(0, 62, 255, 1) 99%)",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": "",
+        "tab_label": ""
+      }
+    },
+    "5416e99f-3a7e-4a0f-8201-00b6ab233144": {
+      "type": "media-with-text",
+      "blocks": {
+        "e60bfdc0-7751-4fab-91a6-3fb7e6c4f53c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/badge-new.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "DANMARKS BEDSTE SKI-GARANTI FOR BØRN",
+            "content": "<p>Syntes du det er for dyrt og besværligt at leje udstyr til dine børn? - Vi har løsningen! Dine børn kommer aldrig til at vokse fra deres udstyr igen...<\/p>",
+            "link_text": "LÆS OM GARANTIEN HER",
+            "link_url": "shopify:\/\/pages\/ski-byt-for-born-juniorer",
+            "background": "#efefef",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "#003eff",
+            "button_text_color": "#ffffff"
+          }
+        },
+        "template--18752118292825__5416e99f-3a7e-4a0f-8201-00b6ab233144-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/service4.jpg",
+            "media_width": 40,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 28,
+            "subheading": "199,00 DKK",
+            "title": "Skiservice",
+            "content": "<p><em><strong>Slibning af snowboard + kr. 50,-<br\/>Reparation af sålhuller +  Kr. 50,-<\/strong><\/em><\/p><p>Hos Brugteski.dk har vi vores eget skiværksted, hvor vi servicerer dine ski inden og efter du tager afsted på skiferie. Vi sliber kanter samt sålen, og afslutter med at vokse skiene. <br\/><a href=\"https:\/\/brugteski.dk\/pages\/showroom-og-vores-abningstider\" title=\"showroom og åbningstider\">Se adressen og åbningstider her.<\/a><\/p><p><strong>OBS.:<\/strong> For bestilling af service, skal du medbringe dit udstyr i vores showroom. <br\/>Vores ski værksted er lukket for resten af sæsonen. Vi åbner igen til Oktober 2023.<\/p><p><a href=\"\/products\/ski-service-pro\" title=\"Ski service\">Bestil service<\/a><\/p>",
+            "link_text": "",
+            "link_url": "shopify:\/\/products\/ski-service-pro",
+            "background": "#efefef",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "#efefef",
+            "button_text_color": "#000000"
+          }
+        },
+        "95bdbf37-78af-457f-b674-ba358afbe9d5": {
+          "type": "video",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/aerial-top-down-of-winter-snow-covered-mountains-l-2022-10-22-04-46-19-utc_comp.mp4",
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "autoplay": true,
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "SKAL VI KØBE DIT BRUGTE UDSTYR?",
+            "content": "<p>Gider du ikke alt bøvlet med at sælge dit gamle udstyr? Kontakt os omkring det udstyr som du gerne vil af med, så giver vi en byttepris for det! <\/p>",
+            "link_text": "Læs mere",
+            "link_url": "shopify:\/\/pages\/byt-til-nyt",
+            "background": "#efefef",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "a27c64b4-114a-427a-89f2-3240a066bab5": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "SKAL VI KØBE DIT BRUGTE UDSTYR?",
+            "content": "<p>Gider du ikke alt bøvlet med at sælge dit gamle udstyr? Kontakt os omkring det udstyr som du gerne vil af med, så giver vi en byttepris for det! <\/p>",
+            "link_text": "Læs mere",
+            "link_url": "shopify:\/\/pages\/byt-til-nyt",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "e60bfdc0-7751-4fab-91a6-3fb7e6c4f53c",
+        "template--18752118292825__5416e99f-3a7e-4a0f-8201-00b6ab233144-image-1",
+        "95bdbf37-78af-457f-b674-ba358afbe9d5",
+        "a27c64b4-114a-427a-89f2-3240a066bab5"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "small",
+        "tab_label": ""
       }
     },
     "6aabe402-ce2e-4632-88c6-358f059dd2a5": {
@@ -322,12 +428,13 @@
     },
     "e8fb94b5-0b2b-45ea-bd08-3b8e7cf74a80": {
       "type": "media-with-text",
+      "disabled": true,
       "blocks": {
         "template--14429261365283__e8fb94b5-0b2b-45ea-bd08-3b8e7cf74a80-16692200883b05ab3a-0": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/fiverr_sign_long_v3.png",
-            "media_width": 60,
+            "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
@@ -358,6 +465,7 @@
     },
     "04bc0508-1798-4c95-ba1d-87cc94b67e63": {
       "type": "featured-product",
+      "disabled": true,
       "blocks": {
         "template--14429261365283__04bc0508-1798-4c95-ba1d-87cc94b67e63-166774616614fe1cb4-1": {
           "type": "title",
@@ -416,6 +524,11 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
+      }
+    },
+    "bc8d07a6-9b0d-4bfb-8e41-07321f922d9e": {
+      "type": "trustpilot-stjerner",
+      "settings": {
       }
     },
     "70c1490b-879a-4cf4-b3c8-33793d88e30d": {
@@ -541,16 +654,18 @@
   },
   "order": [
     "slideshow",
-    "bc8d07a6-9b0d-4bfb-8e41-07321f922d9e",
-    "collection-list",
-    "05aee10a-f02b-4915-a255-38655f750af4",
-    "featured-collection",
     "c37c5392-4d29-43da-aaab-728d304775c6",
+    "collection-list",
+    "featured-collection",
     "bc481064-5c59-4fc2-8e0f-0def25e17a64",
+    "1c45ab7c-9a7b-49b4-a09d-dda5cf2c456a",
     "multiple-images-with-text",
+    "05aee10a-f02b-4915-a255-38655f750af4",
+    "5416e99f-3a7e-4a0f-8201-00b6ab233144",
     "6aabe402-ce2e-4632-88c6-358f059dd2a5",
     "e8fb94b5-0b2b-45ea-bd08-3b8e7cf74a80",
     "04bc0508-1798-4c95-ba1d-87cc94b67e63",
+    "bc8d07a6-9b0d-4bfb-8e41-07321f922d9e",
     "70c1490b-879a-4cf4-b3c8-33793d88e30d",
     "5637a9fa-21cf-4216-a791-13774d62ed1d"
   ]
