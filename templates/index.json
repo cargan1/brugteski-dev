@@ -584,7 +584,7 @@
             "background_gradient": "",
             "text_color": "#000000",
             "text_gradient": "",
-            "button_background": "",
+            "button_background": "#efefef",
             "button_text_color": "#000000"
           }
         }
