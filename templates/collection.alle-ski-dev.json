@@ -129,11 +129,11 @@
       "type": "scrolling-text",
       "settings": {
         "full_width": true,
-        "text": "Spar op til 72% ved køb af brugt",
+        "text": "Spar op til 72% af nypris",
         "text_size": "xsmall",
         "text_style": "fill",
         "scrolling_mode": "auto",
-        "scrolling_speed": 8,
+        "scrolling_speed": 14,
         "background": "#f2f2f2",
         "background_gradient": "",
         "text_color": "#e4cd0a",

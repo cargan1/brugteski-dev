@@ -6,49 +6,28 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mandogbjerg1_2x_82f0b806-cb16-45eb-9a84-8ed99ff2459d.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/mandogbjerg1_2x_82f0b806-cb16-45eb-9a84-8ed99ff2459d.jpg",
+            "image": "shopify:\/\/shop_images\/sportsman-in-goggles-holding-ski-sticks-while-skii-2022-12-16-21-17-36-utc-2_2.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/hero-mobile.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "Heading",
+            "subheading": "Stort udvalg af brugte ski, snowboards & udstyr",
+            "title": "Bliv klar til skisæsonen",
             "heading_tag": "h0",
-            "button_text": "",
+            "button_text": "SHOP SKIUDSTYR",
             "button_link": "",
             "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
+            "button_background": "#003eff",
+            "button_text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
-        "c37006c2-d3cd-4e59-8ee3-a3f4988d373c": {
-          "type": "image",
-          "settings": {
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Tell your story",
-            "title": "Slide title",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
             "background": "",
             "background_gradient": ""
           }
         }
       },
       "block_order": [
-        "slide-1",
-        "c37006c2-d3cd-4e59-8ee3-a3f4988d373c"
+        "slide-1"
       ],
       "settings": {
         "full_width": true,
@@ -537,6 +516,135 @@
         "background": "rgba(0,0,0,0)",
         "background_gradient": ""
       }
+    },
+    "64f2283d-7576-4138-8541-e267a147f9c8": {
+      "type": "media-grid",
+      "blocks": {
+        "template--18752118292825__64f2283d-7576-4138-8541-e267a147f9c8-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ski-guides2.jpg",
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--18752118292825__64f2283d-7576-4138-8541-e267a147f9c8-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_Herre_dameski.jpg",
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--18752118292825__64f2283d-7576-4138-8541-e267a147f9c8-image-3": {
+          "type": "image",
+          "settings": {
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "b0f306fd-8efa-422f-a8b0-3a220e1a6e3f": {
+          "type": "image",
+          "settings": {
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "b9168f7c-1f61-454e-b641-1540a799c5a1": {
+          "type": "video",
+          "settings": {
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "show_video_controls": false,
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--18752118292825__64f2283d-7576-4138-8541-e267a147f9c8-image-1",
+        "template--18752118292825__64f2283d-7576-4138-8541-e267a147f9c8-image-2",
+        "template--18752118292825__64f2283d-7576-4138-8541-e267a147f9c8-image-3",
+        "b0f306fd-8efa-422f-a8b0-3a220e1a6e3f",
+        "b9168f7c-1f61-454e-b641-1540a799c5a1"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
     }
   },
   "order": [
@@ -552,6 +660,7 @@
     "e8fb94b5-0b2b-45ea-bd08-3b8e7cf74a80",
     "04bc0508-1798-4c95-ba1d-87cc94b67e63",
     "70c1490b-879a-4cf4-b3c8-33793d88e30d",
-    "5637a9fa-21cf-4216-a791-13774d62ed1d"
+    "5637a9fa-21cf-4216-a791-13774d62ed1d",
+    "64f2283d-7576-4138-8541-e267a147f9c8"
   ]
 }
