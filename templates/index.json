@@ -625,9 +625,9 @@
             "content": "<p>Gider du ikke alt bøvlet med at sælge dit gamle udstyr? Kontakt os omkring det udstyr som du gerne vil af med, så giver vi en byttepris for det! <\/p>",
             "link_text": "Læs mere",
             "link_url": "shopify:\/\/pages\/byt-til-nyt",
-            "background": "#000000",
+            "background": "#efefef",
             "background_gradient": "",
-            "text_color": "#ffffff",
+            "text_color": "#000000",
             "text_gradient": "",
             "button_background": "",
             "button_text_color": ""
