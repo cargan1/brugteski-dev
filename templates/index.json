@@ -138,19 +138,32 @@
             "animate_impact_text": true,
             "animate_impact_text_duration": 1
           }
+        },
+        "54421726-5541-40a6-8325-e6de0344916a": {
+          "type": "item",
+          "settings": {
+            "title": "2-5",
+            "subheading": "dages levering året rundt",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
         }
       },
       "block_order": [
         "template--14429261365283__05aee10a-f02b-4915-a255-38655f750af4-1666275630f7cd089e-0",
-        "ab301164-50c7-4388-aee6-18a75fa4111c"
+        "ab301164-50c7-4388-aee6-18a75fa4111c",
+        "54421726-5541-40a6-8325-e6de0344916a"
       ],
       "settings": {
         "full_width": true,
         "stack_mobile": true,
         "text_alignment": "center",
-        "impact_text_style": "outline",
-        "text_divider": "none",
-        "impact_text_size_ratio": 1.3,
+        "impact_text_style": "fill",
+        "text_divider": "line",
+        "impact_text_size_ratio": 1.5,
         "background": "",
         "background_gradient": "",
         "heading_text_color": "#003eff",
