@@ -255,7 +255,7 @@
         "1664424486a2b084ab-0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mont_2x_7c9dd507-c3d5-4c50-965c-0ee0a26f30ce.jpg",
+            "image": "shopify:\/\/shop_images\/SKI-BYT.jpg",
             "image_rotation_degrees": -1.5,
             "subheading": "",
             "title": "Danmarks Bedste Ski-garanti for Børn.",
@@ -275,7 +275,7 @@
         "background": "",
         "background_gradient": "",
         "text_color": "",
-        "button_background": "",
+        "button_background": "#003eff",
         "button_text_color": ""
       }
     },
