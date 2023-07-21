@@ -41,11 +41,6 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
-    "bc8d07a6-9b0d-4bfb-8e41-07321f922d9e": {
-      "type": "trustpilot-stjerner",
-      "settings": {
-      }
-    },
     "collection-list": {
       "type": "collection-list",
       "blocks": {
@@ -143,11 +138,24 @@
             "animate_impact_text": true,
             "animate_impact_text_duration": 1
           }
+        },
+        "d7de648e-6112-45c8-b4a2-57a3f4bb90e8": {
+          "type": "item",
+          "settings": {
+            "title": "2-5",
+            "subheading": "dages levering året rundt",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
         }
       },
       "block_order": [
         "template--14429261365283__05aee10a-f02b-4915-a255-38655f750af4-1666275630f7cd089e-0",
-        "ab301164-50c7-4388-aee6-18a75fa4111c"
+        "ab301164-50c7-4388-aee6-18a75fa4111c",
+        "d7de648e-6112-45c8-b4a2-57a3f4bb90e8"
       ],
       "settings": {
         "full_width": true,
@@ -164,6 +172,11 @@
         "button_background": "",
         "button_text_color": "",
         "tab_label": ""
+      }
+    },
+    "bc8d07a6-9b0d-4bfb-8e41-07321f922d9e": {
+      "type": "trustpilot-stjerner",
+      "settings": {
       }
     },
     "featured-collection": {
@@ -649,9 +662,9 @@
   },
   "order": [
     "slideshow",
-    "bc8d07a6-9b0d-4bfb-8e41-07321f922d9e",
     "collection-list",
     "05aee10a-f02b-4915-a255-38655f750af4",
+    "bc8d07a6-9b0d-4bfb-8e41-07321f922d9e",
     "featured-collection",
     "c37c5392-4d29-43da-aaab-728d304775c6",
     "bc481064-5c59-4fc2-8e0f-0def25e17a64",
