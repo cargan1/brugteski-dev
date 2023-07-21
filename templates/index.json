@@ -188,7 +188,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_5.jpg",
-            "image_rotation_degrees": -1.5,
+            "image_rotation_degrees": 0,
             "subheading": "",
             "title": "Danmarks Bedste Ski-garanti for Børn",
             "content": "<p>Syntes du det er for dyrt og besværligt at leje udstyr til dine børn? - Vi har løsningen! Dine børn kommer aldrig til at vokse fra deres udstyr igen...<\/p>",
@@ -214,18 +214,6 @@
     "05aee10a-f02b-4915-a255-38655f750af4": {
       "type": "impact-text",
       "blocks": {
-        "template--14429261365283__05aee10a-f02b-4915-a255-38655f750af4-1666275630f7cd089e-0": {
-          "type": "item",
-          "settings": {
-            "title": "100%",
-            "subheading": "gratis fragt & returnering",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": true,
-            "animate_impact_text_duration": 2
-          }
-        },
         "ab301164-50c7-4388-aee6-18a75fa4111c": {
           "type": "item",
           "settings": {
@@ -237,24 +225,10 @@
             "animate_impact_text": true,
             "animate_impact_text_duration": 1
           }
-        },
-        "54421726-5541-40a6-8325-e6de0344916a": {
-          "type": "item",
-          "settings": {
-            "title": "2-5",
-            "subheading": "dages levering året rundt",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": false,
-            "animate_impact_text_duration": 2
-          }
         }
       },
       "block_order": [
-        "template--14429261365283__05aee10a-f02b-4915-a255-38655f750af4-1666275630f7cd089e-0",
-        "ab301164-50c7-4388-aee6-18a75fa4111c",
-        "54421726-5541-40a6-8325-e6de0344916a"
+        "ab301164-50c7-4388-aee6-18a75fa4111c"
       ],
       "settings": {
         "full_width": true,
@@ -528,45 +502,6 @@
         "background": "rgba(0,0,0,0)",
         "background_gradient": ""
       }
-    },
-    "29d8cbfa-39cb-44ac-94f4-d867304e1080": {
-      "type": "images-with-text-scrolling",
-      "blocks": {
-        "template--18752118292825__29d8cbfa-39cb-44ac-94f4-d867304e1080-item-1": {
-          "type": "item",
-          "settings": {
-            "icon": "none",
-            "icon_width": 48,
-            "title": "ececec",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "template--18752118292825__29d8cbfa-39cb-44ac-94f4-d867304e1080-item-2": {
-          "type": "item",
-          "settings": {
-            "icon": "none",
-            "icon_width": 48,
-            "title": "Heading 2",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--18752118292825__29d8cbfa-39cb-44ac-94f4-d867304e1080-item-1",
-        "template--18752118292825__29d8cbfa-39cb-44ac-94f4-d867304e1080-item-2"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "show_counter": true,
-        "desktop_image_effect": "reveal",
-        "image_position": "end",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
     }
   },
   "order": [
@@ -582,7 +517,6 @@
     "04bc0508-1798-4c95-ba1d-87cc94b67e63",
     "bc8d07a6-9b0d-4bfb-8e41-07321f922d9e",
     "70c1490b-879a-4cf4-b3c8-33793d88e30d",
-    "5637a9fa-21cf-4216-a791-13774d62ed1d",
-    "29d8cbfa-39cb-44ac-94f4-d867304e1080"
+    "5637a9fa-21cf-4216-a791-13774d62ed1d"
   ]
 }
