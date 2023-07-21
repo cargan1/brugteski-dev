@@ -204,7 +204,7 @@
         "full_width": true,
         "images_layout": "scattered",
         "collage_images_alignment": "middle",
-        "background": "",
+        "background": "#efefef",
         "background_gradient": "",
         "text_color": "",
         "button_background": "#003eff",
