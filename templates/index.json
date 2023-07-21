@@ -541,84 +541,24 @@
         "background_gradient": ""
       }
     },
-    "c48a4b65-bb7d-49cc-93ef-0cc64c12ec86": {
-      "type": "multi-column",
-      "blocks": {
-        "template--18752118292825__c48a4b65-bb7d-49cc-93ef-0cc64c12ec86-item-1": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_5.jpg",
-            "column_size": "3",
-            "title": "Column title",
-            "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_url": "",
-            "link_text": "jiji",
-            "link_style": "button"
-          }
-        },
-        "template--18752118292825__c48a4b65-bb7d-49cc-93ef-0cc64c12ec86-item-2": {
-          "type": "item",
-          "settings": {
-            "column_size": "3",
-            "title": "Column title",
-            "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "template--18752118292825__c48a4b65-bb7d-49cc-93ef-0cc64c12ec86-item-3": {
-          "type": "item",
-          "settings": {
-            "column_size": "3",
-            "title": "Column title",
-            "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "template--18752118292825__c48a4b65-bb7d-49cc-93ef-0cc64c12ec86-item-1",
-        "template--18752118292825__c48a4b65-bb7d-49cc-93ef-0cc64c12ec86-item-2",
-        "template--18752118292825__c48a4b65-bb7d-49cc-93ef-0cc64c12ec86-item-3"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "gap": "medium",
-        "text_alignment": "start",
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "tab_label": ""
-      }
-    },
     "5416e99f-3a7e-4a0f-8201-00b6ab233144": {
       "type": "media-with-text",
       "blocks": {
         "e60bfdc0-7751-4fab-91a6-3fb7e6c4f53c": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/altsnowboardg.jpg",
-            "media_width": 60,
+            "image": "shopify:\/\/shop_images\/badge-new.jpg",
+            "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center text-center",
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#000000",
+            "title": "DANMARKS BEDSTE SKI-GARANTI FOR BØRN",
+            "content": "<p>Syntes du det er for dyrt og besværligt at leje udstyr til dine børn? - Vi har løsningen! Dine børn kommer aldrig til at vokse fra deres udstyr igen...<\/p>",
+            "link_text": "LÆS OM GARANTIEN HER",
+            "link_url": "shopify:\/\/pages\/ski-byt-for-born-juniorer",
+            "background": "#efefef",
             "background_gradient": "",
             "text_color": "#ffffff",
             "text_gradient": "",
@@ -629,23 +569,23 @@
         "template--18752118292825__5416e99f-3a7e-4a0f-8201-00b6ab233144-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SKI-BYT.jpg",
-            "media_width": 40,
-            "media_position": "start",
+            "image": "shopify:\/\/shop_images\/service3.jpg",
+            "media_width": 50,
+            "media_position": "end",
             "text_position": "place-self-center text-center",
             "icon": "none",
             "icon_width": 48,
-            "subheading": "",
-            "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#000000",
+            "subheading": "199,00 DKK",
+            "title": "Skiservice",
+            "content": "<p><em><strong>Slibning af snowboard + kr. 50,-<\/strong><\/em><\/p><p><em><strong>Reparation af sålhuller +  Kr. 50,-<\/strong><\/em><\/p><p>Hos Brugteski.dk har vi vores eget skiværksted, hvor vi servicerer dine ski inden og efter du tager afsted på skiferie. Vi sliber kanter samt sålen, og afslutter med at vokse skiene.<\/p><p>For bestilling af service, skal du medbring dit udstyr i vores showroom.<br\/><a href=\"https:\/\/brugteski.dk\/pages\/showroom-og-vores-abningstider\" title=\"showroom og åbningstider\">Se adressen og åbningstider her.<\/a><\/p><p>Vi service udstyr flere gange i ugen.<\/p><p>Ops.: Vores ski værksted er for lukket for resten af sæsonen. Åbner igen til Oktober 2023.<\/p><p> <\/p>",
+            "link_text": "Bestil service",
+            "link_url": "shopify:\/\/products\/ski-service-pro",
+            "background": "#efefef",
             "background_gradient": "",
             "text_color": "#ffffff",
             "text_gradient": "",
             "button_background": "",
-            "button_text_color": ""
+            "button_text_color": "#000000"
           }
         }
       },
@@ -676,7 +616,6 @@
     "bc8d07a6-9b0d-4bfb-8e41-07321f922d9e",
     "70c1490b-879a-4cf4-b3c8-33793d88e30d",
     "5637a9fa-21cf-4216-a791-13774d62ed1d",
-    "c48a4b65-bb7d-49cc-93ef-0cc64c12ec86",
     "5416e99f-3a7e-4a0f-8201-00b6ab233144"
   ]
 }
