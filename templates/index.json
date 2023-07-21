@@ -154,6 +154,63 @@
         "product_card_text_color": ""
       }
     },
+    "bc481064-5c59-4fc2-8e0f-0def25e17a64": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "borne-juniorski",
+        "products": [
+
+        ],
+        "full_width": false,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 28,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
+        "subheading": "",
+        "title": "Børne- & Juniorski",
+        "content": "<p>Alle vores ski er nyslebet, vokset, og er lige klar til at hoppe på pisterne.<\/p>",
+        "link_url": "shopify:\/\/collections\/borne-juniorski",
+        "link_text": "Vis alle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "multiple-images-with-text": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "1664424486a2b084ab-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_5.jpg",
+            "image_rotation_degrees": -1.5,
+            "subheading": "",
+            "title": "Danmarks Bedste Ski-garanti for Børn",
+            "content": "<p>Syntes du det er for dyrt og besværligt at leje udstyr til dine børn? - Vi har løsningen! Dine børn kommer aldrig til at vokse fra deres udstyr igen...<\/p>",
+            "button_url": "shopify:\/\/pages\/ski-byt-for-born-juniorer",
+            "button_text": "Spar Penge Her!"
+          }
+        }
+      },
+      "block_order": [
+        "1664424486a2b084ab-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "images_layout": "scattered",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "#003eff",
+        "button_text_color": ""
+      }
+    },
     "05aee10a-f02b-4915-a255-38655f750af4": {
       "type": "impact-text",
       "blocks": {
@@ -214,63 +271,6 @@
         "button_background": "",
         "button_text_color": "",
         "tab_label": ""
-      }
-    },
-    "bc481064-5c59-4fc2-8e0f-0def25e17a64": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "borne-juniorski",
-        "products": [
-
-        ],
-        "full_width": false,
-        "stack_products": false,
-        "show_progress_bar": true,
-        "products_count": 28,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 5,
-        "subheading": "",
-        "title": "Børne- & Juniorski",
-        "content": "<p>Alle vores ski er nyslebet, vokset, og er lige klar til at hoppe på pisterne.<\/p>",
-        "link_url": "shopify:\/\/collections\/borne-juniorski",
-        "link_text": "Vis alle",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
-    "multiple-images-with-text": {
-      "type": "multiple-images-with-text",
-      "blocks": {
-        "1664424486a2b084ab-0": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_5.jpg",
-            "image_rotation_degrees": -1.5,
-            "subheading": "",
-            "title": "Danmarks Bedste Ski-garanti for Børn",
-            "content": "<p>Syntes du det er for dyrt og besværligt at leje udstyr til dine børn? - Vi har løsningen! Dine børn kommer aldrig til at vokse fra deres udstyr igen...<\/p>",
-            "button_url": "shopify:\/\/pages\/ski-byt-for-born-juniorer",
-            "button_text": "Spar Penge Her!"
-          }
-        }
-      },
-      "block_order": [
-        "1664424486a2b084ab-0"
-      ],
-      "settings": {
-        "full_width": true,
-        "images_layout": "scattered",
-        "collage_images_alignment": "middle",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "button_background": "#003eff",
-        "button_text_color": ""
       }
     },
     "6aabe402-ce2e-4632-88c6-358f059dd2a5": {
@@ -529,133 +529,43 @@
         "background_gradient": ""
       }
     },
-    "64f2283d-7576-4138-8541-e267a147f9c8": {
-      "type": "media-grid",
+    "29d8cbfa-39cb-44ac-94f4-d867304e1080": {
+      "type": "images-with-text-scrolling",
       "blocks": {
-        "template--18752118292825__64f2283d-7576-4138-8541-e267a147f9c8-image-1": {
-          "type": "image",
+        "template--18752118292825__29d8cbfa-39cb-44ac-94f4-d867304e1080-item-1": {
+          "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ski-guides2.jpg",
-            "title": "Promote your products",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "icon": "none",
+            "icon_width": 48,
+            "title": "ececec",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
           }
         },
-        "template--18752118292825__64f2283d-7576-4138-8541-e267a147f9c8-image-2": {
-          "type": "image",
+        "template--18752118292825__29d8cbfa-39cb-44ac-94f4-d867304e1080-item-2": {
+          "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_Herre_dameski.jpg",
-            "title": "Promote your products",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 2,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "template--18752118292825__64f2283d-7576-4138-8541-e267a147f9c8-image-3": {
-          "type": "image",
-          "settings": {
-            "title": "Promote your products",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "b0f306fd-8efa-422f-a8b0-3a220e1a6e3f": {
-          "type": "image",
-          "settings": {
-            "title": "Promote your products",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 2,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "b9168f7c-1f61-454e-b641-1540a799c5a1": {
-          "type": "video",
-          "settings": {
-            "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "show_video_controls": false,
-            "title": "Promote your products",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 2,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading 2",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
           }
         }
       },
       "block_order": [
-        "template--18752118292825__64f2283d-7576-4138-8541-e267a147f9c8-image-1",
-        "template--18752118292825__64f2283d-7576-4138-8541-e267a147f9c8-image-2",
-        "template--18752118292825__64f2283d-7576-4138-8541-e267a147f9c8-image-3",
-        "b0f306fd-8efa-422f-a8b0-3a220e1a6e3f",
-        "b9168f7c-1f61-454e-b641-1540a799c5a1"
+        "template--18752118292825__29d8cbfa-39cb-44ac-94f4-d867304e1080-item-1",
+        "template--18752118292825__29d8cbfa-39cb-44ac-94f4-d867304e1080-item-2"
       ],
       "settings": {
         "full_width": true,
-        "reduce_width": false,
-        "desktop_row_height": 290,
-        "mobile_row_height": 150,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
         "background": "",
-        "background_gradient": ""
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
       }
     }
   },
@@ -664,15 +574,15 @@
     "c37c5392-4d29-43da-aaab-728d304775c6",
     "collection-list",
     "featured-collection",
-    "05aee10a-f02b-4915-a255-38655f750af4",
     "bc481064-5c59-4fc2-8e0f-0def25e17a64",
     "multiple-images-with-text",
+    "05aee10a-f02b-4915-a255-38655f750af4",
     "6aabe402-ce2e-4632-88c6-358f059dd2a5",
     "e8fb94b5-0b2b-45ea-bd08-3b8e7cf74a80",
     "04bc0508-1798-4c95-ba1d-87cc94b67e63",
     "bc8d07a6-9b0d-4bfb-8e41-07321f922d9e",
     "70c1490b-879a-4cf4-b3c8-33793d88e30d",
     "5637a9fa-21cf-4216-a791-13774d62ed1d",
-    "64f2283d-7576-4138-8541-e267a147f9c8"
+    "29d8cbfa-39cb-44ac-94f4-d867304e1080"
   ]
 }
