@@ -4,6 +4,7 @@
   "sections": {
     "text-with-icons": {
       "type": "text-with-icons",
+      "disabled": true,
       "blocks": {
         "free-shipping": {
           "type": "item",
@@ -12,6 +13,8 @@
             "mobile_icon_width": 24,
             "icon_width": 24,
             "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
             "title": "Free shipping",
             "content": "<p>Tell your customers about your shipping offer.<\/p>"
           }
@@ -23,6 +26,8 @@
             "mobile_icon_width": 24,
             "icon_width": 24,
             "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
             "title": "Customer service",
             "content": "<p>Tell your customers how they can reach you.<\/p>"
           }
@@ -34,6 +39,8 @@
             "mobile_icon_width": 24,
             "icon_width": 24,
             "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
             "title": "Refer a friend",
             "content": "<p>Tell your customers about your promotional offers.<\/p>"
           }
@@ -45,6 +52,8 @@
             "mobile_icon_width": 24,
             "icon_width": 24,
             "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
             "title": "Secure payment",
             "content": "<p>Tel your customers about your payment methods.<\/p>"
           }
@@ -58,9 +67,13 @@
       ],
       "settings": {
         "full_width": true,
+        "title": "",
         "heading_tag": "h6",
         "text_alignment": "center",
-        "icon_spacing": "small"
+        "icon_spacing": "small",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "footer": {

@@ -503,6 +503,102 @@
         "background": "rgba(0,0,0,0)",
         "background_gradient": ""
       }
+    },
+    "c48a4b65-bb7d-49cc-93ef-0cc64c12ec86": {
+      "type": "multi-column",
+      "blocks": {
+        "template--18752118292825__c48a4b65-bb7d-49cc-93ef-0cc64c12ec86-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_5.jpg",
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_url": "",
+            "link_text": "jiji",
+            "link_style": "button"
+          }
+        },
+        "template--18752118292825__c48a4b65-bb7d-49cc-93ef-0cc64c12ec86-item-2": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--18752118292825__c48a4b65-bb7d-49cc-93ef-0cc64c12ec86-item-3": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "template--18752118292825__c48a4b65-bb7d-49cc-93ef-0cc64c12ec86-item-1",
+        "template--18752118292825__c48a4b65-bb7d-49cc-93ef-0cc64c12ec86-item-2",
+        "template--18752118292825__c48a4b65-bb7d-49cc-93ef-0cc64c12ec86-item-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "tab_label": ""
+      }
+    },
+    "1c45ab7c-9a7b-49b4-a09d-dda5cf2c456a": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--18752118292825__1c45ab7c-9a7b-49b4-a09d-dda5cf2c456a-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SKI-BYT.jpg",
+            "media_width": 45,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "link_text": "fgfgfg",
+            "link_url": "",
+            "background": "#f2f2f2",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#003eff",
+            "button_text_color": "#fafafa"
+          }
+        }
+      },
+      "block_order": [
+        "template--18752118292825__1c45ab7c-9a7b-49b4-a09d-dda5cf2c456a-image-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "small",
+        "tab_label": ""
+      }
     }
   },
   "order": [
@@ -518,6 +614,8 @@
     "04bc0508-1798-4c95-ba1d-87cc94b67e63",
     "bc8d07a6-9b0d-4bfb-8e41-07321f922d9e",
     "70c1490b-879a-4cf4-b3c8-33793d88e30d",
-    "5637a9fa-21cf-4216-a791-13774d62ed1d"
+    "5637a9fa-21cf-4216-a791-13774d62ed1d",
+    "c48a4b65-bb7d-49cc-93ef-0cc64c12ec86",
+    "1c45ab7c-9a7b-49b4-a09d-dda5cf2c456a"
   ]
 }
