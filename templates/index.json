@@ -571,7 +571,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/SKI-BYT.jpg",
-            "media_width": 45,
+            "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-start text-start",
             "icon": "none",
