@@ -138,24 +138,11 @@
             "animate_impact_text": true,
             "animate_impact_text_duration": 1
           }
-        },
-        "d7de648e-6112-45c8-b4a2-57a3f4bb90e8": {
-          "type": "item",
-          "settings": {
-            "title": "2-5",
-            "subheading": "dages levering året rundt",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": false,
-            "animate_impact_text_duration": 2
-          }
         }
       },
       "block_order": [
         "template--14429261365283__05aee10a-f02b-4915-a255-38655f750af4-1666275630f7cd089e-0",
-        "ab301164-50c7-4388-aee6-18a75fa4111c",
-        "d7de648e-6112-45c8-b4a2-57a3f4bb90e8"
+        "ab301164-50c7-4388-aee6-18a75fa4111c"
       ],
       "settings": {
         "full_width": true,
