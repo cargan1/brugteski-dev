@@ -41,6 +41,21 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
+    "c37c5392-4d29-43da-aaab-728d304775c6": {
+      "type": "scrolling-text",
+      "settings": {
+        "full_width": true,
+        "text": "Mindst 40% af nyprisen & Altid gratis fragt",
+        "text_size": "xsmall",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 6,
+        "background": "#003eff",
+        "background_gradient": "",
+        "text_color": "#fafafa",
+        "text_gradient": ""
+      }
+    },
     "collection-list": {
       "type": "collection-list",
       "blocks": {
@@ -110,21 +125,6 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": ""
-      }
-    },
-    "c37c5392-4d29-43da-aaab-728d304775c6": {
-      "type": "scrolling-text",
-      "settings": {
-        "full_width": true,
-        "text": "Mindst 40% af nyprisen",
-        "text_size": "xsmall",
-        "text_style": "fill",
-        "scrolling_mode": "auto",
-        "scrolling_speed": 4,
-        "background": "#003eff",
-        "background_gradient": "",
-        "text_color": "#fafafa",
-        "text_gradient": ""
       }
     },
     "featured-collection": {
@@ -661,8 +661,8 @@
   },
   "order": [
     "slideshow",
-    "collection-list",
     "c37c5392-4d29-43da-aaab-728d304775c6",
+    "collection-list",
     "featured-collection",
     "05aee10a-f02b-4915-a255-38655f750af4",
     "bc481064-5c59-4fc2-8e0f-0def25e17a64",
