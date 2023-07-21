@@ -41,6 +41,68 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
+    "05aee10a-f02b-4915-a255-38655f750af4": {
+      "type": "impact-text",
+      "blocks": {
+        "template--14429261365283__05aee10a-f02b-4915-a255-38655f750af4-1666275630f7cd089e-0": {
+          "type": "item",
+          "settings": {
+            "title": "100%",
+            "subheading": "gratis fragt & returnering",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "ab301164-50c7-4388-aee6-18a75fa4111c": {
+          "type": "item",
+          "settings": {
+            "title": "40%",
+            "subheading": "af nyprisen som minimum",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 1
+          }
+        },
+        "54421726-5541-40a6-8325-e6de0344916a": {
+          "type": "item",
+          "settings": {
+            "title": "2-5",
+            "subheading": "dages levering året rundt",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "template--14429261365283__05aee10a-f02b-4915-a255-38655f750af4-1666275630f7cd089e-0",
+        "ab301164-50c7-4388-aee6-18a75fa4111c",
+        "54421726-5541-40a6-8325-e6de0344916a"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "line",
+        "impact_text_size_ratio": 1.5,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "#003eff",
+        "heading_gradient": "linear-gradient(0deg, rgba(0, 62, 255, 1), rgba(0, 62, 255, 1) 99%)",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": "",
+        "tab_label": ""
+      }
+    },
     "collection-list": {
       "type": "collection-list",
       "blocks": {
@@ -110,68 +172,6 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": ""
-      }
-    },
-    "05aee10a-f02b-4915-a255-38655f750af4": {
-      "type": "impact-text",
-      "blocks": {
-        "template--14429261365283__05aee10a-f02b-4915-a255-38655f750af4-1666275630f7cd089e-0": {
-          "type": "item",
-          "settings": {
-            "title": "100%",
-            "subheading": "gratis fragt & returnering",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": true,
-            "animate_impact_text_duration": 2
-          }
-        },
-        "ab301164-50c7-4388-aee6-18a75fa4111c": {
-          "type": "item",
-          "settings": {
-            "title": "40%",
-            "subheading": "af nyprisen som minimum",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": true,
-            "animate_impact_text_duration": 1
-          }
-        },
-        "54421726-5541-40a6-8325-e6de0344916a": {
-          "type": "item",
-          "settings": {
-            "title": "2-5",
-            "subheading": "dages levering året rundt",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": false,
-            "animate_impact_text_duration": 2
-          }
-        }
-      },
-      "block_order": [
-        "template--14429261365283__05aee10a-f02b-4915-a255-38655f750af4-1666275630f7cd089e-0",
-        "ab301164-50c7-4388-aee6-18a75fa4111c",
-        "54421726-5541-40a6-8325-e6de0344916a"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_mobile": true,
-        "text_alignment": "center",
-        "impact_text_style": "fill",
-        "text_divider": "line",
-        "impact_text_size_ratio": 1.5,
-        "background": "",
-        "background_gradient": "",
-        "heading_text_color": "#003eff",
-        "heading_gradient": "linear-gradient(0deg, rgba(0, 62, 255, 1), rgba(0, 62, 255, 1) 99%)",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": "",
-        "tab_label": ""
       }
     },
     "bc8d07a6-9b0d-4bfb-8e41-07321f922d9e": {
@@ -662,8 +662,8 @@
   },
   "order": [
     "slideshow",
-    "collection-list",
     "05aee10a-f02b-4915-a255-38655f750af4",
+    "collection-list",
     "bc8d07a6-9b0d-4bfb-8e41-07321f922d9e",
     "featured-collection",
     "c37c5392-4d29-43da-aaab-728d304775c6",
