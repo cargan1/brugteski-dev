@@ -213,6 +213,7 @@
     },
     "05aee10a-f02b-4915-a255-38655f750af4": {
       "type": "impact-text",
+      "disabled": true,
       "blocks": {
         "ab301164-50c7-4388-aee6-18a75fa4111c": {
           "type": "item",
