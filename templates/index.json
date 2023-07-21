@@ -288,7 +288,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/fiverr_sign_long_v3.png",
-            "media_width": 60,
+            "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
