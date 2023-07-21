@@ -587,11 +587,58 @@
             "button_background": "#efefef",
             "button_text_color": "#000000"
           }
+        },
+        "a27c64b4-114a-427a-89f2-3240a066bab5": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "SKAL VI KØBE DIT BRUGTE UDSTYR?",
+            "content": "<p>Gider du ikke alt bøvlet med at sælge dit gamle udstyr? Kontakt os omkring det udstyr som du gerne vil af med, så giver vi en byttepris for det! <\/p>",
+            "link_text": "Læs mere",
+            "link_url": "shopify:\/\/pages\/byt-til-nyt",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "95bdbf37-78af-457f-b674-ba358afbe9d5": {
+          "type": "video",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/aerial-top-down-of-winter-snow-covered-mountains-l-2022-10-22-04-46-19-utc_comp.mp4",
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "autoplay": true,
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "SKAL VI KØBE DIT BRUGTE UDSTYR?",
+            "content": "<p>Gider du ikke alt bøvlet med at sælge dit gamle udstyr? Kontakt os omkring det udstyr som du gerne vil af med, så giver vi en byttepris for det! <\/p>",
+            "link_text": "Læs mere",
+            "link_url": "shopify:\/\/pages\/byt-til-nyt",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
         }
       },
       "block_order": [
         "e60bfdc0-7751-4fab-91a6-3fb7e6c4f53c",
-        "template--18752118292825__5416e99f-3a7e-4a0f-8201-00b6ab233144-image-1"
+        "template--18752118292825__5416e99f-3a7e-4a0f-8201-00b6ab233144-image-1",
+        "a27c64b4-114a-427a-89f2-3240a066bab5",
+        "95bdbf37-78af-457f-b674-ba358afbe9d5"
       ],
       "settings": {
         "full_width": false,
