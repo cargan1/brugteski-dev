@@ -116,14 +116,14 @@
       "type": "scrolling-text",
       "settings": {
         "full_width": true,
-        "text": "WARNING: Mulighed for en god handel",
-        "text_size": "small",
+        "text": "Mindst 40% af nyprisen",
+        "text_size": "xsmall",
         "text_style": "fill",
         "scrolling_mode": "auto",
         "scrolling_speed": 4,
-        "background": "#ffffff",
+        "background": "#003eff",
         "background_gradient": "",
-        "text_color": "#ffe400",
+        "text_color": "#fafafa",
         "text_gradient": ""
       }
     },
