@@ -588,6 +588,21 @@
         "heading_gradient": ""
       }
     },
+    "d066db11-1234-4544-9320-5a28927212cd": {
+      "type": "scrolling-text",
+      "settings": {
+        "full_width": true,
+        "text": "DANMARKS STØRSTE LEVERANDØR AF BRUGTE SKI",
+        "text_size": "medium",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 10,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#003eff",
+        "text_gradient": ""
+      }
+    },
     "5637a9fa-21cf-4216-a791-13774d62ed1d": {
       "type": "slideshow",
       "blocks": {
@@ -690,6 +705,7 @@
     "04bc0508-1798-4c95-ba1d-87cc94b67e63",
     "bc8d07a6-9b0d-4bfb-8e41-07321f922d9e",
     "70c1490b-879a-4cf4-b3c8-33793d88e30d",
+    "d066db11-1234-4544-9320-5a28927212cd",
     "5637a9fa-21cf-4216-a791-13774d62ed1d"
   ]
 }
