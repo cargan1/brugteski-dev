@@ -181,8 +181,45 @@
         "product_card_text_color": ""
       }
     },
+    "1c45ab7c-9a7b-49b4-a09d-dda5cf2c456a": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--18752118292825__1c45ab7c-9a7b-49b4-a09d-dda5cf2c456a-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/badge-new.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "DANMARKS BEDSTE SKI-GARANTI FOR BØRN",
+            "content": "<p>Syntes du det er for dyrt og besværligt at leje udstyr til dine børn? - Vi har løsningen! Dine børn kommer aldrig til at vokse fra deres udstyr igen...<\/p>",
+            "link_text": "Læs om garantien her",
+            "link_url": "",
+            "background": "#f2f2f2",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "#003eff",
+            "button_text_color": "#fafafa"
+          }
+        }
+      },
+      "block_order": [
+        "template--18752118292825__1c45ab7c-9a7b-49b4-a09d-dda5cf2c456a-image-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "small",
+        "tab_label": ""
+      }
+    },
     "multiple-images-with-text": {
       "type": "multiple-images-with-text",
+      "disabled": true,
       "blocks": {
         "1664424486a2b084ab-0": {
           "type": "item",
@@ -563,42 +600,6 @@
         "text_color": "",
         "tab_label": ""
       }
-    },
-    "1c45ab7c-9a7b-49b4-a09d-dda5cf2c456a": {
-      "type": "media-with-text",
-      "blocks": {
-        "template--18752118292825__1c45ab7c-9a7b-49b4-a09d-dda5cf2c456a-image-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/badge-new.jpg",
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center text-center",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "DANMARKS BEDSTE SKI-GARANTI FOR BØRN",
-            "content": "<p>Syntes du det er for dyrt og besværligt at leje udstyr til dine børn? - Vi har løsningen! Dine børn kommer aldrig til at vokse fra deres udstyr igen...<\/p>",
-            "link_text": "Læs om garantien her",
-            "link_url": "",
-            "background": "#f2f2f2",
-            "background_gradient": "",
-            "text_color": "#000000",
-            "text_gradient": "",
-            "button_background": "#003eff",
-            "button_text_color": "#fafafa"
-          }
-        }
-      },
-      "block_order": [
-        "template--18752118292825__1c45ab7c-9a7b-49b4-a09d-dda5cf2c456a-image-1"
-      ],
-      "settings": {
-        "full_width": false,
-        "enable_parallax": true,
-        "spacing": "small",
-        "tab_label": ""
-      }
     }
   },
   "order": [
@@ -607,6 +608,7 @@
     "collection-list",
     "featured-collection",
     "bc481064-5c59-4fc2-8e0f-0def25e17a64",
+    "1c45ab7c-9a7b-49b4-a09d-dda5cf2c456a",
     "multiple-images-with-text",
     "05aee10a-f02b-4915-a255-38655f750af4",
     "6aabe402-ce2e-4632-88c6-358f059dd2a5",
@@ -615,7 +617,6 @@
     "bc8d07a6-9b0d-4bfb-8e41-07321f922d9e",
     "70c1490b-879a-4cf4-b3c8-33793d88e30d",
     "5637a9fa-21cf-4216-a791-13774d62ed1d",
-    "c48a4b65-bb7d-49cc-93ef-0cc64c12ec86",
-    "1c45ab7c-9a7b-49b4-a09d-dda5cf2c456a"
+    "c48a4b65-bb7d-49cc-93ef-0cc64c12ec86"
   ]
 }
