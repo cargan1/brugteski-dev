@@ -177,7 +177,7 @@
         "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-4": {
           "type": "tab",
           "settings": {
-            "title": "Tab Name"
+            "title": "Contact"
           }
         }
       },
@@ -404,6 +404,26 @@
         "background_gradient": "",
         "text_color": "",
         "tab_label": "Stand"
+      }
+    },
+    "bf60e6c3-00b7-4616-9fd0-19986092c878": {
+      "type": "contact",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Brug for hjælp?",
+        "content": "<p><strong>Har du spørgsmål, eller brug for hjælp til at finde de rette ski til dig?<\/strong><\/p><p>Så er du altid velkommen til at kontakte os på tlf.: +45 3020 9975, eller skriv en mail til os.<br\/>Du må have en  god dag :)<\/p>",
+        "text_position": "start",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "",
+        "button_text_color": ""
       }
     },
     "a2d55917-d689-4d4a-a841-728c942d4a7a": {
@@ -737,26 +757,6 @@
         "testimonial_card_text_color": ""
       }
     },
-    "bf60e6c3-00b7-4616-9fd0-19986092c878": {
-      "type": "contact",
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "Brug for hjælp?",
-        "content": "<p><strong>Har du spørgsmål, eller brug for hjælp til at finde de rette ski til dig?<\/strong><\/p><p>Så er du altid velkommen til at kontakte os på tlf.: +45 3020 9975, eller skriv en mail til os.<br\/>Du må have en  god dag :)<\/p>",
-        "text_position": "start",
-        "contact_form_size": "large",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "contact_background": "",
-        "contact_text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
     "6fe9e5e3-41c0-4ad1-a62e-5e2b2ba02828": {
       "type": "trustpilot-stjerner",
       "settings": {
@@ -770,11 +770,11 @@
     "bc007c98-134a-45e6-879f-a9610e0a56cd",
     "1b924801-2f39-4b3d-97cf-6ac91e20f85c",
     "aa73c3dc-82ca-485c-a544-d5b8dd955818",
+    "bf60e6c3-00b7-4616-9fd0-19986092c878",
     "a2d55917-d689-4d4a-a841-728c942d4a7a",
     "5339552c-ca02-4356-bc93-49775b177927",
     "892c0d3c-c5de-4a4e-a62e-2f712b480fd4",
     "ccab4d19-b071-4fcd-bff1-88c63fbf47ec",
-    "bf60e6c3-00b7-4616-9fd0-19986092c878",
     "6fe9e5e3-41c0-4ad1-a62e-5e2b2ba02828"
   ]
 }
