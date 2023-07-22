@@ -409,7 +409,7 @@
     "bf60e6c3-00b7-4616-9fd0-19986092c878": {
       "type": "contact",
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "subheading": "",
         "title": "Brug for hjælp?",
         "content": "<p><strong>Har du spørgsmål, eller brug for hjælp til at finde de rette ski til dig?<\/strong><\/p><p>Så er du altid velkommen til at kontakte os på tlf.: +45 3020 9975, eller skriv en mail til os.<br\/>Du må have en  god dag :)<\/p>",
