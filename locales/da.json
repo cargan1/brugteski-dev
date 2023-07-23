@@ -72,7 +72,7 @@
       "pre_order_button": "Forudbestil",
       "sold_out_button": "Udsolgt",
       "unavailable_button": "Ikke tilgængelig",
-      "added_to_cart": "Føjet til din indkøbskurv!",
+      "added_to_cart": "Føjet til din indkøbskurv & reserveret i 15min.",
       "sold_out_badge": "Udsolgt",
       "on_sale_badge": "På tilbud",
       "discount_badge_html": "Spar {{ savings }}",
