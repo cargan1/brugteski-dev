@@ -51,7 +51,7 @@
     "checkout_logo_size": "large",
     "checkout_sidebar_background_color": "#fafafa",
     "checkout_accent_color": "#003eff",
-    "checkout_button_color": "#f83a3a",
+    "checkout_button_color": "#003eff",
     "checkout_error_color": "#f0c417",
     "sections": {
       "announcement-bar": {
