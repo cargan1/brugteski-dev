@@ -388,7 +388,7 @@
             "subheading": "",
             "title": "DANMARKS BEDSTE SKI-GARANTI FOR BØRN",
             "content": "<p>Syntes du det er for dyrt og besværligt at leje udstyr til dine børn? - Vi har løsningen! Dine børn kommer aldrig til at vokse fra deres udstyr igen...<\/p>",
-            "link_text": "LÆS OM GARANTIEN HER",
+            "link_text": "Læs om Ski-Garanti",
             "link_url": "shopify:\/\/pages\/ski-byt-for-born-juniorer",
             "background": "#efefef",
             "background_gradient": "",
@@ -434,13 +434,13 @@
             "subheading": "",
             "title": "SKAL VI KØBE DIT BRUGTE UDSTYR?",
             "content": "<p>Gider du ikke alt bøvlet med at sælge dit gamle udstyr? Kontakt os omkring det udstyr som du gerne vil af med, så giver vi en byttepris for det! <\/p>",
-            "link_text": "Læs mere",
+            "link_text": "Sælg dit udstyr",
             "link_url": "shopify:\/\/pages\/byt-til-nyt",
             "background": "#efefef",
             "background_gradient": "",
             "text_color": "#000000",
             "text_gradient": "",
-            "button_background": "",
+            "button_background": "#003eff",
             "button_text_color": ""
           }
         },
@@ -664,6 +664,7 @@
     },
     "5637a9fa-21cf-4216-a791-13774d62ed1d": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "template--14429261365283__5637a9fa-21cf-4216-a791-13774d62ed1d-166609646074615da7-0": {
           "type": "image",
@@ -747,6 +748,48 @@
         "background": "rgba(0,0,0,0)",
         "background_gradient": ""
       }
+    },
+    "56be727f-3b6b-437d-b169-29393ae1108c": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18752118292825__56be727f-3b6b-437d-b169-29393ae1108c-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Oplev vores showroom"
+          }
+        },
+        "template--18752118292825__56be727f-3b6b-437d-b169-29393ae1108c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Besøg os i Fredericia",
+            "heading_tag": "h1"
+          }
+        },
+        "template--18752118292825__56be727f-3b6b-437d-b169-29393ae1108c-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Åbningstider for showroom<br\/><\/strong>Mandag-Fredag: Lukket<br\/>Lørdag: 11.00-17.00<br\/>Søndag:11.00-17.00<\/p><h6><strong>Vi åbner op igen til Oktober<\/strong><\/h6>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18752118292825__56be727f-3b6b-437d-b169-29393ae1108c-subheading-1",
+        "template--18752118292825__56be727f-3b6b-437d-b169-29393ae1108c-heading-1",
+        "template--18752118292825__56be727f-3b6b-437d-b169-29393ae1108c-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "sm",
+        "image": "shopify:\/\/shop_images\/showrooom_2.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/showrooom_2.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#003eff",
+        "overlay_opacity": 70
+      }
     }
   },
   "order": [
@@ -766,6 +809,7 @@
     "04bc0508-1798-4c95-ba1d-87cc94b67e63",
     "70c1490b-879a-4cf4-b3c8-33793d88e30d",
     "d066db11-1234-4544-9320-5a28927212cd",
-    "5637a9fa-21cf-4216-a791-13774d62ed1d"
+    "5637a9fa-21cf-4216-a791-13774d62ed1d",
+    "56be727f-3b6b-437d-b169-29393ae1108c"
   ]
 }
