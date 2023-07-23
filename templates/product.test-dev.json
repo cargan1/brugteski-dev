@@ -25,6 +25,13 @@
           "settings": {
           }
         },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "collapse_content": true
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -41,12 +48,6 @@
           "settings": {
           }
         },
-        "b7116d37-820d-4320-ba8a-a4a7ce116385": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Skal vi indsstille dine bindinger?<br\/><\/strong>Udfyld med: Vægt (kg), Højde (cm) & Støvlelængde (mm)<\/p>"
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -57,9 +58,21 @@
             "payment_button_text_color": ""
           }
         },
+        "b7116d37-820d-4320-ba8a-a4a7ce116385": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em><strong>Skal vi indsstille dine bindinger?<br\/><\/strong><\/em><em>Udfyld med: Vægt (kg), Højde (cm) & Støvlelængde (mm)<\/em><\/p>"
+          }
+        },
         "d3e695ec-c2c1-416b-9482-cc06f0166cf0": {
           "type": "payment-icons",
           "settings": {
+          }
+        },
+        "6d1e7437-32cc-4b14-9f60-3b818cbed684": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em><strong>Leveringstid: <\/strong><\/em><em>2-5 hverdage<\/em><\/p>"
           }
         },
         "6e6c8a01-4673-4115-bdee-5ea4ca9d3497": {
@@ -103,12 +116,6 @@
           "type": "e-maerket",
           "settings": {
           }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-            "collapse_content": true
-          }
         }
       },
       "block_order": [
@@ -116,24 +123,25 @@
         "badges",
         "price",
         "separator",
+        "description",
         "variant_picker",
         "quantity_selector",
-        "b7116d37-820d-4320-ba8a-a4a7ce116385",
         "buy_buttons",
+        "b7116d37-820d-4320-ba8a-a4a7ce116385",
         "d3e695ec-c2c1-416b-9482-cc06f0166cf0",
+        "6d1e7437-32cc-4b14-9f60-3b818cbed684",
         "6e6c8a01-4673-4115-bdee-5ea4ca9d3497",
         "96617279-0ca8-4ed8-ad3d-5c55c13472ec",
         "19937545-298a-4651-9687-4525f0a97a0a",
         "2c54e865-25f9-472e-b9e9-4d5a40fdcb59",
         "b975b4aa-9026-4e93-b9d3-2b7c01428f1c",
-        "ba3b5461-8a7f-4d6a-bdc0-bfcaad62fae4",
-        "description"
+        "ba3b5461-8a7f-4d6a-bdc0-bfcaad62fae4"
       ],
       "settings": {
         "full_width": true,
         "show_fixed_add_to_cart": true,
-        "desktop_media_width": 55,
-        "desktop_media_layout": "carousel_thumbnails_bottom",
+        "desktop_media_width": 50,
+        "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "expanded",
         "mobile_carousel_control": "floating_dots",
         "enable_video_autoplay": false,
