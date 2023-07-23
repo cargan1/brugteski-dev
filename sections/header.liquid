@@ -110,7 +110,7 @@
           <span class="sr-only">{{ 'header.general.open_menu' | t }}</span>
           {%- render 'icon' with 'hamburger' -%}
           <span style="font-size:.8rem; color:white;
-                                    text-align:center">Menu</span>
+                                                text-align:center">Menu</span>
         </button>
 
         <a
@@ -120,7 +120,7 @@
           <span class="sr-only">{{ 'header.general.open_search' | t }}</span>
           {%- render 'icon' with 'search' -%}
           <span style="font-size:.8rem; color:white;
-                                    text-align:center">Søg</span>
+                                                text-align:center">Søg</span>
         </a>
 
         {%- if section.settings.layout != 'drawer' and section.settings.menu.links.size > 0 -%}
@@ -319,6 +319,8 @@
           aria-controls="search-drawer">
           <span class="sr-only">{{ 'header.general.open_search' | t }}</span>
           {%- render 'icon' with 'search' -%}
+          <span style="font-size:.8rem; color:white;
+                      text-align:center">Søg</span>
         </a>
 
         {%- if shop.customer_accounts_enabled -%}
@@ -335,7 +337,8 @@
           {% if settings.cart_type != 'page' and request.page_type != 'cart' %}aria-controls="cart-drawer"{% endif %}>
           <span class="sr-only">{{ 'header.general.open_cart' | t }}</span>
           {%- render 'icon' with 'cart' -%}
-
+          <span style="font-size:.8rem; color:white;
+                                                text-align:center">Menu</span>
           <div class="header__cart-count">
             <cart-count class="count-bubble {% if cart.item_count == 0 %}opacity-0{% endif %}" aria-hidden="true">
               {{- cart.item_count -}}
@@ -375,7 +378,7 @@
     show_country_flag: section.settings.show_country_flag,
     show_locale_selector: section.settings.show_locale_selector -%}
 </navigation-drawer>{%- endif -%}<script>
-document.documentElement.style.setProperty('--header-height', Math.round(document.getElementById('shopify-section-  {{ section.id }}').clientHeight) + 'px');
+document.documentElement.style.setProperty('--header-height', Math.round(document.getElementById('shopify-section-   {{ section.id }}').clientHeight) + 'px');
 </script>{% schema %}
 {
   "name": "Header",
