@@ -3716,12 +3716,12 @@ tfoot td {
 .block-swatch {
   place-items: center;
   gap: var(--spacing-3);
-  height: var(--input-height);
+  height: calc(var(--input-height)/1.5);
   border-radius: var(--rounded-button);
   background: rgb(var(--input-background, var(--background))) no-repeat;
   border-width: 1px;
-  padding-inline-start: var(--spacing-5);
-  padding-inline-end: var(--spacing-5);
+  padding-inline-start: calc(var(--spacing-5)/1.5);
+  padding-inline-end: calc(var(--spacing-5)/1.5);
   display: flex;
   position: relative;
 }
@@ -3768,8 +3768,9 @@ tfoot td {
 
 @media screen and (min-width: 700px) {
   .block-swatch {
-    padding-inline-start: var(--spacing-6);
-    padding-inline-end: var(--spacing-6);
+    padding-inline-start: calc(var(--spacing-6)/1.5);
+    padding-inline-end: calc(var(--spacing-6)/1.5);
+    font-size: .85rem;
   }
 }
 
