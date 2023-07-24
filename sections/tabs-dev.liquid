@@ -21,8 +21,9 @@
         {% assign tab_label = block.settings.title | remove: " " | remove: "&" | downcase %}
         {% if forloop.index == 1 %}
           {% style %}
-            .tab-{{ tab_label}}{
+            .tab-{{ tab_label }}{
               display: block;
+              background: #f7f7f7;
             }
           {% endstyle %}
         {% endif %}
@@ -54,8 +55,6 @@
       display: flex;
       padding-bottom: {{ section.settings.border_padding}}
       px;
-      border-bottom: {{ section.settings.border_thickness}}
-      2px solid{{ section.settings.border_color}};
     }
 
 
@@ -63,9 +62,9 @@
       margin-right: 4px;
       padding: 10px 15px 8px;
       min-width: 130px;
-      background: rgb(61, 151, 255);
-      background: linear-gradient(0deg, rgba(61,151,255,1) 0%, rgba(0,62,255,1) 100%);
-      color: white;
+      background: #f7f7f7;
+      /* background: linear-gradient(0deg, rgba(61,151,255,1) 0%, rgba(0,62,255,1) 100%); */
+      color: #000;
       border-top-left-radius: 10px;
       border-top-right-radius: 10px;
       /* border: 1px solid #2751A7; */
@@ -100,6 +99,8 @@
         border: 1px solid #2751A7;
         text-align: center;
         font-weight: 700;
+        font-family: var(--heading-font-family);
+        text-transform: uppercase;
       }
     }
   {% endstyle %}
