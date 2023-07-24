@@ -32,8 +32,8 @@
 
   {%- if section.settings.tab_label != blank -%}
   <div class="
-        section-{{section.id}}
-        tab tab-{{tab_label}}">{%- endif -%}
+            section-{{section.id}}
+            tab tab-{{tab_label}}">{%- endif -%}
 
   <div {% render 'section-properties' %}>
     {%- assign text_position = section.settings.text_position -%}
@@ -246,6 +246,13 @@
         "type": "color",
         "id": "button_text_color",
         "label": "Button text"
+      }, {
+        "type": "header",
+        "content": "Tabs"
+      }, {
+        "type": "text",
+        "id": "tab_label",
+        "label": "Tab label"
       }
     ],
     "blocks": [
