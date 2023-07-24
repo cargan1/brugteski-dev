@@ -148,7 +148,7 @@
         "enable_video_looping": true,
         "enable_image_zoom": true,
         "max_image_zoom_level": 4,
-        "background": "#fafafa",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
         "input_background": "#fafafa",
@@ -599,7 +599,7 @@
         "template--14429261332515__892c0d3c-c5de-4a4e-a62e-2f712b480fd4-16662635488989ecef-1"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "allow_transparent_header": false,
         "autoplay": false,
         "video_size": "sm",
