@@ -1,0 +1,23 @@
+<div class="section section--tight">
+  <div class="product-info__description" {{ block.shopify_attributes }}>
+    <div class="prose">
+      {{- product.description -}}
+    </div>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Produkt beskrivelse",
+    "class": "shopify-section--product-desc",
+    "tag": "section",
+    "enabled_on": {
+      "templates": ["product"]
+    },
+    "settings": [],
+    "presets": [
+      {
+        "name": "Produkt beskrivelse"
+      }
+    ]
+  }
+{% endschema %}
