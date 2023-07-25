@@ -1,4 +1,4 @@
-<div class="footer__payment-icons h-stack wrap gap-2">
+<div class="footer__payment-icons h-stack wrap gap-1">
   {%- for type in shop.enabled_payment_types -%}
     {{- type | payment_type_svg_tag -}}
   {%- endfor -%}
