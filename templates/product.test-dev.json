@@ -294,6 +294,11 @@
         "tab_label": "Chart"
       }
     },
+    "4b2f4dad-beb3-4647-84b2-79522c534386": {
+      "type": "product-desc",
+      "settings": {
+      }
+    },
     "bc007c98-134a-45e6-879f-a9610e0a56cd": {
       "type": "rich-text",
       "blocks": {
@@ -776,6 +781,7 @@
     "main",
     "fe071cc7-bbc8-4bb2-9731-6976ff8b16ae",
     "7bd8baf1-9eb8-41b9-82b3-49a08ae4c5ad",
+    "4b2f4dad-beb3-4647-84b2-79522c534386",
     "bc007c98-134a-45e6-879f-a9610e0a56cd",
     "1b924801-2f39-4b3d-97cf-6ac91e20f85c",
     "aa73c3dc-82ca-485c-a544-d5b8dd955818",
