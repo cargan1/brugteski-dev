@@ -441,8 +441,24 @@
         "tab_label": "Contact"
       }
     },
+    "05de6085-a3e7-458a-ad6e-f17eb2c7d525": {
+      "type": "scrolling-text",
+      "settings": {
+        "full_width": true,
+        "text": "op til 70% billigere at købe brugte ski",
+        "text_size": "medium",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 6,
+        "background": "#003eff",
+        "background_gradient": "",
+        "text_color": "#ffffff",
+        "text_gradient": ""
+      }
+    },
     "a2d55917-d689-4d4a-a841-728c942d4a7a": {
       "type": "impact-text",
+      "disabled": true,
       "blocks": {
         "template--14429261332515__a2d55917-d689-4d4a-a841-728c942d4a7a-1666198808e89e5501-0": {
           "type": "item",
@@ -467,18 +483,19 @@
         "impact_text_style": "fill",
         "text_divider": "none",
         "impact_text_size_ratio": 1,
-        "background": "",
+        "background": "#003eff",
         "background_gradient": "",
-        "heading_text_color": "",
-        "heading_gradient": "linear-gradient(228deg, rgba(248, 58, 58, 1) 21%, rgba(187, 48, 254, 1) 90%)",
+        "heading_text_color": "#efefef",
+        "heading_gradient": "linear-gradient(1deg, rgba(239, 239, 239, 1) 21%, rgba(187, 48, 254, 1) 90%)",
         "text_color": "",
-        "button_background": "",
-        "button_text_color": "",
+        "button_background": "#ffffff",
+        "button_text_color": "#ffffff",
         "tab_label": ""
       }
     },
     "5339552c-ca02-4356-bc93-49775b177927": {
       "type": "media-grid",
+      "disabled": true,
       "blocks": {
         "template--14429261332515__5339552c-ca02-4356-bc93-49775b177927-16662902340edbb922-0": {
           "type": "image",
@@ -787,6 +804,7 @@
     "1b924801-2f39-4b3d-97cf-6ac91e20f85c",
     "aa73c3dc-82ca-485c-a544-d5b8dd955818",
     "bf60e6c3-00b7-4616-9fd0-19986092c878",
+    "05de6085-a3e7-458a-ad6e-f17eb2c7d525",
     "a2d55917-d689-4d4a-a841-728c942d4a7a",
     "5339552c-ca02-4356-bc93-49775b177927",
     "892c0d3c-c5de-4a4e-a62e-2f712b480fd4",
