@@ -39,6 +39,7 @@
       let tabs = document.querySelectorAll('.tab');
       for (let i = 0; i < tabs.length; i += 1) {
         tabs[i].style.display = 'none';
+        tabs[i].style.borderBottom = '2px solid #fafafa';
       }
       document.querySelector(tabname).style.display = 'block';
       document.querySelector(tabEl).style.borderBottom = '2px solid #0336D4';
