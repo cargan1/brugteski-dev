@@ -35,6 +35,7 @@
 
     function showHideTabs(arg) {
       let tabname = "." + arg;
+      let tabEl = "#" + arg;
       let tabs = document.querySelectorAll('.tab');
       for (let i = 0; i < tabs.length; i += 1) {
         tabs[i].style.display = 'none';
