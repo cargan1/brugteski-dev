@@ -1,1 +1,131 @@
-{"sections":{"main":{"type":"main-cart","blocks":{"totals":{"type":"totals","settings":{"show_order_weight":false,"show_shipping_text":true}},"cart_note":{"type":"cart_note","settings":{}},"checkout_button":{"type":"checkout_button","settings":{}},"a01e7aa6-dd5d-4bdd-aba5-417c76c580e2":{"type":"accelerated_buttons","settings":{}},"0cba4f9e-c705-4220-a38c-8cbaa1c6d678":{"type":"text","settings":{"content":"<p><strong>Leveringstid:<\/strong> 3 til 5 hverdage.<\/p>"}}},"block_order":["totals","cart_note","checkout_button","a01e7aa6-dd5d-4bdd-aba5-417c76c580e2","0cba4f9e-c705-4220-a38c-8cbaa1c6d678"],"settings":{"show_shipping_estimator":true,"show_payment_icons":true}},"524ede9a-959a-44e9-9c4b-cf2ad3b1bdf2":{"type":"collection-list","blocks":{"template--14429261135907__524ede9a-959a-44e9-9c4b-cf2ad3b1bdf2-16665124011d0b4cdb-0":{"type":"collection","settings":{"collection":"alle-ski","image":"shopify:\/\/shop_images\/alleski.jpg","subheading":"","title":"","url":"","heading_tag":"h2","text_position":"place-self-center text-center","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":10}},"template--14429261135907__524ede9a-959a-44e9-9c4b-cf2ad3b1bdf2-16665124011d0b4cdb-1":{"type":"collection","settings":{"collection":"alt-tilbehor","image":"shopify:\/\/shop_images\/altskiudstyr.jpg","subheading":"","title":"","url":"","heading_tag":"h2","text_position":"place-self-center text-center","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":10}},"template--14429261135907__524ede9a-959a-44e9-9c4b-cf2ad3b1bdf2-16665124011d0b4cdb-2":{"type":"collection","settings":{"collection":"alt-snowboard","image":"shopify:\/\/shop_images\/altsnowboard.jpg","subheading":"","title":"Alt til Snowboard","url":"","heading_tag":"h2","text_position":"place-self-center text-center","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":10}}},"block_order":["template--14429261135907__524ede9a-959a-44e9-9c4b-cf2ad3b1bdf2-16665124011d0b4cdb-0","template--14429261135907__524ede9a-959a-44e9-9c4b-cf2ad3b1bdf2-16665124011d0b4cdb-1","template--14429261135907__524ede9a-959a-44e9-9c4b-cf2ad3b1bdf2-16665124011d0b4cdb-2"],"settings":{"full_width":true,"stack_collections":true,"collections_per_row":3,"show_progress_bar":false,"subheading":"","title":"Har du husket af få at med?","content":"","link_url":"shopify:\/\/collections","link_text":"Vis alle","background":"","background_gradient":"","text_color":"","heading_color":"","heading_gradient":""}}},"order":["main","524ede9a-959a-44e9-9c4b-cf2ad3b1bdf2"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-cart",
+      "blocks": {
+        "totals": {
+          "type": "totals",
+          "settings": {
+            "show_order_weight": false,
+            "show_shipping_text": true
+          }
+        },
+        "cart_note": {
+          "type": "cart_note",
+          "settings": {
+          }
+        },
+        "checkout_button": {
+          "type": "checkout_button",
+          "settings": {
+          }
+        },
+        "a01e7aa6-dd5d-4bdd-aba5-417c76c580e2": {
+          "type": "accelerated_buttons",
+          "settings": {
+          }
+        },
+        "0cba4f9e-c705-4220-a38c-8cbaa1c6d678": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "content": "<p><strong>Leveringstid:<\/strong> 3 til 5 hverdage.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "totals",
+        "cart_note",
+        "checkout_button",
+        "a01e7aa6-dd5d-4bdd-aba5-417c76c580e2",
+        "0cba4f9e-c705-4220-a38c-8cbaa1c6d678"
+      ],
+      "settings": {
+        "show_shipping_estimator": true,
+        "show_payment_icons": true
+      }
+    },
+    "524ede9a-959a-44e9-9c4b-cf2ad3b1bdf2": {
+      "type": "collection-list",
+      "disabled": true,
+      "blocks": {
+        "template--14429261135907__524ede9a-959a-44e9-9c4b-cf2ad3b1bdf2-16665124011d0b4cdb-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "alle-ski",
+            "image": "shopify:\/\/shop_images\/alleski.jpg",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "template--14429261135907__524ede9a-959a-44e9-9c4b-cf2ad3b1bdf2-16665124011d0b4cdb-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "alt-tilbehor",
+            "image": "shopify:\/\/shop_images\/altskiudstyr.jpg",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "template--14429261135907__524ede9a-959a-44e9-9c4b-cf2ad3b1bdf2-16665124011d0b4cdb-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "alt-snowboard",
+            "image": "shopify:\/\/shop_images\/altsnowboard.jpg",
+            "subheading": "",
+            "title": "Alt til Snowboard",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        }
+      },
+      "block_order": [
+        "template--14429261135907__524ede9a-959a-44e9-9c4b-cf2ad3b1bdf2-16665124011d0b4cdb-0",
+        "template--14429261135907__524ede9a-959a-44e9-9c4b-cf2ad3b1bdf2-16665124011d0b4cdb-1",
+        "template--14429261135907__524ede9a-959a-44e9-9c4b-cf2ad3b1bdf2-16665124011d0b4cdb-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_collections": true,
+        "collections_per_row": 3,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "Har du husket af få at med?",
+        "content": "",
+        "link_url": "shopify:\/\/collections",
+        "link_text": "Vis alle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "680c556b-8bd1-4619-9c6d-4b72d93d95ae": {
+      "type": "trustpilot-stjerner",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "524ede9a-959a-44e9-9c4b-cf2ad3b1bdf2",
+    "680c556b-8bd1-4619-9c6d-4b72d93d95ae"
+  ]
+}
