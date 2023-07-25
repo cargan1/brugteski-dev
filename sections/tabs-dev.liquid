@@ -1,6 +1,6 @@
 {% if section.settings.enable_tabs %}
   <section class="section section-{{section.id}}">
-    <div class="tab_container section">
+    <div class="tab_container">
       {% for block in section.blocks %}
         {% assign tab_label = block.settings.title | remove: " " | remove: "&" | downcase %}
         {% if forloop.index != 1 %}
@@ -50,25 +50,22 @@
   {% style %}
 
     .section-{{ section.id}}{
-      padding: 40px 0;
-      background: #e7e7e7;
       border-bottom: 1px solid #d5d5d5;
       margin-bottom: 0 !important;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
     }
 
     .tab_container {
       display: flex;
       gap: 20px;
-      padding-top: 2rem;
-      padding-bottom: 2rem;
     }
 
 
     .product_tabs {
-      margin-right: 10px;
-      padding: 10px 10px 8px;
+      padding: 10px 20px;
       /* background: linear-gradient(0deg, rgba(61,151,255,1) 0%, rgba(0,62,255,1) 100%); */
-      color: ##343434;
+      color: #343434;
       /* border: 1px solid #2751A7; */
       border-radius: 40px;
       text-align: center;
@@ -81,7 +78,7 @@
 
     .product_tabs:hover {
       cursor: pointer;
-      background-color: #0336D4;
+      border: 1px solid #0336D4;
     }
 
     @media only screen and (max-width: 600px) {
