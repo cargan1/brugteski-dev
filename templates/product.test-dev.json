@@ -148,7 +148,7 @@
         "enable_video_looping": true,
         "enable_image_zoom": true,
         "max_image_zoom_level": 4,
-        "background": "#ffffff",
+        "background": "#fafafa",
         "background_gradient": "",
         "text_color": "",
         "input_background": "#fafafa",
