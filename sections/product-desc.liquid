@@ -1,10 +1,35 @@
-<div class="section section--tight">
-  <div class="product-info__description" {{ block.shopify_attributes }}>
-    <div class="prose">
-      {{- product.description -}}
+<style>
+  {%- if section.settings.tab_label != blank -%}
+    .section-{{ section.id}}{
+      padding-top: 50px !important;
+      padding-bottom: 50px !important;
+    }
+    @media screen and (max-width: 900px) {
+      .section-{{ section.id}}{
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+      }
+    }
+  {%- endif -%}
+</style>
+{% comment %} Product Tabs {% endcomment %}
+{% assign tab_label = section.settings.tab_label | remove: " " | downcase %}
+
+  {%- if section.settings.tab_label != blank -%}
+  <div class="
+        section-{{section.id}}
+        tab tab-{{tab_label}}">{%- endif -%}
+  <div class="section section--tight">
+    <div class="product-info__description" {{ block.shopify_attributes }}>
+      <div class="prose">
+        {{- product.description -}}
+      </div>
     </div>
   </div>
-</div>
+  <!--right after the closing section tag, close the tab container with a closing div tag -->
+  {%- if section.settings.tab_label != blank -%}
+  </div>
+{%- endif -%}
 {% schema %}
   {
     "name": "Produkt beskrivelse",
@@ -13,7 +38,16 @@
     "enabled_on": {
       "templates": ["product"]
     },
-    "settings": [],
+    "settings": [
+      {
+        "type": "header",
+        "content": "Tabs"
+      }, {
+        "type": "text",
+        "id": "tab_label",
+        "label": "Tab label"
+      }
+    ],
     "presets": [
       {
         "name": "Produkt beskrivelse"
