@@ -408,7 +408,7 @@
         "subheading": "",
         "title": "Stand-beskrivelse",
         "content": "<p>Læs kort om forskellen på, de forskellige stande.<br\/><a href=\"\/pages\/standbeskrivelse\" title=\"Standbeskrivelse\">Se vidoen, og læs hele standbeskrivelse her!<\/a><\/p>",
-        "background": "",
+        "background": "#efefef",
         "background_gradient": "",
         "text_color": "",
         "tab_label": "Stand"
