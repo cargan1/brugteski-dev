@@ -183,32 +183,16 @@
               {%- endfor -%}
             </form>
 
-            {%- if section.settings.show_payment_icons and shop.enabled_payment_types.size > 0 -%}
-              <div class="v-stack gap-4">
-                <span class="text-xs text-subdued text-center">{{ 'cart.general.we_accept' | t }}</span>
-
-                <div class="h-stack gap-2 wrap justify-center">
-                  {%- for type in shop.enabled_payment_types -%}
-                    {{- type | payment_type_svg_tag -}}
-                  {%- endfor -%}
-                </div>
-              </div>
-            {%- endif -%}
 
             <div class="v-stack gap-4">
               <span class="text-xs text-subdued text-center">{{ 'cart.general.we_accept' | t }}</span>
               <div class="h-stack gap-2 wrap justify-center">
                 {%- render 'payments-logos' -%}
               </div>
-            </div>
-
-            <div class="v-stack gap-4">
-              <span class="text-xs text-subdued text-center">{{ 'cart.general.we_accept' | t }}</span>
               <div class="h-stack gap-2 wrap justify-center">
                 {%- render 'e-maerket' -%}
               </div>
             </div>
-
 
           </safe-sticky>
         </div>
