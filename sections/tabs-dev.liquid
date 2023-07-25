@@ -25,11 +25,6 @@
               display: block;
               background: #f7f7f7;
             }
-            #tab-{{ tab_label }}{
-              background: #0039FF;
-              color: #ffffff;
-              border: 1px solid #0039FF;
-            }
           {% endstyle %}
         {% endif %}
       {% endfor %}
@@ -54,7 +49,7 @@
       border-bottom: 1px solid #d5d5d5;
       margin-bottom: 0 !important;
       padding-top: 2rem;
-      padding-bottom: 2rem;
+      padding-bottom: 0;
     }
 
     .tab_container {
@@ -67,19 +62,19 @@
       padding: 10px 20px;
       /* background: linear-gradient(0deg, rgba(61,151,255,1) 0%, rgba(0,62,255,1) 100%); */
       color: #343434;
-      border-radius: 40px;
       text-align: center;
       transition: all 0.5s;
       font-size: 18px;
       font-weight: 700;
       font-family: var(--heading-font-family);
       text-transform: uppercase;
-      border: 1px solid #FFFFFF;
+      border-bottom: 1px solid #fafafa;
     }
 
-    .product_tabs:hover {
+    .product_tabs:hover,
+    .product_tabs:active {
       cursor: pointer;
-      border: 1px solid #0336D4;
+      border-bottom: 2px solid #0336D4;
     }
 
     @media only screen and (max-width: 600px) {
