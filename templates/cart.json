@@ -40,6 +40,9 @@
         "a01e7aa6-dd5d-4bdd-aba5-417c76c580e2",
         "0cba4f9e-c705-4220-a38c-8cbaa1c6d678"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "show_shipping_estimator": true,
         "show_payment_icons": true

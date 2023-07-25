@@ -14,8 +14,8 @@
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Free shipping",
-            "content": "<p>Tell your customers about your shipping offer.<\/p>"
+            "title": "HURTIG LEVERING",
+            "content": "<p>Vi tilbyder 2-5 dages levering i hele Danmark<\/p>"
           }
         },
         "customer-support": {
@@ -27,8 +27,8 @@
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Customer service",
-            "content": "<p>Tell your customers how they can reach you.<\/p>"
+            "title": "24 MÅNEDERS REKLAMATIONSRET",
+            "content": "<p>Skulle der være nogle fejl på dit udstyr kan du helt trykt returnerer det<\/p>"
           }
         },
         "discount": {
@@ -40,29 +40,15 @@
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Refer a friend",
-            "content": "<p>Tell your customers about your promotional offers.<\/p>"
-          }
-        },
-        "payment": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-lock",
-            "mobile_icon_width": 24,
-            "icon_width": 24,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Secure payment",
-            "content": "<p>Tel your customers about your payment methods.<\/p>"
+            "title": "PASNINGGARANTI",
+            "content": "<p>Vi tilbyder pasningsgaranti på alt udstyr.<br\/><a href=\"https:\/\/brugteski.dk\/pages\/dig-som-kunde\" title=\"Dig som kunde hos Brugteski.dk\">Læs mere her<\/a><\/p>"
           }
         }
       },
       "block_order": [
         "free-shipping",
         "customer-support",
-        "discount",
-        "payment"
+        "discount"
       ],
       "settings": {
         "full_width": true,
@@ -70,7 +56,7 @@
         "heading_tag": "h6",
         "text_alignment": "center",
         "icon_spacing": "small",
-        "background": "",
+        "background": "#efefef",
         "background_gradient": "",
         "text_color": ""
       }
