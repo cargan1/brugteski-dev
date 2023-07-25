@@ -18,13 +18,13 @@
 
   {%- if section.settings.tab_label != blank -%}
   <div class="
-                    section-{{section.id}}
-                    tab tab-{{tab_label}}">{%- endif -%}
+                        section-{{section.id}}
+                        tab tab-{{tab_label}}">{%- endif -%}
   <div class="section section--tight">
     <div class="product-info__description" {{ block.shopify_attributes }}>
-      <div class="prose">
-        {{- product.description -}}
-      </div>
+
+      {{- product.description -}}
+
     </div>
   </div>
   <!--right after the closing section tag, close the tab container with a closing div tag -->
