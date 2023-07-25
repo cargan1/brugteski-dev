@@ -1,6 +1,6 @@
 {% if section.settings.enable_tabs %}
   <section class="section section-{{section.id}}">
-    <div class="tab_container">
+    <div class="tab_container section">
       {% for block in section.blocks %}
         {% assign tab_label = block.settings.title | remove: " " | remove: "&" | downcase %}
         {% if forloop.index != 1 %}
@@ -25,6 +25,10 @@
               display: block;
               background: #f7f7f7;
             }
+            #tab-{{ tab_label }}{
+              background: #0039FF;
+              color: #ffffff;
+            }
           {% endstyle %}
         {% endif %}
       {% endfor %}
@@ -48,28 +52,28 @@
     .section-{{ section.id}}{
       padding: 40px 0;
       background: #e7e7e7;
-      border-top: 1px solid #d5d5d5;
       border-bottom: 1px solid #d5d5d5;
       margin-bottom: 0 !important;
     }
 
     .tab_container {
       display: flex;
+      gap: 20px;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
     }
 
 
     .product_tabs {
       margin-right: 10px;
-      padding: 10px 25px 8px;
-      min-width: 130px;
-      background: #010410;
+      padding: 10px 10px 8px;
       /* background: linear-gradient(0deg, rgba(61,151,255,1) 0%, rgba(0,62,255,1) 100%); */
-      color: #fff;
-      border-radius: 40px;
+      color: ##343434;
       /* border: 1px solid #2751A7; */
+      border-radius: 40px;
       text-align: center;
       transition: all 0.5s;
-      font-size: 16px;
+      font-size: 18px;
       font-weight: 700;
       font-family: var(--heading-font-family);
       text-transform: uppercase;
@@ -95,8 +99,6 @@
         background: rgb(61, 151, 255);
         background: linear-gradient(0deg, rgba(61,151,255,1) 0%, rgba(0,62,255,1) 100%);
         color: white;
-        border-top-right-radius: 0;
-        border-top-left-radius: 0;
         border: 1px solid #2751A7;
         text-align: center;
         font-weight: 700;
