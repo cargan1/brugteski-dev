@@ -9896,8 +9896,8 @@ split-lines {
     padding:.6rem;
     display: flex;
     position: relative;
-    font-size: .8rem;
-    min-width: 3rem;
+    font-size: .7rem;
+    min-width: 2.8rem;
     justify-content: center;
 }
 
