@@ -3,13 +3,13 @@
     "banner": {
       "type": "collection-banner",
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
         "show_collection_title": true,
         "show_collection_description": false,
         "show_collection_image": false,
-        "collection_title_size": "h0",
+        "collection_title_size": "h3",
         "image_size": "sm",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center-start sm:text-start",
@@ -26,10 +26,10 @@
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_herreski_d066dd3d-dffa-44e4-863f-9e2082c6bb2c.jpg",
+            "image": "shopify://shop_images/udvalg_herreski_d066dd3d-dffa-44e4-863f-9e2082c6bb2c.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/herreski",
+            "link_url": "shopify://collections/herreski",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -39,10 +39,10 @@
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_dameski.jpg",
+            "image": "shopify://shop_images/udvalg_dameski.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/kvinder",
+            "link_url": "shopify://collections/kvinder",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -52,10 +52,10 @@
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-2": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_borneski.jpg",
+            "image": "shopify://shop_images/udvalg_borneski.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/borne-juniorski",
+            "link_url": "shopify://collections/borne-juniorski",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -65,10 +65,10 @@
         "a5f68762-6842-44de-b848-7f8bc56a57c6": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_skistave.jpg",
+            "image": "shopify://shop_images/udvalg_skistave.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/skistave",
+            "link_url": "shopify://collections/skistave",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -78,10 +78,10 @@
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-3": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_skistovler.jpg",
+            "image": "shopify://shop_images/udvalg_skistovler.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/skistovler",
+            "link_url": "shopify://collections/skistovler",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -91,10 +91,10 @@
         "7cf735e1-01b5-49c8-8ca7-1383bc658648": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_skitilbehor.jpg",
+            "image": "shopify://shop_images/udvalg_skitilbehor.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/voks",
+            "link_url": "shopify://collections/voks",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -125,27 +125,12 @@
         "heading_gradient": ""
       }
     },
-    "38bc7e44-b411-4e95-8b29-e8b99cb24551": {
-      "type": "scrolling-text",
-      "settings": {
-        "full_width": true,
-        "text": "Spar op til 72% ved køb af brugt",
-        "text_size": "xsmall",
-        "text_style": "fill",
-        "scrolling_mode": "auto",
-        "scrolling_speed": 8,
-        "background": "#f2f2f2",
-        "background_gradient": "",
-        "text_color": "#e4cd0a",
-        "text_gradient": ""
-      }
-    },
     "main": {
       "type": "main-collection-dev",
       "settings": {
         "products_per_page": 24,
         "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
+        "products_per_row_desktop": 3,
         "filter_layout": "sidebar",
         "show_sort_by": true,
         "show_filters": true,
@@ -156,13 +141,33 @@
         "open_first_filter_group": true
       }
     },
+    "c1fd1f55-0ce4-4389-b3ea-b949460ef382": {
+      "type": "trustpilot-stjerner",
+      "custom_css": [],
+      "settings": {}
+    },
+    "38bc7e44-b411-4e95-8b29-e8b99cb24551": {
+      "type": "scrolling-text",
+      "settings": {
+        "full_width": true,
+        "text": "Spar op til 72% af nypris",
+        "text_size": "xsmall",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 14,
+        "background": "#003eff",
+        "background_gradient": "",
+        "text_color": "#ffffff",
+        "text_gradient": ""
+      }
+    },
     "9c97e046-53a7-428d-965b-e74aa263b5ca": {
       "type": "blog-posts",
       "blocks": {
         "template--14429261299747__9c97e046-53a7-428d-965b-e74aa263b5ca-16661253977a2bf0d6-0": {
           "type": "article",
           "settings": {
-            "article": "alt-om-ski\/den-ultimative-ski-guide",
+            "article": "alt-om-ski/den-ultimative-ski-guide",
             "background": "",
             "text_color": ""
           }
@@ -172,7 +177,7 @@
         "template--14429261299747__9c97e046-53a7-428d-965b-e74aa263b5ca-16661253977a2bf0d6-0"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "show_excerpt": true,
         "show_date": true,
         "show_author": true,
@@ -180,10 +185,10 @@
         "show_category": true,
         "subheading": "",
         "title": "",
-        "content": "<p><strong>Brug for hjælp til at finde de rette ski? Læs vores ski-guide her.<\/strong><\/p>",
-        "link_url": "shopify:\/\/blogs\/alt-om-ski",
-        "link_text": "Se all Skiblogs",
-        "background": "",
+        "content": "<p><strong>Brug for hjælp til at finde de rette ski? Læs vores ski-guide her.</strong></p>",
+        "link_url": "shopify://blogs/alt-om-ski/3-fordelene-ved-at-sta-pa-ski",
+        "link_text": "Læs om alle råd til skiferien",
+        "background": "#efefef",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -194,8 +199,9 @@
   "order": [
     "banner",
     "4bdf9a05-c268-4dad-ba38-e5c1db7bcb74",
-    "38bc7e44-b411-4e95-8b29-e8b99cb24551",
     "main",
+    "c1fd1f55-0ce4-4389-b3ea-b949460ef382",
+    "38bc7e44-b411-4e95-8b29-e8b99cb24551",
     "9c97e046-53a7-428d-965b-e74aa263b5ca"
   ]
 }
