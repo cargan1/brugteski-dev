@@ -28,8 +28,8 @@
 
   {%- if section.settings.tab_label != blank -%}
     <div class="
-                section-{{section.id}}
-                tab tab-{{tab_label}}">
+                      section-{{section.id}}
+                      tab tab-{{tab_label}}">
     {%- endif -%}
 
     <div {% render 'section-properties' %}>
@@ -60,7 +60,7 @@
             {%- endif -%}
 
             {%- when 'richtext' -%}
-            {%- if product.description != blank -%}
+            {%- if block.settings.description != blank -%}
               <div class="product-info__description" {{ block.shopify_attributes }}>
                 <div class="prose">
                   {{- product.description -}}
