@@ -89,23 +89,22 @@
     @media only screen and (max-width: 600px) {
       .tab_container {
         margin: 3px auto 0;
-        display: block;
+        display: flex;
         padding-bottom: 30px;
         border-bottom: 10px;
       }
       .product_tabs {
+        padding: 10px 20px;
         margin-top: 3px;
         margin-right: 2px;
-        padding: 4px 10px 3px;
-        min-width: 130px;
-        background: rgb(61, 151, 255);
-        background: linear-gradient(0deg, rgba(61,151,255,1) 0%, rgba(0,62,255,1) 100%);
-        color: white;
-        border: 1px solid #2751A7;
+        color: #343434;
         text-align: center;
+        transition: all 0.5s;
+        font-size: 18px;
         font-weight: 700;
         font-family: var(--heading-font-family);
         text-transform: uppercase;
+        border-bottom: 1px solid #dadada;
       }
     }
   {% endstyle %}
