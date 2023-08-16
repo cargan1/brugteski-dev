@@ -9966,11 +9966,14 @@ align-items: center;
   font-size:.8rem;
   color:white;
   text-align: center;
+  width:100%;
+  bottom: -0.75rem;
+  left:0;
 }
 
 @media screen and (max-width:780px) {
   .nav-explainer {
     font-size:.5rem;
-    
+
   }
 }
