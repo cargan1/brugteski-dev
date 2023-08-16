@@ -9912,8 +9912,8 @@ split-lines {
   padding: 3px 4px;
   font-size:7px;
   text-transform: uppercase;
-  top:0;
-  right:0;
+  top:-2px;
+  right:-2px;
   width:14px;
   height:14px;
   border-radius:12px;
@@ -9948,4 +9948,29 @@ split-lines {
   display: flex;
   font-size:12px;
 align-items: center;
+}
+
+@media screen and (max-width:780px) {
+  .variant-button {
+    padding:.5rem;
+    min-width: 2.4rem;
+  }
+}
+
+
+
+/* Nav explainers */ 
+
+.nav-explainer {
+  position: absolute;
+  font-size:.8rem;
+  color:white;
+  text-align: center;
+}
+
+@media screen and (max-width:780px) {
+  .nav-explainer {
+    font-size:.5rem;
+    
+  }
 }
