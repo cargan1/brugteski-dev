@@ -317,7 +317,7 @@
           aria-controls="search-drawer">
           <span class="sr-only">{{ 'header.general.open_search' | t }}</span>
           {%- render 'icon' with 'search' -%}
-          <span style="nav-explainer">Søg</span>
+          <span class="nav-explainer">Søg</span>
         </a>
 
         {%- if shop.customer_accounts_enabled -%}
@@ -374,7 +374,7 @@
     show_country_flag: section.settings.show_country_flag,
     show_locale_selector: section.settings.show_locale_selector -%}
 </navigation-drawer>{%- endif -%}<script>
-document.documentElement.style.setProperty('--header-height', Math.round(document.getElementById('shopify-section-         {{ section.id }}').clientHeight) + 'px');
+document.documentElement.style.setProperty('--header-height', Math.round(document.getElementById('shopify-section-          {{ section.id }}').clientHeight) + 'px');
 </script>{% schema %}
 {
   "name": "Header",

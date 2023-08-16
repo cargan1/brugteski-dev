@@ -9963,17 +9963,18 @@ align-items: center;
 
 .nav-explainer {
   position: absolute;
-  font-size:.8rem;
+  font-size:.5rem;
   color:white;
   text-align: center;
   width:100%;
-  bottom: -0.75rem;
+  bottom: -0.9rem;
   left:0;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width:780px) {
   .nav-explainer {
-    font-size:.5rem;
-
+    font-size:.4rem;
+    bottom: -0.65rem; 
   }
 }
