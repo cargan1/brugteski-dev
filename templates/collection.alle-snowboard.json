@@ -26,10 +26,10 @@
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-0": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/udvalg_snowboard.jpg",
+            "image": "shopify:\/\/shop_images\/udvalg_snowboard.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify://collections/snowboard",
+            "link_url": "shopify:\/\/collections\/snowboard",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -39,10 +39,10 @@
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-1": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/udvalg_snowboardstovler.jpg",
+            "image": "shopify:\/\/shop_images\/udvalg_snowboardstovler.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify://collections/snowboardstovler",
+            "link_url": "shopify:\/\/collections\/snowboardstovler",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -52,10 +52,10 @@
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-2": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/udvalg_bindinger.jpg",
+            "image": "shopify:\/\/shop_images\/udvalg_bindinger.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify://collections/snowboardbindinger",
+            "link_url": "shopify:\/\/collections\/snowboardbindinger",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -101,8 +101,11 @@
     },
     "c1fd1f55-0ce4-4389-b3ea-b949460ef382": {
       "type": "trustpilot-stjerner",
-      "custom_css": [],
-      "settings": {}
+      "custom_css": [
+
+      ],
+      "settings": {
+      }
     },
     "38bc7e44-b411-4e95-8b29-e8b99cb24551": {
       "type": "scrolling-text",
@@ -125,7 +128,7 @@
         "template--14429261299747__9c97e046-53a7-428d-965b-e74aa263b5ca-16661253977a2bf0d6-0": {
           "type": "article",
           "settings": {
-            "article": "alt-om-ski/den-ultimative-ski-guide",
+            "article": "alt-om-ski\/den-ultimative-ski-guide",
             "background": "",
             "text_color": ""
           }
@@ -143,8 +146,8 @@
         "show_category": true,
         "subheading": "",
         "title": "",
-        "content": "<p><strong>Brug for hjælp til at finde de rette ski? Læs vores ski-guide her.</strong></p>",
-        "link_url": "shopify://blogs/alt-om-ski/3-fordelene-ved-at-sta-pa-ski",
+        "content": "<p><strong>Brug for hjælp til at finde de rette ski? Læs vores ski-guide her.<\/strong><\/p>",
+        "link_url": "shopify:\/\/blogs\/alt-om-ski\/3-fordelene-ved-at-sta-pa-ski",
         "link_text": "Læs om alle råd til skiferien",
         "background": "#efefef",
         "background_gradient": "",
