@@ -1,7 +1,7 @@
 {
   "sections": {
     "main": {
-      "type": "main-product",
+      "type": "main-product-new",
       "blocks": {
         "title": {
           "type": "title",
@@ -11,8 +11,7 @@
         },
         "badges": {
           "type": "badges",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
@@ -22,8 +21,7 @@
         },
         "separator": {
           "type": "separator",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -60,35 +58,35 @@
         "22a8a777-9b69-4a6d-b9ef-48c6fd711ae7": {
           "type": "text",
           "settings": {
-            "text": "<p>✅Rengjort & Lugt-fri<br\/>✅Gennemgået kvalitetskontrol<br\/>OPS. billederne er retvisende, slid skal aflæses ud fra stand. <\/p>"
+            "text": "<p>✅Rengjort & Lugt-fri<br/>✅Gennemgået kvalitetskontrol<br/>OPS. billederne er retvisende, slid skal aflæses ud fra stand. </p>"
           }
         },
         "5b4724c5-ace9-4679-9cc4-624e94d64a4c": {
           "type": "collapsible_text",
           "settings": {
             "title": "Fordele hos Brugteski.dk",
-            "content": "<p>Hos os er det vigtige alle vores kunder får en god oplevelse, derfor har vi:<br\/>✔️1 års Pasningsgaranti<br\/>✔️24 måneders fuld reklamationsret<br\/>✔️Gratis fragt og returnering<br\/>✔️E-mærket sikret webshop<br\/>✔️4,7 sterner på Trustpilot<br\/>✔️Leveringstid på 2-5 hverdage<br\/><a href=\"https:\/\/brugteski-dk.myshopify.com\/pages\/dig-som-kunde\" title=\"Dig som kunde hos Brugteski.dk\">Se alle dine fordele her!<\/a><\/p>"
+            "content": "<p>Hos os er det vigtige alle vores kunder får en god oplevelse, derfor har vi:<br/>✔️1 års Pasningsgaranti<br/>✔️24 måneders fuld reklamationsret<br/>✔️Gratis fragt og returnering<br/>✔️E-mærket sikret webshop<br/>✔️4,7 sterner på Trustpilot<br/>✔️Leveringstid på 2-5 hverdage<br/><a href=\"https://brugteski-dk.myshopify.com/pages/dig-som-kunde\" title=\"Dig som kunde hos Brugteski.dk\">Se alle dine fordele her!</a></p>"
           }
         },
         "b975b4aa-9026-4e93-b9d3-2b7c01428f1c": {
           "type": "collapsible_text",
           "settings": {
             "title": "Fragt & Returnering",
-            "content": "<p><strong>Fragt<\/strong><br\/>Vi tilbyder <strong>gratis<\/strong> fragt på produkter, til valgfri GLS pakkeshop. Leveringstid:<strong> <\/strong>2-5 hverdage<\/p><p><strong>Returnering<\/strong><br\/>Derudover har vi også <strong>gratis<\/strong> 14 dages returret, på alle ordrer. Der medfølger returneringslabe i alle ordren! Du kan læse mere om bytte og returnering <a href=\"https:\/\/brugteski-dk.myshopify.com\/pages\/returnering\" title=\"Returnering af varer\">her.<\/a><\/p>"
+            "content": "<p><strong>Fragt</strong><br/>Vi tilbyder <strong>gratis</strong> fragt på produkter, til valgfri GLS pakkeshop. Leveringstid:<strong> </strong>2-5 hverdage</p><p><strong>Returnering</strong><br/>Derudover har vi også <strong>gratis</strong> 14 dages returret, på alle ordrer. Der medfølger returneringslabe i alle ordren! Du kan læse mere om bytte og returnering <a href=\"https://brugteski-dk.myshopify.com/pages/returnering\" title=\"Returnering af varer\">her.</a></p>"
           }
         },
         "12fc2d3c-0620-4084-8b53-4a22ab056532": {
           "type": "collapsible_text",
           "settings": {
             "title": "Størrelsesguide",
-            "content": "<p>I tvivl om længden på støvlerne? <a href=\"\/blogs\/alt-om-ski\/storrelses-guide\" title=\"Størrelses-guide\">Læs vores størrelsesguide her.<\/a><\/p>"
+            "content": "<p>I tvivl om længden på støvlerne? <a href=\"/blogs/alt-om-ski/storrelses-guide\" title=\"Størrelses-guide\">Læs vores størrelsesguide her.</a></p>"
           }
         },
         "f2bdcefa-e5b9-4023-baa0-922a8aadd2bc": {
           "type": "collapsible_text",
           "settings": {
             "title": "Stand-beskrivelse",
-            "content": "<p>Alt brugt udstyr, er opdelt i tre forskellige kategorier; Guld, Sølv og Bronze. <a href=\"\/pages\/standbeskrivelse\" title=\"Standbeskrivelse\">Læs vores Stand-beskrivelse her.<\/a><\/p>"
+            "content": "<p>Alt brugt udstyr, er opdelt i tre forskellige kategorier; Guld, Sølv og Bronze. <a href=\"/pages/standbeskrivelse\" title=\"Standbeskrivelse\">Læs vores Stand-beskrivelse her.</a></p>"
           }
         }
       },
@@ -157,15 +155,15 @@
           "type": "values",
           "settings": {
             "product": "",
-            "value_1": "<p>{{ product.metafields.custom.radius.value }}<\/p>",
-            "value_2": "<p>{{ product.metafields.custom.niveau.value }}<\/p>",
-            "value_3": "<p>{{ product.metafields.custom.type.value }}<\/p>",
-            "value_4": "<p>{{ product.metafields.custom.bredde.value }}<\/p>",
-            "value_5": "<p>{{ product.metafields.custom.skiprofil.value }}<\/p>",
-            "value_6": "<p>{{ product.metafields.custom.kerne.value }}<\/p>",
-            "value_7": "<p>{{ product.metafields.custom.bindinger.value }}<\/p>",
-            "value_8": "<p>{{ product.metafields.custom.kollektion.value }}<\/p>",
-            "value_9": "<p>{{ product.metafields.custom.flex.value }}<\/p>",
+            "value_1": "<p>{{ product.metafields.custom.radius.value }}</p>",
+            "value_2": "<p>{{ product.metafields.custom.niveau.value }}</p>",
+            "value_3": "<p>{{ product.metafields.custom.type.value }}</p>",
+            "value_4": "<p>{{ product.metafields.custom.bredde.value }}</p>",
+            "value_5": "<p>{{ product.metafields.custom.skiprofil.value }}</p>",
+            "value_6": "<p>{{ product.metafields.custom.kerne.value }}</p>",
+            "value_7": "<p>{{ product.metafields.custom.bindinger.value }}</p>",
+            "value_8": "<p>{{ product.metafields.custom.kollektion.value }}</p>",
+            "value_9": "<p>{{ product.metafields.custom.flex.value }}</p>",
             "value_10": "",
             "value_11": "",
             "value_12": "",
@@ -218,11 +216,11 @@
         "template--14429261332515__aa73c3dc-82ca-485c-a544-d5b8dd955818-16661914181c00956f-0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/guld.jpg",
+            "image": "shopify://shop_images/guld.jpg",
             "column_size": "3",
             "title": "Lidt til ingen spor af slid",
             "heading_tag": "h4",
-            "content": "<p>Guld udstyr er klart vores pæneste udstyr, og står rigtigt pænt. Her er der næsten ingen spor af brug, og det kan være svært at se skrammer.<\/p>",
+            "content": "<p>Guld udstyr er klart vores pæneste udstyr, og står rigtigt pænt. Her er der næsten ingen spor af brug, og det kan være svært at se skrammer.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -231,11 +229,11 @@
         "template--14429261332515__aa73c3dc-82ca-485c-a544-d5b8dd955818-16661914181c00956f-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/solv.jpg",
+            "image": "shopify://shop_images/solv.jpg",
             "column_size": "3",
             "title": "Spor af slid",
             "heading_tag": "h4",
-            "content": "<p>Sølv udstyr er vores mest almindelige stand. Her får man udstyr som godt kan se har været brugt, men ingen store ridser eller hakker har.<\/p>",
+            "content": "<p>Sølv udstyr er vores mest almindelige stand. Her får man udstyr som godt kan se har været brugt, men ingen store ridser eller hakker har.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -244,11 +242,11 @@
         "template--14429261332515__aa73c3dc-82ca-485c-a544-d5b8dd955818-16661914181c00956f-2": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bronze.jpg",
+            "image": "shopify://shop_images/bronze.jpg",
             "column_size": "3",
             "title": "Større ridser og hakker",
             "heading_tag": "h4",
-            "content": "<p>Bronze udstyr er det mest slidte udstyr, hvor man kan finde synlige ridser og hakker. Alle skrammer er kosmetiske, og har kun betydning for udseende.<\/p>",
+            "content": "<p>Bronze udstyr er det mest slidte udstyr, hvor man kan finde synlige ridser og hakker. Alle skrammer er kosmetiske, og har kun betydning for udseende.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -267,7 +265,7 @@
         "text_alignment": "start",
         "subheading": "",
         "title": "Stand-beskrivelse",
-        "content": "<p>Læs kort om forskellen på - guld, sølv og bronze.<br\/><a href=\"\/pages\/standbeskrivelse\" title=\"Standbeskrivelse\">Eller se vores vidoen, og læs hele Stand-beskrivelse her!<\/a><\/p>",
+        "content": "<p>Læs kort om forskellen på - guld, sølv og bronze.<br/><a href=\"/pages/standbeskrivelse\" title=\"Standbeskrivelse\">Eller se vores vidoen, og læs hele Stand-beskrivelse her!</a></p>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -279,16 +277,16 @@
         "template--14429261332515__1b924801-2f39-4b3d-97cf-6ac91e20f85c-1666191404eaad16b1-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_6385.jpg",
+            "image": "shopify://shop_images/IMG_6385.jpg",
             "media_width": 60,
             "media_position": "start",
             "text_position": "place-self-start-center text-center",
             "icon": "none",
             "icon_width": 48,
             "title": "Svært at finde de rigtigt skistøvler?",
-            "content": "<p>Vi har et showroom i Fredericia, hvor du\/din familie vil kunne komme ned og prøve, samt se alt udstyret. Her vil vi også kunne guide dig, til at kunne finde det helt rigtige udstyr.<\/p>",
+            "content": "<p>Vi har et showroom i Fredericia, hvor du/din familie vil kunne komme ned og prøve, samt se alt udstyret. Her vil vi også kunne guide dig, til at kunne finde det helt rigtige udstyr.</p>",
             "link_text": "Se Adressen Her",
-            "link_url": "shopify:\/\/pages\/showroom-og-vores-abningstider",
+            "link_url": "shopify://pages/showroom-og-vores-abningstider",
             "background": "#003eff",
             "background_gradient": "",
             "text_color": "#ffffff",
@@ -348,10 +346,10 @@
         "template--14429261332515__5339552c-ca02-4356-bc93-49775b177927-16662902340edbb922-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Samling_af_pris3.jpg",
+            "image": "shopify://shop_images/Samling_af_pris3.jpg",
             "title": "",
             "heading_tag": "h4",
-            "link_url": "https:\/\/brugteski.dk\/products\/atomic-hawx-magna-110s?_pos=5&_psq=atomic+ha&_ss=e&_v=1.0",
+            "link_url": "https://brugteski.dk/products/atomic-hawx-magna-110s?_pos=5&_psq=atomic+ha&_ss=e&_v=1.0",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 1,
@@ -370,10 +368,10 @@
         "template--14429261332515__5339552c-ca02-4356-bc93-49775b177927-16662902340edbb922-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Samling_af_pris.s2.jpg",
+            "image": "shopify://shop_images/Samling_af_pris.s2.jpg",
             "title": "",
             "heading_tag": "h4",
-            "link_url": "https:\/\/brugteski.dk\/products\/salomon-x-pro-110?_pos=6&_psq=salomon+x%2Fpro&_ss=e&_v=1.0",
+            "link_url": "https://brugteski.dk/products/salomon-x-pro-110?_pos=6&_psq=salomon+x%2Fpro&_ss=e&_v=1.0",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 1,
@@ -392,10 +390,10 @@
         "0b5e8e05-1b7b-46a7-8488-ab7e18fd2034": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Samling_af_pris.s33.jpg",
+            "image": "shopify://shop_images/Samling_af_pris.s33.jpg",
             "title": "",
             "heading_tag": "h4",
-            "link_url": "https:\/\/brugteski.dk\/products\/fischer-curv-rc4-110?_pos=2&_psq=fischer+cu&_ss=e&_v=1.0",
+            "link_url": "https://brugteski.dk/products/fischer-curv-rc4-110?_pos=2&_psq=fischer+cu&_ss=e&_v=1.0",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 1,
@@ -414,10 +412,10 @@
         "template--14429261332515__5339552c-ca02-4356-bc93-49775b177927-16662902340edbb922-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Samling_af_pris.s4.jpg",
+            "image": "shopify://shop_images/Samling_af_pris.s4.jpg",
             "title": "",
             "heading_tag": "h4",
-            "link_url": "https:\/\/brugteski.dk\/products\/atomic-hawx-plus-r100?_pos=3&_psq=atomic+h&_ss=e&_v=1.0",
+            "link_url": "https://brugteski.dk/products/atomic-hawx-plus-r100?_pos=3&_psq=atomic+h&_ss=e&_v=1.0",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 1,
@@ -453,8 +451,7 @@
       "blocks": {
         "template--14429261332515__892c0d3c-c5de-4a4e-a62e-2f712b480fd4-16662635488989ecef-0": {
           "type": "play",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--14429261332515__892c0d3c-c5de-4a4e-a62e-2f712b480fd4-16662635488989ecef-1": {
           "type": "heading",
@@ -473,8 +470,8 @@
         "allow_transparent_header": false,
         "autoplay": false,
         "video_size": "sm",
-        "external_video_url": "https:\/\/www.youtube.com\/watch?v=3RpGgnjEgTs",
-        "poster": "shopify:\/\/shop_images\/byt.til.nyt.jpg",
+        "external_video_url": "https://www.youtube.com/watch?v=3RpGgnjEgTs",
+        "poster": "shopify://shop_images/byt.til.nyt.jpg",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
@@ -491,7 +488,7 @@
             "rating": 5,
             "author": "Lukas",
             "title": "Købte et par lækre brugte ski i deres fysiske showroom.",
-            "content": "<p>Personalet har god tid og meget hjælpsomme. Jeg fik hjælp til køb af både støvler og ski og er meget tilfreds og at prisen så er lav for noget der tæt ved fremstår som nyt det kan man jo ikke klage over!<\/p>"
+            "content": "<p>Personalet har god tid og meget hjælpsomme. Jeg fik hjælp til køb af både støvler og ski og er meget tilfreds og at prisen så er lav for noget der tæt ved fremstår som nyt det kan man jo ikke klage over!</p>"
           }
         },
         "template--14429261332515__ccab4d19-b071-4fcd-bff1-88c63fbf47ec-1666198953ad30e829-1": {
@@ -502,7 +499,7 @@
             "rating": 5,
             "author": "Maria B.",
             "title": "Hurtig handel",
-            "content": "<p>Hurtig handel med god rådgivning og en fornuftig pris. Kan klart anbefales.<\/p>"
+            "content": "<p>Hurtig handel med god rådgivning og en fornuftig pris. Kan klart anbefales.</p>"
           }
         },
         "template--14429261332515__ccab4d19-b071-4fcd-bff1-88c63fbf47ec-1666198953ad30e829-2": {
@@ -513,7 +510,7 @@
             "rating": 5,
             "author": "Allan L.",
             "title": "Fine ski - Fin pris - Hurtig levering",
-            "content": "<p>Jeg fandt nogle fine ski på hjemmesiden, som passede mit behov og indtastede mine oplysninger - 2 dage senere hentede jeg skiene v. lokal GLS. Skiene var som beskrevet og kom nyslebede + voks samt indstillet jf. mine oplysninger - nemmere kunne det ikke være - super service! VARMESTE anbefaling herfra!<\/p>"
+            "content": "<p>Jeg fandt nogle fine ski på hjemmesiden, som passede mit behov og indtastede mine oplysninger - 2 dage senere hentede jeg skiene v. lokal GLS. Skiene var som beskrevet og kom nyslebede + voks samt indstillet jf. mine oplysninger - nemmere kunne det ikke være - super service! VARMESTE anbefaling herfra!</p>"
           }
         },
         "518f1995-c047-468d-bbc5-d1b6d468865e": {
@@ -524,7 +521,7 @@
             "rating": 4,
             "author": "Andreas E.",
             "title": "Skiene kom til tiden omend de var lidt...",
-            "content": "<p>Skiene kom til tiden omend de var lidt mere slidte på oversiden end jeg har troet, men kanterne var pivskarpe og bunden helt jævn, så all in all godt tilfreds.<\/p>"
+            "content": "<p>Skiene kom til tiden omend de var lidt mere slidte på oversiden end jeg har troet, men kanterne var pivskarpe og bunden helt jævn, så all in all godt tilfreds.</p>"
           }
         },
         "4ddb7c5a-2c33-4782-84c7-0367f4d9605b": {
@@ -535,7 +532,7 @@
             "rating": 5,
             "author": "Pia",
             "title": "Super fine ski",
-            "content": "<p>Fin hjemmeside, hurtig ekspedition med fri levering. Bestilte ski i kategorien \"sølv\" og er imponeret over hvor fin standen på disse ski.<br\/>Så jeg kan klart anbefale at handle her. 👍🏼<\/p>"
+            "content": "<p>Fin hjemmeside, hurtig ekspedition med fri levering. Bestilte ski i kategorien \"sølv\" og er imponeret over hvor fin standen på disse ski.<br/>Så jeg kan klart anbefale at handle her. 👍🏼</p>"
           }
         },
         "376b28ad-9d8e-4e08-b46c-8393af61ace9": {
@@ -546,7 +543,7 @@
             "rating": 5,
             "author": "Søren L.",
             "title": "Super service",
-            "content": "<p>Super service...gode priser, kan klart anbefales<\/p>"
+            "content": "<p>Super service...gode priser, kan klart anbefales</p>"
           }
         },
         "1711ab02-94a5-4741-9479-028d9f0723ea": {
@@ -557,7 +554,7 @@
             "rating": 5,
             "author": "Lise H.",
             "title": "Super god vejledning over telefon",
-            "content": "<p>Super god vejledning over telefon - sød og god service.<br\/>Hurtig og præcis levering.<br\/>Kan klart anbefales.<\/p>"
+            "content": "<p>Super god vejledning over telefon - sød og god service.<br/>Hurtig og præcis levering.<br/>Kan klart anbefales.</p>"
           }
         },
         "9e2e1e7c-105d-4595-b715-38a8e34c9a89": {
@@ -568,7 +565,7 @@
             "rating": 5,
             "author": "Bjørg",
             "title": "Kyndig hjælp og hurtig levering",
-            "content": "<p>Perfekt oplevelse og meget kyndig og imødekommende hjælp til valg af ski. Super hurtig levering.<\/p>"
+            "content": "<p>Perfekt oplevelse og meget kyndig og imødekommende hjælp til valg af ski. Super hurtig levering.</p>"
           }
         },
         "8f765af4-71cd-41cc-bc53-290c0083bccf": {
@@ -579,7 +576,7 @@
             "rating": 5,
             "author": "Pia L.",
             "title": "Super vejledning ved telefonisk...",
-            "content": "<p>Super vejledning ved telefonisk henvendelse og lynhurtig levering.<\/p>"
+            "content": "<p>Super vejledning ved telefonisk henvendelse og lynhurtig levering.</p>"
           }
         },
         "b5389015-05af-4a4e-94ac-30a5d3454bce": {
@@ -590,7 +587,7 @@
             "rating": 5,
             "author": "Mr. Poulsen",
             "title": "Hurtig og super god service",
-            "content": "<p>Hurtig og super god service, fine ski til ok billig penge, blev positiv overrasket over standen, selvom jeg valgte en “billig” ski i kategorien bronze, med mange skrammer på overfladen, men det betyder i min verden ikke noget! Jeg er så glade for dem, de lever fuld op til mine forventninger, Kan anbefales.<\/p>"
+            "content": "<p>Hurtig og super god service, fine ski til ok billig penge, blev positiv overrasket over standen, selvom jeg valgte en “billig” ski i kategorien bronze, med mange skrammer på overfladen, men det betyder i min verden ikke noget! Jeg er så glade for dem, de lever fuld op til mine forventninger, Kan anbefales.</p>"
           }
         },
         "b45be9f2-15cc-4767-b28d-944896a8016c": {
@@ -601,7 +598,7 @@
             "rating": 5,
             "author": "Henrik F.",
             "title": "Det jeg bestilte fik jeg 👍",
-            "content": "<p>Produktet var i fin stand og bytte garantien på et brugt produkt er jo fantastisk vi bruger gerne brugt ski igen så 👍 herfra<\/p>"
+            "content": "<p>Produktet var i fin stand og bytte garantien på et brugt produkt er jo fantastisk vi bruger gerne brugt ski igen så 👍 herfra</p>"
           }
         }
       },
@@ -624,7 +621,7 @@
         "subheading": "",
         "title": "Anmeldser af Brugteski.dk",
         "content": "",
-        "link_url": "https:\/\/dk.trustpilot.com\/review\/brugteski.dk?sort=recency",
+        "link_url": "https://dk.trustpilot.com/review/brugteski.dk?sort=recency",
         "link_text": "Se alle vores anmeldser",
         "background": "",
         "background_gradient": "",
