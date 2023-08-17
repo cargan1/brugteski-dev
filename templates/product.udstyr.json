@@ -394,14 +394,14 @@
         "template--14429261332515__1b924801-2f39-4b3d-97cf-6ac91e20f85c-1666191404eaad16b1-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/snowboard-mobile.jpg",
+            "image": "shopify:\/\/shop_images\/snowboard2.jpg",
             "media_width": 60,
             "media_position": "start",
             "text_position": "place-self-start text-start",
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "SVÆRT AT FINDE DET RIGTIGE SKIUDSTYR?",
+            "title": "SVÆRT AT FINDE DET RIGTIGE UDSTYR?",
             "content": "<p>Vi har et showroom i Fredericia, hvor du\/din familie vil kunne komme ned og prøve, samt se alt udstyret. Her vil vi også kunne guide dig, til at kunne finde det helt rigtige udstyr.<\/p>",
             "link_text": "Find Adressen Her!",
             "link_url": "shopify:\/\/pages\/showroom-og-vores-abningstider",
