@@ -692,7 +692,7 @@
         "template--14429261332515__892c0d3c-c5de-4a4e-a62e-2f712b480fd4-16662635488989ecef-1": {
           "type": "heading",
           "settings": {
-            "text": "Skal vi tage dine gamle ski i bytte?",
+            "text": "Se mere om vores skigaranti",
             "heading_tag": "h2"
           }
         }
@@ -706,8 +706,7 @@
         "allow_transparent_header": false,
         "autoplay": false,
         "video_size": "sm",
-        "external_video_url": "https:\/\/www.youtube.com\/watch?v=3RpGgnjEgTs",
-        "poster": "shopify:\/\/shop_images\/byt.til.nyt.jpg",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=yoUAeVZxvYA",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30,
