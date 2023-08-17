@@ -170,10 +170,16 @@
             "title": "Description"
           }
         },
-        "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-2": {
+        "ab3020de-324b-4afe-b163-9afbc91c441a": {
           "type": "tab",
           "settings": {
             "title": "Guide"
+          }
+        },
+        "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-2": {
+          "type": "tab",
+          "settings": {
+            "title": "Showroom"
           }
         },
         "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-3": {
@@ -192,6 +198,7 @@
       "block_order": [
         "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-0",
         "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-1",
+        "ab3020de-324b-4afe-b163-9afbc91c441a",
         "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-2",
         "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-3",
         "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-4"
@@ -300,6 +307,65 @@
         "tab_label": "Description"
       }
     },
+    "322fa8a3-0532-4ece-82b8-7999ffdd7f89": {
+      "type": "multi-column",
+      "blocks": {
+        "template--18752117866841__322fa8a3-0532-4ece-82b8-7999ffdd7f89-item-1": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Fordele hos os",
+            "heading_tag": "h4",
+            "content": "<p>Hos os er det vigtige alle vores kunder får en god oplevelse, derfor har vi:<\/p><p>✔️ 1 års Pasningsgaranti<br\/>✔️ 24 måneders fuld reklamationsret<br\/>✔️ Gratis fragt og returnering<br\/>✔️ E-mærket sikret webshop<br\/>✔️ 4,7 sterner på Trustpilot<br\/>✔️ Leveringstid på 2-5 hverdage<\/p><p><a href=\"https:\/\/brugteski.dk\/pages\/dig-som-kunde\" title=\"Dig som kunde hos Brugteski.dk\">Se alle dine fordele her<\/a><\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--18752117866841__322fa8a3-0532-4ece-82b8-7999ffdd7f89-item-2": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Fragt & retur",
+            "heading_tag": "h4",
+            "content": "<p><strong>Fragt<\/strong><br\/>Vi tilbyder <strong>gratis<\/strong> fragt på produkter, til valgfri GLS pakkeshop. Leveringstid:<strong> <\/strong>2-5 hverdage<\/p><p><strong>Returnering<\/strong><br\/>Derudover har vi også <strong>gratis<\/strong> 14 dages returret, på alle ordrer. Der medfølger returneringslabe i alle ordren! Du kan læse mere om bytte og returnering <a href=\"https:\/\/brugteski-dk.myshopify.com\/pages\/returnering\" title=\"Returnering af varer\">her.<\/a><\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--18752117866841__322fa8a3-0532-4ece-82b8-7999ffdd7f89-item-3": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Størrelsesguide",
+            "heading_tag": "h4",
+            "content": "<p>I tvivl om hvad du skal være opmærksom på ved størrelse på dine ski, snowboard eller andet udstyr?<\/p><p><a href=\"https:\/\/brugteski.dk\/blogs\/alt-om-ski\/den-ultimative-ski-guide\" title=\"Den ultimative ski-guide!\">Læs vores ski & størrelsesguides her<\/a><\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "template--18752117866841__322fa8a3-0532-4ece-82b8-7999ffdd7f89-item-1",
+        "template--18752117866841__322fa8a3-0532-4ece-82b8-7999ffdd7f89-item-2",
+        "template--18752117866841__322fa8a3-0532-4ece-82b8-7999ffdd7f89-item-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Guide & fordele",
+        "content": "<p>Vi gør en dyd ud af at hjælpe dig hele vejen igennem processen. <br\/>Så du kun skal nyde at du har fået noget lækkert udstyr til en fantastisk pris.<\/p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "tab_label": "Guide"
+      }
+    },
     "bc007c98-134a-45e6-879f-a9610e0a56cd": {
       "type": "rich-text",
       "blocks": {
@@ -355,7 +421,7 @@
         "full_width": false,
         "enable_parallax": true,
         "spacing": "none",
-        "tab_label": "Guide"
+        "tab_label": "Showroom"
       }
     },
     "aa73c3dc-82ca-485c-a544-d5b8dd955818": {
@@ -800,6 +866,7 @@
     "fe071cc7-bbc8-4bb2-9731-6976ff8b16ae",
     "7bd8baf1-9eb8-41b9-82b3-49a08ae4c5ad",
     "4b2f4dad-beb3-4647-84b2-79522c534386",
+    "322fa8a3-0532-4ece-82b8-7999ffdd7f89",
     "bc007c98-134a-45e6-879f-a9610e0a56cd",
     "1b924801-2f39-4b3d-97cf-6ac91e20f85c",
     "aa73c3dc-82ca-485c-a544-d5b8dd955818",
