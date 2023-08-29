@@ -104,6 +104,7 @@
         },
         "d0e34a52-eac0-468f-8969-ca195066954b": {
           "type": "mega_menu",
+          "disabled": true,
           "settings": {
             "menu_item": "Guides & Skiblogs",
             "layout": "horizontal",
