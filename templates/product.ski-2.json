@@ -6,7 +6,7 @@
         "title": {
           "type": "title",
           "settings": {
-            "heading_tag": "h2"
+            "heading_tag": "h3"
           }
         },
         "badges": {
@@ -17,7 +17,7 @@
         "price": {
           "type": "price",
           "settings": {
-            "show_taxes_notice": true
+            "show_taxes_notice": false
           }
         },
         "separator": {
@@ -42,16 +42,16 @@
             "size_chart_page": ""
           }
         },
-        "6d1e7437-32cc-4b14-9f60-3b818cbed684": {
-          "type": "text",
-          "settings": {
-            "text": "<p><em><strong>Leveringstid: <\/strong><\/em><em>2-5 hverdage<\/em><\/p>"
-          }
-        },
         "quantity_selector": {
           "type": "quantity_selector",
           "disabled": true,
           "settings": {
+          }
+        },
+        "6d1e7437-32cc-4b14-9f60-3b818cbed684": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em><strong>Leveringstid: <\/strong><\/em><em>2-5 hverdage<\/em><\/p>"
           }
         },
         "buy_buttons": {
@@ -124,8 +124,8 @@
         "separator",
         "description",
         "variant_picker",
-        "6d1e7437-32cc-4b14-9f60-3b818cbed684",
         "quantity_selector",
+        "6d1e7437-32cc-4b14-9f60-3b818cbed684",
         "buy_buttons",
         "19937545-298a-4651-9687-4525f0a97a0a",
         "d3e695ec-c2c1-416b-9482-cc06f0166cf0",
