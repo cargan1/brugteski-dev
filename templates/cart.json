@@ -48,78 +48,6 @@
         "show_payment_icons": true
       }
     },
-    "524ede9a-959a-44e9-9c4b-cf2ad3b1bdf2": {
-      "type": "collection-list",
-      "disabled": true,
-      "blocks": {
-        "template--14429261135907__524ede9a-959a-44e9-9c4b-cf2ad3b1bdf2-16665124011d0b4cdb-0": {
-          "type": "collection",
-          "settings": {
-            "collection": "alle-ski",
-            "image": "shopify:\/\/shop_images\/alleski.jpg",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 10
-          }
-        },
-        "template--14429261135907__524ede9a-959a-44e9-9c4b-cf2ad3b1bdf2-16665124011d0b4cdb-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "alt-tilbehor",
-            "image": "shopify:\/\/shop_images\/altskiudstyr.jpg",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 10
-          }
-        },
-        "template--14429261135907__524ede9a-959a-44e9-9c4b-cf2ad3b1bdf2-16665124011d0b4cdb-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "alt-snowboard",
-            "image": "shopify:\/\/shop_images\/altsnowboard.jpg",
-            "subheading": "",
-            "title": "Alt til Snowboard",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 10
-          }
-        }
-      },
-      "block_order": [
-        "template--14429261135907__524ede9a-959a-44e9-9c4b-cf2ad3b1bdf2-16665124011d0b4cdb-0",
-        "template--14429261135907__524ede9a-959a-44e9-9c4b-cf2ad3b1bdf2-16665124011d0b4cdb-1",
-        "template--14429261135907__524ede9a-959a-44e9-9c4b-cf2ad3b1bdf2-16665124011d0b4cdb-2"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_collections": true,
-        "collections_per_row": 3,
-        "show_progress_bar": false,
-        "subheading": "",
-        "title": "Har du husket af få at med?",
-        "content": "",
-        "link_url": "shopify:\/\/collections",
-        "link_text": "Vis alle",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
     "680c556b-8bd1-4619-9c6d-4b72d93d95ae": {
       "type": "trustpilot-stjerner",
       "settings": {
@@ -128,7 +56,6 @@
   },
   "order": [
     "main",
-    "524ede9a-959a-44e9-9c4b-cf2ad3b1bdf2",
     "680c556b-8bd1-4619-9c6d-4b72d93d95ae"
   ]
 }
