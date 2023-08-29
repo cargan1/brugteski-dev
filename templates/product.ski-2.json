@@ -64,6 +64,12 @@
             "payment_button_text_color": ""
           }
         },
+        "19937545-298a-4651-9687-4525f0a97a0a": {
+          "type": "inventory",
+          "settings": {
+            "low_inventory_threshold": 10
+          }
+        },
         "d3e695ec-c2c1-416b-9482-cc06f0166cf0": {
           "type": "payment-icons",
           "settings": {
@@ -94,13 +100,6 @@
             "allow_long_text": false
           }
         },
-        "19937545-298a-4651-9687-4525f0a97a0a": {
-          "type": "inventory",
-          "disabled": true,
-          "settings": {
-            "low_inventory_threshold": 10
-          }
-        },
         "2c54e865-25f9-472e-b9e9-4d5a40fdcb59": {
           "type": "collapsible_text",
           "disabled": true,
@@ -128,18 +127,18 @@
         "6d1e7437-32cc-4b14-9f60-3b818cbed684",
         "quantity_selector",
         "buy_buttons",
+        "19937545-298a-4651-9687-4525f0a97a0a",
         "d3e695ec-c2c1-416b-9482-cc06f0166cf0",
         "ba3b5461-8a7f-4d6a-bdc0-bfcaad62fae4",
         "96617279-0ca8-4ed8-ad3d-5c55c13472ec",
         "b7116d37-820d-4320-ba8a-a4a7ce116385",
         "6e6c8a01-4673-4115-bdee-5ea4ca9d3497",
-        "19937545-298a-4651-9687-4525f0a97a0a",
         "2c54e865-25f9-472e-b9e9-4d5a40fdcb59",
         "b975b4aa-9026-4e93-b9d3-2b7c01428f1c"
       ],
       "settings": {
         "full_width": false,
-        "show_fixed_add_to_cart": true,
+        "show_fixed_add_to_cart": false,
         "desktop_media_width": 50,
         "desktop_media_layout": "carousel_thumbnails_bottom",
         "mobile_media_size": "contained",
@@ -838,6 +837,7 @@
         "b5389015-05af-4a4e-94ac-30a5d3454bce",
         "b45be9f2-15cc-4767-b28d-944896a8016c"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_testimonials": false,
