@@ -270,7 +270,6 @@
     },
     "1c45ab7c-9a7b-49b4-a09d-dda5cf2c456a": {
       "type": "media-with-text",
-      "disabled": true,
       "blocks": {
         "template--18752118292825__1c45ab7c-9a7b-49b4-a09d-dda5cf2c456a-image-1": {
           "type": "image",
@@ -298,6 +297,7 @@
       "block_order": [
         "template--18752118292825__1c45ab7c-9a7b-49b4-a09d-dda5cf2c456a-image-1"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "enable_parallax": true,
@@ -307,7 +307,6 @@
     },
     "multiple-images-with-text": {
       "type": "multiple-images-with-text",
-      "disabled": true,
       "blocks": {
         "1664424486a2b084ab-0": {
           "type": "item",
@@ -325,6 +324,7 @@
       "block_order": [
         "1664424486a2b084ab-0"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "images_layout": "scattered",
@@ -338,7 +338,6 @@
     },
     "05aee10a-f02b-4915-a255-38655f750af4": {
       "type": "impact-text",
-      "disabled": true,
       "blocks": {
         "ab301164-50c7-4388-aee6-18a75fa4111c": {
           "type": "item",
@@ -356,6 +355,7 @@
       "block_order": [
         "ab301164-50c7-4388-aee6-18a75fa4111c"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_mobile": true,
@@ -390,7 +390,7 @@
             "content": "<p>Syntes du det er for dyrt og besværligt at leje udstyr til dine børn? - Vi har løsningen! Dine børn kommer aldrig til at vokse fra deres udstyr igen...<\/p>",
             "link_text": "Læs om Ski-Garanti",
             "link_url": "shopify:\/\/pages\/ski-byt-for-born-juniorer",
-            "background": "#efefef",
+            "background": "#f1f1f1",
             "background_gradient": "",
             "text_color": "#000000",
             "text_gradient": "",
@@ -412,7 +412,7 @@
             "content": "<p><em><strong>Slibning af snowboard + kr. 50,-<br\/>Reparation af sålhuller +  Kr. 50,-<\/strong><\/em><\/p><p>Hos Brugteski.dk har vi vores eget skiværksted, hvor vi servicerer dine ski inden og efter du tager afsted på skiferie. Vi sliber kanter samt sålen, og afslutter med at vokse skiene. <br\/><a href=\"https:\/\/brugteski.dk\/pages\/showroom-og-vores-abningstider\" title=\"showroom og åbningstider\">Se adressen og åbningstider her.<\/a><\/p><p><strong>OBS.:<\/strong> For bestilling af service, skal du medbringe dit udstyr i vores showroom. <br\/>Vores ski værksted er lukket for resten af sæsonen. Vi åbner igen til Oktober 2023.<\/p><p><a href=\"\/products\/ski-service-pro\" title=\"Ski service\">Bestil service<\/a><\/p>",
             "link_text": "",
             "link_url": "shopify:\/\/products\/ski-service-pro",
-            "background": "#efefef",
+            "background": "#f1f1f1",
             "background_gradient": "",
             "text_color": "#000000",
             "text_gradient": "",
@@ -436,7 +436,7 @@
             "content": "<p>Gider du ikke alt bøvlet med at sælge dit gamle udstyr? Kontakt os omkring det udstyr som du gerne vil af med, så giver vi en byttepris for det! <\/p>",
             "link_text": "Sælg dit udstyr",
             "link_url": "shopify:\/\/pages\/byt-til-nyt",
-            "background": "#efefef",
+            "background": "#f1f1f1",
             "background_gradient": "",
             "text_color": "#000000",
             "text_gradient": "",
@@ -515,7 +515,6 @@
     },
     "e8fb94b5-0b2b-45ea-bd08-3b8e7cf74a80": {
       "type": "media-with-text",
-      "disabled": true,
       "blocks": {
         "template--14429261365283__e8fb94b5-0b2b-45ea-bd08-3b8e7cf74a80-16692200883b05ab3a-0": {
           "type": "image",
@@ -543,6 +542,7 @@
       "block_order": [
         "template--14429261365283__e8fb94b5-0b2b-45ea-bd08-3b8e7cf74a80-16692200883b05ab3a-0"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "enable_parallax": true,
@@ -552,7 +552,6 @@
     },
     "04bc0508-1798-4c95-ba1d-87cc94b67e63": {
       "type": "featured-product",
-      "disabled": true,
       "blocks": {
         "template--14429261365283__04bc0508-1798-4c95-ba1d-87cc94b67e63-166774616614fe1cb4-1": {
           "type": "title",
@@ -595,6 +594,7 @@
         "template--14429261365283__04bc0508-1798-4c95-ba1d-87cc94b67e63-166774616614fe1cb4-6",
         "template--14429261365283__04bc0508-1798-4c95-ba1d-87cc94b67e63-166774616614fe1cb4-7"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "product": "ski-service-pro",
@@ -664,7 +664,6 @@
     },
     "5637a9fa-21cf-4216-a791-13774d62ed1d": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "template--14429261365283__5637a9fa-21cf-4216-a791-13774d62ed1d-166609646074615da7-0": {
           "type": "image",
@@ -737,6 +736,7 @@
         "70f20112-ad8a-453d-a743-0aee6cac05cd",
         "template--14429261365283__5637a9fa-21cf-4216-a791-13774d62ed1d-166609646074615da7-1"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
@@ -787,7 +787,7 @@
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
-        "overlay_color": "#003eff",
+        "overlay_color": "#0039ff",
         "overlay_opacity": 70
       }
     }
