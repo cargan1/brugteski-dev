@@ -125,6 +125,60 @@
         "heading_gradient": ""
       }
     },
+    "a1d60877-d7ec-436a-ad43-a06919cf98d4": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--19570050761049__a1d60877-d7ec-436a-ad43-a06919cf98d4-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Svært ved at finde de rigtigt ski?"
+          }
+        },
+        "template--19570050761049__a1d60877-d7ec-436a-ad43-a06919cf98d4-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Ski-finder",
+            "heading_tag": "h3"
+          }
+        },
+        "template--19570050761049__a1d60877-d7ec-436a-ad43-a06919cf98d4-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Prøv vores ski-quizzen, og få tilsendt en<br\/>skræddersyet skibeskrivel på 3 minutter!<\/p>"
+          }
+        },
+        "5304bd19-a6e8-4b5d-97ab-115a61250354": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Tag Quizen",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19570050761049__a1d60877-d7ec-436a-ad43-a06919cf98d4-subheading-1",
+        "template--19570050761049__a1d60877-d7ec-436a-ad43-a06919cf98d4-heading-1",
+        "template--19570050761049__a1d60877-d7ec-436a-ad43-a06919cf98d4-richtext-1",
+        "5304bd19-a6e8-4b5d-97ab-115a61250354"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "mobile_image": "shopify:\/\/shop_images\/Skifinder.dynamisk.billede1.jpg",
+        "mobile_text_position": "place-self-end-start text-start",
+        "desktop_text_position": "sm:place-self-end-start sm:text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 20
+      }
+    },
     "main": {
       "type": "main-collection-new",
       "settings": {
@@ -202,6 +256,7 @@
   "order": [
     "banner",
     "4bdf9a05-c268-4dad-ba38-e5c1db7bcb74",
+    "a1d60877-d7ec-436a-ad43-a06919cf98d4",
     "main",
     "c1fd1f55-0ce4-4389-b3ea-b949460ef382",
     "38bc7e44-b411-4e95-8b29-e8b99cb24551",
