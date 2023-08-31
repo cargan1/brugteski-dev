@@ -115,7 +115,7 @@
         "block_size": "small",
         "subheading": "",
         "title": "",
-        "content": "<p><a href=\"https:\/\/brugteski.dk\/\" title=\"https:\/\/brugteski.dk\/\">Forside<\/a> \/  Ski \/ Alle ski \/ {{ collection.title }}<br\/><\/p>",
+        "content": "<p><a href=\"https:\/\/brugteski.dk\/\" title=\"https:\/\/brugteski.dk\/\">Forside<\/a> \/  <a href=\"\/collections\/ski-skiudstyr\" title=\"Ski & Skiudstyr\">Ski & Skiudstyr<\/a> \/ <a href=\"\/collections\/alt-tilbehor\" title=\"Alt skiudstyr\">Alt skiudstyr<\/a> \/ {{ collection.title }}<br\/><\/p>",
         "link_url": "",
         "link_text": "",
         "background": "",
