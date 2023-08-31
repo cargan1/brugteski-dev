@@ -145,7 +145,7 @@
         "template--19570050761049__a1d60877-d7ec-436a-ad43-a06919cf98d4-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Prøv vores ski-quizzen, og få tilsendt en<br\/>skræddersyet skibeskrivel på 3 minutter!<\/p>"
+            "content": "<p>Tag ski-quizzen, og få tilsendt en<br\/>skræddersyet ski beskrivel på under 3 minutter!<\/p>"
           }
         },
         "5304bd19-a6e8-4b5d-97ab-115a61250354": {
@@ -171,13 +171,13 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/Skifinder.dynamisk.billede1.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Skifinder.dynamisk.billede1.jpg",
+        "image": "shopify:\/\/shop_images\/Skifinder.dynamisk.billede.pc.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Skifinder.dynamisk.billede.born.jpg",
         "mobile_text_position": "place-self-end-start text-start",
-        "desktop_text_position": "sm:place-self-end-start sm:text-start",
-        "text_color": "#ffffff",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#000000",
         "overlay_color": "#000000",
-        "overlay_opacity": 20
+        "overlay_opacity": 0
       }
     },
     "main": {
