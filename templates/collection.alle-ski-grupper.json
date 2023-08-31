@@ -171,7 +171,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/Skifinder.dynamisk.billede.pc.jpg",
+        "image": "shopify:\/\/shop_images\/skifinder.pc1.jpg",
         "mobile_image": "shopify:\/\/shop_images\/skifinder.mobil1.jpg",
         "mobile_text_position": "place-self-end-start text-start",
         "desktop_text_position": "sm:place-self-center sm:text-center",
