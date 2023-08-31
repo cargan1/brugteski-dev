@@ -1,48 +1,7 @@
 {
   "sections": {
-    "6b981007-6597-4481-b4ff-97f5a5336d07": {
-      "type": "slideshow",
-      "blocks": {
-        "template--14429261299747__6b981007-6597-4481-b4ff-97f5a5336d07-166610273323a06d46-0": {
-          "type": "image",
-          "settings": {
-            "image": "{{ collection.metafields.custom.banner_foto.value }}",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center-start text-start",
-            "desktop_text_position": "sm:place-self-center-start sm:text-start",
-            "subheading": "Vores udvalg af...",
-            "title": "{{ collection.metafields.custom.navn_til_banner.value }}",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 15,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--14429261299747__6b981007-6597-4481-b4ff-97f5a5336d07-166610273323a06d46-0"
-      ],
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "image_size": "auto",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#ffffff",
-        "background_gradient": ""
-      }
-    },
     "banner": {
       "type": "collection-banner",
-      "disabled": true,
       "settings": {
         "full_width": false,
         "allow_transparent_header": false,
@@ -168,7 +127,6 @@
     },
     "45ffed50-e30b-4e27-af5c-d21501c57d2d": {
       "type": "image-link-blocks",
-      "disabled": true,
       "blocks": {
         "template--14429261299747__45ffed50-e30b-4e27-af5c-d21501c57d2d-1666525608718b0fcb-1": {
           "type": "item",
@@ -212,6 +170,7 @@
         "template--14429261299747__45ffed50-e30b-4e27-af5c-d21501c57d2d-1666525608718b0fcb-2",
         "template--14429261299747__45ffed50-e30b-4e27-af5c-d21501c57d2d-1666525608718b0fcb-3"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "block_size": "small",
@@ -294,7 +253,6 @@
     }
   },
   "order": [
-    "6b981007-6597-4481-b4ff-97f5a5336d07",
     "banner",
     "4bdf9a05-c268-4dad-ba38-e5c1db7bcb74",
     "45ffed50-e30b-4e27-af5c-d21501c57d2d",
