@@ -166,6 +166,7 @@
         "template--19570050761049__a1d60877-d7ec-436a-ad43-a06919cf98d4-richtext-1",
         "5304bd19-a6e8-4b5d-97ab-115a61250354"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
