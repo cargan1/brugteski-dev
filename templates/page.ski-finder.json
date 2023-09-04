@@ -13,13 +13,13 @@
         "template--19597036781913__51ff0030-b448-4c7e-8826-72ced91e2e21-subheading-1": {
           "type": "subheading",
           "settings": {
-            "text": "Subheading"
+            "text": "Ski-finder"
           }
         },
         "template--19597036781913__51ff0030-b448-4c7e-8826-72ced91e2e21-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "Heading",
+            "text": "Svært ved at finde de rigtigt ski?",
             "heading_tag": "h1",
             "text_color": "",
             "gradient": ""
@@ -28,7 +28,7 @@
         "template--19597036781913__51ff0030-b448-4c7e-8826-72ced91e2e21-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "content": "<p>Tag vores ski-finder quiz herunder, og modtag en skræddersyet ski beskrivelse på under 2 minutter!<\/p>"
           }
         }
       },
