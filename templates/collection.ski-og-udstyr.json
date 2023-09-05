@@ -26,10 +26,10 @@
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_herreski_d066dd3d-dffa-44e4-863f-9e2082c6bb2c.jpg",
+            "image": "shopify:\/\/shop_images\/udvalg_ski.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/herreski",
+            "link_url": "shopify:\/\/collections\/alle-ski",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -39,62 +39,10 @@
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_dameski.jpg",
+            "image": "shopify:\/\/shop_images\/udvalg_skiudstyr.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/kvinder",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-2": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_borneski.jpg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "shopify:\/\/collections\/borne-juniorski",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "a5f68762-6842-44de-b848-7f8bc56a57c6": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_skistave.jpg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "shopify:\/\/collections\/skistave",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-3": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_skistovler.jpg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "shopify:\/\/collections\/skistovler",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "7cf735e1-01b5-49c8-8ca7-1383bc658648": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_skitilbehor.jpg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "shopify:\/\/collections\/voks",
+            "link_url": "shopify:\/\/collections\/alt-tilbehor",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -104,11 +52,7 @@
       },
       "block_order": [
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-0",
-        "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-1",
-        "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-2",
-        "a5f68762-6842-44de-b848-7f8bc56a57c6",
-        "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-3",
-        "7cf735e1-01b5-49c8-8ca7-1383bc658648"
+        "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-1"
       ],
       "settings": {
         "full_width": false,
