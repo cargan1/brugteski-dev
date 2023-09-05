@@ -2,11 +2,114 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "4b34f555-62d2-420e-b471-bd7d0d237ce5": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19604822688089__4b34f555-62d2-420e-b471-bd7d0d237ce5-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Guides & Skiblogs"
+          }
+        },
+        "template--19604822688089__4b34f555-62d2-420e-b471-bd7d0d237ce5-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Hjælpe til udstyret eller skiferien?",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--19604822688089__4b34f555-62d2-420e-b471-bd7d0d237ce5-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Herunder ser du alle vores skiblogs og guides til udstyret! Det kan være meget overvældende at tage på skiferie, for der er 1000 ting man skal have styr på, på en gang... <br\/>Derfor har vi samlet alt den viden du har brug for, få at få den bedste skiferie!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19604822688089__4b34f555-62d2-420e-b471-bd7d0d237ce5-subheading-1",
+        "template--19604822688089__4b34f555-62d2-420e-b471-bd7d0d237ce5-heading-1",
+        "template--19604822688089__4b34f555-62d2-420e-b471-bd7d0d237ce5-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "tab_label": ""
+      }
+    },
+    "fbce77d3-3405-403f-b588-3f621ff50cb9": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--19604822688089__fbce77d3-3405-403f-b588-3f621ff50cb9-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/skiguides.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Ski guides",
+            "content": "<p>Læs om guides til alt vores udstyr, så du ikke skal være i tvivl om noget som helst<\/p>",
+            "link_text": "Se ski guides her",
+            "link_url": "shopify:\/\/blogs\/ski-guides",
+            "background": "#0039ff",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#010410",
+            "button_text_color": ""
+          }
+        },
+        "6d877d10-4ca2-4781-bc02-9314dbad633a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/skiblogs.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Skiblogs",
+            "content": "<p>Syntes også der er mange ting man skal have styr på, ved skiferien? Frygt ej, vi har samlet alt god viden i en masse ski blogs så du kan læse lige her<\/p>",
+            "link_text": "Se skiblogs her",
+            "link_url": "shopify:\/\/blogs\/alt-om-ski",
+            "background": "#0020a2",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#010410",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19604822688089__fbce77d3-3405-403f-b588-3f621ff50cb9-image-1",
+        "6d877d10-4ca2-4781-bc02-9314dbad633a"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "none",
+        "tab_label": ""
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "4b34f555-62d2-420e-b471-bd7d0d237ce5",
+    "fbce77d3-3405-403f-b588-3f621ff50cb9"
   ]
 }
