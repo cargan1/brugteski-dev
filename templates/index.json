@@ -507,7 +507,6 @@
         "autoplay": true,
         "video_size": "sm",
         "external_video_url": "https:\/\/www.youtube.com\/watch?v=qUe_hGEZC7k",
-        "poster": "shopify:\/\/shop_images\/showrooom_2.jpg",
         "text_color": "#fafafa",
         "overlay_color": "#000000",
         "overlay_opacity": 32,
