@@ -171,11 +171,7 @@
           <div id="emaerket-widget-sjuj8t1oqz" style="padding-left: 65px;"></div>
           <!-- // slut e-maerket widget -->
           {%- if section.settings.show_payment_icons and shop.enabled_payment_types.size > 0 -%}
-            <div class="footer__payment-icons h-stack wrap gap-2">
-              {%- for type in shop.enabled_payment_types -%}
-                {{- type | payment_type_svg_tag -}}
-              {%- endfor -%}
-            </div>
+            {%- render 'payments-logos' -%}
           {%- endif -%}
 
           <p class="footer__copyright text-sm text-subdued">© {{ 'now' | date: '%Y' }}, {{ shop.name }}. {{ powered_by_link }}</p>
