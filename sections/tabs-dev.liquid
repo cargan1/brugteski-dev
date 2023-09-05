@@ -1,6 +1,6 @@
 {% if section.settings.enable_tabs %}
   <section class="section section-{{section.id}}">
-    <div class="tab_container">
+    <div class="tab_container" id="productTabs">
       {% for block in section.blocks %}
         {% assign tab_label = block.settings.title | remove: " " | remove: "&" | downcase %}
         {% if forloop.index != 1 %}
