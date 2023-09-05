@@ -501,6 +501,7 @@
         "c1edac11-ad61-4036-a07d-4e1810f5f492",
         "fce92eda-0e66-43c1-9ade-855d38237339"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "allow_transparent_header": false,
