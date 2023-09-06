@@ -157,6 +157,12 @@
     "fe071cc7-bbc8-4bb2-9731-6976ff8b16ae": {
       "type": "tabs-dev",
       "blocks": {
+        "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-1": {
+          "type": "tab",
+          "settings": {
+            "title": "Beskrivelse"
+          }
+        },
         "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-0": {
           "type": "tab",
           "settings": {
@@ -169,16 +175,10 @@
             "title": "Størrelsesguide"
           }
         },
-        "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-1": {
-          "type": "tab",
-          "settings": {
-            "title": "Beskrivelse"
-          }
-        },
         "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-3": {
           "type": "tab",
           "settings": {
-            "title": "Stand"
+            "title": "Stand-beskrivelse"
           }
         },
         "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-2": {
@@ -195,9 +195,9 @@
         }
       },
       "block_order": [
+        "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-1",
         "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-0",
         "ab3020de-324b-4afe-b163-9afbc91c441a",
-        "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-1",
         "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-3",
         "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-2",
         "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-4"
@@ -482,7 +482,7 @@
         "background": "#fafafa",
         "background_gradient": "",
         "text_color": "",
-        "tab_label": "Stand"
+        "tab_label": "Stand-beskrivelse"
       }
     },
     "bf60e6c3-00b7-4616-9fd0-19986092c878": {
