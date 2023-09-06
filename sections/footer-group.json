@@ -71,18 +71,18 @@
             "show_menu_title": true
           }
         },
+        "afcbebc9-1170-40d4-886a-037780e234e4": {
+          "type": "text",
+          "settings": {
+            "title": "Kontakt os",
+            "content": "<p><strong>Tlf.: <\/strong>+45 3020 9975<br\/>Alle dage fra kl. 10-18<\/p><p><strong>Mail:<\/strong> info@brugteski.dk<strong><br\/><\/strong>Svarer indenfor 24 timer<\/p><p><strong>Adresse<br\/><\/strong>Brugteski.dk ApS<strong><br\/><\/strong>Krogsagervej 50, 2<br\/>7000 Fredericia<br\/>CVR: 40804455<\/p>"
+          }
+        },
         "text": {
           "type": "text",
           "settings": {
             "title": "Skibutik",
             "content": "<p><a href=\"\/pages\/showroom-og-vores-abningstider\" title=\"Showroom og vores åbningstider\">Besøg vores skibutik, hvor du kan  se og prøve alt vores udstyr.<\/a><\/p><p><strong>Åbningstider for showroom<br\/><\/strong>Mandag-Fredag: Lukket<br\/>Lørdag: Lukket<br\/>Søndag: Lukket<\/p><p><strong>Åbner igen fra oktober:<br\/><\/strong>30. September & 1. Oktober - 2023<strong><br\/><\/strong><\/p>"
-          }
-        },
-        "afcbebc9-1170-40d4-886a-037780e234e4": {
-          "type": "text",
-          "settings": {
-            "title": "Kontakt",
-            "content": "<p><strong>Tlf.: <\/strong>+45 3020 9975<br\/>Alle dage fra kl. 10-18<\/p><p><strong>Mail:<\/strong> info@brugteski.dk<strong><br\/><\/strong>Svarer indenfor 24 timer<\/p><p><strong>Adresse<br\/><\/strong>Brugteski.dk ApS<strong><br\/><\/strong>Krogsagervej 50, 2<br\/>7000 Fredericia<br\/>CVR: 40804455<\/p>"
           }
         },
         "42290695-b02a-4385-b06b-249c0aa04de4": {
@@ -95,8 +95,8 @@
       },
       "block_order": [
         "links",
-        "text",
         "afcbebc9-1170-40d4-886a-037780e234e4",
+        "text",
         "42290695-b02a-4385-b06b-249c0aa04de4"
       ],
       "settings": {
