@@ -769,7 +769,7 @@
         "template--18752118292825__56be727f-3b6b-437d-b169-29393ae1108c-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>Åbningstider for showroom<br\/><\/strong>Mandag-Fredag: Lukket<br\/>Lørdag: 11.00-17.00<br\/>Søndag:11.00-17.00<\/p><h6><strong>Vi åbner op igen til Oktober<\/strong><\/h6>"
+            "content": "<p><strong>Åbningstider for showroom<br\/><\/strong>Mandag-Fredag: Lukket<br\/>Lørdag: Lukket<br\/>Søndag: Lukket<\/p><h6><strong>Vi åbner op igen til Oktober<\/strong><\/h6>"
           }
         }
       },
