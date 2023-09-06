@@ -160,7 +160,7 @@
         "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-0": {
           "type": "tab",
           "settings": {
-            "title": "Chart"
+            "title": "Detaljer"
           }
         },
         "ab3020de-324b-4afe-b163-9afbc91c441a": {
@@ -172,7 +172,7 @@
         "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-1": {
           "type": "tab",
           "settings": {
-            "title": "Produk tekst"
+            "title": "Beskrivelse"
           }
         },
         "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-3": {
@@ -297,13 +297,13 @@
         "chart_background": "",
         "chart_text_color": "",
         "chart_true_false_color": "",
-        "tab_label": "Chart"
+        "tab_label": "Detaljer"
       }
     },
     "4b2f4dad-beb3-4647-84b2-79522c534386": {
       "type": "product-desc",
       "settings": {
-        "tab_label": "Produkt tekst"
+        "tab_label": "Beskrivelse"
       }
     },
     "322fa8a3-0532-4ece-82b8-7999ffdd7f89": {
