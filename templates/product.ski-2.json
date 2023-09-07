@@ -456,13 +456,13 @@
         "template--18752117866841__82a4bfbb-5629-4257-a61a-8f3f9f259c01-subheading-1": {
           "type": "subheading",
           "settings": {
-            "text": "Subheading"
+            "text": ""
           }
         },
         "template--18752117866841__82a4bfbb-5629-4257-a61a-8f3f9f259c01-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "Heading",
+            "text": "Størrelsesguide",
             "heading_tag": "h1",
             "text_color": "",
             "gradient": ""
@@ -471,7 +471,7 @@
         "template--18752117866841__82a4bfbb-5629-4257-a61a-8f3f9f259c01-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "content": "<p>I tvivl om hvad du skal være opmærksom på ved størrelse på dine ski, snowboard eller andet udstyr?<\/p><p><a href=\"https:\/\/brugteski.dk\/blogs\/alt-om-ski\/den-ultimative-ski-guide\" title=\"Den ultimative ski-guide!\">Læs vores ski & størrelsesguides her<\/a><\/p>"
           }
         }
       },
