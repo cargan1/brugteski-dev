@@ -183,6 +183,7 @@
         },
         "c095e786-f832-4540-a7b9-8e887d0b0cde": {
           "type": "tab",
+          "disabled": true,
           "settings": {
             "title": "FAQ"
           }
@@ -357,7 +358,7 @@
         "gap": "medium",
         "text_alignment": "start",
         "subheading": "",
-        "title": "Guide & fordele",
+        "title": "Fragt og returnering",
         "content": "<p>Vi gør en dyd ud af at hjælpe dig hele vejen igennem processen. <br\/>Så du kun skal nyde at du har fået noget lækkert udstyr til en fantastisk pris.<\/p>",
         "background": "",
         "background_gradient": "",
