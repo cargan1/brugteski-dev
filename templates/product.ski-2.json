@@ -190,7 +190,7 @@
         "bf4b7f25-2f3d-42b0-98ba-8c6c97c93601": {
           "type": "tab",
           "settings": {
-            "title": "Fragt & Fordele"
+            "title": "Fragt & returnering"
           }
         }
       },
@@ -362,7 +362,7 @@
         "background": "",
         "background_gradient": "",
         "text_color": "",
-        "tab_label": "Fragt & Fordele"
+        "tab_label": "Fragt & returnering"
       }
     },
     "bc007c98-134a-45e6-879f-a9610e0a56cd": {
