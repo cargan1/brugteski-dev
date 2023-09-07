@@ -326,9 +326,9 @@
           "type": "item",
           "settings": {
             "column_size": "3",
-            "title": "Fragt & retur",
+            "title": "Fragt",
             "heading_tag": "h4",
-            "content": "<p><strong>Fragt<\/strong><br\/>Vi tilbyder <strong>gratis<\/strong> fragt på produkter, til valgfri GLS pakkeshop. Leveringstid:<strong> <\/strong>2-5 hverdage<\/p><p><strong>Returnering<\/strong><br\/>Derudover har vi også <strong>gratis<\/strong> 14 dages returret, på alle ordrer. Der medfølger returneringslabe i alle ordren! Du kan læse mere om bytte og returnering <a href=\"https:\/\/brugteski-dk.myshopify.com\/pages\/returnering\" title=\"Returnering af varer\">her.<\/a><\/p>",
+            "content": "<p>Vi tilbyder <strong>gratis<\/strong> fragt på produkter, til valgfri GLS pakkeshop. Leveringstid:<strong> <\/strong>2-5 hverdage<\/p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
