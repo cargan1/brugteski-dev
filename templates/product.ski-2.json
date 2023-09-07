@@ -456,13 +456,13 @@
         "template--18752117866841__82a4bfbb-5629-4257-a61a-8f3f9f259c01-subheading-1": {
           "type": "subheading",
           "settings": {
-            "text": "Subheading"
+            "text": ""
           }
         },
         "template--18752117866841__82a4bfbb-5629-4257-a61a-8f3f9f259c01-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "Heading",
+            "text": "Størrelsesguide",
             "heading_tag": "h1",
             "text_color": "",
             "gradient": ""
@@ -471,19 +471,31 @@
         "template--18752117866841__82a4bfbb-5629-4257-a61a-8f3f9f259c01-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "content": "<p>Er du i tvivl om længden på dine ski? Så har vi lavet en størrrelsesguide, som kan hjælpe dig. <\/p><p>Se de<\/p>"
+          }
+        },
+        "b48753b6-b85b-4cad-a1a1-bdc199759c28": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Se størrelsesguide",
+            "url": "shopify:\/\/blogs\/ski-guides",
+            "background": "",
+            "text_color": ""
           }
         }
       },
       "block_order": [
         "template--18752117866841__82a4bfbb-5629-4257-a61a-8f3f9f259c01-subheading-1",
         "template--18752117866841__82a4bfbb-5629-4257-a61a-8f3f9f259c01-heading-1",
-        "template--18752117866841__82a4bfbb-5629-4257-a61a-8f3f9f259c01-richtext-1"
+        "template--18752117866841__82a4bfbb-5629-4257-a61a-8f3f9f259c01-richtext-1",
+        "b48753b6-b85b-4cad-a1a1-bdc199759c28"
       ],
       "settings": {
         "full_width": true,
         "content_width": "small",
-        "text_position": "center",
+        "text_position": "start",
         "background": "",
         "background_gradient": "",
         "text_color": "",
