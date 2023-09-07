@@ -99,22 +99,6 @@
             "required": false,
             "allow_long_text": false
           }
-        },
-        "2c54e865-25f9-472e-b9e9-4d5a40fdcb59": {
-          "type": "collapsible_text",
-          "disabled": true,
-          "settings": {
-            "title": "Specifikationer",
-            "content": "<p><strong>RADIUS: <br\/>NIVEAU: <\/strong>{{ product.metafields.custom.niveau.value }}<strong><br\/>TYPE: <\/strong>{{ product.metafields.custom.type.value }}<strong><br\/>BREDDE: <\/strong>{{ product.metafields.custom.bredde.value }}<strong><br\/>SKIPROFIL: <\/strong>{{ product.metafields.custom.skiprofil.value }}<strong><br\/>KERNE: <\/strong>{{ product.metafields.custom.kerne.value }}<strong><br\/>BINDINGER: <\/strong>{{ product.metafields.custom.bindinger.value }}<strong><br\/>KOLLEKTION: <\/strong>{{ product.metafields.custom.kollektion.value }}<\/p><p>✅Nyslebet og vokset ski<br\/>✅Medfølger bindinger<br\/>✅Gennemgået kvalitetskontrol<br\/>✅Pasningsgaranti<br\/>✅24 måneders fuld reklamationsret<br\/>✅Gratis fragt og returnering<br\/>✅Leveringstid på 2-5 hverdage<br\/><a href=\"https:\/\/brugteski.dk\/pages\/dig-som-kunde\">Læs mere om alle dine fordele her!<\/a><\/p>"
-          }
-        },
-        "b975b4aa-9026-4e93-b9d3-2b7c01428f1c": {
-          "type": "collapsible_text",
-          "disabled": true,
-          "settings": {
-            "title": "Fragt og levering",
-            "content": "<p>Vi tilbyder <strong>gratis<\/strong> fragt på alle vores ordre, til GLS pakkeshop. <\/p><p>Derudover har vi også <strong>gratis<\/strong> 14 dages returret, på alle produkter. Du kan udskrive dit returlabel igenne dette <a href=\"\/pages\/returnering\" title=\"Returnering af varer\">link.<\/a><\/p><p><strong>Leveringstid: <\/strong>2-5 hverdeg<\/p>"
-          }
         }
       },
       "block_order": [
@@ -132,9 +116,7 @@
         "ba3b5461-8a7f-4d6a-bdc0-bfcaad62fae4",
         "96617279-0ca8-4ed8-ad3d-5c55c13472ec",
         "b7116d37-820d-4320-ba8a-a4a7ce116385",
-        "6e6c8a01-4673-4115-bdee-5ea4ca9d3497",
-        "2c54e865-25f9-472e-b9e9-4d5a40fdcb59",
-        "b975b4aa-9026-4e93-b9d3-2b7c01428f1c"
+        "6e6c8a01-4673-4115-bdee-5ea4ca9d3497"
       ],
       "settings": {
         "full_width": true,
