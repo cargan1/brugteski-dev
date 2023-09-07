@@ -562,6 +562,46 @@
       "type": "trustpilot-stjerner",
       "settings": {
       }
+    },
+    "82a4bfbb-5629-4257-a61a-8f3f9f259c01": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18752117866841__82a4bfbb-5629-4257-a61a-8f3f9f259c01-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--18752117866841__82a4bfbb-5629-4257-a61a-8f3f9f259c01-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--18752117866841__82a4bfbb-5629-4257-a61a-8f3f9f259c01-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18752117866841__82a4bfbb-5629-4257-a61a-8f3f9f259c01-subheading-1",
+        "template--18752117866841__82a4bfbb-5629-4257-a61a-8f3f9f259c01-heading-1",
+        "template--18752117866841__82a4bfbb-5629-4257-a61a-8f3f9f259c01-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "tab_label": "Størrelsesguide"
+      }
     }
   },
   "order": [
@@ -576,6 +616,7 @@
     "1b924801-2f39-4b3d-97cf-6ac91e20f85c",
     "892c0d3c-c5de-4a4e-a62e-2f712b480fd4",
     "fb969a0a-fc24-4610-814b-104c9172b8f5",
-    "6fe9e5e3-41c0-4ad1-a62e-5e2b2ba02828"
+    "6fe9e5e3-41c0-4ad1-a62e-5e2b2ba02828",
+    "82a4bfbb-5629-4257-a61a-8f3f9f259c01"
   ]
 }
