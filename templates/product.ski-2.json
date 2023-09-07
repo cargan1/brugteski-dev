@@ -181,12 +181,6 @@
             "title": "Stand-beskrivelse"
           }
         },
-        "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-2": {
-          "type": "tab",
-          "settings": {
-            "title": "Showroom"
-          }
-        },
         "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-4": {
           "type": "tab",
           "settings": {
@@ -199,7 +193,6 @@
         "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-0",
         "ab3020de-324b-4afe-b163-9afbc91c441a",
         "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-3",
-        "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-2",
         "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-4"
       ],
       "settings": {
@@ -210,6 +203,12 @@
         "border_radius": 0,
         "border_padding": 0,
         "border_thickness": 0
+      }
+    },
+    "4b2f4dad-beb3-4647-84b2-79522c534386": {
+      "type": "product-desc",
+      "settings": {
+        "tab_label": "Beskrivelse"
       }
     },
     "7bd8baf1-9eb8-41b9-82b3-49a08ae4c5ad": {
@@ -300,12 +299,6 @@
         "tab_label": "Detaljer"
       }
     },
-    "4b2f4dad-beb3-4647-84b2-79522c534386": {
-      "type": "product-desc",
-      "settings": {
-        "tab_label": "Beskrivelse"
-      }
-    },
     "322fa8a3-0532-4ece-82b8-7999ffdd7f89": {
       "type": "multi-column",
       "blocks": {
@@ -352,7 +345,7 @@
         "template--18752117866841__322fa8a3-0532-4ece-82b8-7999ffdd7f89-item-3"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "stack_on_mobile": false,
         "gap": "medium",
         "text_alignment": "start",
@@ -377,6 +370,7 @@
       "block_order": [
         "dd2ca3c9-f87b-4cb4-bfe3-86422da0fac9"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "content_width": "large",
@@ -385,42 +379,6 @@
         "background_gradient": "",
         "text_color": "",
         "tab_label": "Description"
-      }
-    },
-    "1b924801-2f39-4b3d-97cf-6ac91e20f85c": {
-      "type": "media-with-text",
-      "blocks": {
-        "template--14429261332515__1b924801-2f39-4b3d-97cf-6ac91e20f85c-1666191404eaad16b1-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_6349.jpg",
-            "media_width": 60,
-            "media_position": "start",
-            "text_position": "place-self-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "Svært at finde de rigtigt ski?",
-            "content": "<p>Vi har et showroom i Fredericia, hvor du\/din familie vil kunne komme ned og prøve, samt se alt udstyret. Her vil vi også kunne guide dig\/jer, til at kunne finde det helt rigtigt, for lige netop DIG.<\/p>",
-            "link_text": "Find Adressen Her!",
-            "link_url": "shopify:\/\/pages\/showroom-og-vores-abningstider",
-            "background": "#003eff",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--14429261332515__1b924801-2f39-4b3d-97cf-6ac91e20f85c-1666191404eaad16b1-0"
-      ],
-      "settings": {
-        "full_width": false,
-        "enable_parallax": true,
-        "spacing": "none",
-        "tab_label": "Showroom"
       }
     },
     "aa73c3dc-82ca-485c-a544-d5b8dd955818": {
@@ -521,149 +479,40 @@
         "text_gradient": ""
       }
     },
-    "a2d55917-d689-4d4a-a841-728c942d4a7a": {
-      "type": "impact-text",
+    "1b924801-2f39-4b3d-97cf-6ac91e20f85c": {
+      "type": "media-with-text",
       "blocks": {
-        "template--14429261332515__a2d55917-d689-4d4a-a841-728c942d4a7a-1666198808e89e5501-0": {
-          "type": "item",
+        "template--14429261332515__1b924801-2f39-4b3d-97cf-6ac91e20f85c-1666191404eaad16b1-0": {
+          "type": "image",
           "settings": {
-            "title": "OP TIL 70%",
-            "subheading": "billigere at købe brugt ski!",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": true,
-            "animate_impact_text_duration": 2
+            "image": "shopify:\/\/shop_images\/IMG_6349.jpg",
+            "media_width": 60,
+            "media_position": "start",
+            "text_position": "place-self-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Svært at finde de rigtigt ski?",
+            "content": "<p>Vi har et showroom i Fredericia, hvor du\/din familie vil kunne komme ned og prøve, samt se alt udstyret. Her vil vi også kunne guide dig\/jer, til at kunne finde det helt rigtigt, for lige netop DIG.<\/p>",
+            "link_text": "Find Adressen Her!",
+            "link_url": "shopify:\/\/pages\/showroom-og-vores-abningstider",
+            "background": "#010410",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
           }
         }
       },
       "block_order": [
-        "template--14429261332515__a2d55917-d689-4d4a-a841-728c942d4a7a-1666198808e89e5501-0"
+        "template--14429261332515__1b924801-2f39-4b3d-97cf-6ac91e20f85c-1666191404eaad16b1-0"
       ],
-      "disabled": true,
       "settings": {
-        "full_width": true,
-        "stack_mobile": true,
-        "text_alignment": "center",
-        "impact_text_style": "fill",
-        "text_divider": "none",
-        "impact_text_size_ratio": 1,
-        "background": "#003eff",
-        "background_gradient": "",
-        "heading_text_color": "#efefef",
-        "heading_gradient": "linear-gradient(1deg, rgba(239, 239, 239, 1) 21%, rgba(187, 48, 254, 1) 90%)",
-        "text_color": "",
-        "button_background": "#ffffff",
-        "button_text_color": "#ffffff",
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "none",
         "tab_label": ""
-      }
-    },
-    "5339552c-ca02-4356-bc93-49775b177927": {
-      "type": "media-grid",
-      "blocks": {
-        "template--14429261332515__5339552c-ca02-4356-bc93-49775b177927-16662902340edbb922-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Samling_af_pris.jpg",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 1,
-            "desktop_row_span": 2,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "template--14429261332515__5339552c-ca02-4356-bc93-49775b177927-16662902340edbb922-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Samling_af_pris1.jpg",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 1,
-            "desktop_row_span": 2,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "0b5e8e05-1b7b-46a7-8488-ab7e18fd2034": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Samling_af_pris2.jpg",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 1,
-            "desktop_row_span": 2,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "template--14429261332515__5339552c-ca02-4356-bc93-49775b177927-16662902340edbb922-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Samling_af_pris.sal1.jpg",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 1,
-            "desktop_row_span": 2,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "template--14429261332515__5339552c-ca02-4356-bc93-49775b177927-16662902340edbb922-0",
-        "template--14429261332515__5339552c-ca02-4356-bc93-49775b177927-16662902340edbb922-1",
-        "0b5e8e05-1b7b-46a7-8488-ab7e18fd2034",
-        "template--14429261332515__5339552c-ca02-4356-bc93-49775b177927-16662902340edbb922-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "reduce_width": true,
-        "desktop_row_height": 290,
-        "mobile_row_height": 150,
-        "background": "",
-        "background_gradient": ""
       }
     },
     "892c0d3c-c5de-4a4e-a62e-2f712b480fd4": {
@@ -699,160 +548,28 @@
         "tab_label": ""
       }
     },
-    "ccab4d19-b071-4fcd-bff1-88c63fbf47ec": {
-      "type": "testimonials",
-      "blocks": {
-        "template--14429261332515__ccab4d19-b071-4fcd-bff1-88c63fbf47ec-1666198953ad30e829-0": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "Lukas",
-            "title": "Købte et par lækre brugte ski i deres fysiske showroom.",
-            "content": "<p>Personalet har god tid og meget hjælpsomme. Jeg fik hjælp til køb af både støvler og ski og er meget tilfreds og at prisen så er lav for noget der tæt ved fremstår som nyt det kan man jo ikke klage over!<\/p>"
-          }
-        },
-        "template--14429261332515__ccab4d19-b071-4fcd-bff1-88c63fbf47ec-1666198953ad30e829-1": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "Maria B.",
-            "title": "Hurtig handel",
-            "content": "<p>Hurtig handel med god rådgivning og en fornuftig pris. Kan klart anbefales.<\/p>"
-          }
-        },
-        "template--14429261332515__ccab4d19-b071-4fcd-bff1-88c63fbf47ec-1666198953ad30e829-2": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "Allan L.",
-            "title": "Fine ski - Fin pris - Hurtig levering",
-            "content": "<p>Jeg fandt nogle fine ski på hjemmesiden, som passede mit behov og indtastede mine oplysninger - 2 dage senere hentede jeg skiene v. lokal GLS. Skiene var som beskrevet og kom nyslebede + voks samt indstillet jf. mine oplysninger - nemmere kunne det ikke være - super service! VARMESTE anbefaling herfra!<\/p>"
-          }
-        },
-        "518f1995-c047-468d-bbc5-d1b6d468865e": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 4,
-            "author": "Andreas E.",
-            "title": "Skiene kom til tiden omend de var lidt...",
-            "content": "<p>Skiene kom til tiden omend de var lidt mere slidte på oversiden end jeg har troet, men kanterne var pivskarpe og bunden helt jævn, så all in all godt tilfreds.<\/p>"
-          }
-        },
-        "4ddb7c5a-2c33-4782-84c7-0367f4d9605b": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "Pia",
-            "title": "Super fine ski",
-            "content": "<p>Fin hjemmeside, hurtig ekspedition med fri levering. Bestilte ski i kategorien \"sølv\" og er imponeret over hvor fin standen på disse ski.<br\/>Så jeg kan klart anbefale at handle her. 👍🏼<\/p>"
-          }
-        },
-        "376b28ad-9d8e-4e08-b46c-8393af61ace9": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "Søren L.",
-            "title": "Super service",
-            "content": "<p>Super service...gode priser, kan klart anbefales<\/p>"
-          }
-        },
-        "1711ab02-94a5-4741-9479-028d9f0723ea": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "Lise H.",
-            "title": "Super god vejledning over telefon",
-            "content": "<p>Super god vejledning over telefon - sød og god service.<br\/>Hurtig og præcis levering.<br\/>Kan klart anbefales.<\/p>"
-          }
-        },
-        "9e2e1e7c-105d-4595-b715-38a8e34c9a89": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "Bjørg",
-            "title": "Kyndig hjælp og hurtig levering",
-            "content": "<p>Perfekt oplevelse og meget kyndig og imødekommende hjælp til valg af ski. Super hurtig levering.<\/p>"
-          }
-        },
-        "8f765af4-71cd-41cc-bc53-290c0083bccf": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "Pia L.",
-            "title": "Super vejledning ved telefonisk...",
-            "content": "<p>Super vejledning ved telefonisk henvendelse og lynhurtig levering.<\/p>"
-          }
-        },
-        "b5389015-05af-4a4e-94ac-30a5d3454bce": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "Mr. Poulsen",
-            "title": "Hurtig og super god service",
-            "content": "<p>Hurtig og super god service, fine ski til ok billig penge, blev positiv overrasket over standen, selvom jeg valgte en “billig” ski i kategorien bronze, med mange skrammer på overfladen, men det betyder i min verden ikke noget! Jeg er så glade for dem, de lever fuld op til mine forventninger, Kan anbefales.<\/p>"
-          }
-        },
-        "b45be9f2-15cc-4767-b28d-944896a8016c": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "Henrik F.",
-            "title": "Det jeg bestilte fik jeg 👍",
-            "content": "<p>Produktet var i fin stand og bytte garantien på et brugt produkt er jo fantastisk vi bruger gerne brugt ski igen så 👍 herfra<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--14429261332515__ccab4d19-b071-4fcd-bff1-88c63fbf47ec-1666198953ad30e829-0",
-        "template--14429261332515__ccab4d19-b071-4fcd-bff1-88c63fbf47ec-1666198953ad30e829-1",
-        "template--14429261332515__ccab4d19-b071-4fcd-bff1-88c63fbf47ec-1666198953ad30e829-2",
-        "518f1995-c047-468d-bbc5-d1b6d468865e",
-        "4ddb7c5a-2c33-4782-84c7-0367f4d9605b",
-        "376b28ad-9d8e-4e08-b46c-8393af61ace9",
-        "1711ab02-94a5-4741-9479-028d9f0723ea",
-        "9e2e1e7c-105d-4595-b715-38a8e34c9a89",
-        "8f765af4-71cd-41cc-bc53-290c0083bccf",
-        "b5389015-05af-4a4e-94ac-30a5d3454bce",
-        "b45be9f2-15cc-4767-b28d-944896a8016c"
-      ],
-      "disabled": true,
+    "fb969a0a-fc24-4610-814b-104c9172b8f5": {
+      "type": "related-products",
       "settings": {
+        "recommendations_count": 9,
+        "products": [
+
+        ],
         "full_width": true,
-        "stack_testimonials": false,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 5,
         "subheading": "",
-        "title": "Anmeldser af Brugteski.dk",
+        "title": "Relevante produkter",
         "content": "",
-        "link_url": "https:\/\/dk.trustpilot.com\/review\/brugteski.dk?sort=recency",
-        "link_text": "Se alle vores anmeldser",
         "background": "",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "testimonial_card_background": "",
-        "testimonial_card_text_color": ""
+        "product_card_background": "",
+        "product_card_text_color": ""
       }
     },
     "6fe9e5e3-41c0-4ad1-a62e-5e2b2ba02828": {
@@ -864,18 +581,16 @@
   "order": [
     "main",
     "fe071cc7-bbc8-4bb2-9731-6976ff8b16ae",
-    "7bd8baf1-9eb8-41b9-82b3-49a08ae4c5ad",
     "4b2f4dad-beb3-4647-84b2-79522c534386",
+    "7bd8baf1-9eb8-41b9-82b3-49a08ae4c5ad",
     "322fa8a3-0532-4ece-82b8-7999ffdd7f89",
     "bc007c98-134a-45e6-879f-a9610e0a56cd",
-    "1b924801-2f39-4b3d-97cf-6ac91e20f85c",
     "aa73c3dc-82ca-485c-a544-d5b8dd955818",
     "bf60e6c3-00b7-4616-9fd0-19986092c878",
     "05de6085-a3e7-458a-ad6e-f17eb2c7d525",
-    "a2d55917-d689-4d4a-a841-728c942d4a7a",
-    "5339552c-ca02-4356-bc93-49775b177927",
+    "1b924801-2f39-4b3d-97cf-6ac91e20f85c",
     "892c0d3c-c5de-4a4e-a62e-2f712b480fd4",
-    "ccab4d19-b071-4fcd-bff1-88c63fbf47ec",
+    "fb969a0a-fc24-4610-814b-104c9172b8f5",
     "6fe9e5e3-41c0-4ad1-a62e-5e2b2ba02828"
   ]
 }
