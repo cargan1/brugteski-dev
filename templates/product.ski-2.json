@@ -590,9 +590,9 @@
             "content": "<p>Vi har et skibuik i Fredericia, hvor du\/din familie vil kunne komme ned og prøve, samt se alt udstyret. Her vil vi også kunne guide dig\/jer, til at kunne finde det helt rigtigt, for lige netop DIG.<\/p>",
             "link_text": "Find Adressen Her!",
             "link_url": "shopify:\/\/pages\/showroom-og-vores-abningstider",
-            "background": "#010410",
+            "background": "#efefef",
             "background_gradient": "",
-            "text_color": "#ffffff",
+            "text_color": "#010410",
             "text_gradient": "",
             "button_background": "",
             "button_text_color": ""
