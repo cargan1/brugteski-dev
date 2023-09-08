@@ -64,11 +64,11 @@
             "content": "<p>Læs om guides til alt vores udstyr, så du ikke skal være i tvivl om noget som helst<\/p>",
             "link_text": "Se ski guides her",
             "link_url": "shopify:\/\/blogs\/ski-guides",
-            "background": "#0039ff",
+            "background": "#efefef",
             "background_gradient": "",
-            "text_color": "#ffffff",
+            "text_color": "#010410",
             "text_gradient": "",
-            "button_background": "#010410",
+            "button_background": "rgba(0,0,0,0)",
             "button_text_color": ""
           }
         },
@@ -86,11 +86,11 @@
             "content": "<p>Syntes også der er mange ting man skal have styr på, ved skiferien? Frygt ej, vi har samlet alt god viden i en masse ski blogs så du kan læse lige her<\/p>",
             "link_text": "Se skiblogs her",
             "link_url": "shopify:\/\/blogs\/alt-om-ski",
-            "background": "#0020a2",
+            "background": "#efefef",
             "background_gradient": "",
-            "text_color": "#ffffff",
+            "text_color": "#010410",
             "text_gradient": "",
-            "button_background": "#010410",
+            "button_background": "rgba(0,0,0,0)",
             "button_text_color": ""
           }
         }
