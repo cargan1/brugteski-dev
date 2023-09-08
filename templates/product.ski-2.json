@@ -392,7 +392,7 @@
           "type": "heading",
           "settings": {
             "text": "Fragt og returnering",
-            "heading_tag": "h1",
+            "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -443,7 +443,7 @@
           "type": "heading",
           "settings": {
             "text": "Størrelsesguide",
-            "heading_tag": "h1",
+            "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
