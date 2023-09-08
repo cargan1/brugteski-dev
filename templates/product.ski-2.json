@@ -264,7 +264,7 @@
             "product": "",
             "value_1": "<p>{{ product.metafields.custom.niveau.value }}<\/p>",
             "value_2": "<p>{{ product.metafields.custom.type.value }}<\/p>",
-            "value_3": "<p>{{ product.metafields.custom.radius.value }} meter<\/p>",
+            "value_3": "<p>{{ product.metafields.custom.radius.value }}<\/p>",
             "value_4": "<p>{{ product.metafields.custom.bindinger.value }}<\/p>",
             "value_5": "<p>{{ product.metafields.custom.gripwalk.value }}<\/p>",
             "value_6": "<p>{{ product.metafields.custom.flex.value }}<\/p>",
