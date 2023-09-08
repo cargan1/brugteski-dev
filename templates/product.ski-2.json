@@ -326,7 +326,7 @@
             "column_size": "3",
             "title": "Fordele hos os",
             "heading_tag": "h4",
-            "content": "<p>Hos os er det vigtige alle vores kunder får en god oplevelse, derfor har vi:<\/p><p>✔️ Én sæsons pasningsgaranti<br\/>✔️ 24 måneders fuld reklamationsret<br\/>✔️ Gratis fragt og returnering<br\/>✔️ E-mærket sikret webshop<br\/>✔️ 4,5 sterner på Trustpilot<br\/>✔️ Ski-granti for alle børn og juniorer<br\/>✔️ Vi køber dit udstyr tilbage igen<\/p><p><a href=\"https:\/\/brugteski.dk\/pages\/dig-som-kunde\" title=\"Dig som kunde hos Brugteski.dk\">Se alle dine fordele her<\/a><\/p>",
+            "content": "<p>✔️ Danmarks største udvalg af brugte ski<br\/>✔️ Én sæsons pasningsgaranti<br\/>✔️ 24 måneders fuld reklamationsret<br\/>✔️ Gratis fragt og returnering<br\/>✔️ E-mærket sikret webshop<br\/>✔️ 4,5 sterner på Trustpilot<br\/>✔️ Ski-granti for alle børn og juniorer<br\/>✔️ Vi køber dit udstyr tilbage igen<\/p><p><a href=\"https:\/\/brugteski.dk\/pages\/dig-som-kunde\" title=\"Dig som kunde hos Brugteski.dk\">Se alle dine fordele her<\/a><\/p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -336,7 +336,7 @@
           "type": "item",
           "settings": {
             "column_size": "3",
-            "title": "Fragt",
+            "title": "Pasningsgaranti",
             "heading_tag": "h4",
             "content": "<p>Vi tilbyder <strong>gratis<\/strong> fragt på alle ordrer, til valgfri GLS pakkeshop.<br\/>Leveringstid:<strong> <\/strong>2-5 hverdage<\/p>",
             "link_url": "",
@@ -348,7 +348,7 @@
           "type": "item",
           "settings": {
             "column_size": "3",
-            "title": "Returnering",
+            "title": "Vi køber udstyret tilbage igen",
             "heading_tag": "h4",
             "content": "<p>Vi tilbyder <strong>gratis<\/strong> 14 dages returret, på alle ordrer. Der medfølger returneringslabe i din pakke, som er lige til at klistre på æsken! <\/p><p><a href=\"https:\/\/brugteski-dk.myshopify.com\/pages\/returnering\" title=\"Returnering af varer\">Du kan læse mere om bytte og returnering her.<\/a><\/p>",
             "link_url": "",
@@ -364,12 +364,12 @@
       ],
       "settings": {
         "full_width": false,
-        "stack_on_mobile": false,
+        "stack_on_mobile": true,
         "gap": "medium",
         "text_alignment": "start",
         "subheading": "",
-        "title": "Fragt og fordele",
-        "content": "<p>Vi gør en dyd ud af at hjælpe dig hele vejen igennem processen. <br\/>Så du kun skal nyde at du har fået noget lækkert udstyr til en fantastisk pris.<\/p>",
+        "title": "Få ro i maven ved at købe fra os",
+        "content": "<p>Hos Brugteski.dk er det vigtige at alle vores kunder får en god oplevelse uanset hvad. <br\/>Derfor tilbyder vi:<\/p>",
         "background": "",
         "background_gradient": "",
         "text_color": "",
@@ -477,8 +477,8 @@
         "template--14429261332515__aa73c3dc-82ca-485c-a544-d5b8dd955818-16661914181c00956f-2"
       ],
       "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
+        "full_width": false,
+        "stack_on_mobile": true,
         "gap": "medium",
         "text_alignment": "start",
         "subheading": "",
