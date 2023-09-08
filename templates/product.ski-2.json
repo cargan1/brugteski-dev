@@ -294,8 +294,8 @@
       "settings": {
         "full_width": true,
         "subheading": "",
-        "title": "Detaljer",
-        "content": "",
+        "title": "Produktspecifikationer",
+        "content": "<p>Denne varer er følgende:<br\/>✅ Nyvokset og slebet<br\/>✅ Medfølger bindinger<br\/>✅ Været igennem kvalitetskontrol<\/p>",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
