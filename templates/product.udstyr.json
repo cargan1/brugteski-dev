@@ -80,12 +80,14 @@
         },
         "b7116d37-820d-4320-ba8a-a4a7ce116385": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p><em><strong>Udfyld feltet, så indstiller vi dine bindinger<\/strong><\/em><\/p>"
           }
         },
         "6e6c8a01-4673-4115-bdee-5ea4ca9d3497": {
           "type": "line_item_property",
+          "disabled": true,
           "settings": {
             "label": "Vægt (kg), Højde (cm) & Støvlelængde (mm)",
             "type": "text",
@@ -139,6 +141,7 @@
         },
         "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-0": {
           "type": "tab",
+          "disabled": true,
           "settings": {
             "title": "Detaljer"
           }
