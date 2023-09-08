@@ -542,7 +542,7 @@
         "text_alignment": "start",
         "subheading": "",
         "title": "Stand-beskrivelse",
-        "content": "<p>Læs kort om forskellen på, de forskellige stande.<br\/><a href=\"\/pages\/standbeskrivelse\" title=\"Standbeskrivelse\">Se vidoen, og læs hele standbeskrivelse her!<\/a><\/p>",
+        "content": "<p>Stand beskriver kun hvor nyt\/slidt udstyr er, og ikke hvilken kvalitet udstyret er i.<br\/><a href=\"\/pages\/standbeskrivelse\" title=\"Standbeskrivelse\">Se vidoen, og læs hele standbeskrivelse her!<\/a><\/p>",
         "background": "#fafafa",
         "background_gradient": "",
         "text_color": "",
