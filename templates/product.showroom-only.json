@@ -139,6 +139,7 @@
         },
         "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-0": {
           "type": "tab",
+          "disabled": true,
           "settings": {
             "title": "Detaljer"
           }
