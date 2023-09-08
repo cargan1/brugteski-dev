@@ -180,6 +180,12 @@
           "settings": {
             "title": "Stand-beskrivelse"
           }
+        },
+        "890659ae-884a-4eae-b699-3c2e89232488": {
+          "type": "tab",
+          "settings": {
+            "title": "Udsolgt?"
+          }
         }
       },
       "block_order": [
@@ -189,7 +195,8 @@
         "bf4b7f25-2f3d-42b0-98ba-8c6c97c93601",
         "c095e786-f832-4540-a7b9-8e887d0b0cde",
         "ab3020de-324b-4afe-b163-9afbc91c441a",
-        "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-3"
+        "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-3",
+        "890659ae-884a-4eae-b699-3c2e89232488"
       ],
       "settings": {
         "enable_tabs": true,
