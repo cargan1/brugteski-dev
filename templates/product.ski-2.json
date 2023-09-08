@@ -476,11 +476,23 @@
     "aa73c3dc-82ca-485c-a544-d5b8dd955818": {
       "type": "multi-column",
       "blocks": {
+        "ecedf631-ba7d-4582-9d97-e301c760bad1": {
+          "type": "item",
+          "settings": {
+            "column_size": "4",
+            "title": "Helt nyt",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
         "template--14429261332515__aa73c3dc-82ca-485c-a544-d5b8dd955818-16661914181c00956f-0": {
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/guld.jpg",
-            "column_size": "3",
+            "column_size": "4",
             "title": "Lidt til ingen spor af slid",
             "heading_tag": "h4",
             "content": "<p>Guld udstyr er klart vores pæneste udstyr, og står rigtigt pænt. Her er der næsten ingen spor af brug, og det kan være svært at se skrammer.<\/p>",
@@ -493,7 +505,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/solv.jpg",
-            "column_size": "3",
+            "column_size": "4",
             "title": "Spor af slid",
             "heading_tag": "h4",
             "content": "<p>Sølv udstyr er vores mest almindelige stand. Her får man udstyr som godt kan se har været brugt, men ingen store ridser eller hakker har.<\/p>",
@@ -506,7 +518,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/bronze.jpg",
-            "column_size": "3",
+            "column_size": "4",
             "title": "Større ridser og hakker",
             "heading_tag": "h4",
             "content": "<p>Bronze udstyr er det mest slidte udstyr, hvor man kan finde store ridser og hakker. Alle skrammer er kosmetiske, og har kun betydning for udsende.<\/p>",
@@ -517,6 +529,7 @@
         }
       },
       "block_order": [
+        "ecedf631-ba7d-4582-9d97-e301c760bad1",
         "template--14429261332515__aa73c3dc-82ca-485c-a544-d5b8dd955818-16661914181c00956f-0",
         "template--14429261332515__aa73c3dc-82ca-485c-a544-d5b8dd955818-16661914181c00956f-1",
         "template--14429261332515__aa73c3dc-82ca-485c-a544-d5b8dd955818-16661914181c00956f-2"
