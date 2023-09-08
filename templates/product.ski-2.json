@@ -479,6 +479,7 @@
         "ecedf631-ba7d-4582-9d97-e301c760bad1": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Fabriksnye.jpg",
             "column_size": "4",
             "title": "Helt nyt udstyr",
             "heading_tag": "h4",
@@ -491,7 +492,7 @@
         "template--14429261332515__aa73c3dc-82ca-485c-a544-d5b8dd955818-16661914181c00956f-0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/guld.jpg",
+            "image": "shopify:\/\/shop_images\/Guld.stand.jpg",
             "column_size": "4",
             "title": "Lidt til ingen spor af slid",
             "heading_tag": "h4",
@@ -504,7 +505,7 @@
         "template--14429261332515__aa73c3dc-82ca-485c-a544-d5b8dd955818-16661914181c00956f-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/solv.jpg",
+            "image": "shopify:\/\/shop_images\/Solv.stand.jpg",
             "column_size": "4",
             "title": "Spor af slid",
             "heading_tag": "h4",
@@ -517,7 +518,7 @@
         "template--14429261332515__aa73c3dc-82ca-485c-a544-d5b8dd955818-16661914181c00956f-2": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bronze.jpg",
+            "image": "shopify:\/\/shop_images\/Bronze.stand.jpg",
             "column_size": "4",
             "title": "Større ridser og hakker",
             "heading_tag": "h4",
