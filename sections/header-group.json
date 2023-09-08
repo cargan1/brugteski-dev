@@ -8,7 +8,7 @@
         "message": {
           "type": "message",
           "settings": {
-            "text": "2 til 5 hverdages Levering | Gratis Fragt & Returnering | Tlf.: 3020 9975",
+            "text": "2 til 5 hverdages Levering \/ Gratis Fragt & Returnering",
             "url": "shopify:\/\/pages\/dig-som-kunde"
           }
         }
@@ -111,7 +111,7 @@
             "image_1": "shopify:\/\/shop_images\/skiguides.mork.jpg",
             "image_heading_1": "Ski guides",
             "image_link_1": "shopify:\/\/blogs\/ski-guides",
-            "image_text_color_1": "#fff",
+            "image_text_color_1": "#ffffff",
             "image_2": "shopify:\/\/shop_images\/skiblogs.jpg",
             "image_heading_2": "Skiblogs",
             "image_link_2": "shopify:\/\/blogs\/alt-om-ski",
