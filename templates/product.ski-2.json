@@ -443,7 +443,7 @@
         "template--18752117866841__82a4bfbb-5629-4257-a61a-8f3f9f259c01-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Er du i tvivl om længden på dit udstyr? Så har vi lavet en størrelsesguide, som kan hjælpe dig med af finde det helt rigtigt størrelse på udstyr!<\/p>"
+            "content": "<p>Er du i tvivl om længden på dit udstyr? Så har vi lavet en størrelsesguide, som kan hjælpe dig med at finde den helt rigtige størrelse på udstyr!<\/p>"
           }
         },
         "b48753b6-b85b-4cad-a1a1-bdc199759c28": {
@@ -523,7 +523,7 @@
             "column_size": "4",
             "title": "Større ridser og hakker",
             "heading_tag": "h4",
-            "content": "<p>Bronze udstyr er det mest slidte udstyr, hvor man kan finde store ridser og hakker. Alle skrammer er kosmetiske, og har kun betydning for udsende.<\/p>",
+            "content": "<p>Bronze udstyr er det mest slidte udstyr, hvor man kan finde store ridser og hakker. Alle skrammer er kosmetiske, og har kun betydning for udseende.<\/p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -543,7 +543,7 @@
         "text_alignment": "start",
         "subheading": "",
         "title": "Stand-beskrivelse",
-        "content": "<p>Stand beskriver hvor nyt\/brugt udstyr er, og har ingen betydning for kvalitet af udstyret.<br\/><a href=\"\/pages\/standbeskrivelse\" title=\"Standbeskrivelse\">Se vidoen, og læs hele standbeskrivelse her!<\/a><\/p>",
+        "content": "<p>Stand beskriver hvor nyt\/brugt udstyr er, og har ingen betydning for kvaliteten af udstyret.<br\/><a href=\"\/pages\/standbeskrivelse\" target=\"_blank\" title=\"Standbeskrivelse\">Se videoen, og læs hele stand-beskrivelsen her!<\/a><\/p>",
         "background": "#fafafa",
         "background_gradient": "",
         "text_color": "",
@@ -578,8 +578,8 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "Svært at finde de rigtigt ski?",
-            "content": "<p>Vi har et skibuik i Fredericia, hvor du\/din familie vil kunne komme ned og prøve, samt se alt udstyret. Her vil vi også kunne guide dig\/jer, til at kunne finde det helt rigtigt, for lige netop DIG.<\/p>",
+            "title": "Svært at finde de rigtige ski?",
+            "content": "<p>Vi har en skibutik i Fredericia, hvor du\/din familie vil kunne komme ned og prøve, samt se alt udstyret. Her vil vi også kunne guide dig\/jer, til at kunne finde det helt rigtigt, for lige netop DIG.<\/p>",
             "link_text": "Se adressen her",
             "link_url": "shopify:\/\/pages\/showroom-og-vores-abningstider",
             "background": "#efefef",
