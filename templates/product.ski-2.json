@@ -338,7 +338,7 @@
             "column_size": "3",
             "title": "Pasningsgaranti",
             "heading_tag": "h4",
-            "content": "<p>Vi tilbyder <strong>gratis<\/strong> fragt på alle ordrer, til valgfri GLS pakkeshop.<br\/>Leveringstid:<strong> <\/strong>2-5 hverdage<\/p>",
+            "content": "<p>Det er svært at købe udstyr, uden at prøve det inden. Det er desværre ikke en mulighed, så derfor tilbyder vi én sæson pasningsgaranti på alle vores produkter. <\/p><p>Du har derfor mulighed for at få bytte alt brugt udstyr til noget andet, straks efter du er kommet hjem fra skiferie. <\/p><p><strong>Byttepris KUN: 199kr. pr. produkt<\/strong><br\/><\/p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -350,10 +350,10 @@
             "column_size": "3",
             "title": "Vi køber udstyret tilbage igen",
             "heading_tag": "h4",
-            "content": "<p>Vi tilbyder <strong>gratis<\/strong> 14 dages returret, på alle ordrer. Der medfølger returneringslabe i din pakke, som er lige til at klistre på æsken! <\/p><p><a href=\"https:\/\/brugteski-dk.myshopify.com\/pages\/returnering\" title=\"Returnering af varer\">Du kan læse mere om bytte og returnering her.<\/a><\/p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
+            "content": "<p>Hvis du enten har nogle gamle ski på loftet, eller gerne vil have opgraderet dem du har købt fra os, så giver vi en byttepris på det!<\/p><p>Vi kan både betale dig kontant, eller gennem gavekort til Brugteski.dk.<br\/>(Du får et større beløb via gavkort)<\/p>",
+            "link_url": "shopify:\/\/pages\/byt-til-nyt",
+            "link_text": "Se hvordan du gør her",
+            "link_style": "button"
           }
         }
       },
