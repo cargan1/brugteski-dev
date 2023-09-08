@@ -25,13 +25,6 @@
           "settings": {
           }
         },
-        "description": {
-          "type": "description",
-          "disabled": true,
-          "settings": {
-            "collapse_content": true
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -106,7 +99,6 @@
         "badges",
         "price",
         "separator",
-        "description",
         "variant_picker",
         "quantity_selector",
         "6d1e7437-32cc-4b14-9f60-3b818cbed684",
@@ -244,17 +236,17 @@
         "template--14429261332515__7bd8baf1-9eb8-41b9-82b3-49a08ae4c5ad-166628750253df3689-0": {
           "type": "headings",
           "settings": {
-            "heading_1": "Radius",
-            "heading_2": "Niveau",
-            "heading_3": "Type",
-            "heading_4": "Bredde",
-            "heading_5": "Skiprofil",
-            "heading_6": "Kerne",
-            "heading_7": "Bidndinger",
-            "heading_8": "Kollektion",
-            "heading_9": "",
-            "heading_10": "",
-            "heading_11": "",
+            "heading_1": "Niveau",
+            "heading_2": "Type",
+            "heading_3": "Radius",
+            "heading_4": "Bindinger",
+            "heading_5": "GripWalk",
+            "heading_6": "Flex",
+            "heading_7": "Bredde",
+            "heading_8": "Skiprofil",
+            "heading_9": "Kerne",
+            "heading_10": "Kollektion",
+            "heading_11": "Mærke",
             "heading_12": "",
             "heading_13": "",
             "heading_14": "",
