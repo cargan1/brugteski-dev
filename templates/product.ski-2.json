@@ -178,7 +178,7 @@
           "type": "tab",
           "disabled": true,
           "settings": {
-            "title": "Udsolgt?"
+            "title": "Udsolgt"
           }
         }
       },
@@ -680,7 +680,8 @@
         "button_background": "",
         "button_text_color": "",
         "accordion_background": "",
-        "accordion_text_color": ""
+        "accordion_text_color": "",
+        "tab_label": ""
       }
     },
     "d2b619b5-d27a-4d56-bdbc-01f473ffb4a7": {
@@ -697,7 +698,8 @@
         "background_gradient": "",
         "text_color": "",
         "button_background": "",
-        "button_text_color": ""
+        "button_text_color": "",
+        "tab_label": ""
       }
     }
   },
