@@ -37,6 +37,7 @@
         "template--19597036781913__51ff0030-b448-4c7e-8826-72ced91e2e21-heading-1",
         "template--19597036781913__51ff0030-b448-4c7e-8826-72ced91e2e21-richtext-1"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "content_width": "small",
@@ -53,7 +54,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "html": "<div data-tf-widget=\"l9UpKlEb\" data-tf-opacity=\"100\" data-tf-iframe-props=\"title=Ski-finder\" data-tf-transitive-search-params data-tf-medium=\"snippet\" data-tf-hidden=\"utm_source=,utm_medium=\" style=\"width:100%;height:500px;\"><\/div><script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script>",
+        "html": "<meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n        <title>Ski-finder<\/title>\n        <style>*{margin:0;padding:0;} html,body,iframe{border-radius:0 !important;}<\/style>\n      \n      \n        <div data-tf-widget=\"l9UpKlEb\" data-tf-opacity=\"100\" data-tf-inline-on-mobile=\"\" data-tf-iframe-props=\"title=Ski-finder\" data-tf-transitive-search-params=\"\" data-tf-auto-focus=\"\" data-tf-medium=\"snippet\" data-tf-full-screen=\"\" data-tf-hidden=\"utm_source=,utm_medium=\"><\/div><script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
