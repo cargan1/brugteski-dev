@@ -79,70 +79,6 @@
         "text_gradient": ""
       }
     },
-    "1b8ce53f-6ead-4a13-8561-9903c7284e65": {
-      "type": "text-with-icons",
-      "blocks": {
-        "template--18752118292825__1b8ce53f-6ead-4a13-8561-9903c7284e65-item-1": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-truck",
-            "mobile_icon_width": 32,
-            "icon_width": 32,
-            "icon_background_type": "circle",
-            "icon_background": "",
-            "icon_color": "#003eff",
-            "title": "Hurtig levering",
-            "content": "<p>Vi tilbyder 2-5 hverdages levering i hele Danmark.<\/p>"
-          }
-        },
-        "template--18752118292825__1b8ce53f-6ead-4a13-8561-9903c7284e65-item-3": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-shield",
-            "mobile_icon_width": 32,
-            "icon_width": 32,
-            "icon_background_type": "circle",
-            "icon_background": "",
-            "icon_color": "#003eff",
-            "title": "Gratis fragt & returnering",
-            "content": "<p>Du kan trygt og sikkert handle udstyr hos os, for skulle det ikke være som forventet, sendes det bare retur kvit og frit.<\/p>"
-          }
-        },
-        "template--18752118292825__1b8ce53f-6ead-4a13-8561-9903c7284e65-item-2": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-validation",
-            "mobile_icon_width": 32,
-            "icon_width": 32,
-            "icon_background_type": "circle",
-            "icon_background": "",
-            "icon_color": "#003eff",
-            "title": "24 måneders reklamationsret",
-            "content": "<p>Ved køb af brugt udstyr får du også fuld reklamationsret!<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--18752118292825__1b8ce53f-6ead-4a13-8561-9903c7284e65-item-1",
-        "template--18752118292825__1b8ce53f-6ead-4a13-8561-9903c7284e65-item-3",
-        "template--18752118292825__1b8ce53f-6ead-4a13-8561-9903c7284e65-item-2"
-      ],
-      "settings": {
-        "full_width": true,
-        "title": "",
-        "heading_tag": "h5",
-        "text_alignment": "center",
-        "icon_spacing": "small",
-        "background": "#fafafa",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "bc8d07a6-9b0d-4bfb-8e41-07321f922d9e": {
-      "type": "trustpilot-stjerner",
-      "settings": {
-      }
-    },
     "collection-list": {
       "type": "collection-list",
       "blocks": {
@@ -212,6 +148,70 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": ""
+      }
+    },
+    "1b8ce53f-6ead-4a13-8561-9903c7284e65": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--18752118292825__1b8ce53f-6ead-4a13-8561-9903c7284e65-item-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-truck",
+            "mobile_icon_width": 32,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "#003eff",
+            "title": "Hurtig levering",
+            "content": "<p>Vi tilbyder 2-5 hverdages levering i hele Danmark.<\/p>"
+          }
+        },
+        "template--18752118292825__1b8ce53f-6ead-4a13-8561-9903c7284e65-item-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-shield",
+            "mobile_icon_width": 32,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "#003eff",
+            "title": "Gratis fragt & returnering",
+            "content": "<p>Du kan trygt og sikkert handle udstyr hos os, for skulle det ikke være som forventet, sendes det bare retur kvit og frit.<\/p>"
+          }
+        },
+        "template--18752118292825__1b8ce53f-6ead-4a13-8561-9903c7284e65-item-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-validation",
+            "mobile_icon_width": 32,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "#003eff",
+            "title": "24 måneders reklamationsret",
+            "content": "<p>Ved køb af brugt udstyr får du også fuld reklamationsret!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18752118292825__1b8ce53f-6ead-4a13-8561-9903c7284e65-item-1",
+        "template--18752118292825__1b8ce53f-6ead-4a13-8561-9903c7284e65-item-3",
+        "template--18752118292825__1b8ce53f-6ead-4a13-8561-9903c7284e65-item-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "small",
+        "background": "#fafafa",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "bc8d07a6-9b0d-4bfb-8e41-07321f922d9e": {
+      "type": "trustpilot-stjerner",
+      "settings": {
       }
     },
     "featured-collection": {
@@ -499,9 +499,9 @@
   "order": [
     "slideshow",
     "c37c5392-4d29-43da-aaab-728d304775c6",
+    "collection-list",
     "1b8ce53f-6ead-4a13-8561-9903c7284e65",
     "bc8d07a6-9b0d-4bfb-8e41-07321f922d9e",
-    "collection-list",
     "featured-collection",
     "bc481064-5c59-4fc2-8e0f-0def25e17a64",
     "d066db11-1234-4544-9320-5a28927212cd",

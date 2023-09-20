@@ -2,11 +2,6 @@
   "type": "footer",
   "name": "Footer group",
   "sections": {
-    "4477a0af-0919-4c49-a0f7-3353889b1b94": {
-      "type": "trustpilot-stjerner",
-      "settings": {
-      }
-    },
     "text-with-icons": {
       "type": "text-with-icons",
       "blocks": {
@@ -66,6 +61,12 @@
         "text_color": ""
       }
     },
+    "4477a0af-0919-4c49-a0f7-3353889b1b94": {
+      "type": "trustpilot-stjerner",
+      "disabled": true,
+      "settings": {
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -115,8 +116,8 @@
     }
   },
   "order": [
-    "4477a0af-0919-4c49-a0f7-3353889b1b94",
     "text-with-icons",
+    "4477a0af-0919-4c49-a0f7-3353889b1b94",
     "footer"
   ]
 }
