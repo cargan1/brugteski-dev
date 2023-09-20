@@ -388,6 +388,18 @@
             "color_mode": "color",
             "size_chart_page": ""
           }
+        },
+        "0dbc5583-b8ce-45f8-abea-bac8ad62e6c4": {
+          "type": "button",
+          "settings": {
+            "link": "",
+            "text": "Se åbningstider",
+            "size": "lg",
+            "style": "fill",
+            "stretch": true,
+            "background": "",
+            "text_color": ""
+          }
         }
       },
       "block_order": [
@@ -395,11 +407,12 @@
         "template--14429261365283__04bc0508-1798-4c95-ba1d-87cc94b67e63-166774616614fe1cb4-3",
         "template--14429261365283__04bc0508-1798-4c95-ba1d-87cc94b67e63-166774616614fe1cb4-5",
         "template--14429261365283__04bc0508-1798-4c95-ba1d-87cc94b67e63-166774616614fe1cb4-6",
-        "template--14429261365283__04bc0508-1798-4c95-ba1d-87cc94b67e63-166774616614fe1cb4-7"
+        "template--14429261365283__04bc0508-1798-4c95-ba1d-87cc94b67e63-166774616614fe1cb4-7",
+        "0dbc5583-b8ce-45f8-abea-bac8ad62e6c4"
       ],
       "settings": {
         "full_width": true,
-        "product": "ski-service-pro",
+        "product": "ski-service-gradet",
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "expanded",
