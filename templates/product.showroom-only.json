@@ -25,6 +25,12 @@
           "settings": {
           }
         },
+        "cb7e5a1e-b7b9-4902-9356-5d6c02a2e536": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -45,16 +51,6 @@
           "type": "text",
           "settings": {
             "text": "<p><em><strong>Leveringstid: <\/strong><\/em><em>2-5 hverdage<\/em><\/p>"
-          }
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": true,
-            "atc_button_background": "#000000",
-            "atc_button_text_color": "",
-            "payment_button_background": "#003eff",
-            "payment_button_text_color": ""
           }
         },
         "19937545-298a-4651-9687-4525f0a97a0a": {
@@ -101,10 +97,10 @@
         "badges",
         "price",
         "separator",
+        "cb7e5a1e-b7b9-4902-9356-5d6c02a2e536",
         "variant_picker",
         "quantity_selector",
         "6d1e7437-32cc-4b14-9f60-3b818cbed684",
-        "buy_buttons",
         "19937545-298a-4651-9687-4525f0a97a0a",
         "d3e695ec-c2c1-416b-9482-cc06f0166cf0",
         "ba3b5461-8a7f-4d6a-bdc0-bfcaad62fae4",
@@ -135,6 +131,7 @@
       "blocks": {
         "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-1": {
           "type": "tab",
+          "disabled": true,
           "settings": {
             "title": "Beskrivelse"
           }
@@ -683,7 +680,8 @@
         "button_background": "",
         "button_text_color": "",
         "accordion_background": "",
-        "accordion_text_color": ""
+        "accordion_text_color": "",
+        "tab_label": ""
       }
     },
     "d2b619b5-d27a-4d56-bdbc-01f473ffb4a7": {
@@ -700,7 +698,8 @@
         "background_gradient": "",
         "text_color": "",
         "button_background": "",
-        "button_text_color": ""
+        "button_text_color": "",
+        "tab_label": ""
       }
     }
   },
