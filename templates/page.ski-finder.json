@@ -13,15 +13,22 @@
         "template--19597036781913__51ff0030-b448-4c7e-8826-72ced91e2e21-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "Ski-finder",
+            "text": "Ski-finder quizzen",
             "heading_tag": "h1",
             "text_color": "",
             "gradient": ""
           }
+        },
+        "e89a01dd-3c89-4b97-b111-70f614d856e2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Find dine ski, og hvor lang de skal være, ved bare at besvare denne simple quizz!<\/p>"
+          }
         }
       },
       "block_order": [
-        "template--19597036781913__51ff0030-b448-4c7e-8826-72ced91e2e21-heading-1"
+        "template--19597036781913__51ff0030-b448-4c7e-8826-72ced91e2e21-heading-1",
+        "e89a01dd-3c89-4b97-b111-70f614d856e2"
       ],
       "settings": {
         "full_width": true,
@@ -44,11 +51,48 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "38015229-a408-4356-8b6f-1b1ecb3b97d4": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--19597036781913__38015229-a408-4356-8b6f-1b1ecb3b97d4-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ski.finder.papir.flyver-kopi.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Modtag din ski beskrivelse nu!",
+            "content": "<p>Det har aldrig været letter at finde ud af hvilke ski du skal vælge, end det er lige nu! Vi har lavet en simpel quizz, hvor du svarer på en række spørgsmål, og ud fra det har vi en ski-analyse klar til dig!<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#fafafa",
+            "background_gradient": "",
+            "text_color": "#010410",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19597036781913__38015229-a408-4356-8b6f-1b1ecb3b97d4-image-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "none",
+        "tab_label": ""
+      }
     }
   },
   "order": [
     "main",
     "51ff0030-b448-4c7e-8826-72ced91e2e21",
-    "064ff18a-f4c7-4115-a0c7-acbe7caf522f"
+    "064ff18a-f4c7-4115-a0c7-acbe7caf522f",
+    "38015229-a408-4356-8b6f-1b1ecb3b97d4"
   ]
 }
