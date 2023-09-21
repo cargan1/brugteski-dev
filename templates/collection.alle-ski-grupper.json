@@ -65,7 +65,7 @@
           "type": "button",
           "settings": {
             "style": "fill",
-            "size": "base",
+            "size": "lg",
             "text": "Ski-finder quizzen",
             "url": "shopify:\/\/pages\/ski-finder",
             "background": "",
