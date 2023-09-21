@@ -42,6 +42,7 @@
       "blocks": {
         "template--19570050761049__a1d60877-d7ec-436a-ad43-a06919cf98d4-subheading-1": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
             "text": "Svært ved at finde de rigtigt ski?"
           }
@@ -57,16 +58,16 @@
         "template--19570050761049__a1d60877-d7ec-436a-ad43-a06919cf98d4-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Tag ski-quizzen og få tilsendt din<br\/>ski analyse, på under 3 minutter!<\/p>"
+            "content": "<p><strong>Svært ved at finde de rigtigt ski?<br\/><\/strong>Tag quizzen, og få lavet din <br\/>ski-analyse i dag!<\/p>"
           }
         },
         "5304bd19-a6e8-4b5d-97ab-115a61250354": {
           "type": "button",
           "settings": {
             "style": "fill",
-            "size": "lg",
-            "text": "Tag Quizzen",
-            "url": "",
+            "size": "base",
+            "text": "Ski-finder quizzen",
+            "url": "shopify:\/\/pages\/ski-finder",
             "background": "",
             "text_color": ""
           }
@@ -78,14 +79,13 @@
         "template--19570050761049__a1d60877-d7ec-436a-ad43-a06919cf98d4-richtext-1",
         "5304bd19-a6e8-4b5d-97ab-115a61250354"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/skifinder.pc1.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/skifinder.mobil1.jpg",
+        "image": "shopify:\/\/shop_images\/skifinder.pc.3.png",
+        "mobile_image": "shopify:\/\/shop_images\/skifinder.mobil.3.png",
         "mobile_text_position": "place-self-end-start text-start",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#000000",
