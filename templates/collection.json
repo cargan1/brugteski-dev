@@ -111,6 +111,7 @@
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-3",
         "7cf735e1-01b5-49c8-8ca7-1383bc658648"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "block_size": "small",
@@ -189,6 +190,7 @@
     },
     "38bc7e44-b411-4e95-8b29-e8b99cb24551": {
       "type": "scrolling-text",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "text": "Spar op til 60% ved køb af brugt!",
@@ -233,6 +235,7 @@
       "block_order": [
         "template--14429261299747__9c97e046-53a7-428d-965b-e74aa263b5ca-16661253977a2bf0d6-0"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "show_excerpt": true,
