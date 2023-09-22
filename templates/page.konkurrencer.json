@@ -58,11 +58,48 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "42cf933c-532a-44a1-b4e3-fe58e14ee8f8": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--19735705551193__42cf933c-532a-44a1-b4e3-fe58e14ee8f8-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/copen.g.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "1.100kr's konkurrence",
+            "content": "<p>Denne månedes konkurrence indebøre et gavekort på 1.100kr til copenhill. De 1.100kr svarer til en to timers tur på bakken med skiudstyr inkluderet. Det er en fed præmie, som du ikke vil gå glip af!<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#efefef",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19735705551193__42cf933c-532a-44a1-b4e3-fe58e14ee8f8-image-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "none",
+        "tab_label": ""
+      }
     }
   },
   "order": [
     "main",
     "1da314f9-39f8-49d6-affa-045db82cc051",
-    "343d4d15-1025-4a7f-ba55-a89871b47142"
+    "343d4d15-1025-4a7f-ba55-a89871b47142",
+    "42cf933c-532a-44a1-b4e3-fe58e14ee8f8"
   ]
 }
