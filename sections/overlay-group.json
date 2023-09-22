@@ -30,10 +30,9 @@
         "show_shipping_text": true,
         "show_view_cart_button": true,
         "show_checkout_button": true,
-        "recommendations_title": "Husk at tilkøbe...",
+        "recommendations_title": "Har du husket?",
         "products": [
           "tecnica-storm",
-          "aplina-stovletaske",
           "skitaske-sort"
         ],
         "product_card_background": "#ffffff",
