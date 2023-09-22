@@ -2,11 +2,72 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "1da314f9-39f8-49d6-affa-045db82cc051": {
+      "type": "rich-text",
+      "blocks": {
+        "cfe54487-6410-4e6a-8502-f8b7f395c56c": {
+          "type": "subheading",
+          "settings": {
+            "text": "August & September konkurrence"
+          }
+        },
+        "template--19735705551193__1da314f9-39f8-49d6-affa-045db82cc051-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Vind 2 billeter til Copenhill",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--19735705551193__1da314f9-39f8-49d6-affa-045db82cc051-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Vi kan ikke vente til skisæsonen starter, og derfor udlodder vi 2 billetter til Copenhill med 2 timer udstyr til for 1.100kr! Så du og en ven kan få varmet benen op, så i er klar til den nye skisæson starter.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "cfe54487-6410-4e6a-8502-f8b7f395c56c",
+        "template--19735705551193__1da314f9-39f8-49d6-affa-045db82cc051-heading-1",
+        "template--19735705551193__1da314f9-39f8-49d6-affa-045db82cc051-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "tab_label": ""
+      }
+    },
+    "77d543bb-bb4e-426d-89f0-5db08b536218": {
+      "type": "newsletter",
+      "settings": {
+        "full_width": true,
+        "show_icon": false,
+        "title": "",
+        "content": "",
+        "button_text": "Tilmeld dig nu",
+        "subtext": "Du vil samtidig tilmelde dig Brugteski.dk's nyhedsbrev, hvor du vil høre om tilbud og guides indenfor ski verdenen. Du kan til enhver tid afmelde dig nyhedsbrevet igen.",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": "",
+        "tab_label": ""
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1da314f9-39f8-49d6-affa-045db82cc051",
+    "77d543bb-bb4e-426d-89f0-5db08b536218"
   ]
 }
