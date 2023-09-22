@@ -49,6 +49,7 @@
     },
     "77d543bb-bb4e-426d-89f0-5db08b536218": {
       "type": "newsletter",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "show_icon": false,
@@ -63,11 +64,24 @@
         "button_text_color": "",
         "tab_label": ""
       }
+    },
+    "343d4d15-1025-4a7f-ba55-a89871b47142": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<div class=\"klaviyo-form-Xjfd4n\"><\/div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
     "main",
     "1da314f9-39f8-49d6-affa-045db82cc051",
-    "77d543bb-bb4e-426d-89f0-5db08b536218"
+    "77d543bb-bb4e-426d-89f0-5db08b536218",
+    "343d4d15-1025-4a7f-ba55-a89871b47142"
   ]
 }
