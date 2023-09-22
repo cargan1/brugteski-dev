@@ -478,12 +478,6 @@
     "82a4bfbb-5629-4257-a61a-8f3f9f259c01": {
       "type": "rich-text",
       "blocks": {
-        "template--18752117866841__82a4bfbb-5629-4257-a61a-8f3f9f259c01-subheading-1": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
         "template--18752117866841__82a4bfbb-5629-4257-a61a-8f3f9f259c01-heading-1": {
           "type": "heading",
           "settings": {
@@ -496,7 +490,7 @@
         "template--18752117866841__82a4bfbb-5629-4257-a61a-8f3f9f259c01-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Er du i tvivl om længden på dit udstyr? Så har vi lavet en størrelsesguide, som kan hjælpe dig med at finde den helt rigtige størrelse på udstyr!<\/p>"
+            "content": "<p>Er du i tvivl om længden på dit udstyr? Så har vi lavet en størrelsesguide, som kan hjælpe dig med at finde den helt rigtige størrelse på udstyr!<\/p><p>Den bedste måde at finde ud af længden på dit udstyr, er ved at tage vores ski-finder quiz. Ved at svare på en række spørgsmål, får du tilsendt dine nøjagtige skilængde! Prøv quizzen her<\/p>"
           }
         },
         "b48753b6-b85b-4cad-a1a1-bdc199759c28": {
@@ -512,7 +506,6 @@
         }
       },
       "block_order": [
-        "template--18752117866841__82a4bfbb-5629-4257-a61a-8f3f9f259c01-subheading-1",
         "template--18752117866841__82a4bfbb-5629-4257-a61a-8f3f9f259c01-heading-1",
         "template--18752117866841__82a4bfbb-5629-4257-a61a-8f3f9f259c01-richtext-1",
         "b48753b6-b85b-4cad-a1a1-bdc199759c28"
