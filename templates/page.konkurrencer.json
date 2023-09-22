@@ -47,26 +47,9 @@
         "tab_label": ""
       }
     },
-    "77d543bb-bb4e-426d-89f0-5db08b536218": {
-      "type": "newsletter",
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "show_icon": false,
-        "title": "",
-        "content": "",
-        "button_text": "Tilmeld dig nu",
-        "subtext": "Du vil samtidig tilmelde dig Brugteski.dk's nyhedsbrev, hvor du vil høre om tilbud og guides indenfor ski verdenen. Du kan til enhver tid afmelde dig nyhedsbrevet igen.",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": "",
-        "tab_label": ""
-      }
-    },
     "343d4d15-1025-4a7f-ba55-a89871b47142": {
       "type": "custom-html",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -81,7 +64,6 @@
   "order": [
     "main",
     "1da314f9-39f8-49d6-affa-045db82cc051",
-    "77d543bb-bb4e-426d-89f0-5db08b536218",
     "343d4d15-1025-4a7f-ba55-a89871b47142"
   ]
 }
