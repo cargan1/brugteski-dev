@@ -157,6 +157,7 @@
         },
         "c095e786-f832-4540-a7b9-8e887d0b0cde": {
           "type": "tab",
+          "disabled": true,
           "settings": {
             "title": "FAQ"
           }
@@ -426,38 +427,94 @@
         "template--18752117866841__cf3bc1f9-3c9e-41b4-9d4d-02552375f778-item-1": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
+            "title": "Hvordan ved jeg hvor brugte\/slidte skiene er?",
             "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
           }
         },
         "template--18752117866841__cf3bc1f9-3c9e-41b4-9d4d-02552375f778-item-2": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+            "title": "Hvordan leveres skiene?",
+            "content": "<p>d<\/p>"
           }
         },
         "template--18752117866841__cf3bc1f9-3c9e-41b4-9d4d-02552375f778-item-3": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
+            "title": "Hvad er leveringstid?",
             "content": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        },
+        "b1ec32a0-ef60-4a32-8f81-330e671f8c3e": {
+          "type": "item",
+          "settings": {
+            "title": "Hvor lange skal mine ski være?",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+          }
+        },
+        "dfe1817e-c8af-458e-b8cc-c69425e88ced": {
+          "type": "item",
+          "settings": {
+            "title": "Hvordan ved jeg om disse ski passer mig?",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+          }
+        },
+        "a2e3bc9c-4e8d-4d45-94b5-e5330384f484": {
+          "type": "item",
+          "settings": {
+            "title": "Hvor meget spare jeg ved at købe brugte ski?",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+          }
+        },
+        "e312ac69-b51e-427b-8297-35e64662f406": {
+          "type": "item",
+          "settings": {
+            "title": "Kan jeg se skiene i virkeligheden?",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+          }
+        },
+        "9c292cab-7b78-4692-8c18-42f344e2706b": {
+          "type": "item",
+          "settings": {
+            "title": "Hvad gør jeg, hvis skiene slet ikke fungere for mig på skiferien?",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+          }
+        },
+        "11eee007-eaf4-4e11-a076-9379afbb4c13": {
+          "type": "item",
+          "settings": {
+            "title": "Kan jeg bytte mine ski til noget bedre, hvis jeg vokser fra dem?",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+          }
+        },
+        "009eeec1-dbb2-4546-b565-5bded8512799": {
+          "type": "item",
+          "settings": {
+            "title": "Hvad sker der, hvis skiene går i stykker?",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
           }
         }
       },
       "block_order": [
         "template--18752117866841__cf3bc1f9-3c9e-41b4-9d4d-02552375f778-item-1",
         "template--18752117866841__cf3bc1f9-3c9e-41b4-9d4d-02552375f778-item-2",
-        "template--18752117866841__cf3bc1f9-3c9e-41b4-9d4d-02552375f778-item-3"
+        "template--18752117866841__cf3bc1f9-3c9e-41b4-9d4d-02552375f778-item-3",
+        "b1ec32a0-ef60-4a32-8f81-330e671f8c3e",
+        "dfe1817e-c8af-458e-b8cc-c69425e88ced",
+        "a2e3bc9c-4e8d-4d45-94b5-e5330384f484",
+        "e312ac69-b51e-427b-8297-35e64662f406",
+        "9c292cab-7b78-4692-8c18-42f344e2706b",
+        "11eee007-eaf4-4e11-a076-9379afbb4c13",
+        "009eeec1-dbb2-4546-b565-5bded8512799"
       ],
       "settings": {
         "full_width": false,
         "subheading": "",
         "title": "Typiske spørgsmål",
-        "content": "<p>Se hvilke typiske spørgsmål der bliver stillet ved køb af ski, inden du kontakter kundeservice.<\/p>",
+        "content": "<p>Se hvilke typiske spørgsmål der bliver stillet ved køb af ski hos Brugtski.dk<\/p>",
         "team_avatar_width": 290,
         "support_hours": "",
-        "answer_time": "Er du stadigvæk i tvivl, så er du mere end velkommen til at kontakte kundeservice.",
+        "answer_time": "Er du stadigvæk i tvivl, så er du mere end velkommen til at kontakte kundeservice, og så finder vi et svar sammen.",
         "button_text": "Kontakt kundeservice",
         "button_url": "shopify:\/\/pages\/kontakt-os",
         "text_position": "center",
