@@ -176,7 +176,6 @@
         },
         "890659ae-884a-4eae-b699-3c2e89232488": {
           "type": "tab",
-          "disabled": true,
           "settings": {
             "title": "Udsolgt"
           }
@@ -600,11 +599,11 @@
       "type": "newsletter",
       "settings": {
         "full_width": true,
-        "show_icon": true,
-        "title": "Newsletter",
-        "content": "<p>Write something about what your customers will receive by subscribing to your newsletter.<\/p>",
-        "button_text": "Subscribe",
-        "subtext": "",
+        "show_icon": false,
+        "title": "Blive førstevælgeren",
+        "content": "<p>Hver 1-2 måneder får vi nye brugte produkter på lager. Hvis det udstyr du leder efter, er udsolgt nu, så er der en stor chance for det kommer på lagre igen!<br\/>Tilmeld dig vores nyhedsbrev, og vær den første til at se det nye udstyr.<\/p>",
+        "button_text": "Tilmeld",
+        "subtext": "Du vil samtidig tilmelde dig Brugteski.dk's nyhedsbrev, hvor du vil høre om tilbud og guides indenfor ski verdenen. Du kan til enhver tid afmelde dig nyhedsbrevet igen.",
         "background": "",
         "background_gradient": "",
         "text_color": "",
