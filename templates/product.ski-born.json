@@ -499,6 +499,13 @@
             "title": "Hvor tit skal skiene serviceres?",
             "content": "<p>Det afhænger af dit behov og lyst. Nogle vil have serviceret deres ski efter hver skitur, fordi de elsker at de er ny slebet og vokset, hvor andre gør det hver 4-5 uge på ski, fordi de ikke går lige så meget op i det.<\/p><p>Generelt vil jeg som minimum anbefale af få det gjort for hver 2-3 uger på ski, eller efter behov. Hvis du Fx har kørt over en sten på pisten og fået et stor hak i sålen, så er det en god ide at få det fikset.<\/p><p>Vi servicer ski i vores butik i Fredericia. Kom forbi med dem, og så er de klar til ugen efter.<br\/><a href=\"\/pages\/showroom-og-vores-abningstider\" title=\"Butik og vores åbningstider\">Se åbningstider og adressen her<\/a><\/p>"
           }
+        },
+        "f843942a-34bb-4452-bea8-cafc7f40389c": {
+          "type": "item",
+          "settings": {
+            "title": "Hvad er \"Ski-garanti for børn og juniorer\"?",
+            "content": "<p>Det er et bevis som medfølger alt vores børne udstyr, som gør du kan komme tilbage og få byttet udstyr til noget længeren, inden for 2 skisæsoner.<br\/><a href=\"\/pages\/ski-byt-for-born-juniorer\" title=\"Ski-Byt for Børn & Juniorer\">Se mere om Ski-garanti her<\/a><\/p>"
+          }
         }
       },
       "block_order": [
@@ -512,7 +519,8 @@
         "2a9b8294-0656-4442-99cf-291ece9b5ae9",
         "a106e1f8-893d-4ecc-9425-7cd64ab75771",
         "ef0b6e56-5db4-4f30-a989-76b4c297e971",
-        "5af7bc7f-a8a4-4d22-bba2-6add6f87a3d7"
+        "5af7bc7f-a8a4-4d22-bba2-6add6f87a3d7",
+        "f843942a-34bb-4452-bea8-cafc7f40389c"
       ],
       "settings": {
         "full_width": false,
