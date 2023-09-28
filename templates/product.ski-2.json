@@ -455,7 +455,7 @@
           "type": "item",
           "settings": {
             "title": "Hvor lange skal mine ski være?",
-            "content": "<p>Det kan være svært at finde den præcise længde på dine ski, da det afhænger af rigtigt mange forskellige faktorer.<\/p><p>Vi har lavet en quiz, som giver dig den præcis længde til dine ski!<br\/><a href=\"\/pages\/ski-finder\" title=\"Ski-finder\">Prøv ski-finder quizzen her<\/a><\/p>"
+            "content": "<p>Det kan være svært at finde den præcise længde på dine ski, da det afhænger af rigtigt mange forskellige faktorer.<\/p><p>Tommelfinger reglen hedder at de ca skal gå dig til hagen hvis du er nybegynder, næsen hvis du er øvet og øjenbrynene hvis du er ekspert.<\/p><p>Vi har lavet en quiz, som giver dig den præcis længde til dine ski!<br\/><a href=\"\/pages\/ski-finder\" title=\"Ski-finder\">Prøv ski-finder quizzen her<\/a><\/p>"
           }
         },
         "dfe1817e-c8af-458e-b8cc-c69425e88ced": {
@@ -499,6 +499,20 @@
             "title": "Kan jeg se skiene i virkeligheden?",
             "content": "<p>Vi har en skibutik i Fredericia, hvor du kan komme fordi og prøve\/se alt vores udstyr. Her kan vi også hjælpe dig, med at finde det helt rigtige par ski!<br\/><a href=\"\/pages\/showroom-og-vores-abningstider\" title=\"Butik og vores åbningstider\">Se åbningstider og adresse her<\/a><\/p>"
           }
+        },
+        "15b77d29-58c1-48d6-a108-d642b8955cb7": {
+          "type": "item",
+          "settings": {
+            "title": "Hvordan indstiller jeg bindingerne til mine skistøvler?",
+            "content": "<p>Vi indstiller bindingerne for dig, du skal bare huske at tilføje din date i feltet \"Udfyld feltet, så indstiller vi dine bindinger🎿\", så ordner vi den.<\/p>"
+          }
+        },
+        "34c7aac8-b407-4984-ad88-05c8201f24e9": {
+          "type": "item",
+          "settings": {
+            "title": "Hvor tit skal mine ski serviceres?",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+          }
         }
       },
       "block_order": [
@@ -512,7 +526,9 @@
         "11eee007-eaf4-4e11-a076-9379afbb4c13",
         "009eeec1-dbb2-4546-b565-5bded8512799",
         "a2e3bc9c-4e8d-4d45-94b5-e5330384f484",
-        "e312ac69-b51e-427b-8297-35e64662f406"
+        "e312ac69-b51e-427b-8297-35e64662f406",
+        "15b77d29-58c1-48d6-a108-d642b8955cb7",
+        "34c7aac8-b407-4984-ad88-05c8201f24e9"
       ],
       "settings": {
         "full_width": false,
