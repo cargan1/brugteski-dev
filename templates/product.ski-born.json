@@ -450,13 +450,21 @@
             "title": "Hvor lange skal mine ski være?",
             "content": "<p>Det kan være svært at finde den præcise længde på dine ski, da det afhænger af rigtigt mange forskellige faktorer.<\/p><p>Vi har lavet en quiz, som giver dig den præcis længde til dine ski!<br\/><a href=\"\/pages\/ski-finder\" title=\"Ski-finder\">Prøv ski-finder quizzen her<\/a><\/p>"
           }
+        },
+        "b2920b54-2d92-4762-a1e6-f6c28bf6e1d4": {
+          "type": "item",
+          "settings": {
+            "title": "Hvordan ved jeg om disse ski passer mig?",
+            "content": "<p>Det ved man aldrig helt, før man har prøvet dem et par dage i terrænet. Vi har ingen bjerge i Danmark, så det gør det endnu sværere at få testet af...<\/p><p>Heldigvis har vi lavet en quiz, hvor du kan komme så tæt på det rigtige bud på et par ski til dig, som nu muligt uden at teste dem inden.<br\/><a href=\"\/pages\/ski-finder\" title=\"Ski-finder\">Prøv ski-finder quizzen her<\/a><\/p>"
+          }
         }
       },
       "block_order": [
         "template--18752117866841__cf3bc1f9-3c9e-41b4-9d4d-02552375f778-item-1",
         "template--18752117866841__cf3bc1f9-3c9e-41b4-9d4d-02552375f778-item-2",
         "template--18752117866841__cf3bc1f9-3c9e-41b4-9d4d-02552375f778-item-3",
-        "46e8a04f-e6fd-4cd0-89ed-da695176e802"
+        "46e8a04f-e6fd-4cd0-89ed-da695176e802",
+        "b2920b54-2d92-4762-a1e6-f6c28bf6e1d4"
       ],
       "settings": {
         "full_width": false,
