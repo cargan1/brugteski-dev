@@ -485,6 +485,13 @@
             "title": "Kan jeg se skiene i virkeligheden?",
             "content": "<p>Vi har en skibutik i Fredericia, hvor du kan komme fordi og prøve\/se alt vores udstyr. Her kan vi også hjælpe dig, med at finde det helt rigtige par ski!<br\/><a href=\"\/pages\/showroom-og-vores-abningstider\" title=\"Butik og vores åbningstider\">Se åbningstider og adresse her<\/a><\/p>"
           }
+        },
+        "ef0b6e56-5db4-4f30-a989-76b4c297e971": {
+          "type": "item",
+          "settings": {
+            "title": "Hvordan indstiller jeg bindingerne til mine skistøvler?",
+            "content": "<p>Vi indstiller bindingerne for dig, du skal bare huske at tilføje din date i feltet \"Udfyld feltet, så indstiller vi dine bindinger🎿\", så ordner vi den.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -496,7 +503,8 @@
         "ee331458-f5d1-4948-9252-0bd036c9a326",
         "bb3c00fb-5124-4600-a6f2-08b2b7662d8b",
         "2a9b8294-0656-4442-99cf-291ece9b5ae9",
-        "a106e1f8-893d-4ecc-9425-7cd64ab75771"
+        "a106e1f8-893d-4ecc-9425-7cd64ab75771",
+        "ef0b6e56-5db4-4f30-a989-76b4c297e971"
       ],
       "settings": {
         "full_width": false,
