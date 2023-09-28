@@ -347,10 +347,10 @@
           "type": "item",
           "settings": {
             "column_size": "3",
-            "title": "Ski-byt for børn & junior",
+            "title": "Ski-byt for børn & juniorer",
             "heading_tag": "h4",
             "content": "<p>Hos os modtager du et Ski-garanti hver gang du køber børneudstyr hos os.<\/p><p>Dette bevis gælder for 2 skisæsoner, og gør at du kan komme tilbage og få bytte udstyr til noget større eller bedre, når dit barn er vokset fra det nuværende.<\/p>",
-            "link_url": "shopify:\/\/pages\/byt-til-nyt",
+            "link_url": "shopify:\/\/pages\/ski-byt-for-born-juniorer",
             "link_text": "Se mere om Ski-byt her",
             "link_style": "button"
           }
