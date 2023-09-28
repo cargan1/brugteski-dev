@@ -492,6 +492,13 @@
             "title": "Hvad sker der, hvis skiene går i stykker?",
             "content": "<p>Selvom det er brugte produkter vi sælger hos Brugteski.dk, så medfølger der stadigvæk 24 måneders reklamationsret på alle produkter. Så er der ingen grund til at være bange for, at skien ikke kan holde!<\/p>"
           }
+        },
+        "b8a847ca-16ac-4a83-bbe7-d948cf34dcbb": {
+          "type": "item",
+          "settings": {
+            "title": "Kan jeg se præcis hvor slidte skiene er?",
+            "content": "<p>Nej, det kan du desværre ikke. Vi tager kun billede af en ski fra hver model, da hvis vi skulle tage billeder af alle vore ski, så vil vi aldrig blive færdige...<\/p><p>Derfor kan du læse vores <a href=\"\/pages\/standbeskrivelse\" title=\"Standbeskrivelse\">Stand-beskrivelse<\/a>, for at vide hvad du kan forvente om skiene.<\/p><p>For at du aldrig kommer til at føle dig snydt, så tilbyder vi gratis fragt og returnerings på alle produkter. Det vil sige at du altid bare vil kunne købe udstyret hjem, og hvis du syntes det er \"for slidt\" så sender du det bare retur kvit og frit!<\/p>"
+          }
         }
       },
       "block_order": [
@@ -504,7 +511,8 @@
         "e312ac69-b51e-427b-8297-35e64662f406",
         "9c292cab-7b78-4692-8c18-42f344e2706b",
         "11eee007-eaf4-4e11-a076-9379afbb4c13",
-        "009eeec1-dbb2-4546-b565-5bded8512799"
+        "009eeec1-dbb2-4546-b565-5bded8512799",
+        "b8a847ca-16ac-4a83-bbe7-d948cf34dcbb"
       ],
       "settings": {
         "full_width": false,
