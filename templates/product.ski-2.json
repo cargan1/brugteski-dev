@@ -143,16 +143,16 @@
             "title": "Detaljer"
           }
         },
-        "fb12e8de-6ea1-4331-84ff-0c8bf1d2246d": {
-          "type": "tab",
-          "settings": {
-            "title": "Fordele"
-          }
-        },
         "bf4b7f25-2f3d-42b0-98ba-8c6c97c93601": {
           "type": "tab",
           "settings": {
             "title": "Fragt"
+          }
+        },
+        "fb12e8de-6ea1-4331-84ff-0c8bf1d2246d": {
+          "type": "tab",
+          "settings": {
+            "title": "Fordele"
           }
         },
         "c095e786-f832-4540-a7b9-8e887d0b0cde": {
@@ -183,8 +183,8 @@
       "block_order": [
         "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-1",
         "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-0",
-        "fb12e8de-6ea1-4331-84ff-0c8bf1d2246d",
         "bf4b7f25-2f3d-42b0-98ba-8c6c97c93601",
+        "fb12e8de-6ea1-4331-84ff-0c8bf1d2246d",
         "c095e786-f832-4540-a7b9-8e887d0b0cde",
         "ab3020de-324b-4afe-b163-9afbc91c441a",
         "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-3",
