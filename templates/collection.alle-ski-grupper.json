@@ -40,21 +40,6 @@
     "a1d60877-d7ec-436a-ad43-a06919cf98d4": {
       "type": "image-with-text-overlay",
       "blocks": {
-        "template--19570050761049__a1d60877-d7ec-436a-ad43-a06919cf98d4-subheading-1": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "Svært ved at finde de rigtigt ski?"
-          }
-        },
-        "template--19570050761049__a1d60877-d7ec-436a-ad43-a06919cf98d4-heading-1": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "text": "Ski-finder",
-            "heading_tag": "h3"
-          }
-        },
         "template--19570050761049__a1d60877-d7ec-436a-ad43-a06919cf98d4-richtext-1": {
           "type": "richtext",
           "settings": {
@@ -74,8 +59,6 @@
         }
       },
       "block_order": [
-        "template--19570050761049__a1d60877-d7ec-436a-ad43-a06919cf98d4-subheading-1",
-        "template--19570050761049__a1d60877-d7ec-436a-ad43-a06919cf98d4-heading-1",
         "template--19570050761049__a1d60877-d7ec-436a-ad43-a06919cf98d4-richtext-1",
         "5304bd19-a6e8-4b5d-97ab-115a61250354"
       ],
