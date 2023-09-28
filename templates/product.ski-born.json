@@ -347,11 +347,11 @@
           "type": "item",
           "settings": {
             "column_size": "3",
-            "title": "Vi køber udstyret tilbage igen",
+            "title": "Ski-byt for børn & junior",
             "heading_tag": "h4",
-            "content": "<p>Hvis du enten har nogle gamle ski på loftet, eller gerne vil have opgraderet dem du har købt fra os, så giver vi en byttepris på det!<\/p><p>Vi kan både betale dig kontant eller gennem gavekort til Brugteski.dk. (Du får det største beløb via gavekort)<\/p>",
+            "content": "<p>Hos os modtager du et Ski-garanti hver gang du køber børneudstyr hos os.<\/p><p>Dette bevis gælder for 2 skisæsoner, og gør at du kan komme tilbage og få bytte udstyr til noget større eller bedre, når dit barn er vokset fra det nuværende.<\/p>",
             "link_url": "shopify:\/\/pages\/byt-til-nyt",
-            "link_text": "Se hvordan du gør her",
+            "link_text": "Se mere om Ski-byt her",
             "link_style": "button"
           }
         }
@@ -711,14 +711,14 @@
         "template--14429261332515__1b924801-2f39-4b3d-97cf-6ac91e20f85c-1666191404eaad16b1-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner.ski.g.jpg",
+            "image": "shopify:\/\/shop_images\/Borneski.g.jpg",
             "media_width": 60,
             "media_position": "start",
             "text_position": "place-self-start text-start",
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "Svært at finde de rigtige ski?",
+            "title": "Svært at finde de rigtige børne ski?",
             "content": "<p>Vi har en skibutik i Fredericia, hvor du\/din familie vil kunne komme ned og prøve, samt se alt udstyret. Her vil vi også kunne guide dig\/jer, til at kunne finde det helt rigtigt, for lige netop DIG.<\/p>",
             "link_text": "Se adressen her",
             "link_url": "shopify:\/\/pages\/showroom-og-vores-abningstider",
