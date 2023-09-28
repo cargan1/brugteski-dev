@@ -478,6 +478,13 @@
             "title": "Hvor meget spare jeg ved at købe brugte ski?",
             "content": "<p>Der er rigtig mange penge at hente ved at købe brugte ski. Ski er lavet gode kraftige materialer, der gør dem næsten umulige at ødelægge. Det betyder også, at bare fordi de har været brugt, og fået lidt ridser\/hakker, så fungere de stadigvæk upårklageligt.<\/p><p>Hos Brugteski.dk stræber vi efter at sælge vores brugte ski til 50% af den vejledende udsalgspris!<\/p>"
           }
+        },
+        "a106e1f8-893d-4ecc-9425-7cd64ab75771": {
+          "type": "item",
+          "settings": {
+            "title": "Kan jeg se skiene i virkeligheden?",
+            "content": "<p>Vi har en skibutik i Fredericia, hvor du kan komme fordi og prøve\/se alt vores udstyr. Her kan vi også hjælpe dig, med at finde det helt rigtige par ski!<br\/><a href=\"\/pages\/showroom-og-vores-abningstider\" title=\"Butik og vores åbningstider\">Se åbningstider og adresse her<\/a><\/p>"
+          }
         }
       },
       "block_order": [
@@ -488,7 +495,8 @@
         "b2920b54-2d92-4762-a1e6-f6c28bf6e1d4",
         "ee331458-f5d1-4948-9252-0bd036c9a326",
         "bb3c00fb-5124-4600-a6f2-08b2b7662d8b",
-        "2a9b8294-0656-4442-99cf-291ece9b5ae9"
+        "2a9b8294-0656-4442-99cf-291ece9b5ae9",
+        "a106e1f8-893d-4ecc-9425-7cd64ab75771"
       ],
       "settings": {
         "full_width": false,
