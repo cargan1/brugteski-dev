@@ -662,7 +662,7 @@
       "type": "newsletter",
       "settings": {
         "full_width": true,
-        "show_icon": false,
+        "show_icon": true,
         "title": "Blive førstevælgeren",
         "content": "<p>Hver 1-2 måneder får vi nye brugte produkter på lager. Hvis det udstyr du leder efter, er udsolgt nu, så er der en stor chance for at det kommer på lager igen!<br\/>Tilmeld dig vores nyhedsbrev, og vær den første til at vælge imellem det nye udstyr.<\/p>",
         "button_text": "Tilmeld",
