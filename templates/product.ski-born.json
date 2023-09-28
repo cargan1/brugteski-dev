@@ -462,7 +462,14 @@
           "type": "item",
           "settings": {
             "title": "Kan jeg bytte mine ski til noget andet, hvis jeg vokser fra dem?",
-            "content": "<p>Yes, det kan du tro! Vi har vores Ski-byt for børn og juniorer, som gør alt børneudstyr kan byttes inde for 2 sæsoner.<\/p><p>Når du køber børne ski og\/eller snowboard i under 150 cm samt støvler dertil, modtager du en ski-garantibevis. Dette bevis gør at du kan komme tilbage inde for 2 skisæsoner og få bytte udstyr til noget længere, hvis du\/dit barn vokser fra det. <br\/><a href=\"\/pages\/ski-byt-for-born-juniorer\" title=\"Ski-Byt for Børn & Juniorer\">Se mere om Ski-garanti her<\/a><\/p>"
+            "content": "<p>Yes, det kan du tro! Vi har vores Ski-byt for børn og juniorer, som gør alt børneudstyr kan byttes inde for 2 sæsoner.<\/p><p>Når du køber børne ski og\/eller snowboard i under 150 cm samt støvler dertil, modtager du en ski-garantibevis. Dette bevis gør at du kan komme tilbage indenfor 2 skisæsoner og få bytte udstyr til noget længere, hvis du\/dit barn vokser fra det. <br\/><a href=\"\/pages\/ski-byt-for-born-juniorer\" title=\"Ski-Byt for Børn & Juniorer\">Se mere om Ski-garanti her<\/a><\/p>"
+          }
+        },
+        "bb3c00fb-5124-4600-a6f2-08b2b7662d8b": {
+          "type": "item",
+          "settings": {
+            "title": "Hvad sker der, hvis skiene går i stykker?",
+            "content": "<p>Selvom det er brugte produkter vi sælger hos Brugteski.dk, så medfølger der stadigvæk 24 måneders reklamationsret på alle produkter. Så er der ingen grund til at være bange for, at skien ikke kan holde!<\/p>"
           }
         }
       },
@@ -472,7 +479,8 @@
         "template--18752117866841__cf3bc1f9-3c9e-41b4-9d4d-02552375f778-item-3",
         "46e8a04f-e6fd-4cd0-89ed-da695176e802",
         "b2920b54-2d92-4762-a1e6-f6c28bf6e1d4",
-        "ee331458-f5d1-4948-9252-0bd036c9a326"
+        "ee331458-f5d1-4948-9252-0bd036c9a326",
+        "bb3c00fb-5124-4600-a6f2-08b2b7662d8b"
       ],
       "settings": {
         "full_width": false,
@@ -663,7 +671,7 @@
         "template--14429261332515__1b924801-2f39-4b3d-97cf-6ac91e20f85c-1666191404eaad16b1-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_6349.jpg",
+            "image": "shopify:\/\/shop_images\/banner.ski.g.jpg",
             "media_width": 60,
             "media_position": "start",
             "text_position": "place-self-start text-start",
