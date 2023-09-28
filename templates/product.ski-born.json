@@ -157,7 +157,6 @@
         },
         "c095e786-f832-4540-a7b9-8e887d0b0cde": {
           "type": "tab",
-          "disabled": true,
           "settings": {
             "title": "FAQ"
           }
@@ -176,9 +175,8 @@
         },
         "890659ae-884a-4eae-b699-3c2e89232488": {
           "type": "tab",
-          "disabled": true,
           "settings": {
-            "title": "Udsolgt?"
+            "title": "Udsolgt"
           }
         }
       },
@@ -422,6 +420,59 @@
         "tab_label": "Fragt"
       }
     },
+    "cf3bc1f9-3c9e-41b4-9d4d-02552375f778": {
+      "type": "faq",
+      "blocks": {
+        "template--18752117866841__cf3bc1f9-3c9e-41b4-9d4d-02552375f778-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+          }
+        },
+        "template--18752117866841__cf3bc1f9-3c9e-41b4-9d4d-02552375f778-item-2": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "template--18752117866841__cf3bc1f9-3c9e-41b4-9d4d-02552375f778-item-3": {
+          "type": "item",
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18752117866841__cf3bc1f9-3c9e-41b4-9d4d-02552375f778-item-1",
+        "template--18752117866841__cf3bc1f9-3c9e-41b4-9d4d-02552375f778-item-2",
+        "template--18752117866841__cf3bc1f9-3c9e-41b4-9d4d-02552375f778-item-3"
+      ],
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "<p>Use this text to share information about your product or shipping policies.<\/p>",
+        "team_avatar_width": 160,
+        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
+        "answer_time": "Average answer time: 24h",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": "",
+        "tab_label": "FAQ"
+      }
+    },
     "82a4bfbb-5629-4257-a61a-8f3f9f259c01": {
       "type": "rich-text",
       "blocks": {
@@ -550,6 +601,23 @@
         "tab_label": "Stand-beskrivelse"
       }
     },
+    "d2b619b5-d27a-4d56-bdbc-01f473ffb4a7": {
+      "type": "newsletter",
+      "settings": {
+        "full_width": true,
+        "show_icon": true,
+        "title": "Newsletter",
+        "content": "<p>Write something about what your customers will receive by subscribing to your newsletter.<\/p>",
+        "button_text": "Subscribe",
+        "subtext": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": "",
+        "tab_label": "Udsolgt"
+      }
+    },
     "05de6085-a3e7-458a-ad6e-f17eb2c7d525": {
       "type": "scrolling-text",
       "settings": {
@@ -629,76 +697,6 @@
       "type": "trustpilot-stjerner",
       "settings": {
       }
-    },
-    "cf3bc1f9-3c9e-41b4-9d4d-02552375f778": {
-      "type": "faq",
-      "blocks": {
-        "template--18752117866841__cf3bc1f9-3c9e-41b4-9d4d-02552375f778-item-1": {
-          "type": "item",
-          "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
-          }
-        },
-        "template--18752117866841__cf3bc1f9-3c9e-41b4-9d4d-02552375f778-item-2": {
-          "type": "item",
-          "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
-          }
-        },
-        "template--18752117866841__cf3bc1f9-3c9e-41b4-9d4d-02552375f778-item-3": {
-          "type": "item",
-          "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--18752117866841__cf3bc1f9-3c9e-41b4-9d4d-02552375f778-item-1",
-        "template--18752117866841__cf3bc1f9-3c9e-41b4-9d4d-02552375f778-item-2",
-        "template--18752117866841__cf3bc1f9-3c9e-41b4-9d4d-02552375f778-item-3"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": false,
-        "subheading": "",
-        "title": "FAQ",
-        "content": "<p>Use this text to share information about your product or shipping policies.<\/p>",
-        "team_avatar_width": 160,
-        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
-        "answer_time": "Average answer time: 24h",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
-        "accordion_background": "",
-        "accordion_text_color": ""
-      }
-    },
-    "d2b619b5-d27a-4d56-bdbc-01f473ffb4a7": {
-      "type": "newsletter",
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "show_icon": true,
-        "title": "Newsletter",
-        "content": "<p>Write something about what your customers will receive by subscribing to your newsletter.<\/p>",
-        "button_text": "Subscribe",
-        "subtext": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
     }
   },
   "order": [
@@ -709,13 +707,13 @@
     "7bd8baf1-9eb8-41b9-82b3-49a08ae4c5ad",
     "322fa8a3-0532-4ece-82b8-7999ffdd7f89",
     "de589c77-3f04-4fd3-99e3-118b938fa69a",
+    "cf3bc1f9-3c9e-41b4-9d4d-02552375f778",
     "82a4bfbb-5629-4257-a61a-8f3f9f259c01",
     "aa73c3dc-82ca-485c-a544-d5b8dd955818",
+    "d2b619b5-d27a-4d56-bdbc-01f473ffb4a7",
     "05de6085-a3e7-458a-ad6e-f17eb2c7d525",
     "1b924801-2f39-4b3d-97cf-6ac91e20f85c",
     "fb969a0a-fc24-4610-814b-104c9172b8f5",
-    "6fe9e5e3-41c0-4ad1-a62e-5e2b2ba02828",
-    "cf3bc1f9-3c9e-41b4-9d4d-02552375f778",
-    "d2b619b5-d27a-4d56-bdbc-01f473ffb4a7"
+    "6fe9e5e3-41c0-4ad1-a62e-5e2b2ba02828"
   ]
 }
