@@ -476,18 +476,11 @@
             "content": "<p>Vi har en skibutik i Fredericia, hvor du kan komme fordi og prøve\/se alt vores udstyr. Her kan vi også hjælpe dig, med at finde det helt rigtige snowboard til dig!<br\/><a href=\"\/pages\/showroom-og-vores-abningstider\" title=\"Butik og vores åbningstider\">Se åbningstider og adresse her<\/a><\/p>"
           }
         },
-        "15b77d29-58c1-48d6-a108-d642b8955cb7": {
-          "type": "item",
-          "settings": {
-            "title": "Hvordan indstiller jeg bindingerne til mine skistøvler?",
-            "content": "<p>Vi indstiller bindingerne for dig, du skal bare huske at tilføje din date i feltet \"Udfyld feltet, så indstiller vi dine bindinger🎿\", så ordner vi den.<\/p>"
-          }
-        },
         "34c7aac8-b407-4984-ad88-05c8201f24e9": {
           "type": "item",
           "settings": {
-            "title": "Hvor tit skal mine ski serviceres?",
-            "content": "<p>Det afhænger af dit behov og lyst. Nogle vil have serviceret deres ski efter hver skitur, fordi de elsker at de er ny slebet og vokset, hvor andre gør det hver 4-5 uge på ski, fordi de ikke går lige så meget op i det.<\/p><p>Generelt vil jeg som minimum anbefale af få det gjort for hver 2-3 uger på ski, eller efter behov. Hvis du Fx har kørt over en sten på pisten og fået et stor hak i sålen, så er det en god ide at få det fikset.<\/p><p>Vi servicer ski i vores butik i Fredericia. Kom forbi med dem, og så er de klar til ugen efter.<br\/><a href=\"\/pages\/showroom-og-vores-abningstider\" title=\"Butik og vores åbningstider\">Se åbningstider og adressen her<\/a><\/p>"
+            "title": "Hvor tit skal mine board serviceres?",
+            "content": "<p>Det afhænger af dit behov og lyst. Nogle vil have serviceret deres snowboards efter hver skitur, fordi de elsker at de er ny slebet og vokset, hvor andre gør det efter hver 4-5 uge, fordi de ikke går lige så meget op i det.<\/p><p>Generelt vil jeg som minimum anbefale få det gjort efter hver 2-3 uger afsted, eller efter behov. Hvis du fx har kørt over en sten på pisten og fået et stor hak i sålen, så er det en god ide at få det fikset med det samme.<\/p><p>Vi servicer ski i vores butik i Fredericia. Kom forbi med dem, og så er de klar til ugen efter.<br\/><a href=\"\/pages\/showroom-og-vores-abningstider\" title=\"Butik og vores åbningstider\">Se åbningstider og adressen her<\/a><\/p>"
           }
         }
       },
@@ -502,7 +495,6 @@
         "009eeec1-dbb2-4546-b565-5bded8512799",
         "a2e3bc9c-4e8d-4d45-94b5-e5330384f484",
         "e312ac69-b51e-427b-8297-35e64662f406",
-        "15b77d29-58c1-48d6-a108-d642b8955cb7",
         "34c7aac8-b407-4984-ad88-05c8201f24e9"
       ],
       "settings": {
