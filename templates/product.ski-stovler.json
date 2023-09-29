@@ -443,12 +443,20 @@
             "title": "Hvordan leveres støvlerne?",
             "content": "<p>Alle vores støvler er rengjort og lugtfrie, så du skal ikke være bange for at stikke din fod ned i en ulækker støvle. Støvlerne har ydermere været igennem en kvalitetskontrol, så du kan være sikker på at de ikke fejler noget.<\/p><p>Støvlerne bliver leveret i en  papkasse med bobleplast rundt om, så de ligger trygt og sikker under transporten.<\/p>"
           }
+        },
+        "5839f450-7007-495f-87d1-efa0cc7d18d4": {
+          "type": "item",
+          "settings": {
+            "title": "Hvad er leveringstid?",
+            "content": "<p>Leveringstiden er på 2 til 5 hverdage, hvor skiene bliver leveret til en valgfri GLS pakkeshop, eller hjemmelevering hvis du ønsker dette.<\/p><p>Vi tilbyder gratis levering og 14 dages returnering på alle ordrer!<\/p>"
+          }
         }
       },
       "block_order": [
         "template--18752117866841__cf3bc1f9-3c9e-41b4-9d4d-02552375f778-item-1",
         "template--18752117866841__cf3bc1f9-3c9e-41b4-9d4d-02552375f778-item-2",
-        "template--18752117866841__cf3bc1f9-3c9e-41b4-9d4d-02552375f778-item-3"
+        "template--18752117866841__cf3bc1f9-3c9e-41b4-9d4d-02552375f778-item-3",
+        "5839f450-7007-495f-87d1-efa0cc7d18d4"
       ],
       "settings": {
         "full_width": false,
