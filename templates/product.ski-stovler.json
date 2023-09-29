@@ -485,6 +485,13 @@
             "title": "Hvor meget spare jeg ved at købe brugte støvler?",
             "content": "<p>Der er rigtig mange penge at hente ved at købe brugte støvler. Støvler er lavet gode kraftige materialer, der gør dem næsten umulige at ødelægge. Det betyder også, at bare fordi de har været brugt, og fået lidt ridser\/hakker, så fungere de stadigvæk upårklageligt.<\/p><p>Hos Brugteski.dk stræber vi efter at sælge vores brugte støvler til 60% under den vejledende udsalgspris!<\/p>"
           }
+        },
+        "2c5b2e03-a410-4961-abff-c63c112dd732": {
+          "type": "item",
+          "settings": {
+            "title": "Kan jeg se støvlerne i virkeligheden?",
+            "content": "<p>Vi har en skibutik i Fredericia, hvor du kan komme fordi og prøve\/se alt vores udstyr. Her kan vi også hjælpe dig, med at finde det helt rigtige par støvler!<br\/><a href=\"\/pages\/showroom-og-vores-abningstider\" title=\"Butik og vores åbningstider\">Se åbningstider og adresse her<\/a><\/p>"
+          }
         }
       },
       "block_order": [
@@ -496,7 +503,8 @@
         "1da233ec-4260-462e-9b99-a5c601c47b6b",
         "fdc4db65-9e19-47d1-9eca-f3facaebf69f",
         "3c9db60b-3164-4109-81c1-b01f66078102",
-        "e5466b03-ff49-4156-a758-530507c84453"
+        "e5466b03-ff49-4156-a758-530507c84453",
+        "2c5b2e03-a410-4961-abff-c63c112dd732"
       ],
       "settings": {
         "full_width": false,
