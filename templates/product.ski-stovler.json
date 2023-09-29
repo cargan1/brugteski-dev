@@ -464,6 +464,13 @@
             "title": "Hvad gør jeg, hvis skiene slet ikke fungerer for mig på skiferien?",
             "content": "<p>Vi har pasningsgaranti på alle vores brugte produkter! Det betyder at straks efter du er kommet hjem fra skiferien, så kan du få byttet dine støvler til et andet sæt, for kun 199 kr.<\/p><p>Så du kan godt være sikker på, at vi nok skal finde de rigtige støvler for lige netop dig!<\/p>"
           }
+        },
+        "fdc4db65-9e19-47d1-9eca-f3facaebf69f": {
+          "type": "item",
+          "settings": {
+            "title": "Kan jeg bytte mine ski til noget andet, hvis jeg \"vokser\" fra dem?",
+            "content": "<p>Yes, det kan du tro! Vi har vores Byt-til-nyt koncept, hvor vi køber dine brugte støvler, og enten betale dig kontant eller med et gavekort til Brugteski.dk.<\/p><p>Hvis du gerne vil opgrader støvlerne, som du i forvejen har købt fra os, så giver vi en bedre byttepris! <br\/><a href=\"\/pages\/byt-til-nyt\" title=\"Vi køber dit brugte udstyr!\">Læs mere om konceptet her<\/a><\/p>"
+          }
         }
       },
       "block_order": [
@@ -472,7 +479,8 @@
         "template--18752117866841__cf3bc1f9-3c9e-41b4-9d4d-02552375f778-item-3",
         "5839f450-7007-495f-87d1-efa0cc7d18d4",
         "56b57923-cbe2-47ff-9707-f5bcf8fee974",
-        "1da233ec-4260-462e-9b99-a5c601c47b6b"
+        "1da233ec-4260-462e-9b99-a5c601c47b6b",
+        "fdc4db65-9e19-47d1-9eca-f3facaebf69f"
       ],
       "settings": {
         "full_width": false,
