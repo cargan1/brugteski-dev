@@ -37,7 +37,6 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "disabled": true,
           "settings": {
           }
         },
@@ -77,23 +76,6 @@
           "type": "separator",
           "settings": {
           }
-        },
-        "b7116d37-820d-4320-ba8a-a4a7ce116385": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p><em><strong>Udfyld feltet, så indstiller vi dine bindinger<\/strong><\/em><\/p>"
-          }
-        },
-        "6e6c8a01-4673-4115-bdee-5ea4ca9d3497": {
-          "type": "line_item_property",
-          "disabled": true,
-          "settings": {
-            "label": "Vægt (kg), Højde (cm) & Støvlelængde (mm)",
-            "type": "text",
-            "required": false,
-            "allow_long_text": false
-          }
         }
       },
       "block_order": [
@@ -108,9 +90,7 @@
         "19937545-298a-4651-9687-4525f0a97a0a",
         "d3e695ec-c2c1-416b-9482-cc06f0166cf0",
         "ba3b5461-8a7f-4d6a-bdc0-bfcaad62fae4",
-        "96617279-0ca8-4ed8-ad3d-5c55c13472ec",
-        "b7116d37-820d-4320-ba8a-a4a7ce116385",
-        "6e6c8a01-4673-4115-bdee-5ea4ca9d3497"
+        "96617279-0ca8-4ed8-ad3d-5c55c13472ec"
       ],
       "settings": {
         "full_width": true,
@@ -683,7 +663,8 @@
         "button_background": "",
         "button_text_color": "",
         "accordion_background": "",
-        "accordion_text_color": ""
+        "accordion_text_color": "",
+        "tab_label": ""
       }
     },
     "d2b619b5-d27a-4d56-bdbc-01f473ffb4a7": {
@@ -700,7 +681,8 @@
         "background_gradient": "",
         "text_color": "",
         "button_background": "",
-        "button_text_color": ""
+        "button_text_color": "",
+        "tab_label": ""
       }
     }
   },
