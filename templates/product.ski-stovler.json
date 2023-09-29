@@ -450,13 +450,21 @@
             "title": "Hvad er leveringstid?",
             "content": "<p>Leveringstiden er på 2 til 5 hverdage, hvor skiene bliver leveret til en valgfri GLS pakkeshop, eller hjemmelevering hvis du ønsker dette.<\/p><p>Vi tilbyder gratis levering og 14 dages returnering på alle ordrer!<\/p>"
           }
+        },
+        "56b57923-cbe2-47ff-9707-f5bcf8fee974": {
+          "type": "item",
+          "settings": {
+            "title": "Hvor lange skal mine støvler være være?",
+            "content": "<p>Længden på dine støvler afhænger af dit ambitionsniveau. <\/p><p>Hvis du står på ski for hyggens skyld, og gerne bare vil nye terrænet, så er det en god ide at have et par støvler med lidt mere plads, så de er mere komfortable af have på.<\/p><p>Hvis du derimod gerne vil have det mest optimale skiløb, er det vigtigt dine støvler sidder helt stramt, så de har 100% kontrol over skiene ved høj hastighed.<\/p><p>Start med at mål din fod i cm ud fra en væg, så du præcis ved hvor lang dine fødder er. Hertil kan du tilføje 1-2cm, alt efter dit niveau, og så har du din størrelse.<\/p><p>Jeg vil ikke råde at købe støvler online, da du aldrig vil kunne være 100% sikker på om de passer som de skal.<\/p>"
+          }
         }
       },
       "block_order": [
         "template--18752117866841__cf3bc1f9-3c9e-41b4-9d4d-02552375f778-item-1",
         "template--18752117866841__cf3bc1f9-3c9e-41b4-9d4d-02552375f778-item-2",
         "template--18752117866841__cf3bc1f9-3c9e-41b4-9d4d-02552375f778-item-3",
-        "5839f450-7007-495f-87d1-efa0cc7d18d4"
+        "5839f450-7007-495f-87d1-efa0cc7d18d4",
+        "56b57923-cbe2-47ff-9707-f5bcf8fee974"
       ],
       "settings": {
         "full_width": false,
