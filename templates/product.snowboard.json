@@ -441,18 +441,11 @@
             "content": "<p>Det kan være svært at finde den præcise længde på dit board, da det afhænger af rigtigt mange forskellige faktorer.<\/p><p>Tommelfinger reglen hedder at de ca skal gå dig til hagen hvis du er nybegynder, næsen hvis du er øvet og øjenbrynene hvis du er ekspert.<\/p>"
           }
         },
-        "dfe1817e-c8af-458e-b8cc-c69425e88ced": {
-          "type": "item",
-          "settings": {
-            "title": "Hvordan ved jeg om disse ski passer mig?",
-            "content": "<p>Det ved man aldrig helt, før man har prøvet dem et par dage i terrænet. Vi har ingen bjerge i Danmark, så det gør det endnu sværere at få testet af...<\/p><p>Heldigvis har vi lavet en quiz, hvor du kan komme så tæt på det rigtige bud på et par ski til dig, som nu muligt uden at teste dem inden.<br\/><a href=\"\/pages\/ski-finder\" title=\"Ski-finder\">Prøv ski-finder quizzen her<\/a><\/p>"
-          }
-        },
         "9c292cab-7b78-4692-8c18-42f344e2706b": {
           "type": "item",
           "settings": {
-            "title": "Hvad gør jeg, hvis skiene slet ikke fungerer for mig på skiferien?",
-            "content": "<p>Vi har pasningsgaranti på alle vores brugte produkter! Det betyder at straks efter du er kommet hjem fra skiferien, så kan du få byttet dine ski til et andet sæt, for kun 199 kr.<\/p><p>Så du kan godt være sikker på, at vi nok skal finde de rigtige ski for lige netop dig!<\/p>"
+            "title": "Hvad gør jeg, hvis boardet slet ikke fungerer for mig på skiferien?",
+            "content": "<p>Vi har pasningsgaranti på alle vores brugte produkter! Det betyder at straks efter du er kommet hjem fra skiferien, så kan du få byttet dit snowboard til et andet sæt, for kun 199 kr.<\/p><p>Så du kan godt være sikker på, at vi nok skal finde det rigtigt snowboard for lige netop dig!<\/p>"
           }
         },
         "11eee007-eaf4-4e11-a076-9379afbb4c13": {
@@ -504,7 +497,6 @@
         "template--18752117866841__cf3bc1f9-3c9e-41b4-9d4d-02552375f778-item-2",
         "template--18752117866841__cf3bc1f9-3c9e-41b4-9d4d-02552375f778-item-3",
         "b1ec32a0-ef60-4a32-8f81-330e671f8c3e",
-        "dfe1817e-c8af-458e-b8cc-c69425e88ced",
         "9c292cab-7b78-4692-8c18-42f344e2706b",
         "11eee007-eaf4-4e11-a076-9379afbb4c13",
         "009eeec1-dbb2-4546-b565-5bded8512799",
