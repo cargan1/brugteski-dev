@@ -471,6 +471,13 @@
             "title": "Kan jeg bytte mine ski til noget andet, hvis jeg \"vokser\" fra dem?",
             "content": "<p>Yes, det kan du tro! Vi har vores Byt-til-nyt koncept, hvor vi køber dine brugte støvler, og enten betale dig kontant eller med et gavekort til Brugteski.dk.<\/p><p>Hvis du gerne vil opgrader støvlerne, som du i forvejen har købt fra os, så giver vi en bedre byttepris! <br\/><a href=\"\/pages\/byt-til-nyt\" title=\"Vi køber dit brugte udstyr!\">Læs mere om konceptet her<\/a><\/p>"
           }
+        },
+        "3c9db60b-3164-4109-81c1-b01f66078102": {
+          "type": "item",
+          "settings": {
+            "title": "Hvad sker der, hvis støvlerne går i stykker?",
+            "content": "<p>Selvom det er brugte produkter vi sælger hos Brugteski.dk, så medfølger der stadigvæk 24 måneders reklamationsret på alle produkter. Så er der ingen grund til at være bange for, at støvlerne ikke kan holde!<\/p>"
+          }
         }
       },
       "block_order": [
@@ -480,7 +487,8 @@
         "5839f450-7007-495f-87d1-efa0cc7d18d4",
         "56b57923-cbe2-47ff-9707-f5bcf8fee974",
         "1da233ec-4260-462e-9b99-a5c601c47b6b",
-        "fdc4db65-9e19-47d1-9eca-f3facaebf69f"
+        "fdc4db65-9e19-47d1-9eca-f3facaebf69f",
+        "3c9db60b-3164-4109-81c1-b01f66078102"
       ],
       "settings": {
         "full_width": false,
