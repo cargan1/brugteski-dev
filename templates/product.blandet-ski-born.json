@@ -143,16 +143,16 @@
             "title": "Detaljer"
           }
         },
-        "fb12e8de-6ea1-4331-84ff-0c8bf1d2246d": {
-          "type": "tab",
-          "settings": {
-            "title": "Fordele"
-          }
-        },
         "bf4b7f25-2f3d-42b0-98ba-8c6c97c93601": {
           "type": "tab",
           "settings": {
             "title": "Fragt"
+          }
+        },
+        "fb12e8de-6ea1-4331-84ff-0c8bf1d2246d": {
+          "type": "tab",
+          "settings": {
+            "title": "Fordele"
           }
         },
         "c095e786-f832-4540-a7b9-8e887d0b0cde": {
@@ -183,8 +183,8 @@
       "block_order": [
         "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-1",
         "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-0",
-        "fb12e8de-6ea1-4331-84ff-0c8bf1d2246d",
         "bf4b7f25-2f3d-42b0-98ba-8c6c97c93601",
+        "fb12e8de-6ea1-4331-84ff-0c8bf1d2246d",
         "c095e786-f832-4540-a7b9-8e887d0b0cde",
         "ab3020de-324b-4afe-b163-9afbc91c441a",
         "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-3",
@@ -316,6 +316,51 @@
         "tab_label": "Detaljer"
       }
     },
+    "de589c77-3f04-4fd3-99e3-118b938fa69a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18752117866841__de589c77-3f04-4fd3-99e3-118b938fa69a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Fragt og returnering",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--18752117866841__de589c77-3f04-4fd3-99e3-118b938fa69a-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Vi tilbyder gratis fragt og returnering på alle ordrer! Vi vil gerne gøre det så nemt for alle vores kunder at købe brugt udstyr, uden det skal koste dem en krone! Du kan derfor roligt bestille udstyr fra os, og hvis du ikke kan lide det, kan det sendes retur kvit og frit!<\/p><ul><li><strong>Levering: <\/strong>Gratis 2-5 hverdages levering til valgfri GLS pakkeshop.<\/li><li><strong>Returnering: <\/strong>Gratis 14 dages returning.<strong> <\/strong> Der medfølger et returneret label til alle ordrer, som er lige til at klistre på pakken.<\/li><li><strong>Ombytning: <\/strong>Ved ombytning kontakt <a href=\"\/pages\/kontakt-os\" title=\"Kontakt os\">kundeservice<\/a> inden, og vi finder frem til den bedste løsning for dig.<\/li><li><strong>Reservering: <\/strong>Ønsker du at reserver et produkt, kan det købes til 'Afhentning' ved kassen, og det bliver dermed sat til side for dig.<\/li><\/ul>"
+          }
+        },
+        "9af9ab54-affd-438a-901a-f62427d4792d": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Se mere om returnering af produkter",
+            "url": "shopify:\/\/pages\/returnering",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18752117866841__de589c77-3f04-4fd3-99e3-118b938fa69a-heading-1",
+        "template--18752117866841__de589c77-3f04-4fd3-99e3-118b938fa69a-richtext-1",
+        "9af9ab54-affd-438a-901a-f62427d4792d"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "tab_label": "Fragt"
+      }
+    },
     "322fa8a3-0532-4ece-82b8-7999ffdd7f89": {
       "type": "multi-column",
       "blocks": {
@@ -373,51 +418,6 @@
         "background_gradient": "",
         "text_color": "",
         "tab_label": "Fordele"
-      }
-    },
-    "de589c77-3f04-4fd3-99e3-118b938fa69a": {
-      "type": "rich-text",
-      "blocks": {
-        "template--18752117866841__de589c77-3f04-4fd3-99e3-118b938fa69a-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Fragt og returnering",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "template--18752117866841__de589c77-3f04-4fd3-99e3-118b938fa69a-richtext-1": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Vi tilbyder gratis fragt og returnering på alle ordrer! Vi vil gerne gøre det så nemt for alle vores kunder at købe brugt udstyr, uden det skal koste dem en krone! Du kan derfor roligt bestille udstyr fra os, og hvis du ikke kan lide det, kan det sendes retur kvit og frit!<\/p><ul><li><strong>Levering: <\/strong>Gratis 2-5 hverdages levering til valgfri GLS pakkeshop.<\/li><li><strong>Returnering: <\/strong>Gratis 14 dages returning.<strong> <\/strong> Der medfølger et returneret label til alle ordrer, som er lige til at klistre på pakken.<\/li><li><strong>Ombytning: <\/strong>Ved ombytning kontakt <a href=\"\/pages\/kontakt-os\" title=\"Kontakt os\">kundeservice<\/a> inden, og vi finder frem til den bedste løsning for dig.<\/li><li><strong>Reservering: <\/strong>Ønsker du at reserver et produkt, kan det købes til 'Afhentning' ved kassen, og det bliver dermed sat til side for dig.<\/li><\/ul>"
-          }
-        },
-        "9af9ab54-affd-438a-901a-f62427d4792d": {
-          "type": "button",
-          "settings": {
-            "style": "fill",
-            "size": "lg",
-            "text": "Se mere om returnering af produkter",
-            "url": "shopify:\/\/pages\/returnering",
-            "background": "",
-            "text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--18752117866841__de589c77-3f04-4fd3-99e3-118b938fa69a-heading-1",
-        "template--18752117866841__de589c77-3f04-4fd3-99e3-118b938fa69a-richtext-1",
-        "9af9ab54-affd-438a-901a-f62427d4792d"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "medium",
-        "text_position": "start",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "tab_label": "Fragt"
       }
     },
     "cf3bc1f9-3c9e-41b4-9d4d-02552375f778": {
@@ -777,8 +777,8 @@
     "4b2f4dad-beb3-4647-84b2-79522c534386",
     "bc007c98-134a-45e6-879f-a9610e0a56cd",
     "7bd8baf1-9eb8-41b9-82b3-49a08ae4c5ad",
-    "322fa8a3-0532-4ece-82b8-7999ffdd7f89",
     "de589c77-3f04-4fd3-99e3-118b938fa69a",
+    "322fa8a3-0532-4ece-82b8-7999ffdd7f89",
     "cf3bc1f9-3c9e-41b4-9d4d-02552375f778",
     "82a4bfbb-5629-4257-a61a-8f3f9f259c01",
     "aa73c3dc-82ca-485c-a544-d5b8dd955818",
