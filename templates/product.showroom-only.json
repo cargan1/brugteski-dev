@@ -49,12 +49,26 @@
         },
         "6d1e7437-32cc-4b14-9f60-3b818cbed684": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p><em><strong>Leveringstid: <\/strong><\/em><em>2-5 hverdage<\/em><\/p>"
           }
         },
+        "7c8d78a3-8f26-40bd-b85c-9d14ddf904e4": {
+          "type": "button",
+          "settings": {
+            "link": "shopify:\/\/pages\/showroom-og-vores-abningstider",
+            "text": "Kan kun købes i butikken - Se adressen her",
+            "size": "xl",
+            "style": "fill",
+            "stretch": true,
+            "background": "",
+            "text_color": ""
+          }
+        },
         "19937545-298a-4651-9687-4525f0a97a0a": {
           "type": "inventory",
+          "disabled": true,
           "settings": {
             "low_inventory_threshold": 10
           }
@@ -71,6 +85,7 @@
         },
         "96617279-0ca8-4ed8-ad3d-5c55c13472ec": {
           "type": "separator",
+          "disabled": true,
           "settings": {
           }
         },
@@ -101,6 +116,7 @@
         "variant_picker",
         "quantity_selector",
         "6d1e7437-32cc-4b14-9f60-3b818cbed684",
+        "7c8d78a3-8f26-40bd-b85c-9d14ddf904e4",
         "19937545-298a-4651-9687-4525f0a97a0a",
         "d3e695ec-c2c1-416b-9482-cc06f0166cf0",
         "ba3b5461-8a7f-4d6a-bdc0-bfcaad62fae4",
