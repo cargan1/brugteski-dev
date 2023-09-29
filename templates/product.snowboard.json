@@ -77,21 +77,6 @@
           "type": "separator",
           "settings": {
           }
-        },
-        "b7116d37-820d-4320-ba8a-a4a7ce116385": {
-          "type": "text",
-          "settings": {
-            "text": "<p><em><strong>Udfyld feltet, så indstiller vi dine bindinger 🎿<\/strong><\/em><\/p>"
-          }
-        },
-        "6e6c8a01-4673-4115-bdee-5ea4ca9d3497": {
-          "type": "line_item_property",
-          "settings": {
-            "label": "Vægt (kg), Højde (cm) & Støvlelængde (mm)",
-            "type": "text",
-            "required": false,
-            "allow_long_text": false
-          }
         }
       },
       "block_order": [
@@ -106,9 +91,7 @@
         "19937545-298a-4651-9687-4525f0a97a0a",
         "d3e695ec-c2c1-416b-9482-cc06f0166cf0",
         "ba3b5461-8a7f-4d6a-bdc0-bfcaad62fae4",
-        "96617279-0ca8-4ed8-ad3d-5c55c13472ec",
-        "b7116d37-820d-4320-ba8a-a4a7ce116385",
-        "6e6c8a01-4673-4115-bdee-5ea4ca9d3497"
+        "96617279-0ca8-4ed8-ad3d-5c55c13472ec"
       ],
       "settings": {
         "full_width": true,
@@ -293,7 +276,7 @@
         "full_width": true,
         "subheading": "",
         "title": "Specifikationer",
-        "content": "<p>Disse ski er følgende:<br\/>✅ Nyvokset og slebet<br\/>✅ Medfølger bindinger<br\/>✅ Været igennem kvalitetskontrol<\/p><p>Der medfølger en masse fordele, når du køber udstyr fra Brugteski.dk. <a href=\"\/pages\/dig-som-kunde\" target=\"_blank\" title=\"Dig som kunde hos Brugteski.dk\">Se alle dine fordele her.<\/a><\/p>",
+        "content": "<p>Disse ski er følgende:<br\/>✅ Nyvokset og slebet<br\/>❌ Medfølger ikke bindinger<br\/>✅ Været igennem kvalitetskontrol<\/p><p>Der medfølger en masse fordele, når du køber udstyr fra Brugteski.dk. <a href=\"\/pages\/dig-som-kunde\" target=\"_blank\" title=\"Dig som kunde hos Brugteski.dk\">Se alle dine fordele her.<\/a><\/p>",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
@@ -568,7 +551,7 @@
         "template--18752117866841__82a4bfbb-5629-4257-a61a-8f3f9f259c01-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Er du i tvivl om længden på dit udstyr? Så har vi lavet en størrelsesguide, som kan hjælpe dig med at finde den helt rigtige størrelse på udstyr!<\/p><p>Den bedste måde at finde ud af længden på dit udstyr, er ved at tage vores ski-finder quiz. Ved at svare på en række spørgsmål, får du tilsendt dine nøjagtige skilængde! <a href=\"\/pages\/ski-finder\" title=\"Ski-finder\">Prøv quizzen her<\/a><\/p>"
+            "content": "<p>Er du i tvivl om længden på dit udstyr? Så har vi lavet en størrelsesguide, som kan hjælpe dig med at finde den helt rigtige størrelse på udstyr!<\/p>"
           }
         },
         "b48753b6-b85b-4cad-a1a1-bdc199759c28": {
