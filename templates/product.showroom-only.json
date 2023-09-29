@@ -449,15 +449,15 @@
         "template--18752117866841__cf3bc1f9-3c9e-41b4-9d4d-02552375f778-item-2": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+            "title": "Hvor ligger skibutikken hende?",
+            "content": "<p>Skibutikken ligger i Fredericia 2 minutter fra motorvejen, så det er super nemt at komme til. <\/p><p>Adressen er Krogsagervej 50, 2 7000 Fredericia<\/p><p><a href=\"\/pages\/showroom-og-vores-abningstider\" title=\"Butik og vores åbningstider\">Se vores åbningstider her<\/a><\/p>"
           }
         },
         "template--18752117866841__cf3bc1f9-3c9e-41b4-9d4d-02552375f778-item-3": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+            "title": "Hvordan fungere \"Ski service\"?",
+            "content": "<p>Du tager dine ski eller snowboard med ned i butikken, og så ordner vi udstyret for dig. Du behøver ikke bestille tid i forvejen, du skal bare møde på i <a href=\"\/pages\/showroom-og-vores-abningstider\" title=\"Butik og vores åbningstider\">vores åbningstider.<\/a><\/p>"
           }
         }
       },
