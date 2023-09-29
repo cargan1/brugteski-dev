@@ -695,14 +695,14 @@
         "template--14429261332515__1b924801-2f39-4b3d-97cf-6ac91e20f85c-1666191404eaad16b1-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner.ski.g.jpg",
+            "image": "shopify:\/\/shop_images\/ski_og_snowboard.g.jpg",
             "media_width": 60,
             "media_position": "start",
             "text_position": "place-self-start text-start",
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "Svært at finde de rigtige ski?",
+            "title": "Svært at finde det rigtigt board?",
             "content": "<p>Vi har en skibutik i Fredericia, hvor du\/din familie vil kunne komme ned og prøve, samt se alt udstyret. Her vil vi også kunne guide dig\/jer, til at kunne finde det helt rigtigt, for lige netop DIG.<\/p>",
             "link_text": "Se adressen her",
             "link_url": "shopify:\/\/pages\/showroom-og-vores-abningstider",
