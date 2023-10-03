@@ -7,14 +7,23 @@
       "blocks": {
         "message": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "🎿 Kom med til vores sæsonstart den første weekend i oktober - 10% rabat på alt 🎿",
             "url": "https:\/\/www.facebook.com\/events\/1937575296613324\/?active_tab=discussion"
           }
+        },
+        "fb1e6665-ce14-4a1c-a720-f7108a7fb3eb": {
+          "type": "message",
+          "settings": {
+            "text": "🎿 Altid gratis fragt og returnering med 2-5 dages levering 🎿",
+            "url": ""
+          }
         }
       },
       "block_order": [
-        "message"
+        "message",
+        "fb1e6665-ce14-4a1c-a720-f7108a7fb3eb"
       ],
       "settings": {
         "enable_sticky": false,
