@@ -453,6 +453,47 @@
         "heading_gradient": ""
       }
     },
+    "a298ae13-d71c-4643-a849-6798eb7d3b69": {
+      "type": "video",
+      "blocks": {
+        "9e506e00-455a-4390-8f8a-b91e60ec3e17": {
+          "type": "subheading",
+          "settings": {
+            "text": "Besøg vores skibutik"
+          }
+        },
+        "fafa8569-4523-4580-bdbb-74c76271a10f": {
+          "type": "heading",
+          "settings": {
+            "text": "Butik i Fredericia",
+            "heading_tag": "h1"
+          }
+        },
+        "c3be68e8-bbd0-4230-a98b-300bf7708c97": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Åbningstider<br\/><\/strong>Mandag til Tirsdag: Lukket<br\/>Onsdag: 12.00-17.00<br\/>Torsdag til Fredag: Lukket<br\/>Lørdag: 11.00-17.00<br\/>Søndag: 11.00-17.00<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "9e506e00-455a-4390-8f8a-b91e60ec3e17",
+        "fafa8569-4523-4580-bdbb-74c76271a10f",
+        "c3be68e8-bbd0-4230-a98b-300bf7708c97"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "sm",
+        "video": "shopify:\/\/files\/videos\/Hjemmeside_1.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#0039ff",
+        "overlay_opacity": 70,
+        "tab_label": ""
+      }
+    },
     "56be727f-3b6b-437d-b169-29393ae1108c": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -481,6 +522,7 @@
         "template--18752118292825__56be727f-3b6b-437d-b169-29393ae1108c-heading-1",
         "template--18752118292825__56be727f-3b6b-437d-b169-29393ae1108c-richtext-1"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
@@ -508,6 +550,7 @@
     "5416e99f-3a7e-4a0f-8201-00b6ab233144",
     "04bc0508-1798-4c95-ba1d-87cc94b67e63",
     "70c1490b-879a-4cf4-b3c8-33793d88e30d",
+    "a298ae13-d71c-4643-a849-6798eb7d3b69",
     "56be727f-3b6b-437d-b169-29393ae1108c"
   ]
 }
