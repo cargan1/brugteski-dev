@@ -55,7 +55,7 @@
             "image": "shopify:\/\/shop_images\/udvalg_skitilbehor_fc2a4305-a98c-4b03-8d06-b09b4e8751d0.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/voks",
+            "link_url": "https:\/\/brugteski.dk\/collections\/voks?filter.v.availability=1",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
