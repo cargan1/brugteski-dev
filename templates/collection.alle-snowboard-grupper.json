@@ -27,7 +27,7 @@
         "block_size": "small",
         "subheading": "",
         "title": "",
-        "content": "<p><a href=\"https:\/\/brugteski.dk\/\" title=\"https:\/\/brugteski.dk\/\">Forside<\/a> \/  <a href=\"\/collections\/alt-snowboard\" title=\"Alt snowboard\">Alt snowboard<\/a> \/  {{ collection.title }}<br\/><\/p>",
+        "content": "<p><a href=\"https:\/\/brugteski.dk\/\" title=\"https:\/\/brugteski.dk\/\">Forside<\/a> \/  <a href=\"https:\/\/brugteski.dk\/collections\/alt-snowboard?filter.v.availability=1\" title=\"https:\/\/brugteski.dk\/collections\/alt-snowboard?filter.v.availability=1\">Alt snowboard<\/a> \/  {{ collection.title }}<br\/><\/p>",
         "link_url": "",
         "link_text": "",
         "background": "",
