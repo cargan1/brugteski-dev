@@ -21,7 +21,7 @@
         "template--20022743040345__0a9b46bf-52b6-48c5-a929-0bd99c011b17-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Super fedt du har tildmeldt dig VIP-listen for dette års Black Days tilbud!<\/p><p>Som VIP får du ekstraordinære tilbud og adgang til disse 24 timer før alle andre. Udover alt dette så er du også med i lodtrækning om en vild konkurrence<\/p>"
+            "content": "<p>Super fedt du har tildmeldt dig VIP-listen for dette års Black Days tilbud!<\/p><p>Som VIP får du ekstraordinære tilbud og adgang til disse 24 timer før alle andre. Udover alt dette så er du også med i lodtrækning om en vild konkurrence!<br\/>Du vil modtage en mail med nærmere information senere<\/p><p><strong>VIP tilbuddene går live torsdag den 23. november kl 00.00 og slutter allerede ingen om igen aftenen kl 23.59<br\/><\/strong><em><strong>Du skal være hurtigt for at nå det!<\/strong><\/em><\/p><p><\/p>"
           }
         }
       },
@@ -103,7 +103,7 @@
         "stack_collections": true,
         "collections_per_row": 3,
         "show_progress_bar": false,
-        "subheading": "Begyndt jagten nu, så du ved hvad du vil have!",
+        "subheading": "Begyndt jagten nu, så du ved hvad du vil have",
         "title": "Alle ski",
         "content": "",
         "link_url": "",
