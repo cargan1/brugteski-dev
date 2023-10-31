@@ -34,7 +34,7 @@
         "full_width": true,
         "content_width": "small",
         "text_position": "center",
-        "background": "",
+        "background": "#f0c417",
         "background_gradient": "",
         "text_color": "",
         "tab_label": ""
@@ -108,7 +108,7 @@
         "content": "",
         "link_url": "",
         "link_text": "",
-        "background": "",
+        "background": "rgba(0,0,0,0)",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
