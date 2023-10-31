@@ -1,12 +1,124 @@
 {
   "sections": {
+    "0a9b46bf-52b6-48c5-a929-0bd99c011b17": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20022743040345__0a9b46bf-52b6-48c5-a929-0bd99c011b17-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Velkommen"
+          }
+        },
+        "template--20022743040345__0a9b46bf-52b6-48c5-a929-0bd99c011b17-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "PÅ VIP-liste",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--20022743040345__0a9b46bf-52b6-48c5-a929-0bd99c011b17-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Super fedt du har tildmeldt dig VIP-listen for dette års Black Days tilbud!<\/p><p>Som VIP får du ekstraordinære tilbud og adgang til disse 24 timer før alle andre. Udover alt dette så er du også med i lodtrækning om en vild konkurrence<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20022743040345__0a9b46bf-52b6-48c5-a929-0bd99c011b17-subheading-1",
+        "template--20022743040345__0a9b46bf-52b6-48c5-a929-0bd99c011b17-heading-1",
+        "template--20022743040345__0a9b46bf-52b6-48c5-a929-0bd99c011b17-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "tab_label": ""
+      }
+    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "f22c5cc1-58fb-42e9-a081-970a26d62331": {
+      "type": "collection-list",
+      "blocks": {
+        "template--20022743040345__f22c5cc1-58fb-42e9-a081-970a26d62331-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "herre-dameski",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--20022743040345__f22c5cc1-58fb-42e9-a081-970a26d62331-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "borne-juniorski",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--20022743040345__f22c5cc1-58fb-42e9-a081-970a26d62331-collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "touring-ski",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--20022743040345__f22c5cc1-58fb-42e9-a081-970a26d62331-collection-1",
+        "template--20022743040345__f22c5cc1-58fb-42e9-a081-970a26d62331-collection-2",
+        "template--20022743040345__f22c5cc1-58fb-42e9-a081-970a26d62331-collection-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_collections": true,
+        "collections_per_row": 3,
+        "show_progress_bar": false,
+        "subheading": "Begyndt jagten nu, så du ved hvad du vil have!",
+        "title": "Alle ski",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
       }
     }
   },
   "order": [
-    "main"
+    "0a9b46bf-52b6-48c5-a929-0bd99c011b17",
+    "main",
+    "f22c5cc1-58fb-42e9-a081-970a26d62331"
   ]
 }
