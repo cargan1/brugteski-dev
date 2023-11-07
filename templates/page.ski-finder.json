@@ -13,7 +13,7 @@
         "template--19597036781913__51ff0030-b448-4c7e-8826-72ced91e2e21-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "Ski-finder quizzen",
+            "text": "Ski-finder test",
             "heading_tag": "h1",
             "text_color": "",
             "gradient": ""
@@ -22,7 +22,7 @@
         "e89a01dd-3c89-4b97-b111-70f614d856e2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Det har aldrig været letter at finde ud af hvilke ski du skal vælge, end det er lige nu! Vi har lavet en simpel quizz, hvor du svarer på få spørgsmål, og ud fra det har vi en ski-analyse klar til dig!<\/p>"
+            "content": "<p>Det har aldrig været letter at finde ud af hvilke ski du skal vælge, end det er lige nu! Vi har lavet en simpel test, hvor du svarer på få spørgsmål, og ud fra det har vi en ski-analyse klar til dig!<\/p>"
           }
         }
       },
