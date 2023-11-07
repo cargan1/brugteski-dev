@@ -61,12 +61,12 @@
           "type": "button",
           "settings": {
             "link": "shopify:\/\/pages\/byt-til-nyt",
-            "text": "Spar penge på din ordre - byt dit udstyr hos os!",
-            "size": "base",
+            "text": "Spar penge på din ordre - byt dit udstyr hos os",
+            "size": "sm",
             "style": "fill",
             "stretch": true,
-            "background": "#003eff",
-            "text_color": ""
+            "background": "#e1e7ff",
+            "text_color": "#000000"
           }
         },
         "19937545-298a-4651-9687-4525f0a97a0a": {
