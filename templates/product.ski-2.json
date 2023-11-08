@@ -497,18 +497,18 @@
             "content": "<p>Selvom det er brugte produkter vi sælger hos Brugteski.dk, så medfølger der stadigvæk 24 måneders reklamationsret på alle produkter. Så er der ingen grund til at være bange for, at skien ikke kan holde!<\/p>"
           }
         },
-        "a2e3bc9c-4e8d-4d45-94b5-e5330384f484": {
-          "type": "item",
-          "settings": {
-            "title": "Hvor meget spare jeg ved at købe brugte ski?",
-            "content": "<p>Der er rigtig mange penge at hente ved at købe brugte ski. Ski er lavet gode kraftige materialer, der gør dem næsten umulige at ødelægge. Det betyder også, at bare fordi de har været brugt, og fået lidt ridser\/hakker, så fungere de stadigvæk upårklageligt.<\/p><p>Hos Brugteski.dk stræber vi efter at sælge vores brugte ski til 50% af den vejledende udsalgspris!<\/p>"
-          }
-        },
         "e312ac69-b51e-427b-8297-35e64662f406": {
           "type": "item",
           "settings": {
             "title": "Kan jeg se skiene i virkeligheden?",
             "content": "<p>Vi har en skibutik i Fredericia, hvor du kan komme fordi og prøve\/se alt vores udstyr. Her kan vi også hjælpe dig, med at finde det helt rigtige par ski!<br\/><a href=\"\/pages\/showroom-og-vores-abningstider\" title=\"Butik og vores åbningstider\">Se åbningstider og adresse her<\/a><\/p>"
+          }
+        },
+        "a2e3bc9c-4e8d-4d45-94b5-e5330384f484": {
+          "type": "item",
+          "settings": {
+            "title": "Hvor meget spare jeg ved at købe brugte ski?",
+            "content": "<p>Der er rigtig mange penge at hente ved at købe brugte ski. Ski er lavet gode kraftige materialer, der gør dem næsten umulige at ødelægge. Det betyder også, at bare fordi de har været brugt, og fået lidt ridser\/hakker, så fungere de stadigvæk upårklageligt.<\/p><p>Hos Brugteski.dk stræber vi efter at sælge vores brugte ski til 50% af den vejledende udsalgspris!<\/p>"
           }
         },
         "15b77d29-58c1-48d6-a108-d642b8955cb7": {
@@ -537,8 +537,8 @@
         "9c292cab-7b78-4692-8c18-42f344e2706b",
         "11eee007-eaf4-4e11-a076-9379afbb4c13",
         "009eeec1-dbb2-4546-b565-5bded8512799",
-        "a2e3bc9c-4e8d-4d45-94b5-e5330384f484",
         "e312ac69-b51e-427b-8297-35e64662f406",
+        "a2e3bc9c-4e8d-4d45-94b5-e5330384f484",
         "15b77d29-58c1-48d6-a108-d642b8955cb7",
         "34c7aac8-b407-4984-ad88-05c8201f24e9"
       ],
@@ -546,10 +546,10 @@
         "full_width": false,
         "subheading": "",
         "title": "7 mest stillede spørgsmål",
-        "content": "<p>Se hvilke typiske spørgsmål der bliver stillet ved køb af ski hos Brugtski.dk<\/p>",
+        "content": "<p>Se hvilke typiske spørgsmål der bliver stillet ved køb af ski<\/p>",
         "team_avatar_width": 290,
         "support_hours": "",
-        "answer_time": "Er du stadigvæk i tvivl, så er du mere end velkommen til at kontakte kundeservice, og så finder vi et svar sammen.",
+        "answer_time": "Er du stadigvæk i tvivl om noget, så er du mere end velkommen til at kontakte kundeservice",
         "button_text": "Kontakt kundeservice",
         "button_url": "shopify:\/\/pages\/kontakt-os",
         "text_position": "center",
