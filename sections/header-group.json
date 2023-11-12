@@ -41,7 +41,7 @@
         "faa9a844-9a2b-47b3-93e4-2b9b920ac7ef": {
           "type": "mega_menu",
           "settings": {
-            "menu_item": "Ski",
+            "menu_item": "Udstyr",
             "layout": "horizontal_center",
             "submenu_style": "bold_heading",
             "image_1": "shopify:\/\/shop_images\/banner.g.jpg",
@@ -66,7 +66,7 @@
         "729086f0-e8ec-4b7c-91ad-ac54c26451cd": {
           "type": "mega_menu",
           "settings": {
-            "menu_item": "Snowboard",
+            "menu_item": "Beklædning",
             "layout": "horizontal_center",
             "submenu_style": "bold_heading",
             "image_1": "shopify:\/\/shop_images\/snowboard.g.jpg",
