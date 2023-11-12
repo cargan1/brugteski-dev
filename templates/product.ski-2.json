@@ -19,7 +19,7 @@
         "ec986969-61da-4cae-9bcd-b666012a0238": {
           "type": "text",
           "settings": {
-            "text": "<h3><strong>{{ product.title }}<\/strong><\/h3><p><em>Vejl. udsalgspris: <\/em><em>{{ product.metafields.custom.vejl_udsalgspris.value }}<\/em><\/p>"
+            "text": "<h3>{{ product.title }}<\/h3><p><em>Vejl. udsalgspris: <\/em><em>{{ product.metafields.custom.vejl_udsalgspris.value }}<\/em><\/p>"
           }
         },
         "price": {
