@@ -27,7 +27,7 @@
         "block_size": "small",
         "subheading": "",
         "title": "",
-        "content": "<p><a href=\"https:\/\/brugteski.dk\/\" title=\"https:\/\/brugteski.dk\/\">Forside<\/a> \/  <a href=\"https:\/\/brugteski.dk\/collections\/ski-skiudstyr?filter.v.availability=1\" title=\"https:\/\/brugteski.dk\/collections\/ski-skiudstyr?filter.v.availability=1\">Udstyr<\/a> \/ <a href=\"https:\/\/brugteski.dk\/collections\/alle-ski?filter.v.availability=1\" title=\"https:\/\/brugteski.dk\/collections\/alle-ski?filter.v.availability=1\">Alle ski<\/a> \/ {{ collection.title }}<br\/><\/p>",
+        "content": "<p><a href=\"https:\/\/brugteski.dk\/\" title=\"https:\/\/brugteski.dk\/\">Forside<\/a> \/  <a href=\"https:\/\/brugteski.dk\/collections\/ski-skiudstyr?filter.v.availability=1\" title=\"https:\/\/brugteski.dk\/collections\/ski-skiudstyr?filter.v.availability=1\">Udstyr<\/a> \/ <a href=\"https:\/\/brugteski.dk\/collections\/alle-ski?filter.v.availability=1\" title=\"https:\/\/brugteski.dk\/collections\/alle-ski?filter.v.availability=1\">Ski<\/a> \/ {{ collection.title }}<br\/><\/p>",
         "link_url": "",
         "link_text": "",
         "background": "",
