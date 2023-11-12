@@ -1,0 +1,154 @@
+{
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "show_collection_title": false,
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "collection_title_size": "h3",
+        "image_size": "sm",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "featured_product": "",
+        "featured_product_heading": "Featured product",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "4bdf9a05-c268-4dad-ba38-e5c1db7bcb74": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_alleSki.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "https:\/\/brugteski.dk\/collections\/alle-ski?filter.v.availability=1",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_skiudstyr_dc13ae32-2416-4d38-acc7-20754ad57d8b.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "https:\/\/brugteski.dk\/collections\/alt-tilbehor?filter.v.availability=1",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-0",
+        "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "block_size": "small",
+        "subheading": "",
+        "title": "",
+        "content": "<p><a href=\"https:\/\/brugteski.dk\/\" title=\"https:\/\/brugteski.dk\/\">Forside<\/a> \/ {{ collection.title }}<br\/><\/p>",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "main": {
+      "type": "main-collection-new",
+      "settings": {
+        "products_per_page": 30,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "filter_layout": "sidebar",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_filter_group_name": false,
+        "show_color_swatch": false,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": true,
+        "open_first_filter_group": true
+      }
+    },
+    "c1fd1f55-0ce4-4389-b3ea-b949460ef382": {
+      "type": "trustpilot-stjerner",
+      "custom_css": [
+
+      ],
+      "settings": {
+      }
+    },
+    "38bc7e44-b411-4e95-8b29-e8b99cb24551": {
+      "type": "scrolling-text",
+      "settings": {
+        "full_width": true,
+        "text": "Spar op til 72% af nypris",
+        "text_size": "xsmall",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 14,
+        "background": "#003eff",
+        "background_gradient": "",
+        "text_color": "#ffffff",
+        "text_gradient": ""
+      }
+    },
+    "9c97e046-53a7-428d-965b-e74aa263b5ca": {
+      "type": "blog-posts",
+      "blocks": {
+        "template--14429261299747__9c97e046-53a7-428d-965b-e74aa263b5ca-16661253977a2bf0d6-0": {
+          "type": "article",
+          "settings": {
+            "article": "alt-om-ski\/3-fordelene-ved-at-sta-pa-ski",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14429261299747__9c97e046-53a7-428d-965b-e74aa263b5ca-16661253977a2bf0d6-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": true,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "",
+        "content": "<p><strong>Brug for hjælp til at finde de rette ski? Læs vores ski-guide her.<\/strong><\/p>",
+        "link_url": "shopify:\/\/blogs\/alt-om-ski\/3-fordelene-ved-at-sta-pa-ski",
+        "link_text": "Læs om alle råd til skiferien",
+        "background": "#efefef",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "4bdf9a05-c268-4dad-ba38-e5c1db7bcb74",
+    "main",
+    "c1fd1f55-0ce4-4389-b3ea-b949460ef382",
+    "38bc7e44-b411-4e95-8b29-e8b99cb24551",
+    "9c97e046-53a7-428d-965b-e74aa263b5ca"
+  ]
+}
