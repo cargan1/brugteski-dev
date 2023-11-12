@@ -5,6 +5,7 @@
       "blocks": {
         "title": {
           "type": "title",
+          "disabled": true,
           "settings": {
             "heading_tag": "h3"
           }
@@ -17,9 +18,8 @@
         },
         "ec986969-61da-4cae-9bcd-b666012a0238": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<h3>{{ product.title }}<\/h3><p><em>Vejl. udsalgspris: <\/em><em>{{ product.metafields.custom.vejl_udsalgspris.value }}<\/em><\/p>"
+            "text": "<h3>{{ product.title }}<\/h3><p><em>{{ product.metafields.custom.vejl_udsalgspris.value }}<\/em><\/p>"
           }
         },
         "price": {
