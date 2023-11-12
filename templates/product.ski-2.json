@@ -11,7 +11,14 @@
         },
         "badges": {
           "type": "badges",
+          "disabled": true,
           "settings": {
+          }
+        },
+        "ec986969-61da-4cae-9bcd-b666012a0238": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Vejl. udsalgspris: <\/em><em>{{ product.metafields.custom.vejl_udsalgspris.value }}<\/em><\/p>"
           }
         },
         "price": {
@@ -103,6 +110,7 @@
       "block_order": [
         "title",
         "badges",
+        "ec986969-61da-4cae-9bcd-b666012a0238",
         "price",
         "separator",
         "variant_picker",
