@@ -73,7 +73,7 @@
         "block_size": "small",
         "subheading": "",
         "title": "",
-        "content": "<p><a href=\"https:\/\/brugteski.dk\/\" title=\"https:\/\/brugteski.dk\/\">Forside<\/a> \/  <a href=\"https:\/\/brugteski.dk\/collections\/ski-skiudstyr?filter.v.availability=1\" title=\"https:\/\/brugteski.dk\/collections\/ski-skiudstyr?filter.v.availability=1\">Ski & Skiudstyr<\/a> \/ {{ collection.title }}<\/p>",
+        "content": "<p><a href=\"https:\/\/brugteski.dk\/\" title=\"https:\/\/brugteski.dk\/\">Forside<\/a> \/  <a href=\"https:\/\/brugteski.dk\/collections\/ski-skiudstyr?filter.v.availability=1\" title=\"https:\/\/brugteski.dk\/collections\/ski-skiudstyr?filter.v.availability=1\">Beklædning<\/a> \/ {{ collection.title }}<\/p>",
         "link_url": "",
         "link_text": "",
         "background": "",
