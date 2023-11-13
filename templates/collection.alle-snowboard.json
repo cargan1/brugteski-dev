@@ -26,7 +26,7 @@
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_snowboard_9ae3bc78-49b8-4f32-bc05-3d40d57c6e54.jpg",
+            "image": "shopify:\/\/shop_images\/udvalg_snowboards.jpg",
             "stretch_image": true,
             "link_text": "",
             "link_url": "https:\/\/brugteski.dk\/collections\/snowboard?filter.v.availability=1",
@@ -61,12 +61,39 @@
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
+        },
+        "8aaf4ee8-1e2b-4c53-a733-8273461da5c6": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "38e8c87e-7d0d-4bb0-a8d0-4ed80cbd7bf8": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_skiservice2.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "shopify:\/\/products\/ski-service-pro",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
         }
       },
       "block_order": [
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-0",
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-1",
-        "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-2"
+        "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-2",
+        "8aaf4ee8-1e2b-4c53-a733-8273461da5c6",
+        "38e8c87e-7d0d-4bb0-a8d0-4ed80cbd7bf8"
       ],
       "settings": {
         "full_width": false,
