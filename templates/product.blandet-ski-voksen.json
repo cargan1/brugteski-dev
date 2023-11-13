@@ -153,6 +153,7 @@
         },
         "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-0": {
           "type": "tab",
+          "disabled": true,
           "settings": {
             "title": "Detaljer"
           }
@@ -303,6 +304,7 @@
         "template--14429261332515__7bd8baf1-9eb8-41b9-82b3-49a08ae4c5ad-166628750253df3689-0",
         "template--14429261332515__7bd8baf1-9eb8-41b9-82b3-49a08ae4c5ad-166628750253df3689-1"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "subheading": "",
