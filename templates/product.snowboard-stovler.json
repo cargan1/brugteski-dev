@@ -5,6 +5,7 @@
       "blocks": {
         "title": {
           "type": "title",
+          "disabled": true,
           "settings": {
             "heading_tag": "h3"
           }
@@ -12,7 +13,7 @@
         "d1224f6d-84f0-4964-a2ea-3c983114b1a2": {
           "type": "text",
           "settings": {
-            "text": "<p>Share some content to your customers about your products.<\/p>"
+            "text": "<h3>{{ product.title }}<\/h3><p><em>{{ product.metafields.custom.vejl_udsalgspris.value }}<\/em><\/p>"
           }
         },
         "price": {
