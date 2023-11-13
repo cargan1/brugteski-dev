@@ -91,10 +91,10 @@
         "63b658bb-4a92-49ea-9ad5-565924388bbe": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_skiservice.jpg",
+            "image": "shopify:\/\/shop_images\/udvalg_skiservice2.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "",
+            "link_url": "shopify:\/\/products\/ski-service-pro",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
