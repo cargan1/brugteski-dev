@@ -5,8 +5,15 @@
       "blocks": {
         "title": {
           "type": "title",
+          "disabled": true,
           "settings": {
             "heading_tag": "h3"
+          }
+        },
+        "526b51f3-bddd-498f-8d12-32b50bb7df2c": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>{{ product.title }}<\/h3><p><em>{{ product.metafields.custom.vejl_udsalgspris.value }}<\/em><\/p>"
           }
         },
         "badges": {
@@ -49,7 +56,7 @@
         "6d1e7437-32cc-4b14-9f60-3b818cbed684": {
           "type": "text",
           "settings": {
-            "text": "<p><em><strong>Leveringstid: <\/strong><\/em><em>2-5 hverdage<\/em><\/p>"
+            "text": "<p><em><strong>Leveringstid: <\/strong><\/em><em>2-5 hverdage<br\/>Obs. billederne er retvisende, slid aflæses ud fra stand<\/em><\/p>"
           }
         },
         "buy_buttons": {
@@ -80,6 +87,7 @@
       },
       "block_order": [
         "title",
+        "526b51f3-bddd-498f-8d12-32b50bb7df2c",
         "badges",
         "price",
         "separator",
