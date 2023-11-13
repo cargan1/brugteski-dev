@@ -35,6 +35,12 @@
             "size_chart_page": ""
           }
         },
+        "19937545-298a-4651-9687-4525f0a97a0a": {
+          "type": "inventory",
+          "settings": {
+            "low_inventory_threshold": 10
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -54,12 +60,6 @@
             "atc_button_text_color": "",
             "payment_button_background": "#003eff",
             "payment_button_text_color": ""
-          }
-        },
-        "19937545-298a-4651-9687-4525f0a97a0a": {
-          "type": "inventory",
-          "settings": {
-            "low_inventory_threshold": 10
           }
         },
         "d3e695ec-c2c1-416b-9482-cc06f0166cf0": {
@@ -84,10 +84,10 @@
         "price",
         "separator",
         "variant_picker",
+        "19937545-298a-4651-9687-4525f0a97a0a",
         "quantity_selector",
         "6d1e7437-32cc-4b14-9f60-3b818cbed684",
         "buy_buttons",
-        "19937545-298a-4651-9687-4525f0a97a0a",
         "d3e695ec-c2c1-416b-9482-cc06f0166cf0",
         "ba3b5461-8a7f-4d6a-bdc0-bfcaad62fae4",
         "96617279-0ca8-4ed8-ad3d-5c55c13472ec"
@@ -95,8 +95,8 @@
       "settings": {
         "full_width": true,
         "show_fixed_add_to_cart": false,
-        "desktop_media_width": 50,
-        "desktop_media_layout": "carousel_thumbnails_bottom",
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "contained",
         "mobile_carousel_control": "floating_dots",
         "enable_video_autoplay": false,
