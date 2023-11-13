@@ -39,7 +39,7 @@
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-3": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_skistovler_48a33d53-290b-42ce-9914-8b52c52bf986.jpg",
+            "image": "shopify:\/\/shop_images\/udvalg_skistovler2.jpg",
             "stretch_image": true,
             "link_text": "",
             "link_url": "https:\/\/brugteski.dk\/collections\/skistovler?filter.v.availability=1",
@@ -52,10 +52,23 @@
         "7cf735e1-01b5-49c8-8ca7-1383bc658648": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_skitilbehor_fc2a4305-a98c-4b03-8d06-b09b4e8751d0.jpg",
+            "image": "shopify:\/\/shop_images\/udvalg_skibriller.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "https:\/\/brugteski.dk\/collections\/voks?filter.v.availability=1",
+            "link_url": "https:\/\/brugteski.dk\/collections\/skibriller?filter.v.availability=1",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "0c184e33-b731-4851-b5dd-9d33a46af2c0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_skihjelm.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "shopify:\/\/products\/ski-hjelme",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -66,7 +79,8 @@
       "block_order": [
         "a5f68762-6842-44de-b848-7f8bc56a57c6",
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-3",
-        "7cf735e1-01b5-49c8-8ca7-1383bc658648"
+        "7cf735e1-01b5-49c8-8ca7-1383bc658648",
+        "0c184e33-b731-4851-b5dd-9d33a46af2c0"
       ],
       "settings": {
         "full_width": false,
