@@ -75,6 +75,19 @@
             "overlay_opacity": 0
           }
         },
+        "1ab26b8e-c402-488c-b389-129c04f2a65f": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_poser.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
         "63b658bb-4a92-49ea-9ad5-565924388bbe": {
           "type": "item",
           "settings": {
@@ -94,6 +107,7 @@
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-3",
         "7cf735e1-01b5-49c8-8ca7-1383bc658648",
         "0c184e33-b731-4851-b5dd-9d33a46af2c0",
+        "1ab26b8e-c402-488c-b389-129c04f2a65f",
         "63b658bb-4a92-49ea-9ad5-565924388bbe"
       ],
       "settings": {
