@@ -9,6 +9,12 @@
             "heading_tag": "h3"
           }
         },
+        "d1224f6d-84f0-4964-a2ea-3c983114b1a2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share some content to your customers about your products.<\/p>"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -52,6 +58,18 @@
             "payment_button_text_color": ""
           }
         },
+        "1d414f49-dca2-4eb2-9eaf-102b6d624e94": {
+          "type": "button",
+          "settings": {
+            "link": "shopify:\/\/pages\/byt-til-nyt",
+            "text": "Spar penge på din ordre - byt dit udstyr hos os",
+            "size": "xl",
+            "style": "fill",
+            "stretch": true,
+            "background": "#e1e7ff",
+            "text_color": "#000000"
+          }
+        },
         "d3e695ec-c2c1-416b-9482-cc06f0166cf0": {
           "type": "payment-icons",
           "settings": {
@@ -85,12 +103,14 @@
       },
       "block_order": [
         "title",
+        "d1224f6d-84f0-4964-a2ea-3c983114b1a2",
         "price",
         "separator",
         "variant_picker",
         "19937545-298a-4651-9687-4525f0a97a0a",
         "6d1e7437-32cc-4b14-9f60-3b818cbed684",
         "buy_buttons",
+        "1d414f49-dca2-4eb2-9eaf-102b6d624e94",
         "d3e695ec-c2c1-416b-9482-cc06f0166cf0",
         "ba3b5461-8a7f-4d6a-bdc0-bfcaad62fae4",
         "96617279-0ca8-4ed8-ad3d-5c55c13472ec",
