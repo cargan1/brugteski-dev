@@ -9,11 +9,6 @@
             "heading_tag": "h3"
           }
         },
-        "badges": {
-          "type": "badges",
-          "settings": {
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -35,10 +30,10 @@
             "size_chart_page": ""
           }
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "disabled": true,
+        "19937545-298a-4651-9687-4525f0a97a0a": {
+          "type": "inventory",
           "settings": {
+            "low_inventory_threshold": 10
           }
         },
         "6d1e7437-32cc-4b14-9f60-3b818cbed684": {
@@ -55,12 +50,6 @@
             "atc_button_text_color": "",
             "payment_button_background": "#003eff",
             "payment_button_text_color": ""
-          }
-        },
-        "19937545-298a-4651-9687-4525f0a97a0a": {
-          "type": "inventory",
-          "settings": {
-            "low_inventory_threshold": 10
           }
         },
         "d3e695ec-c2c1-416b-9482-cc06f0166cf0": {
@@ -87,7 +76,7 @@
         "6e6c8a01-4673-4115-bdee-5ea4ca9d3497": {
           "type": "line_item_property",
           "settings": {
-            "label": "Er ejerne til støvlerne under 15 år?",
+            "label": "Ejerne til støvlerne er under 16 år",
             "type": "checkbox",
             "required": false,
             "allow_long_text": false
@@ -96,14 +85,12 @@
       },
       "block_order": [
         "title",
-        "badges",
         "price",
         "separator",
         "variant_picker",
-        "quantity_selector",
+        "19937545-298a-4651-9687-4525f0a97a0a",
         "6d1e7437-32cc-4b14-9f60-3b818cbed684",
         "buy_buttons",
-        "19937545-298a-4651-9687-4525f0a97a0a",
         "d3e695ec-c2c1-416b-9482-cc06f0166cf0",
         "ba3b5461-8a7f-4d6a-bdc0-bfcaad62fae4",
         "96617279-0ca8-4ed8-ad3d-5c55c13472ec",
