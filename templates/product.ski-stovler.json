@@ -95,7 +95,7 @@
         "6e6c8a01-4673-4115-bdee-5ea4ca9d3497": {
           "type": "line_item_property",
           "settings": {
-            "label": "Er ejerne til støvlerne under 15 år?",
+            "label": "Er ejerne til støvlerne under 16 år?",
             "type": "checkbox",
             "required": false,
             "allow_long_text": false
