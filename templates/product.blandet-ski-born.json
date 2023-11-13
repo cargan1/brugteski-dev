@@ -5,8 +5,15 @@
       "blocks": {
         "title": {
           "type": "title",
+          "disabled": true,
           "settings": {
             "heading_tag": "h3"
+          }
+        },
+        "cbf527f5-ca5a-4006-9b01-1114cf203187": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>{{ product.title }}<\/h3><p><em>{{ product.metafields.custom.vejl_udsalgspris.value }}<\/em><\/p>"
           }
         },
         "badges": {
@@ -35,10 +42,10 @@
             "size_chart_page": ""
           }
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "disabled": true,
+        "19937545-298a-4651-9687-4525f0a97a0a": {
+          "type": "inventory",
           "settings": {
+            "low_inventory_threshold": 10
           }
         },
         "6d1e7437-32cc-4b14-9f60-3b818cbed684": {
@@ -57,10 +64,16 @@
             "payment_button_text_color": ""
           }
         },
-        "19937545-298a-4651-9687-4525f0a97a0a": {
-          "type": "inventory",
+        "f1529b23-1509-4880-adc4-1ee2e2c42970": {
+          "type": "button",
           "settings": {
-            "low_inventory_threshold": 10
+            "link": "",
+            "text": "Spar penge på din ordre - byt dit udstyr hos os",
+            "size": "sm",
+            "style": "fill",
+            "stretch": true,
+            "background": "#e1e7ff",
+            "text_color": "#000000"
           }
         },
         "d3e695ec-c2c1-416b-9482-cc06f0166cf0": {
@@ -96,14 +109,15 @@
       },
       "block_order": [
         "title",
+        "cbf527f5-ca5a-4006-9b01-1114cf203187",
         "badges",
         "price",
         "separator",
         "variant_picker",
-        "quantity_selector",
+        "19937545-298a-4651-9687-4525f0a97a0a",
         "6d1e7437-32cc-4b14-9f60-3b818cbed684",
         "buy_buttons",
-        "19937545-298a-4651-9687-4525f0a97a0a",
+        "f1529b23-1509-4880-adc4-1ee2e2c42970",
         "d3e695ec-c2c1-416b-9482-cc06f0166cf0",
         "ba3b5461-8a7f-4d6a-bdc0-bfcaad62fae4",
         "96617279-0ca8-4ed8-ad3d-5c55c13472ec",
@@ -113,8 +127,8 @@
       "settings": {
         "full_width": true,
         "show_fixed_add_to_cart": false,
-        "desktop_media_width": 50,
-        "desktop_media_layout": "carousel_thumbnails_bottom",
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "contained",
         "mobile_carousel_control": "floating_dots",
         "enable_video_autoplay": false,
