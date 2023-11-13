@@ -69,6 +69,18 @@
             "payment_button_text_color": ""
           }
         },
+        "aeb7f8fa-be21-4621-8c88-9360d5fec50b": {
+          "type": "button",
+          "settings": {
+            "link": "shopify:\/\/pages\/byt-til-nyt",
+            "text": "Spar penge på din ordre - byt dit udstyr hos os",
+            "size": "sm",
+            "style": "fill",
+            "stretch": true,
+            "background": "#e1e7ff",
+            "text_color": "#000000"
+          }
+        },
         "d3e695ec-c2c1-416b-9482-cc06f0166cf0": {
           "type": "payment-icons",
           "settings": {
@@ -96,6 +108,7 @@
         "quantity_selector",
         "6d1e7437-32cc-4b14-9f60-3b818cbed684",
         "buy_buttons",
+        "aeb7f8fa-be21-4621-8c88-9360d5fec50b",
         "d3e695ec-c2c1-416b-9482-cc06f0166cf0",
         "ba3b5461-8a7f-4d6a-bdc0-bfcaad62fae4",
         "96617279-0ca8-4ed8-ad3d-5c55c13472ec"
