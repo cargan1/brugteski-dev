@@ -15,15 +15,24 @@
         },
         "fb1e6665-ce14-4a1c-a720-f7108a7fb3eb": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "🎿 Altid gratis fragt og returnering med 2-5 dages levering 🎿",
             "url": ""
+          }
+        },
+        "e0165828-a5d4-41cd-8881-6e816e65dd50": {
+          "type": "message",
+          "settings": {
+            "text": "🎿Kom med til vores Black Days event denne uge🎿",
+            "url": "https:\/\/fb.me\/e\/1fu17iBCf"
           }
         }
       },
       "block_order": [
         "message",
-        "fb1e6665-ce14-4a1c-a720-f7108a7fb3eb"
+        "fb1e6665-ce14-4a1c-a720-f7108a7fb3eb",
+        "e0165828-a5d4-41cd-8881-6e816e65dd50"
       ],
       "settings": {
         "enable_sticky": false,
