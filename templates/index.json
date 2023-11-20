@@ -472,7 +472,7 @@
         "c3be68e8-bbd0-4230-a98b-300bf7708c97": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>Åbningstider<br\/><\/strong>Mandag til Tirsdag: Lukket<br\/>Onsdag: 12.00-17.00<br\/>Torsdag: 11.00-17.00 (23\/11)<br\/>Fredag: 11.00-17.00 (24\/11)<br\/>Lørdag: 11.00-17.00<br\/>Søndag: 11.00-17.00<\/p>"
+            "content": "<p><strong>Åbningstider<br\/><\/strong>Mandag til Tirsdag: Lukket<br\/>Onsdag: 12.00-17.00<br\/>Torsdag: 11.00-17.00 (23\/11)<br\/>Fredag: 11.00-20.00 (24\/11)<br\/>Lørdag: 11.00-17.00<br\/>Søndag: 11.00-17.00<\/p>"
           }
         }
       },
