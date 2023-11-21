@@ -143,11 +143,18 @@
         "input_text_color": ""
       }
     },
+    "4b2f4dad-beb3-4647-84b2-79522c534386": {
+      "type": "product-desc",
+      "settings": {
+        "tab_label": ""
+      }
+    },
     "fe071cc7-bbc8-4bb2-9731-6976ff8b16ae": {
       "type": "tabs-dev",
       "blocks": {
         "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-1": {
           "type": "tab",
+          "disabled": true,
           "settings": {
             "title": "Beskrivelse"
           }
@@ -215,12 +222,6 @@
         "border_thickness": 0
       }
     },
-    "4b2f4dad-beb3-4647-84b2-79522c534386": {
-      "type": "product-desc",
-      "settings": {
-        "tab_label": "Beskrivelse"
-      }
-    },
     "bc007c98-134a-45e6-879f-a9610e0a56cd": {
       "type": "rich-text",
       "blocks": {
@@ -240,7 +241,7 @@
         "background": "",
         "background_gradient": "",
         "text_color": "",
-        "tab_label": "Description"
+        "tab_label": "g"
       }
     },
     "7bd8baf1-9eb8-41b9-82b3-49a08ae4c5ad": {
@@ -308,7 +309,7 @@
         "full_width": true,
         "subheading": "",
         "title": "Specifikationer",
-        "content": "<p>Disse ski er følgende:<br\/>✅ Nyvokset og slebet<br\/>✅ Medfølger bindinger<br\/>✅ Været igennem kvalitetskontrol<\/p><p>Der medfølger en masse fordele, når du køber udstyr fra Brugteski.dk. <a href=\"\/pages\/dig-som-kunde\" target=\"_blank\" title=\"Dig som kunde hos Brugteski.dk\">Se alle dine fordele her.<\/a><\/p>",
+        "content": "<p>Skiene er følgende:<br\/>✅ Nyvokset og slebet<br\/>✅ Medfølger bindinger<br\/>✅ Været igennem kvalitetskontrol<\/p><p>Der medfølger en masse fordele, når du køber udstyr fra Brugteski.dk. <a href=\"\/pages\/dig-som-kunde\" target=\"_blank\" title=\"Dig som kunde hos Brugteski.dk\">Se alle dine fordele her.<\/a><\/p>",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
@@ -329,6 +330,51 @@
         "chart_text_color": "",
         "chart_true_false_color": "",
         "tab_label": "Detaljer"
+      }
+    },
+    "de589c77-3f04-4fd3-99e3-118b938fa69a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18752117866841__de589c77-3f04-4fd3-99e3-118b938fa69a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Fragt og returnering",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--18752117866841__de589c77-3f04-4fd3-99e3-118b938fa69a-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Vi tilbyder gratis fragt og returnering på alle ordrer! Vi vil gerne gøre det så nemt for alle vores kunder at købe brugt udstyr, uden det skal koste dem en krone! Du kan derfor roligt bestille udstyr fra os, og hvis du ikke kan lide det, kan det sendes retur kvit og frit!<\/p><ul><li><strong>Levering: <\/strong>Gratis 2-5 hverdages levering til valgfri GLS pakkeshop.<\/li><li><strong>Returnering: <\/strong>Gratis 14 dages returning.<strong> <\/strong> Der medfølger et returneret label til alle ordrer, som er lige til at klistre på pakken. For produkter købt til julegaver,  begynder returnering perioden først fra den 25. december. <\/li><li><strong>Ombytning: <\/strong>Ved ombytning kontakt <a href=\"\/pages\/kontakt-os\" title=\"Kontakt os\">kundeservice<\/a> inden, og vi finder frem til den bedste løsning for dig.<\/li><li><strong>Reservering: <\/strong>Ønsker du at reserver et produkt, kan det købes til 'Afhentning' ved kassen, og det bliver dermed sat til side for dig.<\/li><\/ul>"
+          }
+        },
+        "9af9ab54-affd-438a-901a-f62427d4792d": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Se mere om returnering af produkter",
+            "url": "shopify:\/\/pages\/returnering",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18752117866841__de589c77-3f04-4fd3-99e3-118b938fa69a-heading-1",
+        "template--18752117866841__de589c77-3f04-4fd3-99e3-118b938fa69a-richtext-1",
+        "9af9ab54-affd-438a-901a-f62427d4792d"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "tab_label": "Fragt"
       }
     },
     "322fa8a3-0532-4ece-82b8-7999ffdd7f89": {
@@ -388,51 +434,6 @@
         "background_gradient": "",
         "text_color": "",
         "tab_label": "Fordele"
-      }
-    },
-    "de589c77-3f04-4fd3-99e3-118b938fa69a": {
-      "type": "rich-text",
-      "blocks": {
-        "template--18752117866841__de589c77-3f04-4fd3-99e3-118b938fa69a-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Fragt og returnering",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "template--18752117866841__de589c77-3f04-4fd3-99e3-118b938fa69a-richtext-1": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Vi tilbyder gratis fragt og returnering på alle ordrer! Vi vil gerne gøre det så nemt for alle vores kunder at købe brugt udstyr, uden det skal koste dem en krone! Du kan derfor roligt bestille udstyr fra os, og hvis du ikke kan lide det, kan det sendes retur kvit og frit!<\/p><ul><li><strong>Levering: <\/strong>Gratis 2-5 hverdages levering til valgfri GLS pakkeshop.<\/li><li><strong>Returnering: <\/strong>Gratis 14 dages returning.<strong> <\/strong> Der medfølger et returneret label til alle ordrer, som er lige til at klistre på pakken.<\/li><li><strong>Ombytning: <\/strong>Ved ombytning kontakt <a href=\"\/pages\/kontakt-os\" title=\"Kontakt os\">kundeservice<\/a> inden, og vi finder frem til den bedste løsning for dig.<\/li><li><strong>Reservering: <\/strong>Ønsker du at reserver et produkt, kan det købes til 'Afhentning' ved kassen, og det bliver dermed sat til side for dig.<\/li><\/ul>"
-          }
-        },
-        "9af9ab54-affd-438a-901a-f62427d4792d": {
-          "type": "button",
-          "settings": {
-            "style": "fill",
-            "size": "lg",
-            "text": "Se mere om returnering af produkter",
-            "url": "shopify:\/\/pages\/returnering",
-            "background": "",
-            "text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--18752117866841__de589c77-3f04-4fd3-99e3-118b938fa69a-heading-1",
-        "template--18752117866841__de589c77-3f04-4fd3-99e3-118b938fa69a-richtext-1",
-        "9af9ab54-affd-438a-901a-f62427d4792d"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "medium",
-        "text_position": "start",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "tab_label": "Fragt"
       }
     },
     "cf3bc1f9-3c9e-41b4-9d4d-02552375f778": {
@@ -795,12 +796,12 @@
   },
   "order": [
     "main",
-    "fe071cc7-bbc8-4bb2-9731-6976ff8b16ae",
     "4b2f4dad-beb3-4647-84b2-79522c534386",
+    "fe071cc7-bbc8-4bb2-9731-6976ff8b16ae",
     "bc007c98-134a-45e6-879f-a9610e0a56cd",
     "7bd8baf1-9eb8-41b9-82b3-49a08ae4c5ad",
-    "322fa8a3-0532-4ece-82b8-7999ffdd7f89",
     "de589c77-3f04-4fd3-99e3-118b938fa69a",
+    "322fa8a3-0532-4ece-82b8-7999ffdd7f89",
     "cf3bc1f9-3c9e-41b4-9d4d-02552375f778",
     "82a4bfbb-5629-4257-a61a-8f3f9f259c01",
     "aa73c3dc-82ca-485c-a544-d5b8dd955818",
