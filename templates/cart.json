@@ -39,12 +39,6 @@
     "main": {
       "type": "main-cart",
       "blocks": {
-        "0cba4f9e-c705-4220-a38c-8cbaa1c6d678": {
-          "type": "text",
-          "settings": {
-            "content": "<p><strong>Black Days Event! Ved køb af ski får du automatisk en skitaske med i købet - Gælder fra den 24. nov - 26. nov<\/strong><\/p>"
-          }
-        },
         "totals": {
           "type": "totals",
           "settings": {
@@ -82,7 +76,6 @@
         }
       },
       "block_order": [
-        "0cba4f9e-c705-4220-a38c-8cbaa1c6d678",
         "totals",
         "cart_note",
         "checkout_button",

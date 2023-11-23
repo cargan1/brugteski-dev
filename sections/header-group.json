@@ -24,7 +24,7 @@
         "e0165828-a5d4-41cd-8881-6e816e65dd50": {
           "type": "message",
           "settings": {
-            "text": "🎿Kom med til vores Black Days event denne uge🎿",
+            "text": "🎿 Hver gang du køber et sæt ski, sender vi en gratis skitaske med! Gælder fra den 24 - 26. nov! 🎿 + 15% rabat på alt❗️",
             "url": "https:\/\/fb.me\/e\/1fu17iBCf"
           }
         }
@@ -35,8 +35,8 @@
         "e0165828-a5d4-41cd-8881-6e816e65dd50"
       ],
       "settings": {
-        "enable_sticky": false,
-        "text_size": "text-xs",
+        "enable_sticky": true,
+        "text_size": "text-base",
         "navigation_mode": "arrows",
         "scrolling_speed": 16,
         "background": "#1a1a1a",
