@@ -27,7 +27,7 @@
         "block_size": "small",
         "subheading": "",
         "title": "",
-        "content": "<p><a href=\"https:\/\/brugteski.dk\/\" title=\"https:\/\/brugteski.dk\/\">Forside<\/a> \/  <a href=\"https:\/\/brugteski.dk\/collections\/alt-beklaedning?filter.v.availability=1\" title=\"https:\/\/brugteski.dk\/collections\/alt-beklaedning?filter.v.availability=1\">Beklædning<\/a> \/ <a href=\"https:\/\/brugteski.dk\/collections\/inderste-lag?filter.v.availability=1ctions\/alt-beklaedning?filter.v.availability=1\" title=\"https:\/\/brugteski.dk\/collections\/inderste-lag?filter.v.availability=1ctions\/alt-beklaedning?filter.v.availability=1\">Indereste lag<\/a> \/ {{ collection.title }}<br\/><\/p>",
+        "content": "<p><a href=\"https:\/\/brugteski.dk\/\" title=\"https:\/\/brugteski.dk\/\">Forside<\/a> \/  <a href=\"https:\/\/brugteski.dk\/collections\/alt-beklaedning?filter.v.availability=1\" title=\"https:\/\/brugteski.dk\/collections\/alt-beklaedning?filter.v.availability=1\">Beklædning<\/a> \/ <a href=\"https:\/\/brugteski.dk\/collections\/beskyttelse?filter.v.availability=1\" title=\"https:\/\/brugteski.dk\/collections\/beskyttelse?filter.v.availability=1\">Beskyttelse<\/a> \/ {{ collection.title }}<br\/><\/p>",
         "link_url": "",
         "link_text": "",
         "background": "",
