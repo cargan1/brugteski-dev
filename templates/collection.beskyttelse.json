@@ -26,7 +26,7 @@
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-3": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_skisokker.jpg",
+            "image": "shopify:\/\/shop_images\/udvalg_skihjelme.jpg",
             "stretch_image": true,
             "link_text": "",
             "link_url": "https:\/\/brugteski.dk\/collections\/skisokker?filter.v.availability=1",
@@ -39,10 +39,10 @@
         "a5f68762-6842-44de-b848-7f8bc56a57c6": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_skundertoj.jpg",
+            "image": "shopify:\/\/shop_images\/udvalg_skibriller.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "https:\/\/brugteski.dk\/collections\/skiundertoj?filter.v.availability=1",
+            "link_url": "shopify:\/\/collections\/skihjelme",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -51,6 +51,7 @@
         },
         "7cf735e1-01b5-49c8-8ca7-1383bc658648": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/udvalg_halsedisser.jpg",
             "stretch_image": true,
