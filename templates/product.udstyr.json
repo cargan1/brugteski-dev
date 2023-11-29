@@ -154,16 +154,16 @@
             "title": "Detaljer"
           }
         },
-        "fb12e8de-6ea1-4331-84ff-0c8bf1d2246d": {
-          "type": "tab",
-          "settings": {
-            "title": "Fordele"
-          }
-        },
         "bf4b7f25-2f3d-42b0-98ba-8c6c97c93601": {
           "type": "tab",
           "settings": {
             "title": "Fragt"
+          }
+        },
+        "fb12e8de-6ea1-4331-84ff-0c8bf1d2246d": {
+          "type": "tab",
+          "settings": {
+            "title": "Fordele"
           }
         },
         "ab3020de-324b-4afe-b163-9afbc91c441a": {
@@ -188,8 +188,8 @@
       "block_order": [
         "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-1",
         "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-0",
-        "fb12e8de-6ea1-4331-84ff-0c8bf1d2246d",
         "bf4b7f25-2f3d-42b0-98ba-8c6c97c93601",
+        "fb12e8de-6ea1-4331-84ff-0c8bf1d2246d",
         "ab3020de-324b-4afe-b163-9afbc91c441a",
         "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-3",
         "890659ae-884a-4eae-b699-3c2e89232488"
@@ -224,6 +224,65 @@
         "background_gradient": "",
         "text_color": "",
         "tab_label": "Description"
+      }
+    },
+    "322fa8a3-0532-4ece-82b8-7999ffdd7f89": {
+      "type": "multi-column",
+      "blocks": {
+        "template--18752117866841__322fa8a3-0532-4ece-82b8-7999ffdd7f89-item-1": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Fordele hos os",
+            "heading_tag": "h4",
+            "content": "<p>✔️ Danmarks største udvalg af brugte ski<br\/>✔️ Én sæsons pasningsgaranti<br\/>✔️ 24 måneders fuld reklamationsret<br\/>✔️ Gratis fragt og returnering<br\/>✔️ E-mærket sikret webshop<br\/>✔️ 4,5 stjerner på Trustpilot<br\/>✔️ Ski-garanti for alle børn og juniorer<br\/>✔️ Vi køber dit udstyr tilbage igen<\/p><p><a href=\"https:\/\/brugteski.dk\/pages\/dig-som-kunde\" title=\"Dig som kunde hos Brugteski.dk\">Se alle dine fordele her<\/a><\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--18752117866841__322fa8a3-0532-4ece-82b8-7999ffdd7f89-item-2": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Pasningsgaranti",
+            "heading_tag": "h4",
+            "content": "<p>Det er svært at købe udstyr, uden at prøve det inden. Det er desværre ikke en mulighed, så derfor tilbyder vi én sæson pasningsgaranti på alle vores produkter. <\/p><p>Du har derfor mulighed for at få byttet alt brugt udstyr til noget andet, straks efter du er kommet hjem fra skiferie. <\/p><p><strong>Byttepris KUN: 199 kr. pr. produkt<\/strong><br\/><\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--18752117866841__322fa8a3-0532-4ece-82b8-7999ffdd7f89-item-3": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Vi køber udstyret tilbage igen",
+            "heading_tag": "h4",
+            "content": "<p>Hvis du enten har nogle gamle ski på loftet, eller gerne vil have opgraderet dem du har købt fra os, så giver vi en byttepris på det!<\/p><p>Vi kan både betale dig kontant eller gennem gavekort til Brugteski.dk. (Du får det største beløb via gavekort)<\/p>",
+            "link_url": "shopify:\/\/pages\/byt-til-nyt",
+            "link_text": "Se hvordan du gør her",
+            "link_style": "button"
+          }
+        }
+      },
+      "block_order": [
+        "template--18752117866841__322fa8a3-0532-4ece-82b8-7999ffdd7f89-item-1",
+        "template--18752117866841__322fa8a3-0532-4ece-82b8-7999ffdd7f89-item-2",
+        "template--18752117866841__322fa8a3-0532-4ece-82b8-7999ffdd7f89-item-3"
+      ],
+      "settings": {
+        "full_width": false,
+        "stack_on_mobile": true,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Få ro i maven ved at handle med os!",
+        "content": "<p>Hos Brugteski.dk er det vigtige at alle vores kunder får en god oplevelse uanset hvad. <br\/>Derfor tilbyder vi:<\/p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "tab_label": "Fordele"
       }
     },
     "7bd8baf1-9eb8-41b9-82b3-49a08ae4c5ad": {
@@ -312,65 +371,6 @@
         "chart_text_color": "",
         "chart_true_false_color": "",
         "tab_label": "Detaljer"
-      }
-    },
-    "322fa8a3-0532-4ece-82b8-7999ffdd7f89": {
-      "type": "multi-column",
-      "blocks": {
-        "template--18752117866841__322fa8a3-0532-4ece-82b8-7999ffdd7f89-item-1": {
-          "type": "item",
-          "settings": {
-            "column_size": "3",
-            "title": "Fordele hos os",
-            "heading_tag": "h4",
-            "content": "<p>✔️ Danmarks største udvalg af brugte ski<br\/>✔️ Én sæsons pasningsgaranti<br\/>✔️ 24 måneders fuld reklamationsret<br\/>✔️ Gratis fragt og returnering<br\/>✔️ E-mærket sikret webshop<br\/>✔️ 4,5 stjerner på Trustpilot<br\/>✔️ Ski-garanti for alle børn og juniorer<br\/>✔️ Vi køber dit udstyr tilbage igen<\/p><p><a href=\"https:\/\/brugteski.dk\/pages\/dig-som-kunde\" title=\"Dig som kunde hos Brugteski.dk\">Se alle dine fordele her<\/a><\/p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "template--18752117866841__322fa8a3-0532-4ece-82b8-7999ffdd7f89-item-2": {
-          "type": "item",
-          "settings": {
-            "column_size": "3",
-            "title": "Pasningsgaranti",
-            "heading_tag": "h4",
-            "content": "<p>Det er svært at købe udstyr, uden at prøve det inden. Det er desværre ikke en mulighed, så derfor tilbyder vi én sæson pasningsgaranti på alle vores produkter. <\/p><p>Du har derfor mulighed for at få byttet alt brugt udstyr til noget andet, straks efter du er kommet hjem fra skiferie. <\/p><p><strong>Byttepris KUN: 199 kr. pr. produkt<\/strong><br\/><\/p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "template--18752117866841__322fa8a3-0532-4ece-82b8-7999ffdd7f89-item-3": {
-          "type": "item",
-          "settings": {
-            "column_size": "3",
-            "title": "Vi køber udstyret tilbage igen",
-            "heading_tag": "h4",
-            "content": "<p>Hvis du enten har nogle gamle ski på loftet, eller gerne vil have opgraderet dem du har købt fra os, så giver vi en byttepris på det!<\/p><p>Vi kan både betale dig kontant eller gennem gavekort til Brugteski.dk. (Du får det største beløb via gavekort)<\/p>",
-            "link_url": "shopify:\/\/pages\/byt-til-nyt",
-            "link_text": "Se hvordan du gør her",
-            "link_style": "button"
-          }
-        }
-      },
-      "block_order": [
-        "template--18752117866841__322fa8a3-0532-4ece-82b8-7999ffdd7f89-item-1",
-        "template--18752117866841__322fa8a3-0532-4ece-82b8-7999ffdd7f89-item-2",
-        "template--18752117866841__322fa8a3-0532-4ece-82b8-7999ffdd7f89-item-3"
-      ],
-      "settings": {
-        "full_width": false,
-        "stack_on_mobile": true,
-        "gap": "medium",
-        "text_alignment": "start",
-        "subheading": "",
-        "title": "Få ro i maven ved at handle med os!",
-        "content": "<p>Hos Brugteski.dk er det vigtige at alle vores kunder får en god oplevelse uanset hvad. <br\/>Derfor tilbyder vi:<\/p>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "tab_label": "Fordele"
       }
     },
     "de589c77-3f04-4fd3-99e3-118b938fa69a": {
@@ -649,8 +649,8 @@
     "4b2f4dad-beb3-4647-84b2-79522c534386",
     "fe071cc7-bbc8-4bb2-9731-6976ff8b16ae",
     "bc007c98-134a-45e6-879f-a9610e0a56cd",
-    "7bd8baf1-9eb8-41b9-82b3-49a08ae4c5ad",
     "322fa8a3-0532-4ece-82b8-7999ffdd7f89",
+    "7bd8baf1-9eb8-41b9-82b3-49a08ae4c5ad",
     "de589c77-3f04-4fd3-99e3-118b938fa69a",
     "82a4bfbb-5629-4257-a61a-8f3f9f259c01",
     "aa73c3dc-82ca-485c-a544-d5b8dd955818",
