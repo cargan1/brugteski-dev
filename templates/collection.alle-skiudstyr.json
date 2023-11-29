@@ -23,23 +23,10 @@
     "4bdf9a05-c268-4dad-ba38-e5c1db7bcb74": {
       "type": "image-link-blocks",
       "blocks": {
-        "a5f68762-6842-44de-b848-7f8bc56a57c6": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_skistave_c4223226-f9c9-4c8b-83dc-85b441456410.jpg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "https:\/\/brugteski.dk\/collections\/skistave?filter.v.availability=1",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-3": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_skistovler2.jpg",
+            "image": "shopify:\/\/shop_images\/udvalg_voksenskistovler.jpg",
             "stretch_image": true,
             "link_text": "",
             "link_url": "https:\/\/brugteski.dk\/collections\/skistovler?filter.v.availability=1",
@@ -52,7 +39,7 @@
         "7cf735e1-01b5-49c8-8ca7-1383bc658648": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_skibriller.jpg",
+            "image": "shopify:\/\/shop_images\/udvalg_borneskistovler.jpg",
             "stretch_image": true,
             "link_text": "",
             "link_url": "https:\/\/brugteski.dk\/collections\/skibriller?filter.v.availability=1",
@@ -62,13 +49,13 @@
             "overlay_opacity": 0
           }
         },
-        "0c184e33-b731-4851-b5dd-9d33a46af2c0": {
+        "a5f68762-6842-44de-b848-7f8bc56a57c6": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_skihjelme.jpg",
+            "image": "shopify:\/\/shop_images\/udvalg_skistave_c4223226-f9c9-4c8b-83dc-85b441456410.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/products\/ski-hjelme",
+            "link_url": "https:\/\/brugteski.dk\/collections\/skistave?filter.v.availability=1",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -103,10 +90,9 @@
         }
       },
       "block_order": [
-        "a5f68762-6842-44de-b848-7f8bc56a57c6",
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-3",
         "7cf735e1-01b5-49c8-8ca7-1383bc658648",
-        "0c184e33-b731-4851-b5dd-9d33a46af2c0",
+        "a5f68762-6842-44de-b848-7f8bc56a57c6",
         "1ab26b8e-c402-488c-b389-129c04f2a65f",
         "63b658bb-4a92-49ea-9ad5-565924388bbe"
       ],
