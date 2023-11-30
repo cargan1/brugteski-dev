@@ -3,16 +3,10 @@
     "0a9b46bf-52b6-48c5-a929-0bd99c011b17": {
       "type": "rich-text",
       "blocks": {
-        "template--20022743040345__0a9b46bf-52b6-48c5-a929-0bd99c011b17-subheading-1": {
-          "type": "subheading",
-          "settings": {
-            "text": "Velkommen"
-          }
-        },
         "template--20022743040345__0a9b46bf-52b6-48c5-a929-0bd99c011b17-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "PÅ VIP-liste",
+            "text": "Du er nu med i konkurrencen",
             "heading_tag": "h1",
             "text_color": "",
             "gradient": ""
@@ -21,12 +15,11 @@
         "template--20022743040345__0a9b46bf-52b6-48c5-a929-0bd99c011b17-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Super fedt du har tildmeldt dig VIP-listen for dette års Black Days tilbud!<br\/>Du vil modtage en mail med nærmere information senere<\/p><p><strong>VIP tilbuddene går live torsdag den 23. november kl 00.00 og slutter allerede igen om aftenen kl 23.59<br\/><\/strong><em><strong>Du skal være hurtigt for at nå det!<\/strong><\/em><\/p><p><\/p>"
+            "content": "<p>Hvis du nu skulle være den heldige vinder af konkurrencen, men allerede har købt udstyr, så returnerer vi bare din ordre!<\/p>"
           }
         }
       },
       "block_order": [
-        "template--20022743040345__0a9b46bf-52b6-48c5-a929-0bd99c011b17-subheading-1",
         "template--20022743040345__0a9b46bf-52b6-48c5-a929-0bd99c011b17-heading-1",
         "template--20022743040345__0a9b46bf-52b6-48c5-a929-0bd99c011b17-richtext-1"
       ],
@@ -34,7 +27,7 @@
         "full_width": true,
         "content_width": "small",
         "text_position": "center",
-        "background": "#f0c417",
+        "background": "rgba(0,0,0,0)",
         "background_gradient": "",
         "text_color": "",
         "tab_label": ""
@@ -103,9 +96,9 @@
         "stack_collections": true,
         "collections_per_row": 3,
         "show_progress_bar": false,
-        "subheading": "Begyndt jagten nu, så du ved hvad du vil have",
-        "title": "Alle ski",
-        "content": "",
+        "subheading": "",
+        "title": "",
+        "content": "<h3>Se udvalget af ski her<\/h3>",
         "link_url": "",
         "link_text": "",
         "background": "rgba(0,0,0,0)",
