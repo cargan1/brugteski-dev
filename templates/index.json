@@ -163,7 +163,7 @@
             "icon_background": "",
             "icon_color": "#003eff",
             "title": "Hurtig levering",
-            "content": "<p>Vi tilbyder 2-5 hverdages levering i hele Danmark.<\/p>"
+            "content": "<p>Vi tilbyder 2-5 hverdages levering i hele Danmark<\/p>"
           }
         },
         "template--18752118292825__1b8ce53f-6ead-4a13-8561-9903c7284e65-item-3": {
@@ -176,7 +176,7 @@
             "icon_background": "",
             "icon_color": "#003eff",
             "title": "Gratis fragt & returnering",
-            "content": "<p>Du kan trygt og sikkert handle udstyr hos os, for skulle det ikke være som forventet, sendes det bare retur kvit og frit.<\/p>"
+            "content": "<p>Du kan trygt og sikkert handle udstyr hos os, for skulle udstyret ikke være som forventet, sendes det bare retur kvit og frit<\/p>"
           }
         },
         "template--18752118292825__1b8ce53f-6ead-4a13-8561-9903c7284e65-item-2": {
@@ -189,7 +189,7 @@
             "icon_background": "",
             "icon_color": "#003eff",
             "title": "24 måneders reklamationsret",
-            "content": "<p>Ved køb af brugt udstyr får du også fuld reklamationsret!<\/p>"
+            "content": "<p>Ved køb af brugt udstyr har du fuld reklamationsret, hvis uheldet nu skulle være ude<\/p>"
           }
         }
       },
