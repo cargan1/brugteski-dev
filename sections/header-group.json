@@ -15,6 +15,7 @@
         },
         "fb1e6665-ce14-4a1c-a720-f7108a7fb3eb": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "🎿 Gratis fragt ved 995DKK og altid gratis returnering, med 2-5 dages levering 🎿 + Udvidet julegave returnering til 8. januar 🎁 Køb senest 20. December kl 17!",
             "url": ""
@@ -27,12 +28,20 @@
             "text": "🎿 Hver gang du køber et sæt ski, sender vi en gratis skitaske med! Gælder fra den 24 - 26. nov! 🎿 + 15% rabat på alt❗️",
             "url": "https:\/\/fb.me\/e\/1fu17iBCf"
           }
+        },
+        "15b4f577-c521-4860-99a2-3a51f5fa58e3": {
+          "type": "message",
+          "settings": {
+            "text": "Gratis fragt ved køb over 995DKK 🎿 Altid gratis returnering 🎿 2-5 dages levering 🎿 Udvidet julegave returnering til 8. januar 🎁 Køb senest 20. December kl 17!",
+            "url": ""
+          }
         }
       },
       "block_order": [
         "message",
         "fb1e6665-ce14-4a1c-a720-f7108a7fb3eb",
-        "e0165828-a5d4-41cd-8881-6e816e65dd50"
+        "e0165828-a5d4-41cd-8881-6e816e65dd50",
+        "15b4f577-c521-4860-99a2-3a51f5fa58e3"
       ],
       "settings": {
         "enable_sticky": true,
