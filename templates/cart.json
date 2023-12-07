@@ -1,41 +1,5 @@
 {
   "sections": {
-    "ba710406-f334-48b7-84cb-f30bd1342bb0": {
-      "type": "impact-text",
-      "blocks": {
-        "template--18752117703001__ba710406-f334-48b7-84cb-f30bd1342bb0-item-1": {
-          "type": "item",
-          "settings": {
-            "title": "Black Days tilbud!",
-            "subheading": "Hver gang du køber et sæt ski, sender vi en gratis skitaske med!",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": false,
-            "animate_impact_text_duration": 2
-          }
-        }
-      },
-      "block_order": [
-        "template--18752117703001__ba710406-f334-48b7-84cb-f30bd1342bb0-item-1"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_mobile": true,
-        "text_alignment": "center",
-        "impact_text_style": "fill",
-        "text_divider": "none",
-        "impact_text_size_ratio": 0.7,
-        "background": "",
-        "background_gradient": "",
-        "heading_text_color": "",
-        "heading_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": "",
-        "tab_label": ""
-      }
-    },
     "main": {
       "type": "main-cart",
       "blocks": {
@@ -43,12 +7,18 @@
           "type": "totals",
           "settings": {
             "show_order_weight": false,
-            "show_shipping_text": true
+            "show_shipping_text": false
           }
         },
         "cart_note": {
           "type": "cart_note",
           "settings": {
+          }
+        },
+        "234e5eec-8a1d-4017-880e-7ae917cf2e00": {
+          "type": "text",
+          "settings": {
+            "content": "<p><em>Leveringstid: 2 - 5 hverdage<\/em><\/p>"
           }
         },
         "checkout_button": {
@@ -66,10 +36,10 @@
           "settings": {
             "text_alignment": "start",
             "icon_position": "aligned",
-            "icon": "picto-coupon",
+            "icon": "picto-return",
             "icon_width": 24,
-            "title": "Shipping",
-            "content": "<p>Short content about your shipping rates or discounts.<\/p>",
+            "title": "Returnering",
+            "content": "<p>Du har altid 14 dages gratis returnering hos os. Returneringslabel medfølger i din ordre!<\/p>",
             "background": "",
             "text_color": ""
           }
@@ -78,6 +48,7 @@
       "block_order": [
         "totals",
         "cart_note",
+        "234e5eec-8a1d-4017-880e-7ae917cf2e00",
         "checkout_button",
         "a01e7aa6-dd5d-4bdd-aba5-417c76c580e2",
         "ef3d2631-006c-4544-874f-04c98e28f569"
@@ -86,7 +57,7 @@
 
       ],
       "settings": {
-        "show_shipping_estimator": true,
+        "show_shipping_estimator": false,
         "show_payment_icons": true
       }
     },
@@ -97,7 +68,6 @@
     }
   },
   "order": [
-    "ba710406-f334-48b7-84cb-f30bd1342bb0",
     "main",
     "680c556b-8bd1-4619-9c6d-4b72d93d95ae"
   ]
