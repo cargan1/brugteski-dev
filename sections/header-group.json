@@ -31,9 +31,17 @@
         },
         "15b4f577-c521-4860-99a2-3a51f5fa58e3": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "Gratis fragt ved køb over 995DKK 🎿 Altid gratis returnering 🎿 2-5 dages levering + Udvidet julegave returnering til 8. januar 🎁 Køb senest 20. December kl 17!",
             "url": ""
+          }
+        },
+        "aea7a558-8fe8-4cf0-8076-2841ac366e76": {
+          "type": "message",
+          "settings": {
+            "text": "Udvidet julegave returnering til 8. januar 🎁 Køb senest 20. December kl 17! + Udvidet juleåbningsdage den 26, 27 og 28. december 🥳 Se mere her",
+            "url": "https:\/\/fb.me\/e\/2YjryW2gV"
           }
         }
       },
@@ -41,7 +49,8 @@
         "message",
         "fb1e6665-ce14-4a1c-a720-f7108a7fb3eb",
         "e0165828-a5d4-41cd-8881-6e816e65dd50",
-        "15b4f577-c521-4860-99a2-3a51f5fa58e3"
+        "15b4f577-c521-4860-99a2-3a51f5fa58e3",
+        "aea7a558-8fe8-4cf0-8076-2841ac366e76"
       ],
       "settings": {
         "enable_sticky": true,
