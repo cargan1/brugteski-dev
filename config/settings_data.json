@@ -289,9 +289,9 @@
         "settings": {
           "button_color": "#006eff",
           "button_icon": "chat_bubble",
+          "button_text": "no_text",
           "button_horizontal_position": "bottom_right",
           "button_vertical_position": "lowest",
-          "button_text": "no_text",
           "greeting_message": "👋 Hej! Send os en besked, hvis du har spørgsmål. Vi hjælper dig gerne!"
         }
       }
