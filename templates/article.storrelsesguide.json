@@ -51,7 +51,7 @@
         "allow_transparent_header": false,
         "layout": "image_left_text_right",
         "show_author": false,
-        "show_date": true,
+        "show_date": false,
         "show_comments_count": false,
         "show_share_buttons": true,
         "banner_background": "",
