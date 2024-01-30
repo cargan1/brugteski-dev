@@ -16,7 +16,7 @@
       "type": "main-article",
       "settings": {
         "allow_transparent_header": false,
-        "layout": "image_left_text_right",
+        "layout": "content_first",
         "show_author": false,
         "show_date": true,
         "show_comments_count": false,
