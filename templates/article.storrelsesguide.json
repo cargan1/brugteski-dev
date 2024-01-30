@@ -1,26 +1,19 @@
 {
   "sections": {
+    "custom_liquid_gXeftA": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div data-tf-live=\"01HNDAFF10PDA0ZZ0Q6D1GGR92\"><\/div><script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "main": {
       "type": "main-article",
-      "blocks": {
-        "navigation": {
-          "type": "navigation",
-          "settings": {
-          }
-        },
-        "comments": {
-          "type": "comments",
-          "disabled": true,
-          "settings": {
-            "show_gravatar": true,
-            "comments_per_page": 5
-          }
-        }
-      },
-      "block_order": [
-        "navigation",
-        "comments"
-      ],
       "settings": {
         "allow_transparent_header": false,
         "layout": "image_left_text_right",
@@ -37,6 +30,7 @@
     }
   },
   "order": [
+    "custom_liquid_gXeftA",
     "main"
   ]
 }
