@@ -1,5 +1,38 @@
 {
   "sections": {
+    "rich_text_NHQ4g9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_DML3YH": {
+          "type": "heading",
+          "settings": {
+            "text": "Ultimative størrelsesguide til valgt af udstyr",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_qNgpQW": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Vi har lavet en test hvor du får givet præcis svar på dit udstyrets størrelse. Tag den eller læs hele vores blogpost hvor vi går i dybden med alle produkttyper<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DML3YH",
+        "richtext_qNgpQW"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "tab_label": ""
+      }
+    },
     "custom_liquid_gXeftA": {
       "type": "custom-liquid",
       "settings": {
@@ -16,7 +49,7 @@
       "type": "main-article",
       "settings": {
         "allow_transparent_header": false,
-        "layout": "content_first",
+        "layout": "image_left_text_right",
         "show_author": false,
         "show_date": true,
         "show_comments_count": false,
@@ -30,6 +63,7 @@
     }
   },
   "order": [
+    "rich_text_NHQ4g9",
     "custom_liquid_gXeftA",
     "main"
   ]
