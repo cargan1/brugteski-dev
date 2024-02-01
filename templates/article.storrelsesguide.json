@@ -6,7 +6,7 @@
         "heading_DML3YH": {
           "type": "heading",
           "settings": {
-            "text": "Ultimative størrelsesguide til valgt af udstyr",
+            "text": "Test og guide til valg af størrelsen på alt skiudstyr",
             "heading_tag": "h1",
             "text_color": "",
             "gradient": ""
@@ -15,7 +15,7 @@
         "richtext_qNgpQW": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Vi har lavet en test hvor du får givet præcis svar på dit udstyrs størrelse. <br\/>Tag den herunder eller læs hele vores blog hvor vi går i dybden med alle produkttyperne<\/p>"
+            "content": "<p>Vi har lavet en test hvor du får givet præcis svar på dit udstyrs størrelse. Det har aldrig været nemmer at finde den rigtigt størrelse før nu! <br\/>Tag testen herunder eller læs hele vores blog hvor vi går i dybden med alle produkttyperne...<\/p>"
           }
         }
       },
