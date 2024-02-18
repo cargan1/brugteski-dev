@@ -7,6 +7,7 @@
       "blocks": {
         "fb1e6665-ce14-4a1c-a720-f7108a7fb3eb": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "🎿 Gratis fragt ved 995 DKK og altid gratis returnering, med 2-5 dages levering 🎿",
             "url": ""
@@ -19,15 +20,23 @@
             "text": "🎿Udvidet juleåbningsdage den 26, 27 og 28. december med 10% rabat i butikken 🥳 Se mere her!",
             "url": "https:\/\/fb.me\/e\/2YjryW2gV"
           }
+        },
+        "message_gtMCUQ": {
+          "type": "message",
+          "settings": {
+            "text": "🎿 MID SEASON SALE - 15% rabat på alle ski i hele uge 8 & 9 🎿 Kode: SKI15",
+            "url": ""
+          }
         }
       },
       "block_order": [
         "fb1e6665-ce14-4a1c-a720-f7108a7fb3eb",
-        "aea7a558-8fe8-4cf0-8076-2841ac366e76"
+        "aea7a558-8fe8-4cf0-8076-2841ac366e76",
+        "message_gtMCUQ"
       ],
       "settings": {
         "enable_sticky": true,
-        "text_size": "text-xs",
+        "text_size": "text-base",
         "navigation_mode": "arrows",
         "scrolling_speed": 16,
         "background": "#1a1a1a",
