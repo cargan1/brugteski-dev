@@ -1,0 +1,8 @@
+{
+  "parent": "page.ski-finder.json",
+  "context": {
+    "market": "dk"
+  },
+  "sections": {
+  }
+}
