@@ -15,12 +15,6 @@
           "settings": {
           }
         },
-        "234e5eec-8a1d-4017-880e-7ae917cf2e00": {
-          "type": "text",
-          "settings": {
-            "content": "<p><em>Leveringstid: 2 - 5 hverdage<\/em><\/p>"
-          }
-        },
         "checkout_button": {
           "type": "checkout_button",
           "settings": {
@@ -29,6 +23,19 @@
         "a01e7aa6-dd5d-4bdd-aba5-417c76c580e2": {
           "type": "accelerated_buttons",
           "settings": {
+          }
+        },
+        "offer_Yt3j4F": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-truck",
+            "icon_width": 24,
+            "title": "Leveringstid",
+            "content": "<p>Vi har 2 til 5 hverdages leveringstid på alle ordre<\/p>",
+            "background": "",
+            "text_color": ""
           }
         },
         "ef3d2631-006c-4544-874f-04c98e28f569": {
@@ -48,9 +55,9 @@
       "block_order": [
         "totals",
         "cart_note",
-        "234e5eec-8a1d-4017-880e-7ae917cf2e00",
         "checkout_button",
         "a01e7aa6-dd5d-4bdd-aba5-417c76c580e2",
+        "offer_Yt3j4F",
         "ef3d2631-006c-4544-874f-04c98e28f569"
       ],
       "custom_css": [
