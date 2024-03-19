@@ -409,6 +409,20 @@
   "shopify": {
     "links": {
       "powered_by_shopify": " "
+    },
+    "checkout": {
+      "payment": {
+        "card_security_notice": "Alle transaktioner er sikre og krypterede. Ved betaling med VISA, MasterCard, Visa Elektron og Mobilepay reserveres købsbeløbet på din konto, indtil betaling sker."
+      }
+    }
+  },
+  "customer_accounts": {
+    "payment_methods": {
+      "card_fields": {
+        "tooltip": {
+          "card_security_notice": "Alle transaktioner er sikre og krypterede. Ved betaling med VISA, MasterCard, Visa Elektron og Mobilepay reserveres købsbeløbet på din konto, indtil betaling sker."
+        }
+      }
     }
   }
 }
