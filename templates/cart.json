@@ -50,6 +50,12 @@
             "background": "",
             "text_color": ""
           }
+        },
+        "text_rxpLyM": {
+          "type": "text",
+          "settings": {
+            "content": "<h4><strong>Kundeservice<\/strong><\/h4><p>Er du i tvivl om ordren? Så står vi klar for dig!<br\/><strong>Tlf.:<\/strong> +45 3020 9975<br\/><strong>Mail:<\/strong> info@brugteski.dk<\/p><p><\/p>"
+          }
         }
       },
       "block_order": [
@@ -58,7 +64,8 @@
         "checkout_button",
         "a01e7aa6-dd5d-4bdd-aba5-417c76c580e2",
         "offer_Yt3j4F",
-        "ef3d2631-006c-4544-874f-04c98e28f569"
+        "ef3d2631-006c-4544-874f-04c98e28f569",
+        "text_rxpLyM"
       ],
       "custom_css": [
 
