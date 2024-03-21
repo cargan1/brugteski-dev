@@ -28,8 +28,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/udvalg_Herre_Dame.jpg",
             "stretch_image": true,
-            "link_text": "https:\/\/brugteski.dk\/collections\/herre-dameski?filter.v.availability=1&filter.p.m.custom.m_rke={{ collection.title }}",
-            "link_url": "shopify:\/\/collections\/aspen",
+            "link_text": "",
+            "link_url": "",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
