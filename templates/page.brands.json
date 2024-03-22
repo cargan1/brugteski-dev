@@ -10,16 +10,10 @@
     "rich_text_LNTK6E": {
       "type": "rich-text",
       "blocks": {
-        "subheading_6Tmj3K": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
         "heading_kzM3Br": {
           "type": "heading",
           "settings": {
-            "text": "Heading",
+            "text": "Brands",
             "heading_tag": "h1",
             "text_color": "",
             "gradient": ""
@@ -28,12 +22,11 @@
         "richtext_w9NNfr": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "content": "<p>Hos os har vi et stort udvalg af forskellige brands som du vil kunne vælge imellem. Alle vores brands er sorteret i alfabetisk rækkefølge, så du har nemt ved at finde præcis det du leder efter.<\/p>"
           }
         }
       },
       "block_order": [
-        "subheading_6Tmj3K",
         "heading_kzM3Br",
         "richtext_w9NNfr"
       ],
