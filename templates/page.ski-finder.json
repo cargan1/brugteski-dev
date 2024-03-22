@@ -42,6 +42,7 @@
     },
     "064ff18a-f4c7-4115-a0c7-acbe7caf522f": {
       "type": "custom-html",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -51,11 +52,30 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "newsletter_7A9Rgg": {
+      "type": "newsletter",
+      "settings": {
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/Skaermbillede_2024-03-22_kl._14.30.03.png",
+        "show_icon": false,
+        "title": "Ski-finderen er nede...",
+        "content": "<p>Vi er desværre blevet nød til at slukke ski-findere, da vi er i gang med en version 2.0! Tilmeld dig vores mail list, så du ved hvornår den nye version er aktiv igen<\/p>",
+        "button_text": "Tilmeld",
+        "subtext": "Du vil samtidig tilmelde dig Brugteski.dk's nyhedsbrev, hvor du vil høre om tilbud og guides indenfor ski verdenen. Du kan til enhver tid afmelde dig nyhedsbrevet igen.",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": "",
+        "tab_label": ""
+      }
     }
   },
   "order": [
     "main",
     "51ff0030-b448-4c7e-8826-72ced91e2e21",
-    "064ff18a-f4c7-4115-a0c7-acbe7caf522f"
+    "064ff18a-f4c7-4115-a0c7-acbe7caf522f",
+    "newsletter_7A9Rgg"
   ]
 }
