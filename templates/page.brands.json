@@ -467,7 +467,7 @@
         "collection_WaRnk8": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "head",
             "subheading": "",
             "title": "",
             "url": "",
@@ -481,7 +481,7 @@
         "collection_RFFLLQ": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "hypesnow",
             "subheading": "",
             "title": "",
             "url": "",
@@ -495,7 +495,21 @@
         "collection_DaB9QC": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "jc",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_pwHkQJ": {
+          "type": "collection",
+          "settings": {
+            "collection": "k2",
             "subheading": "",
             "title": "",
             "url": "",
@@ -509,7 +523,7 @@
         "collection_j7gX7a": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "kastle",
             "subheading": "",
             "title": "",
             "url": "",
@@ -523,21 +537,7 @@
         "collection_ajzwi8": {
           "type": "collection",
           "settings": {
-            "collection": "",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_w38KpT": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
+            "collection": "kessler",
             "subheading": "",
             "title": "",
             "url": "",
@@ -553,9 +553,9 @@
         "collection_WaRnk8",
         "collection_RFFLLQ",
         "collection_DaB9QC",
+        "collection_pwHkQJ",
         "collection_j7gX7a",
-        "collection_ajzwi8",
-        "collection_w38KpT"
+        "collection_ajzwi8"
       ],
       "settings": {
         "full_width": true,
@@ -566,7 +566,7 @@
         "title": "L - R",
         "content": "",
         "link_url": "",
-        "link_text": "View all",
+        "link_text": "",
         "background": "",
         "background_gradient": "",
         "text_color": "",
