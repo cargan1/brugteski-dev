@@ -181,7 +181,7 @@
         "collection_CngLNm": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "doha",
             "subheading": "",
             "title": "",
             "url": "",
@@ -195,7 +195,7 @@
         "collection_VGMwxz": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "dalbelle",
             "subheading": "",
             "title": "",
             "url": "",
@@ -209,7 +209,7 @@
         "collection_a3FhdB": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "dc",
             "subheading": "",
             "title": "",
             "url": "",
@@ -223,7 +223,7 @@
         "collection_RyQNFM": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "dynafit",
             "subheading": "",
             "title": "",
             "url": "",
@@ -237,7 +237,7 @@
         "collection_3rabaL": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "dynastar",
             "subheading": "",
             "title": "",
             "url": "",
@@ -251,7 +251,63 @@
         "collection_iVFjGD": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "elan",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_kmxgqA": {
+          "type": "collection",
+          "settings": {
+            "collection": "fastec",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_rAYBrU": {
+          "type": "collection",
+          "settings": {
+            "collection": "fischer",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_gQ38f8": {
+          "type": "collection",
+          "settings": {
+            "collection": "flow",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_BR4x3K": {
+          "type": "collection",
+          "settings": {
+            "collection": "forepart",
             "subheading": "",
             "title": "",
             "url": "",
@@ -269,7 +325,11 @@
         "collection_a3FhdB",
         "collection_RyQNFM",
         "collection_3rabaL",
-        "collection_iVFjGD"
+        "collection_iVFjGD",
+        "collection_kmxgqA",
+        "collection_rAYBrU",
+        "collection_gQ38f8",
+        "collection_BR4x3K"
       ],
       "settings": {
         "full_width": true,
