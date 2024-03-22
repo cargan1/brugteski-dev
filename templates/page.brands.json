@@ -580,7 +580,21 @@
         "collection_EqtNBp": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "salomon",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_YTpKAb": {
+          "type": "collection",
+          "settings": {
+            "collection": "seger",
             "subheading": "",
             "title": "",
             "url": "",
@@ -594,7 +608,7 @@
         "collection_cN3Wgt": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "snowlife",
             "subheading": "",
             "title": "",
             "url": "",
@@ -608,7 +622,7 @@
         "collection_bmyDcJ": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "sporten",
             "subheading": "",
             "title": "",
             "url": "",
@@ -622,7 +636,7 @@
         "collection_zwmQKQ": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "stockli",
             "subheading": "",
             "title": "",
             "url": "",
@@ -636,7 +650,7 @@
         "collection_7d38tP": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "stuf",
             "subheading": "",
             "title": "",
             "url": "",
@@ -650,7 +664,35 @@
         "collection_H4Khqw": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "tecnica",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_ak7U8c": {
+          "type": "collection",
+          "settings": {
+            "collection": "volkl",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_i87Ky7": {
+          "type": "collection",
+          "settings": {
+            "collection": "zai",
             "subheading": "",
             "title": "",
             "url": "",
@@ -664,11 +706,14 @@
       },
       "block_order": [
         "collection_EqtNBp",
+        "collection_YTpKAb",
         "collection_cN3Wgt",
         "collection_bmyDcJ",
         "collection_zwmQKQ",
         "collection_7d38tP",
-        "collection_H4Khqw"
+        "collection_H4Khqw",
+        "collection_ak7U8c",
+        "collection_i87Ky7"
       ],
       "settings": {
         "full_width": true,
