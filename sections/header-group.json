@@ -7,7 +7,6 @@
       "blocks": {
         "fb1e6665-ce14-4a1c-a720-f7108a7fb3eb": {
           "type": "message",
-          "disabled": true,
           "settings": {
             "text": "🎿 Gratis fragt ved 995 DKK og altid gratis returnering, med 2-5 dages levering 🎿",
             "url": ""
@@ -23,6 +22,7 @@
         },
         "message_gtMCUQ": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "🎿 SÆSONSAFSLUTNING 🎿 10 - 30 % rabat på alt 🎿 Sidste åbningsdag i butikken for sæsonen: 24. marts",
             "url": ""
