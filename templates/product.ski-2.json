@@ -14,7 +14,7 @@
         "richtext_BrLYRJ"
       ],
       "custom_css": [
-        ".se {margin: 0; padding: 0;}"
+        ".product-description {margin: 0; padding: 0;}"
       ],
       "settings": {
         "full_width": true,
