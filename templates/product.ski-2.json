@@ -1,29 +1,23 @@
 {
   "sections": {
-    "rich_text_EBpmXT": {
-      "type": "rich-text",
-      "blocks": {
-        "richtext_BrLYRJ": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><a href=\"https:\/\/brugteski.dk\/\" title=\"https:\/\/brugteski.dk\/\">Forside<\/a> \/  <a href=\"https:\/\/brugteski.dk\/collections\/ski-skiudstyr?filter.v.availability=1\" title=\"https:\/\/brugteski.dk\/collections\/ski-skiudstyr?filter.v.availability=1\">Udstyr<\/a> \/ <a href=\"https:\/\/brugteski.dk\/collections\/alle-ski?filter.v.availability=1\" title=\"https:\/\/brugteski.dk\/collections\/alle-ski?filter.v.availability=1\">Ski<\/a> \/ <a href=\"\/collections\/herre-dameski\" title=\"Herre- & Dameski\">Herre- & Dameski<\/a> \/ {{ product.title }}<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "richtext_BrLYRJ"
-      ],
+    "image_link_blocks_tzXkEE": {
+      "type": "image-link-blocks",
       "custom_css": [
-
+        ".section-full {width: 20px;}"
       ],
       "settings": {
         "full_width": true,
-        "content_width": "small",
-        "text_position": "start",
+        "block_size": "small",
+        "subheading": "",
+        "title": "",
+        "content": "<p><a href=\"https:\/\/brugteski.dk\/\" title=\"https:\/\/brugteski.dk\/\">Forside<\/a> \/  <a href=\"https:\/\/brugteski.dk\/collections\/ski-skiudstyr?filter.v.availability=1\" title=\"https:\/\/brugteski.dk\/collections\/ski-skiudstyr?filter.v.availability=1\">Udstyr<\/a> \/ <a href=\"https:\/\/brugteski.dk\/collections\/alle-ski?filter.v.availability=1\" title=\"https:\/\/brugteski.dk\/collections\/alle-ski?filter.v.availability=1\">Ski<\/a> \/ <a href=\"\/collections\/herre-dameski\" title=\"Herre- & Dameski\">Herre- & Dameski<\/a> \/ {{ product.title }}<\/p>",
+        "link_url": "",
+        "link_text": "",
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
-        "tab_label": ""
+        "heading_color": "",
+        "heading_gradient": ""
       }
     },
     "main": {
@@ -821,7 +815,7 @@
     }
   },
   "order": [
-    "rich_text_EBpmXT",
+    "image_link_blocks_tzXkEE",
     "main",
     "4b2f4dad-beb3-4647-84b2-79522c534386",
     "fe071cc7-bbc8-4bb2-9731-6976ff8b16ae",
