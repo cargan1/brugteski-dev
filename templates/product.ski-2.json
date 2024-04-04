@@ -22,7 +22,7 @@
         "richtext_BrLYRJ"
       ],
       "custom_css": [
-        ".rich-text {width: 100%; height: 100px;}"
+        ".rich-text {width: 100%; height: 30%;}"
       ],
       "settings": {
         "full_width": true,
