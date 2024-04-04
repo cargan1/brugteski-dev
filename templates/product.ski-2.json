@@ -3,7 +3,7 @@
     "image_link_blocks_tzXkEE": {
       "type": "image-link-blocks",
       "custom_css": [
-        ".section-full {width: 20px;}"
+        ".image-link-blocks{width: 20px;}"
       ],
       "settings": {
         "full_width": true,
