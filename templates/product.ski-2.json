@@ -2,8 +2,25 @@
   "sections": {
     "image_link_blocks_tzXkEE": {
       "type": "image-link-blocks",
+      "blocks": {
+        "item_yDL4mR": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_yDL4mR"
+      ],
       "custom_css": [
-        ".image-link-blocks{width: 30%; height: 20%;}"
+
       ],
       "settings": {
         "full_width": true,
