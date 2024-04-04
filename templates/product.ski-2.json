@@ -22,7 +22,7 @@
         "richtext_BrLYRJ"
       ],
       "custom_css": [
-
+        ".rich-text {padding-top: 10px;}"
       ],
       "settings": {
         "full_width": true,
