@@ -3,6 +3,13 @@
     "rich_text_EBpmXT": {
       "type": "rich-text",
       "blocks": {
+        "richtext_Mfx9mK": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        },
         "richtext_BrLYRJ": {
           "type": "richtext",
           "settings": {
@@ -11,10 +18,11 @@
         }
       },
       "block_order": [
+        "richtext_Mfx9mK",
         "richtext_BrLYRJ"
       ],
       "custom_css": [
-        ".product-description {margin: 0; padding: 0;}"
+        ".rich-text {margin: 0; padding: 0;}"
       ],
       "settings": {
         "full_width": true,
