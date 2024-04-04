@@ -1,5 +1,25 @@
 {
   "sections": {
+    "image_link_blocks_KfwUNw": {
+      "type": "image-link-blocks",
+      "custom_css": [
+        ".bg-custom {padding-bottom: 0px; padding-top: 20px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "block_size": "small",
+        "subheading": "",
+        "title": "",
+        "content": "<p><a href=\"https:\/\/brugteski.dk\/\" title=\"https:\/\/brugteski.dk\/\">Forside<\/a> \/ <a href=\"\/collections\/ski-skiudstyr\" title=\"Udstyr\">Udstyr<\/a> \/ <a href=\"\/collections\/voks\" title=\"Ski tilbehør\">Tilbehør<\/a> \/ {{ product.title }}<\/p>",
+        "link_url": "",
+        "link_text": "",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "main": {
       "type": "main-product-new",
       "blocks": {
@@ -716,6 +736,7 @@
     }
   },
   "order": [
+    "image_link_blocks_KfwUNw",
     "main",
     "fe071cc7-bbc8-4bb2-9731-6976ff8b16ae",
     "4b2f4dad-beb3-4647-84b2-79522c534386",
