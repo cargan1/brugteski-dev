@@ -30,7 +30,7 @@
     "image_link_blocks_3mJn4f": {
       "type": "image-link-blocks",
       "custom_css": [
-        ".sectio {width: 100%; height: 30%;}"
+        ".image_link_blocks {width: 100%; height: 30%;}"
       ],
       "settings": {
         "full_width": true,
