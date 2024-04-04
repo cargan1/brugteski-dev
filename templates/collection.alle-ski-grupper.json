@@ -22,6 +22,9 @@
     },
     "4bdf9a05-c268-4dad-ba38-e5c1db7bcb74": {
       "type": "image-link-blocks",
+      "custom_css": [
+
+      ],
       "settings": {
         "full_width": false,
         "block_size": "small",
