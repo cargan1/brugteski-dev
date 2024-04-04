@@ -1,0 +1,768 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product-new",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "4c56093c-deff-4ad2-adac-ebed4177b778": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>{{ product.title }}<\/h3><p><em>{{ product.metafields.custom.vejl_udsalgspris.value }}<\/em><\/p>"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "block",
+            "size_chart_page": ""
+          }
+        },
+        "19937545-298a-4651-9687-4525f0a97a0a": {
+          "type": "inventory",
+          "settings": {
+            "low_inventory_threshold": 10
+          }
+        },
+        "6d1e7437-32cc-4b14-9f60-3b818cbed684": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em><strong>Leveringstid: <\/strong><\/em><em>2-5 hverdage<br\/>Obs. billederne er retvisende, slid aflæses ud fra stand<\/em><\/p>"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "atc_button_background": "#000000",
+            "atc_button_text_color": "",
+            "payment_button_background": "#003eff",
+            "payment_button_text_color": ""
+          }
+        },
+        "c20feae2-38b6-489e-b8c5-6024d6de4608": {
+          "type": "button",
+          "settings": {
+            "link": "shopify:\/\/pages\/byt-til-nyt",
+            "text": "Spar penge på din ordre - byt dit udstyr hos os",
+            "size": "sm",
+            "style": "fill",
+            "stretch": true,
+            "background": "#e1e7ff",
+            "text_color": "#000000"
+          }
+        },
+        "d3e695ec-c2c1-416b-9482-cc06f0166cf0": {
+          "type": "payment-icons",
+          "settings": {
+          }
+        },
+        "ba3b5461-8a7f-4d6a-bdc0-bfcaad62fae4": {
+          "type": "e-maerket",
+          "settings": {
+          }
+        },
+        "96617279-0ca8-4ed8-ad3d-5c55c13472ec": {
+          "type": "separator",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "4c56093c-deff-4ad2-adac-ebed4177b778",
+        "price",
+        "separator",
+        "variant_picker",
+        "19937545-298a-4651-9687-4525f0a97a0a",
+        "6d1e7437-32cc-4b14-9f60-3b818cbed684",
+        "buy_buttons",
+        "c20feae2-38b6-489e-b8c5-6024d6de4608",
+        "d3e695ec-c2c1-416b-9482-cc06f0166cf0",
+        "ba3b5461-8a7f-4d6a-bdc0-bfcaad62fae4",
+        "96617279-0ca8-4ed8-ad3d-5c55c13472ec"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": false,
+        "desktop_media_width": 60,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "contained",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 4,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "#fafafa",
+        "input_text_color": ""
+      }
+    },
+    "4b2f4dad-beb3-4647-84b2-79522c534386": {
+      "type": "product-desc",
+      "settings": {
+        "tab_label": ""
+      }
+    },
+    "fe071cc7-bbc8-4bb2-9731-6976ff8b16ae": {
+      "type": "tabs-dev",
+      "blocks": {
+        "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-1": {
+          "type": "tab",
+          "disabled": true,
+          "settings": {
+            "title": "Beskrivelse"
+          }
+        },
+        "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-0": {
+          "type": "tab",
+          "settings": {
+            "title": "Detaljer"
+          }
+        },
+        "bf4b7f25-2f3d-42b0-98ba-8c6c97c93601": {
+          "type": "tab",
+          "settings": {
+            "title": "Fragt"
+          }
+        },
+        "fb12e8de-6ea1-4331-84ff-0c8bf1d2246d": {
+          "type": "tab",
+          "settings": {
+            "title": "Fordele"
+          }
+        },
+        "c095e786-f832-4540-a7b9-8e887d0b0cde": {
+          "type": "tab",
+          "settings": {
+            "title": "FAQ"
+          }
+        },
+        "ab3020de-324b-4afe-b163-9afbc91c441a": {
+          "type": "tab",
+          "settings": {
+            "title": "Størrelsesguide"
+          }
+        },
+        "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-3": {
+          "type": "tab",
+          "settings": {
+            "title": "Stand-beskrivelse"
+          }
+        },
+        "890659ae-884a-4eae-b699-3c2e89232488": {
+          "type": "tab",
+          "settings": {
+            "title": "Udsolgt"
+          }
+        }
+      },
+      "block_order": [
+        "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-1",
+        "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-0",
+        "bf4b7f25-2f3d-42b0-98ba-8c6c97c93601",
+        "fb12e8de-6ea1-4331-84ff-0c8bf1d2246d",
+        "c095e786-f832-4540-a7b9-8e887d0b0cde",
+        "ab3020de-324b-4afe-b163-9afbc91c441a",
+        "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-3",
+        "890659ae-884a-4eae-b699-3c2e89232488"
+      ],
+      "settings": {
+        "enable_tabs": true,
+        "font_color": "",
+        "background_color": "",
+        "border_color": "",
+        "border_radius": 0,
+        "border_padding": 0,
+        "border_thickness": 0
+      }
+    },
+    "bc007c98-134a-45e6-879f-a9610e0a56cd": {
+      "type": "rich-text",
+      "blocks": {
+        "dd2ca3c9-f87b-4cb4-bfe3-86422da0fac9": {
+          "type": "description",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "dd2ca3c9-f87b-4cb4-bfe3-86422da0fac9"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "tab_label": "Description"
+      }
+    },
+    "7bd8baf1-9eb8-41b9-82b3-49a08ae4c5ad": {
+      "type": "feature-chart",
+      "blocks": {
+        "template--14429261332515__7bd8baf1-9eb8-41b9-82b3-49a08ae4c5ad-166628750253df3689-0": {
+          "type": "headings",
+          "settings": {
+            "heading_1": "Niveau",
+            "heading_2": "Type",
+            "heading_3": "Radius",
+            "heading_4": "Bindinger",
+            "heading_5": "GripWalk",
+            "heading_6": "Flex",
+            "heading_7": "Bredde",
+            "heading_8": "Skiprofil",
+            "heading_9": "Kerne",
+            "heading_10": "Kollektion",
+            "heading_11": "Mærke",
+            "heading_12": "",
+            "heading_13": "",
+            "heading_14": "",
+            "heading_15": "",
+            "heading_16": "",
+            "heading_17": "",
+            "heading_18": "",
+            "heading_19": "",
+            "heading_20": ""
+          }
+        },
+        "template--14429261332515__7bd8baf1-9eb8-41b9-82b3-49a08ae4c5ad-166628750253df3689-1": {
+          "type": "values",
+          "settings": {
+            "product": "",
+            "value_1": "<p>{{ product.metafields.custom.niveau.value }}<\/p>",
+            "value_2": "<p>{{ product.metafields.custom.type.value }}<\/p>",
+            "value_3": "<p>{{ product.metafields.custom.radius.value }}<\/p>",
+            "value_4": "<p>{{ product.metafields.custom.bindinger.value }}<\/p>",
+            "value_5": "<p>{{ product.metafields.custom.gripwalk.value }}<\/p>",
+            "value_6": "<p>{{ product.metafields.custom.flex.value }}<\/p>",
+            "value_7": "<p>{{ product.metafields.custom.bredde.value }}<\/p>",
+            "value_8": "<p>{{ product.metafields.custom.skiprofil.value }}<\/p>",
+            "value_9": "<p>{{ product.metafields.custom.kerne.value }}<\/p>",
+            "value_10": "<p>{{ product.metafields.custom.kollektion.value }}<\/p>",
+            "value_11": "<p>{{ block.settings.product.metafields.custom.m_rke.value }}<\/p>",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14429261332515__7bd8baf1-9eb8-41b9-82b3-49a08ae4c5ad-166628750253df3689-0",
+        "template--14429261332515__7bd8baf1-9eb8-41b9-82b3-49a08ae4c5ad-166628750253df3689-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Specifikationer",
+        "content": "<p>Snowboardet er følgende:<br\/>❌ Medfølger ikke bindinger<br\/>✅ Været igennem kvalitetskontrol<br\/>✅ Nyvokset og slebet <br\/><strong>Ups.<\/strong> Da vores snowboards skal passe til alle, er vores kanter ikke kniv skarpe da dette gøre dem svære at stå på. Der vil kunne forekomme ridser i sålen af snowborads, som ikke påvirker ydeevnen. <\/p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "max_rows": 12,
+        "view_all_text": "View all",
+        "view_less_text": "View less",
+        "view_product": "View",
+        "viewing_product": "",
+        "show_product_swatch": true,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "chart_background": "",
+        "chart_text_color": "",
+        "chart_true_false_color": "",
+        "tab_label": "Detaljer"
+      }
+    },
+    "322fa8a3-0532-4ece-82b8-7999ffdd7f89": {
+      "type": "multi-column",
+      "blocks": {
+        "template--18752117866841__322fa8a3-0532-4ece-82b8-7999ffdd7f89-item-1": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Fordele hos os",
+            "heading_tag": "h4",
+            "content": "<p>✔️ Danmarks største udvalg af brugte ski<br\/>✔️ Én sæsons pasningsgaranti<br\/>✔️ 24 måneders fuld reklamationsret<br\/>✔️ Gratis fragt og returnering<br\/>✔️ E-mærket sikret webshop<br\/>✔️ 4,5 stjerner på Trustpilot<br\/>✔️ Ski-garanti for alle børn og juniorer<br\/>✔️ Vi køber dit udstyr tilbage igen<\/p><p><a href=\"https:\/\/brugteski.dk\/pages\/dig-som-kunde\" title=\"Dig som kunde hos Brugteski.dk\">Se alle dine fordele her<\/a><\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--18752117866841__322fa8a3-0532-4ece-82b8-7999ffdd7f89-item-2": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Pasningsgaranti",
+            "heading_tag": "h4",
+            "content": "<p>Det er svært at købe udstyr, uden at prøve det inden. Det er desværre ikke en mulighed, så derfor tilbyder vi én sæson pasningsgaranti på alle vores produkter. <\/p><p>Du har derfor mulighed for at få byttet alt brugt udstyr til noget andet, straks efter du er kommet hjem fra skiferie. <\/p><p><strong>Byttepris KUN: 199 kr. pr. produkt<\/strong><br\/><\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--18752117866841__322fa8a3-0532-4ece-82b8-7999ffdd7f89-item-3": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Vi køber udstyret tilbage igen",
+            "heading_tag": "h4",
+            "content": "<p>Hvis du enten har nogle gamle ski på loftet, eller gerne vil have opgraderet dem du har købt fra os, så giver vi en byttepris på det!<\/p><p>Vi kan både betale dig kontant eller gennem gavekort til Brugteski.dk. (Du får det største beløb via gavekort)<\/p>",
+            "link_url": "shopify:\/\/pages\/byt-til-nyt",
+            "link_text": "Se hvordan du gør her",
+            "link_style": "button"
+          }
+        }
+      },
+      "block_order": [
+        "template--18752117866841__322fa8a3-0532-4ece-82b8-7999ffdd7f89-item-1",
+        "template--18752117866841__322fa8a3-0532-4ece-82b8-7999ffdd7f89-item-2",
+        "template--18752117866841__322fa8a3-0532-4ece-82b8-7999ffdd7f89-item-3"
+      ],
+      "settings": {
+        "full_width": false,
+        "stack_on_mobile": true,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Få ro i maven ved at handle med os!",
+        "content": "<p>Hos Brugteski.dk er det vigtige at alle vores kunder får en god oplevelse uanset hvad. <br\/>Derfor tilbyder vi:<\/p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "tab_label": "Fordele"
+      }
+    },
+    "de589c77-3f04-4fd3-99e3-118b938fa69a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18752117866841__de589c77-3f04-4fd3-99e3-118b938fa69a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Fragt og returnering",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--18752117866841__de589c77-3f04-4fd3-99e3-118b938fa69a-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Vi tilbyder gratis fragt og returnering på alle ordrer! Vi vil gerne gøre det så nemt for alle vores kunder at købe brugt udstyr, uden det skal koste dem en krone! Du kan derfor roligt bestille udstyr fra os, og hvis du ikke kan lide det, kan det sendes retur kvit og frit!<\/p><ul><li><strong>Levering: <\/strong>Gratis 2-5 hverdages levering til valgfri GLS pakkeshop ved køb over 995 kr.<\/li><li><strong>Afhentning:<\/strong> Køb produkterne online, og afhent i butikken i Fredericia<\/li><li><strong>Returnering: <\/strong>Gratis 14 dages returning.<strong> <\/strong> Der medfølger et returneret label til alle ordrer, som er lige til at klistre på pakken. For produkter købt til julegaver,  begynder returnerings perioden først fra den 25. december<\/li><li><strong>Ombytning: <\/strong>Ved ombytning kontakt <a href=\"\/pages\/kontakt-os\" title=\"Kontakt os\">kundeservice<\/a> inden, og vi finder frem til den bedste løsning for dig<\/li><li><strong>Reservering: <\/strong>Ønsker du at reserver et produkt, kan det købes til 'Afhentning' ved kassen, og det bliver dermed sat til side for dig<\/li><\/ul>"
+          }
+        },
+        "9af9ab54-affd-438a-901a-f62427d4792d": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Se mere om returnering af produkter",
+            "url": "shopify:\/\/pages\/returnering",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18752117866841__de589c77-3f04-4fd3-99e3-118b938fa69a-heading-1",
+        "template--18752117866841__de589c77-3f04-4fd3-99e3-118b938fa69a-richtext-1",
+        "9af9ab54-affd-438a-901a-f62427d4792d"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "tab_label": "Fragt"
+      }
+    },
+    "cf3bc1f9-3c9e-41b4-9d4d-02552375f778": {
+      "type": "faq",
+      "blocks": {
+        "template--18752117866841__cf3bc1f9-3c9e-41b4-9d4d-02552375f778-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "Hvordan ved jeg hvor brugte\/slidte snowboardet er?",
+            "content": "<p>For at kunne se dette, skal du kigge på hvilken stand boardet er i. Stand går lige fra Fabriksnye til Bronze. Hvor fabriksnye er helt nyt udstyr, og Bronze er det med flest hakker og skrammer. Derudover har vi Guld og Sølv stand, som er de mest populære stande. <a href=\"\/pages\/standbeskrivelse\" title=\"Standbeskrivelse\">Se hele vores Stand-beskrivelse her.<\/a><\/p><p>Da billederne er retvisende, og ikke tydelige nok til at kunne vise alle ridser og skrammer, er det stand som du skal tage udgangspunkt i. Vi går meget op i at vores stand er så præcis og nøjagtig som overhovedet muligt, så du ikke skal føle dig snydt hvis du køber brugt udstyr hos os.<\/p><p>Hvis snowboardet dog i sidste ende ikke lever op til dine forventninger, kan du altid sende det retur kvit og frit.<\/p>"
+          }
+        },
+        "b8a847ca-16ac-4a83-bbe7-d948cf34dcbb": {
+          "type": "item",
+          "settings": {
+            "title": "Kan jeg se præcis hvor slidt boardet er?",
+            "content": "<p>Nej, det kan du desværre ikke. Vi tager kun et billede af et snowboard fra hver model, da hvis vi skulle tage billeder af alle vores boards, så vil vi aldrig blive færdige...<\/p><p>Derfor kan du læse vores <a href=\"\/pages\/standbeskrivelse\" title=\"Standbeskrivelse\">Stand-beskrivelse<\/a>, for at vide hvad du kan forvente om snowboardet.<\/p><p>For at du aldrig kommer til at føle dig snydt, så tilbyder vi gratis fragt og returnering af alle produkter. Det vil sige at du altid bare vil kunne købe udstyret hjem, og hvis du syntes det er \"for slidt\" så sender du det bare retur kvit og frit!<\/p>"
+          }
+        },
+        "template--18752117866841__cf3bc1f9-3c9e-41b4-9d4d-02552375f778-item-2": {
+          "type": "item",
+          "settings": {
+            "title": "Hvordan leveres snowboardet?",
+            "content": "<p>Alle vores boards leveres nyslevet og vokset. Snowboardet har ydermere været igennem en kvalitetskontrol, så du kan være sikker på at de ikke fejler noget.<\/p><p>Boardet bliver leveret i en specialdesignet papkasse med bobleplast rundt om, så det ligger trygt og sikker under transporten.<\/p>"
+          }
+        },
+        "template--18752117866841__cf3bc1f9-3c9e-41b4-9d4d-02552375f778-item-3": {
+          "type": "item",
+          "settings": {
+            "title": "Hvad er leveringstid?",
+            "content": "<p>Leveringstiden er på 2 til 5 hverdage, hvor skiene bliver leveret til en valgfri GLS pakkeshop, eller hjemmelevering hvis du ønsker dette.<\/p><p>Vi tilbyder gratis levering og 14 dages returnering på alle ordrer!<\/p>"
+          }
+        },
+        "b1ec32a0-ef60-4a32-8f81-330e671f8c3e": {
+          "type": "item",
+          "settings": {
+            "title": "Hvor lange skal mit snowboard være?",
+            "content": "<p>Det kan være svært at finde den præcise længde på dit board, da det afhænger af rigtigt mange forskellige faktorer.<\/p><p>Tommelfinger reglen hedder at de ca skal gå dig til hagen hvis du er nybegynder, næsen hvis du er øvet og øjenbrynene hvis du er ekspert.<\/p>"
+          }
+        },
+        "9c292cab-7b78-4692-8c18-42f344e2706b": {
+          "type": "item",
+          "settings": {
+            "title": "Hvad gør jeg, hvis boardet slet ikke fungerer for mig på skiferien?",
+            "content": "<p>Vi har pasningsgaranti på alle vores brugte produkter! Det betyder at straks efter du er kommet hjem fra skiferien, så kan du få byttet dit snowboard til et andet sæt, for kun 199 kr.<\/p><p>Så du kan godt være sikker på, at vi nok skal finde det rigtigt snowboard for lige netop dig!<\/p>"
+          }
+        },
+        "11eee007-eaf4-4e11-a076-9379afbb4c13": {
+          "type": "item",
+          "settings": {
+            "title": "Kan jeg bytte mit board til noget andet, hvis jeg \"vokser\" fra dem?",
+            "content": "<p>Yes, det kan du tro! Vi har vores Byt-til-nyt koncept, hvor vi køber dit brugte board, og enten betale dig kontant eller med et gavekort til Brugteski.dk.<\/p><p>Hvis du gerne vil opgrader snowboardet, som du i forvejen har købt fra os, så giver vi en bedre byttepris! <br\/><a href=\"\/pages\/byt-til-nyt\" title=\"Vi køber dit brugte udstyr!\">Læs mere om konceptet her<\/a><\/p>"
+          }
+        },
+        "009eeec1-dbb2-4546-b565-5bded8512799": {
+          "type": "item",
+          "settings": {
+            "title": "Hvad sker der, hvis snowboardet går i stykker?",
+            "content": "<p>Selvom det er brugte produkter vi sælger hos Brugteski.dk, så medfølger der stadigvæk 24 måneders reklamationsret på alle produkter. Så er der ingen grund til at være bange for, at boardet ikke kan holde!<\/p>"
+          }
+        },
+        "a2e3bc9c-4e8d-4d45-94b5-e5330384f484": {
+          "type": "item",
+          "settings": {
+            "title": "Hvor meget spare jeg ved at købe et brugt snowboard?",
+            "content": "<p>Der er rigtig mange penge at hente ved at købe brugte snowboards. Snowboards er lavet af gode kraftige materialer, der gør dem næsten umulige at ødelægge. Det betyder også, at bare fordi de har været brugt, og fået lidt ridser\/hakker, så fungere de stadigvæk upårklageligt.<\/p><p>Hos Brugteski.dk stræber vi efter at sælge vores brugte snowboards til 50% af den vejledende udsalgspris!<\/p>"
+          }
+        },
+        "e312ac69-b51e-427b-8297-35e64662f406": {
+          "type": "item",
+          "settings": {
+            "title": "Kan jeg se snowboardet i virkeligheden?",
+            "content": "<p>Vi har en skibutik i Fredericia, hvor du kan komme fordi og prøve\/se alt vores udstyr. Her kan vi også hjælpe dig, med at finde det helt rigtige snowboard til dig!<br\/><a href=\"\/pages\/showroom-og-vores-abningstider\" title=\"Butik og vores åbningstider\">Se åbningstider og adresse her<\/a><\/p>"
+          }
+        },
+        "34c7aac8-b407-4984-ad88-05c8201f24e9": {
+          "type": "item",
+          "settings": {
+            "title": "Hvor tit skal mine board serviceres?",
+            "content": "<p>Det afhænger af dit behov og lyst. Nogle vil have serviceret deres snowboards efter hver skitur, fordi de elsker at de er ny slebet og vokset, hvor andre gør det efter hver 4-5 uge, fordi de ikke går lige så meget op i det.<\/p><p>Generelt vil jeg som minimum anbefale få det gjort efter hver 2-3 uger afsted, eller efter behov. Hvis du fx har kørt over en sten på pisten og fået et stor hak i sålen, så er det en god ide at få det fikset med det samme.<\/p><p>Vi servicer ski i vores butik i Fredericia. Kom forbi med dem, og så er de klar til ugen efter.<br\/><a href=\"\/pages\/showroom-og-vores-abningstider\" title=\"Butik og vores åbningstider\">Se åbningstider og adressen her<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18752117866841__cf3bc1f9-3c9e-41b4-9d4d-02552375f778-item-1",
+        "b8a847ca-16ac-4a83-bbe7-d948cf34dcbb",
+        "template--18752117866841__cf3bc1f9-3c9e-41b4-9d4d-02552375f778-item-2",
+        "template--18752117866841__cf3bc1f9-3c9e-41b4-9d4d-02552375f778-item-3",
+        "b1ec32a0-ef60-4a32-8f81-330e671f8c3e",
+        "9c292cab-7b78-4692-8c18-42f344e2706b",
+        "11eee007-eaf4-4e11-a076-9379afbb4c13",
+        "009eeec1-dbb2-4546-b565-5bded8512799",
+        "a2e3bc9c-4e8d-4d45-94b5-e5330384f484",
+        "e312ac69-b51e-427b-8297-35e64662f406",
+        "34c7aac8-b407-4984-ad88-05c8201f24e9"
+      ],
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "Typiske spørgsmål",
+        "content": "<p>Se hvilke typiske spørgsmål der bliver stillet ved køb af ski hos Brugtski.dk<\/p>",
+        "team_avatar_width": 290,
+        "support_hours": "",
+        "answer_time": "Er du stadigvæk i tvivl, så er du mere end velkommen til at kontakte kundeservice, og så finder vi et svar sammen.",
+        "button_text": "Kontakt kundeservice",
+        "button_url": "shopify:\/\/pages\/kontakt-os",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": "",
+        "tab_label": "FAQ"
+      }
+    },
+    "82a4bfbb-5629-4257-a61a-8f3f9f259c01": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18752117866841__82a4bfbb-5629-4257-a61a-8f3f9f259c01-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Størrelsesguide",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--18752117866841__82a4bfbb-5629-4257-a61a-8f3f9f259c01-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Er du i tvivl om længden på dit udstyr? Så har vi lavet en størrelsesguide, som kan hjælpe dig med at finde den helt rigtige størrelse på udstyr!<\/p>"
+          }
+        },
+        "b48753b6-b85b-4cad-a1a1-bdc199759c28": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Se størrelsesguides",
+            "url": "shopify:\/\/blogs\/ski-guides",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18752117866841__82a4bfbb-5629-4257-a61a-8f3f9f259c01-heading-1",
+        "template--18752117866841__82a4bfbb-5629-4257-a61a-8f3f9f259c01-richtext-1",
+        "b48753b6-b85b-4cad-a1a1-bdc199759c28"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "tab_label": "Størrelsesguide"
+      }
+    },
+    "aa73c3dc-82ca-485c-a544-d5b8dd955818": {
+      "type": "multi-column",
+      "blocks": {
+        "ecedf631-ba7d-4582-9d97-e301c760bad1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Fabriksnye.jpg",
+            "column_size": "4",
+            "title": "Helt nyt udstyr",
+            "heading_tag": "h4",
+            "content": "<p>Fabriksnyt udstyr ligger som i ordet, helt nyt. Det vil altså sige udstyr som intet fejler, og helt ubrugt!<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--14429261332515__aa73c3dc-82ca-485c-a544-d5b8dd955818-16661914181c00956f-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Guld.stand.jpg",
+            "column_size": "4",
+            "title": "Lidt til ingen spor af slid",
+            "heading_tag": "h4",
+            "content": "<p>Guld udstyr er klart vores pæneste udstyr, og står rigtigt pænt. Her er der næsten ingen spor af brug, og det kan være svært at se skrammer.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--14429261332515__aa73c3dc-82ca-485c-a544-d5b8dd955818-16661914181c00956f-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Solv.stand.jpg",
+            "column_size": "4",
+            "title": "Spor af slid",
+            "heading_tag": "h4",
+            "content": "<p>Sølv udstyr er vores mest almindelige stand. Her får man udstyr som godt kan se har været brugt, men ingen store ridser eller hakker har.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--14429261332515__aa73c3dc-82ca-485c-a544-d5b8dd955818-16661914181c00956f-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bronze.stand.jpg",
+            "column_size": "4",
+            "title": "Større ridser og hakker",
+            "heading_tag": "h4",
+            "content": "<p>Bronze udstyr er det mest slidte udstyr, hvor man kan finde store ridser og hakker. Alle skrammer er kosmetiske, og har kun betydning for udseende.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "ecedf631-ba7d-4582-9d97-e301c760bad1",
+        "template--14429261332515__aa73c3dc-82ca-485c-a544-d5b8dd955818-16661914181c00956f-0",
+        "template--14429261332515__aa73c3dc-82ca-485c-a544-d5b8dd955818-16661914181c00956f-1",
+        "template--14429261332515__aa73c3dc-82ca-485c-a544-d5b8dd955818-16661914181c00956f-2"
+      ],
+      "settings": {
+        "full_width": false,
+        "stack_on_mobile": true,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Stand-beskrivelse",
+        "content": "<p>Stand beskriver hvor nyt\/brugt udstyr er, så du ved hvad du kan forvente ved modtagelse af produkterne.<br\/>Stand har ingen betydning for kvaliteten af udstyret, kun hvor mange kosmetiske skrammer udstyret har. Derved har det også betydning for prisen på udstyret. Nu dårligere 'Stand' et produkt er, nu billigere er det også. <a href=\"\/pages\/standbeskrivelse\" target=\"_blank\" title=\"Standbeskrivelse\">Se videoen, og læs hele stand-beskrivelsen her!<\/a><\/p>",
+        "background": "#fafafa",
+        "background_gradient": "",
+        "text_color": "",
+        "tab_label": "Stand-beskrivelse"
+      }
+    },
+    "d2b619b5-d27a-4d56-bdbc-01f473ffb4a7": {
+      "type": "newsletter",
+      "settings": {
+        "full_width": true,
+        "show_icon": true,
+        "title": "Blive førstevælgeren",
+        "content": "<p>Hver 1-2 måneder får vi nye brugte produkter på lager. Hvis det udstyr du leder efter, er udsolgt nu, så er der en stor chance for at det kommer på lager igen!<br\/>Tilmeld dig vores nyhedsbrev, og vær den første til at vælge imellem det nye udstyr.<\/p>",
+        "button_text": "Tilmeld",
+        "subtext": "Du vil samtidig tilmelde dig Brugteski.dk's nyhedsbrev, hvor du vil høre om tilbud og guides indenfor ski verdenen. Du kan til enhver tid afmelde dig nyhedsbrevet igen.",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": "",
+        "tab_label": "Udsolgt"
+      }
+    },
+    "05de6085-a3e7-458a-ad6e-f17eb2c7d525": {
+      "type": "scrolling-text",
+      "settings": {
+        "full_width": true,
+        "text": "op til 72% billigere at købe brugte ski",
+        "text_size": "medium",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 6,
+        "background": "#003eff",
+        "background_gradient": "",
+        "text_color": "#ffffff",
+        "text_gradient": ""
+      }
+    },
+    "1b924801-2f39-4b3d-97cf-6ac91e20f85c": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--14429261332515__1b924801-2f39-4b3d-97cf-6ac91e20f85c-1666191404eaad16b1-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/snowboard.g.jpg",
+            "media_width": 60,
+            "media_position": "start",
+            "text_position": "place-self-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Svært at finde det rigtigt board?",
+            "content": "<p>Vi har en skibutik i Fredericia, hvor du\/din familie vil kunne komme ned og prøve, samt se alt udstyret. Her vil vi også kunne guide dig\/jer, til at kunne finde det helt rigtigt, for lige netop DIG.<\/p>",
+            "link_text": "Se adressen her",
+            "link_url": "shopify:\/\/pages\/showroom-og-vores-abningstider",
+            "background": "#efefef",
+            "background_gradient": "",
+            "text_color": "#010410",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14429261332515__1b924801-2f39-4b3d-97cf-6ac91e20f85c-1666191404eaad16b1-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "none",
+        "tab_label": ""
+      }
+    },
+    "fb969a0a-fc24-4610-814b-104c9172b8f5": {
+      "type": "related-products",
+      "settings": {
+        "recommendations_count": 9,
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 5,
+        "subheading": "",
+        "title": "Relevante produkter",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "6fe9e5e3-41c0-4ad1-a62e-5e2b2ba02828": {
+      "type": "trustpilot-stjerner",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "4b2f4dad-beb3-4647-84b2-79522c534386",
+    "fe071cc7-bbc8-4bb2-9731-6976ff8b16ae",
+    "bc007c98-134a-45e6-879f-a9610e0a56cd",
+    "7bd8baf1-9eb8-41b9-82b3-49a08ae4c5ad",
+    "322fa8a3-0532-4ece-82b8-7999ffdd7f89",
+    "de589c77-3f04-4fd3-99e3-118b938fa69a",
+    "cf3bc1f9-3c9e-41b4-9d4d-02552375f778",
+    "82a4bfbb-5629-4257-a61a-8f3f9f259c01",
+    "aa73c3dc-82ca-485c-a544-d5b8dd955818",
+    "d2b619b5-d27a-4d56-bdbc-01f473ffb4a7",
+    "05de6085-a3e7-458a-ad6e-f17eb2c7d525",
+    "1b924801-2f39-4b3d-97cf-6ac91e20f85c",
+    "fb969a0a-fc24-4610-814b-104c9172b8f5",
+    "6fe9e5e3-41c0-4ad1-a62e-5e2b2ba02828"
+  ]
+}
