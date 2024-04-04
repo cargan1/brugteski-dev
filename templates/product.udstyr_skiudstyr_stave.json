@@ -642,6 +642,66 @@
       "type": "trustpilot-stjerner",
       "settings": {
       }
+    },
+    "image_link_blocks_zU7AbR": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "item_YpcT3w": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_rrzYa8": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_nJgAdh": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_YpcT3w",
+        "item_rrzYa8",
+        "item_nJgAdh"
+      ],
+      "settings": {
+        "full_width": false,
+        "block_size": "medium",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
     }
   },
   "order": [
@@ -658,6 +718,7 @@
     "05de6085-a3e7-458a-ad6e-f17eb2c7d525",
     "1b924801-2f39-4b3d-97cf-6ac91e20f85c",
     "fb969a0a-fc24-4610-814b-104c9172b8f5",
-    "6fe9e5e3-41c0-4ad1-a62e-5e2b2ba02828"
+    "6fe9e5e3-41c0-4ad1-a62e-5e2b2ba02828",
+    "image_link_blocks_zU7AbR"
   ]
 }
