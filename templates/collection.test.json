@@ -88,7 +88,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "html": "<style>.fbkouV {\n  margin-block: 0px;\n}\n.tf-v1-popup .tf-v1-close {\n  font-size: 40px;\n}<\/style>\n<div data-tf-live=\"01HV3HGAGRAV9PZ11XYPAQ9K40\" data-tf-width=\"320\" data-tf-height=\"85vh\"><\/div><script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script>",
+        "html": "<style>.fbkouV {\n  margin-block: 0px;\n}\n.tf-v1-popup .tf-v1-close {\n  font-size: 40px;\n}<\/style>\n<div data-tf-live=\"01HV3HGAGRAV9PZ11XYPAQ9K40\" data-tf-width=\"500\" data-tf-height=\"85vh\"><\/div><script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
