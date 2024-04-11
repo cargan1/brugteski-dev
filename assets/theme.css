@@ -9978,3 +9978,29 @@ align-items: center;
     bottom: -0.65rem; 
   }
 }
+
+/* Collection header section */ 
+
+.no-inline-padding {
+  padding-inline-start: 0; 
+  padding-inline-end: 0;
+}
+
+.inline-padding {
+  padding-inline-start: max(var(--calculated-section-spacing-inline), 50% - var(--container-max-width) / 2); 
+  padding-inline-end: max(var(--calculated-section-spacing-inline), 50% - var(--container-max-width) / 2);
+}
+
+.collection-header-split {
+  width:100%;
+  display: flex;
+}
+
+.collection-title {
+  width:50%;
+}
+
+.guide-finder {
+  width:50%;
+
+}
