@@ -12,10 +12,15 @@
 
   }
 
+  #shopify-section-{{ section.id }} .section {
+    padding-inline-start: 0; 
+  padding-inline-end: 0;
+  }
+
 
 </style>
 
-<div {% render 'section-properties', class: no-inline-padding %}>
+<div {% render 'section-properties' %}>
 <div class="collection-header-split">
   <div class="collection-title inline-padding">
     <p class="h2">{{ collection.title }}</p>
@@ -425,23 +430,16 @@
       "name": "Collection header section",
       "blocks": [
         {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        {
-          "type": "heading",
-          "settings": {
-            "text": "Collection header section",
-            "heading_tag": "h1"
-          }
-        },
-        {
           "type": "richtext"
+        },
+        {
+          "type": "liquid"
         }
       ]
     }
   ]
 }
 {% endschema %}
+
+
+
