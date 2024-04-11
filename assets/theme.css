@@ -10017,13 +10017,13 @@ align-items: center;
     background: #f3f3f3;
     width:100%;
     display: flex;
-
-    padding-block-start: var(--spacing-8);
-    padding-block-end: var(--spacing-8);
+    padding-block-start: var(--spacing-6);
+    padding-block-end: var(--spacing-6);
   }
   
   .guide-finder {
     width:100%;
+    
   }
 }
 

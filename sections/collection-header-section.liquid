@@ -12,11 +12,17 @@
 
   }
 
-  #shopify-section-{{ section.id }} .section {
+  #shopify-section-{{ section.id }} .section  {
     padding-inline-start: 0; 
   padding-inline-end: 0;
   }
+  #shopify-section-{{ section.id }} .section .collection-header-split .collection-title {
+    {%- if   section.settings.guide_finder != true -%}
+            width:100%
+    {%- endif -%}
 
+    
+  }
 
 </style>
 
