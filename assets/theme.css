@@ -10004,7 +10004,6 @@ align-items: center;
 .collection-title {
   background: #f3f3f3;
   width:50%;
-  display: flex;
   padding-block-start: var(--spacing-8);
   padding-block-end: var(--spacing-8);
 }
