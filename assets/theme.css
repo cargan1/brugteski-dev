@@ -10028,12 +10028,12 @@ align-items: center;
 }
 
 
+.content-over-media--xs {
+    --content-over-media-height: 175px;
+}
+
 @media screen and (min-width: 700px){
   .content-over-media--xs {
       --content-over-media-height: 280px;
   }
-}
-
-.content-over-media--xs {
-    --content-over-media-height: 175px;
 }
