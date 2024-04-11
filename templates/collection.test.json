@@ -63,7 +63,7 @@
       "settings": {
         "full_width": true,
         "guide_finder": true,
-        "image_size": "auto",
+        "image_size": "sm",
         "image": "shopify:\/\/shop_images\/mobile-skifinder2.jpg",
         "mobile_image": "shopify:\/\/shop_images\/mobile-skifinder2.jpg",
         "mobile_text_position": "place-self-center-start text-start",
