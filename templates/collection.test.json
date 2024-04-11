@@ -40,6 +40,37 @@
         "heading_gradient": ""
       }
     },
+    "collection_header_section_HQeK8x": {
+      "type": "collection-header-section",
+      "blocks": {
+        "richtext_kmEJEr": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "liquid_7H9L63": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div data-tf-live=\"01HV3HGAGRAV9PZ11XYPAQ9K40\" data-tf-width=\"1080\" data-tf-height=\"85vh\"><\/div><script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_kmEJEr",
+        "liquid_7H9L63"
+      ],
+      "settings": {
+        "full_width": true,
+        "guide_finder": true,
+        "image_size": "auto",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 60
+      }
+    },
     "a1d60877-d7ec-436a-ad43-a06919cf98d4": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -211,6 +242,7 @@
   "order": [
     "banner",
     "4bdf9a05-c268-4dad-ba38-e5c1db7bcb74",
+    "collection_header_section_HQeK8x",
     "a1d60877-d7ec-436a-ad43-a06919cf98d4",
     "custom_html_CFkBWe",
     "main",
