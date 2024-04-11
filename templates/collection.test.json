@@ -23,7 +23,7 @@
     "4bdf9a05-c268-4dad-ba38-e5c1db7bcb74": {
       "type": "image-link-blocks",
       "custom_css": [
-
+        ".section-stack {gap: 0;}"
       ],
       "settings": {
         "full_width": false,
