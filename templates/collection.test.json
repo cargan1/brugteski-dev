@@ -23,7 +23,7 @@
     "4bdf9a05-c268-4dad-ba38-e5c1db7bcb74": {
       "type": "image-link-blocks",
       "custom_css": [
-
+        ".section-stack {gap: 0;}"
       ],
       "settings": {
         "full_width": false,
@@ -46,7 +46,7 @@
         "richtext_kmEJEr": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "content": "<p><strong>Svært ved at finde de rigtige ski<br\/><\/strong>Tag testen, og få lavet en\u2028ski-analyse i dag!<\/p>"
           }
         },
         "liquid_7H9L63": {
@@ -64,65 +64,13 @@
         "full_width": true,
         "guide_finder": true,
         "image_size": "auto",
-        "mobile_text_position": "place-self-center text-center",
+        "image": "shopify:\/\/shop_images\/mobile-skifinder2.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/mobile-skifinder2.jpg",
+        "mobile_text_position": "place-self-center-start text-start",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 60
-      }
-    },
-    "a1d60877-d7ec-436a-ad43-a06919cf98d4": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "template--19570050761049__a1d60877-d7ec-436a-ad43-a06919cf98d4-richtext-1": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>Svært ved at finde de rigtigt ski?<br\/><\/strong>Tag testen, og få lavet en <br\/>ski-analyse i dag!<\/p>"
-          }
-        },
-        "5304bd19-a6e8-4b5d-97ab-115a61250354": {
-          "type": "button",
-          "settings": {
-            "style": "fill",
-            "size": "lg",
-            "text": "Ski-finder",
-            "url": "shopify:\/\/pages\/ski-finder",
-            "background": "",
-            "text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--19570050761049__a1d60877-d7ec-436a-ad43-a06919cf98d4-richtext-1",
-        "5304bd19-a6e8-4b5d-97ab-115a61250354"
-      ],
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/skifinder.pc.3.png",
-        "mobile_image": "shopify:\/\/shop_images\/skifinder.mobil.3.png",
-        "mobile_text_position": "place-self-end-start text-start",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#000000",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "custom_html_CFkBWe": {
-      "type": "custom-html",
-      "custom_css": [
-
-      ],
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "html": "<style>.fbkouV {\n  margin-block: 0px;\n}\n.tf-v1-popup .tf-v1-close {\n  font-size: 40px;\n}<\/style>\n<div data-tf-live=\"01HV3HGAGRAV9PZ11XYPAQ9K40\" data-tf-width=\"1080\" data-tf-height=\"85vh\"><\/div><script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
+        "overlay_color": "#0039ff",
+        "overlay_opacity": 65
       }
     },
     "main": {
@@ -243,8 +191,6 @@
     "banner",
     "4bdf9a05-c268-4dad-ba38-e5c1db7bcb74",
     "collection_header_section_HQeK8x",
-    "a1d60877-d7ec-436a-ad43-a06919cf98d4",
-    "custom_html_CFkBWe",
     "main",
     "c1fd1f55-0ce4-4389-b3ea-b949460ef382",
     "38bc7e44-b411-4e95-8b29-e8b99cb24551",
