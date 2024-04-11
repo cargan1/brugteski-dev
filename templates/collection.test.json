@@ -166,6 +166,46 @@
         "heading_color": "",
         "heading_gradient": ""
       }
+    },
+    "image_with_text_overlay_zVdGy6": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_66GqQ9": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_dntzyp": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_UmkGVb": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_66GqQ9",
+        "heading_dntzyp",
+        "richtext_UmkGVb"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
     }
   },
   "order": [
@@ -176,6 +216,7 @@
     "main",
     "c1fd1f55-0ce4-4389-b3ea-b949460ef382",
     "38bc7e44-b411-4e95-8b29-e8b99cb24551",
-    "9c97e046-53a7-428d-965b-e74aa263b5ca"
+    "9c97e046-53a7-428d-965b-e74aa263b5ca",
+    "image_with_text_overlay_zVdGy6"
   ]
 }
