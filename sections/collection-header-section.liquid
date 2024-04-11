@@ -23,8 +23,10 @@
 <div {% render 'section-properties' %}>
 <div class="collection-header-split">
   <div class="collection-title inline-padding">
-    <p class="h2">{{ collection.title }}</p>
-    <p>{{ collection.description }}</p>
+    <div class="v-stack gap-3 sm:gap-5">
+      <p class="h2">{{ collection.title }}</p>
+      <p>{{ collection.description }}</p>
+    </div>
   </div>
     {%- if section.settings.guide_finder -%}
   <div class="guide-finder inline-padding">
@@ -269,7 +271,7 @@
       "max": 100,
       "step": 1,
       "unit": "%",
-      "default": 60
+      "default": 65
     }
   ],
   "blocks": [
