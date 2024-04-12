@@ -43,13 +43,6 @@
     "collection_header_section_HQeK8x": {
       "type": "collection-header-section",
       "blocks": {
-        "heading_C4PNTa": {
-          "type": "heading",
-          "settings": {
-            "text": "Heading",
-            "heading_tag": "h1"
-          }
-        },
         "richtext_kmEJEr": {
           "type": "richtext",
           "settings": {
@@ -61,26 +54,18 @@
           "settings": {
             "liquid": "<div data-tf-live=\"01HV3HGAGRAV9PZ11XYPAQ9K40\" data-tf-width=\"1080\" data-tf-height=\"85vh\"><\/div><script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script>"
           }
-        },
-        "subheading_KLhHAB": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
         }
       },
       "block_order": [
-        "heading_C4PNTa",
         "richtext_kmEJEr",
-        "liquid_7H9L63",
-        "subheading_KLhHAB"
+        "liquid_7H9L63"
       ],
       "settings": {
         "guide_finder": true,
         "image_size": "xs",
         "image": "shopify:\/\/shop_images\/mobile-skifinder2.jpg",
         "mobile_image": "shopify:\/\/shop_images\/mobile-skifinder2.jpg",
-        "mobile_text_position": "place-self-center-start text-start",
+        "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-start sm:text-start",
         "text_color": "#ffffff",
         "overlay_color": "#0039ff",
