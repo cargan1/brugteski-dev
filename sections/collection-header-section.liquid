@@ -1,12 +1,9 @@
-{%- unless section.settings.full_width -%}
-  {%- render 'section-spacing-collapsing' -%}
-{%- endunless -%}
+
 
 <style>
   #shopify-section-{{ section.id }} {
-    {%- if section.settings.full_width -%}
       --section-outer-spacing-block: 0;
-    {%- endif -%}
+
 
     --content-over-media-overlay: {{ section.settings.overlay_color.rgb }} / {{ section.settings.overlay_opacity | divided_by: 100.0 }};
 
@@ -16,6 +13,7 @@
     padding-inline-start: 0; 
   padding-inline-end: 0;
   }
+  
   #shopify-section-{{ section.id }} .section .collection-header-split .collection-title {
     {%- if   section.settings.guide_finder != true -%}
             width:100%
@@ -24,12 +22,28 @@
     
   }
 
+  #shopify-section-{{ section.id }} .section .collection-header-split .collection-title .collection-wrapper {
+    {%- if   section.settings.guide_finder != true -%}
+            width:100%
+    {%- endif -%}
+
+  }
+
+  @media screen and (min-width: 1080px){
+    #shopify-section-{{ section.id }} .section .collection-header-split .collection-title .collection-wrapper {
+    {%- if   section.settings.guide_finder != true -%}
+            width:50%
+    {%- endif -%}
+
+  }
+      }
+
 </style>
 
 <div {% render 'section-properties' %}>
 <div class="collection-header-split">
   <div class="collection-title inline-padding">
-    <div class="v-stack gap-3 sm:gap-5">
+    <div class="v-stack gap-3 sm:gap-4 collection-wrapper">
       <p class="h2">{{ collection.title }}</p>
       <p>{{ collection.description }}</p>
     </div>
@@ -37,12 +51,12 @@
     {%- if section.settings.guide_finder -%}
   <div class="guide-finder inline-padding">
 
-{%- capture class -%}content-over-media content-over-media--{{ section.settings.image_size }} {% if section.settings.full_width %}full-bleed{% else %}shadow-block rounded-lg{% endif %}{%- endcapture -%}
+{%- capture class -%}content-over-media content-over-media--{{ section.settings.image_size }} full-bleed{%- endcapture -%}
 
   <image-banner reveal-on-scroll="false"  {% render 'surface', class: class, text_color: section.settings.text_color %}>
     {%- if section.settings.image != blank -%}
       {%- capture image_class -%}{% if section.settings.mobile_image != blank %}hidden sm:block{% endif %}{%- endcapture -%}
-      {%- capture sizes -%}{% if section.settings.full_width %}100vw{% else %}(max-width: 740px) calc(100vw - 40px), (max-width: 999px) calc(100vw - 64px), min({{ settings.page_width }}px, 100vw - 96px){% endif %}{%- endcapture -%}
+      {%- capture sizes -%}100vw{%- endcapture -%}
 
       {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200', class: image_class -}}
 
@@ -114,15 +128,9 @@
   "settings": [
     {
       "type": "checkbox",
-      "id": "full_width",
-      "label": "Full width",
-      "default": true
-    },
-    {
-      "type": "checkbox",
       "id": "guide_finder",
       "label": "Tilføj guide",
-      "default": true
+      "default": false
     },
     {
       "type": "select",
