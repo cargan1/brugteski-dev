@@ -43,6 +43,13 @@
     "collection_header_section_HQeK8x": {
       "type": "collection-header-section",
       "blocks": {
+        "heading_C4PNTa": {
+          "type": "heading",
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1"
+          }
+        },
         "richtext_kmEJEr": {
           "type": "richtext",
           "settings": {
@@ -63,6 +70,7 @@
         }
       },
       "block_order": [
+        "heading_C4PNTa",
         "richtext_kmEJEr",
         "liquid_7H9L63",
         "subheading_KLhHAB"
