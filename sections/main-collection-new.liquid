@@ -142,7 +142,11 @@
             <div class="v-stack gap-6">
               <div class="v-stack gap-4 md:hidden">
                 {%- comment -%}We have to duplicate some information on mobile and tablet here{%- endcomment -%}
-                <p class="text-center">{{ 'collection.products_count' | t: count: collection.products_count }}</p>
+                <div class="filter-mobile-container">
+                  <p class="text-center">{{ 'collection.products_count' | t: count: collection.products_count }}</p>
+                  {%- assign filter_label = 'collection.faceting.filter_and_sort' | t -%}
+                  {%- render 'button', size: 'sm', content: filter_label, icon: 'filter', style: 'fill', background: settings.text_color, text_color: settings.background, aria_controls: 'facets-drawer' -%}      
+                </div>
                 {%- render 'active-facets', results: collection -%}
               </div>
 
