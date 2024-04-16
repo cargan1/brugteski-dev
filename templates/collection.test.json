@@ -111,7 +111,7 @@
       "settings": {
         "full_width": true,
         "read_more": true,
-        "content_width": "small",
+        "content_width": "large",
         "text_position": "center",
         "background": "",
         "background_gradient": "",
