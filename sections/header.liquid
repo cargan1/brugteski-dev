@@ -112,13 +112,12 @@
         </button>
 
         <a
-          href="{{ routes.search_url }}"
-          class="tap-area sm:hidden"
-          aria-controls="search-drawer">
-          <span class="sr-only">{{ 'header.general.open_search' | t }}</span>
-          {%- render 'icon' with 'search' -%}
-          <span class="nav-explainer">Søg</span>
-        </a>
+        href="{{ routes.root_url }}/pages/showroom-og-vores-abningstider"
+        class="tap-area sm:hidden">
+        <span class="sr-only">{{ 'header.general.open_search' | t }}</span>
+        {%- render 'icon' with 'store' -%}
+        <span class="nav-explainer">Butik</span>
+      </a>
 
         {%- if section.settings.layout != 'drawer' and section.settings.menu.links.size > 0 -%}
           <nav class="header__link-list {% if section.settings.layout == 'logo_left_navigation_center' %}justify-center{% endif %} wrap" role="navigation">
@@ -312,13 +311,22 @@
         {%- endif -%}
 
         <a
-          href="{{ routes.search_url }}"
-          class="hidden tap-area sm:block"
-          aria-controls="search-drawer">
-          <span class="sr-only">{{ 'header.general.open_search' | t }}</span>
-          {%- render 'icon' with 'search' -%}
-          <span class="nav-explainer">Søg</span>
-        </a>
+        href="/pages/showroom-og-vores-abningstider"
+        class="hidden tap-area sm:block">
+        <span class="sr-only">{{ 'header.general.open_search' | t }}</span>
+        {%- render 'icon' with 'store' -%}
+        <span class="nav-explainer">Butik</span>
+      </a>
+
+        <a
+        href="{{ routes.search_url }}"
+        class="relative tap-area"
+        aria-controls="search-drawer">
+        <span class="sr-only">{{ 'header.general.open_search' | t }}</span>
+        {%- render 'icon' with 'search' -%}
+        <span class="nav-explainer">Søg</span>
+      </a>  
+
 
         {%- if shop.customer_accounts_enabled -%}
           <a href="{{ routes.account_url }}" class="hidden tap-area sm:block">

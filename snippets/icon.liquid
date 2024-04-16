@@ -89,13 +89,20 @@
       </svg>
 
     {%- when 'search' -%}
-      <svg role="presentation" stroke-width="{{ stroke_width | default: settings.icon_stroke_width }}" focusable="false" width="{{ width | default: 22 }}" height="{{ height | default: 22 }}" class="{{ class | strip }}" viewBox="0 0 22 22">
+      <svg role="presentation" stroke-width="{{ stroke_width | default: settings.icon_stroke_width }}" focusable="false" width="{{ width | default: 24 }}" height="{{ height | default: 24 }}" class="{{ class | strip }}" viewBox="0 0 24 24">
         <circle cx="11" cy="10" r="7" fill="none" stroke="currentColor"></circle>
         <path d="m16 15 3 3" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
       </svg>
 
+          
+    {%- when 'store' -%}
+      <svg role="presentation"  stroke-width="{{ stroke_width | default: settings.icon_stroke_width }}" focusable="false" width="{{ width | default: 24 }}" height="{{ height | default: 24 }}" class="{{ class | strip }}" viewBox="0 0 24 24">
+        <path d="M5 4H19M19 13H20L19 8H5L4 13H5M19 13V19.5M19 13H13M13 13V19.5H5V13M13 13H5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+
+
     {%- when 'cart' -%}
-      <svg role="presentation" stroke-width="{{ stroke_width | default: settings.icon_stroke_width }}" focusable="false" width="{{ width | default: 22 }}" height="{{ height | default: 22 }}" class="{{ class | strip }}" viewBox="0 0 22 22">
+      <svg role="presentation" stroke-width="{{ stroke_width | default: settings.icon_stroke_width }}" focusable="false" width="{{ width | default: 23 }}" height="{{ height | default: 23 }}" class="{{ class | strip }}" viewBox="0 0 23 23">
         <path d="M11 7H3.577A2 2 0 0 0 1.64 9.497l2.051 8A2 2 0 0 0 5.63 19H16.37a2 2 0 0 0 1.937-1.503l2.052-8A2 2 0 0 0 18.422 7H11Zm0 0V1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
       </svg>
 
@@ -191,6 +198,7 @@
         <path d="M14.338 7.632H1.497l.179-4.57 6.164-.448 6.497.448v4.57Z" fill="currentColor" fill-opacity="{% if settings.icon_style == 'duo' %}.12{% else %}0{% endif %}"/>
         <path d="M1.224 12.073c.183 1.631 1.508 2.925 3.147 3.004a73.18 73.18 0 0 0 3.546.083c1.256 0 2.413-.028 3.546-.083 1.639-.079 2.964-1.374 3.146-3.004.124-1.099.225-2.224.225-3.37 0-1.147-.102-2.273-.225-3.371-.182-1.631-1.507-2.925-3.146-3.004a73.22 73.22 0 0 0-3.546-.083 73.22 73.22 0 0 0-3.546.083c-1.639.079-2.964 1.374-3.147 3.004C1.101 6.43 1 7.556 1 8.703c0 1.146.102 2.272.224 3.37ZM1.331 7.202h13.24" stroke="currentColor" />
       </svg>
+    
 
     {%- comment -%} PICTO {%- endcomment -%}
 
