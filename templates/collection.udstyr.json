@@ -92,14 +92,14 @@
         "heading_nDtrQQ": {
           "type": "heading",
           "settings": {
-            "text": "Find dit rigtigt udstyr her",
+            "text": "{{ collection.metafields.custom.titel_typeform.value }}",
             "heading_tag": "h2"
           }
         },
         "richtext_3BdrT3": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Svært ved at finde de rigtige ski?<strong><br\/><\/strong>Tag testen, og få lavet en\u2028ski-analyse i dag!<\/p>"
+            "content": "{{ collection.metafields.custom.paragraph_typeform | metafield_tag }}"
           }
         },
         "liquid_jRt6F3": {
