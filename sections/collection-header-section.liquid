@@ -98,6 +98,12 @@
                   </div>
                 {%- endif -%}
 
+                {%- when 'embed' -%}
+                  {%- if block.settings.text != blank -%}
+                    <div data-tf-live="{{ block.settings.text | escape }}" data-tf-width="1080" data-tf-height="85vh"></div>
+                    <script src="//embed.typeform.com/next/embed.js"></script>
+                  {%- endif -%}
+
               {%- when 'button' -%}
                 {%- if block.settings.text != blank -%}
                   {% render 'button', content: block.settings.text, href: block.settings.url, size: block.settings.size, style: block.settings.style, background: block.settings.background, text_color: block.settings.text_color, block: block %}
@@ -374,6 +380,18 @@
           "id": "liquid",
           "label": "Liquid",
           "default": "<p>Use this text to output some custom Liquid code to include widget or dynamic code.</p>"
+        }
+      ]
+    },
+    {
+      "type": "embed",
+      "name": "Embed",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Embed",
+          "default": "Type the embed ID"
         }
       ]
     },
