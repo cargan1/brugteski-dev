@@ -116,7 +116,7 @@
       ],
       "settings": {
         "guide_finder": true,
-        "image_size": "xs",
+        "image_size": "auto",
         "image": "shopify:\/\/shop_images\/desktop-skifinder2.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
