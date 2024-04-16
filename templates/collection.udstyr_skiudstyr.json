@@ -114,45 +114,6 @@
         "heading_gradient": ""
       }
     },
-    "collection_header_section_F9Uang": {
-      "type": "collection-header-section",
-      "blocks": {
-        "heading_rJkDrV": {
-          "type": "heading",
-          "settings": {
-            "text": "Find dit rigtigt udstyr nu",
-            "heading_tag": "h3"
-          }
-        },
-        "richtext_GbPwd3": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Svært ved at finde de rigtige ski?<strong><br\/><\/strong>Tag testen, og få lavet en\u2028ski-analyse i dag!<\/p>"
-          }
-        },
-        "liquid_LJrUkH": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div data-tf-live=\"01HV3HGAGRAV9PZ11XYPAQ9K40\" data-tf-width=\"1080\" data-tf-height=\"85vh\"><\/div><script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_rJkDrV",
-        "richtext_GbPwd3",
-        "liquid_LJrUkH"
-      ],
-      "settings": {
-        "guide_finder": true,
-        "image_size": "xs",
-        "image": "shopify:\/\/shop_images\/mobile-skifinder2.jpg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center-start sm:text-start",
-        "text_color": "#ffffff",
-        "overlay_color": "#0039ff",
-        "overlay_opacity": 65
-      }
-    },
     "main": {
       "type": "main-collection-new",
       "settings": {
@@ -167,32 +128,6 @@
         "show_empty_filter_values": false,
         "show_filter_values_count": true,
         "open_first_filter_group": true
-      }
-    },
-    "text_seo_Yd8Uwp": {
-      "type": "text-seo",
-      "blocks": {
-        "richtext_qGf9py": {
-          "type": "richtext",
-          "settings": {
-            "content": "{{ collection.metafields.custom.seo_bottom | metafield_tag }}"
-          }
-        }
-      },
-      "block_order": [
-        "richtext_qGf9py"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "full_width": true,
-        "read_more": true,
-        "content_width": "large",
-        "text_position": "start",
-        "background": "#efefef",
-        "background_gradient": "",
-        "text_color": ""
       }
     },
     "c1fd1f55-0ce4-4389-b3ea-b949460ef382": {
@@ -257,9 +192,7 @@
   "order": [
     "banner",
     "4bdf9a05-c268-4dad-ba38-e5c1db7bcb74",
-    "collection_header_section_F9Uang",
     "main",
-    "text_seo_Yd8Uwp",
     "c1fd1f55-0ce4-4389-b3ea-b949460ef382",
     "38bc7e44-b411-4e95-8b29-e8b99cb24551",
     "9c97e046-53a7-428d-965b-e74aa263b5ca"
