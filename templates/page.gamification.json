@@ -1,1 +1,158 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{}},"76161a53-80d5-4c87-8984-80c480e0894b":{"type":"slideshow","blocks":{"template--14466604105763__76161a53-80d5-4c87-8984-80c480e0894b-1672833921c7a20e46-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/herreski.jpg","content_max_width":760,"mobile_text_position":"place-self-center text-center","desktop_text_position":"sm:place-self-center sm:text-center","subheading":"","title":"Spil med om 10% rabat","heading_tag":"h0","button_text":"","button_link":"","text_color":"#ffffff","button_background":"#ffffff","button_text_color":"#000000","overlay_color":"#000000","overlay_opacity":30,"background":"","background_gradient":""}}},"block_order":["template--14466604105763__76161a53-80d5-4c87-8984-80c480e0894b-1672833921c7a20e46-0"],"settings":{"full_width":true,"allow_transparent_header":false,"image_size":"auto","controls_type":"dots","transition_type":"fade_with_text","autoplay":false,"cycle_speed":6,"background":"#f2f2f2","background_gradient":""}},"c65460f8-a0b5-4af7-a18c-548772755bef":{"type":"media-with-text","blocks":{"template--14466604105763__c65460f8-a0b5-4af7-a18c-548772755bef-167283252708bdeef1-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Brugteski_skrabelod.gif","media_width":60,"media_position":"start","text_position":"place-self-start-center text-center","icon":"none","icon_width":48,"title":"Skrab & Vind","content":"<p>Prøv vores helt nye spil, hvor du kan være heldig at skrabe 3 ens, og vinde:<br\/><strong>\"10% rabatkode til Brugteski.dk\"<\/strong><\/p><p>Er du så heldig at vinde, sender vi rabatkoden over mail med det samme. <br\/>Held og lykke!<br\/><\/p>","link_text":"Spil Med Her","link_url":"http:\/\/game.scratcher.io\/brugteski","background":"#003eff","background_gradient":"","text_color":"#ffffff","text_gradient":"","button_background":"","button_text_color":""}}},"block_order":["template--14466604105763__c65460f8-a0b5-4af7-a18c-548772755bef-167283252708bdeef1-0"],"settings":{"full_width":false,"enable_parallax":true,"spacing":"none"}},"6556de55-eaad-496e-8bd4-010279a4b7d3":{"type":"collection-list","blocks":{"template--14466604105763__6556de55-eaad-496e-8bd4-010279a4b7d3-1672833382baa23557-0":{"type":"collection","settings":{"collection":"alle-ski","subheading":"","title":"","url":"","heading_tag":"h2","text_position":"place-self-center text-center","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":25}},"template--14466604105763__6556de55-eaad-496e-8bd4-010279a4b7d3-1672833382baa23557-1":{"type":"collection","settings":{"collection":"alt-tilbehor","subheading":"","title":"","url":"","heading_tag":"h2","text_position":"place-self-center text-center","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":25}},"template--14466604105763__6556de55-eaad-496e-8bd4-010279a4b7d3-1672833382baa23557-2":{"type":"collection","settings":{"collection":"alt-snowboard","subheading":"","title":"","url":"","heading_tag":"h2","text_position":"place-self-center text-center","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":25}}},"block_order":["template--14466604105763__6556de55-eaad-496e-8bd4-010279a4b7d3-1672833382baa23557-0","template--14466604105763__6556de55-eaad-496e-8bd4-010279a4b7d3-1672833382baa23557-1","template--14466604105763__6556de55-eaad-496e-8bd4-010279a4b7d3-1672833382baa23557-2"],"settings":{"full_width":true,"stack_collections":true,"collections_per_row":3,"show_progress_bar":false,"subheading":"","title":"Alt til skiferien","content":"<p>Vi har et stort udvalg af brugt og nyt skiudstyr, til super skarpe priser. Se hele vores udvalg herunder!<\/p>","link_url":"","link_text":"","background":"","background_gradient":"","text_color":"","heading_color":"","heading_gradient":""}}},"order":["main","76161a53-80d5-4c87-8984-80c480e0894b","c65460f8-a0b5-4af7-a18c-548772755bef","6556de55-eaad-496e-8bd4-010279a4b7d3"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "76161a53-80d5-4c87-8984-80c480e0894b": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14466604105763__76161a53-80d5-4c87-8984-80c480e0894b-1672833921c7a20e46-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/herreski.jpg",
+            "content_max_width": 760,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "Spil med om 10% rabat",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14466604105763__76161a53-80d5-4c87-8984-80c480e0894b-1672833921c7a20e46-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "c65460f8-a0b5-4af7-a18c-548772755bef": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--14466604105763__c65460f8-a0b5-4af7-a18c-548772755bef-167283252708bdeef1-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Brugteski_skrabelod.gif",
+            "media_width": 60,
+            "media_position": "start",
+            "text_position": "place-self-start-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Skrab & Vind",
+            "content": "<p>Prøv vores helt nye spil, hvor du kan være heldig at skrabe 3 ens, og vinde:<br\/><strong>\"10% rabatkode til Brugteski.dk\"<\/strong><\/p><p>Er du så heldig at vinde, sender vi rabatkoden over mail med det samme. <br\/>Held og lykke!<br\/><\/p>",
+            "link_text": "Spil Med Her",
+            "link_url": "http:\/\/game.scratcher.io\/brugteski",
+            "background": "#003eff",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14466604105763__c65460f8-a0b5-4af7-a18c-548772755bef-167283252708bdeef1-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "none"
+      }
+    },
+    "6556de55-eaad-496e-8bd4-010279a4b7d3": {
+      "type": "collection-list",
+      "blocks": {
+        "template--14466604105763__6556de55-eaad-496e-8bd4-010279a4b7d3-1672833382baa23557-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "alle-ski",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 25
+          }
+        },
+        "template--14466604105763__6556de55-eaad-496e-8bd4-010279a4b7d3-1672833382baa23557-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "skiudstyr",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 25
+          }
+        },
+        "template--14466604105763__6556de55-eaad-496e-8bd4-010279a4b7d3-1672833382baa23557-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "alt-snowboard",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 25
+          }
+        }
+      },
+      "block_order": [
+        "template--14466604105763__6556de55-eaad-496e-8bd4-010279a4b7d3-1672833382baa23557-0",
+        "template--14466604105763__6556de55-eaad-496e-8bd4-010279a4b7d3-1672833382baa23557-1",
+        "template--14466604105763__6556de55-eaad-496e-8bd4-010279a4b7d3-1672833382baa23557-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_collections": true,
+        "collections_per_row": 3,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "Alt til skiferien",
+        "content": "<p>Vi har et stort udvalg af brugt og nyt skiudstyr, til super skarpe priser. Se hele vores udvalg herunder!<\/p>",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "76161a53-80d5-4c87-8984-80c480e0894b",
+    "c65460f8-a0b5-4af7-a18c-548772755bef",
+    "6556de55-eaad-496e-8bd4-010279a4b7d3"
+  ]
+}

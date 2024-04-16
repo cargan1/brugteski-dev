@@ -91,21 +91,28 @@
     "text_seo_VQ6nP7": {
       "type": "text-seo",
       "blocks": {
+        "richtext_MPn9wT": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        },
         "richtext_xaA6Jx": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>{{ collection.metafields.custom.seo_bottom | metafield_tag }}"
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.Describe a product, share announcements, or welcome customers to your store.zvsdv<\/p>{{ collection.metafields.custom.seo_bottom | metafield_tag }}"
           }
         }
       },
       "block_order": [
+        "richtext_MPn9wT",
         "richtext_xaA6Jx"
       ],
       "settings": {
         "full_width": true,
         "read_more": true,
-        "content_width": "small",
-        "text_position": "start",
+        "content_width": "large",
+        "text_position": "center",
         "background": "",
         "background_gradient": "",
         "text_color": ""

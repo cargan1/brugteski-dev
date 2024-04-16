@@ -96,6 +96,9 @@
         "1ab26b8e-c402-488c-b389-129c04f2a65f",
         "63b658bb-4a92-49ea-9ad5-565924388bbe"
       ],
+      "custom_css": [
+        ".section-stack {gap: 0;}"
+      ],
       "settings": {
         "full_width": false,
         "block_size": "small",
@@ -165,6 +168,7 @@
       "block_order": [
         "template--14429261299747__9c97e046-53a7-428d-965b-e74aa263b5ca-16661253977a2bf0d6-0"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "show_excerpt": true,
