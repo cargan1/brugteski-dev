@@ -183,7 +183,7 @@
         "richtext_qGf9py"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "read_more": true,
         "content_width": "small",
         "text_position": "start",
