@@ -1,11 +1,11 @@
 <script>
-    window.addEventListener('load', function () {
-  initReadMore('.metafield-rich_text_field', {
+
+  function initReadMore('.metafield-rich_text_field', {
     collapsedHeight: 100,
     speed: 200,
     heightMargin: 16,
     moreLink: 'Read More',
     lessLink: 'Close'
   });
-});
+  setTimeout(initReadMore, 500);
 </script>
