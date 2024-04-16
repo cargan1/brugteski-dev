@@ -96,6 +96,9 @@
         "1ab26b8e-c402-488c-b389-129c04f2a65f",
         "63b658bb-4a92-49ea-9ad5-565924388bbe"
       ],
+      "custom_css": [
+        ".section-stack {gap: 0;}"
+      ],
       "settings": {
         "full_width": false,
         "block_size": "small",
@@ -109,6 +112,36 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": ""
+      }
+    },
+    "collection_header_section_F9Uang": {
+      "type": "collection-header-section",
+      "blocks": {
+        "richtext_GbPwd3": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "liquid_LJrUkH": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<p>Use this text to output some custom Liquid code to include widget or dynamic code.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_GbPwd3",
+        "liquid_LJrUkH"
+      ],
+      "settings": {
+        "guide_finder": false,
+        "image_size": "xs",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 65
       }
     },
     "main": {
@@ -188,6 +221,7 @@
   "order": [
     "banner",
     "4bdf9a05-c268-4dad-ba38-e5c1db7bcb74",
+    "collection_header_section_F9Uang",
     "main",
     "c1fd1f55-0ce4-4389-b3ea-b949460ef382",
     "38bc7e44-b411-4e95-8b29-e8b99cb24551",
