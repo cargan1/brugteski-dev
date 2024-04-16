@@ -89,10 +89,17 @@
     "collection_header_section_KMDxdR": {
       "type": "collection-header-section",
       "blocks": {
+        "heading_nDtrQQ": {
+          "type": "heading",
+          "settings": {
+            "text": "Find dit rigtigt udstyr her",
+            "heading_tag": "h2"
+          }
+        },
         "richtext_3BdrT3": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>Svært ved at finde de rigtige ski<br\/><\/strong>Tag testen, og få lavet en\u2028ski-analyse i dag!<\/p>"
+            "content": "<p>Svært ved at finde de rigtige ski?<strong><br\/><\/strong>Tag testen, og få lavet en\u2028ski-analyse i dag!<\/p>"
           }
         },
         "liquid_jRt6F3": {
@@ -103,6 +110,7 @@
         }
       },
       "block_order": [
+        "heading_nDtrQQ",
         "richtext_3BdrT3",
         "liquid_jRt6F3"
       ],
