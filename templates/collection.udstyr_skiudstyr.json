@@ -183,10 +183,10 @@
         "richtext_qGf9py"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "read_more": true,
         "content_width": "small",
-        "text_position": "center",
+        "text_position": "start",
         "background": "",
         "background_gradient": "",
         "text_color": ""
