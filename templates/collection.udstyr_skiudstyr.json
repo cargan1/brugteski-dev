@@ -188,7 +188,7 @@
       "settings": {
         "full_width": true,
         "read_more": true,
-        "content_width": "medium",
+        "content_width": "large",
         "text_position": "start",
         "background": "#efefef",
         "background_gradient": "",
