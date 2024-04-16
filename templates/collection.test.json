@@ -46,11 +46,12 @@
         "richtext_kmEJEr": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>Svært ved at finde de rigtige ski<br\/><\/strong>Tag testen, og få lavet en\u2028ski-analyse i dag!<\/p>"
+            "content": "<p><strong>Svært ved at finde de rigtige ski<br\/><\/strong>Tag testen, og få lavet en\u2028ski-analyse i dag!<\/p><p>{{ collection.metafields.custom.typeform_embed | metafield_tag }}<\/p>"
           }
         },
         "liquid_7H9L63": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<div data-tf-live=\"01HV3HGAGRAV9PZ11XYPAQ9K40\" data-tf-width=\"1080\" data-tf-height=\"85vh\"><\/div><script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script>"
           }
