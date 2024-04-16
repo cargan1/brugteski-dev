@@ -1,0 +1,238 @@
+{%- if section.blocks.size > 0 -%}
+  {%- render 'section-spacing-collapsing' -%}
+
+  <style>
+    #shopify-section-{{ section.id }}{
+      --rich-text-max-width: {% if section.settings.content_width == 'small' %}
+        650px{% elsif section.settings.content_width == 'medium' %}
+        780px{% else %}
+        100%{% endif %}
+    }
+
+    {%- if section.settings.readmore -%}
+      .readmore-button {
+        background-color: #0039ff;
+        color: #fff;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 4px;
+      }
+
+      /* Styling the "Collapse" Button */
+      .readmore-button.collapse {
+        background-color: #0039ff;
+      }
+
+    {%- endif -%}
+
+
+
+    {%- if section.settings.tab_label != blank -%}
+      .section-{{ section.id}}{
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+      }
+      @media screen and (max-width: 900px) {
+        .section-{{ section.id}}{
+          padding-top: 20px !important;
+          padding-bottom: 20px !important;
+        }
+      }
+    {%- endif -%}
+  </style>
+
+
+
+    <div {% render 'section-properties' %}>
+      {%- assign text_position = section.settings.text_position -%}
+      {%- assign blocks_before_divider = '' -%}
+      {%- assign blocks_after_divider = '' -%}
+
+      {%- for block in section.blocks -%}
+        {%- capture block_content -%}
+          {%- case block.type -%}
+
+            {%- when 'richtext' -%}
+            {%- if block.settings.content != blank -%}
+              <div {{ block.shopify_attributes }}>
+                {{- block.settings.content -}}
+              </div>
+            {%- endif -%}
+
+            {%- when 'richtext' -%}
+            {%- if block.settings.description != blank -%}
+              <div class="product-info__description" {{ block.shopify_attributes }}>
+                <div class="prose">
+                  {{- product.description -}}
+                </div>
+              </div>
+            {%- endif -%}
+
+
+            {%- when 'liquid' -%}
+            {%- if block.settings.liquid != blank -%}
+              <div {{ block.shopify_attributes }}>
+                {{- block.settings.liquid -}}
+              </div>
+            {%- endif -%}
+
+
+            {%- when 'divider' -%}
+            {%- assign divider_index = forloop.index -%}
+          {%- endcase -%}
+        {%- endcapture -%}
+
+        {%- if divider_index == blank or forloop.index < divider_index -%}
+          {%- assign blocks_before_divider = blocks_before_divider | append: block_content -%}
+        {%- else -%}
+          {%- assign blocks_after_divider = blocks_after_divider | append: block_content -%}
+        {%- endif -%}
+      {%- endfor -%}
+
+      {%- if blocks_before_divider != blank and blocks_after_divider != blank -%}
+        <div class="split-rich-text">
+          <div class="prose readmore {% if text_position == 'center' %}justify-items-center text-center{% else %}justify-items-start{% endif %}">
+            {{- blocks_before_divider -}}
+          </div>
+
+          <div class="prose readmore {% if text_position == 'center' %}justify-items-center text-center{% else %}justify-items-start{% endif %}">
+            {{- blocks_after_divider -}}
+          </div>
+        </div>
+      {%- endif -%}
+
+      <div class="rich-text {% if text_position == 'center' %}justify-center{% endif %} {% if blocks_before_divider != blank and blocks_after_divider != blank %}md:hidden{% endif %}">
+        <div class="rich-text__wrapper">
+          <div class="prose readmore {% if text_position == 'center' %}justify-items-center text-center{% else %}justify-items-start{% endif %}">
+            {{- blocks_before_divider -}}
+            {{- blocks_after_divider -}}
+          </div>
+        </div>
+      </div>
+    </div>
+  {%- endif -%}
+
+{%- if section.settings.read_more -%}
+  {% render 'read-more' %}
+{%- endif -%}
+
+{% schema %}
+  {
+    "name": "Rich text",
+    "class": "shopify-section--rich-text",
+    "tag": "section",
+    "enabled_on": {
+    "templates": ["collection"]
+    },
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "full_width",
+        "label": "Full width",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "read_more",
+        "label": "Read more",
+        "default": true
+      },
+      {
+        "type": "select",
+        "id": "content_width",
+        "label": "Content width",
+        "options": [
+          {
+            "value": "small",
+            "label": "Small"
+          }, {
+            "value": "medium",
+            "label": "Medium"
+          }, {
+            "value": "large",
+            "label": "Large"
+          }
+        ],
+        "default": "small"
+      },
+      {
+        "type": "select",
+        "id": "text_position",
+        "label": "Text position",
+        "options": [
+          {
+            "value": "start",
+            "label": "Left"
+          }, {
+            "value": "center",
+            "label": "Center"
+          }
+        ],
+        "default": "center"
+      },
+      {
+        "type": "header",
+        "content": "Colors",
+        "info": "Gradient replaces solid colors when set."
+      }, {
+        "type": "color",
+        "id": "background",
+        "label": "Background"
+      }, {
+        "type": "color_background",
+        "id": "background_gradient",
+        "label": "Background gradient"
+      }, {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "richtext",
+        "name": "Paragraph",
+        "settings": [
+          {
+            "type": "richtext",
+            "id": "content",
+            "label": "Content",
+            "default": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        ]
+      },
+      {
+        "type": "liquid",
+        "name": "Liquid",
+        "settings": [
+          {
+            "type": "liquid",
+            "id": "liquid",
+            "label": "Liquid",
+            "default": "<p>Write custom Liquid code to include widget or dynamic code.</p>"
+          }
+        ]
+      }, {
+        "type": "divider",
+        "name": "Column divider",
+        "limit": 1,
+        "settings": [
+          {
+            "type": "paragraph",
+            "content": "Content before and after this block are divided into two columns (on desktop only)."
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Collection text",
+        "blocks": [ 
+          {
+            "type": "richtext"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
