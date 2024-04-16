@@ -9,18 +9,15 @@
         100%{% endif %}
     }
 
-    {%- if section.settings.readmore -%}
+    {%- if section.settings.read_more -%}
       .readmore-button {
-        background-color: #0039ff;
-        color: #fff;
-        padding: 10px 20px;
-        text-decoration: none;
-        border-radius: 4px;
+        font-weight: 700;
+        text-decoration: underline;
       }
 
       /* Styling the "Collapse" Button */
       .readmore-button.collapse {
-        background-color: #0039ff;
+
       }
 
     {%- endif -%}
