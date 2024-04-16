@@ -125,7 +125,6 @@
         },
         "liquid_LJrUkH": {
           "type": "liquid",
-          "disabled": true,
           "settings": {
             "liquid": "<div data-tf-live=\"01HV3HGAGRAV9PZ11XYPAQ9K40\" data-tf-width=\"1080\" data-tf-height=\"85vh\"><\/div><script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script>"
           }
