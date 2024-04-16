@@ -96,6 +96,9 @@
         "1ab26b8e-c402-488c-b389-129c04f2a65f",
         "63b658bb-4a92-49ea-9ad5-565924388bbe"
       ],
+      "custom_css": [
+        ".section-stack {gap: 1;}"
+      ],
       "settings": {
         "full_width": false,
         "block_size": "small",
