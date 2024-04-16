@@ -15,7 +15,7 @@
             "title": "Bliv klar til skisæsonen",
             "heading_tag": "h0",
             "button_text": "SHOP SKIUDSTYR",
-            "button_link": "shopify:\/\/collections\/alt-tilbehor",
+            "button_link": "shopify:\/\/collections\/skiudstyr",
             "text_color": "#ffffff",
             "button_background": "#003eff",
             "button_text_color": "#ffffff",
@@ -100,7 +100,7 @@
         "collection-2": {
           "type": "collection",
           "settings": {
-            "collection": "alt-tilbehor",
+            "collection": "skiudstyr",
             "image": "shopify:\/\/shop_images\/altskiudstyr_7c395200-c50d-4469-a6f7-5ac902b2b8cd.jpg",
             "subheading": "",
             "title": "Skiudstyr",
