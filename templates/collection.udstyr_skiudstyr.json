@@ -120,14 +120,14 @@
         "heading_rJkDrV": {
           "type": "heading",
           "settings": {
-            "text": "Heading",
+            "text": "Find dit udstyr nu",
             "heading_tag": "h1"
           }
         },
         "richtext_GbPwd3": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>Svært ved at finde de rigtige ski<br\/><\/strong>Tag testen, og få lavet en\u2028ski-analyse i dag!<\/p>"
+            "content": "<p>Svært ved at finde de rigtige ski?<strong><br\/><\/strong>Tag testen, og få lavet en\u2028ski-analyse i dag!<\/p>"
           }
         },
         "liquid_LJrUkH": {
