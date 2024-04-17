@@ -106,7 +106,7 @@
         "full_width": true,
         "read_more": true,
         "content_width": "large",
-        "text_position": "center",
+        "text_position": "start",
         "background": "",
         "background_gradient": "",
         "text_color": ""
