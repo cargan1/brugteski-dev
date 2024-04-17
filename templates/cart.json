@@ -22,6 +22,7 @@
         },
         "a01e7aa6-dd5d-4bdd-aba5-417c76c580e2": {
           "type": "accelerated_buttons",
+          "disabled": true,
           "settings": {
           }
         },
