@@ -22,6 +22,11 @@
 				var moreLink = options.moreLink || '<a href="#">Read More</a>';
 				var lessLink = options.lessLink || '<a href="#">Close</a>';
 
+				
+				//Adding class for fade
+				element.classList.add("fade-over");
+
+
 				// Получаем полный контент элемента
 				// Отримуємо повний вміст елемента
 				// Get the full content of the element
@@ -43,6 +48,7 @@
 				// Встановлюємо стилі для елемента
 				// Set styles for the element
 				element.style.overflow = 'hidden';
+				element.style.position = 'relative';
 				element.style.height = height + 'px';
 				element.style.transition = 'height ' + speed + 'ms ease-in-out';
 
@@ -68,9 +74,11 @@
 					if (isExpanded) {
 						element.style.height = contentHeight + heightMargin + 'px';
 						readMoreButton.innerHTML = lessLink;
+						element.classList.remove("fade-over");
 					} else {
 						element.style.height = height + 'px';
 						readMoreButton.innerHTML = moreLink;
+						element.classList.add("fade-over");
 					}
 				});
 
@@ -90,6 +98,7 @@
 	}
 
 	var mediaQueryList;
+
 	if (maxWidth) {
 		mediaQueryList = window.matchMedia('(max-width: ' + maxWidth + 'px)');
 		mediaQueryList.addListener(handleMediaChange);
@@ -97,6 +106,8 @@
 	} else {
 		handleMediaChange({ matches: true });
 	}
+
+
 }
     
 window.addEventListener('load', function () {
@@ -110,16 +121,8 @@ window.addEventListener('load', function () {
         });
     }, 500)
 });
-
-
     
 window.addEventListener('resize', function () {
-	initReadMore('.readmore > div', {
-		collapsedHeight: 250,
-		speed: 200,
-		heightMargin: 0,
-		moreLink: 'Læs mere',
-		lessLink: 'Se mindre'
-	});
+	this.location.reload();
 });
 </script>
