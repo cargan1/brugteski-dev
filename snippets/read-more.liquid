@@ -61,6 +61,7 @@
 				// Перевіряємо, чи вміст коротший, ніж максимальна висота
 				// Check if the content is shorter than the maximum height
 				if (contentHeight <= height) {
+				element.classList.remove("fade-over");
 				readMoreButton.style.display = 'none'; // Приховуємо кнопку "Читати далі"
 				}
 
