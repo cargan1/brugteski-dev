@@ -46,7 +46,7 @@
         "richtext_kmEJEr": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>Svært ved at finde de rigtige ski<br\/><\/strong>Tag testen, og få lavet en\u2028ski-analyse i dag!<\/p><p>{{ collection.metafields.custom.typeform_embed | metafield_tag }}<\/p>"
+            "content": "<p><strong>Svært ved at finde de rigtige ski<br\/><\/strong>Tag testen, og få lavet en\u2028ski-analyse i dag!<\/p>"
           }
         },
         "liquid_7H9L63": {
@@ -101,7 +101,7 @@
         "richtext_xaA6Jx": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.Describe a product, share announcements, or welcome customers to your store.zvsdv<\/p>{{ collection.metafields.custom.seo_bottom | metafield_tag }}"
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.Describe a product, share announcements, or welcome customers to your store.zvsd<\/p>"
           }
         }
       },
