@@ -104,10 +104,22 @@ window.addEventListener('load', function () {
         initReadMore('.readmore > div', {
             collapsedHeight: 250,
             speed: 200,
-            heightMargin: 16,
+            heightMargin: 0,
             moreLink: 'Læs mere',
             lessLink: 'Se mindre'
         });
     }, 500)
+});
+
+
+    
+window.addEventListener('resize', function () {
+	initReadMore('.readmore > div', {
+		collapsedHeight: 250,
+		speed: 200,
+		heightMargin: 0,
+		moreLink: 'Læs mere',
+		lessLink: 'Se mindre'
+	});
 });
 </script>
