@@ -10056,3 +10056,15 @@ align-items: center;
   pointer-events: none;
 opacity: 0.5;
 }
+
+.checkout_terms-drawer button{
+  width:100%;
+}
+
+.wide-grid-col {
+  grid-column: 1 / -1;
+}
+
+.buy-buttons--compact {
+  grid-template-columns: repeat(2, 1fr);
+}

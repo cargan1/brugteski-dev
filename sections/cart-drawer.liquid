@@ -153,7 +153,7 @@
             {%- render block -%}
 
             {%- when 'drawer_termsbox' -%}
-            <div {{ block.shopify_attributes }}>
+            <div {{ block.shopify_attributes }} class="wide-grid-col">
               {% render 'drawer-termsbox' , block: block %}
             </div>
           {%- endcase -%}
