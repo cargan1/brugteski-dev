@@ -147,7 +147,17 @@
 
       <form action="{{ routes.cart_url }}" method="POST" class="buy-buttons {% if section.settings.show_checkout_button %}buy-buttons--compact{% endif %}">
         {%- assign checkout_label = 'cart.general.checkout' | t -%}
+        {%- for block in section.blocks -%}
+          {%- case block.type -%}
+            {%- when '@app' -%}
+            {%- render block -%}
 
+            {%- when 'termsbox' -%}
+            <div {{ block.shopify_attributes }}>
+              {% render 'cart-termsbox' , block: block %}
+            </div>
+          {%- endcase -%}
+        {%- endfor -%}
         {%- if section.settings.show_view_cart_button or section.settings.show_checkout_button == false -%}
           <a href="{{ routes.cart_url }}" class="button button--xl {% if section.settings.show_checkout_button %}button--secondary{% endif %}" data-no-instant>
             {{- 'cart.general.view_cart' | t -}}
@@ -165,6 +175,62 @@
 {% schema %}
 {
   "name": "Cart drawer",
+  "blocks": [
+    {
+        "type": "termsbox",
+        "name": "Termsbox",
+        "limit": 1,
+        "settings": [
+          {
+            "id": "prelink_text",
+            "type": "text",
+            "label": "Text before the link to the terms",
+            "default": "I have read"
+          },
+          {
+            "id": "link_text",
+            "type": "text",
+            "label": "The link text of the terms",
+            "default": "Terms and Conditions"
+          },
+          {
+            "id": "postlink_text",
+            "type": "text",
+            "label": "Text after the link to the terms",
+            "default": " and agree"
+          },
+          {
+            "id": "terms_page",
+            "type": "page",
+            "label": "Terms and Conditions page"
+          },
+          {
+            "type": "range",
+            "id": "checkbox_scale",
+            "min": 1,
+            "max": 3,
+            "step": 0.1,
+            "label": "Checkbox size",
+            "default": 1.2
+          },
+          {
+            "type": "checkbox",
+            "id": "mandatory",
+            "label": "Customer must check the checkbox to checkout",
+            "default": true
+          },
+          {
+            "id": "internal_label",
+            "type": "text",
+            "label": "Internal label that will be shown in the order's Additional Details",
+            "default": "Customer agreed to terms"
+          }
+        ]
+      },
+      {
+        "type": "@app"
+      }
+  ],
   "settings": [
     {
       "type": "paragraph",

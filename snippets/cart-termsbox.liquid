@@ -1,0 +1,52 @@
+<p class="cart-attribute__field">
+  <input type="hidden" name="attributes[{{ block.settings.internal_label }}]" value="No" form="cart">
+  <input id="termsbox_id" {% if block.settings.mandatory %}class="required" required {% endif %} type="checkbox" name="attributes[{{ block.settings.internal_label }}]" value="Yes" form="cart">
+  <label for="termsbox_id" style="cursor: pointer;">
+  	{{ block.settings.prelink_text }}
+  	<a href="{{ block.settings.terms_page.url }}" target="_blank">{{ block.settings.link_text }}</a>
+  	{{ block.settings.postlink_text }}
+  </label>
+</p>
+
+<style>
+	#termsbox_id {
+		transform: scale({{ block.settings.checkbox_scale }});
+	}
+
+	{% if block.settings.mandatory %}
+	#dynamic-checkout-cart, [name="checkout"][type="submit"] {
+		{% if cart.attributes[block.settings.internal_label] != "No" %}
+		pointer-events: auto;
+		opacity: 1.0;
+		{% else %}
+		pointer-events: none;
+		opacity: 0.5;
+		{% endif %}
+	}
+	{% endif %}
+</style>
+
+
+<script>
+document.getElementById('termsbox_id').addEventListener('change', (event) => {
+  if (event.currentTarget.checked) {
+
+  	document.getElementById("termsbox_id").value = "Agreed at " + (new Date()).toLocaleString();
+  	{% if block.settings.mandatory %}
+  	document.querySelector('[name="checkout"][type="submit"]').style.pointerEvents = 'auto';
+    document.querySelector('[name="checkout"][type="submit"]').style.opacity = 1.0;
+
+  	document.getElementById('dynamic-checkout-cart').style.pointerEvents = 'auto';
+    document.getElementById('dynamic-checkout-cart').style.opacity = 1.0;
+    {% endif %}
+  } else {
+  	{% if block.settings.mandatory %}
+  	document.querySelector('[name="checkout"][type="submit"]').style.pointerEvents = 'none';
+    document.querySelector('[name="checkout"][type="submit"]').style.opacity = 0.5;
+
+  	document.getElementById('dynamic-checkout-cart').style.pointerEvents = 'none';
+    document.getElementById('dynamic-checkout-cart').style.opacity = 0.5;
+    {% endif %}
+  }
+})
+</script>
