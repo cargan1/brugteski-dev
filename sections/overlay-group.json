@@ -25,6 +25,23 @@
     },
     "cart-drawer": {
       "type": "cart-drawer",
+      "blocks": {
+        "termsbox_E8DhkL": {
+          "type": "termsbox",
+          "settings": {
+            "prelink_text": "Jeg har læst accepteret",
+            "link_text": "handelsbetingelserne",
+            "postlink_text": "",
+            "terms_page": "salgs-og-lev-betingelser",
+            "checkbox_scale": 1.2,
+            "mandatory": true,
+            "internal_label": "Har accepteret handelsbetingelserne"
+          }
+        }
+      },
+      "block_order": [
+        "termsbox_E8DhkL"
+      ],
       "settings": {
         "show_cart_note": true,
         "show_shipping_text": true,
