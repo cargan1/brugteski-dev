@@ -15,6 +15,18 @@
           "settings": {
           }
         },
+        "termsbox_8rxnaX": {
+          "type": "termsbox",
+          "settings": {
+            "prelink_text": "Jeg har læst og accepteret",
+            "link_text": "handelsbetingelserne",
+            "postlink_text": "",
+            "terms_page": "salgs-og-lev-betingelser",
+            "checkbox_scale": 1.2,
+            "mandatory": true,
+            "internal_label": "Har accepteret handelsbetingelser"
+          }
+        },
         "checkout_button": {
           "type": "checkout_button",
           "settings": {
@@ -62,6 +74,7 @@
       "block_order": [
         "totals",
         "cart_note",
+        "termsbox_8rxnaX",
         "checkout_button",
         "a01e7aa6-dd5d-4bdd-aba5-417c76c580e2",
         "offer_Yt3j4F",
