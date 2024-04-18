@@ -69,7 +69,7 @@
         "b43d6136-e9c0-4338-82f9-f33dac1f623a"
       ],
       "custom_css": [
-        ".section-stack {gap: 0;}"
+
       ],
       "settings": {
         "full_width": false,
@@ -102,17 +102,17 @@
             "content": "{{ collection.metafields.custom.paragraph_typeform | metafield_tag }}"
           }
         },
-        "liquid_jRt6F3": {
-          "type": "liquid",
+        "embed_dprTwq": {
+          "type": "embed",
           "settings": {
-            "liquid": "<div data-tf-live=\"01HV3HGAGRAV9PZ11XYPAQ9K40\" data-tf-width=\"1080\" data-tf-height=\"85vh\"><\/div><script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script>"
+            "text": "{{ collection.metafields.custom.typeform_live_id.value }}"
           }
         }
       },
       "block_order": [
         "heading_nDtrQQ",
         "richtext_3BdrT3",
-        "liquid_jRt6F3"
+        "embed_dprTwq"
       ],
       "settings": {
         "guide_finder": true,

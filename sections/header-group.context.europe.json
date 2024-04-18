@@ -4,23 +4,22 @@
     "market": "europe"
   },
   "sections": {
-    "header": {
-      "settings": {
-        "logo": "shopify:\/\/shop_images\/secondskis.com.hvid.png",
-        "transparent_logo": "shopify:\/\/shop_images\/secondskis.com.hvid.png"
-      },
-      "blocks": {
-      }
-    },
     "announcement-bar": {
       "settings": {
       },
       "blocks": {
-        "message_gtMCUQ": {
-          "settings": {
-            "text": "🎿 SÆSONSAFSLUTNING 🎿 10 - 30 % rabat på alt 🎿 Sidste åbningsdag i butikken for sæsonen: 24. marts 🎿"
-          }
-        }
+      }
+    },
+    "header": {
+      "settings": {
+        "show_locale_selector": false,
+        "show_country_selector": false,
+        "show_country_flag": false,
+        "show_country_name": false,
+        "transparent_logo": "shopify:\/\/shop_images\/secondskis.com.hvid.png",
+        "logo": "shopify:\/\/shop_images\/secondskis.com.hvid.png"
+      },
+      "blocks": {
       }
     }
   }
