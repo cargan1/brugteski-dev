@@ -10048,3 +10048,11 @@ align-items: center;
   justify-content: space-between;
   align-items: center;
 }
+
+
+/* Disable go to payment button */ 
+
+#dynamic-checkout-cart, [name="checkout"][type="submit"] {
+  pointer-events: none;
+opacity: 0.5;
+}
