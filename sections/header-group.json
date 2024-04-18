@@ -17,7 +17,7 @@
         "fb1e6665-ce14-4a1c-a720-f7108a7fb3eb"
       ],
       "custom_css": [
-
+        "@media only screen and (min-width: 768px) {.text-base {width: 200%; \/* Tilpas bredden på større skærme efter behov *\/ }}"
       ],
       "settings": {
         "enable_sticky": true,
