@@ -11,28 +11,13 @@
             "text": "🎿 Gratis fragt ved 995 DKK og altid gratis returnering, med 2-5 dages levering 🎿",
             "url": ""
           }
-        },
-        "aea7a558-8fe8-4cf0-8076-2841ac366e76": {
-          "type": "message",
-          "disabled": true,
-          "settings": {
-            "text": "🎿Udvidet juleåbningsdage den 26, 27 og 28. december med 10% rabat i butikken 🥳 Se mere her!",
-            "url": "https:\/\/fb.me\/e\/2YjryW2gV"
-          }
-        },
-        "message_gtMCUQ": {
-          "type": "message",
-          "disabled": true,
-          "settings": {
-            "text": "🎿 SÆSONSAFSLUTNING 🎿 10 - 30 % rabat på alt 🎿 Sidste åbningsdag i butikken for sæsonen: 24. marts",
-            "url": ""
-          }
         }
       },
       "block_order": [
-        "fb1e6665-ce14-4a1c-a720-f7108a7fb3eb",
-        "aea7a558-8fe8-4cf0-8076-2841ac366e76",
-        "message_gtMCUQ"
+        "fb1e6665-ce14-4a1c-a720-f7108a7fb3eb"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
         "enable_sticky": true,
