@@ -152,9 +152,9 @@
             {%- when '@app' -%}
             {%- render block -%}
 
-            {%- when 'termsbox' -%}
+            {%- when 'drawer_termsbox' -%}
             <div {{ block.shopify_attributes }}>
-              {% render 'cart-termsbox' , block: block %}
+              {% render 'drawer-termsbox' , block: block %}
             </div>
           {%- endcase -%}
         {%- endfor -%}
@@ -165,7 +165,9 @@
         {%- endif -%}
 
         {%- if section.settings.show_checkout_button -%}
+          <div class="checkout_terms-drawer">
           {%- render 'button', type: 'submit', content: checkout_label, icon: 'picto-lock', name: 'checkout', size: 'xl' -%}
+          </div>
         {%- endif -%}
       </form>
     </div>
@@ -177,8 +179,8 @@
   "name": "Cart drawer",
   "blocks": [
     {
-        "type": "termsbox",
-        "name": "Termsbox",
+      "type": "drawer_termsbox",
+        "name": "Drawer Termsbox",
         "limit": 1,
         "settings": [
           {
