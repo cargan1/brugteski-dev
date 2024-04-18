@@ -13,6 +13,11 @@
 		transform: scale({{ block.settings.checkbox_scale }});
 	}
 
+    #dynamic-checkout-cart, [name="checkout"][type="submit"] {
+        pointer-events: none;
+		opacity: 0.5;
+    }
+
 	{% if block.settings.mandatory %}
 	#dynamic-checkout-cart, [name="checkout"][type="submit"] {
 		{% if cart.attributes[block.settings.internal_label] != "No" %}
