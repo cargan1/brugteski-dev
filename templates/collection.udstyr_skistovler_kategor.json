@@ -37,6 +37,36 @@
         "heading_gradient": ""
       }
     },
+    "collection_header_section_iHRQqz": {
+      "type": "collection-header-section",
+      "blocks": {
+        "richtext_Hw89Dg": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "liquid_8fjhmy": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<p>Use this text to output some custom Liquid code to include widget or dynamic code.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_Hw89Dg",
+        "liquid_8fjhmy"
+      ],
+      "settings": {
+        "guide_finder": false,
+        "image_size": "auto",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 65
+      }
+    },
     "main": {
       "type": "main-collection-new",
       "settings": {
@@ -114,6 +144,7 @@
   "order": [
     "banner",
     "4bdf9a05-c268-4dad-ba38-e5c1db7bcb74",
+    "collection_header_section_iHRQqz",
     "main",
     "c1fd1f55-0ce4-4389-b3ea-b949460ef382",
     "38bc7e44-b411-4e95-8b29-e8b99cb24551",
