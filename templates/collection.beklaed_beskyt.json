@@ -99,6 +99,29 @@
         "open_first_filter_group": true
       }
     },
+    "text_seo_pqrwBi": {
+      "type": "text-seo",
+      "blocks": {
+        "richtext_3pNyz4": {
+          "type": "richtext",
+          "settings": {
+            "content": "{{ collection.metafields.custom.seo_bottom | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_3pNyz4"
+      ],
+      "settings": {
+        "full_width": true,
+        "read_more": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "#f2f2f2",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "c1fd1f55-0ce4-4389-b3ea-b949460ef382": {
       "type": "trustpilot-stjerner",
       "custom_css": [
@@ -122,38 +145,34 @@
         "text_gradient": ""
       }
     },
-    "9c97e046-53a7-428d-965b-e74aa263b5ca": {
-      "type": "blog-posts",
+    "collection_header_section_wqLbVm": {
+      "type": "collection-header-section",
       "blocks": {
-        "template--14429261299747__9c97e046-53a7-428d-965b-e74aa263b5ca-16661253977a2bf0d6-0": {
-          "type": "article",
+        "richtext_LnXCxL": {
+          "type": "richtext",
           "settings": {
-            "article": "alt-om-ski\/glaeden-ved-skilob",
-            "background": "",
-            "text_color": ""
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "liquid_EGdKGD": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<p>Use this text to output some custom Liquid code to include widget or dynamic code.<\/p>"
           }
         }
       },
       "block_order": [
-        "template--14429261299747__9c97e046-53a7-428d-965b-e74aa263b5ca-16661253977a2bf0d6-0"
+        "richtext_LnXCxL",
+        "liquid_EGdKGD"
       ],
       "settings": {
-        "full_width": true,
-        "show_excerpt": true,
-        "show_date": true,
-        "show_author": true,
-        "show_comments_count": false,
-        "show_category": true,
-        "subheading": "",
-        "title": "",
-        "content": "<p><strong>Brug for hjælp til at finde de rette ski? Læs vores ski-guide her.<\/strong><\/p>",
-        "link_url": "shopify:\/\/blogs\/alt-om-ski\/3-fordelene-ved-at-sta-pa-ski",
-        "link_text": "Læs om alle råd til skiferien",
-        "background": "#efefef",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
+        "guide_finder": false,
+        "image_size": "auto",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 65
       }
     }
   },
@@ -161,8 +180,9 @@
     "banner",
     "4bdf9a05-c268-4dad-ba38-e5c1db7bcb74",
     "main",
+    "text_seo_pqrwBi",
     "c1fd1f55-0ce4-4389-b3ea-b949460ef382",
     "38bc7e44-b411-4e95-8b29-e8b99cb24551",
-    "9c97e046-53a7-428d-965b-e74aa263b5ca"
+    "collection_header_section_wqLbVm"
   ]
 }
