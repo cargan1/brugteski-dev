@@ -3,7 +3,8 @@
     "image_link_blocks_T7VBwa": {
       "type": "image-link-blocks",
       "custom_css": [
-        ".bg-custom {padding-bottom: 0px; padding-top: 20px;}"
+        ".section-stack {gap: 5px;}",
+        ".section-full {padding-top: 10px; padding-bottom: 0px;}"
       ],
       "settings": {
         "full_width": true,
@@ -33,7 +34,7 @@
         "526b51f3-bddd-498f-8d12-32b50bb7df2c": {
           "type": "text",
           "settings": {
-            "text": "<h3>{{ product.title }}<\/h3><p><em>{{ product.metafields.custom.vejl_udsalgspris.value }}<\/em><\/p>"
+            "text": "<h1>{{ product.title }}<\/h1><p><em>{{ product.metafields.custom.vejl_udsalgspris.value }}<\/em><\/p>"
           }
         },
         "badges": {
@@ -134,6 +135,9 @@
         "d3e695ec-c2c1-416b-9482-cc06f0166cf0",
         "ba3b5461-8a7f-4d6a-bdc0-bfcaad62fae4",
         "96617279-0ca8-4ed8-ad3d-5c55c13472ec"
+      ],
+      "custom_css": [
+        "h1 {font-size: 32px;}"
       ],
       "settings": {
         "full_width": true,
