@@ -2,6 +2,7 @@
   "sections": {
     "banner": {
       "type": "collection-banner",
+      "disabled": true,
       "settings": {
         "full_width": false,
         "allow_transparent_header": false,
@@ -53,6 +54,10 @@
       "block_order": [
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-0",
         "a50db4de-52d6-4b88-a4f5-200bdf789c7a"
+      ],
+      "custom_css": [
+        ".section-stack {gap: 5px;}",
+        ".section-full {padding-top: 10px; padding-bottom: 20px;}"
       ],
       "settings": {
         "full_width": false,
