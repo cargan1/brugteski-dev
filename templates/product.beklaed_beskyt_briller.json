@@ -3,7 +3,8 @@
     "image_link_blocks_PYMi8R": {
       "type": "image-link-blocks",
       "custom_css": [
-        ".bg-custom {padding-bottom: 0px; padding-top: 20px;}"
+        ".bg-custom {padding-bottom: 0px; padding-top: 2%;}",
+        ".section-stack {gap: 0;}"
       ],
       "settings": {
         "full_width": true,
