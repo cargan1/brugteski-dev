@@ -2,6 +2,7 @@
   "sections": {
     "banner": {
       "type": "collection-banner",
+      "disabled": true,
       "settings": {
         "full_width": false,
         "allow_transparent_header": false,
@@ -67,6 +68,10 @@
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-0",
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-2",
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-1"
+      ],
+      "custom_css": [
+        ".section-stack {gap: 5px;}",
+        ".section-full {padding-top: 10px; padding-bottom: 20px;}"
       ],
       "settings": {
         "full_width": false,
