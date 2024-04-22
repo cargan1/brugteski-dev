@@ -23,7 +23,7 @@
     "4bdf9a05-c268-4dad-ba38-e5c1db7bcb74": {
       "type": "image-link-blocks",
       "custom_css": [
-
+        ".section-stack {gap: 0;}"
       ],
       "settings": {
         "full_width": false,
@@ -40,43 +40,34 @@
         "heading_gradient": ""
       }
     },
-    "a1d60877-d7ec-436a-ad43-a06919cf98d4": {
-      "type": "image-with-text-overlay",
+    "collection_header_section_rENr4w": {
+      "type": "collection-header-section",
       "blocks": {
-        "template--19570050761049__a1d60877-d7ec-436a-ad43-a06919cf98d4-richtext-1": {
+        "richtext_edrKF6": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>Svært ved at finde de rigtigt ski?<br\/><\/strong>Tag testen, og få lavet en <br\/>ski-analyse i dag!<\/p>"
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
           }
         },
-        "5304bd19-a6e8-4b5d-97ab-115a61250354": {
-          "type": "button",
+        "liquid_fbVFtF": {
+          "type": "liquid",
           "settings": {
-            "style": "fill",
-            "size": "lg",
-            "text": "Ski-finder",
-            "url": "shopify:\/\/pages\/ski-finder",
-            "background": "",
-            "text_color": ""
+            "liquid": "<p>Use this text to output some custom Liquid code to include widget or dynamic code.<\/p>"
           }
         }
       },
       "block_order": [
-        "template--19570050761049__a1d60877-d7ec-436a-ad43-a06919cf98d4-richtext-1",
-        "5304bd19-a6e8-4b5d-97ab-115a61250354"
+        "richtext_edrKF6",
+        "liquid_fbVFtF"
       ],
       "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
+        "guide_finder": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/skifinder.pc.3.png",
-        "mobile_image": "shopify:\/\/shop_images\/skifinder.mobil.3.png",
-        "mobile_text_position": "place-self-end-start text-start",
+        "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#000000",
+        "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 0
+        "overlay_opacity": 65
       }
     },
     "main": {
@@ -93,6 +84,32 @@
         "show_empty_filter_values": false,
         "show_filter_values_count": true,
         "open_first_filter_group": true
+      }
+    },
+    "text_seo_AdEBp3": {
+      "type": "text-seo",
+      "blocks": {
+        "richtext_jDPdLz": {
+          "type": "richtext",
+          "settings": {
+            "content": "{{ collection.metafields.custom.seo_bottom | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_jDPdLz"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "full_width": true,
+        "read_more": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "#f2f2f2",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "c1fd1f55-0ce4-4389-b3ea-b949460ef382": {
@@ -117,49 +134,15 @@
         "text_color": "#ffffff",
         "text_gradient": ""
       }
-    },
-    "9c97e046-53a7-428d-965b-e74aa263b5ca": {
-      "type": "blog-posts",
-      "blocks": {
-        "template--14429261299747__9c97e046-53a7-428d-965b-e74aa263b5ca-16661253977a2bf0d6-0": {
-          "type": "article",
-          "settings": {
-            "article": "alt-om-ski\/3-fordelene-ved-at-sta-pa-ski",
-            "background": "",
-            "text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--14429261299747__9c97e046-53a7-428d-965b-e74aa263b5ca-16661253977a2bf0d6-0"
-      ],
-      "settings": {
-        "full_width": true,
-        "show_excerpt": true,
-        "show_date": true,
-        "show_author": true,
-        "show_comments_count": false,
-        "show_category": true,
-        "subheading": "",
-        "title": "",
-        "content": "<p><strong>Brug for hjælp til at finde de rette ski? Læs vores ski-guide her.<\/strong><\/p>",
-        "link_url": "shopify:\/\/blogs\/alt-om-ski\/3-fordelene-ved-at-sta-pa-ski",
-        "link_text": "Læs om alle råd til skiferien",
-        "background": "#efefef",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
     }
   },
   "order": [
     "banner",
     "4bdf9a05-c268-4dad-ba38-e5c1db7bcb74",
-    "a1d60877-d7ec-436a-ad43-a06919cf98d4",
+    "collection_header_section_rENr4w",
     "main",
+    "text_seo_AdEBp3",
     "c1fd1f55-0ce4-4389-b3ea-b949460ef382",
-    "38bc7e44-b411-4e95-8b29-e8b99cb24551",
-    "9c97e046-53a7-428d-965b-e74aa263b5ca"
+    "38bc7e44-b411-4e95-8b29-e8b99cb24551"
   ]
 }
