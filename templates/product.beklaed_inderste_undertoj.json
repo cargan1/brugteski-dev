@@ -3,8 +3,8 @@
     "image_link_blocks_rAUmRR": {
       "type": "image-link-blocks",
       "custom_css": [
-        ".section-stack {gap: 5px;}",
-        ".section-full {padding-top: 10px; padding-bottom: 0px;}"
+        ".section-stack {gap: 0;}",
+        ".section-full {padding-top: 10px; padding-bottom: 15px;}"
       ],
       "settings": {
         "full_width": true,
