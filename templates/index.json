@@ -37,7 +37,7 @@
             "title": "Snowboard grej til den nye sæson",
             "heading_tag": "h0",
             "button_text": "KØB SNOWBOARDGEAR",
-            "button_link": "shopify:\/\/collections\/alt-snowboard",
+            "button_link": "shopify:\/\/collections\/snowboardudstyr",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
@@ -115,7 +115,7 @@
         "collection-3": {
           "type": "collection",
           "settings": {
-            "collection": "alt-snowboard",
+            "collection": "snowboardudstyr",
             "image": "shopify:\/\/shop_images\/altsnowboardg.jpg",
             "subheading": "",
             "title": "Snowboard",
