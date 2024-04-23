@@ -3,8 +3,8 @@
     "image_link_blocks_PYMi8R": {
       "type": "image-link-blocks",
       "custom_css": [
-        ".section-stack {gap: 5px;}",
-        ".section-full {padding-top: 10px; padding-bottom: 0px;}"
+        ".section-stack {gap: 0;}",
+        ".section-full {padding-top: 10px; padding-bottom: 15px;}"
       ],
       "settings": {
         "full_width": true,
@@ -137,7 +137,7 @@
         "96617279-0ca8-4ed8-ad3d-5c55c13472ec"
       ],
       "custom_css": [
-        "h1 {font-size: 32px}"
+        "h1 {font-size: 32px;}"
       ],
       "settings": {
         "full_width": true,
