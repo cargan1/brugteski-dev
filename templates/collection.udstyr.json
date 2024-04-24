@@ -119,7 +119,7 @@
       "settings": {
         "guide_finder": true,
         "image_size": "xs",
-        "image": "shopify:\/\/shop_images\/desktop-skifinder2.jpg",
+        "image": "shopify:\/\/shop_images\/Skimand.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center-start sm:text-start",
         "text_color": "#ffffff",
