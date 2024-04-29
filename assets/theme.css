@@ -9997,7 +9997,7 @@ align-items: center;
   flex-flow: row wrap;
 }
 
-.collection-header-split .collection-title p {
+.collection-header-split .collection-title {
   color:#000;
 }
 
@@ -10005,7 +10005,7 @@ align-items: center;
   background: #f3f3f3;
   width:50%;
   padding-block-start: var(--spacing-8);
-  padding-block-end: var(--spacing-4);
+  padding-block-end: var(--spacing-8);
   padding-inline-end: var(--spacing-4);
 }
 
@@ -10019,7 +10019,7 @@ align-items: center;
     width:100%;
     display: flex;
     padding-block-start: var(--spacing-6);
-    padding-block-end: var(--spacing-2);
+    padding-block-end: var(--spacing-6);
   }
   
   .guide-finder {
