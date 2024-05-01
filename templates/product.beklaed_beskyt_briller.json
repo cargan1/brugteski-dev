@@ -575,7 +575,7 @@
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 2,
-            "desktop_row_span": 1,
+            "desktop_row_span": 2,
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "background": "rgba(0,0,0,0)",
             "background_gradient": "",
@@ -586,12 +586,58 @@
             "overlay_color": "rgba(0,0,0,0)",
             "overlay_opacity": 0
           }
+        },
+        "image_AzmcCB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/halsedisse.g.jpg",
+            "title": "Halsedisser",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_a9nAkf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/skisokker.g.jpg",
+            "title": "Skisokker",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
         }
       },
       "block_order": [
         "image_RUJwGq",
         "image_jV4KLk",
-        "image_yePqhA"
+        "image_yePqhA",
+        "image_AzmcCB",
+        "image_a9nAkf"
       ],
       "settings": {
         "full_width": true,
