@@ -59,13 +59,8 @@
             "hide_sold_out_variants": false,
             "stack_blocks": true,
             "selector_mode": "block",
-            "color_mode": "color",
+            "color_mode": "variant",
             "size_chart_page": ""
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {
           }
         },
         "6d1e7437-32cc-4b14-9f60-3b818cbed684": {
@@ -77,30 +72,22 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_payment_button": true,
+            "show_payment_button": false,
             "atc_button_background": "#000000",
             "atc_button_text_color": "",
             "payment_button_background": "#003eff",
             "payment_button_text_color": ""
           }
         },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
         "19937545-298a-4651-9687-4525f0a97a0a": {
           "type": "inventory",
           "settings": {
             "low_inventory_threshold": 10
-          }
-        },
-        "aeb7f8fa-be21-4621-8c88-9360d5fec50b": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "link": "shopify:\/\/pages\/byt-til-nyt",
-            "text": "Spar penge på din ordre - byt dit udstyr hos os",
-            "size": "sm",
-            "style": "fill",
-            "stretch": true,
-            "background": "#e1e7ff",
-            "text_color": "#000000"
           }
         },
         "d3e695ec-c2c1-416b-9482-cc06f0166cf0": {
@@ -113,16 +100,17 @@
           "settings": {
           }
         },
-        "96617279-0ca8-4ed8-ad3d-5c55c13472ec": {
-          "type": "separator",
-          "disabled": true,
-          "settings": {
-          }
-        },
         "description_MyjAFM": {
           "type": "description",
           "settings": {
             "collapse_content": true
+          }
+        },
+        "collapsible_text_4HUyUY": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Detaljer",
+            "content": ""
           }
         }
       },
@@ -133,15 +121,14 @@
         "price",
         "separator",
         "variant_picker",
-        "quantity_selector",
         "6d1e7437-32cc-4b14-9f60-3b818cbed684",
         "buy_buttons",
+        "quantity_selector",
         "19937545-298a-4651-9687-4525f0a97a0a",
-        "aeb7f8fa-be21-4621-8c88-9360d5fec50b",
         "d3e695ec-c2c1-416b-9482-cc06f0166cf0",
         "ba3b5461-8a7f-4d6a-bdc0-bfcaad62fae4",
-        "96617279-0ca8-4ed8-ad3d-5c55c13472ec",
-        "description_MyjAFM"
+        "description_MyjAFM",
+        "collapsible_text_4HUyUY"
       ],
       "custom_css": [
         "h1 {font-size: 32px;}"
@@ -160,12 +147,13 @@
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
-        "input_background": "#fafafa",
+        "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
       }
     },
     "197ba70e-7741-4b15-baa5-169de5e09b59": {
       "type": "product-desc",
+      "disabled": true,
       "settings": {
         "tab_label": ""
       }
@@ -647,6 +635,7 @@
       "block_order": [
         "template--14429261332515__1b924801-2f39-4b3d-97cf-6ac91e20f85c-1666191404eaad16b1-0"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "enable_parallax": true,
