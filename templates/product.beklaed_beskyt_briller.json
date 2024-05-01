@@ -46,6 +46,15 @@
           "settings": {
           }
         },
+        "product_variations_LFJbyU": {
+          "type": "product_variations",
+          "settings": {
+            "option_name": "Farve",
+            "option_value_metafield": "custom.variant_farve",
+            "products": "{{ product.metafields.custom.variant_produkter.value }}",
+            "color_mode": "variant"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -100,17 +109,6 @@
             "title": "Detaljer",
             "content": "<p>{{ product.metafields.custom.detaljer | metafield_tag }}<\/p>"
           }
-        },
-        "product_variations_LFJbyU": {
-          "type": "product_variations",
-          "settings": {
-            "option_name": "",
-            "option_value_metafield": "",
-            "products": [
-              "armada-jj118"
-            ],
-            "color_mode": "color"
-          }
         }
       },
       "block_order": [
@@ -118,6 +116,7 @@
         "badges",
         "price",
         "separator",
+        "product_variations_LFJbyU",
         "variant_picker",
         "19937545-298a-4651-9687-4525f0a97a0a",
         "6d1e7437-32cc-4b14-9f60-3b818cbed684",
@@ -125,8 +124,7 @@
         "d3e695ec-c2c1-416b-9482-cc06f0166cf0",
         "ba3b5461-8a7f-4d6a-bdc0-bfcaad62fae4",
         "description_MyjAFM",
-        "collapsible_text_4HUyUY",
-        "product_variations_LFJbyU"
+        "collapsible_text_4HUyUY"
       ],
       "custom_css": [
         "h1 {font-size: 32px;}"
