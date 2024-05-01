@@ -505,7 +505,7 @@
         "products_per_row_mobile": "1",
         "products_per_row_desktop": 5,
         "subheading": "",
-        "title": "Top 5 populære skibriller",
+        "title": "Top 5 populære skibriller og tilbehør",
         "content": "",
         "link_url": "",
         "link_text": "",
@@ -606,7 +606,7 @@
       "type": "recently-viewed-products",
       "settings": {
         "full_width": true,
-        "products_count": 10,
+        "products_count": 5,
         "stack_products": false,
         "show_progress_bar": false,
         "products_per_row_mobile": "1",
