@@ -110,7 +110,7 @@
           "type": "collapsible_text",
           "settings": {
             "title": "Detaljer",
-            "content": ""
+            "content": "<p>{{ product.metafields.custom.detaljer | metafield_tag }}<\/p>"
           }
         }
       },
