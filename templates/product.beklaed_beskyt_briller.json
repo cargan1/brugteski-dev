@@ -573,7 +573,7 @@
         "products": [
 
         ],
-        "full_width": true,
+        "full_width": false,
         "stack_products": false,
         "show_progress_bar": false,
         "products_count": 50,
@@ -581,7 +581,7 @@
         "products_per_row_desktop": 5,
         "subheading": "",
         "title": "",
-        "content": "<h2>Andre skibriller og tilbehør<\/h2>",
+        "content": "<h3>Andre skibriller og tilbehør<\/h3>",
         "link_url": "",
         "link_text": "",
         "background": "",
