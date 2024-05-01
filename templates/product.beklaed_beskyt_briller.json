@@ -24,13 +24,6 @@
     "main": {
       "type": "main-product-new",
       "blocks": {
-        "title": {
-          "type": "title",
-          "disabled": true,
-          "settings": {
-            "heading_tag": "h3"
-          }
-        },
         "526b51f3-bddd-498f-8d12-32b50bb7df2c": {
           "type": "text",
           "settings": {
@@ -63,6 +56,12 @@
             "size_chart_page": ""
           }
         },
+        "19937545-298a-4651-9687-4525f0a97a0a": {
+          "type": "inventory",
+          "settings": {
+            "low_inventory_threshold": 10
+          }
+        },
         "6d1e7437-32cc-4b14-9f60-3b818cbed684": {
           "type": "text",
           "settings": {
@@ -77,17 +76,6 @@
             "atc_button_text_color": "",
             "payment_button_background": "#003eff",
             "payment_button_text_color": ""
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "19937545-298a-4651-9687-4525f0a97a0a": {
-          "type": "inventory",
-          "settings": {
-            "low_inventory_threshold": 10
           }
         },
         "d3e695ec-c2c1-416b-9482-cc06f0166cf0": {
@@ -115,16 +103,14 @@
         }
       },
       "block_order": [
-        "title",
         "526b51f3-bddd-498f-8d12-32b50bb7df2c",
         "badges",
         "price",
         "separator",
         "variant_picker",
+        "19937545-298a-4651-9687-4525f0a97a0a",
         "6d1e7437-32cc-4b14-9f60-3b818cbed684",
         "buy_buttons",
-        "quantity_selector",
-        "19937545-298a-4651-9687-4525f0a97a0a",
         "d3e695ec-c2c1-416b-9482-cc06f0166cf0",
         "ba3b5461-8a7f-4d6a-bdc0-bfcaad62fae4",
         "description_MyjAFM",
