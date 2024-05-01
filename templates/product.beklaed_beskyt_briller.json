@@ -606,7 +606,7 @@
       "type": "recently-viewed-products",
       "settings": {
         "full_width": true,
-        "products_count": 24,
+        "products_count": 10,
         "stack_products": false,
         "show_progress_bar": false,
         "products_per_row_mobile": "1",
