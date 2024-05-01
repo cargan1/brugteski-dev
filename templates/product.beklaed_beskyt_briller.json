@@ -608,13 +608,13 @@
             "desktop_column_span": 2,
             "desktop_row_span": 1,
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
+            "background": "rgba(0,0,0,0)",
             "background_gradient": "",
             "text_color": "#ffffff",
             "text_gradient": "",
             "button_background": "#000000",
             "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
+            "overlay_color": "rgba(0,0,0,0)",
             "overlay_opacity": 0
           }
         },
@@ -630,13 +630,13 @@
             "desktop_column_span": 2,
             "desktop_row_span": 2,
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
+            "background": "rgba(0,0,0,0)",
             "background_gradient": "",
             "text_color": "#ffffff",
             "text_gradient": "",
             "button_background": "#000000",
             "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
+            "overlay_color": "rgba(0,0,0,0)",
             "overlay_opacity": 0
           }
         },
@@ -652,13 +652,13 @@
             "desktop_column_span": 2,
             "desktop_row_span": 1,
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#0039ff",
+            "background": "rgba(0,0,0,0)",
             "background_gradient": "",
             "text_color": "#ffffff",
             "text_gradient": "",
             "button_background": "#000000",
             "button_text_color": "#ffffff",
-            "overlay_color": "#0039ff",
+            "overlay_color": "rgba(0,0,0,0)",
             "overlay_opacity": 0
           }
         }
@@ -698,43 +698,6 @@
         "product_card_text_color": ""
       }
     },
-    "1b924801-2f39-4b3d-97cf-6ac91e20f85c": {
-      "type": "media-with-text",
-      "blocks": {
-        "template--14429261332515__1b924801-2f39-4b3d-97cf-6ac91e20f85c-1666191404eaad16b1-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/banner.g.jpg",
-            "media_width": 60,
-            "media_position": "start",
-            "text_position": "place-self-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "Svært at finde det rigtige udstyr?",
-            "content": "<p>Vi har en skibutik i Fredericia, hvor du\/din familie vil kunne komme ned og prøve, samt se alt udstyret. Her vil vi også kunne guide dig\/jer, til at kunne finde det helt rigtigt, for lige netop DIG.<\/p>",
-            "link_text": "Se adressen her",
-            "link_url": "shopify:\/\/pages\/showroom-og-vores-abningstider",
-            "background": "#efefef",
-            "background_gradient": "",
-            "text_color": "#010410",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--14429261332515__1b924801-2f39-4b3d-97cf-6ac91e20f85c-1666191404eaad16b1-0"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": false,
-        "enable_parallax": true,
-        "spacing": "none",
-        "tab_label": ""
-      }
-    },
     "6fe9e5e3-41c0-4ad1-a62e-5e2b2ba02828": {
       "type": "trustpilot-stjerner",
       "settings": {
@@ -755,7 +718,6 @@
     "featured_collection_6hVpa6",
     "media_grid_6Apxzm",
     "recently_viewed_products_UxNQX3",
-    "1b924801-2f39-4b3d-97cf-6ac91e20f85c",
     "6fe9e5e3-41c0-4ad1-a62e-5e2b2ba02828"
   ]
 }
