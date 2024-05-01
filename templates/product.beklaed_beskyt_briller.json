@@ -566,6 +566,117 @@
         "text_gradient": ""
       }
     },
+    "featured_collection_6hVpa6": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "skibriller",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 50,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 5,
+        "subheading": "",
+        "title": "Flere skibriller",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "media_grid_6Apxzm": {
+      "type": "media-grid",
+      "blocks": {
+        "image_RUJwGq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/skihjelm.g.jpg",
+            "title": "Skihjelem",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_jV4KLk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Skihandsker.g.jpg",
+            "title": "Skihandsker",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_yePqhA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Skindertoj.g.jpg",
+            "title": "Skiundertøj",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#0039ff",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#0039ff",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_RUJwGq",
+        "image_jV4KLk",
+        "image_yePqhA"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
     "1b924801-2f39-4b3d-97cf-6ac91e20f85c": {
       "type": "media-with-text",
       "blocks": {
@@ -603,30 +714,6 @@
         "tab_label": ""
       }
     },
-    "fb969a0a-fc24-4610-814b-104c9172b8f5": {
-      "type": "related-products",
-      "settings": {
-        "recommendations_count": 9,
-        "products": [
-
-        ],
-        "full_width": true,
-        "stack_products": false,
-        "show_progress_bar": true,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 5,
-        "subheading": "",
-        "title": "Relevante produkter",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
     "6fe9e5e3-41c0-4ad1-a62e-5e2b2ba02828": {
       "type": "trustpilot-stjerner",
       "settings": {
@@ -644,8 +731,9 @@
     "aa73c3dc-82ca-485c-a544-d5b8dd955818",
     "d2b619b5-d27a-4d56-bdbc-01f473ffb4a7",
     "05de6085-a3e7-458a-ad6e-f17eb2c7d525",
+    "featured_collection_6hVpa6",
+    "media_grid_6Apxzm",
     "1b924801-2f39-4b3d-97cf-6ac91e20f85c",
-    "fb969a0a-fc24-4610-814b-104c9172b8f5",
     "6fe9e5e3-41c0-4ad1-a62e-5e2b2ba02828"
   ]
 }
