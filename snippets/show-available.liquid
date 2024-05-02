@@ -1,9 +1,17 @@
+<script
+  src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+  integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8="
+  crossorigin="anonymous"></script>
+
 <script>
-    setTimeout( () => {
-        let filterEl = document.querySelector("[name='filter.v.availability']");
-        if (filterEl) {
-            filterEl.checked = true;
-        }
-        console.log(filterEl.checked);
-    }, 500)
+    // setTimeout( () => {
+    //     let filterEl = document.querySelectorAll("[name='filter.v.availability']");
+    //     if (filterEl) {
+    //         filterEl.checked = true;
+    //     }
+    //     console.log(filterEl);
+    // }, 500)
+    $(document).ready(function () {
+$( '#Switch_option_ID' ).prop( 'checked', true );
+});
 </script>

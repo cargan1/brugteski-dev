@@ -57,7 +57,7 @@
             <legend class="text-subdued">{{ option.name }}:</legend>
             <variant-option-value form="{{ form_id }}" for="option{{ option.position }}">{{ option.selected_value }}</variant-option-value>
           </div>
-          {%- if option.name == 'Længde' -%}
+          {%- if option.name == 'Længde' or option.name == 'Størrelse' -%}
             <div class="link-to-section">
               <a
                 href="#productTabs"
