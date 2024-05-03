@@ -11,7 +11,13 @@
     //     }
     //     console.log(filterEl);
     // }, 500)
-    $(document).ready(function () {
-$( '#Switch_option_ID' ).prop( 'checked', true );
-});
+//     $(document).ready(function () {
+//       $( 'input[type='checkbox'][name='filter.v.availability']' ).each().prop( 'checked', true );
+// });
+
+var $elem = $('[name="filter.v.availability"]');
+
+$elem.each(function(index, elem) {
+    $elem.prop( 'checked', true )
+ });
 </script>
