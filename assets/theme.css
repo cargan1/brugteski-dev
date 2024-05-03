@@ -10071,3 +10071,13 @@ opacity: 0.5;
 .buy-buttons--compact {
   grid-template-columns: repeat(2, 1fr);
 }
+
+/* FOR NAVIGATION STYLING */
+
+.faded-color {
+  color: rgb(var(--text-color) / .4);
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
