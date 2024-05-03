@@ -4,20 +4,10 @@
   crossorigin="anonymous"></script>
 
 <script>
-    // setTimeout( () => {
-    //     let filterEl = document.querySelectorAll("[name='filter.v.availability']");
-    //     if (filterEl) {
-    //         filterEl.checked = true;
-    //     }
-    //     console.log(filterEl);
-    // }, 500)
-//     $(document).ready(function () {
-//       $( 'input[type='checkbox'][name='filter.v.availability']' ).each().prop( 'checked', true );
-// });
-
 var $elem = $('[name="filter.v.availability"]');
+console.log($elem);
+$(document).ready(function(){
 
-$elem.each(function(index, elem) {
-    $elem.prop( 'checked', true )
- });
-</script>
+      $elem.click();
+});
+</script>  
