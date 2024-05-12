@@ -1,0 +1,762 @@
+<!-- RETURNS FORM -->
+{% assign SETTING_shop_logo = shop_logo_url %} <!-- Logo uploaded from "Templates" page > "Customize Branding" -->
+{% assign SETTING_shop_logo_width = shop_logo_width %} <!-- Logo width from "Templates" page > "Customize Branding" -->
+{% assign SETTING_shop_accent_color = shop_accent_color %} <!-- Accent color from "Templates" page > "Customize Branding" -->
+{% assign SETTING_date_format = "%d.%m.%Y" %} <!-- Adjusts date format used, see: https://shopify.github.io/liquid/filters/date/ -->
+{% assign SETTING_show_product_images = true %} <!-- Display product images? (true/false) -->
+{% assign SETTING_product_image_size = 98 %} <!-- Adjusts size of product images -->
+{% assign SETTING_show_order_number_barcode = true %} <!-- Display a barcode of the order number? (true/false) -->
+{% assign SETTING_show_product_barcodes = false %} <!-- Display a barcode of the product variant? (true/false) -->
+{% assign SETTING_include_only_fulfilled_line_items = false %} <!-- Display only fulfilled items in the document? (true/false) - Useful if you fulfill before printing the returns document. -->
+
+<!-- Shop info -->
+{% assign shop_name_text = "" %} <!-- Overwrite the default shop name shown. Leave blank to use default from Shopify -->
+{% assign shop_address_text = "" %} <!-- Overwrite the default shop address shown. Leave blank to use default from Shopify -->
+{% assign shop_tax_number_text = "" %} <!-- Display your shop tax or VAT number. Example "VAT No. DK12345" -->
+
+
+<!--
+  TRANSLATE TEXT / CHANGE WORDING
+-->
+{% assign TEXT_order = "Ordrenr." %}
+{% assign TEXT_order_date = "Dato for køb" %}
+{% assign TEXT_last_return = "Sidste byttedato" %}
+{% assign TEXT_customer = "Kunde" %}
+{% assign TEXT_tel = "Tlf." %}
+{% assign TEXT_no_information = "Ingen information" %}
+{% assign TEXT_no_customer_information = "Ingen kundeoplysninger" %}
+{% assign TEXT_items = "Varer" %}
+{% assign TEXT_qty = "Antal" %}
+{% assign TEXT_price = "Købspris" %}
+{% assign TEXT_sku = "SKU:" %}
+{% assign TEXT_no_items_fulfilled = "Ingen varer er omfattet af skibeviset" %}
+{% assign TEXT_byttepris = "Byttepris" %}
+{% assign TEXT_ski_snowboard = "Ski / Snowboard" %}
+{% assign TEXT_stovler = "Støvler" %}
+{% assign TEXT_ski_snowboard_pris = "299 kr. pr. sæt" %}
+{% assign TEXT_stovler_pris = "99 kr. pr. sæt" %}
+
+
+<!--
+  TRANSLATE TEXT / TEXT SECTIONS
+-->
+{% assign TEXT_main_title = "Tillykke med dit nye udstyr, vi håber du bliver glad for det!" %}
+{% assign TEXT_description = "Hos os får du 2 sæsoners Ski-Byt garanti, som betyder at du til enhver tid kan komme forbi og få byttet dit udstyr til et nyt brugt par! Om du vil have nyere, længere, bedre eller bare billigere udstyr, bestemmer du helt selv." %}
+{% assign TEXT_regards = "De bedste hilsner fra Brugteski.dk" %}
+{% assign TEXT_fremgangsmade_title = "Fremgangsmåde" %}
+{% assign TEXT_fremgangsmade_item_1 = "Kontroller at udstyret lever op til vores regler om ombytning" %}
+{% assign TEXT_fremgangsmade_item_2 = "Udstyret skal byttes inden 'Sidste byttedato' " %}
+{% assign TEXT_fremgangsmade_item_3 = "Modtag et gavebevis på din fulde ”Købspris” fratrukket 'Bytteprisen'" %}
+{% assign TEXT_fremgangsmade_item_4 = "Vælg nyt og fedt udstyr, og modtage endnu et garantibevis som også holder 2 sæsoner" %}
+
+{% assign TEXT_produkter_title = "Gældende produkter" %}
+{% assign TEXT_produkter_desc = "Skibeviset gælder følgende produkter fra din ordre." %}
+
+{% assign TEXT_rules_title = "Regler og retningslinjer" %}
+{% assign TEXT_rules_desc1 = "Hver gang du køber/bytter et par nye brugte ski eller snowboard op til 150 cm og/eller støvler til udstyret, fra Brugteski.dk, så medfølger dette garantibevis, som du kan bruge, hvis du ønsker udstyret byttet i fremtiden. Dette bevis er specielt lavet til dette ene produkt(er) og kan kun bruges én gang. Garantibeviset er udfyldt med seneste byttedato, købspris, dato for køb, byttepris, modelnavne samt ordrenummer. Dette tjener som bevis på at dine ski er købt hos Brugteski.dk, og at det er præcis det udstyr, som ønskes ombyttet." %}
+{% assign TEXT_rules_desc2 = "Med dette bevis kan du komme tilbage inden for 2 skisæsoner og få byttet udstyret til et andet par. Ved ombyt får du et gavebevis på det fulde købsbeløb minus bytteprisen, som du derved vil kunne købe nyt udstyr for igen." %}
+
+{% assign TEXT_overbyt = "Ved bytning" %}
+{% assign TEXT_overbyt_item_1 = "Du skal fremvise gyldigt Ski-Byt bevis." %}
+{% assign TEXT_overbyt_item_2 = "Ved overskridelse af byttedato, bliver der tillagt 100kr. til bytteprisen pr. månede." %}
+{% assign TEXT_overbyt_item_3 = "Udstyret kan ombyttes i butikken, eller online. Kontakt kundeservice ved online bytte." %}
+{% assign TEXT_overbyt_item_4 = "Skiene skal leveres som noget du selv har lyst til at hoppe i, dvs.:" %}
+{% assign TEXT_overbyt_subitem_1 = "Udstyret behøver ikke at leveres ny slebne og vokset." %}
+{% assign TEXT_overbyt_subitem_2 = "Udstyret skal være 100% funktionsdygtige, og skal have en glat og ren sål. Skiene må altså ikke have markante mærker i såler og kanter, som ikke kan repareres eller udbedres efter slibning." %}
+{% assign TEXT_overbyt_subitem_3 = "Bindingerne skal være 100% funktionsdygtige." %}
+{% assign TEXT_overbyt_subitem_4 = "Skiene må ikke være ved at skille sig fra sålen og overfladen af skien." %}
+
+
+
+
+<!-- BEGIN: Only fulfilled items snippet -->
+{% if SETTING_include_only_fulfilled_line_items == true %}
+  {% assign line_items = fulfilled_line_items %}
+{% endif %}
+<!-- END: Only fulfilled items snippet -->
+
+<!-- BEGIN: Barcode snippet -->
+{% if SETTING_show_product_barcodes == true or SETTING_show_order_number_barcode == true %}
+  {% include "barcodes" %}
+{% endif %}
+<!-- END: Barcode snippet -->
+
+
+<div class="template-759921">
+  <div class="header">
+    <img src="https://cdn.shopify.com/s/files/1/0265/0744/4259/files/skibyt-header.jpg?v=1714743666">
+  </div>
+
+  <div class="rules">
+
+  <p class="h4 subtitle-bold">
+    {{ TEXT_main_title }}
+  </p>
+
+  <p>{{ TEXT_description }}</p>
+
+    <p class="subtitle-bold to-uppercase">
+        {{ TEXT_fremgangsmade_title }}
+    </p>
+
+    <ol>
+        <li>
+            <span>{{ TEXT_fremgangsmade_item_1 }} </span> 
+        </li>
+        <li>
+            <span>{{ TEXT_fremgangsmade_item_2 }}</span> 
+        </li>
+        <li>
+            <span>{{ TEXT_fremgangsmade_item_3 }}</span> 
+        </li>
+        <li>
+            <span>{{ TEXT_fremgangsmade_item_4 }}</span> 
+        </li>
+
+    </ol>
+
+  </div>
+  <div class="customer-info">
+    <div class="shipping-address">
+      <p class="subtitle-bold to-uppercase">
+        {{ TEXT_order }}
+      </p>
+      <p class="address-detail">
+        {{ name }}
+      </p>
+    </div>
+    <div class="billing-address">
+      <p class="subtitle-bold to-uppercase">
+        {{ TEXT_order_date }}
+      </p>
+      <p class="address-detail">        
+        {{ created_at | date: SETTING_date_format }}
+      </p>
+    </div>
+    <div class="order-details">
+        <p class="subtitle-bold to-uppercase">
+          {{ TEXT_last_return }}
+        </p>
+        <p class="order-detail special">
+            {% assign final_date = created_at | date: '%s' %}
+            {% assign seconds = 730 | times: 24 | times: 60 | times: 60  %}
+            {{ final_date | date: "%s" | plus: seconds | date: SETTING_date_format }}
+        </p>
+    </div>
+  </div>
+
+  <div class="byttepris-info">
+    <div class="byttepris-title">
+      <p class="subtitle-bold to-uppercase">
+        {{ TEXT_byttepris }}
+      </p>
+    </div>
+    <div class="ski-snowboard">
+      <p>
+        {{ TEXT_ski_snowboard }}
+      </p>
+      <p class="address-detail  underline h4">        
+        {{ TEXT_ski_snowboard_pris }}
+      </p>
+    </div>
+    <div class="stovler">
+        <p >
+          {{ TEXT_stovler }}
+        </p>
+        <p class="order-detail underline h4">
+            {{ TEXT_stovler_pris }}
+        </p>
+    </div>
+  </div>
+
+  <div class="rules"> 
+    <p>{{ TEXT_regards }}</p>
+</div>
+
+<div class="signature-section">
+    <div class="signature"><img src="https://cdn.shopify.com/s/files/1/0265/0744/4259/files/Screenshot_2024-05-07_at_15.38_1.png?v=1715260604" alt="Signature 1"></div>
+    <div class="signature"><img src="https://cdn.shopify.com/s/files/1/0265/0744/4259/files/Screenshot_2024-05-07_at_15.38_2.png?v=1715260598" alt="Signature 1"></div>
+</div>
+
+  <div class="rules">
+    
+        <p class="subtitle-bold to-uppercase">
+            {{ TEXT_produkter_title }}
+        </p>
+        <p>
+            {{ TEXT_produkter_desc }}
+        </p>
+    </div>
+
+
+  <hr>
+
+  <div class="order-table">
+    <div class="order-table-row order-table-header">
+      <div class="order-table-cell item-image-and-description subtitle-bold to-uppercase">
+        {{ TEXT_items }}
+      </div>
+      <div class="order-table-cell item-quantity text-align-left subtitle-bold to-uppercase">
+        {{ TEXT_qty }}
+      </div>
+      <div class="order-table-cell item-price text-align-right subtitle-bold to-uppercase">
+        {{ TEXT_price }}
+      </div>
+    </div>
+
+    {% comment %}
+      These variables make sure your images print at high quality.
+    {% endcomment %}
+    {% assign resolution_adjusted_size = SETTING_product_image_size | times: 200 | divided_by: 72 | ceil %}
+    {% capture effective_image_dimensions %}{{ resolution_adjusted_size }}x{{ resolution_adjusted_size }}{% endcapture %}
+    {% assign bevis_items = 0 %} 
+
+    <table>
+      <tbody>
+        {% for line_item in line_items %}
+          {% if line_item.quantity < 1 %}{% continue %}{% endif %}
+            {% for item_tag in line_item.product.tags %}
+                {% if item_tag contains 'Børne & Juniorski' or item_tag contains 'Børne skistøvler' OR item_tag contains 'Børne snowboard' %}
+                    <tr>
+                        <td>
+                        <div class="order-table-row order-table-body">
+                            {% if SETTING_show_product_images == true %}
+                            <div class="order-table-cell item-image">
+                                <div class="aspect-ratio aspect-ratio-square" style="width: {{ SETTING_product_image_size }}px; height: {{ SETTING_product_image_size }}px;">
+                                {% if line_item.image != blank %}
+                                    {{ line_item.image | img_url: effective_image_dimensions | img_tag: '', 'aspect-ratio__content' }}
+                                {% else %}
+                                    {{ '/product_image_placeholder.svg' | img_tag: '', 'aspect-ratio__content placeholder' }}
+                                {% endif %}
+                                </div>
+                            </div>
+                            {% endif %}
+                            <div class="order-table-cell item-description">
+                            <p>
+                                <span class="item-description-line">
+                                {{ line_item.product_title }}
+                                </span>
+                                {% if line_item.variant_title != blank %}
+                                <span class="item-description-line">
+                                    {{ line_item.variant_title }}
+                                </span>
+                                {% endif %}
+                                {% for p in line_item.properties %}
+                                {% assign p_internal = p.first | slice: 0 %}
+                                {% unless p.first contains "builder_id" or p.first contains "builder_info" or p.first contains "master_builder" or p_internal == "_" or p.last == "" or p.last == blank %}
+                                    {% if p.last contains "/uploads/" or p.last contains "cdn.shopify.com" %}
+                                    <span class="item-description-line"><a href="{{ p.last }}" target="_blank">{{ p.first }}</a></span>
+                                    {% else %}
+                                    <span class="item-description-line">{{ p.first }}: {{ p.last }}</span>
+                                    {% endif %}
+                                {% endunless %}
+                                {% endfor %}
+            
+                            </p>
+                            </div>
+                            <div class="order-table-cell item-quantity text-align-left">
+                                {{ line_item.quantity | minus: line_item.refunded_quantity }} 
+                            </div>
+                            <div class="order-table-cell item-price text-align-right">
+                                {{ line_item.line_price | money }}
+                            </div>
+                        </div>
+                        </td>
+                    </tr>
+                    {% assign bevis_items = 1 %} 
+                {% endif %} 
+            {% endfor %} 
+        {% endfor %}
+        {% if bevis_items == 0 %}
+            <tr>
+                <td>
+                  <div class="order-table-row order-table-body">
+                    <p>{{ TEXT_no_items_fulfilled }}</p>
+                  </div>
+                </td>
+              </tr>
+        {% endif %} 
+      </tbody>
+    </table>
+
+  </div>
+
+  <hr>
+  <div class="notes-and-pricing">
+    <div class="notes">
+      {% if note != blank %}
+        <div class="notes-row">
+          <div class="notes-details">
+            {{ note }}
+          </div>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="rules">
+    <p>
+      <strong>{{ TEXT_rules_title }}</strong>
+    </p>    
+    <p>
+        {{ TEXT_rules_desc1 }}
+    </p>
+    <p>
+        {{ TEXT_rules_desc2 }}
+    </p>
+    
+    <p>
+      <strong>{{ TEXT_overbyt }}</strong>
+    </p>
+    
+    <ol>
+      <li>
+           <span>{{ TEXT_overbyt_item_1 }}</span> 
+      </li>
+      
+            <li>
+           <span>{{ TEXT_overbyt_item_2 }}</span> 
+      </li>
+      <li>
+           <span>{{ TEXT_overbyt_item_3 }}</span> 
+      </li>
+      <li>
+           <span>{{ TEXT_overbyt_item_4 }}</span> 
+        <ul>
+          <li><span><i>{{ TEXT_overbyt_subitem_1 }}</i></span></li>
+          <li><span><i>{{ TEXT_overbyt_subitem_2 }}</i></span></li>
+          <li><span><i>{{ TEXT_overbyt_subitem_3 }}</i></span></li>
+          <li><span><i>{{ TEXT_overbyt_subitem_4 }}</i></span></li>
+        </ul>
+      </li>
+    </ol>
+    
+    
+  </div>
+
+
+
+  <div class="footer">
+    <img src="https://cdn.shopify.com/s/files/1/0265/0744/4259/files/qr-kode.png?v=1714742888" width="180" >
+    <p>
+      {{ TEXT_instructions }}
+    </p>
+    <p>
+      <strong>
+        {% if shop_name_text != blank %}
+          {{ shop_name_text }}
+        {% else %}
+          {{ shop.name }}
+        {% endif %}
+      </strong>
+      <br>
+      {% if shop_address_text != blank %}
+        {{ shop_address_text }}
+      {% else %}
+        {% if shop.address1 != blank %}{{ shop.address1 }},{% endif %}{% if shop.address2 != blank %} {{ shop.address2 }},{% endif %}{% if shop.city != blank %} {{ shop.city }},{% endif %}{% if shop.province_code != blank %} {{ shop.province_code }},{% endif %}{% if shop.zip != blank %} {{ shop.zip }},{% endif %} {{ shop.country }}
+      {% endif %}
+      {% if shop_tax_number_text != blank %}
+        <br>{{ shop_tax_number_text }}
+      {% endif %}
+
+      <br>
+      <a href="mailto:{{ shop.customer_email }}" target="_blank">{{ shop.customer_email }}</a>
+      <br>
+      <a href="https://{{ shop.domain }}" target="_blank">{{ shop.domain }}</a>
+    </p>
+  </div>
+</div>
+
+<style>
+
+  
+  .template-759921 * {
+    font-family: "Open Sans", sans-serif !important;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    box-sizing: border-box;
+  }
+  
+
+
+  .template-759921 {
+    margin: auto;
+    padding: 10px 30px 0 30px;
+    min-height: 600px;
+  }
+
+  .template-759921 p {
+    margin: 0 0 7px 0;
+  }
+
+  .template-759921 a,
+  .template-759921 a:link,
+  .template-759921 a:visited {
+    color: #000;
+    font-weight: 300;
+    text-decoration: none;
+  }
+
+  .template-759921 .header {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    margin-bottom: 30px;
+  }
+  
+  .template-759921 .header img {
+    width:100%;
+  }
+  
+  .template-759921 .header p {
+    margin: 0
+  }
+
+  .template-759921 .shop-title {
+    color: {{ SETTING_shop_accent_color }};
+    -webkit-box-flex: 6;
+    -webkit-flex: 6;
+    flex: 6;
+    font-size: 30px;
+    line-height: 32px;
+    font-weight: 400;
+  }
+
+  .template-759921 .shop-logo {
+    max-width: {{ SETTING_shop_logo_width }}px;
+  }
+
+  .template-759921 .order-title {
+    -webkit-box-flex: 4;
+    -webkit-flex: 4;
+    flex: 4;
+  }
+
+  .template-759921 .customer-info {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    margin-bottom: 15px;
+    padding: 15px 20px;
+    background: #f7f7f7;
+  }
+
+  .template-759921 .shipping-address {
+    flex-grow: 1;
+    flex-basis: 0;
+  }
+
+  .template-759921 .billing-address {
+    flex-grow: 1;
+    flex-basis: 0;
+  }
+
+  .template-759921 .order-details {
+    text-align: right;
+    flex-grow: 1;
+    flex-basis: 0;
+  }
+
+  .template-759921 .address-detail,
+  .template-759921 .order-detail {
+    margin: 2px 0 0;
+    padding:4px 0px;
+    line-height: 1.5;
+  }
+
+  .template-759921 .special {
+    background-color: #F5AEAE;
+    padding:4px 6px;
+    font-weight:700;
+    display: inline-block;
+  }
+
+
+
+
+  .template-759921 .byttepris-info {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    margin-bottom: 15px;
+    padding: 15px 20px;
+  }
+
+  .template-759921 .byttepris-title {
+    flex-grow: 1;
+    flex-basis: 0;
+  }
+
+  .template-759921 .ski-snowboard {
+    flex-grow: 1;
+    flex-basis: 0;
+  }
+
+  .template-759921 .stovler{
+    flex-grow: 1;
+    flex-basis: 0;
+  }
+
+  .template-759921 .signature-section {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
+  .template-759921 .signature{
+    flex-grow: 1;
+    flex-basis: 0;
+  }
+
+  .template-759921 .signature img{
+      max-width: 200px;
+  }
+
+  .template-759921 .subtitle-bold {
+    font-weight: bold;
+    margin: 0;
+    font-size: 13px;
+  }
+
+  .template-759921 .order-detail + .subtitle-bold {
+    margin-top: 15px;
+  }
+
+  .template-759921 .to-uppercase {
+    text-transform: uppercase;
+  }
+
+  .template-759921 .text-align-right {
+    text-align: right;
+  }
+
+  .template-759921 .order-table {
+    display: block;
+  }
+
+  .template-759921 .order-table-row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px 0;
+    page-break-inside: avoid;
+  }
+
+  .template-759921 .order-table-header {
+    margin-bottom: 0;
+  }
+
+  {% if SETTING_show_product_images == true %}
+    .template-759921 .order-table-header .item-image-and-description {
+      -webkit-box-flex: 8;
+      -webkit-flex: 8;
+      flex: 8;
+      margin-right: 30px;
+    }
+  {% else %}
+    .template-759921 .order-table-header .item-image-and-description {
+      -webkit-box-flex: 7;
+      -webkit-flex: 7;
+      flex: 7;
+    }
+  {% endif %}
+
+  .template-759921 .order-table-header .order-table-cell {
+    white-space: nowrap;
+  }
+
+  .template-759921 .order-table-cell {
+    -webkit-box-flex: 2;
+    -webkit-flex: 2;
+    flex: 2;
+    margin: 0;
+  }
+
+  .template-759921 .item-image {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    margin-right: 15px;
+    min-width: {{ SETTING_product_image_size | default: 0 }}px;
+  }
+
+  .template-759921 .item-description {
+    -webkit-box-flex: 6;
+    -webkit-flex: 6;
+    flex: 6;
+  }
+
+  .template-759921 .item-description-line {
+    display: block;
+    margin: 0;
+  }
+
+  .template-759921 .item-description p {
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  .template-759921 .item-line-price {
+    -webkit-box-flex: 3;
+    -webkit-flex: 3;
+    flex: 3;
+  }
+
+  .template-759921 .missing-line-items-text {
+    margin: 15px 0;
+    padding: 0 7px;
+  }
+
+  .template-759921 .barcode {
+    height: 32px;
+    display: inline-block;
+  }
+
+  .template-759921 .notes-and-pricing {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    margin-bottom: 15px;
+  }
+
+  .template-759921 .notes {
+    flex-grow: 2;
+    flex-basis: 0;
+  }
+
+  .template-759921 .notes-row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    margin: 15px 0;
+    page-break-inside: avoid;
+  }
+
+  .template-759921 .notes-title {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+  }
+
+  .template-759921 .notes-details {
+    -webkit-box-flex: 3;
+    -webkit-flex: 3;
+    flex: 3;
+    margin-right: 30px;
+  }
+
+  .template-759921 .footer {
+    margin-top: 30px;
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  .template-759921 .footer p {
+    margin: 0;
+    margin-bottom: 15px;
+  }
+  .template-759921 .footer p:last-of_type {
+    margin-bottom: 0px;
+  }
+  
+    .template-759921 .rules {
+    margin-top: 30px;
+    text-align: left;
+    line-height: 1.5;
+  }
+
+  .template-759921 .rules p {
+    margin: 0;
+    margin-bottom: 15px;
+  }
+  .template-759921 .rules p:last-of_type {
+    margin-bottom: 0px;
+  }
+
+  .template-759921 hr {
+    height: 2px;
+    border-bottom: 2px solid {{ SETTING_shop_accent_color | default: "#e1e1e1" }};
+    margin: 0;
+  }
+
+  .template-759921 .underline {
+    text-decoration: underline;
+  }
+
+  .template-759921 .aspect-ratio {
+    position: relative;
+    display: block;
+    background: #fafbfc;
+    padding: 0;
+  }
+
+  .template-759921 .aspect-ratio::before {
+    z-index: 1;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 1px solid rgba(195,207,216,0.3);
+  }
+
+  .template-759921 .aspect-ratio--square {
+    width: 100%;
+    padding-bottom: 100%;
+  }
+
+  .template-759921 .aspect-ratio__content {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+  }
+
+  .template-759921 .order-details {
+    text-align: left;
+  }
+
+
+  .template-759921 .item-price {
+    -webkit-box-flex: 7;
+    -webkit-flex: 7;
+    flex: 7;
+    margin-left: 15px;
+  }
+  
+    .template-759921 .h4 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    box-sizing: border-box;
+  }
+
+</style>

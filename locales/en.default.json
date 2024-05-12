@@ -59,7 +59,10 @@
       "open_menu": "Open navigation menu",
       "open_search": "Open search",
       "open_account": "Open account page",
-      "open_cart": "Open cart"
+      "open_cart": "Open cart",
+      "store": "Store",
+      "cart": "Cart",
+      "search": "Search"
     }
   },
   "product": {
@@ -83,6 +86,7 @@
       "taxes_excluded": "Tax excluded.",
       "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Shipping calculated<\/a> at checkout",
       "size_chart": "Size chart",
+      "condition_text": "What is condition?",
       "available_colors_count": {
         "one": "{{ count }} color available",
         "other": "{{ count }} colors available"
@@ -124,6 +128,12 @@
       "pick_up_currently_unavailable": "Pickup currently unavailable",
       "pick_up_available_at": "Pickup available at {{ location_name }}",
       "pick_up_unavailable_at": "Pickup currently unavailable at {{ location_name }}"
+    },
+    "condition": {
+      "fabrick_new": "Fabric New",
+      "gold": "Gold",
+      "silver": "Silver",
+      "bronze": "Bronze"
     }
   },
   "collection": {

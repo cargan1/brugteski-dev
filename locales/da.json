@@ -59,7 +59,10 @@
       "open_menu": "Åbn navigationsmenu",
       "open_search": "Åbn søgefunktion",
       "open_account": "Åbn kontoside",
-      "open_cart": "Åbn indkøbskurv"
+      "open_cart": "Åbn indkøbskurv",
+      "store": "Butik",
+      "cart": "Kurv",
+      "search": "Søg"
     }
   },
   "product": {
@@ -83,6 +86,7 @@
       "taxes_excluded": "Ekskl. moms.",
       "shipping_policy_html": " ",
       "size_chart": "Størrelsesoversigt",
+      "condition_text": "Hvad betyder stand?",
       "available_colors_count": {
         "one": "{{ count }} farve tilgængelig",
         "other": "{{ count }} farver tilgængelig"
@@ -124,6 +128,12 @@
       "pick_up_currently_unavailable": "Ingen mulighed for afhentning i øjeblikket",
       "pick_up_available_at": "Mulighed for afhentning hos {{ location_name }}",
       "pick_up_unavailable_at": "Ingen mulighed for afhentning hos {{ location_name }} i øjeblikket"
+    },
+    "condition": {
+      "fabrick_new": "Fabriksny",
+      "gold": "Guld",
+      "silver": "Sølv",
+      "bronze": "Bronze"
     }
   },
   "collection": {

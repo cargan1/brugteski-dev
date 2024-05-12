@@ -116,7 +116,7 @@
         class="tap-area sm:hidden">
         <span class="sr-only">{{ 'header.general.open_search' | t }}</span>
         {%- render 'icon' with 'store' -%}
-        <span class="nav-explainer">Butik</span>
+        <span class="nav-explainer">{{ 'header.general.store' | t }}</span>
       </a>
 
         {%- if section.settings.layout != 'drawer' and section.settings.menu.links.size > 0 -%}
@@ -313,9 +313,9 @@
         <a
         href="/pages/showroom-og-vores-abningstider"
         class="hidden tap-area sm:block">
-        <span class="sr-only">{{ 'header.general.open_search' | t }}</span>
+        <span class="sr-only">{{ 'header.general.store' | t }}</span>
         {%- render 'icon' with 'store' -%}
-        <span class="nav-explainer">Butik</span>
+        <span class="nav-explainer">{{ 'header.general.store' | t }}</span>
       </a>
 
         <a
@@ -324,7 +324,7 @@
         aria-controls="search-drawer">
         <span class="sr-only">{{ 'header.general.open_search' | t }}</span>
         {%- render 'icon' with 'search' -%}
-        <span class="nav-explainer">Søg</span>
+        <span class="nav-explainer">{{ 'header.general.search' | t }}</span>
       </a>  
 
 
@@ -342,7 +342,7 @@
           {% if settings.cart_type != 'page' and request.page_type != 'cart' %}aria-controls="cart-drawer"{% endif %}>
           <span class="sr-only">{{ 'header.general.open_cart' | t }}</span>
           {%- render 'icon' with 'cart' -%}
-          <span class="nav-explainer">Kurv</span>
+          <span class="nav-explainer">{{ 'header.general.cart' | t }}</span>
           <div class="header__cart-count">
             <cart-count class="count-bubble {% if cart.item_count == 0 %}opacity-0{% endif %}" aria-hidden="true">
               {{- cart.item_count -}}
