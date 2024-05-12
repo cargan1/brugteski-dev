@@ -72,7 +72,7 @@
                 href="#productTabs"
                 style="font-size:.7rem; text-decoration:underline; color:#afafaf;"
                 class=""
-                onClick="showHideTabs('tab-stand-beskrivelse')">Hvad betyder stand?</a>
+                onClick="showHideTabs('tab-stand-beskrivelse')">{{ 'product.general.condition_text' | t }}</a>
             </div>
           {%- endif -%}
           {%- if hide_size_chart != true and block.settings.size_chart_page != blank and size_label_list contains option_downcase -%}
