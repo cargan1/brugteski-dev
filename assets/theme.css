@@ -10081,3 +10081,32 @@ opacity: 0.5;
 .capitalize {
   text-transform: capitalize;
 }
+
+/* Fabriksny badge på beklædning */
+
+.fabriksny-badge {
+  display: flex;
+  position:absolute;
+  font-size:.8rem;
+  top: var(--spacing-4);
+  left: var(--spacing-4);
+  align-items:center;
+  background:#efefef;
+  border-radius:50px;
+  border: 1px solid rgb(214, 214, 214)
+}
+
+.badge-container {
+  padding:.5rem 1rem;
+  position: relative;
+}
+
+.ny-badge {
+  width:20px;
+  height:20px;
+  background-image: url('https://cdn.shopify.com/s/files/1/0265/0744/4259/files/diamond_2.png?v=1681829223');
+  background-size: cover;
+  position: absolute;
+  top:-5px;
+  right:-5px;
+}

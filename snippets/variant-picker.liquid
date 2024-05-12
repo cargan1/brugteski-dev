@@ -47,10 +47,15 @@
         {%- endif -%}
       {%- endif -%}
 
+
       {%- if selector_type == 'dropdown' and force_dropdown_as_block -%}
         {%- assign selector_type = 'block' -%}
       {%- endif -%}
 
+      {% for option_value in option.values %}
+         {% assign option_name = option_value.name %}
+      {% endfor %}
+    {% unless option.values.size == 1 and option_name == "Fabriksnye" %}
       <fieldset class="variant-picker__option no-js:hidden">
         <div class="variant-picker__option-info gap-4">
           <div class="h-stack gap-2">
@@ -168,6 +173,7 @@
           </div>
         {%- endif -%}
       </fieldset>
+      {% endunless %}
     {%- endfor -%}
 
     <noscript>
