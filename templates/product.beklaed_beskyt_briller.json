@@ -27,7 +27,7 @@
         "526b51f3-bddd-498f-8d12-32b50bb7df2c": {
           "type": "text",
           "settings": {
-            "text": "<h6>{{ product.metafields.custom.m_rke.value }}<\/h6><h1>{{ product.title }}<\/h1><p><em>{{ product.metafields.custom.vejl_udsalgspris.value }}<\/em><\/p>"
+            "text": "<h1>{{ product.title }}<\/h1><p><em>{{ product.metafields.custom.vejl_udsalgspris.value }}<\/em><\/p>"
           }
         },
         "badges": {
