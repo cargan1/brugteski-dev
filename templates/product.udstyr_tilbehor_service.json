@@ -253,29 +253,6 @@
         "tab_label": "Beskrivelse"
       }
     },
-    "rich_text_jLprHh": {
-      "type": "rich-text",
-      "blocks": {
-        "richtext_XmXkn8": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h1>Skiværksted i Fredericia <\/h1><p>Trænger dine ski eller dit <a href=\"https:\/\/brugteski.dk\/collections\/voksen-snowboards\">snowboard<\/a> til lidt kærlig omsorg og pleje, inden du atter sætter kurs mod din foretrukne skidestination? Så kan vi hjælpe. <\/p><p>På vores skiværksted beliggende i Fredericia er dine ski i de bedste hænder. Ligesom enhver skientusiast ved, at det rigtige udstyr er afgørende for den perfekte skiferie, forstår vi vigtigheden af at have velservicerede ski under fødderne.<\/p><h2>Slibning og voksning af ski<\/h2><p>Vores erfarne teknikere står klar til at bringe nyt liv til dine ski – gennem en grundig slibning og voksning af skiene. <\/p><p>Regelmæssig pleje af dine ski sikrer, at de forbliver i perfekt stand, hvilket resulterer i bedre greb, mere præcis styring og en mere behagelig skiløbsoplevelse. Ved at udbedre skader på skiene og ved at opretholde skarpe kanter kan du forbedre dine skioplevelser og sikkerhed på pisten.<\/p><h2>Reparation af sålhuller<\/h2><p>Hos Brugteski tilbyder vi også reparation af sålhuller. Vi er specialiserede i at reparere sålhuller, så dine ski kan opretholde deres optimale ydeevne, og så du kan nyde turene ned ad pisterne til fulde.<\/p><h2>Vi tjekker bindinger for fejl<\/h2><p>På vores skiværksted er der også mulighed for at få tjekket bindinger for fejl. Vi udfører denne ydelse for et meget beskedent beløb. <\/p><h2>Reparation vs. køb af nye ski?<\/h2><p>Står du i en situation, hvor du er i tvivl om, hvorvidt du skal købe nye ski, eller om du skal have repareret dine nuværende ski? Så er det væsentligt at tage højde for, hvad dine nuværende ski fejler. Vi tilbyder som nævnt flere former for skiservice og skireparation, så sandsynligheden for, at vi kan give dine ski nyt liv er stor. Vi tilbyder i øvrigt også snowboardservice. <\/p><p>Ønsker du at skifte dine nuværende ski ud, uden at skulle spendere en formue, så oplev vores udvalg af <a href=\"https:\/\/brugteski.dk\/\">brugte ski<\/a>. <\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "richtext_XmXkn8"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "large",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "tab_label": "Skiservice"
-      }
-    },
     "bc007c98-134a-45e6-879f-a9610e0a56cd": {
       "type": "rich-text",
       "blocks": {
@@ -296,6 +273,29 @@
         "background_gradient": "",
         "text_color": "",
         "tab_label": "Description"
+      }
+    },
+    "rich_text_jLprHh": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_XmXkn8": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h1>Skiværksted i Fredericia <\/h1><p>Trænger dine ski eller dit <a href=\"https:\/\/brugteski.dk\/collections\/voksen-snowboards\">snowboard<\/a> til lidt kærlig omsorg og pleje, inden du atter sætter kurs mod din foretrukne skidestination? Så kan vi hjælpe. <\/p><p>På vores skiværksted beliggende i Fredericia er dine ski i de bedste hænder. Ligesom enhver skientusiast ved, at det rigtige udstyr er afgørende for den perfekte skiferie, forstår vi vigtigheden af at have velservicerede ski under fødderne.<\/p><h2>Slibning og voksning af ski<\/h2><p>Vores erfarne teknikere står klar til at bringe nyt liv til dine ski – gennem en grundig slibning og voksning af skiene. <\/p><p>Regelmæssig pleje af dine ski sikrer, at de forbliver i perfekt stand, hvilket resulterer i bedre greb, mere præcis styring og en mere behagelig skiløbsoplevelse. Ved at udbedre skader på skiene og ved at opretholde skarpe kanter kan du forbedre dine skioplevelser og sikkerhed på pisten.<\/p><h2>Reparation af sålhuller<\/h2><p>Hos Brugteski tilbyder vi også reparation af sålhuller. Vi er specialiserede i at reparere sålhuller, så dine ski kan opretholde deres optimale ydeevne, og så du kan nyde turene ned ad pisterne til fulde.<\/p><h2>Vi tjekker bindinger for fejl<\/h2><p>På vores skiværksted er der også mulighed for at få tjekket bindinger for fejl. Vi udfører denne ydelse for et meget beskedent beløb. <\/p><h2>Reparation vs. køb af nye ski?<\/h2><p>Står du i en situation, hvor du er i tvivl om, hvorvidt du skal købe nye ski, eller om du skal have repareret dine nuværende ski? Så er det væsentligt at tage højde for, hvad dine nuværende ski fejler. Vi tilbyder som nævnt flere former for skiservice og skireparation, så sandsynligheden for, at vi kan give dine ski nyt liv er stor. Vi tilbyder i øvrigt også snowboardservice. <\/p><p>Ønsker du at skifte dine nuværende ski ud, uden at skulle spendere en formue, så oplev vores udvalg af <a href=\"https:\/\/brugteski.dk\/\">brugte ski<\/a>. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_XmXkn8"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "tab_label": "Skiservice"
       }
     },
     "7bd8baf1-9eb8-41b9-82b3-49a08ae4c5ad": {
@@ -774,8 +774,8 @@
     "main",
     "fe071cc7-bbc8-4bb2-9731-6976ff8b16ae",
     "4b2f4dad-beb3-4647-84b2-79522c534386",
-    "rich_text_jLprHh",
     "bc007c98-134a-45e6-879f-a9610e0a56cd",
+    "rich_text_jLprHh",
     "7bd8baf1-9eb8-41b9-82b3-49a08ae4c5ad",
     "de589c77-3f04-4fd3-99e3-118b938fa69a",
     "322fa8a3-0532-4ece-82b8-7999ffdd7f89",
