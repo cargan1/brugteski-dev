@@ -71,8 +71,77 @@
         "overlay_opacity": 65
       }
     },
+    "collection_list_NqQLNH": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_f68t7X": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_dULk3a": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_d7Nja4": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_f68t7X",
+        "collection_dULk3a",
+        "collection_d7Nja4"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_collections": true,
+        "collections_per_row": 3,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "Collection list",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "main": {
       "type": "main-collection-new",
+      "disabled": true,
       "settings": {
         "products_per_page": 30,
         "products_per_row_mobile": "2",
@@ -138,6 +207,7 @@
     "banner",
     "4bdf9a05-c268-4dad-ba38-e5c1db7bcb74",
     "collection_header_section_Hg4Wtd",
+    "collection_list_NqQLNH",
     "main",
     "text_seo_nm8t6j",
     "c1fd1f55-0ce4-4389-b3ea-b949460ef382",
