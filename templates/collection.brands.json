@@ -80,7 +80,7 @@
         "block_size": "small",
         "subheading": "",
         "title": "",
-        "content": "<p><a href=\"https:\/\/brugteski.dk\/\" title=\"https:\/\/brugteski.dk\/\">Forside<\/a> \/  <a href=\"\/pages\/brands\" title=\"Brands\">Brands<\/a> \/ {{ collection.title }}<\/p>",
+        "content": "<p><a href=\"https:\/\/brugteski.dk\/\" title=\"https:\/\/brugteski.dk\/\">Forside<\/a> \/  <a href=\"\/collections\/brands\" title=\"Brands\">Brands<\/a> \/ {{ collection.title }}<\/p>",
         "link_url": "",
         "link_text": "",
         "background": "",
