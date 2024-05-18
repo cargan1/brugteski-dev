@@ -378,7 +378,7 @@
         "collection_CragHG": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "head",
             "subheading": "",
             "title": "",
             "url": "",
@@ -392,7 +392,7 @@
         "collection_HEKaTj": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "hypesnow",
             "subheading": "",
             "title": "",
             "url": "",
@@ -406,7 +406,7 @@
         "collection_XaRMqM": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "jc",
             "subheading": "",
             "title": "",
             "url": "",
@@ -420,7 +420,7 @@
         "collection_EjPAD4": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "k2",
             "subheading": "",
             "title": "",
             "url": "",
@@ -434,7 +434,7 @@
         "collection_XTAVF3": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "kastle",
             "subheading": "",
             "title": "",
             "url": "",
@@ -448,7 +448,7 @@
         "collection_A68iMt": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "kessler",
             "subheading": "",
             "title": "",
             "url": "",
@@ -491,7 +491,7 @@
         "collection_qizmdU": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "la-sportiva",
             "subheading": "",
             "title": "",
             "url": "",
@@ -505,7 +505,7 @@
         "collection_7q6HRx": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "lange",
             "subheading": "",
             "title": "",
             "url": "",
@@ -519,7 +519,7 @@
         "collection_WqmE9h": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "marker",
             "subheading": "",
             "title": "",
             "url": "",
@@ -533,7 +533,7 @@
         "collection_RLjbaU": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "messyweekend",
             "subheading": "",
             "title": "",
             "url": "",
@@ -547,7 +547,7 @@
         "collection_rxReBV": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "nordica",
             "subheading": "",
             "title": "",
             "url": "",
@@ -561,7 +561,35 @@
         "collection_DiU7MX": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "robla",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_AYbQnW": {
+          "type": "collection",
+          "settings": {
+            "collection": "rome",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_cBpRHA": {
+          "type": "collection",
+          "settings": {
+            "collection": "rossignol",
             "subheading": "",
             "title": "",
             "url": "",
@@ -579,7 +607,9 @@
         "collection_WqmE9h",
         "collection_RLjbaU",
         "collection_rxReBV",
-        "collection_DiU7MX"
+        "collection_DiU7MX",
+        "collection_AYbQnW",
+        "collection_cBpRHA"
       ],
       "settings": {
         "full_width": true,
