@@ -183,6 +183,12 @@
             "title": "Detaljer"
           }
         },
+        "tab_MKW3N8": {
+          "type": "tab",
+          "settings": {
+            "title": "Skiservice"
+          }
+        },
         "bf4b7f25-2f3d-42b0-98ba-8c6c97c93601": {
           "type": "tab",
           "settings": {
@@ -223,6 +229,7 @@
       "block_order": [
         "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-1",
         "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-0",
+        "tab_MKW3N8",
         "bf4b7f25-2f3d-42b0-98ba-8c6c97c93601",
         "fb12e8de-6ea1-4331-84ff-0c8bf1d2246d",
         "c095e786-f832-4540-a7b9-8e887d0b0cde",
@@ -244,6 +251,46 @@
       "type": "product-desc",
       "settings": {
         "tab_label": "Beskrivelse"
+      }
+    },
+    "rich_text_jLprHh": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_yVg8TU": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_MhnFPL": {
+          "type": "heading",
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_XmXkn8": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_yVg8TU",
+        "heading_MhnFPL",
+        "richtext_XmXkn8"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "tab_label": "Skiservice"
       }
     },
     "bc007c98-134a-45e6-879f-a9610e0a56cd": {
@@ -744,6 +791,7 @@
     "main",
     "fe071cc7-bbc8-4bb2-9731-6976ff8b16ae",
     "4b2f4dad-beb3-4647-84b2-79522c534386",
+    "rich_text_jLprHh",
     "bc007c98-134a-45e6-879f-a9610e0a56cd",
     "7bd8baf1-9eb8-41b9-82b3-49a08ae4c5ad",
     "de589c77-3f04-4fd3-99e3-118b938fa69a",
