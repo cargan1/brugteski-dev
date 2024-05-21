@@ -11,7 +11,7 @@
         "block_size": "medium",
         "subheading": "",
         "title": "",
-        "content": "<p><a href=\"\/pages\/forside\" title=\"Forside\">Forside<\/a> \/ <a href=\"\/pages\/skiguides-skiblogs\" title=\"Guides & Skiblogs\">Guides & Skiblogs<\/a> \/ <a href=\"\/blogs\/nyt-vs-brugt-skiudstyr\" title=\"Nyt vs. Brugt skiudstyr\">Nyt vs. Brugt skiudstyr<\/a> \/ {{ article.title }}<\/p>",
+        "content": "<p><a href=\"\/pages\/forside\" title=\"Forside\">Forside<\/a> \/ <a href=\"\/pages\/skiguides-skiblogs\" title=\"Guides & Skiblogs\">Guides & Skiblogs<\/a> \/ <a href=\"\/blogs\/kob-af-brugt-udstyr\" title=\"Køb af brugt udstyr\">Køb af brugt udstyr<\/a> \/ {{ article.title }}<\/p>",
         "link_url": "",
         "link_text": "",
         "background": "",
