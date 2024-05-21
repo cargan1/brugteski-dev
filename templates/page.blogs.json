@@ -71,6 +71,28 @@
     "fbce77d3-3405-403f-b588-3f621ff50cb9": {
       "type": "media-with-text",
       "blocks": {
+        "image_FBLRhq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/skifinder6-kopi.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "link_text": "",
+            "link_url": "shopify:\/\/blogs\/nyt-vs-brugt-skiudstyr",
+            "background": "#efefef",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
         "template--19604822688089__fbce77d3-3405-403f-b588-3f621ff50cb9-image-1": {
           "type": "image",
           "settings": {
@@ -117,13 +139,14 @@
         }
       },
       "block_order": [
+        "image_FBLRhq",
         "template--19604822688089__fbce77d3-3405-403f-b588-3f621ff50cb9-image-1",
         "6d877d10-4ca2-4781-bc02-9314dbad633a"
       ],
       "settings": {
         "full_width": false,
         "enable_parallax": true,
-        "spacing": "none",
+        "spacing": "small",
         "tab_label": ""
       }
     }
