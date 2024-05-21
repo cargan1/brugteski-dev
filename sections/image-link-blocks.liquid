@@ -76,7 +76,7 @@ LIQUID
                 {%- endif -%}
               {%- endcapture -%}
 
-              <a {% if block.settings.brand_url != blank %}href="https://brugteski.dk/collections/alle-ski?filter.v. availability=1&filter.p.m.custom.m_rke={{ block.settings.brand_url }}"{% elsif block.settings.link_url%}href="{{ block.settings.link_url }}"{% else %}{% endif %} class="content-over-media rounded" style="--content-over-media-overlay: {{ block.settings.overlay_color.rgb }} / {{ block.settings.overlay_opacity | divided_by: 100.0 }}">
+              <a {% if block.settings.collection != blank and block.settings.brand_url != blank %}href="https://brugteski.dk/collections/{{ block.settings.collection.handle }}filter.v. availability=1&filter.p.m.custom.m_rke={{ block.settings.brand_url }}"{% elsif block.settings.link_url%}href="{{ block.settings.link_url }}"{% else %}{% endif %} class="content-over-media rounded" style="--content-over-media-overlay: {{ block.settings.overlay_color.rgb }} / {{ block.settings.overlay_opacity | divided_by: 100.0 }}">
                 {{- item_content -}}
               </a>
             {%- else -%}
@@ -154,6 +154,11 @@ LIQUID
           "type": "url",
           "id": "link_url",
           "label": "Link URL"
+        },
+        {
+          "type": "collection",
+          "id": "collection",
+          "label": "Collection"
         },
         {
           "type": "text",
