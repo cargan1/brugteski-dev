@@ -425,7 +425,7 @@
         "template--14429261365283__70c1490b-879a-4cf4-b3c8-33793d88e30d-16660973574a981bda-0": {
           "type": "blog",
           "settings": {
-            "blog": "alt-om-ski",
+            "blog": "skiblogs-til-ferien",
             "posts_count": 3,
             "stack_items": false
           }
@@ -444,7 +444,7 @@
         "subheading": "",
         "title": "Mangler du Tips & Tricks til Skiferien?",
         "content": "",
-        "link_url": "shopify:\/\/blogs\/alt-om-ski",
+        "link_url": "shopify:\/\/blogs\/skiblogs-til-ferien",
         "link_text": "Læs Alle Vores Skiblogs her",
         "background": "#ffffff",
         "background_gradient": "",
