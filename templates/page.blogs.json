@@ -31,12 +31,6 @@
     "4b34f555-62d2-420e-b471-bd7d0d237ce5": {
       "type": "rich-text",
       "blocks": {
-        "template--19604822688089__4b34f555-62d2-420e-b471-bd7d0d237ce5-subheading-1": {
-          "type": "subheading",
-          "settings": {
-            "text": "Guides & Skiblogs"
-          }
-        },
         "template--19604822688089__4b34f555-62d2-420e-b471-bd7d0d237ce5-heading-1": {
           "type": "heading",
           "settings": {
@@ -54,7 +48,6 @@
         }
       },
       "block_order": [
-        "template--19604822688089__4b34f555-62d2-420e-b471-bd7d0d237ce5-subheading-1",
         "template--19604822688089__4b34f555-62d2-420e-b471-bd7d0d237ce5-heading-1",
         "template--19604822688089__4b34f555-62d2-420e-b471-bd7d0d237ce5-richtext-1"
       ],
@@ -146,7 +139,7 @@
       "settings": {
         "full_width": false,
         "enable_parallax": true,
-        "spacing": "small",
+        "spacing": "none",
         "tab_label": ""
       }
     }
