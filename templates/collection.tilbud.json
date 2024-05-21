@@ -26,6 +26,7 @@
         "item_cPQ6k4": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/voksenski.g.jpg",
             "stretch_image": true,
             "link_text": "Ski",
             "link_url": "shopify:\/\/collections\/ski-pa-tilbud",
@@ -33,12 +34,13 @@
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 30
           }
         },
         "item_bfCwcd": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/skistovler.g_b8f42c47-164a-4056-8512-61fc1f946b12.jpg",
             "stretch_image": true,
             "link_text": "Skistøvler",
             "link_url": "shopify:\/\/collections\/skistovler-pa-tilbud",
@@ -46,12 +48,13 @@
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 30
           }
         },
         "item_JXFegw": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/snowboard.g-kopi.jpg",
             "stretch_image": true,
             "link_text": "Snowboard",
             "link_url": "shopify:\/\/collections\/snowboard-og-snowboardudstyr-pa-tilbud",
@@ -59,12 +62,13 @@
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 30
           }
         },
         "item_exD9TY": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/skistave.g.jpg",
             "stretch_image": true,
             "link_text": "Skiudstyr",
             "link_url": "shopify:\/\/collections\/skiudstyr-pa-tilbud",
@@ -72,12 +76,13 @@
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 30
           }
         },
         "item_T7gAiD": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Skindertoj.g1.jpg",
             "stretch_image": true,
             "link_text": "Skitøj",
             "link_url": "shopify:\/\/collections\/skitoj-pa-tilbud",
@@ -85,7 +90,7 @@
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 30
           }
         }
       },
