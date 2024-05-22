@@ -90,7 +90,7 @@
             "stretch_image": true,
             "link_text": "{{ collection.title }} beklædning",
             "link_url": "",
-            "collection": "",
+            "collection": "skitoj-beskyttelsesudstyr",
             "brand_url": "{{ collection.title }}",
             "background": "",
             "text_color": "#ffffff",
