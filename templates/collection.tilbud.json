@@ -28,7 +28,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/voksenski.g.jpg",
             "stretch_image": true,
-            "link_text": "{{ block.settings.collection.title }}",
+            "link_text": "Ski",
             "link_url": "shopify:\/\/collections\/ski-pa-tilbud",
             "collection": "",
             "brand_url": "",
