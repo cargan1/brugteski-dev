@@ -31,7 +31,7 @@
             "link_text": "{{ collection.title }} ski",
             "link_url": "",
             "collection": "alle-ski",
-            "brand_url": "{{ block.settings.collection.title }}",
+            "brand_url": "{{ collection.title }}",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -41,8 +41,9 @@
         "item_EBLCNX": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/skistovler.g_b8f42c47-164a-4056-8512-61fc1f946b12.jpg",
             "stretch_image": true,
-            "link_text": "",
+            "link_text": "{{ block.settings.collection.title }} skistøvler",
             "link_url": "",
             "collection": "",
             "brand_url": "",
