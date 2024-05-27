@@ -64,12 +64,19 @@
         "search_menu": "s-g",
         "search_menu_show_title": true
       }
+    },    
+    "store-drawer": {
+      "type": "store-drawer",
+      "settings": {
+        "full_width": false
+      }
     }
   },
   "order": [
     "newsletter-popup",
     "privacy-banner",
     "cart-drawer",
-    "search-drawer"
+    "search-drawer",
+    "store-drawer"
   ]
 }

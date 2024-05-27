@@ -4041,6 +4041,19 @@ if (!window.customElements.get("search-drawer")) {
   window.customElements.define("search-drawer", SearchDrawer);
 }
 
+// js/common/search/store-drawer.js
+var StoreDrawer = class extends Drawer {
+  get shouldAppendToBody() {
+    return false;
+  }
+  get openFrom() {
+    return window.matchMedia(`${window.themeVariables.breakpoints["sm-max"]}`).matches ? "top" : this.getAttribute("open-from") || "right";
+  }
+};
+if (!window.customElements.get("store-drawer")) {
+  window.customElements.define("store-drawer", StoreDrawer);
+}
+
 // js/common/text/section-header.js
 import { animate as animate10, inView as inView5 } from "{{ 'vendor.min.js' | asset_url }}";
 var _reveal2, reveal_fn2;
