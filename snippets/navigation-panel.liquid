@@ -87,10 +87,10 @@ Supported variables
                       {%- for sub_link in link.links -%}
                         <li class="h3 {% if is_mega_menu %}sm:h5{% else %}sm:h4{% endif %} v-stack gap-3">
                           {%- if sub_link.links.size > 0 -%}
-                             <button class="text-with-icon w-full justify-between" aria-expanded="false" data-panel="2-{% increment level_2 %}">
+                             <a class="text-with-icon w-full justify-between" aria-expanded="false" data-panel="2-{% increment level_2 %}" href="{{ shop.url }}{{ sub_link.url }}">
                               <span>{{ sub_link.title }}</span>
-                              <span class="circle-chevron group-hover:colors group-expanded:colors">{%- render 'icon' with 'chevron-right-small', direction_aware: true -%}</span>
-                            </button> 
+                              {% comment %} <span class="circle-chevron group-hover:colors group-expanded:colors">{%- render 'icon' with 'chevron-right-small', direction_aware: true -%}</span> {% endcomment %}
+                            </a> 
 
 
 

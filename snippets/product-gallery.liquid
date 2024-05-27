@@ -93,6 +93,12 @@ only way to do it on Shopify right now.
               </div>
             {%- endif -%}
 
+            {%- if product.tags contains 'Skibyt' -%}
+              <div class="badge-skibyt__wrapper_product">
+                <img src="https://cdn.shopify.com/s/files/1/0265/0744/4259/files/badge-skibyt-comp.png?v=1716454761" alt="" class="skibyt-badge">
+              </div>
+            {%- endif -%}
+
             {%- if section.settings.enable_image_zoom and section.settings.desktop_media_layout contains 'grid' and media.media_type == 'image' -%}
               <div class="product-gallery__zoom hidden md:block">
                 <button type="button" is="product-zoom-button" class="circle-button circle-button--fill ring">

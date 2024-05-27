@@ -216,7 +216,7 @@
         {% for line_item in line_items %}
           {% if line_item.quantity < 1 %}{% continue %}{% endif %}
             {% for item_tag in line_item.product.tags %}
-                {% if item_tag contains 'Børne & Juniorski' or item_tag contains 'Børne skistøvler' OR item_tag contains 'Børne snowboard' %}
+                {% if item_tag contains 'Skibyt' %}
                     <tr>
                         <td>
                         <div class="order-table-row order-table-body">
@@ -263,6 +263,12 @@
                         </div>
                         </td>
                     </tr>
+                    {% comment %} {% unless item.properties == empty %}
+                      {% for property in item.properties %}
+
+                        <span>{{ property.first }}: {{ property.last }}</span>
+                      {% endfor %}
+                    {% endunless %} {% endcomment %}
                     {% assign bevis_items = 1 %} 
                 {% endif %} 
             {% endfor %} 

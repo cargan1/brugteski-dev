@@ -10110,3 +10110,47 @@ opacity: 0.5;
   top:-5px;
   right:-5px;
 }
+
+
+/* Skibyt badge */ 
+
+.badge-skibyt__wrapper {
+  position: absolute;
+  right: 15px;
+  bottom:10px;
+  max-width:70px;
+}
+
+.badge-skibyt__wrapper img {
+  width: 100%;
+  display:block;
+}
+
+@media screen and (max-width:980px) {
+  .badge-skibyt__wrapper {
+    right: 10px;
+    bottom:10px;
+    max-width:50px;
+  }
+}
+
+
+.badge-skibyt__wrapper_product {
+  position: absolute;
+  left: 15px;
+  bottom:35px;
+  max-width:90px;
+}
+
+.badge-skibyt__wrapper_product img {
+  width: 100%;
+  display:block;
+}
+
+@media screen and (max-width:980px) {
+  .badge-skibyt__wrapper_product {
+    left: 10px;
+    bottom:35px;
+    max-width:70px;
+  }
+}
