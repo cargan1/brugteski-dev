@@ -145,7 +145,7 @@
                 <div class="filter-mobile-container">
                   <p class="text-center">{{ 'collection.products_count' | t: count: collection.products_count }}</p>
                   {%- assign filter_label = 'collection.faceting.filter_and_sort' | t -%}
-                  {%- render 'button', size: 'sm', content: filter_label, icon: 'filter', style: 'fill', background: settings.button_background, text_color: settings.background, aria_controls: 'facets-drawer' -%}      
+                  {%- render 'button', size: 'sm', content: filter_label, icon: 'filter', style: 'fill', background: '#e1e7ff', text_color: '#000', aria_controls: 'facets-drawer' -%}      
                 </div>
                 {%- render 'active-facets', results: collection -%}
               </div>
