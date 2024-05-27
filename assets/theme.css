@@ -10161,3 +10161,9 @@ pointer-events: none;
     max-width:70px;
   }
 }
+/* Filter button */ 
+
+.filter-mobile-container button {
+  background: #e1e7ff !important;
+  color: #000 !important;
+}
