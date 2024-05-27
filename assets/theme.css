@@ -1479,8 +1479,8 @@ scroll-carousel {
   height: var(--size);
   min-width: min-content;
   border-radius: var(--rounded-full);
-  background: rgb(var(--button-background-primary));
-  color: rgb(var(--button-text-primary));
+  background: #e1e7ff;
+  color: #000;
   place-items: center;
   padding-inline-start: var(--spacing-1);
   padding-inline-end: var(--spacing-1);
@@ -10056,8 +10056,8 @@ align-items: center;
 /* Disable go to payment button */ 
 
 #dynamic-checkout-cart, [name="checkout"][type="submit"] {
-  pointer-events: none;
 opacity: 0.5;
+pointer-events: none;
 }
 
 .checkout_terms-drawer button{
@@ -10070,6 +10070,13 @@ opacity: 0.5;
 
 .buy-buttons--compact {
   grid-template-columns: repeat(2, 1fr);
+}
+
+.terms-notice {
+  background: #e1e7ff;
+  padding: 5px 10px;
+  color:#0039ff;
+  margin-top:8px;
 }
 
 /* FOR NAVIGATION STYLING */

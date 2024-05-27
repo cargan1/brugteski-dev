@@ -7,6 +7,7 @@
   	{{ block.settings.postlink_text }}
   </label>
 </p>
+<p class="terms-notice ">Du skal godkende handelsbetingelserne inden du kan gå til betaling. </p>
 
 <style>
 	#termsbox_id {
@@ -21,19 +22,40 @@
 
 <script>
 
-document.getElementById('termsbox_id').addEventListener('change', (event) => {
-  if (event.currentTarget.checked) {
-  	document.getElementById("termsbox_id").value = "Agreed at " + (new Date()).toLocaleString();
-    document.querySelector('.checkout_terms > button').style.pointerEvents = 'auto';
-    document.querySelector('.checkout_terms > button').style.opacity = 1.0;
-  } else {
-  	{% if block.settings.mandatory %}
-  	document.querySelector('.checkout_terms > button').style.pointerEvents = 'none';
-    document.querySelector('.checkout_terms > button').style.opacity = 0.5;
-    {% else %}
-    document.querySelector('.checkout_terms > button').style.pointerEvents = 'auto';
-    document.querySelector('.checkout_terms > button').style.opacity = 1.0;
-    {% endif %}
-  }
-})
+  document.addEventListener('DOMContentLoaded', () => {
+
+    let termsContainer = document.querySelector('.checkout_terms');
+    let checkoutButton = document.querySelector('.checkout_terms > button');
+    let no_terms = termsContainer.classList.add("no_terms");
+
+    document.getElementById('termsbox_id').addEventListener('change', (event) => {
+    if (event.currentTarget.checked) {
+      document.getElementById("termsbox_id").value = "Agreed at " + (new Date()).toLocaleString();
+      checkoutButton.style.pointerEvents = 'auto';
+      checkoutButton.style.opacity = 1.0;
+      termsContainer.classList.remove("no_terms");
+    } else {
+      {% if block.settings.mandatory %}
+      checkoutButton.style.pointerEvents = 'none';
+      checkoutButton.style.opacity = 0.5;
+      termsContainer.classList.add("no_terms");
+      {% else %}
+      checkoutButton.style.pointerEvents = 'auto';
+      checkoutButton.style.opacity = 1.0;
+      termsContainer.classList.remove("no_terms");
+      {% endif %}
+    }
+  });
+
+
+  // document.querySelector(".no_terms").addEventListener('onclick', (event) => {
+  //   document.querySelector(".terms-notice").classList.remove('hidden');
+  // });
+
+
+});
+
+
+
+
 </script>
