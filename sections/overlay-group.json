@@ -87,19 +87,19 @@
         "richtext_WQQkCy": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Vi har en butik i Fredericia, beliggende 2 minutter fra motorvejen, hvor du og din familie kan komme forbi og se\/prøve alle vores produkter.<\/p><p><strong>Obs.<\/strong> Skibutikken har kun åben i skisæsonen fra september til april.<\/p>"
+            "content": "<p>Vi har en butik i Fredericia, beliggende 2 minutter fra motorvejen, hvor du og din familie kan komme forbi og se\/prøve alle vores produkter.<\/p>"
           }
         },
         "richtext_Ux3fxU": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>Åbningstider<\/strong><\/p><p>Mandag: Lukket<\/p><p>Tirsdag: Lukket<\/p><p>Onsdag: Lukket<\/p><p>Torsdag: Lukket<\/p><p>Fredag: Lukket<\/p><p>Lørdag: Lukket<\/p><p>Søndag: Lukket<\/p>"
+            "content": "<p><strong>Åbningstider<\/strong><\/p><p>Mandag: Lukket<\/p><p>Tirsdag: Lukket<\/p><p>Onsdag: Lukket<\/p><p>Torsdag: Lukket<\/p><p>Fredag: Lukket<\/p><p>Lørdag: Lukket<\/p><p>Søndag: Lukket<\/p><p><strong>Obs. Skibutikken har kun åben i skisæsonen fra september til april<\/strong><\/p>"
           }
         },
         "image_PgUnC7": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/desktop-skifinder2.jpg",
+            "image": "shopify:\/\/shop_images\/butik.bred.g.jpg",
             "width_mode": "custom",
             "max_width": 600,
             "mobile_max_width": 400
@@ -115,6 +115,26 @@
             "background": "",
             "text_color": ""
           }
+        },
+        "divider_PpwGdp": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "heading_FRFF6i": {
+          "type": "heading",
+          "settings": {
+            "text": "Skibutik i Køge",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_JCqeyW": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Åbningstider<\/strong><\/p><p>Mandag: Lukket<\/p><p>Tirsdag: Lukket<\/p><p>Onsdag: Lukket<\/p><p>Torsdag: Lukket<\/p><p>Fredag: Lukket<\/p><p>Lørdag: Lukket<\/p><p>Søndag: Lukket<\/p>"
+          }
         }
       },
       "block_order": [
@@ -123,7 +143,10 @@
         "richtext_WQQkCy",
         "richtext_Ux3fxU",
         "image_PgUnC7",
-        "button_qQk9Jy"
+        "button_qQk9Jy",
+        "divider_PpwGdp",
+        "heading_FRFF6i",
+        "richtext_JCqeyW"
       ],
       "settings": {
         "full_width": false,
