@@ -30,8 +30,8 @@
           "type": "drawer_termsbox",
           "settings": {
             "prelink_text": "Jeg har læst & accepteret",
-            "link_text": "handelsbetingelserne",
-            "postlink_text": "Læs dem her.",
+            "link_text": "handelsbetingelserne -",
+            "postlink_text": "Læs her.",
             "terms_page": "salgs-og-lev-betingelser",
             "checkbox_scale": 1.2,
             "mandatory": true,
