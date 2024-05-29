@@ -70,9 +70,8 @@
       "blocks": {
         "subheading_XzkqCR": {
           "type": "subheading",
-          "disabled": true,
           "settings": {
-            "text": "Subheading"
+            "text": "Jylland\/Fyn"
           }
         },
         "heading_WtF4jx": {
@@ -115,26 +114,6 @@
             "background": "",
             "text_color": ""
           }
-        },
-        "divider_PpwGdp": {
-          "type": "divider",
-          "settings": {
-          }
-        },
-        "heading_FRFF6i": {
-          "type": "heading",
-          "settings": {
-            "text": "Skibutik i Køge",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_JCqeyW": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>Åbningstider<\/strong><\/p><p>Mandag: Lukket<\/p><p>Tirsdag: Lukket<\/p><p>Onsdag: Lukket<\/p><p>Torsdag: Lukket<\/p><p>Fredag: Lukket<\/p><p>Lørdag: Lukket<\/p><p>Søndag: Lukket<\/p>"
-          }
         }
       },
       "block_order": [
@@ -143,10 +122,7 @@
         "richtext_WQQkCy",
         "richtext_Ux3fxU",
         "image_PgUnC7",
-        "button_qQk9Jy",
-        "divider_PpwGdp",
-        "heading_FRFF6i",
-        "richtext_JCqeyW"
+        "button_qQk9Jy"
       ],
       "settings": {
         "full_width": false,
