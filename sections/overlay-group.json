@@ -70,14 +70,30 @@
       "blocks": {
         "subheading_XzkqCR": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
             "text": "Subheading"
+          }
+        },
+        "heading_WtF4jx": {
+          "type": "heading",
+          "settings": {
+            "text": "Skibutik i Fredericia",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
           }
         },
         "richtext_WQQkCy": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "content": "<p>Vi har en butik i Fredericia, beliggende 2 minutter fra motorvejen, hvor du og din familie kan komme forbi og se\/prøve alle vores produkter.<\/p><p><strong>Obs.<\/strong> Skibutikken har kun åben i skisæsonen fra september til april.<\/p>"
+          }
+        },
+        "richtext_Ux3fxU": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Åbningstider<\/strong><\/p><p>Mandag: Lukket<\/p><p>Tirsdag: Lukket<\/p><p>Onsdag: Lukket<\/p><p>Torsdag: Lukket<\/p><p>Fredag: Lukket<\/p><p>Lørdag: Lukket<\/p><p>Søndag: Lukket<\/p>"
           }
         },
         "image_PgUnC7": {
@@ -94,8 +110,8 @@
           "settings": {
             "style": "fill",
             "size": "xl",
-            "text": "Button text",
-            "url": "",
+            "text": "Se adressen her",
+            "url": "shopify:\/\/pages\/showroom-og-vores-abningstider",
             "background": "",
             "text_color": ""
           }
@@ -103,7 +119,9 @@
       },
       "block_order": [
         "subheading_XzkqCR",
+        "heading_WtF4jx",
         "richtext_WQQkCy",
+        "richtext_Ux3fxU",
         "image_PgUnC7",
         "button_qQk9Jy"
       ],
