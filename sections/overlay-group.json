@@ -64,11 +64,52 @@
         "search_menu": "s-g",
         "search_menu_show_title": true
       }
-    },    
+    },
     "store-drawer": {
       "type": "store-drawer",
+      "blocks": {
+        "subheading_XzkqCR": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "richtext_WQQkCy": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "image_PgUnC7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/desktop-skifinder2.jpg",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "button_qQk9Jy": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Button text",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_XzkqCR",
+        "richtext_WQQkCy",
+        "image_PgUnC7",
+        "button_qQk9Jy"
+      ],
       "settings": {
-        "full_width": false
+        "full_width": false,
+        "richtext": ""
       }
     }
   },
