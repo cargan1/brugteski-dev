@@ -71,6 +71,18 @@
         "overlay_opacity": 65
       }
     },
+    "custom_html_G4hVjB": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "html": "<id><\/id>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "collection_list_NqQLNH": {
       "type": "collection-list",
       "blocks": {
@@ -854,6 +866,7 @@
     "banner",
     "4bdf9a05-c268-4dad-ba38-e5c1db7bcb74",
     "collection_header_section_Hg4Wtd",
+    "custom_html_G4hVjB",
     "collection_list_NqQLNH",
     "collection_list_Nfcq6h",
     "collection_list_y8icn7",
