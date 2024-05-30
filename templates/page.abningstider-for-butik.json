@@ -23,6 +23,9 @@
     },
     "main": {
       "type": "main-page",
+      "custom_css": [
+
+      ],
       "settings": {
         "content_width": "100%"
       }
@@ -33,12 +36,31 @@
         "richtext_Vac8fi": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>Åbningstider:<br\/><\/strong>{{ localization.market.metafields.custom.fredericia_open_hours | metafield_tag }}<\/p>"
+            "content": "<h2><strong>Åbningstider:<\/strong><\/h2><p>{{ localization.market.metafields.custom.fredericia_open_hours | metafield_tag }}<\/p>"
+          }
+        },
+        "divider_FyhHij": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "image_TcekPW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ski_og_snowboard.g_4f25daae-7cef-49d8-8f18-908f46ae3808.jpg",
+            "width_mode": "full_width",
+            "max_width": 420,
+            "mobile_max_width": 530
           }
         }
       },
       "block_order": [
-        "richtext_Vac8fi"
+        "richtext_Vac8fi",
+        "divider_FyhHij",
+        "image_TcekPW"
+      ],
+      "custom_css": [
+        ".section-full {padding-top: 0;}"
       ],
       "settings": {
         "full_width": true,
@@ -49,11 +71,69 @@
         "text_color": "",
         "tab_label": ""
       }
+    },
+    "rich_text_hBkBwT": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_AYkPEK": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h1>Adresse:<\/h1><p>Butikken ligger 2 minutter fra motorvejen i Fredericia, så der er nem til og frakørsel.<\/p><p>Krogsagervej 50, 2 7000 Frederica<\/p>"
+          }
+        },
+        "button_dMrXDC": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Button text",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "divider_kAUpN7": {
+          "type": "divider",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "richtext_AYkPEK",
+        "button_dMrXDC",
+        "divider_kAUpN7"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "tab_label": ""
+      }
+    },
+    "video_4cXTpn": {
+      "type": "video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "sm",
+        "video": "shopify:\/\/files\/videos\/Hjemmeside_1.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "tab_label": ""
+      }
     }
   },
   "order": [
     "image_link_blocks_FmUFUg",
     "main",
-    "rich_text_B3YHgN"
+    "rich_text_B3YHgN",
+    "rich_text_hBkBwT",
+    "video_4cXTpn"
   ]
 }
