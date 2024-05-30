@@ -73,11 +73,14 @@
     },
     "custom_html_G4hVjB": {
       "type": "custom-html",
+      "custom_css": [
+        ".section-full {padding-bottom: 0}"
+      ],
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": true,
-        "html": "",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<p id=\"ac\">Brands fra<\/p>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -200,7 +203,7 @@
         "collections_per_row": 5,
         "show_progress_bar": false,
         "subheading": "",
-        "title": "Brands fra A - C",
+        "title": "A - C",
         "content": "<p>Største mærker i denne kategori -  <a href=\"\/collections\/alpina\" title=\"Alpina\">Alpina<\/a>, <a href=\"\/collections\/armada\" title=\"Armada\">Armada<\/a>, <a href=\"\/collections\/atomic\" title=\"Atomic\">Atomic<\/a> og <a href=\"\/collections\/blizzard\" title=\"Blizzard\">Blizzard<\/a><\/p>",
         "link_url": "",
         "link_text": "",
