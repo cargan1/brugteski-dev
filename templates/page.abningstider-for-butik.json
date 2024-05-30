@@ -21,49 +21,39 @@
         "heading_gradient": ""
       }
     },
-    "rich_text_B3YHgN": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_9cT7wP": {
-          "type": "heading",
-          "settings": {
-            "text": "BUTIK OG VORES ÅBNINGSTIDER",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_Vac8fi": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Har du lyst til at komme forbi og se udstyret i virkeligheden, så har du mulighed for dette i vores showroom. Vi har et showroom\/lager i Fredericia, hvor alt vores udstyr befinder. Her kan man se alt det udstyr vi har på hjemmesiden, og meget mere. Det er en god ide at komme forbi, og prøve skistøvler og andet udstyr før man prøver det. <\/p><p><strong>Åbningstider:<br\/><\/strong>{{ localization.market.metafields.custom.fredericia_open_hours | metafield_tag }}<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_9cT7wP",
-        "richtext_Vac8fi"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "tab_label": ""
-      }
-    },
     "main": {
       "type": "main-page",
       "settings": {
         "content_width": "100%"
       }
+    },
+    "rich_text_B3YHgN": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_Vac8fi": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Åbningstider:<br\/><\/strong>{{ localization.market.metafields.custom.fredericia_open_hours | metafield_tag }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_Vac8fi"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "tab_label": ""
+      }
     }
   },
   "order": [
     "image_link_blocks_FmUFUg",
-    "rich_text_B3YHgN",
-    "main"
+    "main",
+    "rich_text_B3YHgN"
   ]
 }
