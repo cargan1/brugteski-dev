@@ -125,6 +125,18 @@
     },
     "video_4cXTpn": {
       "type": "video",
+      "blocks": {
+        "heading_9qhanG": {
+          "type": "heading",
+          "settings": {
+            "text": "Se her hvad vores butik gemmer på",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9qhanG"
+      ],
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
