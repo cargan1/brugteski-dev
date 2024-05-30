@@ -24,7 +24,7 @@
     "main": {
       "type": "main-page",
       "settings": {
-        "content_width": "100ch"
+        "content_width": "100%"
       }
     }
   },
