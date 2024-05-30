@@ -472,7 +472,7 @@
         "c3be68e8-bbd0-4230-a98b-300bf7708c97": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>Åbningstider<br\/><\/strong>Mandag-Tirsdag: Lukket<br\/>Onsdag: Lukket<br\/>Torsdag-Fredag: Lukket<br\/>Lørdag: Lukket<br\/>Søndag: Lukket<\/p>"
+            "content": "<p><strong>Åbningstider<br\/><\/strong>Mandag: {{ localization.market.metafields.custom.fredericia_open_monday.value }}<br\/>Tirsdag: {{ localization.market.metafields.custom.fredericia_open_tuesday.value }}<br\/>Onsdag: {{ localization.market.metafields.custom.fredericia_open_wednesday.value }}<br\/>Torsdag: {{ localization.market.metafields.custom.fredericia_open_thursday.value }}<br\/>Fredag:{{ localization.market.metafields.custom.fredericia_open_friday.value }}<br\/>Lørdag: {{ localization.market.metafields.custom.fredericia_open_saturday.value }}<br\/>Søndag: {{ localization.market.metafields.custom.fredericia_open_sunday.value }}<\/p>"
           }
         }
       },
