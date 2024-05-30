@@ -214,6 +214,21 @@
         "heading_gradient": ""
       }
     },
+    "custom_html_GPpbzC": {
+      "type": "custom-html",
+      "custom_css": [
+        ".section-full {padding-bottom: 0;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<p id=\"df\">Brands fra<\/p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "collection_list_Nfcq6h": {
       "type": "collection-list",
       "blocks": {
@@ -376,7 +391,7 @@
         "collections_per_row": 5,
         "show_progress_bar": false,
         "subheading": "",
-        "title": "Brands fra D - F",
+        "title": "D til F",
         "content": "<p>Største mærker i denne kategori - <a href=\"\/collections\/dalbelle\" title=\"Dalbello\">Dalbello<\/a>, <a href=\"\/collections\/dynastar\" title=\"Dynastar\">Dynastar<\/a>, <a href=\"\/collections\/elan\" title=\"Elan\">Elan<\/a> og <a href=\"\/collections\/fischer\" title=\"Fischer\">Fischer<\/a><\/p>",
         "link_url": "",
         "link_text": "",
@@ -385,6 +400,21 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": ""
+      }
+    },
+    "custom_html_yLdDcJ": {
+      "type": "custom-html",
+      "custom_css": [
+        ".section-full {padding-bottom: 0;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<p id=\"gk\">Brands fra<\/p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "collection_list_y8icn7": {
@@ -489,7 +519,7 @@
         "collections_per_row": 5,
         "show_progress_bar": false,
         "subheading": "",
-        "title": "Brands fra G - K",
+        "title": "G til K",
         "content": "<p>Største mærker i denne kategori - <a href=\"\/collections\/head\" title=\"Head\">Head<\/a>, <a href=\"\/collections\/k2\" title=\"K2\">K2<\/a>, <a href=\"\/collections\/kastle\" title=\"Kastle\">Kastle<\/a> & <a href=\"\/collections\/kessler\" title=\"Kessler\">Kessler<\/a><\/p>",
         "link_url": "",
         "link_text": "",
@@ -498,6 +528,21 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": ""
+      }
+    },
+    "custom_html_n3BNaj": {
+      "type": "custom-html",
+      "custom_css": [
+        ".section-full {padding-bottom: 0;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<p id=\"lr\">Brands fra<\/p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "collection_list_taafTC": {
@@ -632,7 +677,7 @@
         "collections_per_row": 5,
         "show_progress_bar": false,
         "subheading": "",
-        "title": "Brands fra L - R",
+        "title": "L til R",
         "content": "<p>Største mærker i denne kategori - <a href=\"\/collections\/lange\" title=\"Lange\">Lange<\/a>, <a href=\"\/collections\/marker\" title=\"Marker\">Marker<\/a>, <a href=\"\/collections\/nordica\" title=\"Nordica\">Nordica<\/a>, <a href=\"\/collections\/rome\" title=\"Rome\">Rome<\/a> og <a href=\"\/collections\/rossignol\" title=\"Rossignol\">Rossignol<\/a><\/p>",
         "link_url": "",
         "link_text": "",
@@ -641,6 +686,21 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": ""
+      }
+    },
+    "custom_html_nMJLAp": {
+      "type": "custom-html",
+      "custom_css": [
+        ".section-full {padding-bottom: 0;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<p id=\"sz\">Brands fra<\/p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "collection_list_nFwdBR": {
@@ -790,7 +850,7 @@
         "collections_per_row": 5,
         "show_progress_bar": false,
         "subheading": "",
-        "title": "Brands fra S - Z",
+        "title": "S til Z",
         "content": "<p>Største mærker i denne kategori - <a href=\"\/collections\/salomon\" title=\"Salomon\">Salomon<\/a>, <a href=\"\/collections\/stockli\" title=\"Stöckli\">Stöckli<\/a>, <a href=\"\/collections\/volkl\" title=\"Völkl\">Völkl<\/a> og <a href=\"\/collections\/zai\" title=\"Zai\">Zai<\/a><\/p>",
         "link_url": "",
         "link_text": "",
@@ -871,9 +931,13 @@
     "collection_header_section_Hg4Wtd",
     "custom_html_G4hVjB",
     "collection_list_NqQLNH",
+    "custom_html_GPpbzC",
     "collection_list_Nfcq6h",
+    "custom_html_yLdDcJ",
     "collection_list_y8icn7",
+    "custom_html_n3BNaj",
     "collection_list_taafTC",
+    "custom_html_nMJLAp",
     "collection_list_nFwdBR",
     "main",
     "text_seo_nm8t6j",
