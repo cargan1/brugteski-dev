@@ -77,7 +77,7 @@
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": true,
-        "html": "<id><\/id>",
+        "html": "",
         "background": "",
         "background_gradient": "",
         "text_color": ""
