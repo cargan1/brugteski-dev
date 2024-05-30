@@ -21,6 +21,29 @@
         "heading_gradient": ""
       }
     },
+    "rich_text_B3YHgN": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_Vac8fi": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Åbningstider:<br\/><\/strong>{{ localization.market.metafields.custom.fredericia_open_hours | metafield_tag }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_Vac8fi"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "tab_label": ""
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -30,6 +53,7 @@
   },
   "order": [
     "image_link_blocks_FmUFUg",
+    "rich_text_B3YHgN",
     "main"
   ]
 }
