@@ -36,7 +36,7 @@
         "richtext_Vac8fi": {
           "type": "richtext",
           "settings": {
-            "content": "<h2><strong>Åbningstider:<\/strong><\/h2><p>{{ localization.market.metafields.custom.fredericia_open_hours | metafield_tag }}<\/p>"
+            "content": "<h2><strong>Åbningstider<\/strong><\/h2><p>{{ localization.market.metafields.custom.fredericia_open_hours | metafield_tag }}<\/p>"
           }
         },
         "divider_FyhHij": {
@@ -78,7 +78,7 @@
         "richtext_AYkPEK": {
           "type": "richtext",
           "settings": {
-            "content": "<h1>Adresse:<\/h1><p>Butikken ligger 2 minutter fra motorvejen i Fredericia, så der er nem til og frakørsel.<\/p><p>Krogsagervej 50, 2 7000 Frederica<\/p>"
+            "content": "<h1>Adresse<\/h1><p>Butikken ligger 2 minutter fra motorvejen i Fredericia, så der er nem til og frakørsel.<\/p><p>Adressen er Krogsagervej 50, 2 7000 Frederica<\/p>"
           }
         },
         "button_dMrXDC": {
@@ -86,8 +86,8 @@
           "settings": {
             "style": "fill",
             "size": "xl",
-            "text": "Button text",
-            "url": "",
+            "text": "Se adressen på Google her",
+            "url": "https:\/\/maps.app.goo.gl\/kkirbtRgWymWRdvY8",
             "background": "",
             "text_color": ""
           }
@@ -96,12 +96,22 @@
           "type": "divider",
           "settings": {
           }
+        },
+        "image_BUPj39": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/butik-udenfor.g.jpg",
+            "width_mode": "full_width",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
         }
       },
       "block_order": [
         "richtext_AYkPEK",
         "button_dMrXDC",
-        "divider_kAUpN7"
+        "divider_kAUpN7",
+        "image_BUPj39"
       ],
       "settings": {
         "full_width": true,
@@ -123,8 +133,8 @@
         "video": "shopify:\/\/files\/videos\/Hjemmeside_1.mp4",
         "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30,
+        "overlay_color": "#0039ff",
+        "overlay_opacity": 70,
         "tab_label": ""
       }
     }
