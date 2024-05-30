@@ -1,0 +1,35 @@
+{
+  "sections": {
+    "image_link_blocks_FmUFUg": {
+      "type": "image-link-blocks",
+      "custom_css": [
+        ".section-stack {gap: 0px;}",
+        ".section-full {padding-top: 10px; padding-bottom: 15px;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "block_size": "medium",
+        "subheading": "",
+        "title": "",
+        "content": "<p><a href=\"\/pages\/forside\" title=\"Forside\">Forside<\/a> \/ {{ page.title }}<\/p>",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "content_width": "100%"
+      }
+    }
+  },
+  "order": [
+    "image_link_blocks_FmUFUg",
+    "main"
+  ]
+}
