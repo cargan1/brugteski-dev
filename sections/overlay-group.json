@@ -92,7 +92,7 @@
         "richtext_Ux3fxU": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>Åbningstider<\/strong><\/p><p>Mandag: {{ localization.market.metafields.custom.fredericia_open_monday.value }}<\/p><p>Tirsdag: {{ localization.market.metafields.custom.fredericia_open_tuesday.value }}<\/p><p>Onsdag: {{ localization.market.metafields.custom.fredericia_open_wednesday.value }}<\/p><p>Torsdag: {{ localization.market.metafields.custom.fredericia_open_thursday.value }}<\/p><p>Fredag: {{ localization.market.metafields.custom.fredericia_open_friday.value }}<\/p><p>Lørdag: {{ localization.market.metafields.custom.fredericia_open_saturday.value }}<\/p><p>Søndag: {{ localization.market.metafields.custom.fredericia_open_sunday.value }}<\/p><p><strong>Obs. Skibutikken har kun åben i skisæsonen fra september til april<\/strong><\/p>"
+            "content": "<p><strong>Åbningstider<\/strong><\/p><p>{{ localization.market.metafields.custom.fredericia_open_hours | metafield_tag }}<\/p>"
           }
         },
         "image_PgUnC7": {
