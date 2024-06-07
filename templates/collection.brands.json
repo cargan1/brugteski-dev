@@ -88,7 +88,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Skindertoj.g1.jpg",
             "stretch_image": true,
-            "link_text": "Beklædning ❄️",
+            "link_text": "Beklædning❄️",
             "link_url": "",
             "collection": "skitoj-beskyttelsesudstyr",
             "brand_url": "{{ collection.title }}",
