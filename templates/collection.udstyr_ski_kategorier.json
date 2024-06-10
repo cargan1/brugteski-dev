@@ -71,7 +71,7 @@
         "embed_cCfbe9"
       ],
       "settings": {
-        "guide_finder": true,
+        "guide_finder": false,
         "image_size": "xs",
         "image": "shopify:\/\/shop_images\/image_3.jpg",
         "mobile_text_position": "place-self-center text-center",
