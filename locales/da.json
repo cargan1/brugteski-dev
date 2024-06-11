@@ -130,7 +130,7 @@
       "pick_up_unavailable_at": "Ingen mulighed for afhentning hos {{ location_name }} i øjeblikket"
     },
     "condition": {
-      "fabric_new": "Fabriksny",
+      "fabric_new": "Fabriksnye",
       "gold": "Guld",
       "silver": "Sølv",
       "bronze": "Bronze"
