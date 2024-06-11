@@ -98,7 +98,7 @@
       "type": "collection-header-section",
       "settings": {
         "guide_finder": false,
-        "image_size": "xs",
+        "image_size": "auto",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center-start sm:text-start",
         "text_color": "#ffffff",
