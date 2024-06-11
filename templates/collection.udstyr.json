@@ -31,6 +31,7 @@
             "stretch_image": true,
             "link_text": "",
             "link_url": "https:\/\/brugteski.dk\/collections\/alle-ski?filter.v.availability=1",
+            "collection": "",
             "brand_url": "",
             "background": "",
             "text_color": "#ffffff",
@@ -45,6 +46,7 @@
             "stretch_image": true,
             "link_text": "",
             "link_url": "https:\/\/brugteski.dk\/collections\/alt-tilbehor?filter.v.availability=1",
+            "collection": "",
             "brand_url": "",
             "background": "",
             "text_color": "#ffffff",
@@ -59,6 +61,7 @@
             "stretch_image": true,
             "link_text": "",
             "link_url": "https:\/\/brugteski.dk\/collections\/alt-snowboard?filter.v.availability=1",
+            "collection": "",
             "brand_url": "",
             "background": "",
             "text_color": "#ffffff",
@@ -93,34 +96,8 @@
     },
     "collection_header_section_KMDxdR": {
       "type": "collection-header-section",
-      "blocks": {
-        "heading_nDtrQQ": {
-          "type": "heading",
-          "settings": {
-            "text": "{{ collection.metafields.custom.titel_typeform.value }}",
-            "heading_tag": "h3"
-          }
-        },
-        "richtext_3BdrT3": {
-          "type": "richtext",
-          "settings": {
-            "content": "{{ collection.metafields.custom.paragraph_typeform | metafield_tag }}"
-          }
-        },
-        "embed_dprTwq": {
-          "type": "embed",
-          "settings": {
-            "text": "{{ collection.metafields.custom.typeform_live_id.value }}"
-          }
-        }
-      },
-      "block_order": [
-        "heading_nDtrQQ",
-        "richtext_3BdrT3",
-        "embed_dprTwq"
-      ],
       "settings": {
-        "guide_finder": true,
+        "guide_finder": false,
         "image_size": "xs",
         "image": "shopify:\/\/shop_images\/Skimand.jpg",
         "mobile_text_position": "place-self-center text-center",
