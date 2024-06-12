@@ -107,21 +107,6 @@
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
-        },
-        "38e8c87e-7d0d-4bb0-a8d0-4ed80cbd7bf8": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_skiservice2.jpg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "shopify:\/\/products\/ski-service-pro",
-            "collection": "",
-            "brand_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
         }
       },
       "block_order": [
@@ -129,8 +114,7 @@
         "cea322f1-3c3a-4b72-b112-4d077d632ac3",
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-1",
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-2",
-        "8aaf4ee8-1e2b-4c53-a733-8273461da5c6",
-        "38e8c87e-7d0d-4bb0-a8d0-4ed80cbd7bf8"
+        "8aaf4ee8-1e2b-4c53-a733-8273461da5c6"
       ],
       "custom_css": [
         ".section-stack {gap: 5px;}",
