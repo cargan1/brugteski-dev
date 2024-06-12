@@ -68,12 +68,28 @@
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
+        },
+        "item_L49m38": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_skistovler2.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/skistovler",
+            "collection": "",
+            "brand_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
         }
       },
       "block_order": [
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-0",
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-1",
-        "b43d6136-e9c0-4338-82f9-f33dac1f623a"
+        "b43d6136-e9c0-4338-82f9-f33dac1f623a",
+        "item_L49m38"
       ],
       "custom_css": [
         ".section-stack {gap: 5px;}",
@@ -84,7 +100,7 @@
         "block_size": "small",
         "subheading": "",
         "title": "",
-        "content": "<p><a href=\"\/pages\/forside\" title=\"Forside\">Forside<\/a> \/ {{ collection.title }}<br\/><\/p>",
+        "content": "<p><a href=\"https:\/\/brugteski.dk\/\" title=\"https:\/\/brugteski.dk\/\">Forside<\/a> \/ {{ collection.title }}<br\/><\/p>",
         "link_url": "",
         "link_text": "",
         "background": "",
