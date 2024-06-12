@@ -512,7 +512,7 @@
         "read_more": true,
         "content_width": "large",
         "text_position": "start",
-        "background": "",
+        "background": "#f2f2f2",
         "background_gradient": "",
         "text_color": ""
       }
