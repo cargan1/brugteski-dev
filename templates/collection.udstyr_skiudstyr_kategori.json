@@ -45,31 +45,39 @@
     "collection_header_section_xBhVnx": {
       "type": "collection-header-section",
       "blocks": {
+        "heading_mA7fGj": {
+          "type": "heading",
+          "settings": {
+            "text": "{{ collection.metafields.custom.titel_typeform.value }}",
+            "heading_tag": "h2"
+          }
+        },
         "richtext_BWNLQi": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "content": "{{ collection.metafields.custom.paragraph_typeform | metafield_tag }}"
           }
         },
-        "liquid_mnL7Q7": {
-          "type": "liquid",
+        "embed_WcBiEH": {
+          "type": "embed",
           "settings": {
-            "liquid": "<p>Use this text to output some custom Liquid code to include widget or dynamic code.<\/p>"
+            "text": "{{ collection.metafields.custom.typeform_live_id.value }}"
           }
         }
       },
       "block_order": [
+        "heading_mA7fGj",
         "richtext_BWNLQi",
-        "liquid_mnL7Q7"
+        "embed_WcBiEH"
       ],
       "settings": {
-        "guide_finder": false,
-        "image_size": "auto",
+        "guide_finder": true,
+        "image_size": "xs",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 65
+        "overlay_opacity": 30
       }
     },
     "main": {
