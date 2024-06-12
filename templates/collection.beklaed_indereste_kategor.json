@@ -44,32 +44,15 @@
     },
     "collection_header_section_r89ngW": {
       "type": "collection-header-section",
-      "blocks": {
-        "richtext_fa4m6F": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "liquid_H4bCQa": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<p>Use this text to output some custom Liquid code to include widget or dynamic code.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "richtext_fa4m6F",
-        "liquid_H4bCQa"
-      ],
       "settings": {
-        "guide_finder": false,
-        "image_size": "auto",
+        "guide_finder": true,
+        "image_size": "xs",
+        "image": "shopify:\/\/shop_images\/skisokker.g_22ee7d81-7de4-4d47-a1ad-b086117a9893.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 65
+        "overlay_opacity": 30
       }
     },
     "main": {
