@@ -65,9 +65,9 @@
         "item_gL9qck": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/snowboard.g-kopi.jpg",
+            "image": "shopify:\/\/shop_images\/udvalg_snowboard_9ae3bc78-49b8-4f32-bc05-3d40d57c6e54.jpg",
             "stretch_image": true,
-            "link_text": "Snowboards",
+            "link_text": "",
             "link_url": "",
             "collection": "snowboardudstyr",
             "brand_url": "{{ collection.title }}",
@@ -80,46 +80,46 @@
         "item_BkJJRn": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/skistave.g.jpg",
+            "image": "shopify:\/\/shop_images\/udvalg_skigear.jpg",
             "stretch_image": true,
-            "link_text": "Skigear",
+            "link_text": "",
             "link_url": "",
             "collection": "skigear",
             "brand_url": "{{ collection.title }}",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         },
         "item_K4xdLy": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Skindertoj.g1.jpg",
+            "image": "shopify:\/\/shop_images\/udvalg_skitoj1.jpg",
             "stretch_image": true,
-            "link_text": "Skitøj",
+            "link_text": "",
             "link_url": "",
             "collection": "skitoj-beskyttelsesudstyr",
             "brand_url": "{{ collection.title }}",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         },
         "item_mKqtEQ": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/beskyttelse.g.1-1.jpg",
+            "image": "shopify:\/\/shop_images\/udvalg_beskyttelse.jpg",
             "stretch_image": true,
-            "link_text": "Beskyttelse",
+            "link_text": "",
             "link_url": "",
             "collection": "beskyttelse",
             "brand_url": "{{ block.settings.collection.title }}",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         }
       },
