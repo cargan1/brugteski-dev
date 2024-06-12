@@ -1,0 +1,221 @@
+{
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "show_collection_title": false,
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "collection_title_size": "h3",
+        "image_size": "sm",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "featured_product": "",
+        "featured_product_heading": "Featured product",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "4bdf9a05-c268-4dad-ba38-e5c1db7bcb74": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_voksenskistovler.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "https:\/\/brugteski.dk\/collections\/skistovler?filter.v.availability=1",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "7cf735e1-01b5-49c8-8ca7-1383bc658648": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_borneskistovler.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "https:\/\/brugteski.dk\/collections\/borne-skistovler?filter.v.availability=1",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "a5f68762-6842-44de-b848-7f8bc56a57c6": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_skistave_c4223226-f9c9-4c8b-83dc-85b441456410.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "https:\/\/brugteski.dk\/collections\/skistave?filter.v.availability=1",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "1ab26b8e-c402-488c-b389-129c04f2a65f": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_poser.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "https:\/\/brugteski.dk\/collections\/ski-stovleposer?filter.v.availability=1",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "63b658bb-4a92-49ea-9ad5-565924388bbe": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_skiservice2.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "shopify:\/\/products\/ski-service-pro",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-3",
+        "7cf735e1-01b5-49c8-8ca7-1383bc658648",
+        "a5f68762-6842-44de-b848-7f8bc56a57c6",
+        "1ab26b8e-c402-488c-b389-129c04f2a65f",
+        "63b658bb-4a92-49ea-9ad5-565924388bbe"
+      ],
+      "custom_css": [
+        ".section-stack {gap: 5px;}",
+        ".section-full {padding-top: 10px; padding-bottom: 20px;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "block_size": "small",
+        "subheading": "",
+        "title": "",
+        "content": "<p><a href=\"https:\/\/brugteski.dk\/\" title=\"https:\/\/brugteski.dk\/\">Forside<\/a> \/  <a href=\"https:\/\/brugteski.dk\/collections\/ski-skiudstyr?filter.v.availability=1\" title=\"https:\/\/brugteski.dk\/collections\/ski-skiudstyr?filter.v.availability=1\">Udstyr<\/a> \/ {{ collection.title }}<\/p>",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "collection_header_section_WHDwxw": {
+      "type": "collection-header-section",
+      "blocks": {
+        "richtext_VxcBdU": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "liquid_ghBKeA": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<p>Use this text to output some custom Liquid code to include widget or dynamic code.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_VxcBdU",
+        "liquid_ghBKeA"
+      ],
+      "settings": {
+        "guide_finder": false,
+        "image_size": "auto",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 65
+      }
+    },
+    "main": {
+      "type": "main-collection-new",
+      "settings": {
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "filter_layout": "sidebar",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_filter_group_name": false,
+        "show_color_swatch": false,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": true,
+        "open_first_filter_group": true
+      }
+    },
+    "text_seo_MtDyYE": {
+      "type": "text-seo",
+      "blocks": {
+        "richtext_CqfBqM": {
+          "type": "richtext",
+          "settings": {
+            "content": "{{ collection.metafields.custom.seo_bottom | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_CqfBqM"
+      ],
+      "settings": {
+        "full_width": true,
+        "read_more": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "#f2f2f2",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "c1fd1f55-0ce4-4389-b3ea-b949460ef382": {
+      "type": "trustpilot-stjerner",
+      "custom_css": [
+
+      ],
+      "settings": {
+      }
+    },
+    "38bc7e44-b411-4e95-8b29-e8b99cb24551": {
+      "type": "scrolling-text",
+      "settings": {
+        "full_width": true,
+        "text": "Spar op til 72% af nypris",
+        "text_size": "xsmall",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 14,
+        "background": "#003eff",
+        "background_gradient": "",
+        "text_color": "#ffffff",
+        "text_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "4bdf9a05-c268-4dad-ba38-e5c1db7bcb74",
+    "collection_header_section_WHDwxw",
+    "main",
+    "text_seo_MtDyYE",
+    "c1fd1f55-0ce4-4389-b3ea-b949460ef382",
+    "38bc7e44-b411-4e95-8b29-e8b99cb24551"
+  ]
+}
