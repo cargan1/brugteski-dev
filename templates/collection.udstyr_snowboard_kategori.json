@@ -45,26 +45,34 @@
     "collection_header_section_A9tBjg": {
       "type": "collection-header-section",
       "blocks": {
+        "heading_W8L888": {
+          "type": "heading",
+          "settings": {
+            "text": "{{ collection.metafields.custom.titel_typeform.value }}",
+            "heading_tag": "h2"
+          }
+        },
         "richtext_LBhYPm": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "content": "{{ collection.metafields.custom.paragraph_typeform | metafield_tag }}"
           }
         },
-        "liquid_WMiqMq": {
-          "type": "liquid",
+        "embed_an83aY": {
+          "type": "embed",
           "settings": {
-            "liquid": "<p>Use this text to output some custom Liquid code to include widget or dynamic code.<\/p>"
+            "text": "{{ collection.metafields.custom.typeform_live_id.value }}"
           }
         }
       },
       "block_order": [
+        "heading_W8L888",
         "richtext_LBhYPm",
-        "liquid_WMiqMq"
+        "embed_an83aY"
       ],
       "settings": {
-        "guide_finder": false,
-        "image_size": "auto",
+        "guide_finder": true,
+        "image_size": "xs",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
