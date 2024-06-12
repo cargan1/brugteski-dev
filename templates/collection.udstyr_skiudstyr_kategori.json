@@ -73,6 +73,7 @@
       "settings": {
         "guide_finder": true,
         "image_size": "xs",
+        "image": "shopify:\/\/shop_images\/skiudstyr.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
