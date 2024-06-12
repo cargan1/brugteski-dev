@@ -45,7 +45,7 @@
             "stretch_image": true,
             "link_text": "Skistøvler",
             "link_url": "",
-            "collection": "skistovler",
+            "collection": "skistovler-til-hele-familien",
             "brand_url": "{{ collection.title }}",
             "background": "",
             "text_color": "#ffffff",
