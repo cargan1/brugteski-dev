@@ -28,7 +28,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/voksenski.g.jpg",
             "stretch_image": true,
-            "link_text": "Ski⛷️",
+            "link_text": "Ski",
             "link_url": "",
             "collection": "alle-ski",
             "brand_url": "{{ collection.title }}",
@@ -43,7 +43,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/skistovler.g_b8f42c47-164a-4056-8512-61fc1f946b12.jpg",
             "stretch_image": true,
-            "link_text": "Skistøvler🎿",
+            "link_text": "Skistøvler",
             "link_url": "",
             "collection": "skistovler",
             "brand_url": "{{ collection.title }}",
@@ -58,7 +58,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/snowboard.g-kopi.jpg",
             "stretch_image": true,
-            "link_text": "Snowboards🏂",
+            "link_text": "Snowboards",
             "link_url": "",
             "collection": "snowboardudstyr",
             "brand_url": "{{ collection.title }}",
@@ -73,7 +73,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/skistave.g.jpg",
             "stretch_image": true,
-            "link_text": "Skiudstyr🏔️",
+            "link_text": "Skigear",
             "link_url": "",
             "collection": "skigear",
             "brand_url": "{{ collection.title }}",
@@ -88,10 +88,25 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Skindertoj.g1.jpg",
             "stretch_image": true,
-            "link_text": "Beklædning❄️",
+            "link_text": "Skitøj",
             "link_url": "",
             "collection": "skitoj-beskyttelsesudstyr",
             "brand_url": "{{ collection.title }}",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "item_mKqtEQ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/beskyttelse.g.1-1.jpg",
+            "stretch_image": true,
+            "link_text": "Beskyttelse",
+            "link_url": "",
+            "collection": "beskyttelse",
+            "brand_url": "",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -104,7 +119,8 @@
         "item_EBLCNX",
         "item_gL9qck",
         "item_BkJJRn",
-        "item_K4xdLy"
+        "item_K4xdLy",
+        "item_mKqtEQ"
       ],
       "custom_css": [
         ".section-stack {gap: 5px;}",
