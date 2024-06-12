@@ -27,6 +27,7 @@
         "item_BtNwWY": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_herre.skistovler.jpg",
             "stretch_image": true,
             "link_text": "",
             "link_url": "shopify:\/\/collections\/herre-skistovler",
@@ -41,6 +42,7 @@
         "item_P79gg8": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_dameskistovler.jpg",
             "stretch_image": true,
             "link_text": "",
             "link_url": "shopify:\/\/collections\/dame-skistovler",
@@ -70,6 +72,7 @@
         "item_bym9Ky": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_touringstovler.jpg",
             "stretch_image": true,
             "link_text": "",
             "link_url": "shopify:\/\/collections\/touring-stovler",
