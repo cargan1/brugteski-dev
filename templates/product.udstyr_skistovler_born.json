@@ -11,7 +11,7 @@
         "block_size": "small",
         "subheading": "",
         "title": "",
-        "content": "<p><a href=\"https:\/\/brugteski.dk\/\" title=\"https:\/\/brugteski.dk\/\">Forside<\/a> \/  <a href=\"\/collections\/ski-skiudstyr\" title=\"Udstyr\">Udstyr<\/a> \/ <a href=\"\/collections\/alle-skistovler\" title=\"Alle skistøvler\">Skistøvler<\/a> \/ <a href=\"\/collections\/borne-skistovler\" title=\"Børne skistøvler\">Børne skistøvler<\/a> \/ {{ product.title }}<\/p>",
+        "content": "<p><a href=\"https:\/\/brugteski.dk\/\" title=\"https:\/\/brugteski.dk\/\">Forside<\/a> \/ <a href=\"\/collections\" title=\"All collections\">Kollektioner<\/a> \/ <a href=\"\/collections\/ski-skiudstyr\" title=\"Udstyr\">Udstyr<\/a> \/ <a href=\"\/collections\/alle-skistovler\" title=\"Alle skistøvler\">Skistøvler<\/a> \/ <a href=\"\/collections\/borne-skistovler\" title=\"Børne skistøvler\">Børne skistøvler<\/a> \/ {{ product.title }}<\/p>",
         "link_url": "",
         "link_text": "",
         "background": "#ffffff",
