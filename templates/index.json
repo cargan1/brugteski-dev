@@ -537,13 +537,14 @@
             "button_background": "#000000",
             "button_text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 30
           }
         },
         "image_pC3Aeh": {
           "type": "image",
           "settings": {
-            "title": "Sælge dig udstyr",
+            "image": "shopify:\/\/shop_images\/Hjaelp.g_a41136d3-f060-469f-8a55-d73863a269a0.jpg",
+            "title": "Sælge dit udstyr",
             "heading_tag": "h2",
             "link_url": "",
             "link_text": "",
@@ -558,14 +559,14 @@
             "button_background": "#000000",
             "button_text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 30
           }
         },
         "image_GNLUnB": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/service.slib.g_29f234d8-5ed6-43e0-85ee-64a868af36dd.jpg",
-            "title": "Service dit udtyr",
+            "title": "Servicering af udstyr",
             "heading_tag": "h2",
             "link_url": "shopify:\/\/collections\/service-til-ski-og-udstyr",
             "link_text": "",
@@ -580,7 +581,7 @@
             "button_background": "#000000",
             "button_text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 30
           }
         }
       },
