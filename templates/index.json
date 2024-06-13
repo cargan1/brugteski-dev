@@ -160,6 +160,10 @@
         "item_GmUEVX",
         "item_8NmyJg"
       ],
+      "custom_css": [
+        ".section-stack {gap: 0px;}",
+        ".section-full {padding-top: 10px; padding-bottom: 15px;}"
+      ],
       "settings": {
         "full_width": true,
         "title": "Brugeroplevelser",
