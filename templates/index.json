@@ -492,6 +492,113 @@
         "text_gradient": ""
       }
     },
+    "media_grid_gz7V4p": {
+      "type": "media-grid",
+      "blocks": {
+        "image_YdNHtK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Skihandsker.g_47df3ee8-64ac-4cf4-957a-5c7668cdce7a.jpg",
+            "title": "Skihandsker",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "image_kQzkqL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_11.jpg",
+            "title": "Skistave",
+            "heading_tag": "h4",
+            "link_url": "shopify:\/\/collections\/skistave",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "image_a4nTWQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/skisokker.g_a753af9e-0939-483b-9bf0-7cefaa5f576f.jpg",
+            "title": "Skisokker",
+            "heading_tag": "h4",
+            "link_url": "shopify:\/\/collections\/skisokker",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_CaWc3d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/skihjelm.g_45090bff-1f37-4fbb-acd5-25fb57f2ee0f.jpg",
+            "title": "Skihjelme",
+            "heading_tag": "h4",
+            "link_url": "shopify:\/\/collections\/skihjelme",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "image_YdNHtK",
+        "image_kQzkqL",
+        "image_a4nTWQ",
+        "image_CaWc3d"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
     "text_seo_qhf7yB": {
       "type": "text-seo",
       "blocks": {
@@ -685,6 +792,7 @@
     "logo_list_KYBqFX",
     "media_grid_d3wVKd",
     "d066db11-1234-4544-9320-5a28927212cd",
+    "media_grid_gz7V4p",
     "text_seo_qhf7yB",
     "media_grid_pdNhri",
     "70c1490b-879a-4cf4-b3c8-33793d88e30d",
