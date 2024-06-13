@@ -1,5 +1,47 @@
 {
   "sections": {
+    "image_with_text_overlay_GnXENV": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_fA4QFp": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_Pmd6Lx": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_A69Fmx": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_fA4QFp",
+        "heading_Pmd6Lx",
+        "richtext_A69Fmx"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "enable_parallax": true,
+        "image_size": "lg",
+        "image": "shopify:\/\/shop_images\/sportsman-in-goggles-holding-ski-sticks-while-skii-2022-12-16-21-17-36-utc-2_2.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/hero-mobile.jpg",
+        "mobile_text_position": "place-self-end-start text-start",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "slideshow": {
       "type": "slideshow",
       "blocks": {
@@ -29,6 +71,7 @@
       "block_order": [
         "slide-1"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": true,
@@ -496,6 +539,7 @@
     }
   },
   "order": [
+    "image_with_text_overlay_GnXENV",
     "slideshow",
     "c37c5392-4d29-43da-aaab-728d304775c6",
     "collection-list",
