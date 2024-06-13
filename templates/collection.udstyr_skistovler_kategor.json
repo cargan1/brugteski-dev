@@ -32,7 +32,7 @@
         "block_size": "small",
         "subheading": "",
         "title": "",
-        "content": "<p><a href=\"https:\/\/brugteski.dk\/\" title=\"https:\/\/brugteski.dk\/\">Forside<\/a> \/  <a href=\"\/collections\/udstyr-til-skilob\" title=\"Udstyr til skiløb\">Udstyr<\/a> \/ <a href=\"\/collections\/skistovler-til-hele-familien\" title=\"Skistøvler til hele familien\">Skistøvler<\/a> \/ {{ collection.title }}<br\/><\/p>",
+        "content": "<p><a href=\"https:\/\/brugteski.dk\/\" title=\"https:\/\/brugteski.dk\/\">Forside<\/a> \/ <a href=\"\/collections\" title=\"All collections\">Kollektioner<\/a> \/ <a href=\"\/collections\/udstyr-til-skilob\" title=\"Udstyr til skiløb\">Udstyr<\/a> \/ <a href=\"\/collections\/skistovler-til-hele-familien\" title=\"Skistøvler til hele familien\">Skistøvler<\/a> \/ {{ collection.title }}<br\/><\/p>",
         "link_url": "",
         "link_text": "",
         "background": "",
