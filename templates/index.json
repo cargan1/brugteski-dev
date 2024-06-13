@@ -420,7 +420,7 @@
         "image_nXVmAy": {
           "type": "image",
           "settings": {
-            "title": "Vi har danmarks bedst ski-garanti til børn! Det gør i kan komme tilbage efter to skisæsoner og få bytter udstyr til noget større for et minimalt beløb",
+            "title": "Ski-byt garnati til børneudstyr! Få det byttet inden de vokser fra det",
             "heading_tag": "h6",
             "link_url": "",
             "link_text": "Se hvordan det fungere",
@@ -447,7 +447,7 @@
             "link_url": "shopify:\/\/collections\/borne-skistovler",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 1,
+            "desktop_column_span": 2,
             "desktop_row_span": 1,
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "background": "#000000",
@@ -459,27 +459,6 @@
             "overlay_color": "#000000",
             "overlay_opacity": 30
           }
-        },
-        "image_MWwLT4": {
-          "type": "image",
-          "settings": {
-            "title": "Promote your products",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 1,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
         }
       },
       "block_order": [
@@ -487,8 +466,7 @@
         "image_NCm3Ki",
         "image_RkrXRt",
         "image_nXVmAy",
-        "image_3CqLPy",
-        "image_MWwLT4"
+        "image_3CqLPy"
       ],
       "settings": {
         "full_width": true,
