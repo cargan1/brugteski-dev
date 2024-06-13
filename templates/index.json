@@ -559,7 +559,7 @@
           "type": "collection",
           "settings": {
             "collection": "skisokker",
-            "image": "shopify:\/\/shop_images\/skisokker.g_a753af9e-0939-483b-9bf0-7cefaa5f576f.jpg",
+            "image": "shopify:\/\/shop_images\/skisokker1.g.jpg",
             "subheading": "",
             "title": "",
             "url": "",
@@ -573,8 +573,8 @@
         "collection_PdyKxR": {
           "type": "collection",
           "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/halsedisse.g_3818fa90-145a-44df-8297-7b58e454f7ed.jpg",
+            "collection": "halsedisser",
+            "image": "shopify:\/\/shop_images\/halsedisser1.g.jpg",
             "subheading": "",
             "title": "",
             "url": "",
