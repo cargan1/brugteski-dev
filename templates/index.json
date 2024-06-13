@@ -37,7 +37,7 @@
         "richtext_HgL99P": {
           "type": "richtext",
           "settings": {
-            "content": "<p>📍Spar op til 60% at nyprisen ved at købe brugt<br\/>📍24 måneders fuld reklamationsret på brugt udstyr<br\/>📍Altid 100% gratis returnering<br\/><\/p>"
+            "content": "<p>📍Spar op til 60% af nyprisen ved at købe brugt<br\/>📍24 måneders fuld reklamationsret på brugt udstyr<br\/>📍Altid 100% gratis returnering<br\/><\/p>"
           }
         }
       },
@@ -70,7 +70,7 @@
         "text_size": "xsmall",
         "text_style": "fill",
         "scrolling_mode": "auto",
-        "scrolling_speed": 8,
+        "scrolling_speed": 12,
         "background": "#003eff",
         "background_gradient": "",
         "text_color": "#fafafa",
