@@ -348,31 +348,155 @@
         "logo_item_border": ""
       }
     },
-    "bc481064-5c59-4fc2-8e0f-0def25e17a64": {
-      "type": "featured-collection",
+    "media_grid_d3wVKd": {
+      "type": "media-grid",
+      "blocks": {
+        "image_hwX6BQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/skibyt-header.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_NCm3Ki": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/borneski.g2.jpg",
+            "title": "Børne- & Juniorski",
+            "heading_tag": "h4",
+            "link_url": "shopify:\/\/collections\/borne-juniorski",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "image_RkrXRt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/snowboarder4.g.jpg",
+            "title": "Børne snowboards",
+            "heading_tag": "h4",
+            "link_url": "shopify:\/\/collections\/borne-snowboard",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_nXVmAy": {
+          "type": "image",
+          "settings": {
+            "title": "Vi har danmarks bedst ski-garanti til børn! Det gør i kan komme tilbage efter to skisæsoner og få bytter udstyr til noget større for et minimalt beløb",
+            "heading_tag": "h6",
+            "link_url": "",
+            "link_text": "Se hvordan det fungere",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#efefef",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "#0039ff",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_3CqLPy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/born_ski.g.jpg",
+            "title": "Børne skistøvler",
+            "heading_tag": "h4",
+            "link_url": "shopify:\/\/collections\/borne-skistovler",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "image_MWwLT4": {
+          "type": "image",
+          "settings": {
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_hwX6BQ",
+        "image_NCm3Ki",
+        "image_RkrXRt",
+        "image_nXVmAy",
+        "image_3CqLPy",
+        "image_MWwLT4"
+      ],
       "settings": {
-        "collection": "borne-juniorski",
-        "products": [
-
-        ],
-        "full_width": false,
-        "stack_products": false,
-        "show_progress_bar": true,
-        "products_count": 28,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 5,
-        "subheading": "",
-        "title": "Børne- & Juniorski",
-        "content": "<p>Alle vores ski er nyslebet, vokset, og er lige klar til at hoppe på pisterne.<\/p>",
-        "link_url": "https:\/\/brugteski.dk\/collections\/borne-juniorski?filter.v.availability=1",
-        "link_text": "Se alle børne- & juniorski",
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
         "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
+        "background_gradient": ""
       }
     },
     "d066db11-1234-4544-9320-5a28927212cd": {
@@ -388,142 +512,6 @@
         "background_gradient": "",
         "text_color": "#1a1a1a",
         "text_gradient": ""
-      }
-    },
-    "5416e99f-3a7e-4a0f-8201-00b6ab233144": {
-      "type": "media-with-text",
-      "blocks": {
-        "e60bfdc0-7751-4fab-91a6-3fb7e6c4f53c": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ski-byt_11f7b71b-36fc-4221-99ec-bfca238ff238.jpg",
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "DANMARKS BEDSTE SKI-GARANTI FOR BØRN",
-            "content": "<p>Syntes du det er for dyrt og besværligt at leje udstyr til dine børn? - Vi har løsningen! Dine børn kommer aldrig til at vokse fra deres udstyr igen...<\/p>",
-            "link_text": "Læs om Ski-Garanti",
-            "link_url": "shopify:\/\/pages\/ski-byt-for-born-juniorer",
-            "background": "#f1f1f1",
-            "background_gradient": "",
-            "text_color": "#000000",
-            "text_gradient": "",
-            "button_background": "#003eff",
-            "button_text_color": "#ffffff"
-          }
-        },
-        "95bdbf37-78af-457f-b674-ba358afbe9d5": {
-          "type": "video",
-          "settings": {
-            "video": "shopify:\/\/files\/videos\/aerial-top-down-of-winter-snow-covered-mountains-l-2022-10-22-04-46-19-utc_comp.mp4",
-            "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "autoplay": true,
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "SKAL VI KØBE DIT BRUGTE UDSTYR?",
-            "content": "<p>Gider du ikke alt bøvlet med at sælge dit gamle udstyr? Kontakt os omkring det udstyr som du gerne vil af med, så giver vi en byttepris for det! <\/p>",
-            "link_text": "Sælg dit udstyr",
-            "link_url": "shopify:\/\/pages\/byt-til-nyt",
-            "background": "#f1f1f1",
-            "background_gradient": "",
-            "text_color": "#000000",
-            "text_gradient": "",
-            "button_background": "#003eff",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "e60bfdc0-7751-4fab-91a6-3fb7e6c4f53c",
-        "95bdbf37-78af-457f-b674-ba358afbe9d5"
-      ],
-      "settings": {
-        "full_width": false,
-        "enable_parallax": true,
-        "spacing": "small",
-        "tab_label": ""
-      }
-    },
-    "04bc0508-1798-4c95-ba1d-87cc94b67e63": {
-      "type": "featured-product",
-      "blocks": {
-        "template--14429261365283__04bc0508-1798-4c95-ba1d-87cc94b67e63-166774616614fe1cb4-1": {
-          "type": "title",
-          "settings": {
-            "heading_tag": "h1"
-          }
-        },
-        "template--14429261365283__04bc0508-1798-4c95-ba1d-87cc94b67e63-166774616614fe1cb4-3": {
-          "type": "price",
-          "settings": {
-            "show_taxes_notice": false
-          }
-        },
-        "template--14429261365283__04bc0508-1798-4c95-ba1d-87cc94b67e63-166774616614fe1cb4-5": {
-          "type": "separator",
-          "settings": {
-          }
-        },
-        "template--14429261365283__04bc0508-1798-4c95-ba1d-87cc94b67e63-166774616614fe1cb4-6": {
-          "type": "description",
-          "settings": {
-            "collapse_content": false
-          }
-        },
-        "template--14429261365283__04bc0508-1798-4c95-ba1d-87cc94b67e63-166774616614fe1cb4-7": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_mode": "block",
-            "color_mode": "color",
-            "size_chart_page": ""
-          }
-        },
-        "0dbc5583-b8ce-45f8-abea-bac8ad62e6c4": {
-          "type": "button",
-          "settings": {
-            "link": "",
-            "text": "Se åbningstider",
-            "size": "lg",
-            "style": "fill",
-            "stretch": true,
-            "background": "",
-            "text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--14429261365283__04bc0508-1798-4c95-ba1d-87cc94b67e63-166774616614fe1cb4-1",
-        "template--14429261365283__04bc0508-1798-4c95-ba1d-87cc94b67e63-166774616614fe1cb4-3",
-        "template--14429261365283__04bc0508-1798-4c95-ba1d-87cc94b67e63-166774616614fe1cb4-5",
-        "template--14429261365283__04bc0508-1798-4c95-ba1d-87cc94b67e63-166774616614fe1cb4-6",
-        "template--14429261365283__04bc0508-1798-4c95-ba1d-87cc94b67e63-166774616614fe1cb4-7",
-        "0dbc5583-b8ce-45f8-abea-bac8ad62e6c4"
-      ],
-      "settings": {
-        "full_width": true,
-        "product": "ski-service-gradet",
-        "desktop_media_width": 55,
-        "desktop_media_layout": "carousel_thumbnails_left",
-        "mobile_media_size": "expanded",
-        "mobile_carousel_control": "thumbnails",
-        "enable_video_autoplay": true,
-        "enable_video_looping": false,
-        "enable_image_zoom": true,
-        "max_image_zoom_level": 3,
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "",
-        "input_background": "rgba(0,0,0,0)",
-        "input_text_color": ""
       }
     },
     "70c1490b-879a-4cf4-b3c8-33793d88e30d": {
@@ -633,10 +621,8 @@
     "bc8d07a6-9b0d-4bfb-8e41-07321f922d9e",
     "media_grid_pXKJpy",
     "logo_list_KYBqFX",
-    "bc481064-5c59-4fc2-8e0f-0def25e17a64",
+    "media_grid_d3wVKd",
     "d066db11-1234-4544-9320-5a28927212cd",
-    "5416e99f-3a7e-4a0f-8201-00b6ab233144",
-    "04bc0508-1798-4c95-ba1d-87cc94b67e63",
     "70c1490b-879a-4cf4-b3c8-33793d88e30d",
     "text_seo_qhf7yB",
     "a298ae13-d71c-4643-a849-6798eb7d3b69"
