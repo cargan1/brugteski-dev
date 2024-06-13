@@ -13,14 +13,14 @@
         "heading_Pmd6Lx": {
           "type": "heading",
           "settings": {
-            "text": "billigere end leje og få mest værdi for pengene",
-            "heading_tag": "h0"
+            "text": "Spar stort – Køb brugt skiudstyr billigere end leje og få mest værdi for pengene",
+            "heading_tag": "h2"
           }
         },
         "richtext_A69Fmx": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Vidste du at det er billigere at købe brugt udstyr end at leje, efter bare to uger på pisten?<\/p>"
+            "content": "<p>Vidste du, at det er billigere at købe brugt udstyr end at leje efter kun to uger på pisten?<\/p>"
           }
         },
         "button_8mmcyY": {
@@ -37,7 +37,7 @@
         "richtext_HgL99P": {
           "type": "richtext",
           "settings": {
-            "content": "<p>📍Spar 60% at nyprise ved at købe brugt<br\/>📍24 måneders fuld reklamationsret på brugt udstyr<br\/>📍Altid 100% gratis returnering<br\/><\/p>"
+            "content": "<p>📍Spar op til 60% at nyprisen ved at købe brugt<br\/>📍24 måneders fuld reklamationsret på brugt udstyr<br\/>📍Altid 100% gratis returnering<br\/><\/p>"
           }
         }
       },
@@ -62,53 +62,11 @@
         "overlay_opacity": 0
       }
     },
-    "slideshow": {
-      "type": "slideshow",
-      "blocks": {
-        "slide-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/sportsman-in-goggles-holding-ski-sticks-while-skii-2022-12-16-21-17-36-utc-2_2.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/hero-mobile.jpg",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-end-start text-start",
-            "desktop_text_position": "sm:place-self-end-start sm:text-start",
-            "subheading": "Spar stort - Eje dit eget skiudstyr",
-            "title": "billigere end leje og få mest værdi for pengene",
-            "heading_tag": "h0",
-            "button_text": "SHOP SKIUDSTYR",
-            "button_link": "shopify:\/\/collections",
-            "text_color": "#ffffff",
-            "button_background": "#003eff",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": true,
-        "image_size": "lg",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": true,
-        "cycle_speed": 6,
-        "background": "#f2f2f2",
-        "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
-      }
-    },
     "c37c5392-4d29-43da-aaab-728d304775c6": {
       "type": "scrolling-text",
       "settings": {
         "full_width": true,
-        "text": "Op til 60% af nyprisen ved brugt udstyr",
+        "text": "Gratis fragt ved 995 DKK ❄️ 2-5 dages levering",
         "text_size": "xsmall",
         "text_style": "fill",
         "scrolling_mode": "auto",
@@ -560,7 +518,6 @@
   },
   "order": [
     "image_with_text_overlay_GnXENV",
-    "slideshow",
     "c37c5392-4d29-43da-aaab-728d304775c6",
     "collection-list",
     "1b8ce53f-6ead-4a13-8561-9903c7284e65",
