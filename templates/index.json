@@ -492,6 +492,125 @@
         "text_gradient": ""
       }
     },
+    "collection_list_UDBrdV": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_gjmPUM": {
+          "type": "collection",
+          "settings": {
+            "collection": "skistave",
+            "image": "shopify:\/\/shop_images\/image_11.jpg",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_y8FJEx": {
+          "type": "collection",
+          "settings": {
+            "collection": "skihandsker",
+            "image": "shopify:\/\/shop_images\/Skihandsker.g_47df3ee8-64ac-4cf4-957a-5c7668cdce7a.jpg",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_dDErMe": {
+          "type": "collection",
+          "settings": {
+            "collection": "skibriller",
+            "image": "shopify:\/\/shop_images\/skitilbehor.jpg",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_8Mz7Gg": {
+          "type": "collection",
+          "settings": {
+            "collection": "skihjelme",
+            "image": "shopify:\/\/shop_images\/skihjelm.g_45090bff-1f37-4fbb-acd5-25fb57f2ee0f.jpg",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_nYzycH": {
+          "type": "collection",
+          "settings": {
+            "collection": "skisokker",
+            "image": "shopify:\/\/shop_images\/skisokker.g_a753af9e-0939-483b-9bf0-7cefaa5f576f.jpg",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_PdyKxR": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/halsedisse.g_3818fa90-145a-44df-8297-7b58e454f7ed.jpg",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_gjmPUM",
+        "collection_y8FJEx",
+        "collection_dDErMe",
+        "collection_8Mz7Gg",
+        "collection_nYzycH",
+        "collection_PdyKxR"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_collections": true,
+        "collections_per_row": 3,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "media_grid_gz7V4p": {
       "type": "media-grid",
       "blocks": {
@@ -636,6 +755,7 @@
         "image_cAV4fL",
         "image_McA6E6"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "reduce_width": false,
@@ -838,6 +958,7 @@
     "logo_list_KYBqFX",
     "media_grid_d3wVKd",
     "d066db11-1234-4544-9320-5a28927212cd",
+    "collection_list_UDBrdV",
     "media_grid_gz7V4p",
     "text_seo_qhf7yB",
     "media_grid_pdNhri",
