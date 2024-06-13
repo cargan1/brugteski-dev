@@ -643,9 +643,10 @@
         "item_JNycr4": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_halsedisser.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "",
+            "link_url": "shopify:\/\/collections\/halsedisser",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -657,9 +658,10 @@
         "item_NnCWHE": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_skundertoj.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "",
+            "link_url": "shopify:\/\/collections\/skiundertoj",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -671,23 +673,10 @@
         "item_Lw4Fiw": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_skisokker.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "",
-            "collection": "",
-            "brand_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_3wMJnD": {
-          "type": "item",
-          "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
+            "link_url": "shopify:\/\/collections\/skisokker",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -700,8 +689,7 @@
       "block_order": [
         "item_JNycr4",
         "item_NnCWHE",
-        "item_Lw4Fiw",
-        "item_3wMJnD"
+        "item_Lw4Fiw"
       ],
       "settings": {
         "full_width": false,
@@ -710,7 +698,7 @@
         "title": "Indereste lag udvalg",
         "content": "",
         "link_url": "",
-        "link_text": "",
+        "link_text": "Se alle inderste lag produkter her",
         "background": "",
         "background_gradient": "",
         "text_color": "",
@@ -724,9 +712,10 @@
         "item_t6jiK7": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_skihjelme.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "",
+            "link_url": "shopify:\/\/collections\/skihjelme",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -738,9 +727,10 @@
         "item_PX4qeJ": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_skibriller.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "",
+            "link_url": "shopify:\/\/collections\/skibriller",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -752,23 +742,10 @@
         "item_b6BB9i": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_skihandsker.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "",
-            "collection": "",
-            "brand_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_UXj4dJ": {
-          "type": "item",
-          "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
+            "link_url": "shopify:\/\/collections\/skihandsker",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -781,17 +758,16 @@
       "block_order": [
         "item_t6jiK7",
         "item_PX4qeJ",
-        "item_b6BB9i",
-        "item_UXj4dJ"
+        "item_b6BB9i"
       ],
       "settings": {
         "full_width": false,
         "block_size": "medium",
         "subheading": "",
-        "title": "",
+        "title": "Beskyttelses udvalg",
         "content": "",
-        "link_url": "",
-        "link_text": "",
+        "link_url": "shopify:\/\/collections\/beskyttelse",
+        "link_text": "Se alle beskyttelses produkter her",
         "background": "",
         "background_gradient": "",
         "text_color": "",
