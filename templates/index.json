@@ -420,7 +420,7 @@
         "image_nXVmAy": {
           "type": "image",
           "settings": {
-            "title": "Ski-byt garnati til børneudstyr! Få det byttet inden de vokser fra det",
+            "title": "Ski-byt garnati til børneudstyr! Få det byttet inden de vokser fra det igen",
             "heading_tag": "h6",
             "link_url": "",
             "link_text": "Se hvordan det fungere",
@@ -428,13 +428,13 @@
             "desktop_column_span": 2,
             "desktop_row_span": 1,
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#efefef",
+            "background": "#ffffff",
             "background_gradient": "",
             "text_color": "#000000",
             "text_gradient": "",
             "button_background": "#0039ff",
             "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
+            "overlay_color": "#0039ff",
             "overlay_opacity": 0
           }
         },
@@ -492,6 +492,112 @@
         "text_gradient": ""
       }
     },
+    "text_seo_qhf7yB": {
+      "type": "text-seo",
+      "blocks": {
+        "richtext_DXj7xF": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h1>Stort udvalg af brugte ski og brugt skiudstyr<\/h1><p>Brugteski tilbyder alt, hvad hjertet begærer, når det kommer til ski og <a href=\"https:\/\/brugteski.dk\/collections\/ski-skiudstyr\">skiudstyr<\/a>. Uanset om du er en erfaren skientusiast eller nybegynder, er vi her for at sikre, at dine skiferier bliver uforglemmelige. Nøgleordet er skiudstyr i god kvalitet. <\/p><p>Hos os kan du shoppe brugte ski og skiudstyr til favorable priser, så du kan skabe fantastiske skieventyr uden at sprænge budgettet. Vi forhandler skiudstyr med op til 60 % rabat sammenlignet med nypriserne, hvilket sikrer dig maksimal value for money. <\/p><h2>Fysisk og online skibutik med den gode service i førersædet<\/h2><p>Brugteski eksisterer ikke blot som fysisk skibutik i Fredericia. Vi driver også en online skishop, der har åbent 365 dage om året. Vores fysiske butik holder kun åbent i skisæsonen, der strækker sig fra september til og med april. Læs mere om vores butik og åbningstiderne for denne <a href=\"https:\/\/brugteski.dk\/pages\/showroom-og-vores-abningstider\">her<\/a>. <\/p><p>Uanset om du besøger os fysisk eller online, kan du forvente at opleve en kompromisløs service. Vi står klar til at hjælpe dig, hvad end du har brug for hjælp til at vælge ski eller har spørgsmål til vores leveringsmetoder. <\/p><h2>Køb ski til hele familien til favorable priser<\/h2><p>Ski er for alle – såvel de store som de små i familien. Vi vil gerne dække hele familiens behov for ski og fører derfor et bredt udvalg af brugte ski til både børn og voksne. <\/p><p>I vores udvalg af <a href=\"https:\/\/brugteski.dk\/collections\/herre-dameski\">herre- og dameski<\/a> samt <a href=\"https:\/\/brugteski.dk\/collections\/borne-juniorski\">børne- og juniorski<\/a> finder du ski til ethvert behov og enhver smag. Vi forstår, at det kan være svært at vælge ski, så derfor har vi udviklet en <a href=\"https:\/\/brugteski.dk\/pages\/ski-finder\">ski-finder test<\/a>. Du skal blot besvare nogle udvalgte spørgsmål, hvorefter du vil få personlige anbefalinger af ski på baggrund af dine svar. <\/p><h3>Hvorfor købe brugte ski online hos Brugteski?<\/h3><p>Der er talrige fordele ved at købe brugte ski hos os. Her er nogle af dem:<\/p><h2>Oplev også vores kæmpe udvalg af brugt skiudstyr til store og små<\/h2><p>Selvom vores navn måske kunne indikere det, så forhandler vi ikke kun brugte ski. I vores sortiment finder du alt inden for skiudstyr – lige fra skisokker og skistøvler til skihjelme og skistave. Du kan med andre ord købe alt, hvad du har brug for til din næste skiferie hos én og samme forhandler. Vi får hele tiden nyt skiudstyr på lager, så hold godt øje og slå til, når du finder, hvad du leder efter. <\/p><h2>Alle de mest populære skimærker samlet ét sted<\/h2><p>Vi tilbyder et nøje sammensat udvalg af brugte ski og øvrigt udstyr fra de mest anerkendte og pålidelige mærker på markedet. Vi tror på, at investeringen i kvalitetsudstyr betaler sig, og derfor tilbyder vi mærker som <a href=\"https:\/\/brugteski.dk\/collections\/rossignol\">Rossignol<\/a>, <a href=\"https:\/\/brugteski.dk\/collections\/salomon\">Salomon<\/a>, <a href=\"https:\/\/brugteski.dk\/collections\/atomic\">Atomic<\/a>, <a href=\"https:\/\/brugteski.dk\/collections\/elan\">Elan<\/a>, <a href=\"https:\/\/brugteski.dk\/collections\/blizzard\">Blizzard<\/a> og mange flere mærker. Vi kan helt sikkert også tilbyde brugt skiudstyr fra dine favoritmærker. <\/p><h2>Din pålidelige skishop på nettet <\/h2><p>Vi forstår vigtigheden af en tryg og sikker handel, og derfor garanterer vi, at du vil være i trygge hænder, når du handler hos os. Du får bl.a. køberbeskyttelse på op til 10.000 kr. og gratis ubegrænset sagsbehandling, når du shopper skiudstyr hos Brugteski, idet vi er e-mærket. <\/p><p>Er du i tvivl om noget, er du altid velkommen til at skrive eller ringe til os. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_DXj7xF"
+      ],
+      "settings": {
+        "full_width": true,
+        "read_more": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "#f2f2f2",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_grid_pdNhri": {
+      "type": "media-grid",
+      "blocks": {
+        "image_qFtiVW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner.ski.g_55a577e3-cb9f-48be-9283-e56446f1d92d.jpg",
+            "title": "Shop udstyr",
+            "heading_tag": "h2",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_pC3Aeh": {
+          "type": "image",
+          "settings": {
+            "title": "Sælge dig udstyr",
+            "heading_tag": "h2",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_GNLUnB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/service.slib.g_29f234d8-5ed6-43e0-85ee-64a868af36dd.jpg",
+            "title": "Service dit udtyr",
+            "heading_tag": "h2",
+            "link_url": "shopify:\/\/collections\/service-til-ski-og-udstyr",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_qFtiVW",
+        "image_pC3Aeh",
+        "image_GNLUnB"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
     "70c1490b-879a-4cf4-b3c8-33793d88e30d": {
       "type": "blog-posts",
       "blocks": {
@@ -524,29 +630,6 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": ""
-      }
-    },
-    "text_seo_qhf7yB": {
-      "type": "text-seo",
-      "blocks": {
-        "richtext_DXj7xF": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h1>Stort udvalg af brugte ski og brugt skiudstyr<\/h1><p>Brugteski tilbyder alt, hvad hjertet begærer, når det kommer til ski og <a href=\"https:\/\/brugteski.dk\/collections\/ski-skiudstyr\">skiudstyr<\/a>. Uanset om du er en erfaren skientusiast eller nybegynder, er vi her for at sikre, at dine skiferier bliver uforglemmelige. Nøgleordet er skiudstyr i god kvalitet. <\/p><p>Hos os kan du shoppe brugte ski og skiudstyr til favorable priser, så du kan skabe fantastiske skieventyr uden at sprænge budgettet. Vi forhandler skiudstyr med op til 60 % rabat sammenlignet med nypriserne, hvilket sikrer dig maksimal value for money. <\/p><h2>Fysisk og online skibutik med den gode service i førersædet<\/h2><p>Brugteski eksisterer ikke blot som fysisk skibutik i Fredericia. Vi driver også en online skishop, der har åbent 365 dage om året. Vores fysiske butik holder kun åbent i skisæsonen, der strækker sig fra september til og med april. Læs mere om vores butik og åbningstiderne for denne <a href=\"https:\/\/brugteski.dk\/pages\/showroom-og-vores-abningstider\">her<\/a>. <\/p><p>Uanset om du besøger os fysisk eller online, kan du forvente at opleve en kompromisløs service. Vi står klar til at hjælpe dig, hvad end du har brug for hjælp til at vælge ski eller har spørgsmål til vores leveringsmetoder. <\/p><h2>Køb ski til hele familien til favorable priser<\/h2><p>Ski er for alle – såvel de store som de små i familien. Vi vil gerne dække hele familiens behov for ski og fører derfor et bredt udvalg af brugte ski til både børn og voksne. <\/p><p>I vores udvalg af <a href=\"https:\/\/brugteski.dk\/collections\/herre-dameski\">herre- og dameski<\/a> samt <a href=\"https:\/\/brugteski.dk\/collections\/borne-juniorski\">børne- og juniorski<\/a> finder du ski til ethvert behov og enhver smag. Vi forstår, at det kan være svært at vælge ski, så derfor har vi udviklet en <a href=\"https:\/\/brugteski.dk\/pages\/ski-finder\">ski-finder test<\/a>. Du skal blot besvare nogle udvalgte spørgsmål, hvorefter du vil få personlige anbefalinger af ski på baggrund af dine svar. <\/p><h3>Hvorfor købe brugte ski online hos Brugteski?<\/h3><p>Der er talrige fordele ved at købe brugte ski hos os. Her er nogle af dem:<\/p><h2>Oplev også vores kæmpe udvalg af brugt skiudstyr til store og små<\/h2><p>Selvom vores navn måske kunne indikere det, så forhandler vi ikke kun brugte ski. I vores sortiment finder du alt inden for skiudstyr – lige fra skisokker og skistøvler til skihjelme og skistave. Du kan med andre ord købe alt, hvad du har brug for til din næste skiferie hos én og samme forhandler. Vi får hele tiden nyt skiudstyr på lager, så hold godt øje og slå til, når du finder, hvad du leder efter. <\/p><h2>Alle de mest populære skimærker samlet ét sted<\/h2><p>Vi tilbyder et nøje sammensat udvalg af brugte ski og øvrigt udstyr fra de mest anerkendte og pålidelige mærker på markedet. Vi tror på, at investeringen i kvalitetsudstyr betaler sig, og derfor tilbyder vi mærker som <a href=\"https:\/\/brugteski.dk\/collections\/rossignol\">Rossignol<\/a>, <a href=\"https:\/\/brugteski.dk\/collections\/salomon\">Salomon<\/a>, <a href=\"https:\/\/brugteski.dk\/collections\/atomic\">Atomic<\/a>, <a href=\"https:\/\/brugteski.dk\/collections\/elan\">Elan<\/a>, <a href=\"https:\/\/brugteski.dk\/collections\/blizzard\">Blizzard<\/a> og mange flere mærker. Vi kan helt sikkert også tilbyde brugt skiudstyr fra dine favoritmærker. <\/p><h2>Din pålidelige skishop på nettet <\/h2><p>Vi forstår vigtigheden af en tryg og sikker handel, og derfor garanterer vi, at du vil være i trygge hænder, når du handler hos os. Du får bl.a. køberbeskyttelse på op til 10.000 kr. og gratis ubegrænset sagsbehandling, når du shopper skiudstyr hos Brugteski, idet vi er e-mærket. <\/p><p>Er du i tvivl om noget, er du altid velkommen til at skrive eller ringe til os. <\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "richtext_DXj7xF"
-      ],
-      "settings": {
-        "full_width": true,
-        "read_more": true,
-        "content_width": "large",
-        "text_position": "start",
-        "background": "#f2f2f2",
-        "background_gradient": "",
-        "text_color": ""
       }
     },
     "a298ae13-d71c-4643-a849-6798eb7d3b69": {
@@ -601,8 +684,9 @@
     "logo_list_KYBqFX",
     "media_grid_d3wVKd",
     "d066db11-1234-4544-9320-5a28927212cd",
-    "70c1490b-879a-4cf4-b3c8-33793d88e30d",
     "text_seo_qhf7yB",
+    "media_grid_pdNhri",
+    "70c1490b-879a-4cf4-b3c8-33793d88e30d",
     "a298ae13-d71c-4643-a849-6798eb7d3b69"
   ]
 }
