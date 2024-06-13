@@ -246,10 +246,10 @@
         "item_cAVkqJ": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_ski.jpg",
+            "image": "shopify:\/\/shop_images\/udvalg_Herre_Dame.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "",
+            "link_url": "shopify:\/\/collections\/herre-dameski",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -261,10 +261,10 @@
         "item_VAhH6L": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_skistovler2.jpg",
+            "image": "shopify:\/\/shop_images\/udvalg_born_junior.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "",
+            "link_url": "shopify:\/\/collections\/borne-juniorski",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -276,70 +276,10 @@
         "item_WnL9KC": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_snowboard_9ae3bc78-49b8-4f32-bc05-3d40d57c6e54.jpg",
+            "image": "shopify:\/\/shop_images\/udvalg_touring.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "",
-            "collection": "",
-            "brand_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_TgcRz3": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_skigear.jpg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "collection": "",
-            "brand_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_3DBECa": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_service.jpg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "collection": "",
-            "brand_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_tznE4k": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_inderestelag.jpg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "collection": "",
-            "brand_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_KrCVAY": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_beskyttelse.jpg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
+            "link_url": "shopify:\/\/collections\/touring-ski",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -352,11 +292,7 @@
       "block_order": [
         "item_cAVkqJ",
         "item_VAhH6L",
-        "item_WnL9KC",
-        "item_TgcRz3",
-        "item_3DBECa",
-        "item_tznE4k",
-        "item_KrCVAY"
+        "item_WnL9KC"
       ],
       "settings": {
         "full_width": true,
