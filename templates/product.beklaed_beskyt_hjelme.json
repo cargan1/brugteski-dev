@@ -11,7 +11,7 @@
         "block_size": "small",
         "subheading": "",
         "title": "",
-        "content": "<p><a href=\"https:\/\/brugteski.dk\/\" title=\"https:\/\/brugteski.dk\/\">Forside<\/a> \/  <a href=\"\/collections\/alt-beklaedning\" title=\"Beklædning\">Beklædning<\/a> \/ <a href=\"\/collections\/beskyttelse\" title=\"Beskyttelse\">Beskyttelse<\/a> \/ <a href=\"\/collections\/skihjelme\" title=\"Skihjelme\">Skihjelme<\/a> \/ {{ product.title }}<\/p>",
+        "content": "<p><a href=\"https:\/\/brugteski.dk\/\" title=\"https:\/\/brugteski.dk\/\">Forside<\/a> \/ <a href=\"\/collections\" title=\"All collections\">Kollektioner<\/a> \/ <a href=\"\/collections\/alt-beklaedning\" title=\"Beklædning\">Beklædning<\/a> \/ <a href=\"\/collections\/beskyttelse\" title=\"Beskyttelse\">Beskyttelse<\/a> \/ <a href=\"\/collections\/skihjelme\" title=\"Skihjelme\">Skihjelme<\/a> \/ {{ product.title }}<\/p>",
         "link_url": "",
         "link_text": "",
         "background": "#ffffff",
