@@ -76,6 +76,42 @@
         "text_gradient": ""
       }
     },
+    "media_with_text_jpj9tE": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_Q8CfVr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/nytVSlejeVSnyt.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Leje, Brugt eller Nyt udstyr?",
+            "content": "<p><strong>Skiferie kræver udstyr, og valget står mellem at leje, købe brugt eller købe nyt. Hver mulighed har sine fordele:<\/strong><\/p><p><strong>Leje<\/strong>: Perfekt for begyndere, der vil prøve skisporten af.<br\/><strong>Brugt udstyr<\/strong>: Ideelt for dem, der elsker skiløb, men vil spare penge. Brugt udstyr koster mindre end nyt og er billigere end leje efter to ugers brug.<br\/><strong>Nyt udstyr<\/strong>: For dem, der vil have det nyeste og bedste udstyr.<\/p><p>Se vores video for at lære mere om fordelene ved brugt udstyr, og om det kunne være noget for dig!<\/p>",
+            "link_text": "Se video",
+            "link_url": "shopify:\/\/blogs\/kob-af-brugt-udstyr\/hvad-du-skal-vaere-opmaerksom-pa-nar-du-kober-brugte-ski",
+            "background": "#efefef",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Q8CfVr"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "none",
+        "tab_label": ""
+      }
+    },
     "collection-list": {
       "type": "collection-list",
       "blocks": {
@@ -518,6 +554,7 @@
   "order": [
     "image_with_text_overlay_GnXENV",
     "c37c5392-4d29-43da-aaab-728d304775c6",
+    "media_with_text_jpj9tE",
     "collection-list",
     "1b8ce53f-6ead-4a13-8561-9903c7284e65",
     "bc8d07a6-9b0d-4bfb-8e41-07321f922d9e",
