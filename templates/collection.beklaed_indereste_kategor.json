@@ -32,7 +32,7 @@
         "block_size": "small",
         "subheading": "",
         "title": "",
-        "content": "<p><a href=\"https:\/\/brugteski.dk\/\" title=\"https:\/\/brugteski.dk\/\">Forside<\/a> \/  <a href=\"\/collections\/skitoj-beskyttelsesudstyr\" title=\"Skitøj og beskyttelsesudstyr\">Beklædning<\/a> \/ <a href=\"\/collections\/inderste-lag\" title=\"Inderste lag\">Indereste lag<\/a> \/ {{ collection.title }}<br\/><\/p>",
+        "content": "<p><a href=\"https:\/\/brugteski.dk\/\" title=\"https:\/\/brugteski.dk\/\">Forside<\/a> \/ <a href=\"\/collections\" title=\"All collections\">Kollektioner<\/a> \/ <a href=\"\/collections\/skitoj-beskyttelsesudstyr\" title=\"Skitøj og beskyttelsesudstyr\">Beklædning<\/a> \/ <a href=\"\/collections\/inderste-lag\" title=\"Inderste lag\">Indereste lag<\/a> \/ {{ collection.title }}<br\/><\/p>",
         "link_url": "",
         "link_text": "",
         "background": "",
