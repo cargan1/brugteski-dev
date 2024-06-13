@@ -5,8 +5,9 @@
       "blocks": {
         "subheading_fA4QFp": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
-            "text": "Spar stort - Eje dit eget skiudstyr"
+            "text": "Spar stort på brugte udstyr"
           }
         },
         "heading_Pmd6Lx": {
@@ -19,7 +20,7 @@
         "richtext_A69Fmx": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "content": "<p>Vidste du at det er billigere at købe brugt udstyr end at leje, efter bare to uger på pisten?<\/p>"
           }
         },
         "button_8mmcyY": {
@@ -32,13 +33,20 @@
             "background": "",
             "text_color": ""
           }
+        },
+        "richtext_HgL99P": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>📍Spar 60% at nyprise ved at købe brugt<br\/>📍24 måneders fuld reklamationsret på brugt udstyr<br\/>📍Altid 100% gratis returnering<br\/><\/p>"
+          }
         }
       },
       "block_order": [
         "subheading_fA4QFp",
         "heading_Pmd6Lx",
         "richtext_A69Fmx",
-        "button_8mmcyY"
+        "button_8mmcyY",
+        "richtext_HgL99P"
       ],
       "settings": {
         "full_width": true,
