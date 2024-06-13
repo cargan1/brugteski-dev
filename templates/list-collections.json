@@ -400,9 +400,10 @@
         "item_e9jfTf": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_voksensnowboards.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "",
+            "link_url": "shopify:\/\/collections\/voksen-snowboards",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -414,9 +415,10 @@
         "item_FC3QwE": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_bornesnowboards.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "",
+            "link_url": "shopify:\/\/collections\/borne-snowboard",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -428,9 +430,10 @@
         "item_rPDL7p": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_snowboardstovler_328ba65f-6605-49b0-9bb3-5010da7699ad.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "",
+            "link_url": "shopify:\/\/collections\/snowboard-stovler",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -442,9 +445,25 @@
         "item_fAH7gb": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_snowboardbindinger.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "",
+            "link_url": "shopify:\/\/collections\/snowboardbindinger",
+            "collection": "",
+            "brand_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_ekr4yh": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_snowboard.tilbehor.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/snowboard-tilbehor",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -458,13 +477,14 @@
         "item_e9jfTf",
         "item_FC3QwE",
         "item_rPDL7p",
-        "item_fAH7gb"
+        "item_fAH7gb",
+        "item_ekr4yh"
       ],
       "settings": {
         "full_width": false,
         "block_size": "medium",
         "subheading": "",
-        "title": "",
+        "title": "Snowboard udvalg",
         "content": "",
         "link_url": "",
         "link_text": "",
