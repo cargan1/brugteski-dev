@@ -179,31 +179,88 @@
       "settings": {
       }
     },
-    "featured-collection": {
-      "type": "featured-collection",
+    "media_grid_pXKJpy": {
+      "type": "media-grid",
+      "blocks": {
+        "image_nqXbhD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/skiguides-kopi.jpg",
+            "title": "Ski",
+            "heading_tag": "h2",
+            "link_url": "shopify:\/\/collections\/alle-ski",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "image_xictBk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/snowboardfam.g.jpg",
+            "title": "Snowboard",
+            "heading_tag": "h2",
+            "link_url": "shopify:\/\/collections\/snowboardudstyr",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "image_EhgJA8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Herre_dame_2722c18b-3a88-44ed-93c1-ba95c3cacd46.jpg",
+            "title": "Skistøvler",
+            "heading_tag": "h2",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "image_nqXbhD",
+        "image_xictBk",
+        "image_EhgJA8"
+      ],
       "settings": {
-        "collection": "herre-dameski",
-        "products": [
-
-        ],
-        "full_width": false,
-        "stack_products": false,
-        "show_progress_bar": true,
-        "products_count": 28,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 5,
-        "subheading": "",
-        "title": "Herre- & Dameski",
-        "content": "<p>Vi har et stort udvalg af herre- og dameski til alle aldre og niveauer.<\/p>",
-        "link_url": "https:\/\/brugteski.dk\/collections\/herre-dameski?filter.v.availability=1",
-        "link_text": "Se alle Herre- & Dameski",
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
         "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
+        "background_gradient": ""
       }
     },
     "bc481064-5c59-4fc2-8e0f-0def25e17a64": {
@@ -489,7 +546,7 @@
     "media_with_text_jpj9tE",
     "testimonials_AgCXJV",
     "bc8d07a6-9b0d-4bfb-8e41-07321f922d9e",
-    "featured-collection",
+    "media_grid_pXKJpy",
     "bc481064-5c59-4fc2-8e0f-0def25e17a64",
     "d066db11-1234-4544-9320-5a28927212cd",
     "5416e99f-3a7e-4a0f-8201-00b6ab233144",
