@@ -161,8 +161,8 @@
         "item_8NmyJg"
       ],
       "custom_css": [
-        ".section-stack {gap: 0px;}",
-        ".section-full {padding-top: 10px; padding-bottom: 15px;}"
+        ".section-stack {gap: 5px;}",
+        ".section-full {padding-top: 0px; padding-bottom: 0px;}"
       ],
       "settings": {
         "full_width": true,
