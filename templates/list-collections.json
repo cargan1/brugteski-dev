@@ -1,1 +1,422 @@
-{"sections":{"main":{"type":"main-list-collections","settings":{}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-list-collections",
+      "disabled": true,
+      "settings": {
+        "collections": [
+
+        ],
+        "collections_per_row": 3,
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "image_link_blocks_p7GPpU": {
+      "type": "image-link-blocks",
+      "custom_css": [
+        ".section-stack {gap: 0px;}",
+        ".section-full {padding-top: 10px; padding-bottom: 15px;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "block_size": "medium",
+        "subheading": "",
+        "title": "",
+        "content": "<p><a href=\"https:\/\/brugteski.dk\/\" title=\"https:\/\/brugteski.dk\/\">Forside<\/a> \/ Alle kollektioner<\/p>",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "rich_text_rMP4Uc": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_7WVNKk": {
+          "type": "heading",
+          "settings": {
+            "text": "Alle kollektioner",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_7WVNKk"
+      ],
+      "custom_css": [
+        ".section-stack {gap: 0px;}",
+        ".section-full {padding-top: 0px; padding-bottom: 15px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "tab_label": ""
+      }
+    },
+    "media_grid_qrEjhf": {
+      "type": "media-grid",
+      "blocks": {
+        "image_Q8mWD6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_ski.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_7KWWWa": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_eHBrFz": {
+          "type": "image",
+          "settings": {
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_xbj47h": {
+          "type": "image",
+          "settings": {
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_WTG8D8": {
+          "type": "image",
+          "settings": {
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_nqQXCE": {
+          "type": "image",
+          "settings": {
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_RmKJtR": {
+          "type": "image",
+          "settings": {
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_PWnwPr": {
+          "type": "image",
+          "settings": {
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_gaVKCE": {
+          "type": "image",
+          "settings": {
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_Q8mWD6",
+        "image_7KWWWa",
+        "image_eHBrFz",
+        "image_xbj47h",
+        "image_WTG8D8",
+        "image_nqQXCE",
+        "image_RmKJtR",
+        "image_PWnwPr",
+        "image_gaVKCE"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "image_link_blocks_icGxQA": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "item_cAVkqJ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_ski.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "collection": "",
+            "brand_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_VAhH6L": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_skistovler2.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "collection": "",
+            "brand_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_WnL9KC": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_snowboard_9ae3bc78-49b8-4f32-bc05-3d40d57c6e54.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "collection": "",
+            "brand_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_TgcRz3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_skigear.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "collection": "",
+            "brand_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_3DBECa": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_service.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "collection": "",
+            "brand_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_tznE4k": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_inderestelag.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "collection": "",
+            "brand_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_KrCVAY": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_beskyttelse.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "collection": "",
+            "brand_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_cAVkqJ",
+        "item_VAhH6L",
+        "item_WnL9KC",
+        "item_TgcRz3",
+        "item_3DBECa",
+        "item_tznE4k",
+        "item_KrCVAY"
+      ],
+      "settings": {
+        "full_width": true,
+        "block_size": "small",
+        "subheading": "",
+        "title": "Alle kollektioner",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_link_blocks_p7GPpU",
+    "rich_text_rMP4Uc",
+    "media_grid_qrEjhf",
+    "image_link_blocks_icGxQA"
+  ]
+}
