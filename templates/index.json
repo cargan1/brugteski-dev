@@ -112,66 +112,63 @@
         "tab_label": ""
       }
     },
-    "testimonials_AgCXJV": {
-      "type": "testimonials",
+    "text_with_icons_DAPYMM": {
+      "type": "text-with-icons",
       "blocks": {
-        "testimonial_UwnX8M": {
-          "type": "testimonial",
+        "item_WRtKDy": {
+          "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Jakob_Bilsted.png",
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "Jakob Bilsted",
-            "title": "Jeg køber også mine ski her",
-            "content": "<p>Jeg har netop købt brugte skistøvler hos brugteski.dk, og var selv lidt spændt på kvalitet og slidtage. Jeg må sige, at jeg på alle måder har fået kvalitetsstøvler til en god pris. Jeg var også i dialog med kundeservice, og det var også en super tilfredsstillende oplevelse. Jeg kommer også til at købe mine ski her.<\/p>"
+            "icon": "picto-happy",
+            "mobile_icon_width": 68,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Jakob",
+            "content": "<p><strong>Jeg køber også mine ski her<\/strong><br\/>Jeg har netop købt brugte skistøvler hos brugteski.dk, og var selv lidt spændt på kvalitet og slidtage. Jeg må sige, at jeg på alle måder har fået kvalitetsstøvler til en god pris. Jeg var også i dialog med kundeservice, og det var også en super tilfredsstillende oplevelse. Jeg kommer også til at købe mine ski her.<\/p>"
           }
         },
-        "testimonial_zGQgNU": {
-          "type": "testimonial",
+        "item_GmUEVX": {
+          "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rasmus.png",
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "Rasmus Tolstrup Larsen",
-            "title": "Fint produkt. Som beskrevet.",
-            "content": "<p>Hurtig levering og produkt der er i overensstemmelse med beskrivelsen. Mere kan man jo ikke forlange.<\/p>"
+            "icon": "picto-star",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Rasmus",
+            "content": "<p><strong>Fint produkt. Som beskrevet.<\/strong><br\/>Hurtig levering og produkt der er i overensstemmelse med beskrivelsen. Mere kan man jo ikke forlange.<\/p>"
           }
         },
-        "testimonial_KHb4nq": {
-          "type": "testimonial",
+        "item_8NmyJg": {
+          "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Lars_jensen.png",
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "Lars jensen",
-            "title": "Så god en købe oplevelse",
-            "content": "<p>Fin søge funktion og beskrivelse af ski på hjemmesiden. Bestilte mandag, leveret torsdag, klar til ski fredag :-)<br\/>Ringede og fik fin hjælp til binding indstilling, da jeg ikke havde prøvet det før. Mega let egenligt. Så flot brev med i leveringen. Tak. Vil bestemt købe et andet sæt ski en anden gang !<\/p>"
+            "icon": "picto-phone",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Lars",
+            "content": "<p><strong>Så god en købe oplevelse<br\/><\/strong>Fin søge funktion og beskrivelse af ski på hjemmesiden. Bestilte mandag, leveret torsdag, klar til ski fredag :-)<br\/>Ringede og fik fin hjælp til binding indstilling, da jeg ikke havde prøvet det før. Mega let egenligt. Så flot brev med i leveringen. Tak. Vil bestemt købe et andet sæt ski en anden gang !<\/p>"
           }
         }
       },
       "block_order": [
-        "testimonial_UwnX8M",
-        "testimonial_zGQgNU",
-        "testimonial_KHb4nq"
+        "item_WRtKDy",
+        "item_GmUEVX",
+        "item_8NmyJg"
       ],
       "settings": {
         "full_width": true,
-        "stack_testimonials": true,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
+        "title": "Brugeroplevelser",
+        "heading_tag": "h3",
+        "text_alignment": "center",
+        "icon_spacing": "small",
         "background": "",
         "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "testimonial_card_background": "",
-        "testimonial_card_text_color": ""
+        "text_color": ""
       }
     },
     "bc8d07a6-9b0d-4bfb-8e41-07321f922d9e": {
@@ -679,7 +676,7 @@
     "image_with_text_overlay_GnXENV",
     "c37c5392-4d29-43da-aaab-728d304775c6",
     "media_with_text_jpj9tE",
-    "testimonials_AgCXJV",
+    "text_with_icons_DAPYMM",
     "bc8d07a6-9b0d-4bfb-8e41-07321f922d9e",
     "media_grid_pXKJpy",
     "logo_list_KYBqFX",
