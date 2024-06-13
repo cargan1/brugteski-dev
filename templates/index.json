@@ -689,8 +689,8 @@
             "text_gradient": "",
             "button_background": "#000000",
             "button_text_color": "#ffffff",
-            "overlay_color": "#0039ff",
-            "overlay_opacity": 50
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
           }
         },
         "image_pC3Aeh": {
@@ -711,8 +711,8 @@
             "text_gradient": "",
             "button_background": "#000000",
             "button_text_color": "#ffffff",
-            "overlay_color": "#0039ff",
-            "overlay_opacity": 50
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
           }
         },
         "image_GNLUnB": {
@@ -733,8 +733,8 @@
             "text_gradient": "",
             "button_background": "#000000",
             "button_text_color": "#ffffff",
-            "overlay_color": "#0039ff",
-            "overlay_opacity": 50
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
           }
         }
       },
