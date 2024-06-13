@@ -357,12 +357,13 @@
             "overlay_opacity": 0
           }
         },
-        "item_z8XTN7": {
+        "item_QTEMBa": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_touringstovler.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "",
+            "link_url": "shopify:\/\/collections\/touring-stovler",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -376,7 +377,7 @@
         "item_HFQme6",
         "item_PyQEKb",
         "item_NGVwWQ",
-        "item_z8XTN7"
+        "item_QTEMBa"
       ],
       "settings": {
         "full_width": false,
