@@ -240,6 +240,32 @@
         "background_gradient": ""
       }
     },
+    "rich_text_R9myMH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_xBneP9": {
+          "type": "heading",
+          "settings": {
+            "text": "Udstyrs udvalg",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_xBneP9"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "tab_label": ""
+      }
+    },
     "image_link_blocks_icGxQA": {
       "type": "image-link-blocks",
       "blocks": {
@@ -585,6 +611,32 @@
         "heading_gradient": ""
       }
     },
+    "rich_text_BkJTp8": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_TQqRTz": {
+          "type": "heading",
+          "settings": {
+            "text": "Beklædnings udvalg",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_TQqRTz"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "tab_label": ""
+      }
+    },
     "image_link_blocks_akQRtr": {
       "type": "image-link-blocks",
       "blocks": {
@@ -655,7 +707,7 @@
         "full_width": false,
         "block_size": "medium",
         "subheading": "",
-        "title": "",
+        "title": "Indereste lag udvalg",
         "content": "",
         "link_url": "",
         "link_text": "",
@@ -753,11 +805,13 @@
     "image_link_blocks_p7GPpU",
     "rich_text_rMP4Uc",
     "media_grid_qrEjhf",
+    "rich_text_R9myMH",
     "image_link_blocks_icGxQA",
     "image_link_blocks_6KK8Hf",
     "image_link_blocks_D3bbMj",
     "image_link_blocks_kk8h6T",
     "image_link_blocks_TTFQxH",
+    "rich_text_BkJTp8",
     "image_link_blocks_akQRtr",
     "image_link_blocks_wVD7hy"
   ]
