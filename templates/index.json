@@ -354,11 +354,11 @@
         "image_hwX6BQ": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/skibyt-header.jpg",
-            "title": "Ski-byt garnati på alt børneudstyr! Få det byttet inden de vokser fra det igen",
-            "heading_tag": "h6",
+            "image": "shopify:\/\/shop_images\/skibyt3.g.jpg",
+            "title": "Bedre at eje end leje selv for børn",
+            "heading_tag": "h5",
             "link_url": "",
-            "link_text": "Se hvordan det fungere",
+            "link_text": "Ombytnings Garanti for alt Børneudstyr",
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_column_span": 2,
             "desktop_row_span": 2,
@@ -399,7 +399,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/snowboarder4.g.jpg",
-            "title": "Børne snowboards",
+            "title": "Børne snowboard",
             "heading_tag": "h3",
             "link_url": "shopify:\/\/collections\/borne-snowboard",
             "link_text": "",
