@@ -355,19 +355,19 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/skibyt-header.jpg",
-            "title": "",
-            "heading_tag": "h4",
+            "title": "Ski-byt garnati på alt børneudstyr! Få det byttet inden de vokser fra det igen",
+            "heading_tag": "h6",
             "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
+            "link_text": "Se hvordan det fungere",
+            "mobile_text_position": "place-self-end-center text-center",
             "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "background": "#000000",
             "background_gradient": "",
             "text_color": "#ffffff",
             "text_gradient": "",
-            "button_background": "#000000",
+            "button_background": "#0039ff",
             "button_text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -378,7 +378,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/borneski.g2.jpg",
             "title": "Børne- & Juniorski",
-            "heading_tag": "h4",
+            "heading_tag": "h3",
             "link_url": "shopify:\/\/collections\/borne-juniorski",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
@@ -392,7 +392,7 @@
             "button_background": "#000000",
             "button_text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         },
         "image_RkrXRt": {
@@ -400,7 +400,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/snowboarder4.g.jpg",
             "title": "Børne snowboards",
-            "heading_tag": "h4",
+            "heading_tag": "h3",
             "link_url": "shopify:\/\/collections\/borne-snowboard",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
@@ -419,11 +419,12 @@
         },
         "image_nXVmAy": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "title": "Ski-byt garnati på alt børneudstyr! Få det byttet inden de vokser fra det igen",
             "heading_tag": "h6",
             "link_url": "",
-            "link_text": "Se hvordan det fungere",
+            "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 2,
             "desktop_row_span": 1,
@@ -443,7 +444,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/born_ski.g.jpg",
             "title": "Børne skistøvler",
-            "heading_tag": "h4",
+            "heading_tag": "h3",
             "link_url": "shopify:\/\/collections\/borne-skistovler",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
@@ -457,7 +458,7 @@
             "button_background": "#000000",
             "button_text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         }
       },
