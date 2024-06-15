@@ -50,7 +50,7 @@
       "settings": {
         "full_width": true,
         "allow_transparent_header": true,
-        "enable_parallax": true,
+        "enable_parallax": false,
         "image_size": "lg",
         "image": "shopify:\/\/shop_images\/sportsman-in-goggles-holding-ski-sticks-while-skii-2022-12-16-21-17-36-utc-2_2.jpg",
         "mobile_image": "shopify:\/\/shop_images\/hero-mobile.jpg",
