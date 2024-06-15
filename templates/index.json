@@ -209,7 +209,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/snowboarder3.g_5c0ce4aa-cb6b-4d92-80cd-860832701b9b.jpg",
             "title": "Snowboard",
-            "heading_tag": "h2",
+            "heading_tag": "h3",
             "link_url": "shopify:\/\/collections\/snowboardudstyr",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
@@ -231,7 +231,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Herre_dame_2722c18b-3a88-44ed-93c1-ba95c3cacd46.jpg",
             "title": "Skistøvler",
-            "heading_tag": "h2",
+            "heading_tag": "h3",
             "link_url": "shopify:\/\/collections\/skistovler-til-hele-familien",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
@@ -378,7 +378,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/borneski.g2.jpg",
             "title": "Børne- & Juniorski",
-            "heading_tag": "h3",
+            "heading_tag": "h4",
             "link_url": "shopify:\/\/collections\/borne-juniorski",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
@@ -400,7 +400,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/snowboarder4.g.jpg",
             "title": "Børne snowboard",
-            "heading_tag": "h3",
+            "heading_tag": "h4",
             "link_url": "shopify:\/\/collections\/borne-snowboard",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
@@ -414,28 +414,6 @@
             "button_background": "#000000",
             "button_text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_nXVmAy": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "title": "Ski-byt garnati på alt børneudstyr! Få det byttet inden de vokser fra det igen",
-            "heading_tag": "h6",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#ffffff",
-            "background_gradient": "",
-            "text_color": "#000000",
-            "text_gradient": "",
-            "button_background": "#0039ff",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#0039ff",
             "overlay_opacity": 0
           }
         },
@@ -466,7 +444,6 @@
         "image_hwX6BQ",
         "image_NCm3Ki",
         "image_RkrXRt",
-        "image_nXVmAy",
         "image_3CqLPy"
       ],
       "settings": {
@@ -493,126 +470,6 @@
         "text_gradient": ""
       }
     },
-    "collection_list_UDBrdV": {
-      "type": "collection-list",
-      "blocks": {
-        "collection_gjmPUM": {
-          "type": "collection",
-          "settings": {
-            "collection": "skistave",
-            "image": "shopify:\/\/shop_images\/image_11.jpg",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_y8FJEx": {
-          "type": "collection",
-          "settings": {
-            "collection": "skihandsker",
-            "image": "shopify:\/\/shop_images\/Skihandsker.g_47df3ee8-64ac-4cf4-957a-5c7668cdce7a.jpg",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_dDErMe": {
-          "type": "collection",
-          "settings": {
-            "collection": "skibriller",
-            "image": "shopify:\/\/shop_images\/skitilbehor.jpg",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_8Mz7Gg": {
-          "type": "collection",
-          "settings": {
-            "collection": "skihjelme",
-            "image": "shopify:\/\/shop_images\/skihjelm.g_45090bff-1f37-4fbb-acd5-25fb57f2ee0f.jpg",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_nYzycH": {
-          "type": "collection",
-          "settings": {
-            "collection": "skisokker",
-            "image": "shopify:\/\/shop_images\/skisokker1.g.jpg",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_PdyKxR": {
-          "type": "collection",
-          "settings": {
-            "collection": "halsedisser",
-            "image": "shopify:\/\/shop_images\/halsedisser1.g.jpg",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        }
-      },
-      "block_order": [
-        "collection_gjmPUM",
-        "collection_y8FJEx",
-        "collection_dDErMe",
-        "collection_8Mz7Gg",
-        "collection_nYzycH",
-        "collection_PdyKxR"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "stack_collections": true,
-        "collections_per_row": 3,
-        "show_progress_bar": false,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
     "media_grid_gz7V4p": {
       "type": "media-grid",
       "blocks": {
@@ -622,7 +479,7 @@
             "image": "shopify:\/\/shop_images\/Skihandsker.g_47df3ee8-64ac-4cf4-957a-5c7668cdce7a.jpg",
             "title": "Skihandsker",
             "heading_tag": "h4",
-            "link_url": "",
+            "link_url": "shopify:\/\/collections\/skihandsker",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 1,
@@ -959,7 +816,6 @@
     "logo_list_KYBqFX",
     "media_grid_d3wVKd",
     "d066db11-1234-4544-9320-5a28927212cd",
-    "collection_list_UDBrdV",
     "media_grid_gz7V4p",
     "text_seo_qhf7yB",
     "media_grid_pdNhri",
