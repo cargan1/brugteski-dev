@@ -654,8 +654,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/banner.ski.g_55a577e3-cb9f-48be-9283-e56446f1d92d.jpg",
             "title": "Shop",
-            "heading_tag": "h2",
-            "link_url": "",
+            "heading_tag": "h3",
+            "link_url": "shopify:\/\/collections",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 2,
@@ -698,7 +698,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/service.slib.g_29f234d8-5ed6-43e0-85ee-64a868af36dd.jpg",
             "title": "Servicer",
-            "heading_tag": "h2",
+            "heading_tag": "h3",
             "link_url": "shopify:\/\/collections\/service-til-ski-og-udstyr",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
