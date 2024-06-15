@@ -635,7 +635,7 @@
             "button_background": "#000000",
             "button_text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         },
         "image_kQzkqL": {
@@ -657,7 +657,7 @@
             "button_background": "#000000",
             "button_text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         },
         "image_a4nTWQ": {
@@ -670,7 +670,7 @@
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 2,
-            "desktop_row_span": 2,
+            "desktop_row_span": 1,
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "background": "#000000",
             "background_gradient": "",
@@ -685,32 +685,10 @@
         "image_CaWc3d": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/skihjelm.g_45090bff-1f37-4fbb-acd5-25fb57f2ee0f.jpg",
-            "title": "Skihjelme",
-            "heading_tag": "h4",
+            "image": "shopify:\/\/shop_images\/skifinder9.jpg",
+            "title": "Skitøj",
+            "heading_tag": "h3",
             "link_url": "shopify:\/\/collections\/skihjelme",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 2,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "image_cAV4fL": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/halsedisse.g_3818fa90-145a-44df-8297-7b58e454f7ed.jpg",
-            "title": "Halsedisser",
-            "heading_tag": "h4",
-            "link_url": "shopify:\/\/collections\/halsedisser",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 2,
@@ -723,7 +701,51 @@
             "button_background": "#000000",
             "button_text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
+          }
+        },
+        "image_cAV4fL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/skisokker1.g.jpg",
+            "title": "Skisokker",
+            "heading_tag": "h4",
+            "link_url": "shopify:\/\/collections\/skisokker",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_mtqPBC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/skihjelm.g_45090bff-1f37-4fbb-acd5-25fb57f2ee0f.jpg",
+            "title": "Skihjelme",
+            "heading_tag": "h4",
+            "link_url": "shopify:\/\/collections\/skihjelme",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
           }
         }
       },
@@ -732,7 +754,8 @@
         "image_kQzkqL",
         "image_a4nTWQ",
         "image_CaWc3d",
-        "image_cAV4fL"
+        "image_cAV4fL",
+        "image_mtqPBC"
       ],
       "settings": {
         "full_width": true,
