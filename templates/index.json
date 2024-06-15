@@ -595,6 +595,7 @@
         "collection_nYzycH",
         "collection_PdyKxR"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_collections": true,
@@ -662,14 +663,14 @@
         "image_a4nTWQ": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/skisokker.g_a753af9e-0939-483b-9bf0-7cefaa5f576f.jpg",
-            "title": "Skisokker",
-            "heading_tag": "h4",
-            "link_url": "shopify:\/\/collections\/skisokker",
+            "image": "shopify:\/\/shop_images\/beskyttelse.g.1-1_fbba98f3-e2e2-4ef7-896d-d164f816de28.jpg",
+            "title": "Beskyttelse",
+            "heading_tag": "h3",
+            "link_url": "shopify:\/\/collections\/beskyttelse",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 2,
-            "desktop_row_span": 1,
+            "desktop_row_span": 2,
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "background": "#000000",
             "background_gradient": "",
@@ -724,28 +725,6 @@
             "overlay_color": "#000000",
             "overlay_opacity": 30
           }
-        },
-        "image_McA6E6": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/skitilbehor.jpg",
-            "title": "Skibriller",
-            "heading_tag": "h4",
-            "link_url": "shopify:\/\/collections\/skibriller",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
         }
       },
       "block_order": [
@@ -753,10 +732,8 @@
         "image_kQzkqL",
         "image_a4nTWQ",
         "image_CaWc3d",
-        "image_cAV4fL",
-        "image_McA6E6"
+        "image_cAV4fL"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
         "reduce_width": false,
