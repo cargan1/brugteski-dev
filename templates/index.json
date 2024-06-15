@@ -653,7 +653,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/banner.ski.g_55a577e3-cb9f-48be-9283-e56446f1d92d.jpg",
-            "title": "Shop",
+            "title": "Shop skiudstyr",
             "heading_tag": "h3",
             "link_url": "shopify:\/\/collections",
             "link_text": "",
@@ -675,7 +675,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Hjaelp.g_a41136d3-f060-469f-8a55-d73863a269a0.jpg",
-            "title": "Sælge",
+            "title": "Sælge dit udstyr til os",
             "heading_tag": "h2",
             "link_url": "shopify:\/\/pages\/byt-til-nyt",
             "link_text": "",
@@ -697,7 +697,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/service.slib.g_29f234d8-5ed6-43e0-85ee-64a868af36dd.jpg",
-            "title": "Servicer",
+            "title": "Servicering af udstyr",
             "heading_tag": "h3",
             "link_url": "shopify:\/\/collections\/service-til-ski-og-udstyr",
             "link_text": "",
