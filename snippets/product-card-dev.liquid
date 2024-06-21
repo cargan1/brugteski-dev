@@ -84,14 +84,16 @@
           {%- assign next_media = product.media[product.featured_media.position] | default: product.media[1] -%}
           {{- next_media | image_url: width: next_media.width | image_tag: class: 'product-card__image product-card__image--secondary object-fill', loading: 'lazy', fetchpriority: 'low', sizes: sizes, widths: '200,300,400,500,600,700,800,1000,1200,1400,1600,1800' -}}
         {%- endif -%}
-        {%- if product.tags contains 'Skibyt' and localization.market.handle == 'dk' -%}
+        {%- if product.tags contains 'Skibyt' -%}
+          {%- if localization.market.handle == 'dk'-%}
           <div class="badge-skibyt__wrapper ">
             <img src="https://cdn.shopify.com/s/files/1/0265/0744/4259/files/badge-skibyt-comp.png?v=1716454761" alt="" class="skibyt-badge">
           </div>
-        {%- elsif product.tags contains 'Skibyt' and localization.market.handle == 'europe'-%}
+          {%- else -%}
           <div class="badge-skibyt__wrapper hidden">
             <img src="https://cdn.shopify.com/s/files/1/0265/0744/4259/files/skiswap-badge.png?v=1718958807" alt="" class="skibyt-badge">
           </div>
+          {%- endif -%}
         {%- endif -%}
       </a>
 
