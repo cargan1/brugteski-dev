@@ -138,7 +138,9 @@
           {{ TEXT_last_return }}
         </p>
         <p class="order-detail special">
-          31.10.2026 
+            {% assign final_date = created_at | date: '%s' %}
+            {% assign seconds = 730 | times: 24 | times: 60 | times: 60  %}
+            {{ final_date | date: "%s" | plus: seconds | date: SETTING_date_format }}
         </p>
     </div>
   </div>
@@ -208,26 +210,13 @@
     {% assign resolution_adjusted_size = SETTING_product_image_size | times: 200 | divided_by: 72 | ceil %}
     {% capture effective_image_dimensions %}{{ resolution_adjusted_size }}x{{ resolution_adjusted_size }}{% endcapture %}
     {% assign bevis_items = 0 %} 
-    {% assign under_sixteen = false %} 
+
     <table>
       <tbody>
         {% for line_item in line_items %}
           {% if line_item.quantity < 1 %}{% continue %}{% endif %}
-
-            <!--  Check for the specific propery under sixteen -->
-            {% unless line_item.properties == empty %}
-              {% for property in line_item.properties %}
-
-                {% if property.last contains '1' %}
-                  {% assign under_sixteen = true %} 
-                  {% break %}
-                {% endif %}
-
-              {% endfor %}
-            {% endunless %} 
-            <!--  Start looping for products -->
             {% for item_tag in line_item.product.tags %}
-                {% if item_tag contains 'Skibyt' or under_sixteen == true %}
+                {% if item_tag contains 'Skibyt' %}
                     <tr>
                         <td>
                         <div class="order-table-row order-table-body">
@@ -274,6 +263,12 @@
                         </div>
                         </td>
                     </tr>
+                    {% unless item.properties == empty %}
+                      {% for property in item.properties %}
+
+                        <span>{{ property.first }}: {{ property.last }}</span>
+                      {% endfor %}
+                    {% endunless %}
                     {% assign bevis_items = 1 %} 
                 {% endif %} 
             {% endfor %} 
