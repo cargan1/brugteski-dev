@@ -58,7 +58,7 @@
           "type": "heading",
           "settings": {
             "text": "{{ collection.metafields.custom.titel_typeform.value }}",
-            "heading_tag": "h3"
+            "heading_tag": "h4"
           }
         },
         "richtext_Hw89Dg": {
