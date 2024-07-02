@@ -311,18 +311,6 @@
         "settings": {
           "storefrontAccessToken": "861e55b0c8aaf3d997c459881e2e8a37"
         }
-      },
-      "6544682535036668446": {
-        "type": "shopify:\/\/apps\/pumper-bundle-qty\/blocks\/app-embed\/0856870d-2aca-4b1e-a662-cf1797f61270",
-        "disabled": true,
-        "settings": {
-        }
-      },
-      "6091580277106134563": {
-        "type": "shopify:\/\/apps\/discount-depot\/blocks\/embeded_product_discount\/a6a1cffd-79d9-44d8-8e7a-94438b99a5db",
-        "disabled": true,
-        "settings": {
-        }
       }
     }
   },
