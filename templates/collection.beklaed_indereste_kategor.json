@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "banner": {
@@ -47,12 +56,12 @@
       "settings": {
         "guide_finder": true,
         "image_size": "xs",
-        "image": "shopify:\/\/shop_images\/skisokker.g_22ee7d81-7de4-4d47-a1ad-b086117a9893.jpg",
+        "image": "shopify:\/\/shop_images\/skibillede.g.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 35
       }
     },
     "main": {

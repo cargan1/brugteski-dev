@@ -87,7 +87,7 @@
         "desktop_text_position": "sm:place-self-center-start sm:text-start",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 50
+        "overlay_opacity": 35
       }
     },
     "main": {
