@@ -82,11 +82,12 @@
       "settings": {
         "guide_finder": true,
         "image_size": "xs",
+        "image": "shopify:\/\/shop_images\/skibillede.g.jpg",
         "mobile_text_position": "place-self-start-center text-center",
         "desktop_text_position": "sm:place-self-start-center sm:text-center",
-        "text_color": "#010410",
-        "overlay_color": "#ffffff",
-        "overlay_opacity": 100
+        "text_color": "#ffffff",
+        "overlay_color": "#010410",
+        "overlay_opacity": 50
       }
     },
     "main": {
