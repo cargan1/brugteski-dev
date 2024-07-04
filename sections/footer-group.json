@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "type": "footer",
   "name": "Footer group",
@@ -78,7 +87,7 @@
           "type": "text",
           "settings": {
             "title": "Kontakt os",
-            "content": "<p><strong>Tlf.: <\/strong>+45 3020 9975<br\/>Alle dage fra kl. 10-18<\/p><p><strong>Mail:<\/strong> info@brugteski.dk<strong><br\/><\/strong>Svarer indenfor 24 timer<\/p><p><strong>Adresse<br\/><\/strong>Brugteski.dk ApS<strong><br\/><\/strong>Krogsagervej 50, 2<br\/>7000 Fredericia<br\/>CVR: 40804455<\/p>"
+            "content": "<p><strong>Tlf.: <\/strong>+45 3020 9975<br\/>Alle dage fra kl. 10-18<\/p><p><strong>Mail:<\/strong> info@brugteski.dk<strong><br\/><\/strong>Svarer indenfor 24 timer<\/p><p><strong>Adresse<br\/><\/strong>Brugteski.dk ApS<strong><br\/><\/strong>Krogsagervej 50, 2<br\/>7000 Fredericia<br\/>CVR: 40804455<\/p><p><a href=\"\/pages\/kontakt-os\" title=\"Kontakt os\">Klik her for kontaktformular<\/a><\/p>"
           }
         },
         "text": {
