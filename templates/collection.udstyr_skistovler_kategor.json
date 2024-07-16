@@ -83,7 +83,7 @@
         "guide_finder": true,
         "image_size": "xs",
         "image": "shopify:\/\/shop_images\/skibillede.borne-skistovler.jpg",
-        "mobile_text_position": "place-self-center text-center",
+        "mobile_text_position": "place-self-center-start text-start",
         "desktop_text_position": "sm:place-self-center-start sm:text-start",
         "text_color": "#ffffff",
         "overlay_color": "#010410",
