@@ -47,54 +47,67 @@
         "content_width": "1150px"
       }
     },
-    "media_with_text_6Xg7MB": {
-      "type": "media-with-text",
-      "blocks": {
-        "image_cGbgVD": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/uhrskov1.g.jpg",
-            "media_width": 60,
-            "media_position": "start",
-            "text_position": "place-self-center text-center",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "Vær Obs. på Dette ved Brugt ski med Thomas Uhrskov",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "background": "#efefef",
-            "background_gradient": "",
-            "text_color": "#000000",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_cGbgVD"
-      ],
-      "settings": {
-        "full_width": false,
-        "enable_parallax": true,
-        "spacing": "none",
-        "tab_label": ""
-      }
-    },
     "rich_text_aik7kA": {
       "type": "rich-text",
       "blocks": {
+        "image_Jnacqx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/uhrskov1.g.jpg",
+            "width_mode": "custom",
+            "max_width": 960,
+            "mobile_max_width": 600
+          }
+        },
+        "divider_xz7W8U": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "heading_qHLtqg": {
+          "type": "heading",
+          "settings": {
+            "text": "Vær Obs. på Dette ved Brugt ski med Thomas Uhrskov",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
         "richtext_WH4QdJ": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Der er mange penge at hente ved at shoppe brugte produkter, og specielt når det kommer til brugt skiudstyr. Nyt skiudstyr som bare er brugt en uge, har allerede tabt halvdelen af dens værdi, så det går virkelig hurtigt! Dog er der også nogle ulemper ved at shoppe brugte ski, og det er man ikke kan se ind i kærene på skien og på den måde vide hvor lang levetid skiene har igen. <\/p><p>Her har vi haft Thomas Uhrskov forbi butikken, og snakke lidt mere om hvordan vi sikres os at udstyret er i orden. Se videoen herunder, og bliv klogere på emnet.<\/p>"
+            "content": "<p>Der er mange penge at hente ved at shoppe brugte produkter, og specielt når det kommer til brugt skiudstyr. Nyt skiudstyr som bare er brugt en uge, har allerede tabt halvdelen af dens værdi, så det går virkelig hurtigt! Dog er der også nogle ulemper ved at shoppe brugte ski, og det vil vi gerne belyse i denne tekst.<\/p>"
           }
         }
       },
       "block_order": [
+        "image_Jnacqx",
+        "divider_xz7W8U",
+        "heading_qHLtqg",
         "richtext_WH4QdJ"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "tab_label": ""
+      }
+    },
+    "rich_text_UrR8aa": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_EnBEXA": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>Snak med Thomas Uhrskov<\/h2><p>Den største udfordring ved at købe brugt, er at man ikke kan se ind i kernen, for at finde ud af hvor slap skien er blevet efter brug... Derfor har vi haft Thomas Uhrskov forbi butikken, og snakke lidt mere om hvordan vi sikres os at udstyret er i orden. Se videoen og læs resten af blogposten herunder, og bliv klogere på emnet så du præcis ved hvad du kan forvente.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_EnBEXA"
       ],
       "settings": {
         "full_width": true,
@@ -167,8 +180,8 @@
   "order": [
     "image_link_blocks_yCykah",
     "main",
-    "media_with_text_6Xg7MB",
     "rich_text_aik7kA",
+    "rich_text_UrR8aa",
     "video_cMJmnL",
     "rich_text_ViYzQk"
   ]
