@@ -32,7 +32,6 @@
     },
     "main": {
       "type": "main-article",
-      "disabled": true,
       "settings": {
         "allow_transparent_header": false,
         "layout": "image_left_text_right",
