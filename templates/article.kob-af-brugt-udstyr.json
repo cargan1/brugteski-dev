@@ -32,32 +32,13 @@
     },
     "main": {
       "type": "main-article",
-      "blocks": {
-        "navigation": {
-          "type": "navigation",
-          "settings": {
-          }
-        },
-        "comments": {
-          "type": "comments",
-          "disabled": true,
-          "settings": {
-            "show_gravatar": true,
-            "comments_per_page": 5
-          }
-        }
-      },
-      "block_order": [
-        "navigation",
-        "comments"
-      ],
       "settings": {
         "allow_transparent_header": false,
         "layout": "image_left_text_right",
         "show_author": false,
         "show_date": false,
         "show_comments_count": false,
-        "show_share_buttons": true,
+        "show_share_buttons": false,
         "banner_background": "",
         "banner_text_color": "",
         "overlay_color": "#000000",
@@ -97,11 +78,35 @@
         "overlay_opacity": 30,
         "tab_label": ""
       }
+    },
+    "rich_text_ViYzQk": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_PagaAG": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>Hvordan vi sikre skienes kvalitet<\/h2><p>Når man skal sikre at brugte ski fungerer optimalt, er der to aspekter man skal kigge på. Der er det ydre, som man kan se med det blotte øje. Her snakker vi skrammer, mængden af kant og om bindingerne fungerer optimalt så man ryger ud af bindingerne hvis man styrter. Derudover er der også det indre, som man ikke kan se med det blotte øje. Her handler det om at kernen på skien stadigvæk er spændstig og giver dig dette 'bounce bag' i svingene.<\/p><p> <\/p><h3>Kvalitet på det ydre<\/h3><p>Vi kvalitetskontroller alt vores brugt udstyr, for at sikre at det vi sælger, lever op til hvad en fuld funktionsdygtig ski er. Det vil sige at det udstyr vi sælger, er der rigeligt med kant på, bindingerne fungere som de skal samt der ikke er nogle skader på kernerne. For at sikre bindingerne springer korrekt op hvis du skulle styrte, har vi en specialbygget maskine, som kun er designet til dette formål. Det sikrer os at bindingerne er korrekt indstillet og springer ud som de skal. Hvis du nu skulle vælge at købe brugte ski privat, vil du kunne komme forbi butikken med dem, og vi kan derved sikre at de er indstillet korrekt. Vi har lavet en guide til dig, som ønsker at købe brugte ski privat. <a href=\"https:\/\/brugteski.dk\/blogs\/kob-af-brugt-udstyr\/gode-rad-til-kob-af-brugte-ski\" title=\"Køb af ski fra private\">Klik her for at se gode råd til køb af ski fra private!<\/a><\/p><p>For at du som kunde nemmere kan tyde hvilken stand vores udstyr er i, har vi givet alle vores produkter en standbeskrivelse. Denne beskrivelse giver udtryk for skien ydre kvalitet, og er opdelt efter Guld, Sølv og Bronze stand. <a href=\"https:\/\/brugteski.dk\/pages\/standbeskrivelse\" title=\"Standbeskrivelse af brugt udstyr\">Du kan se hele vores standbeskrivelse her.<\/a><\/p><p> <\/p><h3>Kvalitet på det indre<\/h3><p>Når det kommer til at vurdere kvalitet på det indre, så er det en del mere kompliceret. Her vil man ikke bare kunne sætte skien i en maskine, for at kunne teste dette. Her handler det om at få teste skien af på pisten, og se hvordan den reagere. Hvis skien er blevet, 'slap', vil man kunne mærke det med det samme. For at sikre os mod dette, frasorterer vi alle de ski som vi har en mistanke om at kunne være blevet slappe, så chancen for at du kommer afsted med sådan et par er langt under 1%. Ydermere har vi altid 2 års reklamationsret på alle produkter som også dækker hvis skien skulle gå hen og blive slap. Hvis dette sker, vil du altid kunne komme tilbage og få dit fulde beløb tilbage på skiene.<\/p><p><a href=\"https:\/\/brugteski.dk\/collections\/herre-dameski?filter.v.availability=1\" title=\"Herre og dame ski\">Se hele vores udvalg af brugte ski her!<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_PagaAG"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "tab_label": ""
+      }
     }
   },
   "order": [
     "image_link_blocks_yCykah",
     "main",
-    "video_cMJmnL"
+    "video_cMJmnL",
+    "rich_text_ViYzQk"
   ]
 }
