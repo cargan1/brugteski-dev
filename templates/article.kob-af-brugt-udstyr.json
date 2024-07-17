@@ -32,6 +32,7 @@
     },
     "main": {
       "type": "main-article",
+      "disabled": true,
       "settings": {
         "allow_transparent_header": false,
         "layout": "image_left_text_right",
@@ -44,6 +45,65 @@
         "overlay_color": "#000000",
         "overlay_opacity": 0,
         "content_width": "1150px"
+      }
+    },
+    "media_with_text_6Xg7MB": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_cGbgVD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/uhrskov1.g.jpg",
+            "media_width": 60,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Vær Obs. på Dette ved Brugt ski med Thomas Uhrskov",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "background": "#efefef",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_cGbgVD"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "none",
+        "tab_label": ""
+      }
+    },
+    "rich_text_aik7kA": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_WH4QdJ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Der er mange penge at hente ved at shoppe brugte produkter, og specielt når det kommer til brugt skiudstyr. Nyt skiudstyr som bare er brugt en uge, har allerede tabt halvdelen af dens værdi, så det går virkelig hurtigt! Dog er der også nogle ulemper ved at shoppe brugte ski, og det er man ikke kan se ind i kærene på skien og på den måde vide hvor lang levetid skiene har igen. <\/p><p>Her har vi haft Thomas Uhrskov forbi butikken, og snakke lidt mere om hvordan vi sikres os at udstyret er i orden. Se videoen herunder, og bliv klogere på emnet.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_WH4QdJ"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "tab_label": ""
       }
     },
     "video_cMJmnL": {
@@ -106,6 +166,8 @@
   "order": [
     "image_link_blocks_yCykah",
     "main",
+    "media_with_text_6Xg7MB",
+    "rich_text_aik7kA",
     "video_cMJmnL",
     "rich_text_ViYzQk"
   ]
