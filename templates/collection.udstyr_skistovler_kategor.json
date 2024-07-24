@@ -83,7 +83,7 @@
         "guide_finder": true,
         "image_size": "xs",
         "image": "{{ collection.metafields.custom.guide_image_pc.value }}",
-        "mobile_image": "shopify:\/\/shop_images\/guide-Mobil.papir.test.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/guide-Mobil.papir.test3.jpg",
         "mobile_text_position": "place-self-center-start text-start",
         "desktop_text_position": "sm:place-self-center-start sm:text-start",
         "text_color": "#ffffff",
