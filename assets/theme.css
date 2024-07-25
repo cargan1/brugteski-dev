@@ -1814,7 +1814,7 @@ scroll-carousel {
 
 .horizontal-product {
   --horizontal-product-image-size: var(--spacing-16);
-  align-items: flex-start;
+  align-items: center;
   gap: var(--spacing-4);
   padding: var(--spacing-4);
   min-width: 0;
@@ -1862,7 +1862,7 @@ scroll-carousel {
 }
 
 .horizontal-product-list-carousel > .horizontal-product-list {
-  grid: auto / auto-flow 73vw;
+  grid: auto / auto-flow 45vw;
   display: grid;
 }
 
@@ -4873,7 +4873,7 @@ split-lines {
 }
 
 .cart-drawer__recommendations {
-  --horizontal-product-width: 200px;
+  --horizontal-product-width: 190px;
 }
 
 @media screen and (min-width: 700px) {
