@@ -3340,6 +3340,7 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   text-underline: none;
   background: linear-gradient(to right, currentColor, currentColor) 0 min(100%, 1.35em) / 0 1px no-repeat;
   transition: background-size .3s ease-in-out;
+  word-break: break-all;
 }
 
 @media screen and (pointer: fine) {
