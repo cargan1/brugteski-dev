@@ -63,10 +63,13 @@
         "show_shipping_text": true,
         "show_view_cart_button": true,
         "show_checkout_button": true,
-        "recommendations_title": "Har du husket?",
-        "products": [
-          "tecnica-storm",
-          "skitaske-sort"
+        "recommendations_title": "Mangler du noget?",
+        "collections": [
+          "skistave",
+          "herre-dame-skistovler",
+          "skigear",
+          "skihandsker",
+          "skiundertoj"
         ],
         "product_card_background": "#ffffff",
         "product_card_text_color": ""
