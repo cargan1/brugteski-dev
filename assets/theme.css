@@ -1837,7 +1837,7 @@ scroll-carousel {
 @media screen and (min-width: 700px) {
   .horizontal-product {
     --horizontal-product-image-size: var(--spacing-20);
-    gap: var(--spacing-5);
+    gap: var(--spacing-3);
     align-items: center;
   }
 
@@ -4872,7 +4872,7 @@ split-lines {
 }
 
 .cart-drawer__recommendations {
-  --horizontal-product-width: 390px;
+  --horizontal-product-width: 200px;
 }
 
 @media screen and (min-width: 700px) {
@@ -10166,4 +10166,8 @@ pointer-events: none;
 .filter-mobile-container button {
   background: #e1e7ff !important;
   color: #000 !important;
+}
+
+.line-height-tight {
+  line-height: 1.2;
 }

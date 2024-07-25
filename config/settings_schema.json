@@ -899,7 +899,14 @@
         "id": "favicon",
         "label": "Image",
         "info": "180 x 180px .png recommended"
+      },
+      {
+        "type": "url",
+        "id": "efefef-efef",
+        "label": "Empty button link",
+        "default": "\/collections\/all"
       }
     ]
   }
+
 ]

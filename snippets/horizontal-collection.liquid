@@ -1,0 +1,38 @@
+{%- comment -%}
+----------------------------------------------------------------------------------------------------------------------
+HORIZONTAL PRODUCT COMPONENT
+----------------------------------------------------------------------------------------------------------------------
+
+This component is used in product page, blog page or collection to highlight small product
+
+********************************************
+Supported variables
+********************************************
+
+* product: the product to render
+* size: can be "sm" or nothing
+* show_add_to_cart: a boolean indicating if we show the add to cart
+* background: an optional background color for the tile
+* text_color: an optional text color for the tile
+* output_link: if set to false, the link around the link is not set
+{%- endcomment -%}
+
+{%- capture class -%}horizontal-product {% if size == 'sm' %}horizontal-product--sm{% endif %} {% if background != 'rgba(0,0,0,0)' %}rounded-xs{% endif %} snap-start{%- endcapture -%}
+
+<div {% render 'surface', class: class, background: background, text_color: text_color %}>
+  {{- collection.image | image_url: width: collection.image.width | image_tag: loading: 'lazy', sizes: '(max-width: 740px) 64px, 80px', widths: '64,128,80,160', class: 'horizontal-product__image rounded-xs' -}}
+
+  <div class="horizontal-product__info">
+    <div class="v-stack gap-0.5">
+      {%- if output_link == false -%}
+        <span class="text-sm bold">{{ collection.title }}</span>
+      {%- else -%}
+        <a href="{{ collection.url }}" data-instant class="text-sm line-height-tight bold">
+          <span class="reversed-link hover:show">{{ collection.title }}</span>
+        </a>
+      {%- endif -%}
+
+    </div>
+
+  </div>
+</div>
