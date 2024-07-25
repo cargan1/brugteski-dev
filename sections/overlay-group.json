@@ -63,13 +63,13 @@
         "show_shipping_text": true,
         "show_view_cart_button": true,
         "show_checkout_button": true,
-        "recommendations_title": "Mangler du noget?",
+        "recommendations_title": "Har du husket alt gearet?",
         "collections": [
           "skistave",
           "herre-dame-skistovler",
           "skigear",
           "skihandsker",
-          "skiundertoj"
+          "skitoj-beskyttelsesudstyr"
         ],
         "product_card_background": "#ffffff",
         "product_card_text_color": ""
