@@ -47,16 +47,10 @@
             "mandatory": true,
             "internal_label": "Har accepteret handelsbetingelser"
           }
-        },
-        "selleasy_lb_upsell_addon_block_axPiWL": {
-          "type": "shopify:\/\/apps\/selleasy\/blocks\/lb-upsell-addon-block\/790c1a03-a71f-4bc1-9869-00dad526d3c2",
-          "settings": {
-          }
         }
       },
       "block_order": [
-        "drawer_termsbox_9UcEam",
-        "selleasy_lb_upsell_addon_block_axPiWL"
+        "drawer_termsbox_9UcEam"
       ],
       "settings": {
         "show_cart_note": true,
