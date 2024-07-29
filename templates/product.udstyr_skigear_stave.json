@@ -125,6 +125,12 @@
           "type": "separator",
           "settings": {
           }
+        },
+        "kiwi_size_chart_recommender_kiwi_sizing_8DQbmi": {
+          "type": "shopify:\/\/apps\/kiwi-size-chart-recommender\/blocks\/kiwiSizing\/b7369922-bf15-44ce-a121-a22a8fcbc4b0",
+          "settings": {
+            "product": "{{product}}"
+          }
         }
       },
       "block_order": [
@@ -141,7 +147,8 @@
         "aeb7f8fa-be21-4621-8c88-9360d5fec50b",
         "d3e695ec-c2c1-416b-9482-cc06f0166cf0",
         "ba3b5461-8a7f-4d6a-bdc0-bfcaad62fae4",
-        "96617279-0ca8-4ed8-ad3d-5c55c13472ec"
+        "96617279-0ca8-4ed8-ad3d-5c55c13472ec",
+        "kiwi_size_chart_recommender_kiwi_sizing_8DQbmi"
       ],
       "custom_css": [
         "h1 {font-size: 32px;}"
@@ -354,7 +361,7 @@
             "value_2": "<p>{{ product.metafields.custom.type.value }}<\/p>",
             "value_3": "<p>{{ product.metafields.custom.radius.value }}<\/p>",
             "value_4": "<p>{{ product.metafields.custom.bindinger.value }}<\/p>",
-            "value_5": "",
+            "value_5": "<p>{{ block.settings.product.metafields.custom.greb.value }}<\/p>",
             "value_6": "<p>{{ product.metafields.custom.flex.value }}<\/p>",
             "value_7": "<p>{{ product.metafields.custom.bredde.value }}<\/p>",
             "value_8": "<p>{{ product.metafields.custom.skiprofil.value }}<\/p>",
