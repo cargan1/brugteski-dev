@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -859,6 +868,33 @@
       "type": "trustpilot-stjerner",
       "settings": {
       }
+    },
+    "1722256268a19c2be9": {
+      "type": "apps",
+      "blocks": {
+        "kiwi_size_chart_recommender_kiwi_sizing_gyUzfB": {
+          "type": "shopify:\/\/apps\/kiwi-size-chart-recommender\/blocks\/kiwiSizing\/b7369922-bf15-44ce-a121-a22a8fcbc4b0",
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "kiwi_size_chart_recommender_kiwi_sizing_gyUzfB"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
     }
   },
   "order": [
@@ -876,6 +912,7 @@
     "5339552c-ca02-4356-bc93-49775b177927",
     "892c0d3c-c5de-4a4e-a62e-2f712b480fd4",
     "ccab4d19-b071-4fcd-bff1-88c63fbf47ec",
-    "6fe9e5e3-41c0-4ad1-a62e-5e2b2ba02828"
+    "6fe9e5e3-41c0-4ad1-a62e-5e2b2ba02828",
+    "1722256268a19c2be9"
   ]
 }
