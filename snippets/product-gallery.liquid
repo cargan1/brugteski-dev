@@ -94,9 +94,15 @@ only way to do it on Shopify right now.
             {%- endif -%}
 
             {%- if product.tags contains 'Skibyt' -%}
-              <div class="badge-skibyt__wrapper_product hidden">
+              {%- if localization.market.handle == 'dk'-%}
+              <div class="badge-skibyt__wrapper ">
                 <img src="https://cdn.shopify.com/s/files/1/0265/0744/4259/files/badge-skibyt-comp.png?v=1716454761" alt="" class="skibyt-badge">
               </div>
+              {%- else -%}
+              <div class="badge-skibyt__wrapper ">
+                <img src="https://cdn.shopify.com/s/files/1/0265/0744/4259/files/skiswap-badge.png?v=1718958807" alt="" class="skibyt-badge">
+              </div>
+              {%- endif -%}
             {%- endif -%}
 
             {%- if section.settings.enable_image_zoom and section.settings.desktop_media_layout contains 'grid' and media.media_type == 'image' -%}

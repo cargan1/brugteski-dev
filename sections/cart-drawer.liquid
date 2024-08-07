@@ -37,12 +37,29 @@
         {%- endif -%}
       </div>
 
+
+
       <div class="v-stack gap-6 sm:gap-8">
         <div class="cart-drawer__line-items">
           {%- for line_item in cart.items -%}
             {%- render 'line-item', line_item: line_item, show_desktop_quantity: true -%}
           {%- endfor -%}
         </div>
+
+
+
+
+        {%- capture udstyr_items -%}
+          {%- for line_item in cart.items -%}
+            {%- for item_tag in line_item.product.tags -%}
+              {%- if item_tag == "Nyt-udstyr" -%}
+                 {{ line_item.final_line_price }},
+              {%- endif -%}
+            {%- endfor -%}
+          {%- endfor -%}
+        {%- endcapture -%}
+
+        {% assign udstyr_sums = udstyr_items | split: ',' %}
 
         {%- if section.settings.collections.count > 0 -%}
           <div class="cart-drawer__recommendations">
@@ -81,11 +98,36 @@
             </div>
           </div>
         {%- endif -%}
+
+
+
+   
       </div>
     </div>
 
-    <div class="v-stack gap-4 sm:gap-6" slot="footer">
-      <div class="v-stack gap-1">
+    <div class="v-stack gap-3 sm:gap-4" slot="footer">
+      <div class="v-stack gap-3">
+
+      {%- if section.settings.show_bar != blank -%}
+        <div class="v-stack gap-2 show_bar-container">
+
+          <div class="v-stack gap-1 justify-between">
+            <span class="h6">{{- 'cart.general.udstyr_heading' | t -}}</span>
+            <span class="text-subdued text-xs">{{- 'cart.general.udstyr_desc' | t -}}</span>
+          </div>
+
+          <div class="steps-bar">
+            <img src="{{ 'steps-bar-2.png' | file_url }}" alt="" class="steps-image">
+          </div>
+
+          <div class="h-stack gap-1 justify-between">
+            <span class="text-subdued text-xs">{{- 'cart.general.udstyr_total' | t -}}</span>
+            <span class="h6 udstyr_sum">{{ udstyr_sums | sum | money_with_currency }}</span>
+          </div>
+
+        </div>
+      {%- endif -%}
+
         {% for discount_application in cart.cart_level_discount_applications %}
           <div class="h-stack gap-4 justify-between">
             <div class="badge">
@@ -97,8 +139,8 @@
         {% endfor %}
 
         <div class="h-stack gap-4 justify-between">
-          <span class="h5">{{ 'cart.general.total' | t }}</span>
-          <span class="h5">{{- cart.total_price | money_with_currency -}}</span>
+          <span class="h4">{{ 'cart.general.total' | t }}</span>
+          <span class="h4">{{- cart.total_price | money_with_currency -}}</span>
         </div>
 
         {%- if section.settings.show_shipping_text -%}
@@ -270,6 +312,12 @@
       "type": "checkbox",
       "id": "show_checkout_button",
       "label": "Show checkout button",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_bar",
+      "label": "Show steps bar",
       "default": true
     },
     {
