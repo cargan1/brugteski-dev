@@ -76,7 +76,7 @@
         "liquid_WhAhGM": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div id=\"KiwiSizingChart\"\n  data-collections=\"{{ collection.id | map: 'id' | join: ',' }}\"\n<\/div>"
+            "liquid": "<div id=\"KiwiSizingChart\"\n  data-collections=\"{{ collection.id }}\"\n<\/div>"
           }
         }
       },
