@@ -64,11 +64,18 @@
           </div>
           {%- if option.name == 'Længde' or option.name == 'Størrelse' -%}
             <div class="link-to-section">
-              <a
-                href="#productTabs"
-                style="font-size:.7rem; text-decoration:underline; color:#afafaf;"
-                class=""
-                onClick="showHideTabs('tab-størrelsesguide')">{{ 'product.general.size_chart' | t }}</a>
+              <!-- START KiwiSizing code !-->
+                <div id="KiwiSizingChart"
+                data-collections="{{ product.collections | map: 'id' | join: ','}}"
+                data-tags="{{ product.tags | join: ',' | escape}}"
+                data-product="{{product.id}}"
+                data-vendor="{{product.vendor | escape}}"
+                data-product-name="{{product.title}}"
+                data-recommender-has-result-text="{{ 'product.general.size_chart' | t }}"
+                data-product-images="{{product.images | json| escape}}"
+                data-type="{{product.type | escape}}">
+                </div>
+              <!-- END KiwiSizing code !-->
             </div>
           {%- endif -%}
           {%- if option.name == 'Stand' -%}

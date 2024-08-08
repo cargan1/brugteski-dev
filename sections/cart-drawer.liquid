@@ -45,62 +45,8 @@
             {%- render 'line-item', line_item: line_item, show_desktop_quantity: true -%}
           {%- endfor -%}
         </div>
-
-
-
-
-        {%- capture udstyr_items -%}
-          {%- for line_item in cart.items -%}
-            {%- for item_tag in line_item.product.tags -%}
-              {%- if item_tag == "Nyt-udstyr" -%}
-                 {{ line_item.final_line_price }},
-              {%- endif -%}
-            {%- endfor -%}
-          {%- endfor -%}
-        {%- endcapture -%}
-
-        {% assign udstyr_sums = udstyr_items | split: ',' %}
-
-        {%- if section.settings.collections.count > 0 -%}
-          <div class="cart-drawer__recommendations">
-            <div class="v-stack gap-2.5 sm:gap-4">
-              {%- capture carousel_id -%}cart-drawer-recommendations{%- endcapture -%}
-
-              {%- if section.settings.recommendations_title != blank or section.settings.collections.count > 1 -%}
-                <div class="h-stack justify-between gap-4">
-                  {%- if section.settings.recommendations_title != blank -%}
-                    <p class="h5">{{ section.settings.recommendations_title | escape }}</p>
-                  {%- endif -%}
-
-                  {%- if section.settings.collections.count > 1 -%}
-                    <div class="h-stack gap-2 hidden sm:flex">
-                      <button is="prev-button" class="circle-chevron hover:colors" aria-controls="{{ carousel_id }}" aria-label="{{ 'general.accessibility.previous' | t | escape }}" disabled>{%- render 'icon' with 'chevron-left-small', direction_aware: true -%}</button>
-                      <button is="next-button" class="circle-chevron hover:colors" aria-controls="{{ carousel_id }}" aria-label="{{ 'general.accessibility.next' | t | escape }}">{%- render 'icon' with 'chevron-right-small', direction_aware: true -%}</button>
-                    </div>
-                  {%- endif -%}
-                </div>
-              {%- endif -%}
-
-              {%- assign horizontal_products_blends = true -%}
-              {%- assign product_card_background = section.settings.product_card_background | default: product.settings.product_card_background -%}
-
-              {%- if product_card_background != 'rgba(0,0,0,0)' and product_card_background != blank and product_card_background != settings.dialog_background -%}
-                {%- assign horizontal_products_blends = false -%}
-              {%- endif -%}
-
-              <scroll-carousel selector=".horizontal-product" id="{{ carousel_id }}" class="horizontal-product-list-carousel {% unless horizontal_products_blends %}separate{% endunless %} scroll-area bleed">
-                <div class="horizontal-product-list {% if horizontal_products_blends %}divide-x{% else %}separate{% endif %}">
-                  {%- for recommended_collection in section.settings.collections -%}
-                    {%- render 'horizontal-collection', collection: recommended_collection, background: section.settings.product_card_background, text_color: section.settings.product_card_text_color -%}
-                  {%- endfor -%}
-                </div>
-              </scroll-carousel>
-            </div>
-          </div>
-        {%- endif -%}
-
-
-
+        
+        {%- render 'drawer-recommendations'  -%}
    
       </div>
     </div>
@@ -111,19 +57,7 @@
       {%- if section.settings.show_bar != blank -%}
         <div class="v-stack gap-2 show_bar-container">
 
-          <div class="v-stack gap-1 justify-between">
-            <span class="h6">{{- 'cart.general.udstyr_heading' | t -}}</span>
-            <span class="text-subdued text-xs">{{- 'cart.general.udstyr_desc' | t -}}</span>
-          </div>
-
-          <div class="steps-bar">
-            <img src="{{ 'steps-bar-2.png' | file_url }}" alt="" class="steps-image">
-          </div>
-
-          <div class="h-stack gap-1 justify-between">
-            <span class="text-subdued text-xs">{{- 'cart.general.udstyr_total' | t -}}</span>
-            <span class="h6 udstyr_sum">{{ udstyr_sums | sum | money_with_currency }}</span>
-          </div>
+          {%- render 'udstyr-bar'  -%}
 
         </div>
       {%- endif -%}
@@ -333,9 +267,23 @@
     {
       "type": "collection_list",
       "id": "collections",
-      "label": "Recommendations",
+      "label": "Recommendations Ski",
       "info": "Suggest additional products to your customers.",
-      "limit": 10
+      "limit": 4
+    },    
+    {
+      "type": "collection_list",
+      "id": "collections_udstyr",
+      "label": "Recommendations udstyr",
+      "info": "Suggest additional products to your customers.",
+      "limit": 4
+    },
+    {
+      "type": "collection_list",
+      "id": "collections_snowboard",
+      "label": "Recommendations Snowboard",
+      "info": "Suggest additional products to your customers.",
+      "limit": 4
     },
     {
       "type": "color",

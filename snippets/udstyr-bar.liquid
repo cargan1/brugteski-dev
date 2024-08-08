@@ -1,0 +1,27 @@
+    
+        {%- capture udstyr_items -%}
+        {%- for line_item in cart.items -%}
+          {%- for item_tag in line_item.product.tags -%}
+            {%- if item_tag == "Nyt-udstyr" -%}
+               {{ line_item.final_line_price }},
+            {%- endif -%}
+          {%- endfor -%}
+        {%- endfor -%}
+      {%- endcapture -%}
+
+      {% assign udstyr_sums = udstyr_items | split: ',' %}     
+         
+         
+         <div class="v-stack gap-1 justify-between">
+            <span class="h6">{{- 'cart.general.udstyr_heading' | t -}}</span>
+            <span class="text-subdued text-xs">{{- 'cart.general.udstyr_desc' | t -}}</span>
+          </div>
+
+          <div class="steps-bar">
+            <img src="{{ 'steps-bar-2.png' | file_url }}" alt="" class="steps-image">
+          </div>
+
+          <div class="h-stack gap-1 justify-between">
+            <span class="text-subdued text-xs">{{- 'cart.general.udstyr_total' | t -}}</span>
+            <span class="h6 udstyr_sum">{{ udstyr_sums | sum | money_with_currency }}</span>
+          </div>

@@ -321,7 +321,11 @@
       "save_note": "Save",
       "view_cart": "View cart",
       "checkout": "Checkout",
-      "we_accept": "We accept"
+      "we_accept": "We accept",
+      "skis": "for the skis?",
+      "equipment": "equipment?",
+      "snowboard": "for the board?",
+      "gear": "the gear?"
     },
     "order": {
       "product": "Product",

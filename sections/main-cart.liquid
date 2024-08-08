@@ -88,6 +88,10 @@
 
               {%- render 'accordion', title: accordion_title, icon: 'picto-box', content: accordion_content, size: 'lg' -%}
             {%- endif -%}
+
+            <div class="v-stack gap-2 cart-bar show_bar-container">
+              {%- render 'udstyr-bar'  -%}
+            </div>
           </div>
 
           <safe-sticky class="cart-order__recap v-stack gap-6">

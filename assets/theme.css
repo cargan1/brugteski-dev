@@ -10179,10 +10179,68 @@ pointer-events: none;
   width:100%;
 }
 
+.cart-bar  {
+  padding-top:2rem;
+  border-top:1px solid rgb(var(--border-color));
+}
+
 .show_bar-container {
   border-bottom:1px solid rgb(var(--border-color));
   padding-bottom:1rem;
 }
 .udstyr_sum {
   color:rgb(var(--button-background-primary));
+}
+
+
+
+/* Kiwi Size guide styling */ 
+
+.ks-calculator-modal-button>span, .ks-modal-content-wrapper, .kiwi-sizing-modal-inner .modal-title-header, .ks-modal-tab-wrapper .ks-modal-tab, .ks-calculator-container .ks-calculator-header  {
+	font-weight:700 !important;
+  font-family: "Oswald", sans-serif !important;
+}
+
+.kiwi-sizing-modal-inner .modal-title-header {
+	font-size:26px;
+}
+
+.ks-calculator-element.formula-element .element-label {
+  color:#efefef !important;
+}
+
+.ks-calculator-tab-container {
+	padding-left:0px !important;
+}
+
+.ks-calculator-image {
+	display:none !important;
+}
+
+.kiwi-sizing-modal-inner {
+	max-width:520px;
+  margin-left: 0px !important;
+ 	transform: translateX(-50%) !important;
+  left:50% !important;
+}
+
+.element-input-container.select-element select {
+ 	border-radius:20px !important; 
+}
+
+.ks-calculator-element .element-input-container.number-input-element .element-input {
+	border-radius:20px !important; 
+  padding: 6px 20px !important;
+}
+
+.ks-calculator-carousel-container .ks-calculator-carousel-title, .ks-calculator-result-chart-container .ks-calculator-line-title.middle-title, .ks-calculator-container .ks-calculator-element.formula-element .formula-text-no-result {
+	color:#fff !important;
+}
+
+.ks-modal-tab-wrapper .ks-modal-tab {
+  font-size:14px !important;
+}
+
+.ks-calculator-tab-container .ks-calculator-privacy-link span {
+  display:none !important;
 }
