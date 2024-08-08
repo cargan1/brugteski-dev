@@ -91,7 +91,7 @@
         "image_size": "xs",
         "image": "shopify:\/\/shop_images\/skibillede.g.jpg",
         "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 35
