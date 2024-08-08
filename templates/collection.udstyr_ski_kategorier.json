@@ -76,7 +76,7 @@
         "liquid_WhAhGM": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div id=\"KiwiSizingChart\"\n  data-collections=\"{{ collection.id }}\"\n<\/div>"
+            "liquid": "<div id=\"KiwiSizingChart\"\n  data-collections=\"{{ collection.id }}\"\n  data-modal-header-text=\"THIS IS A NEW MODAL HEADER\"\n  data-modal-sub-header-text=\"THIS IS A NEW MODAL SUB HEADER\"\n  data-link-text=\"THIS IS A NEW LINK TEXST\">\n<\/div>"
           }
         }
       },
