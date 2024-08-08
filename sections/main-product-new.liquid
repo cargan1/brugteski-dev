@@ -54,7 +54,6 @@
     {%- if product.media.size > 0 -%}
       {%- render 'product-gallery', product: product -%}
     {%- endif -%}
-
     {%- render 'product-info', product: product, update_url: true -%}
   </div>
 </div>
@@ -131,7 +130,6 @@
 
   <div class="quick-buy-drawer__info">
     {%- comment -%}We only show a limited set of information in the quick buy{%- endcomment -%}
-
     {%- for block in section.blocks -%}
       {%- case block.type -%}
         {%- when '@app' -%}
