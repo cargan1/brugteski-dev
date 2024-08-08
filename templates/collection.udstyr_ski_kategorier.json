@@ -72,12 +72,19 @@
           "settings": {
             "text": "{{ collection.metafields.custom.typeform_live_id.value }}"
           }
+        },
+        "liquid_WhAhGM": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div id=\"KiwiSizingChart\"\n  data-collections=\"{{ collection.id | map: 'id' | join: ',' }}\"\n<\/div>"
+          }
         }
       },
       "block_order": [
         "heading_dt7rBj",
         "richtext_edrKF6",
-        "embed_cCfbe9"
+        "embed_cCfbe9",
+        "liquid_WhAhGM"
       ],
       "settings": {
         "guide_finder": true,
