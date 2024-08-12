@@ -16,18 +16,6 @@
         "content_width": "60ch"
       }
     },
-    "custom_html_786Q6Q": {
-      "type": "custom-html",
-      "settings": {
-        "full_width": false,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "html": "<!-- START KiwiSizing code !-->\n  <div id=\"KiwiSizingChart\" data-sizing-id=\"44672230\" data-display-mode=\"1\" data-recommender-display-mode=\"0\" data-layout-type=\"2\">\n  <\/div>\n<!-- END KiwiSizing code !-->",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "51ff0030-b448-4c7e-8826-72ced91e2e21": {
       "type": "rich-text",
       "blocks": {
@@ -95,7 +83,6 @@
   },
   "order": [
     "main",
-    "custom_html_786Q6Q",
     "51ff0030-b448-4c7e-8826-72ced91e2e21",
     "064ff18a-f4c7-4115-a0c7-acbe7caf522f",
     "newsletter_7A9Rgg"
