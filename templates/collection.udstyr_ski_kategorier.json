@@ -78,13 +78,20 @@
           "settings": {
             "liquid": "<!-- START KiwiSizing code !-->\n<div id=\"KiwiSizingChart\"\n data-collections=\"{{ collection.products[0].collections | map: 'id' | join: ','}}\"\n  data-tags=\"{{ collection.products[0].tags | join: ',' | escape}}\"\n  data-product=\"{{collection.products[0].id}}\"\n  data-vendor=\"{{collection.products[0].vendor}}\"\n  data-product-name=\"{{collection.products[0].title}}\"\n  data-product-images=\"{{collection.products[0].images | json| escape}}\"\n  data-type=\"{{ collection.products[0].type }}\"\ndata-recommender-has-result-text=\"Størrelsesoversigt\">\n<\/div>\n<!-- END KiwiSizing code !-->"
           }
+        },
+        "liquid_JrK4cz": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<script type=\"text\/javascript\" async=\"\" src=\"https:\/\/app.kiwisizing.com\/web\/js\/dist\/kiwiSizing\/plugin\/SizingPlugin.prod.js?v=311\"><\/script>"
+          }
         }
       },
       "block_order": [
         "heading_dt7rBj",
         "richtext_edrKF6",
         "embed_cCfbe9",
-        "liquid_WhAhGM"
+        "liquid_WhAhGM",
+        "liquid_JrK4cz"
       ],
       "settings": {
         "guide_finder": true,
