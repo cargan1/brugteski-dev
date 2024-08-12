@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -5,6 +14,30 @@
       "disabled": true,
       "settings": {
         "content_width": "60ch"
+      }
+    },
+    "custom_html_786Q6Q": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<!-- START KiwiSizing code !-->\n  <div id=\"KiwiSizingChart\" data-sizing-id=\"44672230\" data-display-mode=\"0\" data-recommender-display-mode=\"0\" data-layout-type=\"0\">\n  <\/div>\n<!-- END KiwiSizing code !-->",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_MQxi3k": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<!-- START KiwiSizing code !-->\n  <div id=\"KiwiSizingChart\" \n    data-sizing-id=\"44672230\"\n    data-display-mode=\"0\"\n    data-recommender-display-mode=\"0\"\n    data-layout-type=\"0\">\n  <\/div>\n<!-- END KiwiSizing code !-->",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "51ff0030-b448-4c7e-8826-72ced91e2e21": {
@@ -74,6 +107,8 @@
   },
   "order": [
     "main",
+    "custom_html_786Q6Q",
+    "custom_liquid_MQxi3k",
     "51ff0030-b448-4c7e-8826-72ced91e2e21",
     "064ff18a-f4c7-4115-a0c7-acbe7caf522f",
     "newsletter_7A9Rgg"
