@@ -72,12 +72,19 @@
           "settings": {
             "text": "{{ collection.metafields.custom.typeform_live_id.value }}"
           }
+        },
+        "liquid_k4eVLX": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n.ks-calculator-modal-link.sizing-calculator-modal-link {\ncolor: #000 !important;\n    background: #fff;\n    padding: 8px 20px;\n    border-radius: 20px;\ntext-decoration:none\n}\n<\/style>\n\n<!-- START KiwiSizing code !-->\n<div id=\"KiwiSizingChart\"\n data-collections=\"{{ collection.products[0].collections | map: 'id' | join: ','}}\"\n  data-tags=\"{{ collection.products[0].tags | join: ',' | escape}}\"\n  data-product=\"{{collection.products[0].id}}\"\n  data-vendor=\"{{collection.products[0].vendor}}\"\n  data-product-name=\"{{collection.products[0].title}}\"\n  data-product-images=\"{{collection.products[0].images | json| escape}}\"\n  data-type=\"{{ collection.products[0].type }}\"\ndata-recommender-has-result-text=\"Størrelsesoversigt\">\n<\/div>\n<!-- END KiwiSizing code !-->\n\n<script type=\"text\/javascript\" async=\"\" src=\"https:\/\/app.kiwisizing.com\/web\/js\/dist\/kiwiSizing\/plugin\/SizingPlugin.prod.js?v=311\"><\/script>\n<script>\nwindow.KiwiSizing = window.KiwiSizing === undefined ? {} : window.KiwiSizing;\nKiwiSizing.shop = \"brugteski-dk.myshopify.com\";\n\n\nKiwiSizing.data = {\n  collections: \"{{ collection.products[0].collections | map: 'id' | join: ','}}\",\n  tags: \"{{ collection.products[0].tags | join: ',' | escape}}\",\n  product: \"{{ collection.products[0].id }}\",\n  vendor: \"Brugteski.dk ApS\",\n  type: \"Ski\",\n  title: \"{{collection.products[0].title}}\",\n  images: [\"{{ collection.products[0].images | json| escape }}\"],\n  options: [{\"{{collection.products[0].options | join: ',' | escape }}\"}],\n  variants: [\"{{collection.products[0].options | join: ',' | escape }}\"],\n};\n\n<\/script>"
+          }
         }
       },
       "block_order": [
         "heading_mA7fGj",
         "richtext_BWNLQi",
-        "embed_WcBiEH"
+        "embed_WcBiEH",
+        "liquid_k4eVLX"
       ],
       "settings": {
         "guide_finder": true,
