@@ -76,7 +76,7 @@
         "liquid_WhAhGM": {
           "type": "liquid",
           "settings": {
-            "liquid": "<!-- START KiwiSizing code !-->\n<div id=\"KiwiSizingChart\"\n  data-collections=\"{{ collection.id }}\"\n  data-tags=\"{{ collection.tags | join: ',' | escape}}\"\n  data-product=\"{{product.id}}\"\n  data-vendor=\"{{collection.title}}\"\n  data-product-name=\"{{collection.title}}\"\n  data-product-images=\"{{collection.images | json| escape}}\"\n  data-type=\"Collection\">\n<\/div>\n<!-- END KiwiSizing code !-->"
+            "liquid": "<!-- START KiwiSizing code !-->\n<div id=\"KiwiSizingChart\"\n  data-collections=\"{{ collection.id }}\"\n  data-tags=\"{{ collection.tags | join: ',' | escape}}\"\n  data-product=\"null\"\n  data-vendor=\"{{collection.title}}\"\n  data-product-name=\"{{collection.title}}\"\n  data-product-images=\"{{collection.images | json| escape}}\"\n  data-type=\"Collection\">\n<\/div>\n<!-- END KiwiSizing code !-->"
           }
         }
       },
