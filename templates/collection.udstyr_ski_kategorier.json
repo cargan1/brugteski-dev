@@ -84,7 +84,7 @@
           "type": "liquid",
           "disabled": true,
           "settings": {
-            "liquid": "<script>\nwindow.KiwiSizing = window.KiwiSizing === undefined ? {} : window.KiwiSizing;\nKiwiSizing.shop = \"brugteski-dk.myshopify.com\";\n\n\nKiwiSizing.data = {\n  collections: \"{{ collection.products[0].collections | map: 'id' | join: ','}}\",\n  tags: \"{{ collection.products[0].tags | join: ',' | escape}}\",\n  product: \"{{ collection.products[0].id }}\",\n  vendor: \"Brugteski.dk ApS\",\n  type: \"Ski\",\n  title: \"{{collection.products[0].title}}\",\n  images: [\"{{ collection.products[0].images | json| escape }}\"],\n  options: [{\"{{collection.products[0].options | join: ',' | escape }}\"}],\n  variants: [\"{{collection.products[0].options | join: ',' | escape }}\"],\n};\n\n<\/script>"
+            "liquid": "<script type=\"text\/javascript\" async=\"\" src=\"https:\/\/app.kiwisizing.com\/web\/js\/dist\/kiwiSizing\/plugin\/SizingPlugin.prod.js?v=311\"><\/script>\n<script>\nwindow.KiwiSizing = window.KiwiSizing === undefined ? {} : window.KiwiSizing;\nKiwiSizing.shop = \"brugteski-dk.myshopify.com\";\n\n\nKiwiSizing.data = {\n  collections: \"{{ collection.products[0].collections | map: 'id' | join: ','}}\",\n  tags: \"{{ collection.products[0].tags | join: ',' | escape}}\",\n  product: \"{{ collection.products[0].id }}\",\n  vendor: \"Brugteski.dk ApS\",\n  type: \"Ski\",\n  title: \"{{collection.products[0].title}}\",\n  images: [\"{{ collection.products[0].images | json| escape }}\"],\n  options: [{\"{{collection.products[0].options | join: ',' | escape }}\"}],\n  variants: [\"{{collection.products[0].options | join: ',' | escape }}\"],\n};\n\n<\/script>"
           }
         },
         "liquid_EUmiwE": {
