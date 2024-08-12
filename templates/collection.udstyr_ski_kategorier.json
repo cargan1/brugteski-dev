@@ -75,14 +75,22 @@
         },
         "liquid_WhAhGM": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<!-- START KiwiSizing code !-->\n<div id=\"KiwiSizingChart\"\n data-collections=\"{{ collection.products[0].collections | map: 'id' | join: ','}}\"\n  data-tags=\"{{ collection.products[0].tags | join: ',' | escape}}\"\n  data-product=\"{{collection.products[0].id}}\"\n  data-vendor=\"{{collection.products[0].vendor}}\"\n  data-product-name=\"{{collection.products[0].title}}\"\n  data-product-images=\"{{collection.products[0].images | json| escape}}\"\n  data-type=\"{{ collection.products[0].type }}\"\ndata-recommender-has-result-text=\"Størrelsesoversigt\">\n<\/div>\n<!-- END KiwiSizing code !-->"
           }
         },
         "liquid_JrK4cz": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<script>\nwindow.KiwiSizing = window.KiwiSizing === undefined ? {} : window.KiwiSizing;\nKiwiSizing.shop = \"brugteski-dk.myshopify.com\";\n\n\nKiwiSizing.data = {\n  collections: \"{{ collection.products[0].collections | map: 'id' | join: ','}}\",\n  tags: \"{{ collection.products[0].tags | join: ',' | escape}}\",\n  product: \"{{ collection.products[0].id }}\",\n  vendor: \"Brugteski.dk ApS\",\n  type: \"Ski\",\n  title: \"{{collection.products[0].title}}\",\n  images: [\"{{ collection.products[0].images | json| escape }}\"],\n  options: [{\"{{collection.products[0].options | join: ',' | escape }}\"}],\n  variants: [\"{{collection.products[0].options | join: ',' | escape }}\"],\n};\n\n<\/script>"
+          }
+        },
+        "liquid_EUmiwE": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!-- START KiwiSizing code !-->\n  <div id=\"KiwiSizingChart\" \n    data-sizing-id=\"44672230\"\n    data-display-mode=\"0\"\n    data-recommender-display-mode=\"0\"\n    data-layout-type=\"0\">\n  <\/div>\n<!-- END KiwiSizing code !-->"
           }
         }
       },
@@ -91,7 +99,8 @@
         "richtext_edrKF6",
         "embed_cCfbe9",
         "liquid_WhAhGM",
-        "liquid_JrK4cz"
+        "liquid_JrK4cz",
+        "liquid_EUmiwE"
       ],
       "settings": {
         "guide_finder": true,
