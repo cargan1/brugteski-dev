@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "image_with_text_overlay_GnXENV": {
@@ -736,9 +745,9 @@
         "template--14429261365283__70c1490b-879a-4cf4-b3c8-33793d88e30d-16660973574a981bda-0": {
           "type": "blog",
           "settings": {
-            "blog": "skiblogs-til-ferien",
+            "blog": "kob-af-brugt-udstyr",
             "posts_count": 3,
-            "stack_items": false
+            "stack_items": true
           }
         }
       },
@@ -748,15 +757,15 @@
       "settings": {
         "full_width": true,
         "show_excerpt": true,
-        "show_date": true,
+        "show_date": false,
         "show_author": false,
         "show_comments_count": false,
         "show_category": false,
         "subheading": "",
         "title": "Mangler du Tips & Tricks til Skiferien?",
         "content": "",
-        "link_url": "shopify:\/\/blogs\/skiblogs-til-ferien",
-        "link_text": "Læs Alle Vores Skiblogs her",
+        "link_url": "shopify:\/\/pages\/skiguides-skiblogs",
+        "link_text": "Se alle vores skiblogs her",
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
