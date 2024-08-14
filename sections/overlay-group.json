@@ -61,11 +61,13 @@
         "show_bar": false,
         "recommendations_title": "Har du husket alt gearet?",
         "collections": [
-          "skistave",
-          "herre-dame-skistovler",
-          "skigear",
-          "skihandsker",
-          "skitoj-beskyttelsesudstyr"
+
+        ],
+        "collections_udstyr": [
+
+        ],
+        "collections_snowboard": [
+
         ],
         "product_card_background": "#ffffff",
         "product_card_text_color": ""
