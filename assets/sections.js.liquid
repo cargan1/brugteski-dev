@@ -1172,5 +1172,14 @@ if (!window.customElements.get("x-slideshow")) {
 if (!window.customElements.get("slideshow-carousel")) {
   window.customElements.define("slideshow-carousel", SlideshowCarousel);
 }
-
+if (document.getElementById("drawerRecommend")) {
+  console.log("yes");
+  document.querySelector(".cart-drawer__recommendations").style.display = "none"; 
+}
+document.addEventListener('variant:add', function(event) {
+  if (document.getElementById("drawerRecommend")) {
+    console.log("hit");
+    document.querySelector(".cart-drawer__recommendations").style.display = "block"; 
+  }
+});
 
