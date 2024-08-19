@@ -58,7 +58,7 @@
         "show_shipping_text": false,
         "show_view_cart_button": true,
         "show_checkout_button": false,
-        "show_bar": false,
+        "show_bar": true,
         "recommendations_title": "Har du husket alt",
         "collections": [
           "borne-juniorski",
@@ -69,6 +69,12 @@
 
         ],
         "collections_snowboard": [
+
+        ],
+        "collections_beklaedning": [
+
+        ],
+        "collections_skistovler": [
 
         ],
         "product_card_background": "#ffffff",
