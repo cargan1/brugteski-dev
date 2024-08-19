@@ -59,9 +59,11 @@
         "show_view_cart_button": true,
         "show_checkout_button": false,
         "show_bar": false,
-        "recommendations_title": "Har du husket alt gearet?",
+        "recommendations_title": "Har du husket alt",
         "collections": [
-
+          "borne-juniorski",
+          "herre-dameski",
+          "alle-ski"
         ],
         "collections_udstyr": [
 
