@@ -57,7 +57,7 @@
         "heading_dt7rBj": {
           "type": "heading",
           "settings": {
-            "text": "Hej",
+            "text": "{{ collection.metafields.custom.titel_typeform.value }}",
             "heading_tag": "h3"
           }
         },
@@ -69,6 +69,7 @@
         },
         "sizeguide_hytcMB": {
           "type": "sizeguide",
+          "disabled": true,
           "settings": {
             "sizeguide": true
           }
