@@ -334,7 +334,9 @@
       "skis": "for the skis?",
       "equipment": "equipment?",
       "snowboard": "for the board?",
-      "gear": "the gear?"
+      "gear": "the gear?",
+      "beklaedning": "clothing?",
+      "skistovler": "the boots?"
     },
     "order": {
       "product": "Product",

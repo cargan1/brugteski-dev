@@ -98,6 +98,52 @@
                   </div>
                 {%- endif -%}
 
+                {%- when 'sizeguide' -%}
+                  {%- if block.settings.sizeguide == true -%}
+                    <style>
+                      .ks-calculator-modal-link.sizing-calculator-modal-link {
+                      color: #000 !important;
+                          background: #fff;
+                          padding: 8px 20px;
+                          border-radius: 20px;
+                      text-decoration:none
+                      }
+                      </style>
+                      
+                      <!-- START KiwiSizing code !-->
+                      <div id="KiwiSizingChart"
+                       data-collections="{{ collection.products[0].collections | map: 'id' | join: ','}}"
+                        data-tags="{{ collection.products[0].tags | join: ',' | escape}}"
+                        data-product="{{collection.products[0].id}}"
+                        data-vendor="{{collection.products[0].vendor}}"
+                        data-product-name="{{collection.products[0].title}}"
+                        data-product-images="{{collection.products[0].images | json| escape}}"
+                        data-type="{{ collection.products[0].type }}"
+                      data-recommender-has-result-text="Størrelsesoversigt">
+                      </div>
+                      <!-- END KiwiSizing code !-->
+                      
+                      <script type="text/javascript" async="" src="https://app.kiwisizing.com/web/js/dist/kiwiSizing/plugin/SizingPlugin.prod.js?v=311"></script>
+                      <script>
+                      window.KiwiSizing = window.KiwiSizing === undefined ? {} : window.KiwiSizing;
+                      KiwiSizing.shop = "brugteski-dk.myshopify.com";
+                      
+                      
+                      KiwiSizing.data = {
+                        collections: "{{ collection.products[0].collections | map: 'id' | join: ','}}",
+                        tags: "{{ collection.products[0].tags | join: ',' | escape}}",
+                        product: "{{ collection.products[0].id }}",
+                        vendor: "Brugteski.dk ApS",
+                        type: "Ski",
+                        title: "{{collection.products[0].title}}",
+                        images: ["{{ collection.products[0].images | json| escape }}"],
+                        options: [{"{{collection.products[0].options | join: ',' | escape }}"}],
+                        variants: ["{{collection.products[0].options | join: ',' | escape }}"],
+                      };
+                      
+                      </script>
+                  {%- endif -%}
+
                 {%- when 'embed' -%}
                   {%- if block.settings.text != blank -%}
                     <div data-tf-live="{{ block.settings.text | escape }}" data-tf-width="1080" data-tf-height="85vh"></div>
@@ -381,6 +427,17 @@
           "label": "Liquid",
           "default": "<p>Use this text to output some custom Liquid code to include widget or dynamic code.</p>"
         }
+      ]
+    },
+    {
+      "name": "Sizeguide",
+      "type": "sizeguide",
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "sizeguide",
+          "label": "Show Sizeguide",
+          "default": true     }
       ]
     },
     {

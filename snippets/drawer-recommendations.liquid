@@ -1,15 +1,21 @@
         {%- assign first_line_item = cart.items | first -%}
 
 
-        {%- if first_line_item.product.tags contains 'Beklædning' -%}
+        {%- if first_line_item.product.tags contains 'Udstyr' -%}
             {%- assign collection_picker = section.settings.collections_udstyr -%}
-            {%- assign dynamic_heading =  'cart.general.clothing' | t -%} 
+            {%- assign dynamic_heading =  'cart.general.equipment' | t -%} 
         {%- elsif first_line_item.product.tags contains 'Herre og Dameski' -%}
             {%- assign collection_picker = section.settings.collections -%}
             {%- assign dynamic_heading =  'cart.general.skis' | t  -%} 
         {%- elsif first_line_item.product.tags contains 'Snowboard' -%}
             {%- assign collection_picker = section.settings.collections_snowboard  -%}
             {%- assign dynamic_heading =  'cart.general.snowboard' | t -%} 
+        {%- elsif first_line_item.product.tags contains 'Beklædning' -%}
+          {%- assign collection_picker = section.settings.collections_beklaedning  -%}
+          {%- assign dynamic_heading =  'cart.general.beklaedning' | t -%} 
+        {%- elsif first_line_item.product.tags contains 'Skistøvler' -%}
+          {%- assign collection_picker = section.settings.collections_skistovler  -%}
+          {%- assign dynamic_heading =  'cart.general.skistovler' | t -%} 
         {%- else -%}
             {%- assign collection_picker = section.settings.collections -%}
             {%- assign dynamic_heading = 'cart.general.gear' | t -%} 
