@@ -57,7 +57,7 @@
         "heading_dt7rBj": {
           "type": "heading",
           "settings": {
-            "text": "{{ collection.metafields.custom.titel_typeform.value }}",
+            "text": "Hej",
             "heading_tag": "h3"
           }
         },
