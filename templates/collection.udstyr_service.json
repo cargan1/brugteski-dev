@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "banner": {
@@ -23,6 +32,25 @@
     },
     "4bdf9a05-c268-4dad-ba38-e5c1db7bcb74": {
       "type": "image-link-blocks",
+      "blocks": {
+        "item_HK7NLB": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "collection": "",
+            "brand_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_HK7NLB"
+      ],
       "custom_css": [
         ".section-stack {gap: 0px;}",
         ".section-full {padding-top: 10px; padding-bottom: 15px;}"
