@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "banner": {
@@ -83,13 +92,29 @@
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
+        },
+        "item_R9jrTR": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_langrendsstovler.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/langrendsstovler",
+            "collection": "",
+            "brand_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
         }
       },
       "block_order": [
         "item_BtNwWY",
         "item_P79gg8",
         "7cf735e1-01b5-49c8-8ca7-1383bc658648",
-        "item_bym9Ky"
+        "item_bym9Ky",
+        "item_R9jrTR"
       ],
       "custom_css": [
         ".section-stack {gap: 5px;}",
