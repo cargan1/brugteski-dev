@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "banner": {
@@ -53,11 +62,27 @@
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
+        },
+        "item_7dFcwQ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_skibindinger.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/skibindinger",
+            "collection": "",
+            "brand_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
         }
       },
       "block_order": [
         "a5f68762-6842-44de-b848-7f8bc56a57c6",
-        "1ab26b8e-c402-488c-b389-129c04f2a65f"
+        "1ab26b8e-c402-488c-b389-129c04f2a65f",
+        "item_7dFcwQ"
       ],
       "custom_css": [
         ".section-stack {gap: 5px;}",
