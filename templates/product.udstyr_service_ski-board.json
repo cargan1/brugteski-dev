@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "image_link_blocks_KfwUNw": {
@@ -334,7 +343,7 @@
             "value_2": "<p>{{ product.metafields.custom.type.value }}<\/p>",
             "value_3": "<p>{{ product.metafields.custom.radius.value }}<\/p>",
             "value_4": "<p>{{ product.metafields.custom.bindinger.value }}<\/p>",
-            "value_5": "<p>{{ product.metafields.custom.gripwalk.value }}<\/p>",
+            "value_5": "<p>{{ block.settings.product.metafields.custom.greb.value }}<\/p>",
             "value_6": "<p>{{ product.metafields.custom.flex.value }}<\/p>",
             "value_7": "<p>{{ product.metafields.custom.bredde.value }}<\/p>",
             "value_8": "<p>{{ product.metafields.custom.skiprofil.value }}<\/p>",
