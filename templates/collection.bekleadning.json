@@ -63,6 +63,21 @@
             "overlay_opacity": 0
           }
         },
+        "item_fXF9L3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_yderste_lag.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/yderste-lag",
+            "collection": "",
+            "brand_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
         "a50db4de-52d6-4b88-a4f5-200bdf789c7a": {
           "type": "item",
           "settings": {
@@ -82,6 +97,7 @@
       "block_order": [
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-0",
         "item_qYrcRD",
+        "item_fXF9L3",
         "a50db4de-52d6-4b88-a4f5-200bdf789c7a"
       ],
       "custom_css": [
