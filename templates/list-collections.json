@@ -368,12 +368,28 @@
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
+        },
+        "item_AtgCJQ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_langrendsski.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/langrendsski",
+            "collection": "",
+            "brand_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
         }
       },
       "block_order": [
         "item_cAVkqJ",
         "item_VAhH6L",
-        "item_WnL9KC"
+        "item_WnL9KC",
+        "item_AtgCJQ"
       ],
       "settings": {
         "full_width": true,
@@ -452,13 +468,29 @@
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
+        },
+        "item_6FmTEY": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_langrendsstovler.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/langrendsstovler",
+            "collection": "",
+            "brand_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
         }
       },
       "block_order": [
         "item_HFQme6",
         "item_PyQEKb",
         "item_NGVwWQ",
-        "item_QTEMBa"
+        "item_QTEMBa",
+        "item_6FmTEY"
       ],
       "settings": {
         "full_width": false,
