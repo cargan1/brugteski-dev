@@ -67,25 +67,25 @@
             "content": "{{ collection.metafields.custom.paragraph_typeform | metafield_tag }}"
           }
         },
-        "sizeguide_hytcMB": {
-          "type": "sizeguide",
-          "disabled": true,
-          "settings": {
-            "sizeguide": true
-          }
-        },
         "embed_dicXg3": {
           "type": "embed",
           "settings": {
             "text": "{{ collection.metafields.custom.typeform_live_id.value }}"
+          }
+        },
+        "sizeguide_hytcMB": {
+          "type": "sizeguide",
+          "disabled": true,
+          "settings": {
+            "sizeguide": false
           }
         }
       },
       "block_order": [
         "heading_dt7rBj",
         "richtext_edrKF6",
-        "sizeguide_hytcMB",
-        "embed_dicXg3"
+        "embed_dicXg3",
+        "sizeguide_hytcMB"
       ],
       "settings": {
         "guide_finder": true,
