@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -220,6 +229,28 @@
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
+        },
+        "image_4tCcQB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_midterste-lag.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "shopify:\/\/collections\/midterste-lag",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
         }
       },
       "block_order": [
@@ -229,7 +260,8 @@
         "image_xbj47h",
         "image_WTG8D8",
         "image_nqQXCE",
-        "image_RmKJtR"
+        "image_RmKJtR",
+        "image_4tCcQB"
       ],
       "settings": {
         "full_width": true,
