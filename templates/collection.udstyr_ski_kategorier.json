@@ -90,7 +90,8 @@
       "settings": {
         "guide_finder": true,
         "image_size": "xs",
-        "image": "shopify:\/\/shop_images\/skibillede.g.jpg",
+        "image": "{{ collection.metafields.custom.guide_image_pc.value }}",
+        "mobile_image": "{{ collection.metafields.custom.guide_image_mobile.value }}",
         "mobile_text_position": "place-self-end-start text-start",
         "desktop_text_position": "sm:place-self-end-start sm:text-start",
         "text_color": "#ffffff",
