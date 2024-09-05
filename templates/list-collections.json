@@ -815,9 +815,10 @@
         "item_7GVfkm": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_haettetrojer.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "",
+            "link_url": "shopify:\/\/collections\/haettetroje",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -826,12 +827,13 @@
             "overlay_opacity": 0
           }
         },
-        "item_tPM8bP": {
+        "item_UtpBmr": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_fleecetrojer.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "",
+            "link_url": "shopify:\/\/collections\/fleecetroje",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -840,26 +842,13 @@
             "overlay_opacity": 0
           }
         },
-        "item_hV8mqg": {
+        "item_zPCtzH": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_hybrid.jakker.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "",
-            "collection": "",
-            "brand_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_e3Typf": {
-          "type": "item",
-          "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
+            "link_url": "shopify:\/\/collections\/hybrid",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -871,9 +860,8 @@
       },
       "block_order": [
         "item_7GVfkm",
-        "item_tPM8bP",
-        "item_hV8mqg",
-        "item_e3Typf"
+        "item_UtpBmr",
+        "item_zPCtzH"
       ],
       "settings": {
         "full_width": false,
@@ -896,9 +884,10 @@
         "item_dMYBVf": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_skijakker.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "",
+            "link_url": "shopify:\/\/collections\/skijakker",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -910,9 +899,10 @@
         "item_LnpAHM": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_skianorakker.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "",
+            "link_url": "shopify:\/\/collections\/skianorak",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -924,9 +914,10 @@
         "item_gYXFta": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_dunjakker.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "",
+            "link_url": "shopify:\/\/collections\/dunjakke",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -938,9 +929,10 @@
         "item_LLhLkF": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_skibukser.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "",
+            "link_url": "shopify:\/\/collections\/skibukser",
             "collection": "",
             "brand_url": "",
             "background": "",
