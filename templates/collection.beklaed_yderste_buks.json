@@ -35,12 +35,11 @@
       "blocks": {
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-3": {
           "type": "item",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_skihjelme.jpg",
+            "image": "shopify:\/\/shop_images\/udvalg_herreskibukser.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/skihjelme",
+            "link_url": "shopify:\/\/collections\/herre-skibukser",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -51,12 +50,11 @@
         },
         "a5f68762-6842-44de-b848-7f8bc56a57c6": {
           "type": "item",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_skibriller.jpg",
+            "image": "shopify:\/\/shop_images\/udvalg_dameskibukser.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/skibriller",
+            "link_url": "shopify:\/\/collections\/dame-skibukser",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -67,12 +65,11 @@
         },
         "7cf735e1-01b5-49c8-8ca7-1383bc658648": {
           "type": "item",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_skihandsker.jpg",
+            "image": "shopify:\/\/shop_images\/udvalg_skalskibukser.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/skihandsker",
+            "link_url": "shopify:\/\/collections\/skal-skibukser",
             "collection": "",
             "brand_url": "",
             "background": "",
