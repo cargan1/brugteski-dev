@@ -73,12 +73,19 @@
           "settings": {
             "sizeguide": true
           }
+        },
+        "embed_dicXg3": {
+          "type": "embed",
+          "settings": {
+            "text": "{{ collection.metafields.custom.typeform_live_id.value }}"
+          }
         }
       },
       "block_order": [
         "heading_dt7rBj",
         "richtext_edrKF6",
-        "sizeguide_hytcMB"
+        "sizeguide_hytcMB",
+        "embed_dicXg3"
       ],
       "settings": {
         "guide_finder": true,
