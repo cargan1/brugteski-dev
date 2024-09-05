@@ -35,6 +35,7 @@
       "blocks": {
         "item_HK7NLB": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "stretch_image": true,
             "link_text": "",
