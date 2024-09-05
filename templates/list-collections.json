@@ -842,6 +842,21 @@
             "overlay_opacity": 0
           }
         },
+        "item_3NQE8U": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_rygskjold.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/rygskjold",
+            "collection": "",
+            "brand_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
         "item_b6BB9i": {
           "type": "item",
           "settings": {
@@ -856,12 +871,29 @@
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
+        },
+        "item_9qTbLF": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_kropsbind.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/krops-bind",
+            "collection": "",
+            "brand_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
         }
       },
       "block_order": [
         "item_t6jiK7",
         "item_PX4qeJ",
-        "item_b6BB9i"
+        "item_3NQE8U",
+        "item_b6BB9i",
+        "item_9qTbLF"
       ],
       "settings": {
         "full_width": false,
