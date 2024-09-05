@@ -640,11 +640,27 @@
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
+        },
+        "item_fkCiym": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/udvalg_skibindinger.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/skibindinger",
+            "collection": "",
+            "brand_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
         }
       },
       "block_order": [
         "item_zR4DzT",
-        "item_CYnagC"
+        "item_CYnagC",
+        "item_fkCiym"
       ],
       "settings": {
         "full_width": false,
