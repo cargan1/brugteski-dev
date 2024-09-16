@@ -1054,7 +1054,7 @@ scroll-carousel {
   color: currentColor;
   background: none;
   margin-inline-start: auto;
-  display: grid;
+  display: none;
 }
 
 @media screen and (min-width: 700px) {
@@ -1243,7 +1243,7 @@ scroll-carousel {
 }
 
 .drawer > [is="close-button"] {
-  display: none;
+  display: grid;
   position: absolute;
   top: 1.5rem;
 }
