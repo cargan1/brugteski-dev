@@ -1054,7 +1054,7 @@ scroll-carousel {
   color: currentColor;
   background: none;
   margin-inline-start: auto;
-  display: none;
+  display: grid;
 }
 
 @media screen and (min-width: 700px) {
