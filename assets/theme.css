@@ -1243,7 +1243,13 @@ scroll-carousel {
 }
 
 .drawer > [is="close-button"] {
-  display: grid;
+  display: none;
+  position: absolute;
+  top: 1.5rem;
+}
+
+.search-drawer > [is="close-button"] {
+  display: none;
   position: absolute;
   top: 1.5rem;
 }
