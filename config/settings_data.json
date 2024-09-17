@@ -204,7 +204,6 @@
           "show_cart_note": true,
           "show_shipping_text": true,
           "show_checkout_button": true,
-          "recommendations_title": "Husk at tilkøbe...",
           "product_card_background": "#ffffff",
           "product_card_text_color": ""
         }

@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -22,6 +31,7 @@
             "link_text": "handelsbetingelserne",
             "postlink_text": "",
             "terms_page": "salgs-og-lev-betingelser",
+            "terms_notice": "Du skal godkende handelsbetingelserne inden du kan gå til betaling.",
             "checkbox_scale": 1.2,
             "mandatory": true,
             "internal_label": "Har accepteret handelsbetingelser"
@@ -29,12 +39,6 @@
         },
         "checkout_button": {
           "type": "checkout_button",
-          "settings": {
-          }
-        },
-        "a01e7aa6-dd5d-4bdd-aba5-417c76c580e2": {
-          "type": "accelerated_buttons",
-          "disabled": true,
           "settings": {
           }
         },
@@ -76,7 +80,6 @@
         "cart_note",
         "termsbox_8rxnaX",
         "checkout_button",
-        "a01e7aa6-dd5d-4bdd-aba5-417c76c580e2",
         "offer_Yt3j4F",
         "ef3d2631-006c-4544-874f-04c98e28f569",
         "text_rxpLyM"
