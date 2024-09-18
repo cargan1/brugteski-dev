@@ -53,8 +53,8 @@
       "settings": {
         "full_width": true,
         "subheading": "",
-        "title": "Har du nogle spørgsmål?",
-        "content": "<p><strong>Spørgsmål<\/strong><\/p><p>Har du brugt for hjælp? Om det er af valg af ski, spørgsmål til stand af skien eller hvad end du har brug for! Så kan du altid udfylde kontaktformularen nedenfor, eller kontakte os på <strong>tlf.: +45 3020 9975<\/strong> eller på <strong>mail: info@brugteski.dk<\/strong>, som vi altid vil besvare inden for 24 timer i hverdagen.<\/p><p><strong>Adresse<\/strong><\/p><p>Krogsagervej 50, 2, 7000 Fredericia, Danmark.<br\/>Du kan finde os her: <a href=\"https:\/\/g.page\/brugteski-dk?share\" target=\"_blank\" title=\"Google maps\">Klik her!<\/a> <\/p>",
+        "title": "Send din ansøgning her!",
+        "content": "<p><strong>Hvad din mail skal indeholde:<\/strong><\/p><ul><li>Navn, alder og andet arbejde\/studie<\/li><li>Hvem du er som person og hvad du godt kan lide at lave<\/li><li>Din erfaring med skisport<\/li><li>Tidligere arbejdserfaring<\/li><\/ul><p><\/p><p>Vi vender tilbage på alle ansøgninger :)<\/p>",
         "text_position": "start",
         "contact_form_size": "large",
         "background": "",
