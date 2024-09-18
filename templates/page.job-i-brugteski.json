@@ -9,13 +9,6 @@
 */
 {
   "sections": {
-    "main": {
-      "type": "main-page",
-      "disabled": true,
-      "settings": {
-        "content_width": "80ch"
-      }
-    },
     "image_link_blocks_Hp6hzB": {
       "type": "image-link-blocks",
       "custom_css": [
@@ -35,6 +28,12 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": ""
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "content_width": "80ch"
       }
     },
     "contact": {
@@ -72,8 +71,8 @@
     }
   },
   "order": [
-    "main",
     "image_link_blocks_Hp6hzB",
+    "main",
     "contact"
   ]
 }
