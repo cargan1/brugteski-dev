@@ -93,20 +93,20 @@
         "heading_GzFqnh": {
           "type": "heading",
           "settings": {
-            "text": "Heading",
-            "heading_tag": "h2"
+            "text": "{{ collection.metafields.custom.titel_typeform.value }}",
+            "heading_tag": "h4"
           }
         },
         "richtext_W3XCBm": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "content": "{{ collection.metafields.custom.paragraph_typeform | metafield_tag }}"
           }
         },
         "embed_ATx3fM": {
           "type": "embed",
           "settings": {
-            "text": "Type the embed ID"
+            "text": "{{ collection.metafields.custom.typeform_live_id.value }}"
           }
         }
       },
