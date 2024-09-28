@@ -62,59 +62,11 @@
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
-        },
-        "7cf735e1-01b5-49c8-8ca7-1383bc658648": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/udvalg_borneskistovler.jpg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "shopify://collections/borne-skistovler",
-            "collection": "",
-            "brand_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_bym9Ky": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/udvalg_touringstovler.jpg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "shopify://collections/touring-stovler",
-            "collection": "",
-            "brand_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_R9jrTR": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/udvalg_langrendsstovler.jpg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "shopify://collections/langrendsstovler",
-            "collection": "",
-            "brand_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
         }
       },
       "block_order": [
         "item_BtNwWY",
-        "item_P79gg8",
-        "7cf735e1-01b5-49c8-8ca7-1383bc658648",
-        "item_bym9Ky",
-        "item_R9jrTR"
+        "item_P79gg8"
       ],
       "custom_css": [
         ".section-stack {gap: 5px;}",
@@ -125,7 +77,7 @@
         "block_size": "small",
         "subheading": "",
         "title": "",
-        "content": "<p><a href=\"https://brugteski.dk/\" title=\"https://brugteski.dk/\">Forside</a> / <a href=\"/collections\" title=\"All collections\">Kollektioner</a> / <a href=\"/collections/udstyr-til-skilob\" title=\"Udstyr til skiløb\">Udstyr</a> / Skistøvler</p>",
+        "content": "<p><a href=\"https://brugteski.dk/\" title=\"https://brugteski.dk/\">Forside</a> / <a href=\"/collections\" title=\"All collections\">Kollektioner</a> / <a href=\"/collections/udstyr-til-skilob\" title=\"Udstyr til skiløb\">Udstyr</a> / Voksen skistøvler</p>",
         "link_url": "",
         "link_text": "",
         "background": "",
