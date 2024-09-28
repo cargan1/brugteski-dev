@@ -90,31 +90,41 @@
     "collection_header_section_YGWmm6": {
       "type": "collection-header-section",
       "blocks": {
+        "heading_GzFqnh": {
+          "type": "heading",
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h2"
+          }
+        },
         "richtext_W3XCBm": {
           "type": "richtext",
           "settings": {
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
           }
         },
-        "liquid_PMpFCz": {
-          "type": "liquid",
+        "embed_ATx3fM": {
+          "type": "embed",
           "settings": {
-            "liquid": "<p>Use this text to output some custom Liquid code to include widget or dynamic code.</p>"
+            "text": "Type the embed ID"
           }
         }
       },
       "block_order": [
+        "heading_GzFqnh",
         "richtext_W3XCBm",
-        "liquid_PMpFCz"
+        "embed_ATx3fM"
       ],
       "settings": {
-        "guide_finder": false,
-        "image_size": "auto",
+        "guide_finder": true,
+        "image_size": "xs",
+        "image": "{{ collection.metafields.custom.guide_image_pc.value }}",
+        "mobile_image": "{{ collection.metafields.custom.guide_image_mobile.value }}",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 65
+        "overlay_opacity": 0
       }
     },
     "main": {
