@@ -33,7 +33,7 @@
         "block_size": "medium",
         "subheading": "",
         "title": "",
-        "content": "<p><a href=\"https:\/\/brugteski.dk\/\" title=\"https:\/\/brugteski.dk\/\">Forside<\/a> \/ Kollektioner<\/p>",
+        "content": "<p><a href=\"https://brugteski.dk/\" title=\"https://brugteski.dk/\">Forside</a> / Kollektioner</p>",
         "link_url": "",
         "link_text": "",
         "background": "",
@@ -79,10 +79,10 @@
         "image_Q8mWD6": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_ski.jpg",
+            "image": "shopify://shop_images/udvalg_ski.jpg",
             "title": "",
             "heading_tag": "h4",
-            "link_url": "shopify:\/\/collections\/alle-ski",
+            "link_url": "shopify://collections/alle-ski",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 2,
@@ -101,10 +101,10 @@
         "image_7KWWWa": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_skistovler2.jpg",
+            "image": "shopify://shop_images/udvalg_skistovler2.jpg",
             "title": "",
             "heading_tag": "h4",
-            "link_url": "shopify:\/\/collections\/skistovler-til-hele-familien",
+            "link_url": "shopify://collections/skistovler-til-hele-familien",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 1,
@@ -123,10 +123,10 @@
         "image_eHBrFz": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_snowboard_9ae3bc78-49b8-4f32-bc05-3d40d57c6e54.jpg",
+            "image": "shopify://shop_images/udvalg_snowboard_9ae3bc78-49b8-4f32-bc05-3d40d57c6e54.jpg",
             "title": "",
             "heading_tag": "h4",
-            "link_url": "shopify:\/\/collections\/snowboardudstyr",
+            "link_url": "shopify://collections/snowboardudstyr",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 1,
@@ -145,10 +145,10 @@
         "image_xbj47h": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_skigear.jpg",
+            "image": "shopify://shop_images/udvalg_skigear.jpg",
             "title": "",
             "heading_tag": "h4",
-            "link_url": "shopify:\/\/collections\/skigear",
+            "link_url": "shopify://collections/skigear",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 1,
@@ -167,10 +167,10 @@
         "image_WTG8D8": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_service.jpg",
+            "image": "shopify://shop_images/udvalg_service.jpg",
             "title": "",
             "heading_tag": "h4",
-            "link_url": "shopify:\/\/collections\/service-til-ski-og-udstyr",
+            "link_url": "shopify://collections/service-til-ski-og-udstyr",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 1,
@@ -189,10 +189,10 @@
         "image_nqQXCE": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_inderestelag.jpg",
+            "image": "shopify://shop_images/udvalg_inderestelag.jpg",
             "title": "",
             "heading_tag": "h4",
-            "link_url": "shopify:\/\/collections\/inderste-lag",
+            "link_url": "shopify://collections/inderste-lag",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 1,
@@ -211,10 +211,10 @@
         "image_4tCcQB": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_midterste-lag.jpg",
+            "image": "shopify://shop_images/udvalg_midterste-lag.jpg",
             "title": "",
             "heading_tag": "h4",
-            "link_url": "shopify:\/\/collections\/midterste-lag",
+            "link_url": "shopify://collections/mellemlag",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 1,
@@ -233,10 +233,10 @@
         "image_BEPnjt": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_yderste_lag.jpg",
+            "image": "shopify://shop_images/udvalg_yderste_lag.jpg",
             "title": "",
             "heading_tag": "h4",
-            "link_url": "shopify:\/\/collections\/yderste-lag",
+            "link_url": "shopify://collections/yderste-lag",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 1,
@@ -255,10 +255,10 @@
         "image_RmKJtR": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_beskyttelse.jpg",
+            "image": "shopify://shop_images/udvalg_beskyttelse.jpg",
             "title": "",
             "heading_tag": "h4",
-            "link_url": "shopify:\/\/collections\/beskyttelse",
+            "link_url": "shopify://collections/beskyttelse",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 1,
@@ -327,10 +327,10 @@
         "item_cAVkqJ": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_Herre_Dame.jpg",
+            "image": "shopify://shop_images/udvalg_Herre_Dame.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/herre-dameski",
+            "link_url": "shopify://collections/herre-dameski",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -342,10 +342,10 @@
         "item_VAhH6L": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_born_junior.jpg",
+            "image": "shopify://shop_images/udvalg_born_junior.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/borne-juniorski",
+            "link_url": "shopify://collections/borne-juniorski",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -357,10 +357,10 @@
         "item_WnL9KC": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_touring.jpg",
+            "image": "shopify://shop_images/udvalg_touring.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/touring-ski",
+            "link_url": "shopify://collections/touring-ski",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -372,10 +372,10 @@
         "item_AtgCJQ": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_langrendsski.jpg",
+            "image": "shopify://shop_images/udvalg_langrendsski.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/langrendsski",
+            "link_url": "shopify://collections/langrendsski",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -397,7 +397,7 @@
         "subheading": "",
         "title": "Ski",
         "content": "",
-        "link_url": "shopify:\/\/collections\/alle-ski",
+        "link_url": "shopify://collections/alle-ski",
         "link_text": "Se alle ski her",
         "background": "",
         "background_gradient": "",
@@ -412,10 +412,10 @@
         "item_HFQme6": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_herre.skistovler.jpg",
+            "image": "shopify://shop_images/udvalg_herre.skistovler.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/herre-skistovler",
+            "link_url": "shopify://collections/herre-skistovler",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -427,10 +427,10 @@
         "item_PyQEKb": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_dameskistovler.jpg",
+            "image": "shopify://shop_images/udvalg_dameskistovler.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/dame-skistovler",
+            "link_url": "shopify://collections/dame-skistovler",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -442,10 +442,10 @@
         "item_NGVwWQ": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_borneskistovler.jpg",
+            "image": "shopify://shop_images/udvalg_borneskistovler.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/borne-skistovler",
+            "link_url": "shopify://collections/borne-skistovler",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -457,10 +457,10 @@
         "item_QTEMBa": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_touringstovler.jpg",
+            "image": "shopify://shop_images/udvalg_touringstovler.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/touring-stovler",
+            "link_url": "shopify://collections/touring-stovler",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -472,10 +472,10 @@
         "item_6FmTEY": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_langrendsstovler.jpg",
+            "image": "shopify://shop_images/udvalg_langrendsstovler.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/langrendsstovler",
+            "link_url": "shopify://collections/langrendsstovler",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -498,7 +498,7 @@
         "subheading": "",
         "title": "Skistøvle",
         "content": "",
-        "link_url": "shopify:\/\/collections\/skistovler-til-hele-familien",
+        "link_url": "shopify://collections/skistovler-til-hele-familien",
         "link_text": "Se alle støvle her",
         "background": "",
         "background_gradient": "",
@@ -513,10 +513,10 @@
         "item_e9jfTf": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_voksensnowboards.jpg",
+            "image": "shopify://shop_images/udvalg_voksensnowboards.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/voksen-snowboards",
+            "link_url": "shopify://collections/voksen-snowboards",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -528,10 +528,10 @@
         "item_FC3QwE": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_bornesnowboards.jpg",
+            "image": "shopify://shop_images/udvalg_bornesnowboards.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/borne-snowboard",
+            "link_url": "shopify://collections/borne-snowboard",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -543,10 +543,10 @@
         "item_rPDL7p": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_snowboardstovler_328ba65f-6605-49b0-9bb3-5010da7699ad.jpg",
+            "image": "shopify://shop_images/udvalg_snowboardstovler_328ba65f-6605-49b0-9bb3-5010da7699ad.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/snowboard-stovler",
+            "link_url": "shopify://collections/snowboard-stovler",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -558,10 +558,10 @@
         "item_fAH7gb": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_snowboardbindinger.jpg",
+            "image": "shopify://shop_images/udvalg_snowboardbindinger.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/snowboardbindinger",
+            "link_url": "shopify://collections/snowboardbindinger",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -573,10 +573,10 @@
         "item_ekr4yh": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_snowboard.tilbehor.jpg",
+            "image": "shopify://shop_images/udvalg_snowboard.tilbehor.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/snowboard-tilbehor",
+            "link_url": "shopify://collections/snowboard-tilbehor",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -599,7 +599,7 @@
         "subheading": "",
         "title": "Snowboard",
         "content": "",
-        "link_url": "shopify:\/\/collections\/snowboardudstyr",
+        "link_url": "shopify://collections/snowboardudstyr",
         "link_text": "Se alt til snowboard her",
         "background": "",
         "background_gradient": "",
@@ -614,10 +614,10 @@
         "item_zR4DzT": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_skistave_c4223226-f9c9-4c8b-83dc-85b441456410.jpg",
+            "image": "shopify://shop_images/udvalg_skistave_c4223226-f9c9-4c8b-83dc-85b441456410.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/skistave",
+            "link_url": "shopify://collections/skistave",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -629,10 +629,10 @@
         "item_CYnagC": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_poser.jpg",
+            "image": "shopify://shop_images/udvalg_poser.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/skitasker-snowboardtasker",
+            "link_url": "shopify://collections/skitasker-snowboardtasker",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -644,10 +644,10 @@
         "item_fkCiym": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_skibindinger.jpg",
+            "image": "shopify://shop_images/udvalg_skibindinger.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/skibindinger",
+            "link_url": "shopify://collections/skibindinger",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -668,7 +668,7 @@
         "subheading": "",
         "title": "Skigear",
         "content": "",
-        "link_url": "shopify:\/\/collections\/skigear",
+        "link_url": "shopify://collections/skigear",
         "link_text": "Se alt skigear her",
         "background": "",
         "background_gradient": "",
@@ -683,10 +683,10 @@
         "item_4Brq3E": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_skiservice2.jpg",
+            "image": "shopify://shop_images/udvalg_skiservice2.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/products\/ski-service-pro",
+            "link_url": "shopify://products/ski-service-pro",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -705,7 +705,7 @@
         "subheading": "",
         "title": "Service",
         "content": "",
-        "link_url": "shopify:\/\/collections\/service-til-ski-og-udstyr",
+        "link_url": "shopify://collections/service-til-ski-og-udstyr",
         "link_text": "Se alle service ydelser her",
         "background": "",
         "background_gradient": "",
@@ -746,10 +746,10 @@
         "item_JNycr4": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_halsedisser.jpg",
+            "image": "shopify://shop_images/udvalg_halsedisser.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/halsedisser",
+            "link_url": "shopify://collections/halsedisser",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -761,10 +761,10 @@
         "item_NnCWHE": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_skundertoj.jpg",
+            "image": "shopify://shop_images/udvalg_skundertoj.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/skiundertoj",
+            "link_url": "shopify://collections/skiundertoj",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -776,10 +776,10 @@
         "item_Lw4Fiw": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_skisokker.jpg",
+            "image": "shopify://shop_images/udvalg_skisokker.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/skisokker",
+            "link_url": "shopify://collections/skisokker",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -800,7 +800,7 @@
         "subheading": "",
         "title": "Indereste lag",
         "content": "",
-        "link_url": "shopify:\/\/collections\/inderste-lag",
+        "link_url": "shopify://collections/inderste-lag",
         "link_text": "Se alle produkter til inderste lag her",
         "background": "",
         "background_gradient": "",
@@ -815,10 +815,10 @@
         "item_7GVfkm": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_haettetrojer.jpg",
+            "image": "shopify://shop_images/udvalg_haettetrojer.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/haettetroje",
+            "link_url": "shopify://collections/haettetroje",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -830,10 +830,10 @@
         "item_UtpBmr": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_fleecetrojer.jpg",
+            "image": "shopify://shop_images/udvalg_fleecetrojer.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/fleecetroje",
+            "link_url": "shopify://collections/fleecetroje",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -845,10 +845,10 @@
         "item_zPCtzH": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_hybrid.jakker.jpg",
+            "image": "shopify://shop_images/udvalg_hybrid.jakker.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/hybrid",
+            "link_url": "shopify://collections/hybrid",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -869,7 +869,7 @@
         "subheading": "",
         "title": "Midterste lag",
         "content": "",
-        "link_url": "shopify:\/\/collections\/midterste-lag",
+        "link_url": "shopify://collections/mellemlag",
         "link_text": "Se alle produkter til midterste lag her",
         "background": "",
         "background_gradient": "",
@@ -884,10 +884,10 @@
         "item_dMYBVf": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_skijakker.jpg",
+            "image": "shopify://shop_images/udvalg_skijakker.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/skijakker",
+            "link_url": "shopify://collections/skijakker",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -899,10 +899,10 @@
         "item_LnpAHM": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_skianorakker.jpg",
+            "image": "shopify://shop_images/udvalg_skianorakker.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/skianorak",
+            "link_url": "shopify://collections/skianorak",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -914,10 +914,10 @@
         "item_gYXFta": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_dunjakker.jpg",
+            "image": "shopify://shop_images/udvalg_dunjakker.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/dunjakke",
+            "link_url": "shopify://collections/dunjakke",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -929,10 +929,10 @@
         "item_LLhLkF": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_skibukser.jpg",
+            "image": "shopify://shop_images/udvalg_skibukser.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/skibukser",
+            "link_url": "shopify://collections/skibukser",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -954,7 +954,7 @@
         "subheading": "",
         "title": "Yderste lag",
         "content": "",
-        "link_url": "shopify:\/\/collections\/yderste-lag",
+        "link_url": "shopify://collections/yderste-lag",
         "link_text": "Se alle produkter til yderste lag her",
         "background": "",
         "background_gradient": "",
@@ -969,10 +969,10 @@
         "item_t6jiK7": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_skihjelme.jpg",
+            "image": "shopify://shop_images/udvalg_skihjelme.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/skihjelme",
+            "link_url": "shopify://collections/skihjelme",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -984,10 +984,10 @@
         "item_PX4qeJ": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_skibriller.jpg",
+            "image": "shopify://shop_images/udvalg_skibriller.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/skibriller",
+            "link_url": "shopify://collections/skibriller",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -999,10 +999,10 @@
         "item_3NQE8U": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_rygskjold.jpg",
+            "image": "shopify://shop_images/udvalg_rygskjold.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/rygskjold",
+            "link_url": "shopify://collections/rygskjold",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -1014,10 +1014,10 @@
         "item_b6BB9i": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_skihandsker.jpg",
+            "image": "shopify://shop_images/udvalg_skihandsker.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/skihandsker",
+            "link_url": "shopify://collections/skihandsker",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -1029,10 +1029,10 @@
         "item_9qTbLF": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_kropsbind.jpg",
+            "image": "shopify://shop_images/udvalg_kropsbind.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/krops-bind",
+            "link_url": "shopify://collections/krops-bind",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -1055,7 +1055,7 @@
         "subheading": "",
         "title": "Beskyttelses",
         "content": "",
-        "link_url": "shopify:\/\/collections\/beskyttelse",
+        "link_url": "shopify://collections/beskyttelse",
         "link_text": "Se alle beskyttelses produkter her",
         "background": "",
         "background_gradient": "",
