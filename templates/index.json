@@ -28,7 +28,7 @@
         "richtext_A69Fmx": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Vidste du, at det er billigere at købe brugt udstyr end at leje efter kun to uger på pisten?<\/p>"
+            "content": "<p>Vidste du, at det er billigere at købe brugt udstyr end at leje efter kun to uger på pisten?</p>"
           }
         },
         "button_8mmcyY": {
@@ -37,7 +37,7 @@
             "style": "fill",
             "size": "lg",
             "text": "Shop skiudstyr",
-            "url": "shopify:\/\/collections\/udstyr-til-skilob",
+            "url": "shopify://collections/udstyr-til-skilob",
             "background": "",
             "text_color": ""
           }
@@ -45,7 +45,7 @@
         "richtext_HgL99P": {
           "type": "richtext",
           "settings": {
-            "content": "<p>📍Spar 64% af nyprisen ved at købe brugt<br\/>📍24 måneders reklamationsret på brugt udstyr<br\/>📍Altid 100% gratis returnering<br\/><\/p>"
+            "content": "<p>📍Spar 64% af nyprisen ved at købe brugt<br/>📍24 måneders reklamationsret på brugt udstyr<br/>📍Altid 100% gratis returnering<br/></p>"
           }
         }
       },
@@ -61,8 +61,8 @@
         "allow_transparent_header": true,
         "enable_parallax": false,
         "image_size": "lg",
-        "image": "shopify:\/\/shop_images\/sportsman-in-goggles-holding-ski-sticks-while-skii-2022-12-16-21-17-36-utc-2_2.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/hero-mobile.jpg",
+        "image": "shopify://shop_images/sportsman-in-goggles-holding-ski-sticks-while-skii-2022-12-16-21-17-36-utc-2_2.jpg",
+        "mobile_image": "shopify://shop_images/hero-mobile.jpg",
         "mobile_text_position": "place-self-end-start text-start",
         "desktop_text_position": "sm:place-self-center-start sm:text-start",
         "text_color": "#ffffff",
@@ -91,7 +91,7 @@
         "image_Q8CfVr": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/nytVSlejeVSnyt.jpg",
+            "image": "shopify://shop_images/nytVSlejeVSnyt.jpg",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
@@ -99,9 +99,9 @@
             "icon_width": 48,
             "subheading": "",
             "title": "Leje vs. Brugt vs. Nyt udstyr",
-            "content": "<p><strong>Skiferie kræver tonsvis af udstyr... Du kan vælge mellem enten at leje, købe brugt eller nyt udstyr. Hver mulighed har sine fordele, og passer til hver sit ambitionsniveau.<\/strong><\/p><p><strong>Leje:<\/strong> Perfekt for begyndere, der vil prøve skisporten af.<br\/><strong>Brugt:<\/strong> Ideelt for dem, der elsker skiløb, men vil spare penge. <br\/><strong>Nyt:<\/strong> For dem, der vil have det kompromisløse udstyr.<\/p><p>Klik herunder og tag vores test som giver dig et præcis svar på hvilken mulighed der passer dig bedst!<\/p>",
+            "content": "<p><strong>Skiferie kræver tonsvis af udstyr... Du kan vælge mellem enten at leje, købe brugt eller nyt udstyr. Hver mulighed har sine fordele, og passer til hver sit ambitionsniveau.</strong></p><p><strong>Leje:</strong> Perfekt for begyndere, der vil prøve skisporten af.<br/><strong>Brugt:</strong> Ideelt for dem, der elsker skiløb, men vil spare penge. <br/><strong>Nyt:</strong> For dem, der vil have det kompromisløse udstyr.</p><p>Klik herunder og tag vores test som giver dig et præcis svar på hvilken mulighed der passer dig bedst!</p>",
             "link_text": "Udregn din pris her",
-            "link_url": "shopify:\/\/blogs\/kob-af-brugt-udstyr\/leje-brugt-eller-nyt-udstyr-se-her-hvad-der-er-bedst-for-dig",
+            "link_url": "shopify://blogs/kob-af-brugt-udstyr/leje-brugt-eller-nyt-udstyr-se-her-hvad-der-er-bedst-for-dig",
             "background": "#efefef",
             "background_gradient": "",
             "text_color": "#000000",
@@ -134,7 +134,7 @@
             "icon_background": "",
             "icon_color": "",
             "title": "Jakob B.",
-            "content": "<p><strong>Jeg køber også mine ski her<\/strong><br\/>Jeg har netop købt brugte skistøvler hos brugteski.dk, og var selv lidt spændt på kvalitet og slidtage. Jeg må sige, at jeg på alle måder har fået kvalitetsstøvler til en god pris. Jeg var også i dialog med kundeservice, og det var også en super tilfredsstillende oplevelse. Jeg kommer også til at købe mine ski her.<\/p>"
+            "content": "<p><strong>Jeg køber også mine ski her</strong><br/>Jeg har netop købt brugte skistøvler hos brugteski.dk, og var selv lidt spændt på kvalitet og slidtage. Jeg må sige, at jeg på alle måder har fået kvalitetsstøvler til en god pris. Jeg var også i dialog med kundeservice, og det var også en super tilfredsstillende oplevelse. Jeg kommer også til at købe mine ski her.</p>"
           }
         },
         "item_GmUEVX": {
@@ -147,7 +147,7 @@
             "icon_background": "",
             "icon_color": "",
             "title": "Lene L.",
-            "content": "<p><strong>Formidabel service<\/strong><br\/>Bestilte ski og støvler - var især glad for fri returneringsret. Skiene var desværre allerede solgt, men jeg blev hurtigt kontaktet af Jakob, der beklagede, og der blev lavet en anden formidabel handel, hvor der blev kompenseret fra firmaets side ift. prisdiff. Tak for god handel - vil til enhver tid anbefale jer 🙏🏻<\/p>"
+            "content": "<p><strong>Formidabel service</strong><br/>Bestilte ski og støvler - var især glad for fri returneringsret. Skiene var desværre allerede solgt, men jeg blev hurtigt kontaktet af Jakob, der beklagede, og der blev lavet en anden formidabel handel, hvor der blev kompenseret fra firmaets side ift. prisdiff. Tak for god handel - vil til enhver tid anbefale jer 🙏🏻</p>"
           }
         },
         "item_8NmyJg": {
@@ -160,7 +160,7 @@
             "icon_background": "",
             "icon_color": "",
             "title": "Lars J.",
-            "content": "<p><strong>Så god en købe oplevelse<br\/><\/strong>Fin søge funktion og beskrivelse af ski på hjemmesiden. Bestilte mandag, leveret torsdag, klar til ski fredag :-)<br\/>Ringede og fik fin hjælp til binding indstilling, da jeg ikke havde prøvet det før. Mega let egenligt. Så flot brev med i leveringen. Tak. Vil bestemt købe et andet sæt ski en anden gang !<\/p>"
+            "content": "<p><strong>Så god en købe oplevelse<br/></strong>Fin søge funktion og beskrivelse af ski på hjemmesiden. Bestilte mandag, leveret torsdag, klar til ski fredag :-)<br/>Ringede og fik fin hjælp til binding indstilling, da jeg ikke havde prøvet det før. Mega let egenligt. Så flot brev med i leveringen. Tak. Vil bestemt købe et andet sæt ski en anden gang !</p>"
           }
         }
       },
@@ -194,10 +194,10 @@
         "image_nqXbhD": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/skiguides-kopi.jpg",
+            "image": "shopify://shop_images/skiguides-kopi.jpg",
             "title": "Ski",
             "heading_tag": "h2",
-            "link_url": "shopify:\/\/collections\/alle-ski",
+            "link_url": "shopify://collections/alle-ski",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 2,
@@ -216,10 +216,10 @@
         "image_xictBk": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/snowboarder3.g_5c0ce4aa-cb6b-4d92-80cd-860832701b9b.jpg",
+            "image": "shopify://shop_images/snowboarder3.g_5c0ce4aa-cb6b-4d92-80cd-860832701b9b.jpg",
             "title": "Snowboard",
             "heading_tag": "h3",
-            "link_url": "shopify:\/\/collections\/snowboardudstyr",
+            "link_url": "shopify://collections/snowboardudstyr",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 2,
@@ -238,10 +238,10 @@
         "image_EhgJA8": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Herre_dame_2722c18b-3a88-44ed-93c1-ba95c3cacd46.jpg",
+            "image": "shopify://shop_images/Herre_dame_2722c18b-3a88-44ed-93c1-ba95c3cacd46.jpg",
             "title": "Skistøvler",
             "heading_tag": "h3",
-            "link_url": "shopify:\/\/collections\/skistovler-til-hele-familien",
+            "link_url": "shopify://collections/skistovler-til-hele-familien",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 2,
@@ -278,57 +278,49 @@
         "logo_qQFeVk": {
           "type": "logo",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/armada-skis.png",
+            "logo": "shopify://shop_images/armada-skis.png",
             "logo_width": 300,
-            "link": "shopify:\/\/collections\/armada"
+            "link": "shopify://collections/armada"
           }
         },
         "logo_WVaFH9": {
           "type": "logo",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/kisspng-atomic-skis-logo-alpine-skiing-atomic-5b35e104caf398.4950810315302576688313.png",
+            "logo": "shopify://shop_images/kisspng-atomic-skis-logo-alpine-skiing-atomic-5b35e104caf398.4950810315302576688313.png",
             "logo_width": 120,
-            "link": "shopify:\/\/collections\/atomic"
+            "link": "shopify://collections/atomic"
           }
         },
         "logo_KWVP3K": {
           "type": "logo",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/fischer-logo-png-transparent.png",
+            "logo": "shopify://shop_images/fischer-logo-png-transparent.png",
             "logo_width": 300,
-            "link": "shopify:\/\/collections\/fischer"
+            "link": "shopify://collections/fischer"
           }
         },
         "logo_pRjNUH": {
           "type": "logo",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/kisspng-logo-head-international-gmbh-brand-ski-5bfb097df00a22.1580975715431786219832.png",
+            "logo": "shopify://shop_images/kisspng-logo-head-international-gmbh-brand-ski-5bfb097df00a22.1580975715431786219832.png",
             "logo_width": 120,
-            "link": "shopify:\/\/collections\/head"
-          }
-        },
-        "logo_LkqnL8": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/kisspng-skis-rossignol-alpine-skiing-ski-boots-5b2f24e9cf37f1.9328989815298162978488.png",
-            "logo_width": 120,
-            "link": "shopify:\/\/collections\/rossignol"
+            "link": "shopify://collections/head"
           }
         },
         "logo_YLbhGG": {
           "type": "logo",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/kisspng-salomon-group-ski-boots-skiing-clothing-5b0db055d62051.6296987415276237658771.png",
+            "logo": "shopify://shop_images/kisspng-salomon-group-ski-boots-skiing-clothing-5b0db055d62051.6296987415276237658771.png",
             "logo_width": 120,
-            "link": "shopify:\/\/collections\/salomon"
+            "link": "shopify://collections/salomon"
           }
         },
         "logo_Pt3c3b": {
           "type": "logo",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/Logo_stoeckli.png",
+            "logo": "shopify://shop_images/Logo_stoeckli.png",
             "logo_width": 300,
-            "link": "shopify:\/\/collections\/stockli"
+            "link": "shopify://collections/stockli"
           }
         }
       },
@@ -337,7 +329,6 @@
         "logo_WVaFH9",
         "logo_KWVP3K",
         "logo_pRjNUH",
-        "logo_LkqnL8",
         "logo_YLbhGG",
         "logo_Pt3c3b"
       ],
@@ -345,7 +336,7 @@
         "full_width": true,
         "stack_mobile": false,
         "title": "Brands",
-        "content": "<p>Vi sælger brugt og nyt udstyr fra nogle af de mest populære brands i branchen<\/p>",
+        "content": "<p>Vi sælger brugt og nyt udstyr fra nogle af de mest populære brands i branchen</p>",
         "text_alignment": "center",
         "items_per_row": 7,
         "background": "",
@@ -363,10 +354,10 @@
         "image_hwX6BQ": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/skibyt4.g.jpg",
+            "image": "shopify://shop_images/skibyt4.g.jpg",
             "title": "Billigere at eje end leje -  selv for børn",
             "heading_tag": "h5",
-            "link_url": "shopify:\/\/pages\/ski-byt-for-born-juniorer",
+            "link_url": "shopify://pages/ski-byt-for-born-juniorer",
             "link_text": "Ombyt alt Børneudstyr",
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_column_span": 2,
@@ -385,10 +376,10 @@
         "image_NCm3Ki": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/borneski.g2.jpg",
+            "image": "shopify://shop_images/borneski.g2.jpg",
             "title": "Børne- & Juniorski",
             "heading_tag": "h4",
-            "link_url": "shopify:\/\/collections\/borne-juniorski",
+            "link_url": "shopify://collections/borne-juniorski",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 1,
@@ -407,10 +398,10 @@
         "image_RkrXRt": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/snowboarder4.g.jpg",
+            "image": "shopify://shop_images/snowboarder4.g.jpg",
             "title": "Børne snowboards",
             "heading_tag": "h4",
-            "link_url": "shopify:\/\/collections\/borne-snowboard",
+            "link_url": "shopify://collections/borne-snowboard",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 1,
@@ -429,10 +420,10 @@
         "image_3CqLPy": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/born_ski.g.jpg",
+            "image": "shopify://shop_images/born_ski.g.jpg",
             "title": "Børne skistøvler",
             "heading_tag": "h3",
-            "link_url": "shopify:\/\/collections\/borne-skistovler",
+            "link_url": "shopify://collections/borne-skistovler",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 2,
@@ -485,10 +476,10 @@
         "image_YdNHtK": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Skihandsker.g_47df3ee8-64ac-4cf4-957a-5c7668cdce7a.jpg",
+            "image": "shopify://shop_images/Skihandsker.g_47df3ee8-64ac-4cf4-957a-5c7668cdce7a.jpg",
             "title": "Skihandsker",
             "heading_tag": "h4",
-            "link_url": "shopify:\/\/collections\/skihandsker",
+            "link_url": "shopify://collections/skihandsker",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 1,
@@ -507,10 +498,10 @@
         "image_kQzkqL": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_11.jpg",
+            "image": "shopify://shop_images/image_11.jpg",
             "title": "Skistave",
             "heading_tag": "h4",
-            "link_url": "shopify:\/\/collections\/skistave",
+            "link_url": "shopify://collections/skistave",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 1,
@@ -529,10 +520,10 @@
         "image_a4nTWQ": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/beskyttelse.g.1-1_fbba98f3-e2e2-4ef7-896d-d164f816de28.jpg",
+            "image": "shopify://shop_images/beskyttelse.g.1-1_fbba98f3-e2e2-4ef7-896d-d164f816de28.jpg",
             "title": "Beskyttelse",
             "heading_tag": "h3",
-            "link_url": "shopify:\/\/collections\/beskyttelse",
+            "link_url": "shopify://collections/beskyttelse",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 2,
@@ -551,10 +542,10 @@
         "image_CaWc3d": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/skifinder9.jpg",
+            "image": "shopify://shop_images/skifinder9.jpg",
             "title": "Skitøj",
             "heading_tag": "h3",
-            "link_url": "shopify:\/\/collections\/skitoj",
+            "link_url": "shopify://collections/skitoj",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 2,
@@ -573,10 +564,10 @@
         "image_cAV4fL": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/skisokker1.g.jpg",
+            "image": "shopify://shop_images/skisokker1.g.jpg",
             "title": "Skisokker",
             "heading_tag": "h4",
-            "link_url": "shopify:\/\/collections\/skisokker",
+            "link_url": "shopify://collections/skisokker",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 1,
@@ -595,10 +586,10 @@
         "image_mtqPBC": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/skihjelm.g_45090bff-1f37-4fbb-acd5-25fb57f2ee0f.jpg",
+            "image": "shopify://shop_images/skihjelm.g_45090bff-1f37-4fbb-acd5-25fb57f2ee0f.jpg",
             "title": "Skihjelme",
             "heading_tag": "h4",
-            "link_url": "shopify:\/\/collections\/skihjelme",
+            "link_url": "shopify://collections/skihjelme",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 1,
@@ -638,7 +629,7 @@
         "richtext_DXj7xF": {
           "type": "richtext",
           "settings": {
-            "content": "<h1>Stort udvalg af brugte ski og brugt skiudstyr<\/h1><p>Brugteski tilbyder alt, hvad hjertet begærer, når det kommer til ski og <a href=\"https:\/\/brugteski.dk\/collections\/ski-skiudstyr\">skiudstyr<\/a>. Uanset om du er en erfaren skientusiast eller nybegynder, er vi her for at sikre, at dine skiferier bliver uforglemmelige. Nøgleordet er skiudstyr i god kvalitet. <\/p><p>Hos os kan du shoppe brugte ski og skiudstyr til favorable priser, så du kan skabe fantastiske skieventyr uden at sprænge budgettet. Vi forhandler skiudstyr med op til 72 % rabat sammenlignet med nypriserne, hvilket sikrer dig maksimal value for money. <\/p><h2>Fysisk og online skibutik med den gode service i førersædet<\/h2><p>Brugteski eksisterer ikke blot som fysisk skibutik i Fredericia. Vi driver også en online skishop, der har åbent 365 dage om året. Vores fysiske butik holder kun åbent i skisæsonen, der strækker sig fra september til og med april. Læs mere om vores butik og åbningstiderne for denne <a href=\"https:\/\/brugteski.dk\/pages\/showroom-og-vores-abningstider\">her<\/a>. <\/p><p>Uanset om du besøger os fysisk eller online, kan du forvente at opleve en kompromisløs service. Vi står klar til at hjælpe dig, hvad end du har brug for hjælp til at vælge ski eller har spørgsmål til vores leveringsmetoder. <\/p><h2>Køb ski til hele familien til favorable priser<\/h2><p>Ski er for alle – såvel de store som de små i familien. Vi vil gerne dække hele familiens behov for ski og fører derfor et bredt udvalg af brugte ski til både børn og voksne. <\/p><p>I vores udvalg af <a href=\"https:\/\/brugteski.dk\/collections\/herre-dameski\">herre- og dameski<\/a> samt <a href=\"https:\/\/brugteski.dk\/collections\/borne-juniorski\">børne- og juniorski<\/a> finder du ski til ethvert behov og enhver smag. Vi forstår, at det kan være svært at vælge ski, så derfor har vi udviklet en <a href=\"https:\/\/brugteski.dk\/pages\/ski-finder\">ski-finder test<\/a>. Du skal blot besvare nogle udvalgte spørgsmål, hvorefter du vil få personlige anbefalinger af ski på baggrund af dine svar. <\/p><h3>Hvorfor købe brugte ski online hos Brugteski?<\/h3><p>Der er talrige fordele ved at købe brugte ski hos os. Her er nogle af dem:<\/p><ol><li>Vi tilbyder gratis fragt og returnering ved køb over 995 kr.<\/li><li>Vi leverer på blot 2-5 hverdage<\/li><li>Vi tilbyder 24-måneders reklamationsret<\/li><li>Vi yder pasningsgaranti<\/li><li>Vi sørger for grundig kvalitetskontrol af alt udstyr<\/li><li>Vi er e-mærket<\/li><li>.. og mange andre fordele! <\/li><\/ol><h2>Oplev også vores kæmpe udvalg af brugt skiudstyr til store og små<\/h2><p>Selvom vores navn måske kunne indikere det, så forhandler vi ikke kun brugte ski. I vores sortiment finder du alt inden for skiudstyr – lige fra skisokker og skistøvler til skihjelme og skistave. Du kan med andre ord købe alt, hvad du har brug for til din næste skiferie hos én og samme forhandler. Vi får hele tiden nyt skiudstyr på lager, så hold godt øje og slå til, når du finder, hvad du leder efter. <\/p><h2>Alle de mest populære skimærker samlet ét sted<\/h2><p>Vi tilbyder et nøje sammensat udvalg af brugte ski og øvrigt udstyr fra de mest anerkendte og pålidelige mærker på markedet. Vi tror på, at investeringen i kvalitetsudstyr betaler sig, og derfor tilbyder vi mærker som <a href=\"https:\/\/brugteski.dk\/collections\/rossignol\">Rossignol<\/a>, <a href=\"https:\/\/brugteski.dk\/collections\/salomon\">Salomon<\/a>, <a href=\"https:\/\/brugteski.dk\/collections\/atomic\">Atomic<\/a>, <a href=\"https:\/\/brugteski.dk\/collections\/elan\">Elan<\/a>, <a href=\"https:\/\/brugteski.dk\/collections\/blizzard\">Blizzard<\/a> og mange flere mærker. Vi kan helt sikkert også tilbyde brugt skiudstyr fra dine favoritmærker. <\/p><h2>Din pålidelige skishop på nettet <\/h2><p>Vi forstår vigtigheden af en tryg og sikker handel, og derfor garanterer vi, at du vil være i trygge hænder, når du handler hos os. Du får bl.a. køberbeskyttelse på op til 10.000 kr. og gratis ubegrænset sagsbehandling, når du shopper skiudstyr hos Brugteski, idet vi er e-mærket. <\/p><p>Er du i tvivl om noget, er du altid velkommen til at skrive eller ringe til os. <\/p>"
+            "content": "<h1>Stort udvalg af brugte ski og brugt skiudstyr</h1><p>Brugteski tilbyder alt, hvad hjertet begærer, når det kommer til ski og <a href=\"https://brugteski.dk/collections/ski-skiudstyr\">skiudstyr</a>. Uanset om du er en erfaren skientusiast eller nybegynder, er vi her for at sikre, at dine skiferier bliver uforglemmelige. Nøgleordet er skiudstyr i god kvalitet. </p><p>Hos os kan du shoppe brugte ski og skiudstyr til favorable priser, så du kan skabe fantastiske skieventyr uden at sprænge budgettet. Vi forhandler skiudstyr med op til 72 % rabat sammenlignet med nypriserne, hvilket sikrer dig maksimal value for money. </p><h2>Fysisk og online skibutik med den gode service i førersædet</h2><p>Brugteski eksisterer ikke blot som fysisk skibutik i Fredericia. Vi driver også en online skishop, der har åbent 365 dage om året. Vores fysiske butik holder kun åbent i skisæsonen, der strækker sig fra september til og med april. Læs mere om vores butik og åbningstiderne for denne <a href=\"https://brugteski.dk/pages/showroom-og-vores-abningstider\">her</a>. </p><p>Uanset om du besøger os fysisk eller online, kan du forvente at opleve en kompromisløs service. Vi står klar til at hjælpe dig, hvad end du har brug for hjælp til at vælge ski eller har spørgsmål til vores leveringsmetoder. </p><h2>Køb ski til hele familien til favorable priser</h2><p>Ski er for alle – såvel de store som de små i familien. Vi vil gerne dække hele familiens behov for ski og fører derfor et bredt udvalg af brugte ski til både børn og voksne. </p><p>I vores udvalg af <a href=\"https://brugteski.dk/collections/herre-dameski\">herre- og dameski</a> samt <a href=\"https://brugteski.dk/collections/borne-juniorski\">børne- og juniorski</a> finder du ski til ethvert behov og enhver smag. Vi forstår, at det kan være svært at vælge ski, så derfor har vi udviklet en <a href=\"https://brugteski.dk/pages/ski-finder\">ski-finder test</a>. Du skal blot besvare nogle udvalgte spørgsmål, hvorefter du vil få personlige anbefalinger af ski på baggrund af dine svar. </p><h3>Hvorfor købe brugte ski online hos Brugteski?</h3><p>Der er talrige fordele ved at købe brugte ski hos os. Her er nogle af dem:</p><ol><li>Vi tilbyder gratis fragt og returnering ved køb over 995 kr.</li><li>Vi leverer på blot 2-5 hverdage</li><li>Vi tilbyder 24-måneders reklamationsret</li><li>Vi yder pasningsgaranti</li><li>Vi sørger for grundig kvalitetskontrol af alt udstyr</li><li>Vi er e-mærket</li><li>.. og mange andre fordele! </li></ol><h2>Oplev også vores kæmpe udvalg af brugt skiudstyr til store og små</h2><p>Selvom vores navn måske kunne indikere det, så forhandler vi ikke kun brugte ski. I vores sortiment finder du alt inden for skiudstyr – lige fra skisokker og skistøvler til skihjelme og skistave. Du kan med andre ord købe alt, hvad du har brug for til din næste skiferie hos én og samme forhandler. Vi får hele tiden nyt skiudstyr på lager, så hold godt øje og slå til, når du finder, hvad du leder efter. </p><h2>Alle de mest populære skimærker samlet ét sted</h2><p>Vi tilbyder et nøje sammensat udvalg af brugte ski og øvrigt udstyr fra de mest anerkendte og pålidelige mærker på markedet. Vi tror på, at investeringen i kvalitetsudstyr betaler sig, og derfor tilbyder vi mærker som <a href=\"https://brugteski.dk/collections/rossignol\">Rossignol</a>, <a href=\"https://brugteski.dk/collections/salomon\">Salomon</a>, <a href=\"https://brugteski.dk/collections/atomic\">Atomic</a>, <a href=\"https://brugteski.dk/collections/elan\">Elan</a>, <a href=\"https://brugteski.dk/collections/blizzard\">Blizzard</a> og mange flere mærker. Vi kan helt sikkert også tilbyde brugt skiudstyr fra dine favoritmærker. </p><h2>Din pålidelige skishop på nettet </h2><p>Vi forstår vigtigheden af en tryg og sikker handel, og derfor garanterer vi, at du vil være i trygge hænder, når du handler hos os. Du får bl.a. køberbeskyttelse på op til 10.000 kr. og gratis ubegrænset sagsbehandling, når du shopper skiudstyr hos Brugteski, idet vi er e-mærket. </p><p>Er du i tvivl om noget, er du altid velkommen til at skrive eller ringe til os. </p>"
           }
         }
       },
@@ -661,10 +652,10 @@
         "image_qFtiVW": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner.ski.g_55a577e3-cb9f-48be-9283-e56446f1d92d.jpg",
+            "image": "shopify://shop_images/banner.ski.g_55a577e3-cb9f-48be-9283-e56446f1d92d.jpg",
             "title": "Shop skiudstyr",
             "heading_tag": "h3",
-            "link_url": "shopify:\/\/collections",
+            "link_url": "shopify://collections",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 2,
@@ -683,10 +674,10 @@
         "image_pC3Aeh": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Hjaelp.g_a41136d3-f060-469f-8a55-d73863a269a0.jpg",
+            "image": "shopify://shop_images/Hjaelp.g_a41136d3-f060-469f-8a55-d73863a269a0.jpg",
             "title": "Sælge dit udstyr",
             "heading_tag": "h2",
-            "link_url": "shopify:\/\/pages\/byt-til-nyt",
+            "link_url": "shopify://pages/byt-til-nyt",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 2,
@@ -705,10 +696,10 @@
         "image_GNLUnB": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/service.slib.g_29f234d8-5ed6-43e0-85ee-64a868af36dd.jpg",
+            "image": "shopify://shop_images/service.slib.g_29f234d8-5ed6-43e0-85ee-64a868af36dd.jpg",
             "title": "Servicering af udstyr",
             "heading_tag": "h3",
-            "link_url": "shopify:\/\/collections\/service-til-ski-og-udstyr",
+            "link_url": "shopify://collections/service-til-ski-og-udstyr",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 2,
@@ -764,7 +755,7 @@
         "subheading": "",
         "title": "Guides til køb af brugt udstyr💰",
         "content": "",
-        "link_url": "shopify:\/\/pages\/skiguides-skiblogs",
+        "link_url": "shopify://pages/skiguides-skiblogs",
         "link_text": "Se alle vores skiblogs her",
         "background": "#ffffff",
         "background_gradient": "",
@@ -792,7 +783,7 @@
         "c3be68e8-bbd0-4230-a98b-300bf7708c97": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>Åbningstider<br\/><\/strong>{{ localization.market.metafields.custom.fredericia_open_hours | metafield_tag }}<\/p>"
+            "content": "<p><strong>Åbningstider<br/></strong>{{ localization.market.metafields.custom.fredericia_open_hours | metafield_tag }}</p>"
           }
         }
       },
@@ -806,8 +797,8 @@
         "allow_transparent_header": false,
         "autoplay": true,
         "video_size": "sm",
-        "video": "shopify:\/\/files\/videos\/Hjemmeside_1.mp4",
-        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video": "shopify://files/videos/Hjemmeside_1.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#0039ff",
         "overlay_opacity": 70,
