@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "type": "header",
   "name": "Header group",
@@ -7,17 +16,26 @@
       "blocks": {
         "fb1e6665-ce14-4a1c-a720-f7108a7fb3eb": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "🎿 Gratis fragt ved 995 DKK og altid gratis returnering, med 2-5 dages levering 🎿",
             "url": ""
           }
+        },
+        "message_TePbeX": {
+          "type": "message",
+          "settings": {
+            "text": "❄️ Sæsonstarts evetet er i gang 🥳 Spar 10% på alt med koden: Sæsonstart10 💰 Kun denne weekend 🎿",
+            "url": "https://fb.me/e/EsufEJluv"
+          }
         }
       },
       "block_order": [
-        "fb1e6665-ce14-4a1c-a720-f7108a7fb3eb"
+        "fb1e6665-ce14-4a1c-a720-f7108a7fb3eb",
+        "message_TePbeX"
       ],
       "custom_css": [
-        "@media only screen and (min-width: 768px) {.text-base {width: 200%; \/* Tilpas bredden på større skærme efter behov *\/ }}"
+        "@media only screen and (min-width: 768px) {.text-base {width: 200%; /* Tilpas bredden på større skærme efter behov */ }}"
       ],
       "settings": {
         "enable_sticky": true,
@@ -39,10 +57,10 @@
             "layout": "horizontal_center",
             "submenu_style": "bold_heading",
             "image_heading_1": "",
-            "image_link_1": "https:\/\/brugteski.dk\/collections\/alle-ski?filter.v.availability=1",
+            "image_link_1": "https://brugteski.dk/collections/alle-ski?filter.v.availability=1",
             "image_text_color_1": "#ffffff",
             "image_heading_2": "",
-            "image_link_2": "https:\/\/brugteski.dk\/collections\/alt-snowboard?filter.v.availability=1",
+            "image_link_2": "https://brugteski.dk/collections/alt-snowboard?filter.v.availability=1",
             "image_text_color_2": "#ffffff",
             "image_heading_3": "",
             "image_link_3": "",
@@ -61,9 +79,9 @@
             "menu_item": "Beklædning",
             "layout": "horizontal_center",
             "submenu_style": "bold_heading",
-            "image_1": "shopify:\/\/shop_images\/beklaedning.jpg",
+            "image_1": "shopify://shop_images/beklaedning.jpg",
             "image_heading_1": "",
-            "image_link_1": "https:\/\/brugteski.dk\/collections\/alt-beklaedning?filter.v.availability=1",
+            "image_link_1": "https://brugteski.dk/collections/alt-beklaedning?filter.v.availability=1",
             "image_text_color_1": "#ffffff",
             "image_heading_2": "",
             "image_link_2": "",
@@ -108,9 +126,9 @@
             "menu_item": "Guides & Skiblogs",
             "layout": "horizontal_center",
             "submenu_style": "bold_heading",
-            "image_1": "shopify:\/\/shop_images\/hjaelp.v2.g.jpg",
+            "image_1": "shopify://shop_images/hjaelp.v2.g.jpg",
             "image_heading_1": "Udstyr-guides",
-            "image_link_1": "shopify:\/\/blogs\/udstyr-guides",
+            "image_link_1": "shopify://blogs/udstyr-guides",
             "image_text_color_1": "#ffffff",
             "image_heading_2": "",
             "image_link_2": "",
@@ -132,9 +150,9 @@
             "menu_item": "Bag om",
             "layout": "horizontal_center",
             "submenu_style": "bold_heading",
-            "image_1": "shopify:\/\/shop_images\/disk.g.jpg",
+            "image_1": "shopify://shop_images/disk.g.jpg",
             "image_heading_1": "",
-            "image_link_1": "shopify:\/\/pages\/dig-som-kunde",
+            "image_link_1": "shopify://pages/dig-som-kunde",
             "image_text_color_1": "#ffffff",
             "image_heading_2": "",
             "image_link_2": "",
@@ -161,7 +179,7 @@
       "settings": {
         "enable_sticky": false,
         "hide_on_scroll": false,
-        "logo": "shopify:\/\/shop_images\/Brugteski.dk11.png",
+        "logo": "shopify://shop_images/Brugteski.dk11.png",
         "logo_max_width": 250,
         "logo_mobile_max_width": 170,
         "menu": "main-menu",
@@ -176,7 +194,7 @@
         "show_country_flag": false,
         "show_country_name": false,
         "transparent_header_text_color": "#ffffff",
-        "transparent_logo": "shopify:\/\/shop_images\/Brugteski.dk11.png",
+        "transparent_logo": "shopify://shop_images/Brugteski.dk11.png",
         "reduce_padding": true,
         "background_opacity": 100,
         "background_blur_radius": 0
