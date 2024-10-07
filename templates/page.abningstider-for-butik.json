@@ -39,6 +39,62 @@
         "content_width": "100%"
       }
     },
+    "multiple_images_with_text_Y7YWHc": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_neEbpP": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Butik1.jpg",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "Aktuelle Åbningstider",
+            "content": "<p>{{ localization.market.metafields.custom.fredericia_open_hours | metafield_tag }}</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_LDfKN9": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/butik4.jpg",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Aktuelle Åbningstider",
+            "content": "<p>{{ localization.market.metafields.custom.fredericia_open_hours | metafield_tag }}</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_hbbYQE": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/butik2.jpg",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Aktuelle Åbningstider",
+            "content": "<p>{{ localization.market.metafields.custom.fredericia_open_hours | metafield_tag }}</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_neEbpP",
+        "item_LDfKN9",
+        "item_hbbYQE"
+      ],
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "top",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
     "rich_text_B3YHgN": {
       "type": "rich-text",
       "blocks": {
@@ -164,6 +220,7 @@
   "order": [
     "image_link_blocks_FmUFUg",
     "main",
+    "multiple_images_with_text_Y7YWHc",
     "rich_text_B3YHgN",
     "rich_text_hBkBwT",
     "video_4cXTpn"
