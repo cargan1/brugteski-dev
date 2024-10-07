@@ -168,34 +168,6 @@
         "accordion_text_color": ""
       }
     },
-    "video_4cXTpn": {
-      "type": "video",
-      "blocks": {
-        "heading_9qhanG": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "text": "Se her hvad vores butik gemmer på",
-            "heading_tag": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "heading_9qhanG"
-      ],
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "sm",
-        "video": "shopify://files/videos/Butik.24:25.mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff",
-        "overlay_color": "#0039ff",
-        "overlay_opacity": 30,
-        "tab_label": ""
-      }
-    },
     "multiple_images_with_text_qDKfef": {
       "type": "multiple-images-with-text",
       "blocks": {
@@ -251,6 +223,90 @@
         "button_background": "",
         "button_text_color": ""
       }
+    },
+    "video_4cXTpn": {
+      "type": "video",
+      "blocks": {
+        "heading_9qhanG": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Se her hvad vores butik gemmer på",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9qhanG"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "sm",
+        "video": "shopify://files/videos/Butik.24:25.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#0039ff",
+        "overlay_opacity": 30,
+        "tab_label": ""
+      }
+    },
+    "multiple_images_with_text_GDr3hn": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_HeaFUT": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/butik10.jpg",
+            "image_rotation_degrees": -2,
+            "subheading": "Se her hvad",
+            "title": "butikken gemmer på",
+            "content": "<p>Vi står altid klar til at hjælpe jer med at finde det næste udstyr. Om det skal være hjælpe til at finde ski, spørgsmål til hvordan skistøvler skal sidde, eller hvordan skijakker sidder på jer - så er vi altid klar til at hjælpe!</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_UwBPDr": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/butik9.jpg",
+            "image_rotation_degrees": 1.5,
+            "subheading": "Se her hvad",
+            "title": "butikken gemmer på",
+            "content": "<p>Skiferie = Hygge !<br/>Derfor har vi altid kolde drikkevare i køleskabe, varm kaffe eller kakao i maskinen og slik til hvem end der har lyst! Det er selvfølge 100% gratis og i skal bare gå til den.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_jQqVHd": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Butik11.jpg",
+            "image_rotation_degrees": 0,
+            "subheading": "Se her hvad",
+            "title": "butikken gemmer på",
+            "content": "<p>Vi har over 800 par ski og over 1000 par skistøvler til udstilling i butikken, samt endnu flere på vores lager. Så vi kan helt sikker finde noget udstyr som passer til dig!</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_HeaFUT",
+        "item_UwBPDr",
+        "item_jQqVHd"
+      ],
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
     }
   },
   "order": [
@@ -258,7 +314,8 @@
     "main",
     "multiple_images_with_text_Y7YWHc",
     "accordion_content_My7zbx",
+    "multiple_images_with_text_qDKfef",
     "video_4cXTpn",
-    "multiple_images_with_text_qDKfef"
+    "multiple_images_with_text_GDr3hn"
   ]
 }
