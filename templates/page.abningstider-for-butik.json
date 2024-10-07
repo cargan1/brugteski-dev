@@ -87,7 +87,7 @@
       "settings": {
         "full_width": true,
         "images_layout": "stacked",
-        "collage_images_alignment": "top",
+        "collage_images_alignment": "shifted",
         "background": "",
         "background_gradient": "",
         "text_color": "",
@@ -95,55 +95,151 @@
         "button_text_color": ""
       }
     },
-    "rich_text_hBkBwT": {
-      "type": "rich-text",
+    "accordion_content_My7zbx": {
+      "type": "accordion-content",
       "blocks": {
-        "richtext_AYkPEK": {
-          "type": "richtext",
+        "item_prBJUa": {
+          "type": "item",
           "settings": {
-            "content": "<h1>Adresse</h1><p>Butikken ligger 2 minutter fra motorvejen nær Fredericia, så der er nem til og frakørsel for alle.</p><p>Adressen er Krogsagervej 50, 7000 Fredericia</p>"
+            "title": "Påske til August",
+            "content": "<p>Write content to help your customers to better understand your products or policies.</p>"
           }
         },
-        "button_dMrXDC": {
-          "type": "button",
+        "item_fBaJqA": {
+          "type": "item",
           "settings": {
-            "style": "fill",
-            "size": "xl",
-            "text": "Se adressen på Google her",
-            "url": "https://maps.app.goo.gl/kkirbtRgWymWRdvY8",
-            "background": "",
-            "text_color": ""
+            "title": "September",
+            "content": "<p>Write content to help your customers to better understand your products or policies.</p>"
           }
         },
-        "divider_kAUpN7": {
-          "type": "divider",
+        "item_D8L9Df": {
+          "type": "item",
           "settings": {
+            "title": "Oktober til November",
+            "content": "<p>Write content to help your customers to better understand your products or policies.</p>"
           }
         },
-        "image_BUPj39": {
-          "type": "image",
+        "item_VBRxGt": {
+          "type": "item",
           "settings": {
-            "image": "shopify://shop_images/butik-udenfor.g.jpg",
-            "width_mode": "full_width",
-            "max_width": 600,
-            "mobile_max_width": 400
+            "title": "December til Uge 6",
+            "content": "<p>Write content to help your customers to better understand your products or policies.</p>"
+          }
+        },
+        "item_yqQkra": {
+          "type": "item",
+          "settings": {
+            "title": "Uge 7 til Påske",
+            "content": "<p>Write content to help your customers to better understand your products or policies.</p>"
           }
         }
       },
       "block_order": [
-        "richtext_AYkPEK",
-        "button_dMrXDC",
-        "divider_kAUpN7",
-        "image_BUPj39"
+        "item_prBJUa",
+        "item_fBaJqA",
+        "item_D8L9Df",
+        "item_VBRxGt",
+        "item_yqQkra"
       ],
       "settings": {
         "full_width": true,
-        "content_width": "small",
+        "subheading": "",
+        "title": "Løbende åbningstider",
+        "content": "<p>Grundet skisæsonens mange ændringer, fra lav til højsæson, har </p>",
+        "button_text": "",
+        "button_url": "",
         "text_position": "start",
         "background": "",
         "background_gradient": "",
         "text_color": "",
-        "tab_label": ""
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "image_link_blocks_JgAXR7": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "item_mtVhMj": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/abningstider1.jpg",
+            "stretch_image": true,
+            "link_text": "Kontakt kundeserivce",
+            "link_url": "shopify://pages/de-17-verdensmal",
+            "collection": "",
+            "brand_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_3GmWb6": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "collection": "",
+            "brand_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_krEeYJ": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "collection": "",
+            "brand_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_W6f3kr": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "collection": "",
+            "brand_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_mtVhMj",
+        "item_3GmWb6",
+        "item_krEeYJ",
+        "item_W6f3kr"
+      ],
+      "settings": {
+        "full_width": false,
+        "block_size": "medium",
+        "subheading": "",
+        "title": "Åbningstider igennem sæsonen",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
       }
     },
     "video_4cXTpn": {
@@ -229,14 +325,141 @@
         "button_background": "",
         "button_text_color": ""
       }
+    },
+    "media_grid_EyaGX3": {
+      "type": "media-grid",
+      "blocks": {
+        "image_E68xpD": {
+          "type": "image",
+          "settings": {
+            "title": "Påske til August",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "Mandag:Lukket Tirsdag:Lukket",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_6WGNAR": {
+          "type": "image",
+          "settings": {
+            "title": "September",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_iHMC9t": {
+          "type": "image",
+          "settings": {
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_xmCk3z": {
+          "type": "image",
+          "settings": {
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_3gxfLT": {
+          "type": "image",
+          "settings": {
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_E68xpD",
+        "image_6WGNAR",
+        "image_iHMC9t",
+        "image_xmCk3z",
+        "image_3gxfLT"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
     }
   },
   "order": [
     "image_link_blocks_FmUFUg",
     "main",
     "multiple_images_with_text_Y7YWHc",
-    "rich_text_hBkBwT",
+    "accordion_content_My7zbx",
+    "image_link_blocks_JgAXR7",
     "video_4cXTpn",
-    "multiple_images_with_text_qDKfef"
+    "multiple_images_with_text_qDKfef",
+    "media_grid_EyaGX3"
   ]
 }
