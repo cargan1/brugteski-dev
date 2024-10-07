@@ -16,7 +16,6 @@
       "blocks": {
         "fb1e6665-ce14-4a1c-a720-f7108a7fb3eb": {
           "type": "message",
-          "disabled": true,
           "settings": {
             "text": "🎿 Gratis fragt ved 995 DKK og altid gratis returnering, med 2-5 dages levering 🎿",
             "url": ""
@@ -24,6 +23,7 @@
         },
         "message_TePbeX": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "❄️ Sæsonstarts evetet er i gang 🥳 Spar 10% på alt med koden: Sæsonstart10 💰 Kun denne weekend 🎿",
             "url": "https://fb.me/e/EsufEJluv"
@@ -42,7 +42,7 @@
         "text_size": "text-base",
         "navigation_mode": "arrows",
         "scrolling_speed": 16,
-        "background": "#0020aa",
+        "background": "#010410",
         "background_gradient": "",
         "text_color": "#ffffff"
       }
