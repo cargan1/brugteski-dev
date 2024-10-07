@@ -272,81 +272,60 @@
         "background_gradient": ""
       }
     },
-    "logo_list_KYBqFX": {
-      "type": "logo-list",
+    "multiple_images_with_text_G6ekje": {
+      "type": "multiple-images-with-text",
       "blocks": {
-        "logo_qQFeVk": {
-          "type": "logo",
+        "item_xzd7NV": {
+          "type": "item",
           "settings": {
-            "logo": "shopify://shop_images/armada-skis.png",
-            "logo_width": 300,
-            "link": "shopify://collections/armada"
+            "image": "shopify://shop_images/Butik1.jpg",
+            "image_rotation_degrees": -2,
+            "subheading": "Skibutik i Fredericia",
+            "title": "Besøg butikken",
+            "content": "<p>I skibutikken i Fredericia finder ud alle vores produkter samlet et sted. Vores søde medarbejder står altid klar til at guide dig frem til dit næste udstyr!</p>",
+            "button_url": "shopify://pages/showroom-og-vores-abningstider",
+            "button_text": "Se åbningstiderne her"
           }
         },
-        "logo_WVaFH9": {
-          "type": "logo",
+        "item_yKraHR": {
+          "type": "item",
           "settings": {
-            "logo": "shopify://shop_images/kisspng-atomic-skis-logo-alpine-skiing-atomic-5b35e104caf398.4950810315302576688313.png",
-            "logo_width": 120,
-            "link": "shopify://collections/atomic"
+            "image": "shopify://shop_images/butik8.jpg",
+            "image_rotation_degrees": 1.5,
+            "subheading": "Skibutik i Fredericia",
+            "title": "Besøg butikken",
+            "content": "<p>I skibutikken i Fredericia finder ud alle vores produkter samlet et sted. Vores søde medarbejder står altid klar til at guide dig frem til dit næste udstyr!</p>",
+            "button_url": "shopify://pages/showroom-og-vores-abningstider",
+            "button_text": "Se åbningstiderne her"
           }
         },
-        "logo_KWVP3K": {
-          "type": "logo",
+        "item_RyxEGV": {
+          "type": "item",
           "settings": {
-            "logo": "shopify://shop_images/fischer-logo-png-transparent.png",
-            "logo_width": 300,
-            "link": "shopify://collections/fischer"
-          }
-        },
-        "logo_pRjNUH": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/kisspng-logo-head-international-gmbh-brand-ski-5bfb097df00a22.1580975715431786219832.png",
-            "logo_width": 120,
-            "link": "shopify://collections/head"
-          }
-        },
-        "logo_YLbhGG": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/kisspng-salomon-group-ski-boots-skiing-clothing-5b0db055d62051.6296987415276237658771.png",
-            "logo_width": 120,
-            "link": "shopify://collections/salomon"
-          }
-        },
-        "logo_Pt3c3b": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/Logo_stoeckli.png",
-            "logo_width": 300,
-            "link": "shopify://collections/stockli"
+            "image": "shopify://shop_images/butik4.jpg",
+            "image_rotation_degrees": 0,
+            "subheading": "Skibutik i Fredericia",
+            "title": "Besøg butikken",
+            "content": "<p>I skibutikken i Fredericia finder ud alle vores produkter samlet et sted. Vores søde medarbejder står altid klar til at guide dig frem til dit næste udstyr!</p>",
+            "button_url": "shopify://pages/showroom-og-vores-abningstider",
+            "button_text": "Se åbningstiderne her"
           }
         }
       },
       "block_order": [
-        "logo_qQFeVk",
-        "logo_WVaFH9",
-        "logo_KWVP3K",
-        "logo_pRjNUH",
-        "logo_YLbhGG",
-        "logo_Pt3c3b"
+        "item_xzd7NV",
+        "item_yKraHR",
+        "item_RyxEGV"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
-        "stack_mobile": false,
-        "title": "Brands",
-        "content": "<p>Vi sælger brugt og nyt udstyr fra nogle af de mest populære brands i branchen</p>",
-        "text_alignment": "center",
-        "items_per_row": 7,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
         "background": "",
         "background_gradient": "",
         "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "logo_item_background": "",
-        "logo_item_border": ""
+        "button_background": "",
+        "button_text_color": ""
       }
     },
     "media_grid_d3wVKd": {
@@ -814,7 +793,7 @@
     "text_with_icons_DAPYMM",
     "bc8d07a6-9b0d-4bfb-8e41-07321f922d9e",
     "media_grid_pXKJpy",
-    "logo_list_KYBqFX",
+    "multiple_images_with_text_G6ekje",
     "media_grid_d3wVKd",
     "d066db11-1234-4544-9320-5a28927212cd",
     "media_grid_gz7V4p",
