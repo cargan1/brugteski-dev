@@ -47,8 +47,8 @@
           "settings": {
             "image": "shopify://shop_images/Butik1.jpg",
             "image_rotation_degrees": -2,
-            "subheading": "",
-            "title": "Aktuelle Åbningstider",
+            "subheading": "Aktuelle",
+            "title": "Åbningstider",
             "content": "<p>{{ localization.market.metafields.custom.fredericia_open_hours | metafield_tag }}</p>",
             "button_url": "",
             "button_text": ""
@@ -59,8 +59,8 @@
           "settings": {
             "image": "shopify://shop_images/butik4.jpg",
             "image_rotation_degrees": 0,
-            "subheading": "",
-            "title": "Aktuelle Åbningstider",
+            "subheading": "Aktuelle",
+            "title": "Åbningstider",
             "content": "<p>{{ localization.market.metafields.custom.fredericia_open_hours | metafield_tag }}</p>",
             "button_url": "",
             "button_text": ""
@@ -71,8 +71,8 @@
           "settings": {
             "image": "shopify://shop_images/butik2.jpg",
             "image_rotation_degrees": 0,
-            "subheading": "",
-            "title": "Aktuelle Åbningstider",
+            "subheading": "Aktuelle",
+            "title": "Åbningstider",
             "content": "<p>{{ localization.market.metafields.custom.fredericia_open_hours | metafield_tag }}</p>",
             "button_url": "",
             "button_text": ""
