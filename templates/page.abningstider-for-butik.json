@@ -122,7 +122,14 @@
         "item_VBRxGt": {
           "type": "item",
           "settings": {
-            "title": "December til Uge 6",
+            "title": "December",
+            "content": "<p>Write content to help your customers to better understand your products or policies.</p>"
+          }
+        },
+        "item_RLXGkK": {
+          "type": "item",
+          "settings": {
+            "title": "Title",
             "content": "<p>Write content to help your customers to better understand your products or policies.</p>"
           }
         },
@@ -139,6 +146,7 @@
         "item_fBaJqA",
         "item_D8L9Df",
         "item_VBRxGt",
+        "item_RLXGkK",
         "item_yqQkra"
       ],
       "settings": {
