@@ -29,7 +29,7 @@
       "disabled": true,
       "settings": {
         "privacy_bar_title": "Cookie policy",
-        "privacy_bar_content": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.<\/p>"
+        "privacy_bar_content": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.</p>"
       }
     },
     "cart-drawer": {
@@ -75,12 +75,6 @@
     "store-drawer": {
       "type": "store-drawer",
       "blocks": {
-        "subheading_XzkqCR": {
-          "type": "subheading",
-          "settings": {
-            "text": "Jylland\/Fyn"
-          }
-        },
         "heading_WtF4jx": {
           "type": "heading",
           "settings": {
@@ -93,19 +87,19 @@
         "richtext_WQQkCy": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Vi har en butik i Fredericia, beliggende 2 minutter fra motorvejen, hvor du og din familie kan komme forbi og se\/prøve alle vores produkter.<\/p>"
+            "content": "<p>Vi har en butik i Fredericia, beliggende 2 minutter fra motorvejen, hvor du og din familie kan komme forbi og se/prøve alle vores produkter.</p>"
           }
         },
         "richtext_Ux3fxU": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>Åbningstider<\/strong><\/p><p>{{ localization.market.metafields.custom.fredericia_open_hours | metafield_tag }}<\/p>"
+            "content": "<p><strong>Åbningstider</strong></p><p>{{ localization.market.metafields.custom.fredericia_open_hours | metafield_tag }}</p>"
           }
         },
         "image_PgUnC7": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/butik.bred.g.jpg",
+            "image": "shopify://shop_images/butik13.jpg",
             "width_mode": "custom",
             "max_width": 600,
             "mobile_max_width": 400
@@ -117,14 +111,13 @@
             "style": "fill",
             "size": "xl",
             "text": "Se adressen her",
-            "url": "shopify:\/\/pages\/showroom-og-vores-abningstider",
+            "url": "shopify://pages/showroom-og-vores-abningstider",
             "background": "",
             "text_color": ""
           }
         }
       },
       "block_order": [
-        "subheading_XzkqCR",
         "heading_WtF4jx",
         "richtext_WQQkCy",
         "richtext_Ux3fxU",
