@@ -87,7 +87,7 @@
       "settings": {
         "full_width": true,
         "images_layout": "stacked",
-        "collage_images_alignment": "shifted",
+        "collage_images_alignment": "top",
         "background": "",
         "background_gradient": "",
         "text_color": "",
