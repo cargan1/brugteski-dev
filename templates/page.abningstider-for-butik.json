@@ -101,42 +101,42 @@
         "item_prBJUa": {
           "type": "item",
           "settings": {
-            "title": "Påske til August",
-            "content": ""
+            "title": "Påske til August - Sommerlukket",
+            "content": "<p>awd</p>"
           }
         },
         "item_fBaJqA": {
           "type": "item",
           "settings": {
-            "title": "September",
+            "title": "September - Åbent igen",
             "content": "<p>Write content to help your customers to better understand your products or policies.</p>"
           }
         },
         "item_D8L9Df": {
           "type": "item",
           "settings": {
-            "title": "Oktober til November",
+            "title": "Oktober til November - Lavsæson",
             "content": "<p>Write content to help your customers to better understand your products or policies.</p>"
           }
         },
         "item_VBRxGt": {
           "type": "item",
           "settings": {
-            "title": "December",
+            "title": "December - Næste højsæson",
             "content": "<p>Write content to help your customers to better understand your products or policies.</p>"
           }
         },
         "item_RLXGkK": {
           "type": "item",
           "settings": {
-            "title": "Januar til Vinterferien",
+            "title": "Januar til Vinterferien - Højsæson",
             "content": "<p>Write content to help your customers to better understand your products or policies.</p>"
           }
         },
         "item_yqQkra": {
           "type": "item",
           "settings": {
-            "title": "Vinterferien til Påske",
+            "title": "Vinterferien til Påske - Lavsæson",
             "content": "<p>Write content to help your customers to better understand your products or policies.</p>"
           }
         }
