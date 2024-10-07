@@ -101,8 +101,8 @@
         "item_prBJUa": {
           "type": "item",
           "settings": {
-            "title": "Påske til August",
-            "content": "<p>Write content to help your customers to better understand your products or policies.</p>"
+            "title": "Påske til August - Off-season",
+            "content": ""
           }
         },
         "item_fBaJqA": {
@@ -149,12 +149,11 @@
         "item_RLXGkK",
         "item_yqQkra"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
         "subheading": "Overblik over de forskellige åbningstider",
         "title": "Løbende åbningstider",
-        "content": "<p>Grundet skisæsonens mange ændringer, fra lav til højsæson, opdater vi løbende vores åbningstider.</p><p>Det er derfor værd at holde øje med vores åbningstider, for de forskellige tidspunkter af året, for at se hvornår det bedst passer jer at kigge forbi.</p><p></p><p></p>",
+        "content": "<p>Grundet skisæsonens mange ændringer, fra lav til højsæson, opdater vi løbende vores åbningstider.</p><p>Det er derfor værd at holde øje med vores åbningstider, for at se hvornår det bedst passer jer at kigge forbi.</p><p>Genneralt har vi lukket om sommeren fra påske til og med August. I september begynder vi at have åbent igen, hvor vi så løbende opjusterer vores åbningstider indtil vi nærmer os højsæsonen i Januar/februar. Efter vinterferien i uge 7 begynder vi så småt at nedjuster vores åbningstider igen mod afsæutning af skisæoen i påskeferien.</p><p>Vores hjemmeside og kundeservice har åbent året rundt, så du altid vil kunne købe udstyr og komme i kontakt med os!</p><p></p><p></p>",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
