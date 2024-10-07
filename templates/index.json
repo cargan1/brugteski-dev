@@ -332,6 +332,7 @@
         "logo_YLbhGG",
         "logo_Pt3c3b"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_mobile": false,
