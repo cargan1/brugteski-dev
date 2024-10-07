@@ -173,6 +173,59 @@
         "overlay_opacity": 30,
         "tab_label": ""
       }
+    },
+    "multiple_images_with_text_qDKfef": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_DCNerz": {
+          "type": "item",
+          "settings": {
+            "image_rotation_degrees": -2,
+            "subheading": "Find vejen her",
+            "title": "Adresse på skibutikken",
+            "content": "<p>Butikken ligger<strong> 2 minutter fra motorvejen </strong>ved afkørelse 59 Fredericia S</p><p>Der er <strong>gratis parkering</strong> for alle</p><p>Adressen er <strong>Krogsagervej 50, 7000 Fredericia</strong></p>",
+            "button_url": "https://maps.app.goo.gl/kkirbtRgWymWRdvY8",
+            "button_text": "Se på Google Maps her"
+          }
+        },
+        "item_TpCVr8": {
+          "type": "item",
+          "settings": {
+            "image_rotation_degrees": 1.5,
+            "subheading": "Find vejen her",
+            "title": "Adresse på skibutikken",
+            "content": "<p>Butikken ligger<strong> 2 minutter fra motorvejen </strong>ved afkørelse 59 Fredericia S</p><p>Der er <strong>gratis parkering</strong> for alle</p><p>Adressen er <strong>Krogsagervej 50, 7000 Fredericia</strong></p>",
+            "button_url": "https://maps.app.goo.gl/kkirbtRgWymWRdvY8",
+            "button_text": "Se på Google Maps her"
+          }
+        },
+        "item_KeLMWd": {
+          "type": "item",
+          "settings": {
+            "image_rotation_degrees": 0,
+            "subheading": "Find vejen her",
+            "title": "Adresse på skibutikken",
+            "content": "<p>Butikken ligger<strong> 2 minutter fra motorvejen </strong>ved afkørelse 59 Fredericia S</p><p>Der er <strong>gratis parkering</strong> for alle</p><p>Adressen er <strong>Krogsagervej 50, 7000 Fredericia</strong></p>",
+            "button_url": "https://maps.app.goo.gl/kkirbtRgWymWRdvY8",
+            "button_text": "Se på Google Maps her"
+          }
+        }
+      },
+      "block_order": [
+        "item_DCNerz",
+        "item_TpCVr8",
+        "item_KeLMWd"
+      ],
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
     }
   },
   "order": [
@@ -180,6 +233,7 @@
     "main",
     "multiple_images_with_text_Y7YWHc",
     "rich_text_hBkBwT",
-    "video_4cXTpn"
+    "video_4cXTpn",
+    "multiple_images_with_text_qDKfef"
   ]
 }
