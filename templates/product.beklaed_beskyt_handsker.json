@@ -316,7 +316,7 @@
             "column_size": "3",
             "title": "Fordele hos os",
             "heading_tag": "h4",
-            "content": "<p>✔️ Danmarks største udvalg af brugte ski<br/>✔️ Én sæsons pasningsgaranti<br/>✔️ 24 måneders fuld reklamationsret<br/>✔️ Gratis fragt og returnering<br/>✔️ E-mærket sikret webshop<br/>✔️ 4,5 stjerner på Trustpilot<br/>✔️ Ski-garanti for alle børn og juniorer<br/>✔️ Vi køber dit udstyr tilbage igen</p><p><a href=\"https://brugteski.dk/pages/dig-som-kunde\" title=\"Dig som kunde hos Brugteski.dk\">Se alle dine fordele her</a></p>",
+            "content": "<p>✔️ Danmarks største udvalg af brugte ski<br/>✔️ Én sæsons pasningsgaranti<br/>✔️ 24 måneders fuld reklamationsret<br/>✔️ Gratis returnering<br/>✔️ E-mærket sikret webshop<br/>✔️ +4,5 stjerner på Trustpilot<br/>✔️ Ski-garanti for alle børn og juniorer<br/>✔️ Vi køber dit udstyr tilbage igen</p><p><a href=\"https://brugteski.dk/pages/dig-som-kunde\" title=\"Dig som kunde hos Brugteski.dk\">Se alle dine fordele her</a></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -328,7 +328,7 @@
             "column_size": "3",
             "title": "Pasningsgaranti",
             "heading_tag": "h4",
-            "content": "<p>Det er svært at købe udstyr, uden at prøve det inden. Det er desværre ikke en mulighed, så derfor tilbyder vi én sæson pasningsgaranti på alle vores produkter. </p><p>Du har derfor mulighed for at få byttet alt brugt udstyr til noget andet, straks efter du er kommet hjem fra skiferie. </p><p><strong>Byttepris KUN: 199 kr. pr. produkt</strong><br/></p>",
+            "content": "<p>Vi ved, at det kan være svært at købe udstyr uden at prøve det først. Derfor tilbyder vi én sæson pasningsgaranti på alle vores produkter. Det betyder, at du kan få byttet alt brugt udstyr, lige efter du er kommet hjem fra skiferien.</p><p><strong>Byttepris KUN: 199 kr. pr. produkt</strong><br/></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -340,7 +340,7 @@
             "column_size": "3",
             "title": "Vi køber udstyret tilbage igen",
             "heading_tag": "h4",
-            "content": "<p>Hvis du enten har nogle gamle ski på loftet, eller gerne vil have opgraderet dem du har købt fra os, så giver vi en byttepris på det!</p><p>Vi kan både betale dig kontant eller gennem gavekort til Brugteski.dk. (Du får det største beløb via gavekort)</p>",
+            "content": "<p>Har du gamle ski på loftet eller vil du opgradere det udstyr, du har købt hos os? Vi tilbyder en byttepris! Du kan vælge at få udbetalt pengene kontant eller som et gavekort til Brugteski.dk (du får mest værdi via gavekortet).</p>",
             "link_url": "shopify://pages/byt-til-nyt",
             "link_text": "Se hvordan du gør her",
             "link_style": "button"
@@ -359,7 +359,7 @@
         "text_alignment": "start",
         "subheading": "",
         "title": "Få ro i maven ved at handle med os!",
-        "content": "<p>Hos Brugteski.dk er det vigtige at alle vores kunder får en god oplevelse uanset hvad. <br/>Derfor tilbyder vi:</p>",
+        "content": "<p>Hos Brugteski.dk er det vigtigste, at vores kunder altid får en god oplevelse. Derfor tilbyder vi:</p>",
         "background": "",
         "background_gradient": "",
         "text_color": "",
