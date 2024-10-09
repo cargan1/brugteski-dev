@@ -81,6 +81,12 @@
             "size_chart_page": ""
           }
         },
+        "19937545-298a-4651-9687-4525f0a97a0a": {
+          "type": "inventory",
+          "settings": {
+            "low_inventory_threshold": 10
+          }
+        },
         "6d1e7437-32cc-4b14-9f60-3b818cbed684": {
           "type": "text",
           "settings": {
@@ -97,12 +103,6 @@
             "payment_button_text_color": ""
           }
         },
-        "19937545-298a-4651-9687-4525f0a97a0a": {
-          "type": "inventory",
-          "settings": {
-            "low_inventory_threshold": 10
-          }
-        },
         "d3e695ec-c2c1-416b-9482-cc06f0166cf0": {
           "type": "payment-icons",
           "settings": {
@@ -113,10 +113,17 @@
           "settings": {
           }
         },
-        "96617279-0ca8-4ed8-ad3d-5c55c13472ec": {
-          "type": "separator",
-          "disabled": true,
+        "description_J9gBym": {
+          "type": "description",
           "settings": {
+            "collapse_content": true
+          }
+        },
+        "collapsible_text_jt4cCP": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Detaljer",
+            "content": "<p>{{ product.metafields.custom.detaljer | metafield_tag }}</p>"
           }
         }
       },
@@ -128,12 +135,13 @@
         "separator",
         "product_variations_ikjT9j",
         "variant_picker",
+        "19937545-298a-4651-9687-4525f0a97a0a",
         "6d1e7437-32cc-4b14-9f60-3b818cbed684",
         "buy_buttons",
-        "19937545-298a-4651-9687-4525f0a97a0a",
         "d3e695ec-c2c1-416b-9482-cc06f0166cf0",
         "ba3b5461-8a7f-4d6a-bdc0-bfcaad62fae4",
-        "96617279-0ca8-4ed8-ad3d-5c55c13472ec"
+        "description_J9gBym",
+        "collapsible_text_jt4cCP"
       ],
       "custom_css": [
         "h1 {font-size: 32px;}"
