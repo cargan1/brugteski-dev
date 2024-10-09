@@ -635,7 +635,7 @@
     "featured_collection_Ta9pQN": {
       "type": "featured-collection",
       "settings": {
-        "collection": "skihandsker",
+        "collection": "halsedisser",
         "products": [
 
         ],
@@ -646,7 +646,7 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 5,
         "subheading": "",
-        "title": "Top 5 populær skihandsker og tilbehør",
+        "title": "Top 5 populær halsedisser og tilbehør",
         "content": "",
         "link_url": "",
         "link_text": "",
@@ -687,10 +687,10 @@
         "image_gK6aWV": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/halsedisser1.g.jpg",
-            "title": "Halsedisser",
+            "image": "shopify://shop_images/skihjelm.g_45090bff-1f37-4fbb-acd5-25fb57f2ee0f.jpg",
+            "title": "Skihjelme",
             "heading_tag": "h4",
-            "link_url": "shopify://collections/halsedisser",
+            "link_url": "shopify://collections/skihjelme",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 2,
