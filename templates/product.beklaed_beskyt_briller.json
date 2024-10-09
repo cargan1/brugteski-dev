@@ -494,7 +494,7 @@
             "column_size": "4",
             "title": "Helt nyt udstyr",
             "heading_tag": "h4",
-            "content": "<p>Fabriksnyt udstyr ligger som i ordet, helt nyt. Det vil altså sige udstyr som intet fejler, og helt ubrugt!</p>",
+            "content": "<p>Fabriksnyt betyder helt nyt og ubrugt udstyr, uden fejl eller mangler.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -507,7 +507,7 @@
             "column_size": "4",
             "title": "Lidt til ingen spor af slid",
             "heading_tag": "h4",
-            "content": "<p>Guld udstyr er klart vores pæneste udstyr, og står rigtigt pænt. Her er der næsten ingen spor af brug, og det kan være svært at se skrammer.</p>",
+            "content": "<p>Guldstand er vores pæneste brugte udstyr, der ser næsten nyt ud med kun meget få til ingen skrammer.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -520,7 +520,7 @@
             "column_size": "4",
             "title": "Spor af slid",
             "heading_tag": "h4",
-            "content": "<p>Sølv udstyr er vores mest almindelige stand. Her får man udstyr som godt kan se har været brugt, men ingen store ridser eller hakker har.</p>",
+            "content": "<p>Sølvstand er vores mest almindelige. Her vil du se, at udstyret er brugt, men uden større ridser eller hakker.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -533,7 +533,7 @@
             "column_size": "4",
             "title": "Større ridser og hakker",
             "heading_tag": "h4",
-            "content": "<p>Bronze udstyr er det mest slidte udstyr, hvor man kan finde store ridser og hakker. Alle skrammer er kosmetiske, og har kun betydning for udseende.</p>",
+            "content": "<p>Bronzeudstyr er det mest slidte. Det har større ridser og hakker, men påvirker kun udseendet og ikke funktionaliteten.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -553,7 +553,7 @@
         "text_alignment": "start",
         "subheading": "",
         "title": "Stand-beskrivelse",
-        "content": "<p>Stand beskriver hvor nyt/brugt udstyr er, så du ved hvad du kan forvente ved modtagelse af produkterne.<br/>Stand har ingen betydning for kvaliteten af udstyret, kun hvor mange kosmetiske skrammer udstyret har. Derved har det også betydning for prisen på udstyret. Nu dårligere 'Stand' et produkt er, nu billigere er det også. <a href=\"/pages/standbeskrivelse\" target=\"_blank\" title=\"Standbeskrivelse\">Se videoen, og læs hele stand-beskrivelsen her!</a></p>",
+        "content": "<p>Stand beskriver, hvor nyt eller brugt udstyr er, så du ved, hvad du kan forvente, når du modtager det. Standen påvirker ikke udstyrets kvalitet, men beskriver, hvor mange kosmetiske skrammer det har. Dette har også betydning for prisen – jo mere brugt udstyret er, desto lavere er prisen.<br/><a href=\"/pages/standbeskrivelse\" target=\"_blank\" title=\"Standbeskrivelse\">Se videoen, og læs hele stand-beskrivelsen her!</a></p>",
         "background": "#fafafa",
         "background_gradient": "",
         "text_color": "",
@@ -566,16 +566,17 @@
         "image_QcHhdc": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/butik14.jpg",
             "media_width": 50,
             "media_position": "start",
-            "text_position": "place-self-center text-center",
+            "text_position": "place-self-start text-start",
             "icon": "none",
             "icon_width": 48,
-            "subheading": "",
-            "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-            "link_text": "",
-            "link_url": "",
+            "subheading": "Fredericia",
+            "title": "Besøg skibutikken",
+            "content": "<p>Vi har en skibutik i Fredericia, hvor du og din familie kan komme forbi, se og prøve vores produkter. Vores venlige personale står klar til at hjælpe jer med at finde det helt rigtige udstyr.</p>",
+            "link_text": "Se adressen her",
+            "link_url": "shopify://pages/showroom-og-vores-abningstider",
             "background": "#000000",
             "background_gradient": "",
             "text_color": "#ffffff",
@@ -591,7 +592,7 @@
       "settings": {
         "full_width": false,
         "enable_parallax": true,
-        "spacing": "small",
+        "spacing": "none",
         "tab_label": "Butik"
       }
     },
@@ -600,8 +601,8 @@
       "settings": {
         "full_width": true,
         "show_icon": true,
-        "title": "Blive førstevælgeren",
-        "content": "<p>Hver 1-2 måneder får vi nye brugte produkter på lager. Hvis det udstyr du leder efter, er udsolgt nu, så er der en stor chance for at det kommer på lager igen!<br/>Tilmeld dig vores nyhedsbrev, og vær den første til at vælge imellem det nye udstyr.</p>",
+        "title": "Få tilbuddene før alle andre!",
+        "content": "<p>Tilmeld dig vores mailliste, og vær blandt de første, der hører om nye tilbud. Du får også eksklusive tips og tricks til din skiferie samt chancen for at deltage i vores løbende konkurrencer.</p>",
         "button_text": "Tilmeld",
         "subtext": "Du vil samtidig tilmelde dig Brugteski.dk's nyhedsbrev, hvor du vil høre om tilbud og guides indenfor ski verdenen. Du kan til enhver tid afmelde dig nyhedsbrevet igen.",
         "background": "",
