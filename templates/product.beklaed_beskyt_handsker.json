@@ -743,27 +743,6 @@
         "background_gradient": ""
       }
     },
-    "recently_viewed_products_zr8wer": {
-      "type": "recently-viewed-products",
-      "settings": {
-        "full_width": true,
-        "products_count": 5,
-        "stack_products": false,
-        "show_progress_bar": false,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 5,
-        "subheading": "",
-        "title": "Set for nylig",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
     "6fe9e5e3-41c0-4ad1-a62e-5e2b2ba02828": {
       "type": "trustpilot-stjerner",
       "settings": {
@@ -786,7 +765,6 @@
     "05de6085-a3e7-458a-ad6e-f17eb2c7d525",
     "featured_collection_Ta9pQN",
     "media_grid_39EPCK",
-    "recently_viewed_products_zr8wer",
     "6fe9e5e3-41c0-4ad1-a62e-5e2b2ba02828"
   ]
 }
