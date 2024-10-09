@@ -594,8 +594,8 @@
       "settings": {
         "full_width": true,
         "subheading": "Kontakt os",
-        "title": "Har du spørgsmål til produkterne?",
-        "content": "<p>Hvis du har spørgsmål til dette produkt eller et andet produkt, er du meget velkommen til at kontakte os!</p><p>Du er også velkommen til at ringe til os på +45 3020 9975 - Telefonen er åbent alle dage fra 10.00 til 18.00</p>",
+        "title": "Har du spørgsmål til os?",
+        "content": "<p>Hvis du har spørgsmål til dette produkt eller noget helt andet, er du meget velkommen til at kontakte os!</p><p>Du kan også ringe til os på +45 3020 9975 – telefonen har åbent alle dage fra 10.00 til 18.00.</p>",
         "text_position": "start",
         "contact_form_size": "large",
         "background": "",
