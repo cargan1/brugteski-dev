@@ -196,12 +196,6 @@
             "title": "Stand-beskrivelse"
           }
         },
-        "890659ae-884a-4eae-b699-3c2e89232488": {
-          "type": "tab",
-          "settings": {
-            "title": "Email"
-          }
-        },
         "tab_jEJ6CE": {
           "type": "tab",
           "settings": {
@@ -213,6 +207,12 @@
           "settings": {
             "title": "Butik"
           }
+        },
+        "890659ae-884a-4eae-b699-3c2e89232488": {
+          "type": "tab",
+          "settings": {
+            "title": "Email"
+          }
         }
       },
       "block_order": [
@@ -221,9 +221,9 @@
         "fb12e8de-6ea1-4331-84ff-0c8bf1d2246d",
         "tab_tT4iWg",
         "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-3",
-        "890659ae-884a-4eae-b699-3c2e89232488",
         "tab_jEJ6CE",
-        "tab_rA6zzp"
+        "tab_rA6zzp",
+        "890659ae-884a-4eae-b699-3c2e89232488"
       ],
       "settings": {
         "enable_tabs": true,
@@ -259,6 +259,51 @@
         "background_gradient": "",
         "text_color": "",
         "tab_label": "hej"
+      }
+    },
+    "82a4bfbb-5629-4257-a61a-8f3f9f259c01": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18752117866841__82a4bfbb-5629-4257-a61a-8f3f9f259c01-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Størrelsesguide",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--18752117866841__82a4bfbb-5629-4257-a61a-8f3f9f259c01-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Er du i tvivl om længden på dit udstyr? Så har vi lavet en størrelsesguide, som kan hjælpe dig med at finde den helt rigtige størrelse på udstyr!</p>"
+          }
+        },
+        "b48753b6-b85b-4cad-a1a1-bdc199759c28": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Se størrelsesguides",
+            "url": "shopify://blogs/udstyr-guides",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18752117866841__82a4bfbb-5629-4257-a61a-8f3f9f259c01-heading-1",
+        "template--18752117866841__82a4bfbb-5629-4257-a61a-8f3f9f259c01-richtext-1",
+        "b48753b6-b85b-4cad-a1a1-bdc199759c28"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "tab_label": "Størrelsesguide"
       }
     },
     "de589c77-3f04-4fd3-99e3-118b938fa69a": {
@@ -429,15 +474,15 @@
       ],
       "settings": {
         "full_width": true,
-        "subheading": "",
-        "title": "Typiske spørgsmål",
-        "content": "<p>Se de spørgsmål, vi oftest får, så du hurtigt kan finde svar uden at være i tvivl.</p>",
-        "team_avatar_width": 160,
+        "subheading": "Få svar her",
+        "title": "Typiske spørgsmål og kundeservice",
+        "content": "<p>Se de spørgsmål, vi oftest får, så du hurtigt kan finde svar.</p><p>Hvis du ikke kan finde det svar her, så er du altid mere end velkommen til at kontakte os!<br/><strong>Mail:</strong> Info@brugteski.dk<br/><strong>Tlf.:</strong> +45 3020 9975</p><p>Vi besvarer alle mails indenfor 24 timer i hverdagene, og vores telefon har åbent hver dag fra 10.00 til 18.00</p>",
+        "team_avatar_width": 230,
         "support_hours": "",
         "answer_time": "",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "center",
+        "button_text": "Se kontaktformular her",
+        "button_url": "shopify://pages/kontakt-os",
+        "text_position": "start",
         "background": "",
         "background_gradient": "",
         "text_color": "",
@@ -448,51 +493,6 @@
         "accordion_background": "",
         "accordion_text_color": "",
         "tab_label": "FAQ"
-      }
-    },
-    "82a4bfbb-5629-4257-a61a-8f3f9f259c01": {
-      "type": "rich-text",
-      "blocks": {
-        "template--18752117866841__82a4bfbb-5629-4257-a61a-8f3f9f259c01-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Størrelsesguide",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "template--18752117866841__82a4bfbb-5629-4257-a61a-8f3f9f259c01-richtext-1": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Er du i tvivl om længden på dit udstyr? Så har vi lavet en størrelsesguide, som kan hjælpe dig med at finde den helt rigtige størrelse på udstyr!</p>"
-          }
-        },
-        "b48753b6-b85b-4cad-a1a1-bdc199759c28": {
-          "type": "button",
-          "settings": {
-            "style": "fill",
-            "size": "xl",
-            "text": "Se størrelsesguides",
-            "url": "shopify://blogs/udstyr-guides",
-            "background": "",
-            "text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--18752117866841__82a4bfbb-5629-4257-a61a-8f3f9f259c01-heading-1",
-        "template--18752117866841__82a4bfbb-5629-4257-a61a-8f3f9f259c01-richtext-1",
-        "b48753b6-b85b-4cad-a1a1-bdc199759c28"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "start",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "tab_label": "Størrelsesguide"
       }
     },
     "aa73c3dc-82ca-485c-a544-d5b8dd955818": {
@@ -571,23 +571,6 @@
         "tab_label": "Stand-beskrivelse"
       }
     },
-    "d2b619b5-d27a-4d56-bdbc-01f473ffb4a7": {
-      "type": "newsletter",
-      "settings": {
-        "full_width": true,
-        "show_icon": true,
-        "title": "Få tilbuddene før alle andre!",
-        "content": "<p>Tilmeld dig vores mailliste, og vær blandt de første, der hører om nye tilbud. Du får også eksklusive tips og tricks til din skiferie samt chancen for at deltage i vores løbende konkurrencer.</p>",
-        "button_text": "Tilmeld",
-        "subtext": "Du vil samtidig tilmelde dig Brugteski.dk's nyhedsbrev, hvor du vil høre om tilbud og guides indenfor ski verdenen. Du kan til enhver tid afmelde dig nyhedsbrevet igen.",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": "",
-        "tab_label": "Email"
-      }
-    },
     "contact_khHL7e": {
       "type": "contact",
       "settings": {
@@ -643,6 +626,23 @@
         "enable_parallax": true,
         "spacing": "none",
         "tab_label": "Butik"
+      }
+    },
+    "d2b619b5-d27a-4d56-bdbc-01f473ffb4a7": {
+      "type": "newsletter",
+      "settings": {
+        "full_width": true,
+        "show_icon": true,
+        "title": "Få tilbuddene før alle andre!",
+        "content": "<p>Tilmeld dig vores mailliste, og vær blandt de første, der hører om nye tilbud. Du får også eksklusive tips og tricks til din skiferie samt chancen for at deltage i vores løbende konkurrencer.</p>",
+        "button_text": "Tilmeld",
+        "subtext": "Du vil samtidig tilmelde dig Brugteski.dk's nyhedsbrev, hvor du vil høre om tilbud og guides indenfor ski verdenen. Du kan til enhver tid afmelde dig nyhedsbrevet igen.",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": "",
+        "tab_label": "Email"
       }
     },
     "05de6085-a3e7-458a-ad6e-f17eb2c7d525": {
@@ -809,9 +809,9 @@
     "322fa8a3-0532-4ece-82b8-7999ffdd7f89",
     "faq_rgE7Bg",
     "aa73c3dc-82ca-485c-a544-d5b8dd955818",
-    "d2b619b5-d27a-4d56-bdbc-01f473ffb4a7",
     "contact_khHL7e",
     "1b924801-2f39-4b3d-97cf-6ac91e20f85c",
+    "d2b619b5-d27a-4d56-bdbc-01f473ffb4a7",
     "05de6085-a3e7-458a-ad6e-f17eb2c7d525",
     "featured_collection_Ta9pQN",
     "media_grid_39EPCK",
