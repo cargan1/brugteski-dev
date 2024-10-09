@@ -532,7 +532,7 @@
             "column_size": "4",
             "title": "Spor af slid",
             "heading_tag": "h4",
-            "content": "<p>Sølv udstyr er vores mest almindelige stand. Her får man udstyr som godt kan se har været brugt, men ingen store ridser eller hakker har.</p>",
+            "content": "<p>Sølvstand er vores mest almindelige. Her vil du se, at udstyret er brugt, men uden større ridser eller hakker.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -545,7 +545,7 @@
             "column_size": "4",
             "title": "Større ridser og hakker",
             "heading_tag": "h4",
-            "content": "<p>Bronze udstyr er det mest slidte udstyr, hvor man kan finde store ridser og hakker. Alle skrammer er kosmetiske, og har kun betydning for udseende.</p>",
+            "content": "<p>Bronzeudstyr er det mest slidte. Det har større ridser og hakker, men påvirker kun udseendet og ikke funktionaliteten.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
