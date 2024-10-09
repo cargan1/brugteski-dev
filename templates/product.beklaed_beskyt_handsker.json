@@ -594,8 +594,8 @@
       "settings": {
         "full_width": true,
         "subheading": "Kontakt os",
-        "title": "Har du spørgsmål til handskerne?",
-        "content": "<p><strong>Har du nogle spørgsmål til disse </strong><strong>{{ product.title }}</strong><strong> skihandsker, eller hvilket som helst andet produkt - så tøv ikke med at tage fat i os!</strong></p><p>Du er også velkommen til at ringe til os på +45 3020 9975 - Telefonen er åbent alle dage fra 10.00 til 18.00</p>",
+        "title": "Har du spørgsmål til produkterne?",
+        "content": "<p>Hvis du har spørgsmål til dette produkt eller et andet produkt, er du meget velkommen til at kontakte os!</p><p>Du er også velkommen til at ringe til os på +45 3020 9975 - Telefonen er åbent alle dage fra 10.00 til 18.00</p>",
         "text_position": "start",
         "contact_form_size": "large",
         "background": "",
