@@ -668,20 +668,128 @@
         "text_gradient": ""
       }
     },
-    "fb969a0a-fc24-4610-814b-104c9172b8f5": {
-      "type": "related-products",
+    "featured_collection_Ta9pQN": {
+      "type": "featured-collection",
       "settings": {
-        "recommendations_count": 9,
+        "collection": "skihandsker",
         "products": [
 
         ],
         "full_width": true,
         "stack_products": false,
-        "show_progress_bar": true,
+        "show_progress_bar": false,
+        "products_count": 5,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
+        "subheading": "",
+        "title": "Top 5 populær skihandsker og tilbehør",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "media_grid_39EPCK": {
+      "type": "media-grid",
+      "blocks": {
+        "image_t7Qieq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Skindertoj.g1.jpg",
+            "title": "Skiundertøj",
+            "heading_tag": "h4",
+            "link_url": "shopify://collections/skiundertoj",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_gK6aWV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/halsedisser1.g.jpg",
+            "title": "Halsedisser",
+            "heading_tag": "h4",
+            "link_url": "shopify://collections/halsedisser",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_pp8wpw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/skisokker1.g.jpg",
+            "title": "Skisokker",
+            "heading_tag": "h4",
+            "link_url": "shopify://collections/skisokker",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_t7Qieq",
+        "image_gK6aWV",
+        "image_pp8wpw"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "recently_viewed_products_zr8wer": {
+      "type": "recently-viewed-products",
+      "settings": {
+        "full_width": true,
+        "products_count": 5,
+        "stack_products": false,
+        "show_progress_bar": false,
         "products_per_row_mobile": "1",
         "products_per_row_desktop": 5,
         "subheading": "",
-        "title": "Relevante produkter",
+        "title": "Set for nylig",
         "content": "",
         "background": "",
         "background_gradient": "",
@@ -712,7 +820,9 @@
     "contact_khHL7e",
     "1b924801-2f39-4b3d-97cf-6ac91e20f85c",
     "05de6085-a3e7-458a-ad6e-f17eb2c7d525",
-    "fb969a0a-fc24-4610-814b-104c9172b8f5",
+    "featured_collection_Ta9pQN",
+    "media_grid_39EPCK",
+    "recently_viewed_products_zr8wer",
     "6fe9e5e3-41c0-4ad1-a62e-5e2b2ba02828"
   ]
 }
