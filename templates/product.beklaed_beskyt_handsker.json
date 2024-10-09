@@ -164,12 +164,6 @@
         "input_text_color": ""
       }
     },
-    "197ba70e-7741-4b15-baa5-169de5e09b59": {
-      "type": "product-desc",
-      "settings": {
-        "tab_label": ""
-      }
-    },
     "fe071cc7-bbc8-4bb2-9731-6976ff8b16ae": {
       "type": "tabs-dev",
       "blocks": {
@@ -560,7 +554,6 @@
   "order": [
     "image_link_blocks_BHKeeF",
     "main",
-    "197ba70e-7741-4b15-baa5-169de5e09b59",
     "fe071cc7-bbc8-4bb2-9731-6976ff8b16ae",
     "4b2f4dad-beb3-4647-84b2-79522c534386",
     "322fa8a3-0532-4ece-82b8-7999ffdd7f89",
