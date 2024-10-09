@@ -277,7 +277,7 @@
         "template--18752117866841__de589c77-3f04-4fd3-99e3-118b938fa69a-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Vi tilbyder gratis fragt og returnering på alle ordrer! Vi vil gerne gøre det så nemt for alle vores kunder at købe brugt udstyr, uden det skal koste dem en krone! Du kan derfor roligt bestille udstyr fra os, og hvis du ikke kan lide det, kan det sendes retur kvit og frit!</p><ul><li><strong>Levering: </strong>Gratis 2-5 hverdages levering til valgfri GLS pakkeshop ved køb over 995 kr.</li><li><strong>Afhentning:</strong> Køb produkterne online, og afhent i butikken i Fredericia</li><li><strong>Returnering: </strong>Gratis 14 dages returning.<strong> </strong> Der medfølger et returneret label til alle ordrer, som er lige til at klistre på pakken.</li><li><strong>Ombytning: </strong>Ved ombytning kontakt <a href=\"/pages/kontakt-os\" title=\"Kontakt os\">kundeservice</a> inden, og vi finder frem til den bedste løsning for dig.</li><li><strong>Reservering: </strong>Ønsker du at reserver et produkt, kan det købes til 'Afhentning' ved kassen, og det bliver dermed sat til side for dig.</li></ul>"
+            "content": "<p>Vi tilbyder gratis fragt og retur på alle ordrer! Vi vil gerne gøre det nemt og bekvemt for vores kunder at handle brugt udstyr uden ekstra omkostninger. Derfor kan du trygt bestille hos os, og hvis du fortryder, kan du sende varen tilbage – helt gratis!</p><ul><li><strong>Levering:</strong> Gratis levering inden for 2-5 hverdage til din foretrukne GLS pakkeshop ved køb over 995 kr.</li><li><strong>Afhentning:</strong> Bestil online, og afhent i vores butik i Fredericia.</li><li><strong>Reservér produkt:</strong> Ønsker du at reservere et produkt? Vælg \"Afhentning\" ved checkout, så bliver varen sat til side for dig.</li><li><strong>Returnering:</strong> Gratis returnering inden for 14 dage. En returlabel er vedlagt din ordre, klar til at blive påsat pakken.</li><li><strong>Ombytning:</strong> Anvend vores gratis returlabel til fejlkøbet, og køb det rigtigt produkt på hjemmesiden.</li></ul><p></p>"
           }
         },
         "9af9ab54-affd-438a-901a-f62427d4792d": {
@@ -285,7 +285,7 @@
           "settings": {
             "style": "fill",
             "size": "lg",
-            "text": "Se mere om returnering af produkter",
+            "text": "Læs mere om returregler",
             "url": "shopify://pages/returnering",
             "background": "",
             "text_color": ""
