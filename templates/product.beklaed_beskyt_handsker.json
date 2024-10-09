@@ -215,11 +215,30 @@
         "border_thickness": 0
       }
     },
-    "4b2f4dad-beb3-4647-84b2-79522c534386": {
-      "type": "product-desc",
-      "disabled": true,
+    "rich_text_9C8t4X": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_PLYmpm": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h6",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_PLYmpm"
+      ],
       "settings": {
-        "tab_label": "Beskrivelse"
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "tab_label": "hej"
       }
     },
     "de589c77-3f04-4fd3-99e3-118b938fa69a": {
@@ -556,7 +575,7 @@
     "image_link_blocks_BHKeeF",
     "main",
     "fe071cc7-bbc8-4bb2-9731-6976ff8b16ae",
-    "4b2f4dad-beb3-4647-84b2-79522c534386",
+    "rich_text_9C8t4X",
     "de589c77-3f04-4fd3-99e3-118b938fa69a",
     "322fa8a3-0532-4ece-82b8-7999ffdd7f89",
     "82a4bfbb-5629-4257-a61a-8f3f9f259c01",
