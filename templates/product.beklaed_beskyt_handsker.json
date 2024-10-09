@@ -208,6 +208,12 @@
           "settings": {
             "title": "kontakt"
           }
+        },
+        "tab_rA6zzp": {
+          "type": "tab",
+          "settings": {
+            "title": "Butik"
+          }
         }
       },
       "block_order": [
@@ -217,7 +223,8 @@
         "ab3020de-324b-4afe-b163-9afbc91c441a",
         "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-3",
         "890659ae-884a-4eae-b699-3c2e89232488",
-        "tab_jEJ6CE"
+        "tab_jEJ6CE",
+        "tab_rA6zzp"
       ],
       "settings": {
         "enable_tabs": true,
@@ -610,21 +617,6 @@
         "tab_label": "Kontakt"
       }
     },
-    "05de6085-a3e7-458a-ad6e-f17eb2c7d525": {
-      "type": "scrolling-text",
-      "settings": {
-        "full_width": true,
-        "text": "64% billigere at købe brugte ski",
-        "text_size": "medium",
-        "text_style": "fill",
-        "scrolling_mode": "auto",
-        "scrolling_speed": 6,
-        "background": "#003eff",
-        "background_gradient": "",
-        "text_color": "#ffffff",
-        "text_gradient": ""
-      }
-    },
     "1b924801-2f39-4b3d-97cf-6ac91e20f85c": {
       "type": "media-with-text",
       "blocks": {
@@ -658,7 +650,22 @@
         "full_width": false,
         "enable_parallax": true,
         "spacing": "none",
-        "tab_label": ""
+        "tab_label": "Butik"
+      }
+    },
+    "05de6085-a3e7-458a-ad6e-f17eb2c7d525": {
+      "type": "scrolling-text",
+      "settings": {
+        "full_width": true,
+        "text": "64% billigere at købe brugte ski",
+        "text_size": "medium",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 6,
+        "background": "#003eff",
+        "background_gradient": "",
+        "text_color": "#ffffff",
+        "text_gradient": ""
       }
     },
     "fb969a0a-fc24-4610-814b-104c9172b8f5": {
@@ -703,8 +710,8 @@
     "aa73c3dc-82ca-485c-a544-d5b8dd955818",
     "d2b619b5-d27a-4d56-bdbc-01f473ffb4a7",
     "contact_khHL7e",
-    "05de6085-a3e7-458a-ad6e-f17eb2c7d525",
     "1b924801-2f39-4b3d-97cf-6ac91e20f85c",
+    "05de6085-a3e7-458a-ad6e-f17eb2c7d525",
     "fb969a0a-fc24-4610-814b-104c9172b8f5",
     "6fe9e5e3-41c0-4ad1-a62e-5e2b2ba02828"
   ]
