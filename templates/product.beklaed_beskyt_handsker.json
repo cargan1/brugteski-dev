@@ -373,28 +373,28 @@
           "type": "item",
           "settings": {
             "title": "Levering",
-            "content": "<p>Vi levere alle ordre indenfor 2 til 5 hverdage. Leveringen kan enten skal til valgfrit GLS pakkeshop eller hjemmelevering for en ekstra omkostning. Ved køb over 995 kr tilbyder vi gratis fragt til valgfri GLS pakkeshop.</p><p>Det er også muligt at bestiller din ordre til afhentning i <a href=\"/pages/showroom-og-vores-abningstider\" title=\"Butik og åbningstider\">butikken</a> for 0 kr. </p>"
+            "content": "<p>Vi leverer alle ordrer inden for 2-5 hverdage. Du kan vælge levering til en valgfri GLS pakkeshop eller hjemmelevering mod et ekstra gebyr. Ved køb over 995 kr. får du gratis fragt til GLS pakkeshop.</p><p>Du kan også vælge at afhente din ordre gratis i vores <a href=\"/pages/showroom-og-vores-abningstider\" title=\"Butik og åbningstider\">butik</a>.</p>"
           }
         },
         "item_zN9GzE": {
           "type": "item",
           "settings": {
             "title": "Returnering",
-            "content": "<p>Vi tilbyder gratis 14 dages returnering på alle ordre.</p><p>I pakken ligger der allerede et udskrevet returnerings label, så du hurtigt og nemt uden besvær kan returnere din ordre igen</p><p>Hvis du ønsker at returer din ordre, eller dele af den, ligger der en returnering seddel sammen med returnerings lablen i pakken. Denne seddel skal du udfylde, så når vi modtager pakken igen, ved hvor pengene skal hendes gen. Pak derefter de produkterne ned i papkassen som ud ønsker at returner sammen med returnerings sedler, taper pakken forsvarligt til og klister returnerings labelen udenpå det gamle label. Herefter vil du kunne aflever pakke ved din nærmeste pakkeshop, og så returnerer vi pengene så snart pakken lander i vores butik igen. </p>"
+            "content": "<p>Vi tilbyder gratis returnering inden for 14 dage.</p><p>I pakken finder du en returlabel, så du nemt kan sende ordren retur uden besvær. Udfyld den vedlagte returseddel, så vi ved, hvor vi skal returnere dine penge. Pak derefter de produkter, du ønsker at returnere, og klæb returlabelen udenpå pakken. Aflever pakken i en GLS pakkeshop, og vi refunderer pengene, så snart vi modtager pakken.</p>"
           }
         },
         "item_p8QxLg": {
           "type": "item",
           "settings": {
             "title": "Betaling",
-            "content": "<p>Vi tager imod alle de gængse betalingsløsninger som Mobilpay, Apple pay, Google pay og helt almindelig dankort/mastercard.</p><p>Ydermere tilbyder vi også at du kan få delt dine betalinger op i 4 rater via Anyday, så du ikke vil skulle betale hele beløbet med det samme.</p>"
+            "content": "<p>Vi accepterer alle gængse betalingsmetoder som MobilePay, Apple Pay, Google Pay og kreditkort (Visa/Mastercard). Du har også mulighed for at dele din betaling op i 4 rater med Anyday.</p>"
           }
         },
         "item_YUBV8V": {
           "type": "item",
           "settings": {
             "title": "Garanti og support",
-            "content": "<p>Alle vores produkter, om de er nye eller brugt, har 24 måneders reklamationsret. Det vil sige hvis det produkt du køber for os går i stykker under normalt brug de første 24 måneder, så dækker vi det for dig.</p><p>Har du spørgsmål eller andet til produkterne, både før og efter køb, så vil du altid kunne kontakte <a href=\"/pages/kontakt-os\" title=\"Kontakt os\">kundeservice</a>.</p>"
+            "content": "<p>Alle vores produkter, både nye og brugte, har 24 måneders reklamationsret. Det betyder, at vi dækker skader ved normalt brug inden for de første to år.</p><p>Har du spørgsmål til produkterne før eller efter købet, kan du altid kontakte vores <a href=\"/pages/kontakt-os\" title=\"Kontakt os\">kundeservice</a>.</p>"
           }
         },
         "item_cnGMDF": {
@@ -408,14 +408,14 @@
           "type": "item",
           "settings": {
             "title": "Tilgængelighed",
-            "content": "<p>Vi har kun et begrænset antal af de fleste produkter, og det er ikke sikker vi får flere på lager af præcis den type du søger. Du kan se den aktuelle tilgængelighed ved alle produkter. </p>"
+            "content": "<p>Vi har kun et begrænset antal af de fleste produkter. Hvis en vare er udsolgt, er det ikke sikkert, vi får den på lager igen. Du kan se lagerstatus på alle produkter på hjemmesiden.</p>"
           }
         },
         "item_7J7dMi": {
           "type": "item",
           "settings": {
             "title": "Anmeldelser og anbefalinger",
-            "content": "<p>Vi har ikke specifikke produktanmeldelser, men du vil kunne se vores anbefalinger af butikken <a href=\"https://dk.trustpilot.com/review/brugteski.dk\" title=\"https://dk.trustpilot.com/review/brugteski.dk\">her</a>. </p>"
+            "content": "<p>Vi har ingen specifikke produktanmeldelser, men du kan finde anbefalinger fra andre kunder på <a href=\"https://dk.trustpilot.com/review/brugteski.dk\" title=\"https://dk.trustpilot.com/review/brugteski.dk\">her</a>. </p>"
           }
         }
       },
@@ -432,7 +432,7 @@
         "full_width": true,
         "subheading": "",
         "title": "Typiske spørgsmål",
-        "content": "<p>Se her hvilke typiske spørgsmål vi oftest får</p>",
+        "content": "<p>Se de spørgsmål, vi oftest får, så du hurtigt kan finde svar uden at være i tvivl.</p>",
         "team_avatar_width": 160,
         "support_hours": "",
         "answer_time": "",
