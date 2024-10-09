@@ -392,7 +392,7 @@
       "settings": {
         "full_width": true,
         "subheading": "",
-        "title": "FAQ",
+        "title": "Typiske spørgsmål",
         "content": "<p>Use this text to share information about your product or shipping policies.</p>",
         "team_avatar_width": 160,
         "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
@@ -582,7 +582,7 @@
       "type": "scrolling-text",
       "settings": {
         "full_width": true,
-        "text": "op til 70% billigere at købe brugte ski",
+        "text": "64% billigere at købe brugte ski",
         "text_size": "medium",
         "text_style": "fill",
         "scrolling_mode": "auto",
