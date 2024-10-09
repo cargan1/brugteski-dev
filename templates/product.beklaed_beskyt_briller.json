@@ -106,12 +106,6 @@
           "settings": {
           }
         },
-        "description_MyjAFM": {
-          "type": "description",
-          "settings": {
-            "collapse_content": true
-          }
-        },
         "collapsible_text_4HUyUY": {
           "type": "collapsible_text",
           "settings": {
@@ -132,7 +126,6 @@
         "buy_buttons",
         "d3e695ec-c2c1-416b-9482-cc06f0166cf0",
         "ba3b5461-8a7f-4d6a-bdc0-bfcaad62fae4",
-        "description_MyjAFM",
         "collapsible_text_4HUyUY"
       ],
       "custom_css": [
@@ -156,9 +149,21 @@
         "input_text_color": ""
       }
     },
+    "product_desc_Qp8zkr": {
+      "type": "product-desc",
+      "settings": {
+        "tab_label": ""
+      }
+    },
     "fe071cc7-bbc8-4bb2-9731-6976ff8b16ae": {
       "type": "tabs-dev",
       "blocks": {
+        "ab3020de-324b-4afe-b163-9afbc91c441a": {
+          "type": "tab",
+          "settings": {
+            "title": "Størrelsesguide"
+          }
+        },
         "bf4b7f25-2f3d-42b0-98ba-8c6c97c93601": {
           "type": "tab",
           "settings": {
@@ -171,10 +176,10 @@
             "title": "Fordele"
           }
         },
-        "ab3020de-324b-4afe-b163-9afbc91c441a": {
+        "tab_NJCQnH": {
           "type": "tab",
           "settings": {
-            "title": "Størrelsesguide"
+            "title": "FAQ"
           }
         },
         "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-3": {
@@ -183,18 +188,26 @@
             "title": "Stand-beskrivelse"
           }
         },
+        "tab_6m9tPC": {
+          "type": "tab",
+          "settings": {
+            "title": "Butik"
+          }
+        },
         "890659ae-884a-4eae-b699-3c2e89232488": {
           "type": "tab",
           "settings": {
-            "title": "Udsolgt"
+            "title": "Mail"
           }
         }
       },
       "block_order": [
+        "ab3020de-324b-4afe-b163-9afbc91c441a",
         "bf4b7f25-2f3d-42b0-98ba-8c6c97c93601",
         "fb12e8de-6ea1-4331-84ff-0c8bf1d2246d",
-        "ab3020de-324b-4afe-b163-9afbc91c441a",
+        "tab_NJCQnH",
         "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-3",
+        "tab_6m9tPC",
         "890659ae-884a-4eae-b699-3c2e89232488"
       ],
       "settings": {
@@ -207,137 +220,27 @@
         "border_thickness": 0
       }
     },
-    "7bd8baf1-9eb8-41b9-82b3-49a08ae4c5ad": {
-      "type": "feature-chart",
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "Produktspecifikationer",
-        "content": "<p>Disse ski er følgende:<br/>✅ Nyvokset og slebet<br/>✅ Medfølger bindinger<br/>✅ Været igennem kvalitetskontrol</p><p>Der medfølger en masse fordele, når du køber udstyr fra Brugteski.dk. <a href=\"/pages/dig-som-kunde\" target=\"_blank\" title=\"Dig som kunde hos Brugteski.dk\">Se alle dine fordele her.</a></p>",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "start",
-        "max_rows": 12,
-        "view_all_text": "View all",
-        "view_less_text": "View less",
-        "view_product": "View",
-        "viewing_product": "",
-        "show_product_swatch": true,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
-        "chart_background": "",
-        "chart_text_color": "",
-        "chart_true_false_color": "",
-        "tab_label": "Detaljer"
-      }
-    },
-    "de589c77-3f04-4fd3-99e3-118b938fa69a": {
+    "rich_text_ewcHH4": {
       "type": "rich-text",
       "blocks": {
-        "template--18752117866841__de589c77-3f04-4fd3-99e3-118b938fa69a-heading-1": {
-          "type": "heading",
+        "subheading_JbNe3a": {
+          "type": "subheading",
           "settings": {
-            "text": "Fragt og returnering",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "template--18752117866841__de589c77-3f04-4fd3-99e3-118b938fa69a-richtext-1": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Vi tilbyder gratis fragt og returnering på alle ordrer! Vi vil gerne gøre det så nemt for alle vores kunder at købe brugt udstyr, uden det skal koste dem en krone! Du kan derfor roligt bestille udstyr fra os, og hvis du ikke kan lide det, kan det sendes retur kvit og frit!</p><ul><li><strong>Levering: </strong>Gratis 2-5 hverdages levering til valgfri GLS pakkeshop ved køb over 995 kr.</li><li><strong>Afhentning:</strong> Køb produkterne online, og afhent i butikken i Fredericia</li><li><strong>Returnering: </strong>Gratis 14 dages returning.<strong> </strong> Der medfølger et returneret label til alle ordrer, som er lige til at klistre på pakken.</li><li><strong>Ombytning: </strong>Ved ombytning kontakt <a href=\"/pages/kontakt-os\" title=\"Kontakt os\">kundeservice</a> inden, og vi finder frem til den bedste løsning for dig.</li><li><strong>Reservering: </strong>Ønsker du at reserver et produkt, kan det købes til 'Afhentning' ved kassen, og det bliver dermed sat til side for dig.</li></ul>"
-          }
-        },
-        "9af9ab54-affd-438a-901a-f62427d4792d": {
-          "type": "button",
-          "settings": {
-            "style": "fill",
-            "size": "lg",
-            "text": "Se mere om returnering af produkter",
-            "url": "shopify://pages/returnering",
-            "background": "",
-            "text_color": ""
+            "text": "Subheading"
           }
         }
       },
       "block_order": [
-        "template--18752117866841__de589c77-3f04-4fd3-99e3-118b938fa69a-heading-1",
-        "template--18752117866841__de589c77-3f04-4fd3-99e3-118b938fa69a-richtext-1",
-        "9af9ab54-affd-438a-901a-f62427d4792d"
+        "subheading_JbNe3a"
       ],
       "settings": {
         "full_width": true,
-        "content_width": "medium",
-        "text_position": "start",
-        "background": "rgba(0,0,0,0)",
-        "background_gradient": "",
-        "text_color": "",
-        "tab_label": "Fragt"
-      }
-    },
-    "322fa8a3-0532-4ece-82b8-7999ffdd7f89": {
-      "type": "multi-column",
-      "blocks": {
-        "template--18752117866841__322fa8a3-0532-4ece-82b8-7999ffdd7f89-item-1": {
-          "type": "item",
-          "settings": {
-            "column_size": "3",
-            "title": "Fordele hos os",
-            "heading_tag": "h4",
-            "content": "<p>✔️ Danmarks største udvalg af brugte ski<br/>✔️ Én sæsons pasningsgaranti<br/>✔️ 24 måneders fuld reklamationsret<br/>✔️ Gratis fragt og returnering<br/>✔️ E-mærket sikret webshop<br/>✔️ 4,5 stjerner på Trustpilot<br/>✔️ Ski-garanti for alle børn og juniorer<br/>✔️ Vi køber dit udstyr tilbage igen</p><p><a href=\"https://brugteski.dk/pages/dig-som-kunde\" title=\"Dig som kunde hos Brugteski.dk\">Se alle dine fordele her</a></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "template--18752117866841__322fa8a3-0532-4ece-82b8-7999ffdd7f89-item-2": {
-          "type": "item",
-          "settings": {
-            "column_size": "3",
-            "title": "Pasningsgaranti",
-            "heading_tag": "h4",
-            "content": "<p>Det er svært at købe udstyr, uden at prøve det inden. Det er desværre ikke en mulighed, så derfor tilbyder vi én sæson pasningsgaranti på alle vores produkter. </p><p>Du har derfor mulighed for at få byttet alt brugt udstyr til noget andet, straks efter du er kommet hjem fra skiferie. </p><p><strong>Byttepris KUN: 199 kr. pr. produkt</strong><br/></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "template--18752117866841__322fa8a3-0532-4ece-82b8-7999ffdd7f89-item-3": {
-          "type": "item",
-          "settings": {
-            "column_size": "3",
-            "title": "Vi køber udstyret tilbage igen",
-            "heading_tag": "h4",
-            "content": "<p>Hvis du enten har nogle gamle ski på loftet, eller gerne vil have opgraderet dem du har købt fra os, så giver vi en byttepris på det!</p><p>Vi kan både betale dig kontant eller gennem gavekort til Brugteski.dk. (Du får det største beløb via gavekort)</p>",
-            "link_url": "shopify://pages/byt-til-nyt",
-            "link_text": "Se hvordan du gør her",
-            "link_style": "button"
-          }
-        }
-      },
-      "block_order": [
-        "template--18752117866841__322fa8a3-0532-4ece-82b8-7999ffdd7f89-item-1",
-        "template--18752117866841__322fa8a3-0532-4ece-82b8-7999ffdd7f89-item-2",
-        "template--18752117866841__322fa8a3-0532-4ece-82b8-7999ffdd7f89-item-3"
-      ],
-      "settings": {
-        "full_width": false,
-        "stack_on_mobile": true,
-        "gap": "medium",
-        "text_alignment": "start",
-        "subheading": "",
-        "title": "Få ro i maven ved at handle med os!",
-        "content": "<p>Hos Brugteski.dk er det vigtige at alle vores kunder får en god oplevelse uanset hvad. <br/>Derfor tilbyder vi:</p>",
+        "content_width": "small",
+        "text_position": "center",
         "background": "",
         "background_gradient": "",
         "text_color": "",
-        "tab_label": "Fordele"
+        "tab_label": "Hej"
       }
     },
     "82a4bfbb-5629-4257-a61a-8f3f9f259c01": {
@@ -390,6 +293,163 @@
         "background_gradient": "",
         "text_color": "",
         "tab_label": "Størrelsesguide"
+      }
+    },
+    "de589c77-3f04-4fd3-99e3-118b938fa69a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18752117866841__de589c77-3f04-4fd3-99e3-118b938fa69a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Fragt og returnering",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--18752117866841__de589c77-3f04-4fd3-99e3-118b938fa69a-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Vi tilbyder gratis fragt og retur på alle ordrer! Vi vil gerne gøre det nemt og bekvemt for vores kunder at handle brugt udstyr uden ekstra omkostninger. Derfor kan du trygt bestille hos os, og hvis du fortryder, kan du sende varen tilbage – helt gratis!</p><ul><li><strong>Levering:</strong> Gratis levering inden for 2-5 hverdage til din foretrukne GLS pakkeshop ved køb over 995 kr.</li><li><strong>Afhentning:</strong> Bestil online, og afhent i vores butik i Fredericia.</li><li><strong>Reservér produkt:</strong> Ønsker du at reservere et produkt? Vælg \"Afhentning\" ved checkout, så bliver varen sat til side for dig.</li><li><strong>Returnering:</strong> Gratis returnering inden for 14 dage. En returlabel er vedlagt din ordre, klar til at blive påsat pakken.</li><li><strong>Ombytning:</strong> Brug vores gratis returlabel til at sende fejlkøbet retur, og bestil det rigtige produkt på hjemmesiden. Vi sørger for, at du hurtigst muligt modtager det korrekte produkt.</li></ul>"
+          }
+        },
+        "9af9ab54-affd-438a-901a-f62427d4792d": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Læs mere om returregler",
+            "url": "shopify://pages/returnering",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18752117866841__de589c77-3f04-4fd3-99e3-118b938fa69a-heading-1",
+        "template--18752117866841__de589c77-3f04-4fd3-99e3-118b938fa69a-richtext-1",
+        "9af9ab54-affd-438a-901a-f62427d4792d"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "start",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": "",
+        "tab_label": "Fragt"
+      }
+    },
+    "322fa8a3-0532-4ece-82b8-7999ffdd7f89": {
+      "type": "multi-column",
+      "blocks": {
+        "template--18752117866841__322fa8a3-0532-4ece-82b8-7999ffdd7f89-item-1": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Fordele hos os",
+            "heading_tag": "h4",
+            "content": "<p>✔️ Danmarks største udvalg af brugte ski<br/>✔️ Én sæsons pasningsgaranti<br/>✔️ 24 måneders fuld reklamationsret<br/>✔️ Gratis returnering<br/>✔️ E-mærket sikret webshop<br/>✔️ +4,5 stjerner på Trustpilot<br/>✔️ Ski-garanti for alle børn og juniorer<br/>✔️ Vi køber dit udstyr tilbage igen</p><p><a href=\"https://brugteski.dk/pages/dig-som-kunde\" title=\"Dig som kunde hos Brugteski.dk\">Se alle dine fordele her</a></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--18752117866841__322fa8a3-0532-4ece-82b8-7999ffdd7f89-item-2": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Pasningsgaranti",
+            "heading_tag": "h4",
+            "content": "<p>Vi ved, at det kan være svært at købe udstyr uden at prøve det først. Derfor tilbyder vi én sæson pasningsgaranti på alle vores produkter. Det betyder, at du kan få byttet alt brugt udstyr, lige efter du er kommet hjem fra skiferien.</p><p><strong>Byttepris KUN: 199 kr. pr. produkt</strong></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--18752117866841__322fa8a3-0532-4ece-82b8-7999ffdd7f89-item-3": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Vi køber udstyret tilbage igen",
+            "heading_tag": "h4",
+            "content": "<p>Har du gamle ski på loftet eller vil du opgradere det udstyr, du har købt hos os? Vi tilbyder en byttepris! Du kan vælge at få udbetalt pengene kontant eller som et gavekort til Brugteski.dk (du får mest værdi via gavekortet).</p>",
+            "link_url": "shopify://pages/byt-til-nyt",
+            "link_text": "Se hvordan du gør her",
+            "link_style": "button"
+          }
+        }
+      },
+      "block_order": [
+        "template--18752117866841__322fa8a3-0532-4ece-82b8-7999ffdd7f89-item-1",
+        "template--18752117866841__322fa8a3-0532-4ece-82b8-7999ffdd7f89-item-2",
+        "template--18752117866841__322fa8a3-0532-4ece-82b8-7999ffdd7f89-item-3"
+      ],
+      "settings": {
+        "full_width": false,
+        "stack_on_mobile": true,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Hav ro i maven når du handler med os!",
+        "content": "<p>Hos Brugteski.dk er det vigtigste, at vores kunder altid får en god oplevelse. Derfor tilbyder vi:</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "tab_label": "Fordele"
+      }
+    },
+    "faq_xzpGX7": {
+      "type": "faq",
+      "blocks": {
+        "item_BEmEfD": {
+          "type": "item",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+          }
+        },
+        "item_eBHmTr": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+          }
+        },
+        "item_LmAgnF": {
+          "type": "item",
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_BEmEfD",
+        "item_eBHmTr",
+        "item_LmAgnF"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "Få svar her",
+        "title": "Typiske spørgsmål og kundeservice",
+        "content": "<p><strong>Vi har samlet alle de typiske spørgsmål lige her, så du nemt og hurtigt kan få svar!</strong></p><p>Hvis dette ikke besvarer dit spørgsmål, skal du endelig kontakt vores kundeservice.<br/><strong>Mail:</strong> Info@brugteski.dk<br/><strong>Tlf.:</strong> +45 3020 9975</p><p>Vi besvarer alle mails indenfor 24 timer i hverdagene, og vores telefon har åbent hver dag fra 10.00 til 18.00</p>",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "Se kontaktformular her",
+        "button_url": "shopify://pages/kontakt-os",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": "",
+        "tab_label": "FAQ"
       }
     },
     "aa73c3dc-82ca-485c-a544-d5b8dd955818": {
@@ -466,6 +526,41 @@
         "background_gradient": "",
         "text_color": "",
         "tab_label": "Stand-beskrivelse"
+      }
+    },
+    "media_with_text_YQtLkJ": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_QcHhdc": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_QcHhdc"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "small",
+        "tab_label": "Butik"
       }
     },
     "d2b619b5-d27a-4d56-bdbc-01f473ffb4a7": {
@@ -620,12 +715,15 @@
   "order": [
     "image_link_blocks_PYMi8R",
     "main",
+    "product_desc_Qp8zkr",
     "fe071cc7-bbc8-4bb2-9731-6976ff8b16ae",
-    "7bd8baf1-9eb8-41b9-82b3-49a08ae4c5ad",
+    "rich_text_ewcHH4",
+    "82a4bfbb-5629-4257-a61a-8f3f9f259c01",
     "de589c77-3f04-4fd3-99e3-118b938fa69a",
     "322fa8a3-0532-4ece-82b8-7999ffdd7f89",
-    "82a4bfbb-5629-4257-a61a-8f3f9f259c01",
+    "faq_xzpGX7",
     "aa73c3dc-82ca-485c-a544-d5b8dd955818",
+    "media_with_text_YQtLkJ",
     "d2b619b5-d27a-4d56-bdbc-01f473ffb4a7",
     "05de6085-a3e7-458a-ad6e-f17eb2c7d525",
     "featured_collection_6hVpa6",
