@@ -635,7 +635,7 @@
     "featured_collection_Ta9pQN": {
       "type": "featured-collection",
       "settings": {
-        "collection": "skihandsker",
+        "collection": "skihjelme",
         "products": [
 
         ],
@@ -646,7 +646,7 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 5,
         "subheading": "",
-        "title": "Top 5 populær skihandsker og tilbehør",
+        "title": "Top 5 populær skihjelme og tilbehør",
         "content": "",
         "link_url": "",
         "link_text": "",
@@ -665,10 +665,10 @@
         "image_t7Qieq": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Skindertoj.g1.jpg",
-            "title": "Skiundertøj",
+            "image": "shopify://shop_images/skitilbehor_54c76df7-cc0a-4a84-8b8d-8f0e23f0745a.jpg",
+            "title": "Skibriller",
             "heading_tag": "h4",
-            "link_url": "shopify://collections/skiundertoj",
+            "link_url": "shopify://collections/skibriller",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 2,
@@ -709,10 +709,10 @@
         "image_pp8wpw": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/skisokker1.g.jpg",
-            "title": "Skisokker",
+            "image": "shopify://shop_images/rygskjold.g.jpg",
+            "title": "Rygskjold",
             "heading_tag": "h4",
-            "link_url": "shopify://collections/skisokker",
+            "link_url": "shopify://collections/rygskjold",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 2,
