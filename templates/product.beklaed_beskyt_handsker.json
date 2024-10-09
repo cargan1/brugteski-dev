@@ -365,35 +365,59 @@
         "item_cLYwQF": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
+            "title": "Levering",
             "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+          }
+        },
+        "item_zN9GzE": {
+          "type": "item",
+          "settings": {
+            "title": "Returnering",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
           }
         },
         "item_p8QxLg": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
+            "title": "Betaling",
             "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
           }
         },
         "item_YUBV8V": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
+            "title": "Garanti og support",
             "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
+        },
+        "item_k4QxGF": {
+          "type": "item",
+          "settings": {
+            "title": "Tilgængelighed",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+          }
+        },
+        "item_7J7dMi": {
+          "type": "item",
+          "settings": {
+            "title": "Anmeldelser og anbefalinger",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
           }
         }
       },
       "block_order": [
         "item_cLYwQF",
+        "item_zN9GzE",
         "item_p8QxLg",
-        "item_YUBV8V"
+        "item_YUBV8V",
+        "item_k4QxGF",
+        "item_7J7dMi"
       ],
       "settings": {
         "full_width": true,
         "subheading": "",
         "title": "Typiske spørgsmål",
-        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
+        "content": "<p>Se her hvilke typiske spørgsmål vi oftest får ved salg af beklædning.</p>",
         "team_avatar_width": 160,
         "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
         "answer_time": "Average answer time: 24h",
