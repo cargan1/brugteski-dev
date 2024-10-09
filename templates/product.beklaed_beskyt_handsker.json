@@ -113,12 +113,6 @@
           "settings": {
           }
         },
-        "description_J9gBym": {
-          "type": "description",
-          "settings": {
-            "collapse_content": true
-          }
-        },
         "collapsible_text_jt4cCP": {
           "type": "collapsible_text",
           "settings": {
@@ -140,7 +134,6 @@
         "buy_buttons",
         "d3e695ec-c2c1-416b-9482-cc06f0166cf0",
         "ba3b5461-8a7f-4d6a-bdc0-bfcaad62fae4",
-        "description_J9gBym",
         "collapsible_text_jt4cCP"
       ],
       "custom_css": [
@@ -164,9 +157,21 @@
         "input_text_color": ""
       }
     },
+    "product_desc_BafrQd": {
+      "type": "product-desc",
+      "settings": {
+        "tab_label": ""
+      }
+    },
     "fe071cc7-bbc8-4bb2-9731-6976ff8b16ae": {
       "type": "tabs-dev",
       "blocks": {
+        "ab3020de-324b-4afe-b163-9afbc91c441a": {
+          "type": "tab",
+          "settings": {
+            "title": "Størrelsesguide"
+          }
+        },
         "bf4b7f25-2f3d-42b0-98ba-8c6c97c93601": {
           "type": "tab",
           "settings": {
@@ -183,12 +188,6 @@
           "type": "tab",
           "settings": {
             "title": "FAQ"
-          }
-        },
-        "ab3020de-324b-4afe-b163-9afbc91c441a": {
-          "type": "tab",
-          "settings": {
-            "title": "Størrelsesguide"
           }
         },
         "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-3": {
@@ -217,10 +216,10 @@
         }
       },
       "block_order": [
+        "ab3020de-324b-4afe-b163-9afbc91c441a",
         "bf4b7f25-2f3d-42b0-98ba-8c6c97c93601",
         "fb12e8de-6ea1-4331-84ff-0c8bf1d2246d",
         "tab_tT4iWg",
-        "ab3020de-324b-4afe-b163-9afbc91c441a",
         "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-3",
         "890659ae-884a-4eae-b699-3c2e89232488",
         "tab_jEJ6CE",
@@ -802,12 +801,13 @@
   "order": [
     "image_link_blocks_BHKeeF",
     "main",
+    "product_desc_BafrQd",
     "fe071cc7-bbc8-4bb2-9731-6976ff8b16ae",
     "rich_text_9C8t4X",
+    "82a4bfbb-5629-4257-a61a-8f3f9f259c01",
     "de589c77-3f04-4fd3-99e3-118b938fa69a",
     "322fa8a3-0532-4ece-82b8-7999ffdd7f89",
     "faq_rgE7Bg",
-    "82a4bfbb-5629-4257-a61a-8f3f9f259c01",
     "aa73c3dc-82ca-485c-a544-d5b8dd955818",
     "d2b619b5-d27a-4d56-bdbc-01f473ffb4a7",
     "contact_khHL7e",
