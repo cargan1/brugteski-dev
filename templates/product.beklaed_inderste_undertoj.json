@@ -635,7 +635,7 @@
     "featured_collection_Ta9pQN": {
       "type": "featured-collection",
       "settings": {
-        "collection": "skihandsker",
+        "collection": "skiundertoj",
         "products": [
 
         ],
@@ -646,7 +646,7 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 5,
         "subheading": "",
-        "title": "Top 5 populær skihandsker og tilbehør",
+        "title": "Top 5 populær skiundertøj og tilbehør",
         "content": "",
         "link_url": "",
         "link_text": "",
@@ -665,10 +665,10 @@
         "image_t7Qieq": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Skindertoj.g1.jpg",
-            "title": "Skiundertøj",
+            "image": "shopify://shop_images/middereste_lag.g.jpg",
+            "title": "Hættetrøjer",
             "heading_tag": "h4",
-            "link_url": "shopify://collections/skiundertoj",
+            "link_url": "shopify://collections/haettetroje",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 2,
@@ -687,10 +687,10 @@
         "image_gK6aWV": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/halsedisser1.g.jpg",
-            "title": "Halsedisser",
+            "image": "shopify://shop_images/Fleec.g.jpg",
+            "title": "Fleecetrøjer",
             "heading_tag": "h4",
-            "link_url": "shopify://collections/halsedisser",
+            "link_url": "shopify://collections/fleecetroje",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 2,
