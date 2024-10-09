@@ -366,14 +366,14 @@
           "type": "item",
           "settings": {
             "title": "Levering",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "content": "<p>Vi levere alle ordre indenfor 2 til 5 hverdage. Leveringen kan enten skal til valgfrit GLS pakkeshop eller hjemmelevering for en ekstra omkostning. Ved køb over 995 kr tilbyder vi gratis fragt til valgfri GLS pakkeshop.</p><p>Det er også muligt at bestiller din ordre til afhentning i <a href=\"/pages/showroom-og-vores-abningstider\" title=\"Butik og åbningstider\">butikken</a> for 0 kr. </p>"
           }
         },
         "item_zN9GzE": {
           "type": "item",
           "settings": {
             "title": "Returnering",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+            "content": "<p>Vi tilbyder gratis 14 dages returnering på alle ordre.</p><p>I pakken ligger der allerede et udskrevet returnerings label, så du hurtigt og nemt uden besvær kan returnere din ordre igen</p><p>Hvis du ønsker at returer din ordre, eller dele af den, ligger der en returnering seddel sammen med returnerings lablen i pakken. Denne seddel skal du udfylde, så når vi modtager pakken igen, ved hvor pengene skal hendes gen. Pak derefter de produkterne ned i papkassen som ud ønsker at returner sammen med returnerings sedler, taper pakken forsvarligt til og klister returnerings labelen udenpå det gamle label. Herefter vil du kunne aflever pakke ved din nærmeste pakkeshop, og så returnerer vi pengene så snart pakken lander i vores butik igen. </p>"
           }
         },
         "item_p8QxLg": {
@@ -388,6 +388,13 @@
           "settings": {
             "title": "Garanti og support",
             "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
+        },
+        "item_cnGMDF": {
+          "type": "item",
+          "settings": {
+            "title": "Prøve produkterne",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
           }
         },
         "item_k4QxGF": {
@@ -410,6 +417,7 @@
         "item_zN9GzE",
         "item_p8QxLg",
         "item_YUBV8V",
+        "item_cnGMDF",
         "item_k4QxGF",
         "item_7J7dMi"
       ],
