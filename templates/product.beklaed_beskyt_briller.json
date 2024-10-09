@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "image_link_blocks_PYMi8R": {
@@ -11,7 +20,7 @@
         "block_size": "medium",
         "subheading": "",
         "title": "",
-        "content": "<p><a href=\"https:\/\/brugteski.dk\/\" title=\"https:\/\/brugteski.dk\/\">Forside<\/a> \/ <a href=\"\/collections\" title=\"All collections\">Kollektioner<\/a> \/ <a href=\"\/collections\/alt-beklaedning\" title=\"Beklædning\">Beklædning<\/a> \/ <a href=\"\/collections\/beskyttelse\" title=\"Beskyttelse\">Beskyttelse<\/a> \/ <a href=\"\/collections\/skibriller\" title=\"Skibriller\">Skibriller<\/a> \/ {{ product.title }}<\/p>",
+        "content": "<p><a href=\"https://brugteski.dk/\" title=\"https://brugteski.dk/\">Forside</a> / <a href=\"/collections\" title=\"All collections\">Kollektioner</a> / <a href=\"/collections/alt-beklaedning\" title=\"Beklædning\">Beklædning</a> / <a href=\"/collections/beskyttelse\" title=\"Beskyttelse\">Beskyttelse</a> / <a href=\"/collections/skibriller\" title=\"Skibriller\">Skibriller</a> / {{ product.title }}</p>",
         "link_url": "",
         "link_text": "",
         "background": "#ffffff",
@@ -27,7 +36,7 @@
         "526b51f3-bddd-498f-8d12-32b50bb7df2c": {
           "type": "text",
           "settings": {
-            "text": "<h1>{{ product.title }}<\/h1><p><em>{{ product.metafields.custom.vejl_udsalgspris.value }}<\/em><\/p>"
+            "text": "<h1>{{ product.title }}</h1><p><em>{{ product.metafields.custom.vejl_udsalgspris.value }}</em></p>"
           }
         },
         "badges": {
@@ -74,7 +83,7 @@
         "6d1e7437-32cc-4b14-9f60-3b818cbed684": {
           "type": "text",
           "settings": {
-            "text": "<p><em><strong>Leveringstid: <\/strong><\/em><em>2-5 hverdage<\/em><\/p><p>{{ product.metafields.custom.m_ngderabat.value }}<\/p>"
+            "text": "<p><em><strong>Leveringstid: </strong></em><em>2-5 hverdage</em></p>"
           }
         },
         "buy_buttons": {
@@ -107,7 +116,7 @@
           "type": "collapsible_text",
           "settings": {
             "title": "Detaljer",
-            "content": "<p>{{ product.metafields.custom.detaljer | metafield_tag }}<\/p>"
+            "content": "<p>{{ product.metafields.custom.detaljer | metafield_tag }}</p>"
           }
         }
       },
@@ -204,7 +213,7 @@
         "full_width": true,
         "subheading": "",
         "title": "Produktspecifikationer",
-        "content": "<p>Disse ski er følgende:<br\/>✅ Nyvokset og slebet<br\/>✅ Medfølger bindinger<br\/>✅ Været igennem kvalitetskontrol<\/p><p>Der medfølger en masse fordele, når du køber udstyr fra Brugteski.dk. <a href=\"\/pages\/dig-som-kunde\" target=\"_blank\" title=\"Dig som kunde hos Brugteski.dk\">Se alle dine fordele her.<\/a><\/p>",
+        "content": "<p>Disse ski er følgende:<br/>✅ Nyvokset og slebet<br/>✅ Medfølger bindinger<br/>✅ Været igennem kvalitetskontrol</p><p>Der medfølger en masse fordele, når du køber udstyr fra Brugteski.dk. <a href=\"/pages/dig-som-kunde\" target=\"_blank\" title=\"Dig som kunde hos Brugteski.dk\">Se alle dine fordele her.</a></p>",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
@@ -242,7 +251,7 @@
         "template--18752117866841__de589c77-3f04-4fd3-99e3-118b938fa69a-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Vi tilbyder gratis fragt og returnering på alle ordrer! Vi vil gerne gøre det så nemt for alle vores kunder at købe brugt udstyr, uden det skal koste dem en krone! Du kan derfor roligt bestille udstyr fra os, og hvis du ikke kan lide det, kan det sendes retur kvit og frit!<\/p><ul><li><strong>Levering: <\/strong>Gratis 2-5 hverdages levering til valgfri GLS pakkeshop ved køb over 995 kr.<\/li><li><strong>Afhentning:<\/strong> Køb produkterne online, og afhent i butikken i Fredericia<\/li><li><strong>Returnering: <\/strong>Gratis 14 dages returning.<strong> <\/strong> Der medfølger et returneret label til alle ordrer, som er lige til at klistre på pakken.<\/li><li><strong>Ombytning: <\/strong>Ved ombytning kontakt <a href=\"\/pages\/kontakt-os\" title=\"Kontakt os\">kundeservice<\/a> inden, og vi finder frem til den bedste løsning for dig.<\/li><li><strong>Reservering: <\/strong>Ønsker du at reserver et produkt, kan det købes til 'Afhentning' ved kassen, og det bliver dermed sat til side for dig.<\/li><\/ul>"
+            "content": "<p>Vi tilbyder gratis fragt og returnering på alle ordrer! Vi vil gerne gøre det så nemt for alle vores kunder at købe brugt udstyr, uden det skal koste dem en krone! Du kan derfor roligt bestille udstyr fra os, og hvis du ikke kan lide det, kan det sendes retur kvit og frit!</p><ul><li><strong>Levering: </strong>Gratis 2-5 hverdages levering til valgfri GLS pakkeshop ved køb over 995 kr.</li><li><strong>Afhentning:</strong> Køb produkterne online, og afhent i butikken i Fredericia</li><li><strong>Returnering: </strong>Gratis 14 dages returning.<strong> </strong> Der medfølger et returneret label til alle ordrer, som er lige til at klistre på pakken.</li><li><strong>Ombytning: </strong>Ved ombytning kontakt <a href=\"/pages/kontakt-os\" title=\"Kontakt os\">kundeservice</a> inden, og vi finder frem til den bedste løsning for dig.</li><li><strong>Reservering: </strong>Ønsker du at reserver et produkt, kan det købes til 'Afhentning' ved kassen, og det bliver dermed sat til side for dig.</li></ul>"
           }
         },
         "9af9ab54-affd-438a-901a-f62427d4792d": {
@@ -251,7 +260,7 @@
             "style": "fill",
             "size": "lg",
             "text": "Se mere om returnering af produkter",
-            "url": "shopify:\/\/pages\/returnering",
+            "url": "shopify://pages/returnering",
             "background": "",
             "text_color": ""
           }
@@ -281,7 +290,7 @@
             "column_size": "3",
             "title": "Fordele hos os",
             "heading_tag": "h4",
-            "content": "<p>✔️ Danmarks største udvalg af brugte ski<br\/>✔️ Én sæsons pasningsgaranti<br\/>✔️ 24 måneders fuld reklamationsret<br\/>✔️ Gratis fragt og returnering<br\/>✔️ E-mærket sikret webshop<br\/>✔️ 4,5 stjerner på Trustpilot<br\/>✔️ Ski-garanti for alle børn og juniorer<br\/>✔️ Vi køber dit udstyr tilbage igen<\/p><p><a href=\"https:\/\/brugteski.dk\/pages\/dig-som-kunde\" title=\"Dig som kunde hos Brugteski.dk\">Se alle dine fordele her<\/a><\/p>",
+            "content": "<p>✔️ Danmarks største udvalg af brugte ski<br/>✔️ Én sæsons pasningsgaranti<br/>✔️ 24 måneders fuld reklamationsret<br/>✔️ Gratis fragt og returnering<br/>✔️ E-mærket sikret webshop<br/>✔️ 4,5 stjerner på Trustpilot<br/>✔️ Ski-garanti for alle børn og juniorer<br/>✔️ Vi køber dit udstyr tilbage igen</p><p><a href=\"https://brugteski.dk/pages/dig-som-kunde\" title=\"Dig som kunde hos Brugteski.dk\">Se alle dine fordele her</a></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -293,7 +302,7 @@
             "column_size": "3",
             "title": "Pasningsgaranti",
             "heading_tag": "h4",
-            "content": "<p>Det er svært at købe udstyr, uden at prøve det inden. Det er desværre ikke en mulighed, så derfor tilbyder vi én sæson pasningsgaranti på alle vores produkter. <\/p><p>Du har derfor mulighed for at få byttet alt brugt udstyr til noget andet, straks efter du er kommet hjem fra skiferie. <\/p><p><strong>Byttepris KUN: 199 kr. pr. produkt<\/strong><br\/><\/p>",
+            "content": "<p>Det er svært at købe udstyr, uden at prøve det inden. Det er desværre ikke en mulighed, så derfor tilbyder vi én sæson pasningsgaranti på alle vores produkter. </p><p>Du har derfor mulighed for at få byttet alt brugt udstyr til noget andet, straks efter du er kommet hjem fra skiferie. </p><p><strong>Byttepris KUN: 199 kr. pr. produkt</strong><br/></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -305,8 +314,8 @@
             "column_size": "3",
             "title": "Vi køber udstyret tilbage igen",
             "heading_tag": "h4",
-            "content": "<p>Hvis du enten har nogle gamle ski på loftet, eller gerne vil have opgraderet dem du har købt fra os, så giver vi en byttepris på det!<\/p><p>Vi kan både betale dig kontant eller gennem gavekort til Brugteski.dk. (Du får det største beløb via gavekort)<\/p>",
-            "link_url": "shopify:\/\/pages\/byt-til-nyt",
+            "content": "<p>Hvis du enten har nogle gamle ski på loftet, eller gerne vil have opgraderet dem du har købt fra os, så giver vi en byttepris på det!</p><p>Vi kan både betale dig kontant eller gennem gavekort til Brugteski.dk. (Du får det største beløb via gavekort)</p>",
+            "link_url": "shopify://pages/byt-til-nyt",
             "link_text": "Se hvordan du gør her",
             "link_style": "button"
           }
@@ -324,7 +333,7 @@
         "text_alignment": "start",
         "subheading": "",
         "title": "Få ro i maven ved at handle med os!",
-        "content": "<p>Hos Brugteski.dk er det vigtige at alle vores kunder får en god oplevelse uanset hvad. <br\/>Derfor tilbyder vi:<\/p>",
+        "content": "<p>Hos Brugteski.dk er det vigtige at alle vores kunder får en god oplevelse uanset hvad. <br/>Derfor tilbyder vi:</p>",
         "background": "",
         "background_gradient": "",
         "text_color": "",
@@ -352,7 +361,7 @@
         "template--18752117866841__82a4bfbb-5629-4257-a61a-8f3f9f259c01-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Er du i tvivl om længden på dit udstyr? Så har vi lavet en størrelsesguide, som kan hjælpe dig med at finde den helt rigtige størrelse på udstyr!<\/p>"
+            "content": "<p>Er du i tvivl om længden på dit udstyr? Så har vi lavet en størrelsesguide, som kan hjælpe dig med at finde den helt rigtige størrelse på udstyr!</p>"
           }
         },
         "b48753b6-b85b-4cad-a1a1-bdc199759c28": {
@@ -361,7 +370,7 @@
             "style": "fill",
             "size": "xl",
             "text": "Se størrelsesguides",
-            "url": "shopify:\/\/blogs\/udstyr-guides",
+            "url": "shopify://blogs/udstyr-guides",
             "background": "",
             "text_color": ""
           }
@@ -389,11 +398,11 @@
         "ecedf631-ba7d-4582-9d97-e301c760bad1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Fabriksnye.jpg",
+            "image": "shopify://shop_images/Fabriksnye.jpg",
             "column_size": "4",
             "title": "Helt nyt udstyr",
             "heading_tag": "h4",
-            "content": "<p>Fabriksnyt udstyr ligger som i ordet, helt nyt. Det vil altså sige udstyr som intet fejler, og helt ubrugt!<\/p>",
+            "content": "<p>Fabriksnyt udstyr ligger som i ordet, helt nyt. Det vil altså sige udstyr som intet fejler, og helt ubrugt!</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -402,11 +411,11 @@
         "template--14429261332515__aa73c3dc-82ca-485c-a544-d5b8dd955818-16661914181c00956f-0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Guld.stand.jpg",
+            "image": "shopify://shop_images/Guld.stand.jpg",
             "column_size": "4",
             "title": "Lidt til ingen spor af slid",
             "heading_tag": "h4",
-            "content": "<p>Guld udstyr er klart vores pæneste udstyr, og står rigtigt pænt. Her er der næsten ingen spor af brug, og det kan være svært at se skrammer.<\/p>",
+            "content": "<p>Guld udstyr er klart vores pæneste udstyr, og står rigtigt pænt. Her er der næsten ingen spor af brug, og det kan være svært at se skrammer.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -415,11 +424,11 @@
         "template--14429261332515__aa73c3dc-82ca-485c-a544-d5b8dd955818-16661914181c00956f-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Solv.stand.jpg",
+            "image": "shopify://shop_images/Solv.stand.jpg",
             "column_size": "4",
             "title": "Spor af slid",
             "heading_tag": "h4",
-            "content": "<p>Sølv udstyr er vores mest almindelige stand. Her får man udstyr som godt kan se har været brugt, men ingen store ridser eller hakker har.<\/p>",
+            "content": "<p>Sølv udstyr er vores mest almindelige stand. Her får man udstyr som godt kan se har været brugt, men ingen store ridser eller hakker har.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -428,11 +437,11 @@
         "template--14429261332515__aa73c3dc-82ca-485c-a544-d5b8dd955818-16661914181c00956f-2": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Bronze.stand.jpg",
+            "image": "shopify://shop_images/Bronze.stand.jpg",
             "column_size": "4",
             "title": "Større ridser og hakker",
             "heading_tag": "h4",
-            "content": "<p>Bronze udstyr er det mest slidte udstyr, hvor man kan finde store ridser og hakker. Alle skrammer er kosmetiske, og har kun betydning for udseende.<\/p>",
+            "content": "<p>Bronze udstyr er det mest slidte udstyr, hvor man kan finde store ridser og hakker. Alle skrammer er kosmetiske, og har kun betydning for udseende.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -452,7 +461,7 @@
         "text_alignment": "start",
         "subheading": "",
         "title": "Stand-beskrivelse",
-        "content": "<p>Stand beskriver hvor nyt\/brugt udstyr er, så du ved hvad du kan forvente ved modtagelse af produkterne.<br\/>Stand har ingen betydning for kvaliteten af udstyret, kun hvor mange kosmetiske skrammer udstyret har. Derved har det også betydning for prisen på udstyret. Nu dårligere 'Stand' et produkt er, nu billigere er det også. <a href=\"\/pages\/standbeskrivelse\" target=\"_blank\" title=\"Standbeskrivelse\">Se videoen, og læs hele stand-beskrivelsen her!<\/a><\/p>",
+        "content": "<p>Stand beskriver hvor nyt/brugt udstyr er, så du ved hvad du kan forvente ved modtagelse af produkterne.<br/>Stand har ingen betydning for kvaliteten af udstyret, kun hvor mange kosmetiske skrammer udstyret har. Derved har det også betydning for prisen på udstyret. Nu dårligere 'Stand' et produkt er, nu billigere er det også. <a href=\"/pages/standbeskrivelse\" target=\"_blank\" title=\"Standbeskrivelse\">Se videoen, og læs hele stand-beskrivelsen her!</a></p>",
         "background": "#fafafa",
         "background_gradient": "",
         "text_color": "",
@@ -465,7 +474,7 @@
         "full_width": true,
         "show_icon": true,
         "title": "Blive førstevælgeren",
-        "content": "<p>Hver 1-2 måneder får vi nye brugte produkter på lager. Hvis det udstyr du leder efter, er udsolgt nu, så er der en stor chance for at det kommer på lager igen!<br\/>Tilmeld dig vores nyhedsbrev, og vær den første til at vælge imellem det nye udstyr.<\/p>",
+        "content": "<p>Hver 1-2 måneder får vi nye brugte produkter på lager. Hvis det udstyr du leder efter, er udsolgt nu, så er der en stor chance for at det kommer på lager igen!<br/>Tilmeld dig vores nyhedsbrev, og vær den første til at vælge imellem det nye udstyr.</p>",
         "button_text": "Tilmeld",
         "subtext": "Du vil samtidig tilmelde dig Brugteski.dk's nyhedsbrev, hvor du vil høre om tilbud og guides indenfor ski verdenen. Du kan til enhver tid afmelde dig nyhedsbrevet igen.",
         "background": "",
@@ -524,10 +533,10 @@
         "image_RUJwGq": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/skihjelm.g.jpg",
+            "image": "shopify://shop_images/skihjelm.g.jpg",
             "title": "Skihjelme",
             "heading_tag": "h4",
-            "link_url": "shopify:\/\/collections\/skihjelme",
+            "link_url": "shopify://collections/skihjelme",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 2,
@@ -546,10 +555,10 @@
         "image_jV4KLk": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Skihandsker.g.jpg",
+            "image": "shopify://shop_images/Skihandsker.g.jpg",
             "title": "Skihandsker",
             "heading_tag": "h4",
-            "link_url": "shopify:\/\/collections\/skihandsker",
+            "link_url": "shopify://collections/skihandsker",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 2,
@@ -568,10 +577,10 @@
         "image_yePqhA": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Skindertoj.g.jpg",
+            "image": "shopify://shop_images/Skindertoj.g.jpg",
             "title": "Skiundertøj",
             "heading_tag": "h4",
-            "link_url": "shopify:\/\/collections\/skiundertoj",
+            "link_url": "shopify://collections/skiundertoj",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 2,
@@ -613,7 +622,7 @@
         "products_per_row_desktop": 5,
         "subheading": "",
         "title": "",
-        "content": "<h4>set for nylig...<\/h4>",
+        "content": "<h4>set for nylig...</h4>",
         "background": "",
         "background_gradient": "",
         "text_color": "",
