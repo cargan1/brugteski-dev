@@ -196,12 +196,6 @@
             "title": "Stand-beskrivelse"
           }
         },
-        "tab_jEJ6CE": {
-          "type": "tab",
-          "settings": {
-            "title": "kontakt"
-          }
-        },
         "tab_rA6zzp": {
           "type": "tab",
           "settings": {
@@ -221,7 +215,6 @@
         "fb12e8de-6ea1-4331-84ff-0c8bf1d2246d",
         "tab_tT4iWg",
         "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-3",
-        "tab_jEJ6CE",
         "tab_rA6zzp",
         "890659ae-884a-4eae-b699-3c2e89232488"
       ],
@@ -476,7 +469,7 @@
         "full_width": true,
         "subheading": "Få svar her",
         "title": "Typiske spørgsmål og kundeservice",
-        "content": "<p>Se de spørgsmål, vi oftest får, så du hurtigt kan finde svar.</p><p>Hvis du ikke kan finde det svar her, så er du altid mere end velkommen til at kontakte os!<br/><strong>Mail:</strong> Info@brugteski.dk<br/><strong>Tlf.:</strong> +45 3020 9975</p><p>Vi besvarer alle mails indenfor 24 timer i hverdagene, og vores telefon har åbent hver dag fra 10.00 til 18.00</p>",
+        "content": "<p><strong>Vi har samlet alle de typiske spørgsmål lige her, så du nemt og hurtigt kan få svar!</strong></p><p>Hvis dette ikke besvarer dit spørgsmål, skal du endelig kontakt vores kundeservice.<br/><strong>Mail:</strong> Info@brugteski.dk<br/><strong>Tlf.:</strong> +45 3020 9975</p><p>Vi besvarer alle mails indenfor 24 timer i hverdagene, og vores telefon har åbent hver dag fra 10.00 til 18.00</p>",
         "team_avatar_width": 230,
         "support_hours": "",
         "answer_time": "",
@@ -569,27 +562,6 @@
         "background_gradient": "",
         "text_color": "",
         "tab_label": "Stand-beskrivelse"
-      }
-    },
-    "contact_khHL7e": {
-      "type": "contact",
-      "settings": {
-        "full_width": true,
-        "subheading": "Kontakt os",
-        "title": "Har du spørgsmål til os?",
-        "content": "<p>Hvis du har spørgsmål til dette produkt eller noget helt andet, er du meget velkommen til at kontakte os!</p><p>Du kan også ringe til os på +45 3020 9975 – telefonen har åbent alle dage fra 10.00 til 18.00.</p>",
-        "text_position": "start",
-        "contact_form_size": "large",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "contact_background": "",
-        "contact_text_color": "",
-        "button_background": "",
-        "button_text_color": "",
-        "tab_label": "Kontakt"
       }
     },
     "1b924801-2f39-4b3d-97cf-6ac91e20f85c": {
@@ -809,7 +781,6 @@
     "322fa8a3-0532-4ece-82b8-7999ffdd7f89",
     "faq_rgE7Bg",
     "aa73c3dc-82ca-485c-a544-d5b8dd955818",
-    "contact_khHL7e",
     "1b924801-2f39-4b3d-97cf-6ac91e20f85c",
     "d2b619b5-d27a-4d56-bdbc-01f473ffb4a7",
     "05de6085-a3e7-458a-ad6e-f17eb2c7d525",
