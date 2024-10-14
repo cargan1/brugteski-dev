@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_link_blocks_BHKeeF": {
@@ -81,6 +81,12 @@
             "size_chart_page": ""
           }
         },
+        "kiwi_size_chart_recommender_kiwi_sizing_bdYhHJ": {
+          "type": "shopify://apps/kiwi-size-chart-recommender/blocks/kiwiSizing/b7369922-bf15-44ce-a121-a22a8fcbc4b0",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
         "19937545-298a-4651-9687-4525f0a97a0a": {
           "type": "inventory",
           "settings": {
@@ -129,6 +135,7 @@
         "separator",
         "product_variations_ikjT9j",
         "variant_picker",
+        "kiwi_size_chart_recommender_kiwi_sizing_bdYhHJ",
         "19937545-298a-4651-9687-4525f0a97a0a",
         "6d1e7437-32cc-4b14-9f60-3b818cbed684",
         "buy_buttons",
