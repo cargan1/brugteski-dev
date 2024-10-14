@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_link_blocks_FmUFUg": {
@@ -115,15 +115,15 @@
         "item_D8L9Df": {
           "type": "item",
           "settings": {
-            "title": "Oktober til November - Lavsæson",
+            "title": "Oktober - Lavsæson",
             "content": "<p>Fra oktober af begynder vi at have weekend åbent igen, så du har mulighed for at tage hele familien med.</p><p>Mandag: 10.00 - 18.00<br/>Tirsdag: 10.00 - 18.00<br/>Onsdag: 10.00 - 18.00<br/>Torsdag: 10.00 - 18.00<br/>Fredag: Lukket<br/>Lørdag: Lukket<br/>Søndag: 10.00 - 17.00</p>"
           }
         },
         "item_VBRxGt": {
           "type": "item",
           "settings": {
-            "title": "December - Næste højsæson",
-            "content": "<p>Fra december af begynder vi at have åbent både både lørdag og søndag.</p><p>Mandag: 10.00 - 18.00<br/>Tirsdag: 10.00 - 18.00<br/>Onsdag: 10.00 - 18.00<br/>Torsdag: 10.00 - 18.00<br/>Fredag: Lukket<br/>Lørdag: 10.00 - 17.00<br/>Søndag: 10.00 - 17.00</p>"
+            "title": "November til December - Næste højsæson",
+            "content": "<p>Fra november af begynder vi at have åbent både både lørdag og søndag.</p><p>Mandag: 10.00 - 18.00<br/>Tirsdag: 10.00 - 18.00<br/>Onsdag: 10.00 - 18.00<br/>Torsdag: 10.00 - 18.00<br/>Fredag: Lukket<br/>Lørdag: 10.00 - 17.00<br/>Søndag: 10.00 - 17.00</p>"
           }
         },
         "item_RLXGkK": {
