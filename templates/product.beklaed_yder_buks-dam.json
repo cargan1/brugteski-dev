@@ -20,7 +20,7 @@
         "block_size": "medium",
         "subheading": "",
         "title": "",
-        "content": "<p><a href=\"https://brugteski.dk/\" title=\"https://brugteski.dk/\">Forside</a> / <a href=\"/collections\" title=\"All collections\">Kollektioner</a> / <a href=\"/collections/alt-beklaedning\" title=\"Beklædning\">Beklædning</a> / <a href=\"/collections/yderste-lag\" title=\"Yderste lag\">Yderste lag</a> / <a href=\"/collections/skibukser\" title=\"Skibukser\">Skibukser</a> / <a href=\"/collections/herre-skibukser\" title=\"Herre skibukser\">Herre skibukser</a>  / {{ product.title }}</p>",
+        "content": "<p><a href=\"https://brugteski.dk/\" title=\"https://brugteski.dk/\">Forside</a> / <a href=\"/collections\" title=\"All collections\">Kollektioner</a> / <a href=\"/collections/alt-beklaedning\" title=\"Beklædning\">Beklædning</a> / <a href=\"/collections/yderste-lag\" title=\"Yderste lag\">Yderste lag</a> / <a href=\"/collections/skibukser\" title=\"Skibukser\">Skibukser</a> / <a href=\"/collections/dame-skibukser\" title=\"Dame skibukser\">Dame skibukser</a>  / {{ product.title }}</p>",
         "link_url": "",
         "link_text": "",
         "background": "#ffffff",
@@ -726,7 +726,7 @@
     "featured_collection_6hVpa6": {
       "type": "featured-collection",
       "settings": {
-        "collection": "herre-skibukser",
+        "collection": "dame-skibukser",
         "products": [
 
         ],
@@ -737,7 +737,7 @@
         "products_per_row_mobile": "1",
         "products_per_row_desktop": 5,
         "subheading": "",
-        "title": "Top 5 mest populære herre skibukser",
+        "title": "Top 5 mest populære dame skibukser",
         "content": "",
         "link_url": "",
         "link_text": "",
