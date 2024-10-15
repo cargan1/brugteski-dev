@@ -307,7 +307,7 @@
         "full_width": true,
         "subheading": "",
         "title": "Specifikationer",
-        "content": "<p>Læs mere om disse {{ product.title }} her!</p><p>{{ product.metafields.custom.detaljer | metafield_tag }}</p>",
+        "content": "<p>Læs mere om denne {{ product.title }} her!</p><p>{{ product.metafields.custom.detaljer | metafield_tag }}</p>",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
