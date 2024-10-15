@@ -58,10 +58,10 @@
         "product_variations_LFJbyU": {
           "type": "product_variations",
           "settings": {
-            "option_name": "Hej",
+            "option_name": "",
             "option_value_metafield": "",
             "products": "{{ product.metafields.custom.variant_produkter.value }}",
-            "color_mode": "block"
+            "color_mode": "variant"
           }
         },
         "variant_picker": {
