@@ -61,7 +61,7 @@
             "option_name": "Hej",
             "option_value_metafield": "",
             "products": "{{ product.metafields.custom.variant_produkter.value }}",
-            "color_mode": "variant"
+            "color_mode": "block"
           }
         },
         "variant_picker": {
