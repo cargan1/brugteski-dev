@@ -705,10 +705,10 @@
       "settings": {
         "full_width": true,
         "text": "Køb udstyr og spar på beklædning",
-        "text_size": "medium",
+        "text_size": "small",
         "text_style": "fill",
         "scrolling_mode": "auto",
-        "scrolling_speed": 6,
+        "scrolling_speed": 8,
         "background": "#003eff",
         "background_gradient": "",
         "text_color": "#ffffff",
