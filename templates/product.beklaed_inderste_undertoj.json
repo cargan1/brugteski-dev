@@ -20,7 +20,7 @@
         "block_size": "medium",
         "subheading": "",
         "title": "",
-        "content": "<p><a href=\"https://brugteski.dk/\" title=\"https://brugteski.dk/\">Forside</a> / <a href=\"/collections\" title=\"All collections\">Kollektioner</a> / <a href=\"/collections/alt-beklaedning\" title=\"Beklædning\">Beklædning</a> / <a href=\"/collections/beskyttelse\" title=\"Beskyttelse\">Beskyttelse</a> / <a href=\"/collections/skibriller\" title=\"Skibriller\">Skibriller</a> / {{ product.title }}</p>",
+        "content": "<p><a href=\"https://brugteski.dk/\" title=\"https://brugteski.dk/\">Forside</a> / <a href=\"/collections\" title=\"All collections\">Kollektioner</a> / <a href=\"/collections/alt-beklaedning\" title=\"Beklædning\">Beklædning</a> / <a href=\"/collections/inderste-lag\" title=\"Inderste lag\">Inderste lag</a> / <a href=\"/collections/skiundertoj\" title=\"Skiundertøj\">Skiundertøj</a> / {{ product.title }}</p>",
         "link_url": "",
         "link_text": "",
         "background": "#ffffff",
@@ -726,7 +726,7 @@
     "featured_collection_6hVpa6": {
       "type": "featured-collection",
       "settings": {
-        "collection": "skibriller",
+        "collection": "skiundertoj",
         "products": [
 
         ],
@@ -737,7 +737,7 @@
         "products_per_row_mobile": "1",
         "products_per_row_desktop": 5,
         "subheading": "",
-        "title": "Top 5 mest populære skibriller og tilbehør",
+        "title": "Top 5 mest populære skiundertøj",
         "content": "",
         "link_url": "",
         "link_text": "",
