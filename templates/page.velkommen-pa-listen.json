@@ -20,10 +20,17 @@
             "text_color": "",
             "gradient": ""
           }
+        },
+        "richtext_yzm9JC": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Skulle du være den heldige vinder, og allerede har købt udstyr, så refunderer vi bare allerede købte ordre!</p>"
+          }
         }
       },
       "block_order": [
-        "template--20022743040345__0a9b46bf-52b6-48c5-a929-0bd99c011b17-heading-1"
+        "template--20022743040345__0a9b46bf-52b6-48c5-a929-0bd99c011b17-heading-1",
+        "richtext_yzm9JC"
       ],
       "settings": {
         "full_width": true,
