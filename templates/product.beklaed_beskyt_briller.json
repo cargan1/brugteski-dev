@@ -493,7 +493,7 @@
           "type": "item",
           "settings": {
             "title": "Stand",
-            "content": "<p>Alle vores produkter har en stand, så du kan se produktet er brugt eller  nyt. Alle nye ubrugte produkter har standen \"Fabriksnye\". Af brugt udstyr har vi 3 forskellige stande, så du ved hvor brugt produkterne egentligt er. Standene er \"Guld\", \"Sølv\" og \"Bronze\". <a href=\"/pages/standbeskrivelse\" title=\"Standbeskrivelse\">Du kan læse mere specifikt om de forskellige stande her!</a></p>"
+            "content": "<p>Alle vores produkter er markeret med en stand, så du kan se, om produktet er brugt eller nyt. Nye, ubrugte produkter er mærket med \"Fabriksnye\". Vores brugte udstyr inddeles i tre forskellige stande: \"Guld\", \"Sølv\" og \"Bronze\", så du nemt kan forstå produktets tilstand inden du modtager det. <a href=\"/pages/standbeskrivelse\" title=\"Standbeskrivelse\">Læs mere om de forskellige stande her!</a></p>"
           }
         },
         "item_BEmEfD": {
