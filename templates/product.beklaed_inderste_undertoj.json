@@ -825,6 +825,7 @@
         "image_jV4KLk",
         "image_yePqhA"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "reduce_width": false,
