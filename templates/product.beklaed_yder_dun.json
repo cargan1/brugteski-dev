@@ -20,7 +20,7 @@
         "block_size": "medium",
         "subheading": "",
         "title": "",
-        "content": "<p><a href=\"https://brugteski.dk/\" title=\"https://brugteski.dk/\">Forside</a> / <a href=\"/collections\" title=\"All collections\">Kollektioner</a> / <a href=\"/collections/alt-beklaedning\" title=\"Beklædning\">Beklædning</a> / <a href=\"/collections/yderste-lag\" title=\"Yderste lag\">Yderste lag</a> / <a href=\"/collections/dunjakke\" title=\"Dunjakker\">Skibriller</a> / {{ product.title }}</p>",
+        "content": "<p><a href=\"https://brugteski.dk/\" title=\"https://brugteski.dk/\">Forside</a> / <a href=\"/collections\" title=\"All collections\">Kollektioner</a> / <a href=\"/collections/alt-beklaedning\" title=\"Beklædning\">Beklædning</a> / <a href=\"/collections/yderste-lag\" title=\"Yderste lag\">Yderste lag</a> / <a href=\"/collections/dunjakke\" title=\"Dunjakker\">Dunjakker</a> / {{ product.title }}</p>",
         "link_url": "",
         "link_text": "",
         "background": "#ffffff",
