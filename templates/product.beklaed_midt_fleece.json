@@ -20,7 +20,7 @@
         "block_size": "medium",
         "subheading": "",
         "title": "",
-        "content": "<p><a href=\"https://brugteski.dk/\" title=\"https://brugteski.dk/\">Forside</a> / <a href=\"/collections\" title=\"All collections\">Kollektioner</a> / <a href=\"/collections/alt-beklaedning\" title=\"Beklædning\">Beklædning</a> / <a href=\"/collections/mellemlag\" title=\"Mellemlag\">Midterste lag</a> / <a href=\"/collections/hybrid\" title=\"Hybrid jakker\">Hybrid jakker</a> / {{ product.title }}</p>",
+        "content": "<p><a href=\"https://brugteski.dk/\" title=\"https://brugteski.dk/\">Forside</a> / <a href=\"/collections\" title=\"All collections\">Kollektioner</a> / <a href=\"/collections/alt-beklaedning\" title=\"Beklædning\">Beklædning</a> / <a href=\"/collections/mellemlag\" title=\"Mellemlag\">Midterste lag</a> / <a href=\"/collections/fleecetroje\" title=\"Fleecetrøjer\">Fleecetrøjer</a> / {{ product.title }}</p>",
         "link_url": "",
         "link_text": "",
         "background": "#ffffff",
@@ -726,7 +726,7 @@
     "featured_collection_6hVpa6": {
       "type": "featured-collection",
       "settings": {
-        "collection": "hybrid",
+        "collection": "fleecetroje",
         "products": [
 
         ],
@@ -737,7 +737,7 @@
         "products_per_row_mobile": "1",
         "products_per_row_desktop": 5,
         "subheading": "",
-        "title": "Top 5 mest populære hybrid jakker",
+        "title": "Top 5 mest populære fleec trøjer",
         "content": "",
         "link_url": "",
         "link_text": "",
