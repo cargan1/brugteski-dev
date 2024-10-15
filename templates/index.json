@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_with_text_overlay_GnXENV": {
@@ -100,7 +100,7 @@
             "subheading": "",
             "title": "Leje vs. Brugt vs. Nyt udstyr",
             "content": "<p><strong>Skiferie kræver tonsvis af udstyr... Du kan vælge mellem enten at leje, købe brugt eller nyt udstyr. Hver mulighed har sine fordele, og passer til hver sit ambitionsniveau.</strong></p><p><strong>Leje:</strong> Perfekt for begyndere, der vil prøve skisporten af.<br/><strong>Brugt:</strong> Ideelt for dem, der elsker skiløb, men vil spare penge. <br/><strong>Nyt:</strong> For dem, der vil have det kompromisløse udstyr.</p><p>Klik herunder og tag vores test som giver dig et præcis svar på hvilken mulighed der passer dig bedst!</p>",
-            "link_text": "Udregn din pris her",
+            "link_text": "Beregn din pris her",
             "link_url": "shopify://blogs/kob-af-brugt-udstyr/leje-brugt-eller-nyt-udstyr-se-her-hvad-der-er-bedst-for-dig",
             "background": "#efefef",
             "background_gradient": "",
