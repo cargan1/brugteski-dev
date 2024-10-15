@@ -726,7 +726,7 @@
     "featured_collection_6hVpa6": {
       "type": "featured-collection",
       "settings": {
-        "collection": "skibriller",
+        "collection": "halsedisser",
         "products": [
 
         ],
@@ -737,7 +737,7 @@
         "products_per_row_mobile": "1",
         "products_per_row_desktop": 5,
         "subheading": "",
-        "title": "Top 5 mest populære skibriller og tilbehør",
+        "title": "Top 5 mest populære halsedisser",
         "content": "",
         "link_url": "",
         "link_text": "",
@@ -825,6 +825,7 @@
         "image_jV4KLk",
         "image_yePqhA"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "reduce_width": false,
