@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_link_blocks_PYMi8R": {
@@ -577,9 +577,9 @@
             "content": "<p>Vi har en skibutik i Fredericia, hvor du og din familie kan komme forbi, se og prøve vores produkter. Vores venlige personale står klar til at hjælpe jer med at finde det helt rigtige udstyr.</p>",
             "link_text": "Se adressen her",
             "link_url": "shopify://pages/showroom-og-vores-abningstider",
-            "background": "#000000",
+            "background": "#efefef",
             "background_gradient": "",
-            "text_color": "#ffffff",
+            "text_color": "#080808",
             "text_gradient": "",
             "button_background": "",
             "button_text_color": ""
