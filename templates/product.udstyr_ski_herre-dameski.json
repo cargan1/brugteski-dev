@@ -796,21 +796,24 @@
         "text_gradient": ""
       }
     },
-    "fb969a0a-fc24-4610-814b-104c9172b8f5": {
-      "type": "related-products",
+    "featured_collection_tiXBj4": {
+      "type": "featured-collection",
       "settings": {
-        "recommendations_count": 9,
+        "collection": "herre-dameski",
         "products": [
 
         ],
         "full_width": true,
-        "stack_products": false,
-        "show_progress_bar": true,
-        "products_per_row_mobile": "1",
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 5,
+        "products_per_row_mobile": "2",
         "products_per_row_desktop": 5,
         "subheading": "",
-        "title": "Relevante produkter",
+        "title": "Top 5 mest populære voksen ski og tilbehør",
         "content": "",
+        "link_url": "",
+        "link_text": "",
         "background": "",
         "background_gradient": "",
         "text_color": "",
@@ -818,6 +821,88 @@
         "heading_gradient": "",
         "product_card_background": "",
         "product_card_text_color": ""
+      }
+    },
+    "media_grid_AK7WqF": {
+      "type": "media-grid",
+      "blocks": {
+        "image_BqpLJM": {
+          "type": "image",
+          "settings": {
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_HWhpmg": {
+          "type": "image",
+          "settings": {
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_y6NgAG": {
+          "type": "image",
+          "settings": {
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_BqpLJM",
+        "image_HWhpmg",
+        "image_y6NgAG"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
       }
     },
     "6fe9e5e3-41c0-4ad1-a62e-5e2b2ba02828": {
@@ -841,7 +926,8 @@
     "1b924801-2f39-4b3d-97cf-6ac91e20f85c",
     "d2b619b5-d27a-4d56-bdbc-01f473ffb4a7",
     "05de6085-a3e7-458a-ad6e-f17eb2c7d525",
-    "fb969a0a-fc24-4610-814b-104c9172b8f5",
+    "featured_collection_tiXBj4",
+    "media_grid_AK7WqF",
     "6fe9e5e3-41c0-4ad1-a62e-5e2b2ba02828"
   ]
 }
