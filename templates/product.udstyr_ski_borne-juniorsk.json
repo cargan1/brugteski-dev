@@ -20,7 +20,7 @@
         "block_size": "small",
         "subheading": "",
         "title": "",
-        "content": "<p><a href=\"https://brugteski.dk/\" title=\"https://brugteski.dk/\">Forside</a> / <a href=\"/collections\" title=\"All collections\">Kollektioner</a> / <a href=\"/collections/ski-skiudstyr\" title=\"Udstyr\">Udstyr</a> / <a href=\"/collections/alle-ski\" title=\"Ski\">Ski</a> / <a href=\"/collections/herre-dameski\" title=\"Herre- & Dameski\">Herre- & Dameski</a> / {{ product.title }}</p>",
+        "content": "<p><a href=\"https://brugteski.dk/\" title=\"https://brugteski.dk/\">Forside</a> / <a href=\"/collections\" title=\"All collections\">Kollektioner</a> / <a href=\"/collections/ski-skiudstyr\" title=\"Udstyr\">Udstyr</a> / <a href=\"/collections/alle-ski\" title=\"Ski\">Ski</a> / <a href=\"/collections/borne-juniorski\" title=\"Børne- & Juniorski\">Børne- & Juniorski</a> / {{ product.title }}</p>",
         "link_url": "",
         "link_text": "",
         "background": "#ffffff",
@@ -785,7 +785,7 @@
     "featured_collection_tiXBj4": {
       "type": "featured-collection",
       "settings": {
-        "collection": "herre-dameski",
+        "collection": "borne-juniorski",
         "products": [
 
         ],
@@ -796,7 +796,7 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 5,
         "subheading": "",
-        "title": "Top 5 mest populære voksen ski og tilbehør",
+        "title": "Top 5 mest populære børne ski",
         "content": "",
         "link_url": "",
         "link_text": "",
