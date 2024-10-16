@@ -785,7 +785,7 @@
     "featured_collection_tiXBj4": {
       "type": "featured-collection",
       "settings": {
-        "collection": "herre-skistovler",
+        "collection": "herre-dame-skistovler",
         "products": [
 
         ],
@@ -796,7 +796,7 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 5,
         "subheading": "",
-        "title": "Top 5 mest populære herre skistøvler",
+        "title": "Top 5 mest populære herre & dame skistøvler",
         "content": "",
         "link_url": "",
         "link_text": "",
