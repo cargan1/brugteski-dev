@@ -662,7 +662,7 @@
             "column_size": "4",
             "title": "Helt nyt udstyr",
             "heading_tag": "h4",
-            "content": "<p>Fabriksnyt udstyr ligger som i ordet, helt nyt. Det vil altså sige udstyr som intet fejler, og helt ubrugt!</p>",
+            "content": "<p>Fabriksnyt betyder helt nyt og ubrugt udstyr, uden fejl eller mangler.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -675,7 +675,7 @@
             "column_size": "4",
             "title": "Lidt til ingen spor af slid",
             "heading_tag": "h4",
-            "content": "<p>Guld udstyr er klart vores pæneste udstyr, og står rigtigt pænt. Her er der næsten ingen spor af brug, og det kan være svært at se skrammer.</p>",
+            "content": "<p>Guldstand er vores pæneste brugte udstyr, der ser næsten nyt ud med kun meget få til ingen skrammer.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -688,7 +688,7 @@
             "column_size": "4",
             "title": "Spor af slid",
             "heading_tag": "h4",
-            "content": "<p>Sølv udstyr er vores mest almindelige stand. Her får man udstyr som godt kan se har været brugt, men ingen store ridser eller hakker har.</p>",
+            "content": "<p>Sølvstand er vores mest almindelige. Her vil du se, at udstyret er brugt, men uden større ridser eller hakker.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -701,7 +701,7 @@
             "column_size": "4",
             "title": "Større ridser og hakker",
             "heading_tag": "h4",
-            "content": "<p>Bronze udstyr er det mest slidte udstyr, hvor man kan finde store ridser og hakker. Alle skrammer er kosmetiske, og har kun betydning for udseende.</p>",
+            "content": "<p>Bronzeudstyr er det mest slidte. Det har større ridser og hakker, men påvirker kun udseendet og ikke funktionaliteten.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -721,7 +721,7 @@
         "text_alignment": "start",
         "subheading": "",
         "title": "Stand-beskrivelse",
-        "content": "<p>Stand beskriver hvor nyt/brugt udstyr er, så du ved hvad du kan forvente ved modtagelse af produkterne.<br/>Stand har ingen betydning for kvaliteten af udstyret, kun hvor mange kosmetiske skrammer udstyret har. Derved har det også betydning for prisen på udstyret. Nu dårligere 'Stand' et produkt er, nu billigere er det også. <a href=\"/pages/standbeskrivelse\" target=\"_blank\" title=\"Standbeskrivelse\">Se videoen, og læs hele stand-beskrivelsen her!</a></p>",
+        "content": "<p>Stand beskriver, hvor nyt eller brugt udstyr er, så du ved, hvad du kan forvente, når du modtager det. Standen påvirker ikke udstyrets kvalitet, men beskriver, hvor mange kosmetiske skrammer det har. Dette har også betydning for prisen – jo mere brugt udstyret er, desto lavere er prisen.<br/><a href=\"/pages/standbeskrivelse\" target=\"_blank\" title=\"Standbeskrivelse\">Se videoen, og læs hele stand-beskrivelsen her!</a></p>",
         "background": "#fafafa",
         "background_gradient": "",
         "text_color": "",
