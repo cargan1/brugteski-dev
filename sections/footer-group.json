@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "footer",
   "name": "Footer group",
@@ -94,7 +94,7 @@
           "type": "text",
           "settings": {
             "title": "Skibutik i Fredericia",
-            "content": "<p><a href=\"/pages/showroom-og-vores-abningstider\" title=\"Butik og vores åbningstider\">Besøg skibutikken, som ligger 2 minutter fra motorvejen.</a></p><p><strong>Åbningstider for skibutik<br/></strong>{{ localization.market.metafields.custom.fredericia_open_hours | metafield_tag }}</p><p>Obs. webshoppen har åbent året rundt</p>"
+            "content": "<p><a href=\"/pages/showroom-og-vores-abningstider\" title=\"Butik og vores åbningstider\">Besøg skibutikken, som ligger 2 minutter fra motorvejen.</a></p><p><strong>Åbningstider for skibutik<br/></strong>{{ localization.market.metafields.custom.fredericia_open_hours | metafield_tag }}</p><p>Webshoppen har åbent året rundt</p>"
           }
         },
         "42290695-b02a-4385-b06b-249c0aa04de4": {
