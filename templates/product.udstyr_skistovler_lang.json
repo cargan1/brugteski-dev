@@ -20,7 +20,7 @@
         "block_size": "small",
         "subheading": "",
         "title": "",
-        "content": "<p><a href=\"https://brugteski.dk/\" title=\"https://brugteski.dk/\">Forside</a> / <a href=\"/collections\" title=\"All collections\">Kollektioner</a> / <a href=\"/collections/ski-skiudstyr\" title=\"Udstyr\">Udstyr</a> / <a href=\"/collections/skistovler-til-hele-familien\" title=\"Skistøvler til hele familien\">Skistøvler</a> / <a href=\"/collections/touring-stovler\" title=\"Touring støvler\">Touring støvler</a> / {{ product.title }}</p>",
+        "content": "<p><a href=\"https://brugteski.dk/\" title=\"https://brugteski.dk/\">Forside</a> / <a href=\"/collections\" title=\"All collections\">Kollektioner</a> / <a href=\"/collections/ski-skiudstyr\" title=\"Udstyr\">Udstyr</a> / <a href=\"/collections/skistovler-til-hele-familien\" title=\"Skistøvler til hele familien\">Skistøvler</a> / <a href=\"/collections/langrendsstovler\" title=\"Langrendsstøvler\">Langrendsstøvler</a> / {{ product.title }}</p>",
         "link_url": "",
         "link_text": "",
         "background": "#ffffff",
@@ -768,7 +768,7 @@
     "featured_collection_tiXBj4": {
       "type": "featured-collection",
       "settings": {
-        "collection": "touring-stovler",
+        "collection": "langrendsstovler",
         "products": [
 
         ],
@@ -779,7 +779,7 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 5,
         "subheading": "",
-        "title": "Top 5 mest populære touring skistøvler",
+        "title": "Top 5 mest populære langrendsstøvler",
         "content": "",
         "link_url": "",
         "link_text": "",
