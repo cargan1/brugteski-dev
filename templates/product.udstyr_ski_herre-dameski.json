@@ -505,6 +505,7 @@
       "blocks": {
         "dfe1817e-c8af-458e-b8cc-c69425e88ced": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "Hvordan ved jeg om disse ski passer mig?",
             "content": "<p>Det ved man aldrig helt, før man har prøvet dem et par dage i terrænet. Vi har ingen bjerge i Danmark, så det gør det endnu sværere at få testet af...</p><p>Heldigvis har vi lavet en quiz, hvor du kan komme så tæt på det rigtige bud på et par ski til dig, som nu muligt uden at teste dem inden.<br/><a href=\"/pages/ski-finder\" title=\"Ski-finder\">Prøv ski-finder quizzen her</a></p>"
@@ -512,6 +513,7 @@
         },
         "15b77d29-58c1-48d6-a108-d642b8955cb7": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "Hvordan indstiller jeg bindingerne til mine skistøvler?",
             "content": "<p>Vi indstiller bindingerne for dig, du skal bare huske at tilføje din date i feltet \"Udfyld feltet, så indstiller vi dine bindinger🎿\", så ordner vi den.</p>"
@@ -519,6 +521,7 @@
         },
         "009eeec1-dbb2-4546-b565-5bded8512799": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "Hvad sker der, hvis skiene går i stykker?",
             "content": "<p>Selvom det er brugte produkter vi sælger hos Brugteski.dk, så medfølger der stadigvæk 24 måneders reklamationsret på alle produkter. Så er der ingen grund til at være bange for, at skien ikke kan holde!</p>"
@@ -526,6 +529,7 @@
         },
         "34c7aac8-b407-4984-ad88-05c8201f24e9": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "Hvor tit skal skiene serviceres?",
             "content": "<p>Det afhænger af dit behov og lyst. Nogle vil have serviceret deres ski efter hver skitur, fordi de elsker at de er ny slebet og vokset, hvor andre gør det hver 4-5 uge på ski, fordi de ikke går lige så meget op i det.</p><p>Generelt vil jeg som minimum anbefale af få det gjort for hver 2-3 uger på ski, eller efter behov. Hvis du Fx har kørt over en sten på pisten og fået et stor hak i sålen, så er det en god ide at få det fikset.</p><p>Vi servicer ski i vores butik i Fredericia. Kom forbi med dem, og så er de klar til ugen efter.<br/><a href=\"/pages/showroom-og-vores-abningstider\" title=\"Butik og vores åbningstider\">Se åbningstider og adressen her</a></p>"
@@ -533,6 +537,7 @@
         },
         "11eee007-eaf4-4e11-a076-9379afbb4c13": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "Kan jeg bytte mine ski til noget andet, hvis jeg \"vokser\" fra dem?",
             "content": "<p>Yes, det kan du tro! Vi har vores Byt-til-nyt koncept, hvor vi køber dine brugte ski, og enten betale dig kontant eller med et gavekort til Brugteski.dk.</p><p>Hvis du gerne vil opgrader ski, som du i forvejen har købt fra os, så giver vi en bedre byttepris! <br/><a href=\"/pages/byt-til-nyt\" title=\"Vi køber dit brugte udstyr!\">Læs mere om konceptet her</a></p>"
