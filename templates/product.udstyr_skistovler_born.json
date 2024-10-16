@@ -20,7 +20,7 @@
         "block_size": "small",
         "subheading": "",
         "title": "",
-        "content": "<p><a href=\"https://brugteski.dk/\" title=\"https://brugteski.dk/\">Forside</a> / <a href=\"/collections\" title=\"All collections\">Kollektioner</a> / <a href=\"/collections/ski-skiudstyr\" title=\"Udstyr\">Udstyr</a> / <a href=\"/collections/skistovler-til-hele-familien\" title=\"Skistøvler til hele familien\">Skistøvler</a> / <a href=\"/collections/herre-dame-skistovler\" title=\"Herre & Dame skistøvler\">Voksen skistøvler</a> / <a href=\"/collections/herre-dame-skistovler\" title=\"Herre & Dame skistøvler\">Herre & Dame skistøvler </a> / {{ product.title }}</p>",
+        "content": "<p><a href=\"https://brugteski.dk/\" title=\"https://brugteski.dk/\">Forside</a> / <a href=\"/collections\" title=\"All collections\">Kollektioner</a> / <a href=\"/collections/ski-skiudstyr\" title=\"Udstyr\">Udstyr</a> / <a href=\"/collections/skistovler-til-hele-familien\" title=\"Skistøvler til hele familien\">Skistøvler</a> / <a href=\"/collections/borne-skistovler\" title=\"Børne skistøvler\">Børne skistøvler</a> / {{ product.title }}</p>",
         "link_url": "",
         "link_text": "",
         "background": "#ffffff",
@@ -109,21 +109,6 @@
           "type": "separator",
           "settings": {
           }
-        },
-        "b7116d37-820d-4320-ba8a-a4a7ce116385": {
-          "type": "text",
-          "settings": {
-            "text": "<p><em><strong>Udfyld feltet, så vi ved om du skal have </strong></em><a href=\"/pages/ski-byt-for-born-juniorer\" title=\"Ski-Byt for Børn & Juniorer\"><em><strong>Ski-byt for børn & juniorer med?</strong></em></a><em><strong> 🎿</strong></em></p>"
-          }
-        },
-        "6e6c8a01-4673-4115-bdee-5ea4ca9d3497": {
-          "type": "line_item_property",
-          "settings": {
-            "label": "Ejerne til støvlerne er under 16 år",
-            "type": "checkbox",
-            "required": false,
-            "allow_long_text": false
-          }
         }
       },
       "block_order": [
@@ -138,9 +123,7 @@
         "kiwi_size_chart_recommender_kiwi_sizing_qxCNEd",
         "d3e695ec-c2c1-416b-9482-cc06f0166cf0",
         "ba3b5461-8a7f-4d6a-bdc0-bfcaad62fae4",
-        "96617279-0ca8-4ed8-ad3d-5c55c13472ec",
-        "b7116d37-820d-4320-ba8a-a4a7ce116385",
-        "6e6c8a01-4673-4115-bdee-5ea4ca9d3497"
+        "96617279-0ca8-4ed8-ad3d-5c55c13472ec"
       ],
       "custom_css": [
         "h1 {font-size: 32px;}"
@@ -785,7 +768,7 @@
     "featured_collection_tiXBj4": {
       "type": "featured-collection",
       "settings": {
-        "collection": "herre-dame-skistovler",
+        "collection": "borne-skistovler",
         "products": [
 
         ],
@@ -796,7 +779,7 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 5,
         "subheading": "",
-        "title": "Top 5 mest populære herre & dame skistøvler",
+        "title": "Top 5 mest populære børne skistøvler",
         "content": "",
         "link_url": "",
         "link_text": "",
