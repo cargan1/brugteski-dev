@@ -71,7 +71,7 @@
           "type": "button",
           "settings": {
             "link": "shopify://pages/showroom-og-vores-abningstider",
-            "text": "Køb i butikken",
+            "text": "Købes i butikken",
             "size": "xl",
             "style": "fill",
             "stretch": true,
