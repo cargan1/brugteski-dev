@@ -20,7 +20,7 @@
         "block_size": "small",
         "subheading": "",
         "title": "",
-        "content": "<p><a href=\"https://brugteski.dk/\" title=\"https://brugteski.dk/\">Forside</a> / <a href=\"/collections\" title=\"All collections\">Kollektioner</a> / <a href=\"/collections/ski-skiudstyr\" title=\"Udstyr\">Udstyr</a> / <a href=\"/collections/alle-ski\" title=\"Ski\">Ski</a> / <a href=\"/collections/langrendsski\" title=\"langrendsski\">langrendsski</a> / {{ product.title }}</p>",
+        "content": "<p><a href=\"https://brugteski.dk/\" title=\"https://brugteski.dk/\">Forside</a> / {{ product.title }}</p>",
         "link_url": "",
         "link_text": "",
         "background": "#ffffff",
@@ -786,6 +786,7 @@
     },
     "featured_collection_tiXBj4": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "collection": "langrendsski",
         "products": [
