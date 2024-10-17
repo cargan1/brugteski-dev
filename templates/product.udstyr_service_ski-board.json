@@ -20,7 +20,7 @@
         "block_size": "small",
         "subheading": "",
         "title": "",
-        "content": "<p><a href=\"https://brugteski.dk/\" title=\"https://brugteski.dk/\">Forside</a> / <a href=\"/collections\" title=\"All collections\">Kollektioner</a> / <a href=\"/collections/ski-skiudstyr\" title=\"Udstyr\">Udstyr</a> / <a href=\"/collections/alle-ski\" title=\"Ski\">Ski</a> / <a href=\"/collections/langrendsski\" title=\"langrendsski\">langrendsski</a> / {{ product.title }}</p>",
+        "content": "<p><a href=\"https://brugteski.dk/\" title=\"https://brugteski.dk/\">Forside</a> / <a href=\"/collections\" title=\"All collections\">Kollektioner</a> / <a href=\"/collections/ski-skiudstyr\" title=\"Udstyr\">Udstyr</a> / <a href=\"/collections/service-til-ski-og-udstyr\" title=\"Service af udstyr\">Service</a> / {{ product.title }}</p>",
         "link_url": "",
         "link_text": "",
         "background": "#ffffff",
@@ -67,12 +67,6 @@
             "size_chart_page": ""
           }
         },
-        "19937545-298a-4651-9687-4525f0a97a0a": {
-          "type": "inventory",
-          "settings": {
-            "low_inventory_threshold": 10
-          }
-        },
         "6d1e7437-32cc-4b14-9f60-3b818cbed684": {
           "type": "text",
           "settings": {
@@ -87,12 +81,6 @@
             "atc_button_text_color": "",
             "payment_button_background": "#003eff",
             "payment_button_text_color": ""
-          }
-        },
-        "kiwi_size_chart_recommender_kiwi_sizing_qxCNEd": {
-          "type": "shopify://apps/kiwi-size-chart-recommender/blocks/kiwiSizing/b7369922-bf15-44ce-a121-a22a8fcbc4b0",
-          "settings": {
-            "product": "{{product}}"
           }
         },
         "d3e695ec-c2c1-416b-9482-cc06f0166cf0": {
@@ -134,10 +122,8 @@
         "price",
         "separator",
         "variant_picker",
-        "19937545-298a-4651-9687-4525f0a97a0a",
         "6d1e7437-32cc-4b14-9f60-3b818cbed684",
         "buy_buttons",
-        "kiwi_size_chart_recommender_kiwi_sizing_qxCNEd",
         "d3e695ec-c2c1-416b-9482-cc06f0166cf0",
         "ba3b5461-8a7f-4d6a-bdc0-bfcaad62fae4",
         "96617279-0ca8-4ed8-ad3d-5c55c13472ec",
@@ -786,6 +772,7 @@
     },
     "featured_collection_tiXBj4": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "collection": "langrendsski",
         "products": [
