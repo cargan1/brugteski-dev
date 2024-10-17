@@ -20,7 +20,7 @@
         "block_size": "small",
         "subheading": "",
         "title": "",
-        "content": "<p><a href=\"https://brugteski.dk/\" title=\"https://brugteski.dk/\">Forside</a> / <a href=\"/collections\" title=\"All collections\">Kollektioner</a> / <a href=\"/collections/ski-skiudstyr\" title=\"Udstyr\">Udstyr</a> / <a href=\"/collections/skigear\" title=\"Skigear\">Skigear</a> / <a href=\"/collections/skitasker-snowboardtasker\" title=\"Skitasker og snowboardtasker\">Skitasker</a> / {{ product.title }}</p>",
+        "content": "<p><a href=\"https://brugteski.dk/\" title=\"https://brugteski.dk/\">Forside</a> / <a href=\"/collections\" title=\"All collections\">Kollektioner</a> / <a href=\"/collections/ski-skiudstyr\" title=\"Udstyr\">Udstyr</a> / <a href=\"/collections/skigear\" title=\"Skigear\">Skigear</a> / <a href=\"/collections/skibindinger\" title=\"Skibindinger\">Skibindinger</a> / {{ product.title }}</p>",
         "link_url": "",
         "link_text": "",
         "background": "#ffffff",
@@ -767,8 +767,9 @@
     },
     "featured_collection_tiXBj4": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
-        "collection": "skitasker-snowboardtasker",
+        "collection": "skibindinger",
         "products": [
 
         ],
@@ -779,7 +780,7 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 5,
         "subheading": "",
-        "title": "Top 5 mest populære ski- & snowboardtasker",
+        "title": "Top 5 mest populære skibindinger",
         "content": "",
         "link_url": "",
         "link_text": "",
