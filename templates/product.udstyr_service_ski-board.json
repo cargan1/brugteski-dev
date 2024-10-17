@@ -163,7 +163,7 @@
         "template--18752117211481__fe071cc7-bbc8-4bb2-9731-6976ff8b16ae-16820851654aad4fc5-0": {
           "type": "tab",
           "settings": {
-            "title": "Detaljer"
+            "title": "Service"
           }
         },
         "ab3020de-324b-4afe-b163-9afbc91c441a": {
@@ -251,92 +251,44 @@
         "tab_label": "g"
       }
     },
-    "7bd8baf1-9eb8-41b9-82b3-49a08ae4c5ad": {
-      "type": "feature-chart",
+    "rich_text_ng3rYg": {
+      "type": "rich-text",
       "blocks": {
-        "template--14429261332515__7bd8baf1-9eb8-41b9-82b3-49a08ae4c5ad-166628750253df3689-0": {
-          "type": "headings",
+        "subheading_FHtLNN": {
+          "type": "subheading",
           "settings": {
-            "heading_1": "Indhold",
-            "heading_2": "Niveau",
-            "heading_3": "Type",
-            "heading_4": "Radius",
-            "heading_5": "Bindinger",
-            "heading_6": "Greb",
-            "heading_7": "Flex",
-            "heading_8": "Bredde",
-            "heading_9": "Skiprofil",
-            "heading_10": "Kerne",
-            "heading_11": "Kollektion",
-            "heading_12": "Mærke",
-            "heading_13": "Materiale",
-            "heading_14": "",
-            "heading_15": "",
-            "heading_16": "",
-            "heading_17": "",
-            "heading_18": "",
-            "heading_19": "",
-            "heading_20": ""
+            "text": "Subheading"
           }
         },
-        "template--14429261332515__7bd8baf1-9eb8-41b9-82b3-49a08ae4c5ad-166628750253df3689-1": {
-          "type": "values",
+        "heading_FRJ8Jd": {
+          "type": "heading",
           "settings": {
-            "product": "",
-            "value_1": "<p>{{ product.metafields.custom.indhold.value }}</p>",
-            "value_2": "<p>{{ product.metafields.custom.niveau.value }}</p>",
-            "value_3": "<p>{{ product.metafields.custom.type.value }}</p>",
-            "value_4": "<p>{{ product.metafields.custom.radius.value }}</p>",
-            "value_5": "<p>{{ product.metafields.custom.bindinger.value }}</p>",
-            "value_6": "<p>{{ product.metafields.custom.greb.value }}</p>",
-            "value_7": "<p>{{ product.metafields.custom.flex.value }}</p>",
-            "value_8": "<p>{{ product.metafields.custom.bredde.value }}</p>",
-            "value_9": "<p>{{ product.metafields.custom.skiprofil.value }}</p>",
-            "value_10": "<p>{{ product.metafields.custom.kerne.value }}</p>",
-            "value_11": "<p>{{ product.metafields.custom.kollektion.value }}</p>",
-            "value_12": "<p>{{ block.settings.product.metafields.custom.m_rke.value }}</p>",
-            "value_13": "<p>{{ product.metafields.custom.materiale.value }}</p>",
-            "value_14": "",
-            "value_15": "",
-            "value_16": "",
-            "value_17": "",
-            "value_18": "",
-            "value_19": "",
-            "value_20": "",
-            "view_button_background": "",
-            "view_button_text_color": ""
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_jjpaRf": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
           }
         }
       },
       "block_order": [
-        "template--14429261332515__7bd8baf1-9eb8-41b9-82b3-49a08ae4c5ad-166628750253df3689-0",
-        "template--14429261332515__7bd8baf1-9eb8-41b9-82b3-49a08ae4c5ad-166628750253df3689-1"
+        "subheading_FHtLNN",
+        "heading_FRJ8Jd",
+        "richtext_jjpaRf"
       ],
       "settings": {
         "full_width": true,
-        "subheading": "",
-        "title": "Specifikationer",
-        "content": "<p>✅ Nyvokset og slebet<br/>✅ Været igennem kvalitetskontrol<br/>{{ product.metafields.custom.detaljer | metafield_tag }}</p><p>Bemærk: Der kan forekomme fejl i det viste produktdata. For utvivlsomme oplysninger, kontakt venligst vores <a href=\"/pages/kontakt-os\" title=\"Kontakt os\">kundeservice</a>, og så kan vi be- eller afkræfte oplysningerne.</p>",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "start",
-        "max_rows": 20,
-        "view_all_text": "",
-        "view_less_text": "",
-        "view_product": "",
-        "viewing_product": "",
-        "show_product_swatch": true,
+        "content_width": "small",
+        "text_position": "center",
         "background": "",
         "background_gradient": "",
         "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
-        "chart_background": "",
-        "chart_text_color": "",
-        "chart_true_false_color": "",
-        "tab_label": "Detaljer"
+        "tab_label": "Service"
       }
     },
     "82a4bfbb-5629-4257-a61a-8f3f9f259c01": {
@@ -892,7 +844,7 @@
     "4b2f4dad-beb3-4647-84b2-79522c534386",
     "fe071cc7-bbc8-4bb2-9731-6976ff8b16ae",
     "bc007c98-134a-45e6-879f-a9610e0a56cd",
-    "7bd8baf1-9eb8-41b9-82b3-49a08ae4c5ad",
+    "rich_text_ng3rYg",
     "82a4bfbb-5629-4257-a61a-8f3f9f259c01",
     "de589c77-3f04-4fd3-99e3-118b938fa69a",
     "322fa8a3-0532-4ece-82b8-7999ffdd7f89",
