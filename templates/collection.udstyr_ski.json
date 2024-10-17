@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -36,10 +36,10 @@
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_Herre_Dame.jpg",
+            "image": "shopify://shop_images/udvalg_Herre_Dame.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/herre-dameski",
+            "link_url": "shopify://collections/herre-dameski",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -51,10 +51,10 @@
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-2": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_born_junior.jpg",
+            "image": "shopify://shop_images/udvalg_born_junior.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/borne-juniorski",
+            "link_url": "shopify://collections/borne-juniorski",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -66,10 +66,10 @@
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_touring.jpg",
+            "image": "shopify://shop_images/udvalg_touring.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/touring-ski",
+            "link_url": "shopify://collections/touring-ski",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -81,10 +81,25 @@
         "item_ANdHcX": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_langrendsski.jpg",
+            "image": "shopify://shop_images/udvalg_langrendsski.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/langrendsski",
+            "link_url": "shopify://collections/langrendsski",
+            "collection": "",
+            "brand_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_9xBwtA": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/udvalg_skitilbehor_b11dae5e-a56b-4487-bf84-837eedacadcc.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "shopify://collections/ski-tilbehor",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -98,7 +113,8 @@
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-0",
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-2",
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-1",
-        "item_ANdHcX"
+        "item_ANdHcX",
+        "item_9xBwtA"
       ],
       "custom_css": [
         ".section-stack {gap: 5px;}",
@@ -109,7 +125,7 @@
         "block_size": "small",
         "subheading": "",
         "title": "",
-        "content": "<p><a href=\"https:\/\/brugteski.dk\/\" title=\"https:\/\/brugteski.dk\/\">Forside<\/a> \/ <a href=\"\/collections\" title=\"All collections\">Kollektioner<\/a> \/ <a href=\"\/collections\/udstyr-til-skilob\" title=\"Udstyr til skiløb\">Udstyr<\/a> \/ Ski<\/p>",
+        "content": "<p><a href=\"https://brugteski.dk/\" title=\"https://brugteski.dk/\">Forside</a> / <a href=\"/collections\" title=\"All collections\">Kollektioner</a> / <a href=\"/collections/udstyr-til-skilob\" title=\"Udstyr til skiløb\">Udstyr</a> / Ski</p>",
         "link_url": "",
         "link_text": "",
         "background": "",
