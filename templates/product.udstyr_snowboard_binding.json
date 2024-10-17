@@ -311,7 +311,7 @@
         "full_width": true,
         "subheading": "",
         "title": "Specifikationer",
-        "content": "<p>✅ Rengjort og lugtfrie<br/>✅ Været igennem kvalitetskontrol<br/>{{ product.metafields.custom.detaljer | metafield_tag }}</p><p>Bemærk: Der kan forekomme fejl i det viste produktdata. For utvivlsomme oplysninger, kontakt venligst vores <a href=\"/pages/kontakt-os\" title=\"Kontakt os\">kundeservice</a>, og så kan vi be- eller afkræfte oplysningerne.</p>",
+        "content": "<p>✅ Været igennem kvalitetskontrol<br/>{{ product.metafields.custom.detaljer | metafield_tag }}</p><p>Bemærk: Der kan forekomme fejl i det viste produktdata. For utvivlsomme oplysninger, kontakt venligst vores <a href=\"/pages/kontakt-os\" title=\"Kontakt os\">kundeservice</a>, og så kan vi be- eller afkræfte oplysningerne.</p>",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
