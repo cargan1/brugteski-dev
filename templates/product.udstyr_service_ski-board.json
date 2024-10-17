@@ -254,37 +254,20 @@
     "rich_text_ng3rYg": {
       "type": "rich-text",
       "blocks": {
-        "subheading_FHtLNN": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "heading_FRJ8Jd": {
-          "type": "heading",
-          "settings": {
-            "text": "Heading",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
         "richtext_jjpaRf": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "content": "{{ product.metafields.custom.seo_tekst | metafield_tag }}"
           }
         }
       },
       "block_order": [
-        "subheading_FHtLNN",
-        "heading_FRJ8Jd",
         "richtext_jjpaRf"
       ],
       "settings": {
         "full_width": true,
         "content_width": "small",
-        "text_position": "center",
+        "text_position": "start",
         "background": "",
         "background_gradient": "",
         "text_color": "",
