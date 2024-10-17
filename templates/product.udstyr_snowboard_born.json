@@ -20,7 +20,7 @@
         "block_size": "small",
         "subheading": "",
         "title": "",
-        "content": "<p><a href=\"https://brugteski.dk/\" title=\"https://brugteski.dk/\">Forside</a> / <a href=\"/collections\" title=\"All collections\">Kollektioner</a> / <a href=\"/collections/ski-skiudstyr\" title=\"Udstyr\">Udstyr</a> / <a href=\"/collections/snowboard-og-snowboardudstyr-pa-tilbud\" title=\"Snowboard og snowboardudstyr på tilbud\">Snowboard</a> / <a href=\"/collections/voksen-snowboards\" title=\"Voksen snowboards\">Voksen snowboards</a> / {{ product.title }}</p>",
+        "content": "<p><a href=\"https://brugteski.dk/\" title=\"https://brugteski.dk/\">Forside</a> / <a href=\"/collections\" title=\"All collections\">Kollektioner</a> / <a href=\"/collections/ski-skiudstyr\" title=\"Udstyr\">Udstyr</a> / <a href=\"/collections/snowboard-og-snowboardudstyr-pa-tilbud\" title=\"Snowboard og snowboardudstyr på tilbud\">Snowboard</a> / <a href=\"/collections/borne-snowboard\" title=\"Børne snowboards\">Børne snowboards</a> / {{ product.title }}</p>",
         "link_url": "",
         "link_text": "",
         "background": "#ffffff",
@@ -768,7 +768,7 @@
     "featured_collection_tiXBj4": {
       "type": "featured-collection",
       "settings": {
-        "collection": "voksen-snowboards",
+        "collection": "borne-snowboard",
         "products": [
 
         ],
@@ -779,7 +779,7 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 5,
         "subheading": "",
-        "title": "Top 5 mest populære voksen snowboards",
+        "title": "Top 5 mest populære børne snowboards",
         "content": "",
         "link_url": "",
         "link_text": "",
