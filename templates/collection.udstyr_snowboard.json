@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -27,10 +36,10 @@
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_voksensnowboards.jpg",
+            "image": "shopify://shop_images/udvalg_voksensnowboards.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/voksen-snowboards",
+            "link_url": "shopify://collections/voksen-snowboards",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -42,10 +51,10 @@
         "cea322f1-3c3a-4b72-b112-4d077d632ac3": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_bornesnowboards.jpg",
+            "image": "shopify://shop_images/udvalg_bornesnowboards.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/borne-snowboard",
+            "link_url": "shopify://collections/borne-snowboard",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -57,10 +66,10 @@
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_snowboardstovler_328ba65f-6605-49b0-9bb3-5010da7699ad.jpg",
+            "image": "shopify://shop_images/udvalg_snowboardstovler_328ba65f-6605-49b0-9bb3-5010da7699ad.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/snowboard-stovler",
+            "link_url": "shopify://collections/snowboard-stovler",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -72,10 +81,10 @@
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-2": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_snowboardbindinger.jpg",
+            "image": "shopify://shop_images/udvalg_snowboardbindinger.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/snowboardbindinger",
+            "link_url": "shopify://collections/snowboardbindinger",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -87,10 +96,10 @@
         "8aaf4ee8-1e2b-4c53-a733-8273461da5c6": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_snowboard.tilbehor.jpg",
+            "image": "shopify://shop_images/udvalg_snowboard.tilbehor.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/snowboard-tilbehor",
+            "link_url": "shopify://collections/snowboard-tilbehor",
             "collection": "",
             "brand_url": "",
             "background": "",
@@ -113,10 +122,10 @@
       ],
       "settings": {
         "full_width": false,
-        "block_size": "medium",
+        "block_size": "small",
         "subheading": "",
         "title": "",
-        "content": "<p><a href=\"https:\/\/brugteski.dk\/\" title=\"https:\/\/brugteski.dk\/\">Forside<\/a> \/ <a href=\"\/collections\" title=\"All collections\">Kollektioner<\/a> \/ <a href=\"\/collections\/udstyr-til-skilob\" title=\"Udstyr til skiløb\">Udstyr<\/a> \/ Snowboard<\/p>",
+        "content": "<p><a href=\"https://brugteski.dk/\" title=\"https://brugteski.dk/\">Forside</a> / <a href=\"/collections\" title=\"All collections\">Kollektioner</a> / <a href=\"/collections/udstyr-til-skilob\" title=\"Udstyr til skiløb\">Udstyr</a> / Snowboard</p>",
         "link_url": "",
         "link_text": "",
         "background": "",
@@ -132,13 +141,13 @@
         "richtext_yQggtQ": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
           }
         },
         "liquid_CL8fUG": {
           "type": "liquid",
           "settings": {
-            "liquid": "<p>Use this text to output some custom Liquid code to include widget or dynamic code.<\/p>"
+            "liquid": "<p>Use this text to output some custom Liquid code to include widget or dynamic code.</p>"
           }
         }
       },
