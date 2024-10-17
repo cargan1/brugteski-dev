@@ -67,20 +67,22 @@
             "size_chart_page": ""
           }
         },
-        "6d1e7437-32cc-4b14-9f60-3b818cbed684": {
-          "type": "text",
+        "button_NthT74": {
+          "type": "button",
           "settings": {
-            "text": "<p><em><strong>Levering: </strong></em><em>2-5 hverdage med gratis returnering<br/>Obs. billederne er retvisende, slid aflæses ud fra stand</em></p>"
+            "link": "",
+            "text": "Køb i butikken",
+            "size": "xl",
+            "style": "fill",
+            "stretch": true,
+            "background": "",
+            "text_color": ""
           }
         },
-        "buy_buttons": {
-          "type": "buy_buttons",
+        "text_wbxEyk": {
+          "type": "text",
           "settings": {
-            "show_payment_button": false,
-            "atc_button_background": "#000000",
-            "atc_button_text_color": "",
-            "payment_button_background": "#003eff",
-            "payment_button_text_color": ""
+            "text": "<p>Se adressen og åbningstiderne her</p>"
           }
         },
         "d3e695ec-c2c1-416b-9482-cc06f0166cf0": {
@@ -122,8 +124,8 @@
         "price",
         "separator",
         "variant_picker",
-        "6d1e7437-32cc-4b14-9f60-3b818cbed684",
-        "buy_buttons",
+        "button_NthT74",
+        "text_wbxEyk",
         "d3e695ec-c2c1-416b-9482-cc06f0166cf0",
         "ba3b5461-8a7f-4d6a-bdc0-bfcaad62fae4",
         "96617279-0ca8-4ed8-ad3d-5c55c13472ec",
