@@ -67,12 +67,6 @@
             "size_chart_page": ""
           }
         },
-        "19937545-298a-4651-9687-4525f0a97a0a": {
-          "type": "inventory",
-          "settings": {
-            "low_inventory_threshold": 10
-          }
-        },
         "6d1e7437-32cc-4b14-9f60-3b818cbed684": {
           "type": "text",
           "settings": {
@@ -109,23 +103,6 @@
           "type": "separator",
           "settings": {
           }
-        },
-        "b7116d37-820d-4320-ba8a-a4a7ce116385": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p><em><strong>Udfyld feltet, så indstiller vi dine bindinger 🎿 </strong></em><em>- </em><a href=\"https://brugteski.dk/blogs/ski-guides/hvordan-indstiller-jeg-mine-ski-bindinger/#stovle\" title=\"https://brugteski.dk/blogs/ski-guides/hvordan-indstiller-jeg-mine-ski-bindinger/#stovle\"><em>Min støvlelængde?</em></a></p>"
-          }
-        },
-        "6e6c8a01-4673-4115-bdee-5ea4ca9d3497": {
-          "type": "line_item_property",
-          "disabled": true,
-          "settings": {
-            "label": "Vægt (kg), Højde (cm) & Støvlelængde (mm)",
-            "type": "text",
-            "required": false,
-            "allow_long_text": false
-          }
         }
       },
       "block_order": [
@@ -134,15 +111,12 @@
         "price",
         "separator",
         "variant_picker",
-        "19937545-298a-4651-9687-4525f0a97a0a",
         "6d1e7437-32cc-4b14-9f60-3b818cbed684",
         "buy_buttons",
         "kiwi_size_chart_recommender_kiwi_sizing_qxCNEd",
         "d3e695ec-c2c1-416b-9482-cc06f0166cf0",
         "ba3b5461-8a7f-4d6a-bdc0-bfcaad62fae4",
-        "96617279-0ca8-4ed8-ad3d-5c55c13472ec",
-        "b7116d37-820d-4320-ba8a-a4a7ce116385",
-        "6e6c8a01-4673-4115-bdee-5ea4ca9d3497"
+        "96617279-0ca8-4ed8-ad3d-5c55c13472ec"
       ],
       "custom_css": [
         "h1 {font-size: 32px;}"
