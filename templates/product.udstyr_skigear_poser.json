@@ -768,7 +768,7 @@
     "featured_collection_tiXBj4": {
       "type": "featured-collection",
       "settings": {
-        "collection": "skistave",
+        "collection": "skitasker-snowboardtasker",
         "products": [
 
         ],
@@ -779,7 +779,7 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 5,
         "subheading": "",
-        "title": "Top 5 mest populære skistave",
+        "title": "Top 5 mest populære ski- & snowboardtasker",
         "content": "",
         "link_url": "",
         "link_text": "",
