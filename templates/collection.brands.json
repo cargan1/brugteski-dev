@@ -115,7 +115,7 @@
             "link_text": "{{ collection.title }} beskyttelse",
             "link_url": "",
             "collection": "beskyttelse",
-            "brand_url": "{{ block.settings.collection.title }}",
+            "brand_url": "{{ collection.title }}",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
