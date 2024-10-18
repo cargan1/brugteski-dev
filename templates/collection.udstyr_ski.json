@@ -36,75 +36,76 @@
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-0": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/herreogdameski.g.1-1.jpg",
             "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "collection": "herre-dameski",
+            "link_text": "Herre- & Dameski",
+            "link_url": "shopify://collections/herre-dameski",
+            "collection": "",
             "brand_url": "",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 35
           }
         },
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-2": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/udvalg_born_junior.jpg",
+            "image": "shopify://shop_images/borneski.g2.jpg",
             "stretch_image": true,
-            "link_text": "",
+            "link_text": "Børne- & Juniorski",
             "link_url": "shopify://collections/borne-juniorski",
             "collection": "",
             "brand_url": "",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 35
           }
         },
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-1": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/udvalg_touring.jpg",
+            "image": "shopify://shop_images/touringski.g.1-1.jpg",
             "stretch_image": true,
-            "link_text": "",
+            "link_text": "Touring ski",
             "link_url": "shopify://collections/touring-ski",
             "collection": "",
             "brand_url": "",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 35
           }
         },
         "item_ANdHcX": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/udvalg_langrendsski.jpg",
+            "image": "shopify://shop_images/langrendski.g.1-1.jpg",
             "stretch_image": true,
-            "link_text": "",
+            "link_text": "langrendsski",
             "link_url": "shopify://collections/langrendsski",
             "collection": "",
             "brand_url": "",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 35
           }
         },
         "item_9xBwtA": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/udvalg_skitilbehor_b11dae5e-a56b-4487-bf84-837eedacadcc.jpg",
+            "image": "shopify://shop_images/skistovletilbehor.g.1-1.jpg",
             "stretch_image": true,
-            "link_text": "",
+            "link_text": "Ski tilbehør",
             "link_url": "shopify://collections/ski-tilbehor",
             "collection": "",
             "brand_url": "",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 35
           }
         }
       },
