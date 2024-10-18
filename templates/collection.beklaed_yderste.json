@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -36,61 +36,61 @@
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-3": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_skijakker.jpg",
+            "image": "shopify://shop_images/skijakke.g.1-1.jpg",
             "stretch_image": true,
-            "link_text": "",
-            "link_url": "shopify:\/\/collections\/skijakker",
+            "link_text": "Skijakker",
+            "link_url": "shopify://collections/skijakker",
             "collection": "",
             "brand_url": "",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 35
           }
         },
         "a5f68762-6842-44de-b848-7f8bc56a57c6": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_skianorakker.jpg",
+            "image": "shopify://shop_images/skianorka.g.1-1.jpg",
             "stretch_image": true,
-            "link_text": "",
-            "link_url": "shopify:\/\/collections\/skianorak",
+            "link_text": "Skianoraker",
+            "link_url": "shopify://collections/skianorak",
             "collection": "",
             "brand_url": "",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 35
           }
         },
         "7cf735e1-01b5-49c8-8ca7-1383bc658648": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_dunjakker.jpg",
+            "image": "shopify://shop_images/dunjakker.g.1-1.jpg",
             "stretch_image": true,
-            "link_text": "",
-            "link_url": "shopify:\/\/collections\/dunjakke",
+            "link_text": "Dunjakker",
+            "link_url": "shopify://collections/dunjakke",
             "collection": "",
             "brand_url": "",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 35
           }
         },
         "item_Td3T87": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_skibukser.jpg",
+            "image": "shopify://shop_images/skibusker.g.1-1.jpg",
             "stretch_image": true,
-            "link_text": "",
-            "link_url": "shopify:\/\/collections\/skibukser",
+            "link_text": "Skibukser",
+            "link_url": "shopify://collections/skibukser",
             "collection": "",
             "brand_url": "",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 35
           }
         }
       },
@@ -109,7 +109,7 @@
         "block_size": "small",
         "subheading": "",
         "title": "",
-        "content": "<p><a href=\"https:\/\/brugteski.dk\/\" title=\"https:\/\/brugteski.dk\/\">Forside<\/a> \/ <a href=\"\/collections\" title=\"All collections\">Kollektioner<\/a> \/ <a href=\"\/collections\/skitoj-beskyttelsesudstyr\" title=\"Skitøj og beskyttelsesudstyr\">Beklædning<\/a> \/ {{ collection.title }}<\/p>",
+        "content": "<p><a href=\"https://brugteski.dk/\" title=\"https://brugteski.dk/\">Forside</a> / <a href=\"/collections\" title=\"All collections\">Kollektioner</a> / <a href=\"/collections/skitoj-beskyttelsesudstyr\" title=\"Skitøj og beskyttelsesudstyr\">Beklædning</a> / {{ collection.title }}</p>",
         "link_url": "",
         "link_text": "",
         "background": "",
@@ -125,13 +125,13 @@
         "richtext_LnXCxL": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
           }
         },
         "liquid_EGdKGD": {
           "type": "liquid",
           "settings": {
-            "liquid": "<p>Use this text to output some custom Liquid code to include widget or dynamic code.<\/p>"
+            "liquid": "<p>Use this text to output some custom Liquid code to include widget or dynamic code.</p>"
           }
         }
       },
