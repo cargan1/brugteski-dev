@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -35,91 +35,91 @@
         "item_cPQ6k4": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_ski2.jpg",
+            "image": "shopify://shop_images/skipatilbud.g.1-1.jpg",
             "stretch_image": true,
-            "link_text": "",
-            "link_url": "shopify:\/\/collections\/ski-pa-tilbud",
+            "link_text": "Ski",
+            "link_url": "shopify://collections/ski-pa-tilbud",
             "collection": "",
             "brand_url": "",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 35
           }
         },
         "item_bfCwcd": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_skistovler2.jpg",
+            "image": "shopify://shop_images/skistovler.g.1-1.jpg",
             "stretch_image": true,
-            "link_text": "",
-            "link_url": "shopify:\/\/collections\/skistovler-pa-tilbud",
+            "link_text": "Skistøvler",
+            "link_url": "shopify://collections/skistovler-pa-tilbud",
             "collection": "",
             "brand_url": "",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 35
           }
         },
         "item_JXFegw": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_snowboard_9ae3bc78-49b8-4f32-bc05-3d40d57c6e54.jpg",
+            "image": "shopify://shop_images/snowboardudstyr.g.1-1.jpg",
             "stretch_image": true,
-            "link_text": "",
-            "link_url": "shopify:\/\/collections\/snowboard-og-snowboardudstyr-pa-tilbud",
+            "link_text": "Snowboard",
+            "link_url": "shopify://collections/snowboard-og-snowboardudstyr-pa-tilbud",
             "collection": "",
             "brand_url": "",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 35
           }
         },
         "item_exD9TY": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_skigear.jpg",
+            "image": "shopify://shop_images/skigear.g.1-1.jpg",
             "stretch_image": true,
-            "link_text": "",
-            "link_url": "shopify:\/\/collections\/skigear-pa-tilbud",
+            "link_text": "Skigear",
+            "link_url": "shopify://collections/skigear-pa-tilbud",
             "collection": "",
             "brand_url": "",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 35
           }
         },
         "item_T7gAiD": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_skitoj1.jpg",
+            "image": "shopify://shop_images/skitoj_og_beskyttelse.g.1-1.jpg",
             "stretch_image": true,
-            "link_text": "",
-            "link_url": "shopify:\/\/collections\/skitoj-pa-tilbud",
+            "link_text": "Skitøj",
+            "link_url": "shopify://collections/skitoj-pa-tilbud",
             "collection": "",
             "brand_url": "",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 35
           }
         },
         "item_mBHcMH": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_beskyttelse.jpg",
+            "image": "shopify://shop_images/beskyttelse.g.1-1.jpg",
             "stretch_image": true,
-            "link_text": "",
-            "link_url": "shopify:\/\/collections\/beskyttelsesudstyr-pa-tilbud",
+            "link_text": "Beskyttelse",
+            "link_url": "shopify://collections/beskyttelsesudstyr-pa-tilbud",
             "collection": "",
             "brand_url": "",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 35
           }
         }
       },
@@ -140,7 +140,7 @@
         "block_size": "small",
         "subheading": "",
         "title": "",
-        "content": "<p><a href=\"https:\/\/brugteski.dk\/\" title=\"https:\/\/brugteski.dk\/\">Forside<\/a> \/ {{ collection.title }}<\/p>",
+        "content": "<p><a href=\"https://brugteski.dk/\" title=\"https://brugteski.dk/\">Forside</a> / {{ collection.title }}</p>",
         "link_url": "",
         "link_text": "",
         "background": "",
@@ -156,13 +156,13 @@
         "richtext_tTzzQC": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
           }
         },
         "liquid_yeE4t8": {
           "type": "liquid",
           "settings": {
-            "liquid": "<p>Use this text to output some custom Liquid code to include widget or dynamic code.<\/p>"
+            "liquid": "<p>Use this text to output some custom Liquid code to include widget or dynamic code.</p>"
           }
         }
       },
