@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -27,76 +36,76 @@
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_ski2.jpg",
+            "image": "shopify://shop_images/skipatilbud.g.1-1.jpg",
             "stretch_image": true,
-            "link_text": "",
-            "link_url": "shopify:\/\/collections\/alle-ski",
+            "link_text": "Ski",
+            "link_url": "shopify://collections/alle-ski",
             "collection": "",
             "brand_url": "",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 35
           }
         },
         "item_L49m38": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_skistovler2.jpg",
+            "image": "shopify://shop_images/skistovler.g.1-1.jpg",
             "stretch_image": true,
-            "link_text": "",
-            "link_url": "shopify:\/\/collections\/skistovler-til-hele-familien",
+            "link_text": "Skistøvler",
+            "link_url": "shopify://collections/skistovler-til-hele-familien",
             "collection": "",
             "brand_url": "",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 35
           }
         },
         "b43d6136-e9c0-4338-82f9-f33dac1f623a": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_snowboard_9ae3bc78-49b8-4f32-bc05-3d40d57c6e54.jpg",
+            "image": "shopify://shop_images/snowboard.g.1-1.jpg",
             "stretch_image": true,
-            "link_text": "",
-            "link_url": "https:\/\/brugteski.dk\/collections\/alt-snowboard?filter.v.availability=1",
+            "link_text": "Snowboard",
+            "link_url": "shopify://collections/snowboard-og-snowboardudstyr-pa-tilbud",
             "collection": "",
             "brand_url": "",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 35
           }
         },
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_skigear.jpg",
+            "image": "shopify://shop_images/skigear.g.1-1.jpg",
             "stretch_image": true,
-            "link_text": "",
-            "link_url": "shopify:\/\/collections\/skigear",
+            "link_text": "Skigear",
+            "link_url": "shopify://collections/skigear",
             "collection": "",
             "brand_url": "",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 35
           }
         },
         "item_fDLqzz": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/udvalg_service.jpg",
+            "image": "shopify://shop_images/service.g.g1-1.jpg",
             "stretch_image": true,
-            "link_text": "",
-            "link_url": "shopify:\/\/collections\/service-til-ski-og-udstyr",
+            "link_text": "Service",
+            "link_url": "shopify://collections/service-til-ski-og-udstyr",
             "collection": "",
             "brand_url": "",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 35
           }
         }
       },
@@ -116,7 +125,7 @@
         "block_size": "small",
         "subheading": "",
         "title": "",
-        "content": "<p><a href=\"https:\/\/brugteski.dk\/\" title=\"https:\/\/brugteski.dk\/\">Forside<\/a> \/ <a href=\"\/collections\" title=\"All collections\">Kollektioner<\/a> \/ Udstyr<br\/><\/p>",
+        "content": "<p><a href=\"https://brugteski.dk/\" title=\"https://brugteski.dk/\">Forside</a> / <a href=\"/collections\" title=\"All collections\">Kollektioner</a> / Udstyr<br/></p>",
         "link_url": "",
         "link_text": "",
         "background": "",
