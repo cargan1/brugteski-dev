@@ -36,76 +36,76 @@
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-0": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/udvalg_voksensnowboards.jpg",
+            "image": "shopify://shop_images/voksensnowboard.g.1-1.jpg",
             "stretch_image": true,
-            "link_text": "",
+            "link_text": "Voksen snowboards",
             "link_url": "shopify://collections/voksen-snowboards",
             "collection": "",
             "brand_url": "",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 35
           }
         },
         "cea322f1-3c3a-4b72-b112-4d077d632ac3": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/udvalg_bornesnowboards.jpg",
+            "image": "shopify://shop_images/bornesnowboards.g.1-1.jpg",
             "stretch_image": true,
-            "link_text": "",
+            "link_text": "Børne snowboards",
             "link_url": "shopify://collections/borne-snowboard",
             "collection": "",
             "brand_url": "",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 35
           }
         },
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-1": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/udvalg_snowboardstovler_328ba65f-6605-49b0-9bb3-5010da7699ad.jpg",
+            "image": "shopify://shop_images/snowboardstovler.g.1-1.jpg",
             "stretch_image": true,
-            "link_text": "",
+            "link_text": "Snowboard-støvler",
             "link_url": "shopify://collections/snowboard-stovler",
             "collection": "",
             "brand_url": "",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 35
           }
         },
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-2": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/udvalg_snowboardbindinger.jpg",
+            "image": "shopify://shop_images/snowboardbindinger.g.1-1.jpg",
             "stretch_image": true,
-            "link_text": "",
+            "link_text": "Snowboard-bindinger",
             "link_url": "shopify://collections/snowboardbindinger",
             "collection": "",
             "brand_url": "",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 35
           }
         },
         "8aaf4ee8-1e2b-4c53-a733-8273461da5c6": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/udvalg_snowboard.tilbehor.jpg",
+            "image": "shopify://shop_images/snowboardtilbehor.g.1-1.jpg",
             "stretch_image": true,
-            "link_text": "",
+            "link_text": "Snowboard tilbehør",
             "link_url": "shopify://collections/snowboard-tilbehor",
             "collection": "",
             "brand_url": "",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 35
           }
         }
       },
