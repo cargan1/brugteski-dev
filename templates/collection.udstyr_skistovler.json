@@ -36,91 +36,91 @@
         "item_BtNwWY": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/udvalg_herre.skistovler.jpg",
+            "image": "shopify://shop_images/herreskistovler.g.1-1.jpg",
             "stretch_image": true,
-            "link_text": "",
+            "link_text": "Herre skistøvler",
             "link_url": "shopify://collections/herre-skistovler",
             "collection": "",
             "brand_url": "",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 35
           }
         },
         "item_P79gg8": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/udvalg_dameskistovler.jpg",
+            "image": "shopify://shop_images/dameskistovler.g.1-1.jpg",
             "stretch_image": true,
-            "link_text": "",
+            "link_text": "Dame skistøvler",
             "link_url": "shopify://collections/dame-skistovler",
             "collection": "",
             "brand_url": "",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 35
           }
         },
         "7cf735e1-01b5-49c8-8ca7-1383bc658648": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/udvalg_borneskistovler.jpg",
+            "image": "shopify://shop_images/borneskistovler.g.1-1.jpg",
             "stretch_image": true,
-            "link_text": "",
+            "link_text": "Børne skistøvler",
             "link_url": "shopify://collections/borne-skistovler",
             "collection": "",
             "brand_url": "",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 35
           }
         },
         "item_bym9Ky": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/udvalg_touringstovler.jpg",
+            "image": "shopify://shop_images/touringstovler.g.1-1.jpg",
             "stretch_image": true,
-            "link_text": "",
+            "link_text": "Touring støvler",
             "link_url": "shopify://collections/touring-stovler",
             "collection": "",
             "brand_url": "",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 35
           }
         },
         "item_R9jrTR": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/udvalg_langrendsstovler.jpg",
+            "image": "shopify://shop_images/langrandsstovler.g.1-1.jpg",
             "stretch_image": true,
-            "link_text": "",
+            "link_text": "Langrendsstøvler",
             "link_url": "shopify://collections/langrendsstovler",
             "collection": "",
             "brand_url": "",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 35
           }
         },
         "item_xMkPT9": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/udvalg_skistovletilbehor.jpg",
+            "image": "shopify://shop_images/skistovletilbehor.g.1-1.jpg",
             "stretch_image": true,
-            "link_text": "",
+            "link_text": "Skistøvle tilbehør",
             "link_url": "shopify://collections/skistovle-tilbehor",
             "collection": "",
             "brand_url": "",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 35
           }
         }
       },

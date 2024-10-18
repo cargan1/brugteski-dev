@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -36,31 +36,31 @@
         "item_BtNwWY": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/udvalg_herre.skistovler.jpg",
+            "image": "shopify://shop_images/herreskistovler.g.1-1.jpg",
             "stretch_image": true,
-            "link_text": "",
+            "link_text": "Herre skistøvler",
             "link_url": "shopify://collections/herre-skistovler",
             "collection": "",
             "brand_url": "",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 35
           }
         },
         "item_P79gg8": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/udvalg_dameskistovler.jpg",
+            "image": "shopify://shop_images/dameskistovler.g.1-1.jpg",
             "stretch_image": true,
-            "link_text": "",
+            "link_text": "Dame skistøvler",
             "link_url": "shopify://collections/dame-skistovler",
             "collection": "",
             "brand_url": "",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 35
           }
         }
       },
@@ -120,8 +120,8 @@
         "image_size": "xs",
         "image": "{{ collection.metafields.custom.guide_image_pc.value }}",
         "mobile_image": "{{ collection.metafields.custom.guide_image_mobile.value }}",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "mobile_text_position": "place-self-center-start text-start",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
