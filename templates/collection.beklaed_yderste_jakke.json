@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -36,46 +36,46 @@
         "template--14429261299747__4bdf9a05-c268-4dad-ba38-e5c1db7bcb74-1666100965b3978dd0-3": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/udvalg_herre.skijakker.jpg",
+            "image": "shopify://shop_images/herreskijakker.g.1-1.jpg",
             "stretch_image": true,
-            "link_text": "",
+            "link_text": "Herre skijakker",
             "link_url": "shopify://collections/herre-skijakke",
             "collection": "",
             "brand_url": "",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 35
           }
         },
         "a5f68762-6842-44de-b848-7f8bc56a57c6": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/udvalg_dame.skijakker.jpg",
+            "image": "shopify://shop_images/dameskijakker.g.1-1.jpg",
             "stretch_image": true,
-            "link_text": "",
+            "link_text": "Dame skijakker",
             "link_url": "shopify://collections/dame-skijakke",
             "collection": "",
             "brand_url": "",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 35
           }
         },
         "7cf735e1-01b5-49c8-8ca7-1383bc658648": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/udvalg_skal.skijakker.jpg",
+            "image": "shopify://shop_images/skalskijakker.g.g1-1.jpg",
             "stretch_image": true,
-            "link_text": "",
+            "link_text": "Skal skijakker",
             "link_url": "shopify://collections/skal-skijakker",
             "collection": "",
             "brand_url": "",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 35
           }
         }
       },
