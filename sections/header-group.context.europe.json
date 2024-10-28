@@ -13,17 +13,5 @@
     "market": "europe"
   },
   "sections": {
-    "header": {
-      "settings": {
-        "logo": "shopify://shop_images/secondskis.logo.lang.png",
-        "show_locale_selector": false,
-        "show_country_selector": false,
-        "show_country_flag": false,
-        "show_country_name": false,
-        "transparent_logo": "shopify://shop_images/secondskis.logo.lang.png"
-      },
-      "blocks": {
-      }
-    }
   }
 }
