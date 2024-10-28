@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -31,7 +31,7 @@
         "e89a01dd-3c89-4b97-b111-70f614d856e2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Det har aldrig været letter at finde ud af hvilke ski du skal vælge, end det er lige nu! Vi har lavet en simpel test, hvor du svarer på få spørgsmål, og ud fra det har vi en ski-analyse klar til dig!<\/p>"
+            "content": "<p>Det har aldrig været letter at finde ud af hvilke ski du skal vælge, end det er lige nu! Vi har lavet en simpel test, hvor du svarer på få spørgsmål, og ud fra det har vi en ski-analyse klar til dig!</p>"
           }
         }
       },
@@ -51,12 +51,11 @@
     },
     "064ff18a-f4c7-4115-a0c7-acbe7caf522f": {
       "type": "custom-html",
-      "disabled": true,
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "html": "<div data-tf-live=\"01HNJQ8NWARX3WSA2HR0NB164J\"><\/div><script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script>",
+        "html": "<div data-tf-live=\"01HNJQ8NWARX3WSA2HR0NB164J\"></div><script src=\"//embed.typeform.com/next/embed.js\"></script>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -64,12 +63,13 @@
     },
     "newsletter_7A9Rgg": {
       "type": "newsletter",
+      "disabled": true,
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Skaermbillede_2024-03-22_kl._14.30.03.png",
+        "image": "shopify://shop_images/Skaermbillede_2024-03-22_kl._14.30.03.png",
         "show_icon": false,
         "title": "Ski-finderen er nede...",
-        "content": "<p>Vi er desværre blevet nød til at slukke ski-findere, da vi er i gang med en version 2.0! Tilmeld dig vores mail list, så du ved hvornår den nye version er aktiv igen<\/p>",
+        "content": "<p>Vi er desværre blevet nød til at slukke ski-findere, da vi er i gang med en version 2.0! Tilmeld dig vores mail list, så du ved hvornår den nye version er aktiv igen</p>",
         "button_text": "Tilmeld",
         "subtext": "Du vil samtidig tilmelde dig Brugteski.dk's nyhedsbrev, hvor du vil høre om tilbud og guides indenfor ski verdenen. Du kan til enhver tid afmelde dig nyhedsbrevet igen.",
         "background": "",
