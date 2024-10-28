@@ -1,23 +1,26 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "parent": "header-group.json",
   "context": {
     "market": "europe"
   },
   "sections": {
-    "announcement-bar": {
-      "settings": {
-      },
-      "blocks": {
-      }
-    },
     "header": {
       "settings": {
+        "logo": "shopify://shop_images/secondskis.logo.lang.png",
         "show_locale_selector": false,
         "show_country_selector": false,
         "show_country_flag": false,
         "show_country_name": false,
-        "transparent_logo": "shopify:\/\/shop_images\/secondskis.com.hvid.png",
-        "logo": "shopify:\/\/shop_images\/secondskis.com.hvid.png"
+        "transparent_logo": "shopify://shop_images/secondskis.logo.lang.png"
       },
       "blocks": {
       }
