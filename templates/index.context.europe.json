@@ -19,6 +19,15 @@
       },
       "blocks": {
       }
+    },
+    "text_with_icons_DAPYMM": {
+      "custom_css": [
+
+      ],
+      "settings": {
+      },
+      "blocks": {
+      }
     }
   }
 }
