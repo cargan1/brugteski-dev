@@ -14,18 +14,18 @@
     "text-with-icons": {
       "type": "text-with-icons",
       "blocks": {
-        "free-shipping": {
+        "discount": {
           "type": "item",
           "settings": {
-            "icon": "picto-truck",
-            "custom_icon": "shopify://shop_images/Group_15.png",
+            "icon": "picto-happy",
+            "custom_icon": "shopify://shop_images/ski-finder.png",
             "mobile_icon_width": 120,
             "icon_width": 120,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "#003eff",
-            "title": "Ski-byt for børn & juniorer",
-            "content": "<p>Få byttet udstyret inden for 2 sæsoner, eller når børnene er vokset ud af det.<br/><a href=\"/pages/ski-byt-for-born-juniorer\" title=\"Ski-Byt for Børn & Juniorer\">Se hvordan her</a></p>"
+            "title": "Find dit udstyr nemmer hos os",
+            "content": "<p>Af finde skiudstyr kan være utroligt svært, derfor har lavet en test, som gør det nemt for dig!<br/><a href=\"/pages/ski-finder\" title=\"Ski-finder\">Tag testen her</a><br/></p>"
           }
         },
         "customer-support": {
@@ -42,25 +42,25 @@
             "content": "<p>Der er mange penge at spare ved at handle hos Brugteski.dk<br/><a href=\"/blogs/kob-af-brugt-udstyr/fordele-ulemper-og-prisforskel-ved-brugt-vs-nyt-udstyr\" title=\"Fordele, Ulemper og Pris - Brugt vs. Nyt Skiudstyr\">Se prisforskellene her</a></p>"
           }
         },
-        "discount": {
+        "free-shipping": {
           "type": "item",
           "settings": {
-            "icon": "picto-happy",
-            "custom_icon": "shopify://shop_images/byt-til-nyt.4kant.png",
+            "icon": "picto-truck",
+            "custom_icon": "shopify://shop_images/Group_15.png",
             "mobile_icon_width": 120,
             "icon_width": 120,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "#003eff",
-            "title": "Sælge dit udtyr til os",
-            "content": "<p>Har dit gamle udstyr brug for en opgradering?<br/>Den klarer vi nemt og hurtigt.<br/><a href=\"/pages/byt-til-nyt\" title=\"Vi køber dit brugte udstyr!\">Se hvordan her</a><br/></p>"
+            "title": "Ski-byt for børn & juniorer",
+            "content": "<p>Få byttet udstyret inden for 2 sæsoner, eller når børnene er vokset ud af det.<br/><a href=\"/pages/ski-byt-for-born-juniorer\" title=\"Ski-Byt for Børn & Juniorer\">Se hvordan her</a></p>"
           }
         }
       },
       "block_order": [
-        "free-shipping",
+        "discount",
         "customer-support",
-        "discount"
+        "free-shipping"
       ],
       "settings": {
         "full_width": true,
