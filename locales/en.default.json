@@ -139,7 +139,7 @@
       "pick_up_unavailable_at": "Pickup currently unavailable at {{ location_name }}"
     },
     "condition": {
-      "fabric_new": "Fabriksnye",
+      "fabric_new": "Factory new",
       "gold": "Gold",
       "silver": "Silver",
       "bronze": "Bronze"
