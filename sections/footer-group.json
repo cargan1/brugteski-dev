@@ -111,6 +111,9 @@
         "text",
         "42290695-b02a-4385-b06b-249c0aa04de4"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "show_social_media": true,
         "show_payment_icons": true,
