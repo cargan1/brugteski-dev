@@ -74,7 +74,7 @@
       "type": "scrolling-text",
       "settings": {
         "full_width": true,
-        "text": "Gratis fragt ved 995 DKK ❄️ {{ localization.market.metafields.custom.leveringstid.value }} dages levering",
+        "text": "Gratis fragt ved {{ localization.market.metafields.custom.gratis_fragt_fra.value }} ❄️ {{ localization.market.metafields.custom.leveringstid.value }} dages levering",
         "text_size": "xsmall",
         "text_style": "fill",
         "scrolling_mode": "auto",

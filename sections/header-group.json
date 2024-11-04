@@ -17,7 +17,7 @@
         "fb1e6665-ce14-4a1c-a720-f7108a7fb3eb": {
           "type": "message",
           "settings": {
-            "text": "🎿 Gratis fragt ved 995 DKK og altid gratis returnering, med {{ localization.market.metafields.custom.leveringstid.value }} dages levering 🎿",
+            "text": "🎿 Gratis fragt ved {{ localization.market.metafields.custom.gratis_fragt_fra.value }} og altid gratis returnering, med {{ localization.market.metafields.custom.leveringstid.value }} dages levering 🎿",
             "url": ""
           }
         },
