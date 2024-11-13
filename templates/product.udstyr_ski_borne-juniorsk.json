@@ -54,8 +54,7 @@
         },
         "separator": {
           "type": "separator",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -97,18 +96,11 @@
         },
         "d3e695ec-c2c1-416b-9482-cc06f0166cf0": {
           "type": "payment-icons",
-          "settings": {
-          }
-        },
-        "ba3b5461-8a7f-4d6a-bdc0-bfcaad62fae4": {
-          "type": "e-maerket",
-          "settings": {
-          }
+          "settings": {}
         },
         "96617279-0ca8-4ed8-ad3d-5c55c13472ec": {
           "type": "separator",
-          "settings": {
-          }
+          "settings": {}
         },
         "b7116d37-820d-4320-ba8a-a4a7ce116385": {
           "type": "text",
@@ -137,7 +129,6 @@
         "buy_buttons",
         "kiwi_size_chart_recommender_kiwi_sizing_qxCNEd",
         "d3e695ec-c2c1-416b-9482-cc06f0166cf0",
-        "ba3b5461-8a7f-4d6a-bdc0-bfcaad62fae4",
         "96617279-0ca8-4ed8-ad3d-5c55c13472ec",
         "b7116d37-820d-4320-ba8a-a4a7ce116385",
         "6e6c8a01-4673-4115-bdee-5ea4ca9d3497"
@@ -246,8 +237,7 @@
       "blocks": {
         "dd2ca3c9-f87b-4cb4-bfe3-86422da0fac9": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -786,9 +776,7 @@
       "type": "featured-collection",
       "settings": {
         "collection": "borne-juniorski",
-        "products": [
-
-        ],
+        "products": [],
         "full_width": true,
         "stack_products": true,
         "show_progress_bar": false,
@@ -893,8 +881,7 @@
     },
     "6fe9e5e3-41c0-4ad1-a62e-5e2b2ba02828": {
       "type": "trustpilot-stjerner",
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": [
