@@ -16,6 +16,7 @@
       "blocks": {
         "fb1e6665-ce14-4a1c-a720-f7108a7fb3eb": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "🎿 Gratis fragt ved {{ localization.market.metafields.custom.gratis_fragt_fra.value }} og altid gratis returnering, med {{ localization.market.metafields.custom.leveringstid.value }} dages levering 🎿",
             "url": ""
@@ -28,18 +29,26 @@
             "text": "❄️ Sæsonstarts evetet er i gang 🥳 Spar 10% på alt med koden: Sæsonstart10 💰 Kun denne weekend 🎿",
             "url": "https://fb.me/e/EsufEJluv"
           }
+        },
+        "message_GFk4GW": {
+          "type": "message",
+          "settings": {
+            "text": "Black Friday VIP er i gang 🥳 Alle VIP-medlemmer som køber ski, tilføjer vi en skipose i alle jeres ordre 🎿",
+            "url": ""
+          }
         }
       },
       "block_order": [
         "fb1e6665-ce14-4a1c-a720-f7108a7fb3eb",
-        "message_TePbeX"
+        "message_TePbeX",
+        "message_GFk4GW"
       ],
       "custom_css": [
         "@media only screen and (min-width: 768px) {.text-base {width: 200%; /* Tilpas bredden på større skærme efter behov */ }}"
       ],
       "settings": {
         "enable_sticky": true,
-        "text_size": "text-base",
+        "text_size": "text-lg",
         "navigation_mode": "arrows",
         "scrolling_speed": 16,
         "background": "#010410",
