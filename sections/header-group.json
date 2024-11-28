@@ -16,7 +16,6 @@
       "blocks": {
         "fb1e6665-ce14-4a1c-a720-f7108a7fb3eb": {
           "type": "message",
-          "disabled": true,
           "settings": {
             "text": "🎿 Gratis fragt ved {{ localization.market.metafields.custom.gratis_fragt_fra.value }} og altid gratis returnering, med {{ localization.market.metafields.custom.leveringstid.value }} dages levering 🎿",
             "url": ""
@@ -32,6 +31,7 @@
         },
         "message_GFk4GW": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "Black Friday VIP er i gang 🥳 Alle VIP-medlemmer som køber ski, tilføjer vi en skiposen til din ordre 🎿",
             "url": ""
@@ -48,7 +48,7 @@
       ],
       "settings": {
         "enable_sticky": true,
-        "text_size": "text-lg",
+        "text_size": "text-base",
         "navigation_mode": "arrows",
         "scrolling_speed": 16,
         "background": "#010410",

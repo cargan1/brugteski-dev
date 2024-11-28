@@ -1,8 +1,32 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "parent": "header-group.json",
   "context": {
     "market": "dk"
   },
   "sections": {
+    "announcement-bar": {
+      "settings": {
+        "text_size": "text-lg"
+      },
+      "blocks": {
+        "message_GFk4GW": {
+          "disabled": false,
+          "settings": {}
+        },
+        "fb1e6665-ce14-4a1c-a720-f7108a7fb3eb": {
+          "disabled": true,
+          "settings": {}
+        }
+      }
+    }
   }
 }
