@@ -18,13 +18,15 @@
         "text_size": "text-lg"
       },
       "blocks": {
-        "message_GFk4GW": {
-          "disabled": false,
-          "settings": {}
-        },
         "fb1e6665-ce14-4a1c-a720-f7108a7fb3eb": {
           "disabled": true,
           "settings": {}
+        },
+        "message_GFk4GW": {
+          "disabled": false,
+          "settings": {
+            "text": "Black day er i gang🥳 Ved køb af skistøvler vedlægger vi en gratis skistøvletaske i alle ordre 🎿"
+          }
         }
       }
     }
