@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "page": "Seite {{ page }}",
@@ -59,7 +68,10 @@
       "open_menu": "Navigationsmenü öffnen",
       "open_search": "Suche öffnen",
       "open_account": "Kundenkontoseite öffnen",
-      "open_cart": "Warenkorb öffnen"
+      "open_cart": "Warenkorb öffnen",
+      "store": "Geschäft",
+      "cart": "Korb",
+      "search": "Suchen"
     }
   },
   "product": {
@@ -81,12 +93,13 @@
       "view_in_space": "In deinem Bereich ansehen",
       "taxes_included": "inkl. MwSt.",
       "taxes_excluded": "zzgl. MwSt.",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Versandkosten<\/a> werden an der Kasse berechnet",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Versandkosten</a> werden an der Kasse berechnet",
       "size_chart": "Größentabelle",
       "available_colors_count": {
         "one": "{{ count }} Farbe verfügbar",
         "other": "{{ count }} Farben verfügbar"
-      }
+      },
+      "condition_text": "Was bedeutet Zustand?"
     },
     "gallery": {
       "close": "Galerie schließen",
@@ -124,6 +137,11 @@
       "pick_up_currently_unavailable": "Abholung momentan nicht möglich",
       "pick_up_available_at": "Abholung von {{ location_name }} möglich",
       "pick_up_unavailable_at": "Abholung von {{ location_name }} momentan nicht möglich"
+    },
+    "condition": {
+      "fabric_new": "Fabrikneu",
+      "gold": "Gold",
+      "silver": "Silber"
     }
   },
   "collection": {
@@ -286,7 +304,7 @@
       "city": "Ort",
       "zip": "PLZ",
       "country": "Land",
-      "province": "Bundesland\/Kanton",
+      "province": "Bundesland/Kanton",
       "set_default": "Als Standardadresse festlegen"
     }
   },
@@ -298,9 +316,9 @@
       "weight": "Gewicht",
       "subtotal": "Zwischensumme",
       "total": "Gesamtbetrag",
-      "taxes_and_shipping_policy_at_checkout_html": "Steuern und <a href=\"{{ link }}\" class=\"link\">Versand<\/a> werden beim Checkout berechnet",
+      "taxes_and_shipping_policy_at_checkout_html": "Steuern und <a href=\"{{ link }}\" class=\"link\">Versand</a> werden beim Checkout berechnet",
       "taxes_included_but_shipping_at_checkout": "Inklusive Steuern, Versand wird beim Checkout berechnet",
-      "taxes_included_and_shipping_policy_html": "Inklusive Steuern. <a href=\"{{ link }}\" class=\"link\">Versand <\/a> wird beim Checkout berechnet",
+      "taxes_included_and_shipping_policy_html": "Inklusive Steuern. <a href=\"{{ link }}\" class=\"link\">Versand </a> wird beim Checkout berechnet",
       "taxes_and_shipping_at_checkout": "Steuern und Versand werden beim Checkout berechnet",
       "add_order_note": "Bestellhinweis hinzufügen",
       "edit_order_note": "Bestellhinweis bearbeiten",
@@ -308,7 +326,17 @@
       "save_note": "Speichern",
       "view_cart": "Warenkorb ansehen",
       "checkout": "Zur Kasse",
-      "we_accept": "Wir akzeptieren"
+      "we_accept": "Wir akzeptieren",
+      "udstyr_heading": "Skiausrüstung kaufen und bei Kleidung sparen",
+      "udstyr_desc": "Je mehr Skiausrüstung Sie in den Warenkorb legen, desto größer ist der Rabatt auf Kleidung.",
+      "udstyr_total": "Gesamtsumme für Skiausrüstung:",
+      "skis": "zu den Skiern?",
+      "clothing": "die Kleidung?",
+      "snowboard": "zum Snowboarden?",
+      "gear": "ausgerichtet?",
+      "beklaedning": "Kleidung?",
+      "skistovler": "für die Stiefel?",
+      "equipment": "Ausrüstung"
     },
     "order": {
       "product": "Produkt",
@@ -326,7 +354,7 @@
     "shipping_estimator": {
       "estimate_shipping": "Versandkosten berechnen",
       "country": "Land",
-      "province": "Bundesland\/Kanton",
+      "province": "Bundesland/Kanton",
       "zip": "PLZ",
       "estimate": "Berechnen",
       "no_results": "Tut uns leid, aber wir verschicken leider nicht an deine Adresse.",
