@@ -297,19 +297,6 @@
     },
     "video_4cXTpn": {
       "type": "video",
-      "blocks": {
-        "heading_9qhanG": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "text": "Se her hvad vores butik gemmer på",
-            "heading_tag": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "heading_9qhanG"
-      ],
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
@@ -321,6 +308,107 @@
         "overlay_color": "#0039ff",
         "overlay_opacity": 30,
         "tab_label": ""
+      }
+    },
+    "image_link_blocks_MHQDMq": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "item_n8th6N": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/herreogdameski.g.1-1.jpg",
+            "stretch_image": true,
+            "link_text": "Ski",
+            "link_url": "shopify://collections/alle-ski",
+            "collection": "",
+            "brand_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 25
+          }
+        },
+        "item_cbTKhc": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/skistovler1.g.1-1.jpg",
+            "stretch_image": true,
+            "link_text": "Skistøvler",
+            "link_url": "shopify://collections/skistovler-til-hele-familien",
+            "collection": "",
+            "brand_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 25
+          }
+        },
+        "item_MiNfEq": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/snowboard.g.1-1.jpg",
+            "stretch_image": true,
+            "link_text": "Snowboard",
+            "link_url": "shopify://collections/snowboard-og-snowboardudstyr-pa-tilbud",
+            "collection": "",
+            "brand_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 25
+          }
+        },
+        "item_mq7YUE": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/skitoj.g.1-1.jpg",
+            "stretch_image": true,
+            "link_text": "Skitøj",
+            "link_url": "shopify://collections/skitoj",
+            "collection": "",
+            "brand_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 25
+          }
+        },
+        "item_MWfdN4": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/beskyttelse.g.1-1_fbba98f3-e2e2-4ef7-896d-d164f816de28.jpg",
+            "stretch_image": true,
+            "link_text": "Beskyttelseudstyr",
+            "link_url": "shopify://collections/beskyttelse",
+            "collection": "",
+            "brand_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 25
+          }
+        }
+      },
+      "block_order": [
+        "item_n8th6N",
+        "item_cbTKhc",
+        "item_MiNfEq",
+        "item_mq7YUE",
+        "item_MWfdN4"
+      ],
+      "settings": {
+        "full_width": false,
+        "block_size": "medium",
+        "subheading": "One-stop skishop",
+        "title": "Se vores udvalg her",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
       }
     },
     "multiple_images_with_text_GDr3hn": {
@@ -390,6 +478,7 @@
     "custom_html_qNW9WG",
     "accordion_content_GdAwJ7",
     "video_4cXTpn",
+    "image_link_blocks_MHQDMq",
     "multiple_images_with_text_GDr3hn"
   ]
 }
