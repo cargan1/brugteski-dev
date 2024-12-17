@@ -466,6 +466,42 @@
         "button_background": "",
         "button_text_color": ""
       }
+    },
+    "media_with_text_WbmWWz": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_jaH6Qx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Jul.g.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Andre åbningstider",
+            "title": "Jul & Nytår 2024",
+            "content": "<p>Vi har lukket i butikken følgende dage:</p><ul><li><strong>24. december 2024</strong></li><li><strong>25. december 2024</strong></li><li><strong>26. december 2024</strong></li><li><strong>31. december 2024</strong></li><li><strong>1. januar 2025</strong></li></ul><p><a href=\"https://brugteski.dk/pages/showroom-og-vores-abningstider/#aabningstider\" title=\"https://brugteski.dk/pages/showroom-og-vores-abningstider/#aabningstider\">Alle andre dage på året vælger vi de almindelige åbningstider</a></p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#010410",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_jaH6Qx"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "none",
+        "tab_label": ""
+      }
     }
   },
   "order": [
@@ -479,6 +515,7 @@
     "accordion_content_GdAwJ7",
     "video_4cXTpn",
     "image_link_blocks_MHQDMq",
-    "multiple_images_with_text_GDr3hn"
+    "multiple_images_with_text_GDr3hn",
+    "media_with_text_WbmWWz"
   ]
 }
