@@ -467,6 +467,18 @@
         "button_text_color": ""
       }
     },
+    "custom_html_zQ4RNL": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "html": "<div id=\"jul\"></div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "media_with_text_WbmWWz": {
       "type": "media-with-text",
       "blocks": {
@@ -516,6 +528,7 @@
     "video_4cXTpn",
     "image_link_blocks_MHQDMq",
     "multiple_images_with_text_GDr3hn",
+    "custom_html_zQ4RNL",
     "media_with_text_WbmWWz"
   ]
 }
