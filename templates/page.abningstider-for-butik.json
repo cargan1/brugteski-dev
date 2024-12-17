@@ -32,11 +32,21 @@
     },
     "main": {
       "type": "main-page",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "content_width": "100%"
+      }
+    },
+    "custom_html_fbhjPJ": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "html": "<div id=\"aabningstider\"></div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "multiple_images_with_text_Y7YWHc": {
@@ -151,7 +161,7 @@
       ],
       "settings": {
         "full_width": true,
-        "subheading": "Overblik over de forskellige åbningstider",
+        "subheading": "Overblik",
         "title": "Løbende åbningstider",
         "content": "<p>Grundet skisæsonens mange ændringer, fra lav til højsæson, opdater vi løbende vores åbningstider.</p><p>Det er derfor værd at holde øje med vores åbningstider, for at se hvornår det bedst passer jer at kigge forbi.</p><p>Genneralt har vi lukket om sommeren fra påske til og med August. I september begynder vi at have åbent igen, hvor vi så løbende opjusterer vores åbningstider indtil vi nærmer os højsæsonen i Januar/februar. Efter vinterferien i uge 7 begynder vi så småt at nedjuster vores åbningstider igen mod afsæutning af skisæoen i påskeferien.</p><p>Vores hjemmeside og kundeservice har åbent året rundt, så du altid vil kunne købe udstyr og komme i kontakt med os!</p><p></p><p></p>",
         "button_text": "",
@@ -222,6 +232,67 @@
         "text_color": "",
         "button_background": "",
         "button_text_color": ""
+      }
+    },
+    "custom_html_qNW9WG": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "html": "<div id=\"event\"></div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "accordion_content_GdAwJ7": {
+      "type": "accordion-content",
+      "blocks": {
+        "item_fQFmtn": {
+          "type": "item",
+          "settings": {
+            "title": "Sæsonstartsevent -  5 til 6 oktober 2024",
+            "content": "<p>Hvert år holder vi sæsonstart event første weekend i oktober for at byde den nye sæson velkommen. Her er butikken fyldt med alle de nye produkter vi har brug sommeren på at samle sammen og gøre klar til her!</p><p><a href=\"https://fb.me/e/1JkgbtPan\" title=\"https://fb.me/e/1JkgbtPan\">Se mere om vores sæsonstartsevent på Facebook!</a></p>"
+          }
+        },
+        "item_WmYKY4": {
+          "type": "item",
+          "settings": {
+            "title": "Black days - 28. november til 1. december 2024",
+            "content": "<p>Black friday er ikke undtagelse, og hos os har vi valgt at holde black days. Det vil sige 4 dage med tilbud til alle + hvad vi nu ellers finde på.</p><p><a href=\"https://fb.me/e/228cV0OGt\" title=\"https://fb.me/e/228cV0OGt\">Se mere om vores Black days event på Facebook</a></p>"
+          }
+        },
+        "item_mk6G4A": {
+          "type": "item",
+          "settings": {
+            "title": "September - Åbent igen",
+            "content": "<p>Vi åbner op i butikken fra september af, så i igen har mulighed for at komme forbi og se samt prøve alt udstyret.</p><p>Her har vi brugt sommeren på at købe alt det nye fede brugte udstyr, så hvis du kommer her, oplever du også det største udvalg!</p><p>Mandag: 10.00 - 18.00<br/>Tirsdag: 10.00 - 18.00<br/>Onsdag: 10.00 - 18.00<br/>Torsdag: 10.00 - 18.00<br/>Fredag: Lukket<br/>Lørdag: Lukket<br/>Søndag: Lukket</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_fQFmtn",
+        "item_WmYKY4",
+        "item_mk6G4A"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "Events",
+        "title": "Eventkalender",
+        "content": "<p>Grundet skisæsonens mange ændringer, fra lav til højsæson, opdater vi løbende vores åbningstider.</p><p>Det er derfor værd at holde øje med vores åbningstider, for at se hvornår det bedst passer jer at kigge forbi.</p><p>Genneralt har vi lukket om sommeren fra påske til og med August. I september begynder vi at have åbent igen, hvor vi så løbende opjusterer vores åbningstider indtil vi nærmer os højsæsonen i Januar/februar. Efter vinterferien i uge 7 begynder vi så småt at nedjuster vores åbningstider igen mod afsæutning af skisæoen i påskeferien.</p><p>Vores hjemmeside og kundeservice har åbent året rundt, så du altid vil kunne købe udstyr og komme i kontakt med os!</p><p></p><p></p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
       }
     },
     "video_4cXTpn": {
@@ -312,9 +383,12 @@
   "order": [
     "image_link_blocks_FmUFUg",
     "main",
+    "custom_html_fbhjPJ",
     "multiple_images_with_text_Y7YWHc",
     "accordion_content_My7zbx",
     "multiple_images_with_text_qDKfef",
+    "custom_html_qNW9WG",
+    "accordion_content_GdAwJ7",
     "video_4cXTpn",
     "multiple_images_with_text_GDr3hn"
   ]
