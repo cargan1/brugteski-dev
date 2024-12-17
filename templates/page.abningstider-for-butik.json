@@ -59,7 +59,7 @@
             "image_rotation_degrees": -2,
             "subheading": "Aktuelle",
             "title": "Åbningstider",
-            "content": "<p>{{ localization.market.metafields.custom.fredericia_open_hours | metafield_tag }}</p>",
+            "content": "{{ localization.market.metafields.custom.fredericia_aaben | metafield_tag }}",
             "button_url": "",
             "button_text": ""
           }
