@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "custom.overlay",
   "name": "Overlay group",
@@ -93,7 +93,7 @@
         "richtext_Ux3fxU": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>Åbningstider</strong></p><p>{{ localization.market.metafields.custom.fredericia_open_hours | metafield_tag }}</p>"
+            "content": "<p><strong>Åbningstider</strong></p>{{ localization.market.metafields.custom.fredericia_aaben | metafield_tag }}"
           }
         },
         "image_PgUnC7": {
